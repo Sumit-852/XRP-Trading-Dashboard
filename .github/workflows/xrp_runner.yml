@@ -15,7 +15,7 @@ env:
 jobs:
   trade:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     permissions:
       contents: write
 
@@ -33,7 +33,7 @@ jobs:
       - name: Cache Binance data
         uses: actions/cache@v4
         with:
-          path: model/xrp_eur_5min.csv
+          path: xrp_eur_5min.csv
           key: xrp-5min-data-${{ github.run_number }}
           restore-keys: xrp-5min-data-
 
@@ -50,21 +50,14 @@ jobs:
       - name: Fetch Binance data + run model
         working-directory: model
         run: |
-          # Copy dashboard state from public repo if exists
-          if [ -f "$GITHUB_WORKSPACE/xrp_dashboard_state.json" ]; then
-            cp "$GITHUB_WORKSPACE/xrp_dashboard_state.json" .
-          fi
-          if [ -f "$GITHUB_WORKSPACE/xrp_news_sentiment.json" ]; then
-            cp "$GITHUB_WORKSPACE/xrp_news_sentiment.json" .
-          fi
+          # Copy state files from public repo if they exist
+          for f in xrp_dashboard_state.json xrp_news_sentiment.json xrp_eur_5min.csv; do
+            if [ -f "$GITHUB_WORKSPACE/$f" ]; then
+              cp "$GITHUB_WORKSPACE/$f" .
+            fi
+          done
 
-          # Backfill if no CSV exists (first run or cold start)
-          if [ ! -f "xrp_eur_5min.csv" ]; then
-            echo "Cold start — backfilling 5-min data from Binance..."
-            python xrp_live_trader.py --backfill
-          fi
-
-          # Run the trader
+          # Run the trader (fetches latest 1000 bars from Binance incrementally)
           python xrp_live_trader.py --retrain
 
       - name: Copy results to public repo
@@ -73,6 +66,7 @@ jobs:
           cp model/xrp_dashboard_state.json . 2>/dev/null || true
           cp model/xrp_news_sentiment.json . 2>/dev/null || true
           cp model/xrp_model_state.json . 2>/dev/null || true
+          cp model/xrp_eur_5min.csv . 2>/dev/null || true
 
       - name: Commit and push results
         run: |
