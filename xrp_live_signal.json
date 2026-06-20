@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-20T21:06:18.872553+00:00",
+  "timestamp": "2026-06-20T22:16:35.474421+00:00",
   "signal": {
-    "price": 0.9978,
+    "price": 1.0009,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4759,
-    "hybrid_score": 0,
+    "xgb_prob": 0.446,
+    "hybrid_score": 1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.002,
+      "score": -0.021,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 33.3,
-      "bearish_pct": 26.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.009,
-        "crypto_macro": -0.068,
-        "geopolitical": -0.065,
+        "xrp": 0.005,
+        "crypto_macro": -0.089,
+        "geopolitical": -0.145,
         "fed_rates": 0.208
       },
       "geo_shock": false,
@@ -34,7 +34,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
-        "XRP Price To $27? Bullish Analysts See Growth as Ex-Ripple CTO Boasts Use Cases - Yahoo Finance",
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
         "Ripple Swell 2026 Announces Keynote Speakers: Can the Event Boost XRP Price? - TradingView"
       ],
       "top_bearish": [
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.58,
-      "health": -0.3197,
-      "vol_ratio": 0.93,
+      "up_down_ratio": 1.97,
+      "health": -0.482,
+      "vol_ratio": 0.44,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99925,
-      "ema200": 1.01001,
-      "macd": 0.000781,
-      "macd_signal": 0.001077,
-      "rsi14": 51.3,
+      "ema50": 1.0,
+      "ema200": 1.0113,
+      "macd": 0.002132,
+      "macd_signal": 0.000599,
+      "rsi14": 56.6,
       "atr14": 0.00554,
-      "bb_position": 0.454
+      "bb_position": 0.779
     }
   },
   "trade": {
@@ -72,14 +72,14 @@
     "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 9.827,
     "total_pnl_pct": -0.898,
-    "bh_pnl_pct": 0.625,
-    "alpha_pct": -1.523,
+    "bh_pnl_pct": 0.938,
+    "alpha_pct": -1.835,
     "position": "CASH",
     "xrp_held": 0,
     "cash_eur": 9.827,
     "trade_count": 1,
     "draw_levels": {}
   },
-  "retrained": false,
-  "data_bars": 56622
+  "retrained": true,
+  "data_bars": 56612
 }
