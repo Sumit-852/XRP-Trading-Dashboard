@@ -30,12 +30,13 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: model
 
-      - name: Cache Binance data
+      - name: Restore cached OHLCV data
+        id: cache
         uses: actions/cache@v4
         with:
           path: xrp_eur_5min.csv
-          key: xrp-5min-data-${{ github.run_number }}
-          restore-keys: xrp-5min-data-
+          key: xrp-5min-${{ github.run_number }}
+          restore-keys: xrp-5min-
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -47,28 +48,39 @@ jobs:
       - name: Install dependencies
         run: pip install -q -r requirements.txt
 
-      - name: Fetch Binance data + run model
+      - name: Prepare data + run model
         working-directory: model
         run: |
-          # Copy state files from public repo if they exist
-          for f in xrp_dashboard_state.json xrp_news_sentiment.json xrp_eur_5min.csv; do
+          # Priority: cached CSV > repo CSV > fresh fetch
+          if [ -f "$GITHUB_WORKSPACE/xrp_eur_5min.csv" ]; then
+            cp "$GITHUB_WORKSPACE/xrp_eur_5min.csv" .
+            echo "Using cached CSV ($(wc -l < xrp_eur_5min.csv) rows)"
+          elif [ -f "$GITHUB_WORKSPACE/xrp_eur_5min.csv" ]; then
+            echo "No cache — should not happen if seed file exists"
+          fi
+
+          # Copy dashboard state from public repo
+          for f in xrp_dashboard_state.json xrp_news_sentiment.json; do
             if [ -f "$GITHUB_WORKSPACE/$f" ]; then
               cp "$GITHUB_WORKSPACE/$f" .
             fi
           done
 
-          # Run the trader (fetches latest 1000 bars from Binance incrementally)
+          # Run the trader (appends ~1 new bar from Binance)
           python xrp_live_trader.py --retrain
 
-      - name: Copy results to public repo
+      - name: Save results
         run: |
+          # Copy outputs to public repo root
           cp model/xrp_live_signal.json . 2>/dev/null || true
           cp model/xrp_dashboard_state.json . 2>/dev/null || true
           cp model/xrp_news_sentiment.json . 2>/dev/null || true
           cp model/xrp_model_state.json . 2>/dev/null || true
+
+          # Update cached CSV (not committed to git — cache handles persistence)
           cp model/xrp_eur_5min.csv . 2>/dev/null || true
 
-      - name: Commit and push results
+      - name: Commit JSON results (not CSV)
         run: |
           git config user.name "XRP Trading Bot"
           git config user.email "bot@github-actions"
@@ -85,7 +97,7 @@ jobs:
               n = s.get('news', {})
               print(f\"{s['action']} | Score:{s['hybrid_score']} | {s['xgb_pred']} ({s['xgb_prob']:.1%}) | News:{n.get('sentiment','?')}\")
           except:
-              print('signal parse error')
+              print('?')
           " 2>/dev/null || echo "?")
 
             DASH=$(python -c "
