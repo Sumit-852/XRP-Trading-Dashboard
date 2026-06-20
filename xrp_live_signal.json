@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-06-20T21:06:18.872553+00:00",
+  "signal": {
+    "price": 0.9978,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4759,
+    "hybrid_score": 0,
+    "regime": "BULLISH",
+    "entry_signal": false,
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.002,
+      "role": "tiebreaker (price + volume are primary)",
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.009,
+        "crypto_macro": -0.068,
+        "geopolitical": -0.065,
+        "fed_rates": 0.208
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "recovering": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "stealth_accumulation": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
+        "XRP Price To $27? Bullish Analysts See Growth as Ex-Ripple CTO Boasts Use Cases - Yahoo Finance",
+        "Ripple Swell 2026 Announces Keynote Speakers: Can the Event Boost XRP Price? - TradingView"
+      ],
+      "top_bearish": [
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+      ]
+    },
+    "vpa": {
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.58,
+      "health": -0.3197,
+      "vol_ratio": 0.93,
+      "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
+    },
+    "seasonality": {
+      "month_score": 0.0,
+      "quarter_score": 0.5,
+      "halving_phase": 0.542,
+      "halving_zone": "LATE",
+      "seasonal_wind": 0.5
+    },
+    "technicals": {
+      "ema50": 0.99925,
+      "ema200": 1.01001,
+      "macd": 0.000781,
+      "macd_signal": 0.001077,
+      "rsi14": 51.3,
+      "atr14": 0.00554,
+      "bb_position": 0.454
+    }
+  },
+  "trade": {
+    "action": "HOLD",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "portfolio_eur": 9.827,
+    "total_pnl_pct": -0.898,
+    "bh_pnl_pct": 0.625,
+    "alpha_pct": -1.523,
+    "position": "CASH",
+    "xrp_held": 0,
+    "cash_eur": 9.827,
+    "trade_count": 1,
+    "draw_levels": {}
+  },
+  "retrained": false,
+  "data_bars": 56622
+}

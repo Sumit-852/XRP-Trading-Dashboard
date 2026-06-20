@@ -1,0 +1,94 @@
+name: XRP Trading Agent (5-min)
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: xrp-trader
+  cancel-in-progress: false
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+
+    steps:
+      - name: Checkout dashboard (public)
+        uses: actions/checkout@v4
+
+      - name: Checkout model (private)
+        uses: actions/checkout@v4
+        with:
+          repository: Sumit-852/siemens-energy-trading
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: model
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -q -r requirements.txt
+
+      - name: Fetch Binance data + run model
+        working-directory: model
+        run: |
+          # Copy dashboard state from public repo if exists
+          if [ -f "$GITHUB_WORKSPACE/xrp_dashboard_state.json" ]; then
+            cp "$GITHUB_WORKSPACE/xrp_dashboard_state.json" .
+          fi
+          if [ -f "$GITHUB_WORKSPACE/xrp_news_sentiment.json" ]; then
+            cp "$GITHUB_WORKSPACE/xrp_news_sentiment.json" .
+          fi
+
+          # Run the trader
+          python xrp_live_trader.py --retrain
+
+      - name: Copy results to public repo
+        run: |
+          cp model/xrp_live_signal.json . 2>/dev/null || true
+          cp model/xrp_dashboard_state.json . 2>/dev/null || true
+          cp model/xrp_news_sentiment.json . 2>/dev/null || true
+          cp model/xrp_model_state.json . 2>/dev/null || true
+
+      - name: Commit and push results
+        run: |
+          git config user.name "XRP Trading Bot"
+          git config user.email "bot@github-actions"
+          git add *.json 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Build commit message from signal
+            SIGNAL=$(python -c "
+          import json
+          try:
+              d = json.load(open('xrp_live_signal.json'))
+              s = d['signal']
+              n = s.get('news', {})
+              print(f\"{s['action']} | Score:{s['hybrid_score']} | {s['xgb_pred']} ({s['xgb_prob']:.1%}) | News:{n.get('sentiment','?')}\")
+          except:
+              print('signal parse error')
+          " 2>/dev/null || echo "?")
+
+            DASH=$(python -c "
+          import json
+          try:
+              d = json.load(open('xrp_dashboard_state.json'))
+              sells = [t for t in d['trades'] if t['action'] == 'SELL']
+              wins = [t for t in sells if t.get('pnl_pct', 0) > 0]
+              pv = d['capital'] + d['xrp_held'] * d.get('entry_price', 0)
+              print(f\"EUR {pv:,.0f} | W:{len(wins)} L:{len(sells)-len(wins)}\")
+          except:
+              print('?')
+          " 2>/dev/null || echo "?")
+
+            git commit -m "XRP $(date -u '+%m-%d %H:%M') | ${SIGNAL} | ${DASH}"
+            git push
+          fi
