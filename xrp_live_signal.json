@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T18:01:33.222000+00:00",
+  "timestamp": "2026-06-21T18:06:08.383133+00:00",
   "signal": {
-    "price": 0.9949,
+    "price": 0.9931,
     "xgb_pred": "UP",
-    "xgb_prob": 0.503,
+    "xgb_prob": 0.5116,
     "hybrid_score": 4,
     "regime": "BEARISH",
     "entry_signal": true,
@@ -11,16 +11,16 @@
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.004,
+      "score": 0.015,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
+      "bullish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.086,
-        "crypto_macro": -0.032,
+        "crypto_macro": 0.021,
         "geopolitical": -0.276,
-        "fed_rates": 0.222
+        "fed_rates": 0.191
       },
       "geo_shock": false,
       "geo_dip": {
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 2.22,
-      "health": 0.2832,
-      "vol_ratio": 0.59,
+      "up_down_ratio": 1.87,
+      "health": 0.1062,
+      "vol_ratio": 0.01,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99772,
-      "ema200": 0.99845,
-      "macd": -0.000896,
-      "macd_signal": -0.000699,
-      "rsi14": 37.2,
-      "atr14": 0.00104,
-      "bb_position": 0.133
+      "ema50": 0.99747,
+      "ema200": 0.99838,
+      "macd": -0.00119,
+      "macd_signal": -0.000819,
+      "rsi14": 31.4,
+      "atr14": 0.00114,
+      "bb_position": -0.017
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -75,16 +75,16 @@
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.98%",
-    "portfolio_eur": 9.7311,
-    "total_pnl_pct": -1.864,
-    "bh_pnl_pct": 0.333,
-    "alpha_pct": -2.197,
-    "position": "LONG",
-    "xrp_held": 9.781,
-    "cash_eur": 0,
-    "trade_count": 2,
+    "action": "SELL",
+    "reason": "STOP_LOSS: -1.15%",
+    "portfolio_eur": 9.7135,
+    "total_pnl_pct": -2.042,
+    "bh_pnl_pct": 0.151,
+    "alpha_pct": -2.193,
+    "position": "CASH",
+    "xrp_held": 0,
+    "cash_eur": 9.7135,
+    "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
       "take_profit": 1.03484,
@@ -113,5 +113,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158059
+  "data_bars": 158060
 }
