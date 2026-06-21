@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-21T07:46:18.757207+00:00",
+  "timestamp": "2026-06-21T07:51:11.480840+00:00",
   "signal": {
-    "price": 1.0015,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.466,
-    "hybrid_score": 4,
+    "price": 1.001,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5089,
+    "hybrid_score": 5,
     "regime": "BULLISH",
     "entry_signal": true,
-    "exit_signal": true,
+    "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.027,
+      "score": 0.02,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 33.3,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.187,
+        "xrp": 0.17,
         "crypto_macro": -0.09,
         "geopolitical": -0.265,
         "fed_rates": 0.222
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.99,
-      "health": 0.2244,
-      "vol_ratio": 0.03,
+      "up_down_ratio": 1.97,
+      "health": 0.2036,
+      "vol_ratio": 0.0,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,22 +58,22 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.00087,
-      "ema200": 0.99949,
-      "macd": 0.000101,
-      "macd_signal": -0.000116,
-      "rsi14": 54.9,
-      "atr14": 0.00099,
-      "bb_position": 0.754
+      "ema50": 1.00098,
+      "ema200": 0.99957,
+      "macd": 0.000218,
+      "macd_signal": 8.4e-05,
+      "rsi14": 50.1,
+      "atr14": 0.00084,
+      "bb_position": 0.597
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.32%",
-    "portfolio_eur": 9.7957,
-    "total_pnl_pct": -1.213,
-    "bh_pnl_pct": 0.998,
-    "alpha_pct": -2.212,
+    "reason": "HOLD LONG: P&L -0.37%",
+    "portfolio_eur": 9.7908,
+    "total_pnl_pct": -1.263,
+    "bh_pnl_pct": 0.948,
+    "alpha_pct": -2.211,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -86,5 +86,5 @@
     }
   },
   "retrained": true,
-  "data_bars": 1048
+  "data_bars": 1052
 }
