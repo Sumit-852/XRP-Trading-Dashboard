@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-21T11:56:08.629799+00:00",
+  "timestamp": "2026-06-21T12:01:39.765208+00:00",
   "signal": {
-    "price": 0.9959,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.503,
-    "hybrid_score": 1,
+    "price": 0.9957,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4969,
+    "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.004,
+      "score": 0.016,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
-      "bearish_pct": 28.3,
+      "bullish_pct": 33.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.073,
-        "crypto_macro": -0.028,
-        "geopolitical": -0.234,
+        "xrp": 0.107,
+        "crypto_macro": -0.014,
+        "geopolitical": -0.261,
         "fed_rates": 0.191
       },
       "geo_shock": false,
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.58,
-      "health": -0.0497,
-      "vol_ratio": 0.16,
+      "up_down_ratio": 1.61,
+      "health": -0.027,
+      "vol_ratio": 0.61,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99932,
-      "ema200": 0.99936,
-      "macd": -0.001093,
-      "macd_signal": -0.000533,
-      "rsi14": 38.0,
-      "atr14": 0.00145,
-      "bb_position": 0.156
+      "ema50": 0.99914,
+      "ema200": 0.99932,
+      "macd": -0.001257,
+      "macd_signal": -0.000692,
+      "rsi14": 38.3,
+      "atr14": 0.00147,
+      "bb_position": 0.184
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -76,10 +76,10 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.88%",
-    "portfolio_eur": 9.7409,
-    "total_pnl_pct": -1.766,
-    "bh_pnl_pct": 0.434,
+    "reason": "HOLD LONG: P&L -0.90%",
+    "portfolio_eur": 9.7389,
+    "total_pnl_pct": -1.786,
+    "bh_pnl_pct": 0.413,
     "alpha_pct": -2.199,
     "position": "LONG",
     "xrp_held": 9.781,
@@ -113,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 157986
+  "data_bars": 157987
 }
