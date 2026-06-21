@@ -1,22 +1,23 @@
 {
-  "timestamp": "2026-06-21T15:56:06.655046+00:00",
+  "timestamp": "2026-06-21T16:01:36.447535+00:00",
   "signal": {
-    "price": 1.0018,
+    "price": 1.0003,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.432,
-    "hybrid_score": 4,
+    "xgb_prob": 0.4688,
+    "hybrid_score": 3,
     "regime": "BEARISH",
-    "entry_signal": true,
+    "entry_signal": false,
     "exit_signal": true,
-    "action": "BUY",
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.005,
+      "score": 0.026,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.6,
-      "bearish_pct": 24.4,
-      "headlines_analyzed": 45,
+      "bullish_pct": 35.0,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
       "feed_scores": {
+        "xrp": 0.062,
         "crypto_macro": 0.009,
         "geopolitical": -0.164,
         "fed_rates": 0.206
@@ -32,21 +33,21 @@
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin Is Near Its 200-Week Average. Why That May Be a Huge Buying Opportunity - Yahoo Finance",
-        "Bitcoin rises above $64,000 as traders weigh Iran talks, bullish options bets - Investing.com",
-        "Apec forum: openness and collaboration key to solving global trade challenges - South China Morning Post"
+        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
       ],
       "top_bearish": [
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia",
-        "Why Is Bitcoin Plunging? - Morningstar"
+        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 2.18,
-      "health": 0.3096,
-      "vol_ratio": 0.0,
+      "up_down_ratio": 2.15,
+      "health": 0.2957,
+      "vol_ratio": 0.83,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -57,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99892,
-      "ema200": 0.99879,
-      "macd": 0.001359,
-      "macd_signal": 0.001271,
-      "rsi14": 62.5,
-      "atr14": 0.00103,
-      "bb_position": 0.706
+      "ema50": 0.99896,
+      "ema200": 0.9988,
+      "macd": 0.00116,
+      "macd_signal": 0.001244,
+      "rsi14": 52.8,
+      "atr14": 0.00107,
+      "bb_position": 0.511
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -75,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.29%",
-    "portfolio_eur": 9.7986,
-    "total_pnl_pct": -1.184,
-    "bh_pnl_pct": 1.029,
-    "alpha_pct": -2.213,
+    "reason": "HOLD LONG: P&L -0.44%",
+    "portfolio_eur": 9.7839,
+    "total_pnl_pct": -1.332,
+    "bh_pnl_pct": 0.877,
+    "alpha_pct": -2.209,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -112,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158034
+  "data_bars": 158035
 }
