@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T21:36:17.824296+00:00",
+  "timestamp": "2026-06-21T21:41:20.705207+00:00",
   "signal": {
-    "price": 0.9879,
+    "price": 0.9895,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.491,
+    "xgb_prob": 0.4807,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.022,
+      "score": -0.024,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.09,
         "crypto_macro": -0.046,
-        "geopolitical": -0.376,
+        "geopolitical": -0.391,
         "fed_rates": 0.191
       },
       "geo_shock": true,
@@ -40,14 +40,14 @@
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
         "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia",
-        "Why Is Bitcoin Plunging? - Morningstar"
+        "Israel and Iran trade strikes, threatening to drag region back to war - Montana Public Radio"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.07,
-      "health": -0.7122,
-      "vol_ratio": 0.29,
+      "up_down_ratio": 1.08,
+      "health": -0.7027,
+      "vol_ratio": 0.28,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99385,
-      "ema200": 0.997,
-      "macd": -0.00285,
-      "macd_signal": -0.002419,
-      "rsi14": 40.9,
-      "atr14": 0.00268,
-      "bb_position": 0.311
+      "ema50": 0.99376,
+      "ema200": 0.99694,
+      "macd": -0.002444,
+      "macd_signal": -0.002396,
+      "rsi14": 45.0,
+      "atr14": 0.00277,
+      "bb_position": 0.4
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.67%",
-    "portfolio_eur": 9.6626,
-    "total_pnl_pct": -2.555,
-    "bh_pnl_pct": -0.373,
-    "alpha_pct": -2.182,
+    "reason": "STOP_LOSS: -1.51%",
+    "portfolio_eur": 9.6783,
+    "total_pnl_pct": -2.397,
+    "bh_pnl_pct": -0.212,
+    "alpha_pct": -2.185,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6626,
+    "cash_eur": 9.6783,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158102
+  "data_bars": 158103
 }
