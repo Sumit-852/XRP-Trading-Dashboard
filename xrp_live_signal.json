@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T16:16:19.113522+00:00",
+  "timestamp": "2026-06-21T16:21:11.949017+00:00",
   "signal": {
-    "price": 0.9982,
+    "price": 0.9988,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4917,
+    "xgb_prob": 0.474,
     "hybrid_score": 3,
     "regime": "BEARISH",
     "entry_signal": true,
@@ -11,16 +11,16 @@
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.026,
+      "score": 0.018,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 35.0,
-      "bearish_pct": 25.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.062,
         "crypto_macro": 0.009,
-        "geopolitical": -0.164,
-        "fed_rates": 0.206
+        "geopolitical": -0.194,
+        "fed_rates": 0.191
       },
       "geo_shock": false,
       "geo_dip": {
@@ -46,8 +46,8 @@
     "vpa": {
       "phase": "ACCUMULATION",
       "up_down_ratio": 2.1,
-      "health": 0.3906,
-      "vol_ratio": 0.24,
+      "health": 0.3701,
+      "vol_ratio": 0.0,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99896,
-      "ema200": 0.9988,
-      "macd": 0.000504,
-      "macd_signal": 0.000991,
-      "rsi14": 41.9,
-      "atr14": 0.00106,
-      "bb_position": 0.119
+      "ema50": 0.99898,
+      "ema200": 0.99881,
+      "macd": 0.000393,
+      "macd_signal": 0.000879,
+      "rsi14": 45.1,
+      "atr14": 0.00099,
+      "bb_position": 0.202
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.65%",
-    "portfolio_eur": 9.7634,
-    "total_pnl_pct": -1.539,
-    "bh_pnl_pct": 0.666,
-    "alpha_pct": -2.205,
+    "reason": "HOLD LONG: P&L -0.59%",
+    "portfolio_eur": 9.7693,
+    "total_pnl_pct": -1.48,
+    "bh_pnl_pct": 0.726,
+    "alpha_pct": -2.206,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +113,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158038
+  "data_bars": 158039
 }
