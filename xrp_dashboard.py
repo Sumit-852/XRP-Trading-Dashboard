@@ -199,6 +199,68 @@ def main():
         }
         st.table(pd.DataFrame(tech_data))
 
+    # ── Model Training & Trade Performance ─────────────────────────
+    st.markdown("---")
+    st.subheader("Model Training & Trade Performance")
+
+    data_bars = sig_data.get("data_bars", 0)
+    retrained = sig_data.get("retrained", False)
+    total_trades = len(trades)
+    buys = [t for t in trades if t["action"] == "BUY"]
+
+    mc1, mc2, mc3, mc4, mc5 = st.columns(5)
+    mc1.metric("Training Bars", f"{data_bars:,}",
+               f"{data_bars * 5 / 60:.0f} hours" if data_bars else None)
+    mc2.metric("Last Retrained", "This cycle" if retrained else "Previous cycle")
+    mc3.metric("Total Trades", total_trades, f"{len(buys)} BUY / {len(sells)} SELL")
+    mc4.metric("Total Wins", len(wins),
+               f"Avg: +{np.mean([t['pnl_pct'] for t in wins]):.2f}%" if wins else None)
+    mc5.metric("Total Losses", len(losses),
+               f"Avg: {np.mean([t['pnl_pct'] for t in losses]):.2f}%" if losses else None)
+
+    if sells:
+        with st.expander("Win & Loss Breakdown", expanded=True):
+            wcol, lcol = st.columns(2)
+            with wcol:
+                st.markdown("**Winning Trades**")
+                if wins:
+                    win_df = pd.DataFrame(wins)
+                    win_df["time"] = pd.to_datetime(win_df["time"]).dt.strftime("%m-%d %H:%M")
+                    win_df["pnl_pct"] = win_df["pnl_pct"].apply(lambda x: f"+{x:.2f}%")
+                    st.dataframe(
+                        win_df[["time", "price", "pnl_pct", "reason"]],
+                        use_container_width=True, hide_index=True,
+                    )
+                    total_win_eur = sum(t["eur"] * t["pnl_pct"] / 100 for t in wins)
+                    st.success(f"Total profit from wins: +€{total_win_eur:,.2f}")
+                else:
+                    st.info("No winning trades yet.")
+
+            with lcol:
+                st.markdown("**Losing Trades**")
+                if losses:
+                    loss_df = pd.DataFrame(losses)
+                    loss_df["time"] = pd.to_datetime(loss_df["time"]).dt.strftime("%m-%d %H:%M")
+                    loss_df["pnl_pct"] = loss_df["pnl_pct"].apply(lambda x: f"{x:.2f}%")
+                    st.dataframe(
+                        loss_df[["time", "price", "pnl_pct", "reason"]],
+                        use_container_width=True, hide_index=True,
+                    )
+                    total_loss_eur = sum(t["eur"] * t["pnl_pct"] / 100 for t in losses)
+                    st.error(f"Total loss: -€{abs(total_loss_eur):,.2f}")
+                else:
+                    st.info("No losing trades yet.")
+
+        best = max(sells, key=lambda t: t.get("pnl_pct", 0))
+        worst = min(sells, key=lambda t: t.get("pnl_pct", 0))
+        bc1, bc2, bc3, bc4 = st.columns(4)
+        bc1.metric("Best Trade", f"+{best['pnl_pct']:.2f}%", best.get("reason", "")[:30])
+        bc2.metric("Worst Trade", f"{worst['pnl_pct']:.2f}%", worst.get("reason", "")[:30])
+        profit_factor = abs(sum(t["pnl_pct"] for t in wins) / sum(t["pnl_pct"] for t in losses)) if losses and any(t["pnl_pct"] < 0 for t in losses) else 0
+        bc3.metric("Profit Factor", f"{profit_factor:.2f}" if profit_factor else "—")
+        avg_bars = np.mean([t.get("score", 0) for t in sells]) if sells else 0
+        bc4.metric("Avg Exit Score", f"{avg_bars:.1f}")
+
     # ── Auto-refresh ─────────────────────────────────────────────────
     st.markdown("---")
     refresh = st.selectbox("Auto-refresh interval", ["Off", "1 min", "5 min", "15 min"], index=2)
