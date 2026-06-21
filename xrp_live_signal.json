@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-21T17:36:06.331143+00:00",
+  "timestamp": "2026-06-21T17:41:19.915252+00:00",
   "signal": {
-    "price": 0.9958,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4961,
-    "hybrid_score": 3,
-    "regime": "BULLISH",
+    "price": 0.9941,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5231,
+    "hybrid_score": 5,
+    "regime": "BEARISH",
     "entry_signal": true,
     "exit_signal": true,
     "action": "BUY",
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 2.24,
-      "health": 0.313,
-      "vol_ratio": 0.27,
+      "up_down_ratio": 2.15,
+      "health": 0.2342,
+      "vol_ratio": 1.43,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.9982,
-      "ema200": 0.9986,
-      "macd": -0.000641,
-      "macd_signal": -0.000421,
-      "rsi14": 38.8,
-      "atr14": 0.00107,
-      "bb_position": 0.162
+      "ema50": 0.99801,
+      "ema200": 0.99854,
+      "macd": -0.000902,
+      "macd_signal": -0.000527,
+      "rsi14": 32.8,
+      "atr14": 0.00109,
+      "bb_position": -0.028
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -75,16 +75,16 @@
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.89%",
-    "portfolio_eur": 9.7399,
-    "total_pnl_pct": -1.776,
-    "bh_pnl_pct": 0.424,
-    "alpha_pct": -2.199,
-    "position": "LONG",
-    "xrp_held": 9.781,
-    "cash_eur": 0,
-    "trade_count": 2,
+    "action": "SELL",
+    "reason": "STOP_LOSS: -1.06%",
+    "portfolio_eur": 9.7233,
+    "total_pnl_pct": -1.943,
+    "bh_pnl_pct": 0.252,
+    "alpha_pct": -2.195,
+    "position": "CASH",
+    "xrp_held": 0,
+    "cash_eur": 9.7233,
+    "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
       "take_profit": 1.03484,
@@ -113,5 +113,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158054
+  "data_bars": 158055
 }
