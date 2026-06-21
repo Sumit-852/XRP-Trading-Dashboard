@@ -171,7 +171,7 @@ def main():
 
     # ── Price + Volume + Model Predictions ─────────────────────────
     st.subheader("Price & Volume with Model Predictions")
-    ohlcv_bars = st.selectbox("Show last", ["6 hours", "12 hours", "24 hours", "3 days", "7 days"], index=2)
+    ohlcv_bars = st.selectbox("Show last", ["6 hours", "12 hours", "24 hours", "3 days", "7 days"], index=3)
     bars_map = {"6 hours": 72, "12 hours": 144, "24 hours": 288, "3 days": 864, "7 days": 2016}
     show_bars = bars_map[ohlcv_bars]
 
@@ -179,16 +179,35 @@ def main():
         ohlcv = pd.read_csv(OHLCV_FILE).tail(show_bars)
         ohlcv["datetime"] = pd.to_datetime(ohlcv["time"], unit="s", utc=True).dt.tz_convert(CET)
 
+        eq_with_pred = [e for e in eq_history if "xgb_prob" in e]
+        has_predictions = len(eq_with_pred) > 2
+
+        rows = 3 if has_predictions else 2
+        heights = [0.5, 0.2, 0.3] if has_predictions else [0.65, 0.35]
+        subtitles = ["XRP/EUR Price (5-min candles)", "Volume"]
+        if has_predictions:
+            subtitles.append("Model Prediction (UP probability)")
+
         fig_pv = make_subplots(
-            rows=3, cols=1, shared_xaxes=True, vertical_spacing=0.03,
-            row_heights=[0.55, 0.25, 0.20],
-            subplot_titles=("XRP/EUR Price", "Volume", "Model Prediction (UP probability)"),
+            rows=rows, cols=1, shared_xaxes=True, vertical_spacing=0.04,
+            row_heights=heights, subplot_titles=subtitles,
         )
 
         fig_pv.add_trace(go.Candlestick(
             x=ohlcv["datetime"], open=ohlcv["open"], high=ohlcv["high"],
             low=ohlcv["low"], close=ohlcv["close"], name="OHLC",
             increasing_line_color="#26a69a", decreasing_line_color="#ef5350",
+        ), row=1, col=1)
+
+        ema20 = ohlcv["close"].ewm(span=20, adjust=False).mean()
+        ema50 = ohlcv["close"].ewm(span=50, adjust=False).mean()
+        fig_pv.add_trace(go.Scatter(
+            x=ohlcv["datetime"], y=ema20, name="EMA 20",
+            line=dict(color="#ffa726", width=1), opacity=0.7,
+        ), row=1, col=1)
+        fig_pv.add_trace(go.Scatter(
+            x=ohlcv["datetime"], y=ema50, name="EMA 50",
+            line=dict(color="#ab47bc", width=1), opacity=0.7,
         ), row=1, col=1)
 
         buy_trades = [t for t in trades if t["action"] == "BUY"]
@@ -200,7 +219,7 @@ def main():
             if not buy_df.empty:
                 fig_pv.add_trace(go.Scatter(
                     x=buy_df["dt"], y=buy_df["price"], mode="markers", name="BUY",
-                    marker=dict(symbol="triangle-up", size=12, color="#26a69a", line=dict(width=1, color="white")),
+                    marker=dict(symbol="triangle-up", size=14, color="#26a69a", line=dict(width=1, color="white")),
                 ), row=1, col=1)
         if sell_trades:
             sell_df = pd.DataFrame(sell_trades)
@@ -209,48 +228,54 @@ def main():
             if not sell_df.empty:
                 fig_pv.add_trace(go.Scatter(
                     x=sell_df["dt"], y=sell_df["price"], mode="markers", name="SELL",
-                    marker=dict(symbol="triangle-down", size=12, color="#ef5350", line=dict(width=1, color="white")),
+                    marker=dict(symbol="triangle-down", size=14, color="#ef5350", line=dict(width=1, color="white")),
                 ), row=1, col=1)
 
         colors = ["#26a69a" if c >= o else "#ef5350" for o, c in zip(ohlcv["open"], ohlcv["close"])]
         fig_pv.add_trace(go.Bar(
             x=ohlcv["datetime"], y=ohlcv["volume"], name="Volume",
-            marker_color=colors, opacity=0.7,
+            marker_color=colors, opacity=0.7, showlegend=False,
         ), row=2, col=1)
 
-        eq_with_pred = [e for e in eq_history if "xgb_prob" in e]
-        if eq_with_pred:
+        vol_avg = ohlcv["volume"].rolling(50).mean()
+        fig_pv.add_trace(go.Scatter(
+            x=ohlcv["datetime"], y=vol_avg, name="Vol Avg",
+            line=dict(color="#ffa726", width=1, dash="dot"), opacity=0.6,
+        ), row=2, col=1)
+
+        if has_predictions:
             pred_df = pd.DataFrame(eq_with_pred)
             pred_df["datetime"] = pd.to_datetime(pred_df["time"], format="mixed", utc=True).dt.tz_convert(CET)
             pred_df = pred_df[pred_df["datetime"] >= ohlcv["datetime"].min()]
             if not pred_df.empty:
-                fig_pv.add_trace(go.Scatter(
-                    x=pred_df["datetime"], y=pred_df["xgb_prob"], name="UP Prob",
-                    line=dict(color="#42a5f5", width=2),
+                prob_colors = ["#26a69a" if p > 0.5 else "#ef5350" for p in pred_df["xgb_prob"]]
+                fig_pv.add_trace(go.Bar(
+                    x=pred_df["datetime"], y=pred_df["xgb_prob"] - 0.5,
+                    name="UP Prob", marker_color=prob_colors, opacity=0.6,
+                    base=0.5,
                 ), row=3, col=1)
-                fig_pv.add_hline(y=0.5, line_dash="dash", line_color="white", opacity=0.3, row=3, col=1)
-        else:
-            pred_prices = eq_history[-show_bars:] if eq_history else []
-            if pred_prices:
-                hist_df = pd.DataFrame(pred_prices)
-                hist_df["datetime"] = pd.to_datetime(hist_df["time"], format="mixed", utc=True).dt.tz_convert(CET)
-                hist_df = hist_df[hist_df["datetime"] >= ohlcv["datetime"].min()]
-                if not hist_df.empty:
-                    fig_pv.add_trace(go.Scatter(
-                        x=hist_df["datetime"], y=hist_df["price"], name="Model Price Track",
-                        line=dict(color="#42a5f5", width=1, dash="dot"),
-                    ), row=3, col=1)
+                fig_pv.add_hline(y=0.5, line_dash="dash", line_color="white", opacity=0.4, row=3, col=1)
+                score_norm = pred_df["hybrid_score"].clip(-2, 8) / 8
+                fig_pv.add_trace(go.Scatter(
+                    x=pred_df["datetime"], y=score_norm, name="Hybrid Score",
+                    line=dict(color="#ffa726", width=2),
+                ), row=3, col=1)
 
+        chart_height = 800 if has_predictions else 550
         fig_pv.update_layout(
-            height=700, template="plotly_dark",
+            height=chart_height, template="plotly_dark",
             margin=dict(l=50, r=50, t=40, b=30),
             xaxis_rangeslider_visible=False,
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         )
         fig_pv.update_yaxes(title_text="EUR", row=1, col=1)
         fig_pv.update_yaxes(title_text="Vol", row=2, col=1)
-        fig_pv.update_yaxes(title_text="Prob", row=3, col=1, range=[0, 1])
+        if has_predictions:
+            fig_pv.update_yaxes(title_text="Prob", row=3, col=1, range=[0, 1])
         st.plotly_chart(fig_pv, use_container_width=True)
+
+        if not has_predictions:
+            st.caption("Model prediction overlay will appear after a few more cycles (accumulating xgb_prob data).")
     else:
         st.info("OHLCV data not available yet.")
 
