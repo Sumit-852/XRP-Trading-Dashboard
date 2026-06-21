@@ -62,6 +62,7 @@ jobs:
           cp model/xrp_dashboard_state.json . 2>/dev/null || true
           cp model/xrp_news_sentiment.json . 2>/dev/null || true
           cp model/xrp_model_state.json . 2>/dev/null || true
+          cp model/xrp_trade_feedback.json . 2>/dev/null || true
 
           # Update the master CSV with new bars (keeps it growing)
           cp model/xrp_eur_5min.csv . 2>/dev/null || true
