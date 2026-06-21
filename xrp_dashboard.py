@@ -8,6 +8,9 @@ import json
 import os
 import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
+
+CET = ZoneInfo("Europe/Berlin")
 
 import numpy as np
 import pandas as pd
@@ -87,7 +90,8 @@ def main():
         st.metric("Hybrid Score", signal.get("hybrid_score", "?"))
         st.metric("Data Bars", f"{sig_data.get('data_bars', 0):,}")
         ts = sig_data.get("timestamp", "")
-        st.metric("Last Update", ts[:19].replace("T", " ") if ts else "?")
+        ts_cet = pd.to_datetime(ts, utc=True).tz_convert(CET).strftime("%H:%M CET") if ts else "?"
+        st.metric("Last Update", ts_cet)
 
     with c2:
         st.markdown("**Volume (VPA)**")
@@ -145,7 +149,7 @@ def main():
     eq_history = state.get("equity_history", [])
     if len(eq_history) > 1:
         eq_df = pd.DataFrame(eq_history)
-        eq_df["datetime"] = pd.to_datetime(eq_df["time"], format="mixed", utc=True)
+        eq_df["datetime"] = pd.to_datetime(eq_df["time"], format="mixed", utc=True).dt.tz_convert(CET)
 
         fig_eq = go.Figure()
         fig_eq.add_trace(go.Scatter(
@@ -167,7 +171,7 @@ def main():
     st.subheader("Trade History")
     if sells:
         trade_df = pd.DataFrame(sells)
-        trade_df["time"] = pd.to_datetime(trade_df["time"]).dt.strftime("%Y-%m-%d %H:%M")
+        trade_df["time"] = pd.to_datetime(trade_df["time"], format="mixed", utc=True).dt.tz_convert(CET).dt.strftime("%Y-%m-%d %H:%M")
         cols_show = ["time", "price", "xrp", "eur", "pnl_pct", "reason"]
         cols_present = [c for c in cols_show if c in trade_df.columns]
         st.dataframe(
@@ -225,7 +229,7 @@ def main():
                 st.markdown("**Winning Trades**")
                 if wins:
                     win_df = pd.DataFrame(wins)
-                    win_df["time"] = pd.to_datetime(win_df["time"]).dt.strftime("%m-%d %H:%M")
+                    win_df["time"] = pd.to_datetime(win_df["time"], format="mixed", utc=True).dt.tz_convert(CET).dt.strftime("%m-%d %H:%M")
                     win_df["pnl_pct"] = win_df["pnl_pct"].apply(lambda x: f"+{x:.2f}%")
                     st.dataframe(
                         win_df[["time", "price", "pnl_pct", "reason"]],
@@ -240,7 +244,7 @@ def main():
                 st.markdown("**Losing Trades**")
                 if losses:
                     loss_df = pd.DataFrame(losses)
-                    loss_df["time"] = pd.to_datetime(loss_df["time"]).dt.strftime("%m-%d %H:%M")
+                    loss_df["time"] = pd.to_datetime(loss_df["time"], format="mixed", utc=True).dt.tz_convert(CET).dt.strftime("%m-%d %H:%M")
                     loss_df["pnl_pct"] = loss_df["pnl_pct"].apply(lambda x: f"{x:.2f}%")
                     st.dataframe(
                         loss_df[["time", "price", "pnl_pct", "reason"]],
@@ -267,8 +271,12 @@ def main():
     refresh_map = {"Off": None, "1 min": 60, "5 min": 300, "15 min": 900}
     refresh_sec = refresh_map[refresh]
 
-    st.caption(f"Last update: {sig_data.get('timestamp', '?')[:19]} UTC | "
-               f"CI/CD: every 5 min via GitHub Actions")
+    last_ts = sig_data.get("timestamp", "")
+    if last_ts:
+        last_cet = pd.to_datetime(last_ts, utc=True).tz_convert(CET).strftime("%Y-%m-%d %H:%M")
+    else:
+        last_cet = "?"
+    st.caption(f"Last update: {last_cet} CET | CI/CD: every 5 min via GitHub Actions")
 
     if refresh_sec:
         time.sleep(refresh_sec)
