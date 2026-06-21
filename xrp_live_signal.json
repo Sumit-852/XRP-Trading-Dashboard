@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T22:21:22.703633+00:00",
+  "timestamp": "2026-06-21T22:26:11.596564+00:00",
   "signal": {
-    "price": 0.988,
+    "price": 0.9881,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4883,
+    "xgb_prob": 0.4827,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.032,
+      "score": -0.039,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.037,
+        "xrp": 0.019,
         "crypto_macro": -0.046,
         "geopolitical": -0.326,
         "fed_rates": 0.191
@@ -46,7 +46,7 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.04,
-      "health": -1.0392,
+      "health": -1.0373,
       "vol_ratio": 0.0,
       "interpretation": "No clear volume conviction"
     },
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99235,
-      "ema200": 0.99631,
-      "macd": -0.001593,
-      "macd_signal": -0.001843,
-      "rsi14": 43.4,
-      "atr14": 0.00222,
-      "bb_position": 0.453
+      "ema50": 0.99219,
+      "ema200": 0.99623,
+      "macd": -0.001509,
+      "macd_signal": -0.001775,
+      "rsi14": 43.7,
+      "atr14": 0.00211,
+      "bb_position": 0.476
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.66%",
-    "portfolio_eur": 9.6636,
-    "total_pnl_pct": -2.545,
-    "bh_pnl_pct": -0.363,
+    "reason": "STOP_LOSS: -1.65%",
+    "portfolio_eur": 9.6646,
+    "total_pnl_pct": -2.535,
+    "bh_pnl_pct": -0.353,
     "alpha_pct": -2.182,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6636,
+    "cash_eur": 9.6646,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158111
+  "data_bars": 158112
 }
