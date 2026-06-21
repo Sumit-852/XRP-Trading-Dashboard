@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T22:11:16.770108+00:00",
+  "timestamp": "2026-06-21T22:16:17.324267+00:00",
   "signal": {
-    "price": 0.9874,
+    "price": 0.9879,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4818,
+    "xgb_prob": 0.4865,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.009,
+      "score": -0.002,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
+      "bullish_pct": 28.9,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 45,
       "feed_scores": {
         "xrp": 0.086,
-        "crypto_macro": -0.046,
-        "geopolitical": -0.326,
-        "fed_rates": 0.222
+        "geopolitical": -0.333,
+        "fed_rates": 0.191
       },
       "geo_shock": true,
       "geo_dip": {
@@ -38,16 +37,16 @@
         "Is XRP (Ripple) a Strong Buy at $1.15? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia",
-        "Why Is Bitcoin Plunging? - Morningstar"
+        "Whales dump XRP worth millions - thestreet.com",
+        "Stock Futures, Oil Prices Begin Trading Later Sunday After Iran Closed Strait of Hormuz - Barron's",
+        "Iran and US trade threats over Straits of Hormuz - Channel 4"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": -0.9477,
-      "vol_ratio": 3.1,
+      "up_down_ratio": 1.04,
+      "health": -1.031,
+      "vol_ratio": 2.0,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +57,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99271,
-      "ema200": 0.99647,
-      "macd": -0.001725,
-      "macd_signal": -0.001968,
-      "rsi14": 41.8,
-      "atr14": 0.00247,
-      "bb_position": 0.371
+      "ema50": 0.99253,
+      "ema200": 0.99639,
+      "macd": -0.001666,
+      "macd_signal": -0.001907,
+      "rsi14": 43.1,
+      "atr14": 0.00239,
+      "bb_position": 0.425
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +75,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.72%",
-    "portfolio_eur": 9.6578,
-    "total_pnl_pct": -2.604,
-    "bh_pnl_pct": -0.424,
-    "alpha_pct": -2.18,
+    "reason": "STOP_LOSS: -1.67%",
+    "portfolio_eur": 9.6626,
+    "total_pnl_pct": -2.555,
+    "bh_pnl_pct": -0.373,
+    "alpha_pct": -2.182,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6578,
+    "cash_eur": 9.6626,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +113,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158109
+  "data_bars": 158110
 }
