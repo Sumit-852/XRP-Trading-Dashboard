@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T00:00:59.991619+00:00",
+  "timestamp": "2026-06-21T00:05:56.918242+00:00",
   "signal": {
-    "price": 1.0022,
+    "price": 1.0021,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6516,
+    "xgb_prob": 0.6529,
     "hybrid_score": 4,
     "regime": "BULLISH",
     "entry_signal": true,
@@ -11,14 +11,14 @@
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.059,
+      "score": -0.046,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 33.3,
+      "bullish_pct": 35.0,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": -0.013,
-        "crypto_macro": -0.146,
+        "crypto_macro": -0.105,
         "geopolitical": -0.248,
         "fed_rates": 0.239
       },
@@ -35,7 +35,7 @@
       "top_bullish": [
         "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
         "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Ripple Swell 2026 Announces Keynote Speakers: Can the Event Boost XRP Price? - TradingView"
+        "Bitcoin Is Near Its 200-Week Average. Why That May Be a Huge Buying Opportunity - Yahoo Finance"
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.51,
-      "health": 0.4072,
-      "vol_ratio": 0.01,
+      "up_down_ratio": 1.52,
+      "health": 0.4198,
+      "vol_ratio": 0.08,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,21 +58,21 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.0017,
-      "ema200": 0.99877,
-      "macd": 0.000274,
-      "macd_signal": 0.000804,
-      "rsi14": 46.1,
-      "atr14": 0.00104,
-      "bb_position": 0.097
+      "ema50": 1.00171,
+      "ema200": 0.9988,
+      "macd": 0.000152,
+      "macd_signal": 0.000671,
+      "rsi14": 45.5,
+      "atr14": 0.00101,
+      "bb_position": 0.132
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.25%",
-    "portfolio_eur": 9.8025,
-    "total_pnl_pct": -1.144,
-    "bh_pnl_pct": 1.069,
+    "reason": "HOLD LONG: P&L -0.26%",
+    "portfolio_eur": 9.8015,
+    "total_pnl_pct": -1.154,
+    "bh_pnl_pct": 1.059,
     "alpha_pct": -2.213,
     "position": "LONG",
     "xrp_held": 9.781,
@@ -86,5 +86,5 @@
     }
   },
   "retrained": true,
-  "data_bars": 1003
+  "data_bars": 1004
 }
