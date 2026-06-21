@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T23:36:10.768926+00:00",
+  "timestamp": "2026-06-21T23:41:12.206384+00:00",
   "signal": {
     "price": 0.981,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5065,
+    "xgb_prob": 0.5079,
     "hybrid_score": 2,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.045,
+      "score": -0.034,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "bullish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.007,
+        "xrp": 0.022,
         "crypto_macro": -0.046,
         "geopolitical": -0.336,
         "fed_rates": 0.222
@@ -33,9 +33,9 @@
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
         "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Is XRP (Ripple) a Strong Buy at $1.15? - 24/7 Wall St.",
-        "Bitcoin Is Near Its 200-Week Average. Why That May Be a Huge Buying Opportunity - Yahoo Finance"
+        "Is XRP (Ripple) a Strong Buy at $1.15? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": -0.6121,
-      "vol_ratio": 0.15,
+      "up_down_ratio": 0.99,
+      "health": -0.6534,
+      "vol_ratio": 0.39,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.98865,
-      "ema200": 0.99463,
-      "macd": -0.001955,
-      "macd_signal": -0.001831,
-      "rsi14": 37.1,
-      "atr14": 0.00209,
-      "bb_position": 0.054
+      "ema50": 0.98833,
+      "ema200": 0.99449,
+      "macd": -0.00208,
+      "macd_signal": -0.001887,
+      "rsi14": 37.8,
+      "atr14": 0.00212,
+      "bb_position": 0.094
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158126
+  "data_bars": 158127
 }
