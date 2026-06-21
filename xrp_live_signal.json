@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-06-21T10:41:21.931037+00:00",
+  "timestamp": "2026-06-21T10:51:12.184359+00:00",
   "signal": {
-    "price": 1.0035,
+    "price": 1.003,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4199,
-    "hybrid_score": 1,
+    "xgb_prob": 0.4152,
+    "hybrid_score": 4,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": true,
-    "action": "SELL",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.036,
+      "score": -0.013,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 28.3,
-      "bearish_pct": 33.3,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.024,
+        "xrp": 0.073,
         "crypto_macro": -0.09,
         "geopolitical": -0.261,
-        "fed_rates": 0.205
+        "fed_rates": 0.236
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
         "recovering": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
+        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.74,
-      "health": -0.0822,
-      "vol_ratio": 0.11,
+      "up_down_ratio": 1.68,
+      "health": 0.0365,
+      "vol_ratio": 0.23,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.0001,
-      "ema200": 0.99948,
-      "macd": 0.001428,
-      "macd_signal": 0.001164,
-      "rsi14": 65.2,
-      "atr14": 0.00087,
-      "bb_position": 0.762
+      "ema50": 1.0003,
+      "ema200": 0.99955,
+      "macd": 0.001269,
+      "macd_signal": 0.001202,
+      "rsi14": 63.0,
+      "atr14": 0.0008,
+      "bb_position": 0.683
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.12%",
-    "portfolio_eur": 9.8152,
-    "total_pnl_pct": -1.016,
-    "bh_pnl_pct": 1.2,
-    "alpha_pct": -2.216,
+    "reason": "HOLD LONG: P&L -0.17%",
+    "portfolio_eur": 9.8103,
+    "total_pnl_pct": -1.066,
+    "bh_pnl_pct": 1.15,
+    "alpha_pct": -2.215,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 157971
+  "data_bars": 157973
 }
