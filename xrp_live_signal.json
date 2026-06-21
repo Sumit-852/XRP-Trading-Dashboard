@@ -1,24 +1,23 @@
 {
-  "timestamp": "2026-06-21T13:16:14.750718+00:00",
+  "timestamp": "2026-06-21T13:21:25.247623+00:00",
   "signal": {
-    "price": 0.9986,
+    "price": 0.9974,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4487,
+    "xgb_prob": 0.4819,
     "hybrid_score": 4,
-    "regime": "BEARISH",
+    "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": true,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.022,
+      "score": 0.016,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
-      "headlines_analyzed": 60,
+      "bullish_pct": 31.1,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 45,
       "feed_scores": {
-        "xrp": 0.138,
-        "crypto_macro": -0.02,
+        "xrp": 0.093,
         "geopolitical": -0.28,
         "fed_rates": 0.191
       },
@@ -34,20 +33,20 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
-        "XRP Price To $27? Bullish Analysts See Growth as Ex-Ripple CTO Boasts Use Cases - Yahoo Finance",
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto"
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
       ],
       "top_bearish": [
-        "Crypto market holds steady amid Strait of Hormuz tensions; Solana leads gains, Bitcoin near $64K key level. - Pluang",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
+        "Whales dump XRP worth millions - thestreet.com",
+        "RippleX Engineer Says the Market Stopped Talking Lawsuits and Started Talking XRP - Coinpedia",
+        "Antoni: 'Byzantine' Tariff Structure Threatens USMCA Cross-Border Auto Trade - Rio Grande Guardian"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.77,
-      "health": 0.0423,
-      "vol_ratio": 0.92,
+      "up_down_ratio": 1.76,
+      "health": 0.0449,
+      "vol_ratio": 2.31,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -59,12 +58,12 @@
     },
     "technicals": {
       "ema50": 0.99754,
-      "ema200": 0.99878,
-      "macd": -0.000411,
-      "macd_signal": -0.000918,
-      "rsi14": 58.2,
-      "atr14": 0.0013,
-      "bb_position": 1.044
+      "ema200": 0.99877,
+      "macd": -0.000291,
+      "macd_signal": -0.000793,
+      "rsi14": 52.7,
+      "atr14": 0.00134,
+      "bb_position": 0.828
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -76,11 +75,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.61%",
-    "portfolio_eur": 9.7673,
-    "total_pnl_pct": -1.5,
-    "bh_pnl_pct": 0.706,
-    "alpha_pct": -2.205,
+    "reason": "HOLD LONG: P&L -0.73%",
+    "portfolio_eur": 9.7556,
+    "total_pnl_pct": -1.618,
+    "bh_pnl_pct": 0.585,
+    "alpha_pct": -2.203,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +112,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158002
+  "data_bars": 158003
 }
