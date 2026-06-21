@@ -1,24 +1,23 @@
 {
-  "timestamp": "2026-06-21T00:05:56.918242+00:00",
+  "timestamp": "2026-06-21T00:32:03.788937+00:00",
   "signal": {
-    "price": 1.0021,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.6529,
-    "hybrid_score": 4,
+    "price": 1.0011,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4018,
+    "hybrid_score": 3,
     "regime": "BULLISH",
     "entry_signal": true,
-    "exit_signal": false,
+    "exit_signal": true,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.046,
+      "score": -0.022,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.0,
+      "bullish_pct": 35.6,
       "bearish_pct": 40.0,
-      "headlines_analyzed": 60,
+      "headlines_analyzed": 45,
       "feed_scores": {
         "xrp": -0.013,
-        "crypto_macro": -0.105,
         "geopolitical": -0.248,
         "fed_rates": 0.239
       },
@@ -35,19 +34,19 @@
       "top_bullish": [
         "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
         "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Bitcoin Is Near Its 200-Week Average. Why That May Be a Huge Buying Opportunity - Yahoo Finance"
+        "Ripple Swell 2026 Announces Keynote Speakers: Can the Event Boost XRP Price? - TradingView"
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+        "Should You Trade Your XRP for Hyperliquid? - The Motley Fool",
+        "Whales dump XRP worth millions - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.52,
-      "health": 0.4198,
-      "vol_ratio": 0.08,
+      "up_down_ratio": 1.44,
+      "health": 0.3591,
+      "vol_ratio": 0.96,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,22 +57,22 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.00171,
-      "ema200": 0.9988,
-      "macd": 0.000152,
-      "macd_signal": 0.000671,
-      "rsi14": 45.5,
-      "atr14": 0.00101,
-      "bb_position": 0.132
+      "ema50": 1.00168,
+      "ema200": 0.99891,
+      "macd": -0.000219,
+      "macd_signal": 0.000199,
+      "rsi14": 41.6,
+      "atr14": 0.00096,
+      "bb_position": 0.11
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.26%",
-    "portfolio_eur": 9.8015,
-    "total_pnl_pct": -1.154,
-    "bh_pnl_pct": 1.059,
-    "alpha_pct": -2.213,
+    "reason": "HOLD LONG: P&L -0.36%",
+    "portfolio_eur": 9.7918,
+    "total_pnl_pct": -1.253,
+    "bh_pnl_pct": 0.958,
+    "alpha_pct": -2.211,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -86,5 +85,5 @@
     }
   },
   "retrained": true,
-  "data_bars": 1004
+  "data_bars": 1008
 }
