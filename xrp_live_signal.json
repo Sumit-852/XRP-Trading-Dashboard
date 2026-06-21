@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T08:56:12.364005+00:00",
+  "timestamp": "2026-06-21T09:01:32.395609+00:00",
   "signal": {
-    "price": 0.9968,
+    "price": 0.9969,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4384,
+    "xgb_prob": 0.4423,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.002,
+      "score": 0.002,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
+      "bullish_pct": 31.7,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.123,
         "crypto_macro": -0.09,
         "geopolitical": -0.265,
-        "fed_rates": 0.191
+        "fed_rates": 0.219
       },
       "geo_shock": false,
       "geo_dip": {
@@ -46,8 +46,8 @@
     "vpa": {
       "phase": "ACCUMULATION",
       "up_down_ratio": 1.66,
-      "health": -0.1703,
-      "vol_ratio": 0.0,
+      "health": -0.1488,
+      "vol_ratio": 0.14,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,33 +58,60 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.9986,
-      "ema200": 0.99917,
-      "macd": -0.000763,
-      "macd_signal": -0.000493,
-      "rsi14": 41.1,
-      "atr14": 0.00081,
-      "bb_position": 0.273
+      "ema50": 0.99854,
+      "ema200": 0.99915,
+      "macd": -0.000735,
+      "macd_signal": -0.000541,
+      "rsi14": 41.9,
+      "atr14": 0.00077,
+      "bb_position": 0.304
+    },
+    "trade_feedback": {
+      "loss_streak": 3,
+      "recent_win_rate": 0.625,
+      "score_raised_by": 1,
+      "adapted_sl": 1.0,
+      "adapted_tp": 3.0
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.79%",
-    "portfolio_eur": 9.7497,
-    "total_pnl_pct": -1.677,
-    "bh_pnl_pct": 0.524,
-    "alpha_pct": -2.201,
+    "reason": "HOLD LONG: P&L -0.78%",
+    "portfolio_eur": 9.7507,
+    "total_pnl_pct": -1.667,
+    "bh_pnl_pct": 0.534,
+    "alpha_pct": -2.202,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
     "trade_count": 2,
     "draw_levels": {
       "entry": 1.0047,
-      "take_profit": 1.04489,
+      "take_profit": 1.03484,
       "stop_loss": 0.99465,
       "trailing_stop": 0.98461
     }
   },
+  "trade_feedback": {
+    "overall_win_rate": 0.529,
+    "recent_win_rate": 0.625,
+    "avg_win_pct": 0.518,
+    "avg_loss_pct": -0.426,
+    "loss_streak": 3,
+    "win_streak": 0,
+    "total_wins": 9,
+    "total_losses": 8,
+    "loss_reasons": {
+      "MODEL_SELL": 8
+    },
+    "sl_loss_ratio": 0.0,
+    "model_loss_ratio": 1.0,
+    "low_score_loss_pct": 0.75,
+    "adapted_sl_pct": 1.0,
+    "adapted_tp_pct": 3.0,
+    "score_adjustment": 1,
+    "min_score_effective": 4
+  },
   "retrained": true,
-  "data_bars": 157950
+  "data_bars": 157951
 }
