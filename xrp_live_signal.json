@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-21T15:01:39.390629+00:00",
+  "timestamp": "2026-06-21T15:06:08.503776+00:00",
   "signal": {
-    "price": 1.0005,
+    "price": 1.0014,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4224,
-    "hybrid_score": 5,
-    "regime": "BEARISH",
+    "xgb_prob": 0.4123,
+    "hybrid_score": 4,
+    "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": true,
     "action": "BUY",
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 2.29,
-      "health": 0.294,
-      "vol_ratio": 29.12,
+      "up_down_ratio": 2.31,
+      "health": 0.2923,
+      "vol_ratio": 0.03,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99735,
-      "ema200": 0.99844,
-      "macd": 0.000685,
-      "macd_signal": 0.000264,
-      "rsi14": 65.1,
-      "atr14": 0.00108,
-      "bb_position": 1.109
+      "ema50": 0.99754,
+      "ema200": 0.99848,
+      "macd": 0.000962,
+      "macd_signal": 0.000415,
+      "rsi14": 67.7,
+      "atr14": 0.00109,
+      "bb_position": 1.06
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.42%",
-    "portfolio_eur": 9.7859,
-    "total_pnl_pct": -1.312,
-    "bh_pnl_pct": 0.898,
-    "alpha_pct": -2.21,
+    "reason": "HOLD LONG: P&L -0.33%",
+    "portfolio_eur": 9.7947,
+    "total_pnl_pct": -1.223,
+    "bh_pnl_pct": 0.988,
+    "alpha_pct": -2.212,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158023
+  "data_bars": 158024
 }
