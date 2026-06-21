@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-06-21T16:01:36.447535+00:00",
+  "timestamp": "2026-06-21T16:06:11.810056+00:00",
   "signal": {
-    "price": 1.0003,
+    "price": 0.9997,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4688,
+    "xgb_prob": 0.4683,
     "hybrid_score": 3,
     "regime": "BEARISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": true,
-    "action": "SELL",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.026,
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 2.15,
-      "health": 0.2957,
-      "vol_ratio": 0.83,
+      "up_down_ratio": 2.13,
+      "health": 0.2884,
+      "vol_ratio": 0.22,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,29 +58,29 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99896,
-      "ema200": 0.9988,
-      "macd": 0.00116,
-      "macd_signal": 0.001244,
-      "rsi14": 52.8,
+      "ema50": 0.99901,
+      "ema200": 0.99881,
+      "macd": 0.000999,
+      "macd_signal": 0.001201,
+      "rsi14": 49.3,
       "atr14": 0.00107,
-      "bb_position": 0.511
+      "bb_position": 0.406
     },
     "trade_feedback": {
-      "loss_streak": 5,
+      "loss_streak": 0,
       "recent_win_rate": 0.375,
-      "score_raised_by": 1,
+      "score_raised_by": 0,
       "adapted_sl": 1.0,
       "adapted_tp": 3.0
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.44%",
-    "portfolio_eur": 9.7839,
-    "total_pnl_pct": -1.332,
-    "bh_pnl_pct": 0.877,
-    "alpha_pct": -2.209,
+    "reason": "HOLD LONG: P&L -0.50%",
+    "portfolio_eur": 9.7781,
+    "total_pnl_pct": -1.391,
+    "bh_pnl_pct": 0.817,
+    "alpha_pct": -2.208,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -93,13 +93,13 @@
     }
   },
   "trade_feedback": {
-    "overall_win_rate": 0.474,
+    "overall_win_rate": 0.5,
     "recent_win_rate": 0.375,
-    "avg_win_pct": 0.518,
+    "avg_win_pct": 0.492,
     "avg_loss_pct": -0.432,
-    "loss_streak": 5,
-    "win_streak": 0,
-    "total_wins": 9,
+    "loss_streak": 0,
+    "win_streak": 1,
+    "total_wins": 10,
     "total_losses": 10,
     "loss_reasons": {
       "MODEL_SELL": 10
@@ -109,9 +109,9 @@
     "low_score_loss_pct": 0.7,
     "adapted_sl_pct": 1.0,
     "adapted_tp_pct": 3.0,
-    "score_adjustment": 1,
-    "min_score_effective": 4
+    "score_adjustment": 0,
+    "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158035
+  "data_bars": 158036
 }
