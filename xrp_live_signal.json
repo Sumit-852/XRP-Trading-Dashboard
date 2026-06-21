@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T21:31:28.710018+00:00",
+  "timestamp": "2026-06-21T21:36:17.824296+00:00",
   "signal": {
-    "price": 0.987,
+    "price": 0.9879,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4923,
+    "xgb_prob": 0.491,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -46,8 +46,8 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.07,
-      "health": -0.7133,
-      "vol_ratio": 0.33,
+      "health": -0.7122,
+      "vol_ratio": 0.29,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99408,
-      "ema200": 0.99708,
-      "macd": -0.003022,
-      "macd_signal": -0.002318,
-      "rsi14": 38.6,
-      "atr14": 0.00271,
-      "bb_position": 0.249
+      "ema50": 0.99385,
+      "ema200": 0.997,
+      "macd": -0.00285,
+      "macd_signal": -0.002419,
+      "rsi14": 40.9,
+      "atr14": 0.00268,
+      "bb_position": 0.311
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.76%",
-    "portfolio_eur": 9.6538,
-    "total_pnl_pct": -2.644,
-    "bh_pnl_pct": -0.464,
-    "alpha_pct": -2.18,
+    "reason": "STOP_LOSS: -1.67%",
+    "portfolio_eur": 9.6626,
+    "total_pnl_pct": -2.555,
+    "bh_pnl_pct": -0.373,
+    "alpha_pct": -2.182,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6538,
+    "cash_eur": 9.6626,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158101
+  "data_bars": 158102
 }
