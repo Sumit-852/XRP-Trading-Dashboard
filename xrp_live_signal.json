@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-21T17:11:15.872422+00:00",
+  "timestamp": "2026-06-21T17:16:17.020081+00:00",
   "signal": {
     "price": 0.9987,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4577,
-    "hybrid_score": 3,
+    "xgb_prob": 0.4574,
+    "hybrid_score": 4,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": true,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.008,
+      "score": 0.022,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.0,
+      "bullish_pct": 36.7,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.062,
-        "crypto_macro": -0.043,
+        "xrp": 0.089,
+        "crypto_macro": -0.031,
         "geopolitical": -0.164,
         "fed_rates": 0.191
       },
@@ -39,14 +39,14 @@
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Crypto market holds steady amid Strait of Hormuz tensions; Solana leads gains, Bitcoin near $64K key level. - Pluang",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
+        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 2.26,
-      "health": 0.3672,
+      "up_down_ratio": 2.3,
+      "health": 0.3984,
       "vol_ratio": 0.0,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
@@ -60,11 +60,11 @@
     "technicals": {
       "ema50": 0.99851,
       "ema200": 0.99868,
-      "macd": -0.000336,
-      "macd_signal": -0.00028,
+      "macd": -0.000274,
+      "macd_signal": -0.000279,
       "rsi14": 50.7,
-      "atr14": 0.00106,
-      "bb_position": 0.459
+      "atr14": 0.00099,
+      "bb_position": 0.477
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -113,5 +113,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158049
+  "data_bars": 158050
 }
