@@ -145,7 +145,7 @@ def main():
     eq_history = state.get("equity_history", [])
     if len(eq_history) > 1:
         eq_df = pd.DataFrame(eq_history)
-        eq_df["datetime"] = pd.to_datetime(eq_df["time"])
+        eq_df["datetime"] = pd.to_datetime(eq_df["time"], format="mixed", utc=True)
 
         fig_eq = go.Figure()
         fig_eq.add_trace(go.Scatter(
