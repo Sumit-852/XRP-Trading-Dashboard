@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T12:56:06.362738+00:00",
+  "timestamp": "2026-06-21T13:01:32.498412+00:00",
   "signal": {
-    "price": 0.996,
+    "price": 0.9968,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4647,
+    "xgb_prob": 0.4668,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
+      "score": 0.027,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
+      "bullish_pct": 33.3,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.117,
+        "xrp": 0.138,
         "crypto_macro": -0.031,
         "geopolitical": -0.234,
         "fed_rates": 0.191
@@ -45,8 +45,8 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.66,
-      "health": -0.0151,
+      "up_down_ratio": 1.67,
+      "health": -0.0136,
       "vol_ratio": 0.03,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99762,
-      "ema200": 0.99885,
-      "macd": -0.001106,
-      "macd_signal": -0.001316,
-      "rsi14": 47.1,
+      "ema50": 0.99763,
+      "ema200": 0.99884,
+      "macd": -0.000846,
+      "macd_signal": -0.001208,
+      "rsi14": 50.5,
       "atr14": 0.00129,
-      "bb_position": 0.539
+      "bb_position": 0.662
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.87%",
-    "portfolio_eur": 9.7419,
-    "total_pnl_pct": -1.756,
-    "bh_pnl_pct": 0.444,
-    "alpha_pct": -2.2,
+    "reason": "HOLD LONG: P&L -0.79%",
+    "portfolio_eur": 9.7497,
+    "total_pnl_pct": -1.677,
+    "bh_pnl_pct": 0.524,
+    "alpha_pct": -2.201,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 157998
+  "data_bars": 157999
 }
