@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T09:06:10.079668+00:00",
+  "timestamp": "2026-06-21T09:11:21.412669+00:00",
   "signal": {
-    "price": 0.9972,
+    "price": 0.9968,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4294,
+    "xgb_prob": 0.4259,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.003,
+      "score": -0.002,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
+      "bullish_pct": 30.0,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.123,
         "crypto_macro": -0.09,
         "geopolitical": -0.265,
-        "fed_rates": 0.222
+        "fed_rates": 0.191
       },
       "geo_shock": false,
       "geo_dip": {
@@ -46,7 +46,7 @@
     "vpa": {
       "phase": "ACCUMULATION",
       "up_down_ratio": 1.66,
-      "health": -0.1544,
+      "health": -0.1513,
       "vol_ratio": 0.0,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99849,
-      "ema200": 0.99913,
-      "macd": -0.000662,
-      "macd_signal": -0.000561,
-      "rsi14": 44.3,
-      "atr14": 0.00074,
-      "bb_position": 0.356
+      "ema50": 0.99841,
+      "ema200": 0.99911,
+      "macd": -0.000672,
+      "macd_signal": -0.000589,
+      "rsi14": 41.8,
+      "atr14": 0.00071,
+      "bb_position": 0.325
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.75%",
-    "portfolio_eur": 9.7536,
-    "total_pnl_pct": -1.638,
-    "bh_pnl_pct": 0.565,
-    "alpha_pct": -2.202,
+    "reason": "HOLD LONG: P&L -0.79%",
+    "portfolio_eur": 9.7497,
+    "total_pnl_pct": -1.677,
+    "bh_pnl_pct": 0.524,
+    "alpha_pct": -2.201,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 157952
+  "data_bars": 157953
 }
