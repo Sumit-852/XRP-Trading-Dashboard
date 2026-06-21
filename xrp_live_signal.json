@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T14:31:26.680816+00:00",
+  "timestamp": "2026-06-21T14:36:08.448012+00:00",
   "signal": {
-    "price": 0.9959,
+    "price": 0.9962,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.462,
+    "xgb_prob": 0.4632,
     "hybrid_score": 3,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,14 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.006,
+      "score": 0.034,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
-      "headlines_analyzed": 30,
+      "bullish_pct": 35.0,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
       "feed_scores": {
+        "xrp": 0.062,
+        "crypto_macro": 0.045,
         "geopolitical": -0.164,
-        "fed_rates": 0.191
+        "fed_rates": 0.192
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,21 +33,21 @@
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Apec forum: openness and collaboration key to solving global trade challenges - South China Morning Post",
-        "The Fed Held Its Target Range For the Fourth Meeting in a Row but Interest Costs Remain High - Peter G. Peterson Foundat",
-        "Fed holds US interest rates steady as uncertainty over Trump's Iran deal remains - BBC"
+        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
       ],
       "top_bearish": [
-        "Antoni: 'Byzantine' Tariff Structure Threatens USMCA Cross-Border Auto Trade - Rio Grande Guardian",
-        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune",
-        "Chinese Export Flood Tests Europe\u2019s Stomach for Trade War With Beijing - WSJ"
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
+        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
       "up_down_ratio": 1.8,
-      "health": 0.0623,
-      "vol_ratio": 0.1,
+      "health": 0.0591,
+      "vol_ratio": 0.0,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -56,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99696,
-      "ema200": 0.99842,
-      "macd": -9.3e-05,
-      "macd_signal": -0.000179,
-      "rsi14": 47.4,
-      "atr14": 0.00107,
-      "bb_position": 0.365
+      "ema50": 0.99694,
+      "ema200": 0.9984,
+      "macd": -7.6e-05,
+      "macd_signal": -0.000154,
+      "rsi14": 48.8,
+      "atr14": 0.00099,
+      "bb_position": 0.457
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -74,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.88%",
-    "portfolio_eur": 9.7409,
-    "total_pnl_pct": -1.766,
-    "bh_pnl_pct": 0.434,
-    "alpha_pct": -2.199,
+    "reason": "HOLD LONG: P&L -0.85%",
+    "portfolio_eur": 9.7438,
+    "total_pnl_pct": -1.736,
+    "bh_pnl_pct": 0.464,
+    "alpha_pct": -2.2,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -111,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158017
+  "data_bars": 158018
 }
