@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T12:06:05.103048+00:00",
+  "timestamp": "2026-06-21T12:11:16.345067+00:00",
   "signal": {
-    "price": 0.9956,
+    "price": 0.9957,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4952,
+    "xgb_prob": 0.4751,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.029,
+      "score": -0.01,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.1,
-      "bearish_pct": 33.3,
-      "headlines_analyzed": 45,
+      "bullish_pct": 31.7,
+      "bearish_pct": 30.0,
+      "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.107,
-        "geopolitical": -0.261,
-        "fed_rates": 0.195
+        "xrp": 0.062,
+        "crypto_macro": -0.08,
+        "geopolitical": -0.202,
+        "fed_rates": 0.191
       },
       "geo_shock": false,
       "geo_dip": {
@@ -33,20 +34,20 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
-        "XRP Price To $27? Bullish Analysts See Growth as Ex-Ripple CTO Boasts Use Cases - Yahoo Finance",
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto"
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
       ],
       "top_bearish": [
-        "Whales dump XRP worth millions - thestreet.com",
-        "RippleX Engineer Says the Market Stopped Talking Lawsuits and Started Talking XRP - Coinpedia",
-        "Why Europe\u2019s fight against a \u2018China shock 2.0\u2019 could end before it even begins - South China Morning Post"
+        "Crypto market holds steady amid Strait of Hormuz tensions; Solana leads gains, Bitcoin near $64K key level. - Pluang",
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
       "up_down_ratio": 1.63,
-      "health": -0.028,
-      "vol_ratio": 0.4,
+      "health": -0.0313,
+      "vol_ratio": 0.0,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -57,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99901,
-      "ema200": 0.99928,
-      "macd": -0.001297,
-      "macd_signal": -0.00081,
-      "rsi14": 38.3,
-      "atr14": 0.00141,
-      "bb_position": 0.202
+      "ema50": 0.99888,
+      "ema200": 0.99925,
+      "macd": -0.001313,
+      "macd_signal": -0.000909,
+      "rsi14": 38.6,
+      "atr14": 0.00131,
+      "bb_position": 0.232
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -75,10 +76,10 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.91%",
-    "portfolio_eur": 9.738,
-    "total_pnl_pct": -1.795,
-    "bh_pnl_pct": 0.403,
+    "reason": "HOLD LONG: P&L -0.90%",
+    "portfolio_eur": 9.7389,
+    "total_pnl_pct": -1.786,
+    "bh_pnl_pct": 0.413,
     "alpha_pct": -2.199,
     "position": "LONG",
     "xrp_held": 9.781,
@@ -112,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 157988
+  "data_bars": 157989
 }
