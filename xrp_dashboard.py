@@ -21,6 +21,8 @@ import streamlit as st
 DASH_STATE_FILE = "xrp_dashboard_state.json"
 SIGNAL_FILE = "xrp_live_signal.json"
 NEWS_FILE = "xrp_news_sentiment.json"
+FEEDBACK_FILE = "xrp_trade_feedback.json"
+OHLCV_FILE = "xrp_eur_5min.csv"
 INITIAL_CAPITAL = 5_000.0
 
 st.set_page_config(page_title="XRP/EUR AI Trading Dashboard", layout="wide")
@@ -166,6 +168,124 @@ def main():
         st.plotly_chart(fig_eq, use_container_width=True)
     else:
         st.info("Equity curve will appear after a few trading cycles.")
+
+    # ── Price + Volume + Model Predictions ─────────────────────────
+    st.subheader("Price & Volume with Model Predictions")
+    ohlcv_bars = st.selectbox("Show last", ["6 hours", "12 hours", "24 hours", "3 days", "7 days"], index=2)
+    bars_map = {"6 hours": 72, "12 hours": 144, "24 hours": 288, "3 days": 864, "7 days": 2016}
+    show_bars = bars_map[ohlcv_bars]
+
+    if os.path.exists(OHLCV_FILE):
+        ohlcv = pd.read_csv(OHLCV_FILE).tail(show_bars)
+        ohlcv["datetime"] = pd.to_datetime(ohlcv["time"], unit="s", utc=True).dt.tz_convert(CET)
+
+        fig_pv = make_subplots(
+            rows=3, cols=1, shared_xaxes=True, vertical_spacing=0.03,
+            row_heights=[0.55, 0.25, 0.20],
+            subplot_titles=("XRP/EUR Price", "Volume", "Model Prediction (UP probability)"),
+        )
+
+        fig_pv.add_trace(go.Candlestick(
+            x=ohlcv["datetime"], open=ohlcv["open"], high=ohlcv["high"],
+            low=ohlcv["low"], close=ohlcv["close"], name="OHLC",
+            increasing_line_color="#26a69a", decreasing_line_color="#ef5350",
+        ), row=1, col=1)
+
+        buy_trades = [t for t in trades if t["action"] == "BUY"]
+        sell_trades = [t for t in trades if t["action"] == "SELL"]
+        if buy_trades:
+            buy_df = pd.DataFrame(buy_trades)
+            buy_df["dt"] = pd.to_datetime(buy_df["time"], format="mixed", utc=True).dt.tz_convert(CET)
+            buy_df = buy_df[buy_df["dt"] >= ohlcv["datetime"].min()]
+            if not buy_df.empty:
+                fig_pv.add_trace(go.Scatter(
+                    x=buy_df["dt"], y=buy_df["price"], mode="markers", name="BUY",
+                    marker=dict(symbol="triangle-up", size=12, color="#26a69a", line=dict(width=1, color="white")),
+                ), row=1, col=1)
+        if sell_trades:
+            sell_df = pd.DataFrame(sell_trades)
+            sell_df["dt"] = pd.to_datetime(sell_df["time"], format="mixed", utc=True).dt.tz_convert(CET)
+            sell_df = sell_df[sell_df["dt"] >= ohlcv["datetime"].min()]
+            if not sell_df.empty:
+                fig_pv.add_trace(go.Scatter(
+                    x=sell_df["dt"], y=sell_df["price"], mode="markers", name="SELL",
+                    marker=dict(symbol="triangle-down", size=12, color="#ef5350", line=dict(width=1, color="white")),
+                ), row=1, col=1)
+
+        colors = ["#26a69a" if c >= o else "#ef5350" for o, c in zip(ohlcv["open"], ohlcv["close"])]
+        fig_pv.add_trace(go.Bar(
+            x=ohlcv["datetime"], y=ohlcv["volume"], name="Volume",
+            marker_color=colors, opacity=0.7,
+        ), row=2, col=1)
+
+        eq_with_pred = [e for e in eq_history if "xgb_prob" in e]
+        if eq_with_pred:
+            pred_df = pd.DataFrame(eq_with_pred)
+            pred_df["datetime"] = pd.to_datetime(pred_df["time"], format="mixed", utc=True).dt.tz_convert(CET)
+            pred_df = pred_df[pred_df["datetime"] >= ohlcv["datetime"].min()]
+            if not pred_df.empty:
+                fig_pv.add_trace(go.Scatter(
+                    x=pred_df["datetime"], y=pred_df["xgb_prob"], name="UP Prob",
+                    line=dict(color="#42a5f5", width=2),
+                ), row=3, col=1)
+                fig_pv.add_hline(y=0.5, line_dash="dash", line_color="white", opacity=0.3, row=3, col=1)
+        else:
+            pred_prices = eq_history[-show_bars:] if eq_history else []
+            if pred_prices:
+                hist_df = pd.DataFrame(pred_prices)
+                hist_df["datetime"] = pd.to_datetime(hist_df["time"], format="mixed", utc=True).dt.tz_convert(CET)
+                hist_df = hist_df[hist_df["datetime"] >= ohlcv["datetime"].min()]
+                if not hist_df.empty:
+                    fig_pv.add_trace(go.Scatter(
+                        x=hist_df["datetime"], y=hist_df["price"], name="Model Price Track",
+                        line=dict(color="#42a5f5", width=1, dash="dot"),
+                    ), row=3, col=1)
+
+        fig_pv.update_layout(
+            height=700, template="plotly_dark",
+            margin=dict(l=50, r=50, t=40, b=30),
+            xaxis_rangeslider_visible=False,
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        )
+        fig_pv.update_yaxes(title_text="EUR", row=1, col=1)
+        fig_pv.update_yaxes(title_text="Vol", row=2, col=1)
+        fig_pv.update_yaxes(title_text="Prob", row=3, col=1, range=[0, 1])
+        st.plotly_chart(fig_pv, use_container_width=True)
+    else:
+        st.info("OHLCV data not available yet.")
+
+    # ── Trade Feedback / Model Learning ──────────────────────────────
+    if os.path.exists(FEEDBACK_FILE):
+        with open(FEEDBACK_FILE) as f:
+            fb = json.load(f)
+
+        st.subheader("Model Learning (Trade Feedback)")
+        fb1, fb2, fb3, fb4, fb5, fb6 = st.columns(6)
+        fb1.metric("Win Rate", f"{fb.get('overall_win_rate', 0):.0%}",
+                    f"Recent: {fb.get('recent_win_rate', 0):.0%}")
+        fb2.metric("Loss Streak", fb.get("loss_streak", 0),
+                    "Caution" if fb.get("loss_streak", 0) >= 3 else "OK")
+        fb3.metric("Score Threshold", fb.get("min_score_effective", 3),
+                    f"+{fb.get('score_adjustment', 0)} from default" if fb.get("score_adjustment", 0) else "Default")
+        fb4.metric("Adapted SL", f"{fb.get('adapted_sl_pct', 1.0)}%",
+                    f"Default: {1.0}%" if fb.get("adapted_sl_pct", 1.0) != 1.0 else None)
+        fb5.metric("Adapted TP", f"{fb.get('adapted_tp_pct', 4.0)}%",
+                    f"Default: {4.0}%" if fb.get("adapted_tp_pct", 4.0) != 4.0 else None)
+        fb6.metric("Avg Win / Loss",
+                    f"+{fb.get('avg_win_pct', 0):.2f}%",
+                    f"/ {fb.get('avg_loss_pct', 0):.2f}%")
+
+        with st.expander("Loss Analysis", expanded=False):
+            la1, la2 = st.columns(2)
+            with la1:
+                st.markdown("**Loss Reasons**")
+                for reason, count in fb.get("loss_reasons", {}).items():
+                    st.markdown(f"- {reason}: **{count}** trades")
+            with la2:
+                st.markdown("**Risk Profile**")
+                st.markdown(f"- Stop Loss exits: **{fb.get('sl_loss_ratio', 0):.0%}** of losses")
+                st.markdown(f"- Model Sell exits: **{fb.get('model_loss_ratio', 0):.0%}** of losses")
+                st.markdown(f"- Low-score entries losing: **{fb.get('low_score_loss_pct', 0):.0%}**")
 
     # ── Trade history ────────────────────────────────────────────────
     st.subheader("Trade History")
