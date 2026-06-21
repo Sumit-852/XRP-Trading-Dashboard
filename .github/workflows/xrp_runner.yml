@@ -28,14 +28,6 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: model
 
-      - name: Restore cached OHLCV data
-        id: cache
-        uses: actions/cache@v4
-        with:
-          path: xrp_eur_5min.csv
-          key: xrp-5min-${{ github.run_number }}
-          restore-keys: xrp-5min-
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -49,13 +41,9 @@ jobs:
       - name: Prepare data + run model
         working-directory: model
         run: |
-          # Priority: cached CSV > repo CSV > fresh fetch
-          if [ -f "$GITHUB_WORKSPACE/xrp_eur_5min.csv" ]; then
-            cp "$GITHUB_WORKSPACE/xrp_eur_5min.csv" .
-            echo "Using cached CSV ($(wc -l < xrp_eur_5min.csv) rows)"
-          elif [ -f "$GITHUB_WORKSPACE/xrp_eur_5min.csv" ]; then
-            echo "No cache — should not happen if seed file exists"
-          fi
+          # Use the full 157K-bar CSV from the dashboard repo
+          cp "$GITHUB_WORKSPACE/xrp_eur_5min.csv" .
+          echo "Loaded CSV ($(wc -l < xrp_eur_5min.csv) rows)"
 
           # Copy dashboard state from public repo
           for f in xrp_dashboard_state.json xrp_news_sentiment.json; do
@@ -75,14 +63,14 @@ jobs:
           cp model/xrp_news_sentiment.json . 2>/dev/null || true
           cp model/xrp_model_state.json . 2>/dev/null || true
 
-          # Update cached CSV (not committed to git — cache handles persistence)
+          # Update the master CSV with new bars (keeps it growing)
           cp model/xrp_eur_5min.csv . 2>/dev/null || true
 
-      - name: Commit JSON results (not CSV)
+      - name: Commit results
         run: |
           git config user.name "XRP Trading Bot"
           git config user.email "bot@github-actions"
-          git add *.json 2>/dev/null || true
+          git add *.json xrp_eur_5min.csv 2>/dev/null || true
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
