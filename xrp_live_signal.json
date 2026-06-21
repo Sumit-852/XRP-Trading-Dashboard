@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T14:26:08.408204+00:00",
+  "timestamp": "2026-06-21T14:31:26.680816+00:00",
   "signal": {
-    "price": 0.9969,
+    "price": 0.9959,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4626,
+    "xgb_prob": 0.462,
     "hybrid_score": 3,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,14 +11,12 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.018,
+      "score": -0.006,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 36.7,
-      "bearish_pct": 28.3,
-      "headlines_analyzed": 60,
+      "bullish_pct": 33.3,
+      "bearish_pct": 30.0,
+      "headlines_analyzed": 30,
       "feed_scores": {
-        "xrp": 0.089,
-        "crypto_macro": -0.043,
         "geopolitical": -0.164,
         "fed_rates": 0.191
       },
@@ -33,21 +31,21 @@
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
+        "Apec forum: openness and collaboration key to solving global trade challenges - South China Morning Post",
+        "The Fed Held Its Target Range For the Fourth Meeting in a Row but Interest Costs Remain High - Peter G. Peterson Foundat",
+        "Fed holds US interest rates steady as uncertainty over Trump's Iran deal remains - BBC"
       ],
       "top_bearish": [
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Crypto market holds steady amid Strait of Hormuz tensions; Solana leads gains, Bitcoin near $64K key level. - Pluang",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+        "Antoni: 'Byzantine' Tariff Structure Threatens USMCA Cross-Border Auto Trade - Rio Grande Guardian",
+        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune",
+        "Chinese Export Flood Tests Europe\u2019s Stomach for Trade War With Beijing - WSJ"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
       "up_down_ratio": 1.8,
-      "health": 0.056,
-      "vol_ratio": 0.11,
+      "health": 0.0623,
+      "vol_ratio": 0.1,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +56,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.997,
-      "ema200": 0.99845,
-      "macd": -5.1e-05,
-      "macd_signal": -0.000199,
-      "rsi14": 52.2,
+      "ema50": 0.99696,
+      "ema200": 0.99842,
+      "macd": -9.3e-05,
+      "macd_signal": -0.000179,
+      "rsi14": 47.4,
       "atr14": 0.00107,
-      "bb_position": 0.642
+      "bb_position": 0.365
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -76,11 +74,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.78%",
-    "portfolio_eur": 9.7507,
-    "total_pnl_pct": -1.667,
-    "bh_pnl_pct": 0.534,
-    "alpha_pct": -2.202,
+    "reason": "HOLD LONG: P&L -0.88%",
+    "portfolio_eur": 9.7409,
+    "total_pnl_pct": -1.766,
+    "bh_pnl_pct": 0.434,
+    "alpha_pct": -2.199,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +111,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158016
+  "data_bars": 158017
 }
