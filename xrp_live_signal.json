@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-21T13:26:14.107965+00:00",
+  "timestamp": "2026-06-21T13:31:28.529830+00:00",
   "signal": {
-    "price": 0.9965,
+    "price": 0.9959,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4622,
+    "xgb_prob": 0.4631,
     "hybrid_score": 3,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.018,
+      "score": 0.011,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "bullish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.044,
+        "xrp": 0.093,
         "crypto_macro": -0.02,
-        "geopolitical": -0.28,
-        "fed_rates": 0.161
+        "geopolitical": -0.248,
+        "fed_rates": 0.191
       },
       "geo_shock": false,
       "geo_dip": {
@@ -38,16 +38,16 @@
         "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
       ],
       "top_bearish": [
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
         "Crypto market holds steady amid Strait of Hormuz tensions; Solana leads gains, Bitcoin near $64K key level. - Pluang",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
+        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.74,
-      "health": 0.0359,
-      "vol_ratio": 0.22,
+      "up_down_ratio": 1.75,
+      "health": 0.0444,
+      "vol_ratio": 0.26,
       "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99748,
-      "ema200": 0.99874,
-      "macd": -0.00029,
-      "macd_signal": -0.000697,
-      "rsi14": 49.0,
-      "atr14": 0.00131,
-      "bb_position": 0.692
+      "ema50": 0.99741,
+      "ema200": 0.99871,
+      "macd": -0.000315,
+      "macd_signal": -0.000622,
+      "rsi14": 46.6,
+      "atr14": 0.0013,
+      "bb_position": 0.568
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.82%",
-    "portfolio_eur": 9.7468,
-    "total_pnl_pct": -1.707,
-    "bh_pnl_pct": 0.494,
-    "alpha_pct": -2.201,
+    "reason": "HOLD LONG: P&L -0.88%",
+    "portfolio_eur": 9.7409,
+    "total_pnl_pct": -1.766,
+    "bh_pnl_pct": 0.434,
+    "alpha_pct": -2.199,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -113,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158004
+  "data_bars": 158005
 }
