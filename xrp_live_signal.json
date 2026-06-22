@@ -1,53 +1,53 @@
 {
-  "timestamp": "2026-06-22T16:56:07.605491+00:00",
+  "timestamp": "2026-06-22T17:01:44.633103+00:00",
   "signal": {
-    "price": 0.9953,
+    "price": 0.9954,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.475,
-    "hybrid_score": 1,
+    "xgb_prob": 0.4846,
+    "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.012,
+      "score": 0.039,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "bullish_pct": 30.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.123,
+        "xrp": 0.081,
         "crypto_macro": 0.05,
-        "geopolitical": -0.415,
+        "geopolitical": -0.182,
         "fed_rates": 0.19
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "recovering": true,
+        "recovering": false,
         "buy_signal": false,
-        "phase": "RECOVERING"
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
         "Crypto trading rebounds as search interest surges despite June market correction - eciks.org",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
+        "How To Choose The Best Crypto App In 2026 - Forbes"
       ],
       "top_bearish": [
         "XRP\u2019s Biggest Warning Sign Is Still Flashing Despite Easing Whale Activity - CryptoPotato",
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Israel and Iran trade strikes, threatening to drag region back to war - Montana Public Radio"
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": -0.0335,
-      "vol_ratio": 0.92,
+      "up_down_ratio": 1.03,
+      "health": 0.0459,
+      "vol_ratio": 0.1,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99912,
-      "ema200": 0.99654,
-      "macd": -0.001822,
-      "macd_signal": -0.001917,
-      "rsi14": 40.3,
-      "atr14": 0.00204,
-      "bb_position": 0.324
+      "ema50": 0.99898,
+      "ema200": 0.99653,
+      "macd": -0.00171,
+      "macd_signal": -0.001873,
+      "rsi14": 40.8,
+      "atr14": 0.00201,
+      "bb_position": 0.353
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,10 +76,10 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.94%",
-    "portfolio_eur": 9.735,
-    "total_pnl_pct": -1.825,
-    "bh_pnl_pct": 0.373,
+    "reason": "HOLD LONG: P&L -0.93%",
+    "portfolio_eur": 9.736,
+    "total_pnl_pct": -1.815,
+    "bh_pnl_pct": 0.383,
     "alpha_pct": -2.198,
     "position": "LONG",
     "xrp_held": 9.781,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158334
+  "data_bars": 158335
 }
