@@ -1,25 +1,26 @@
 {
-  "timestamp": "2026-06-22T05:51:17.126478+00:00",
+  "timestamp": "2026-06-22T05:56:09.335291+00:00",
   "signal": {
-    "price": 0.9892,
+    "price": 0.9888,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4662,
+    "xgb_prob": 0.468,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.137,
+      "sentiment": "NEUTRAL",
+      "score": -0.041,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 22.2,
-      "bearish_pct": 40.0,
-      "headlines_analyzed": 45,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
       "feed_scores": {
-        "crypto_macro": -0.167,
-        "geopolitical": -0.309,
-        "fed_rates": 0.139
+        "xrp": 0.085,
+        "crypto_macro": -0.096,
+        "geopolitical": -0.415,
+        "fed_rates": 0.222
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,21 +33,21 @@
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Week Ahead for FX, Bonds: U.S. Inflation Data in Focus as Prospects of Fed Rate Hike Increase - WSJ",
-        "Federal Reserve holds interest rates steady and hints at rate hike later this year - NPR",
-        "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance"
+        "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": -0.0442,
-      "vol_ratio": 0.35,
+      "up_down_ratio": 0.95,
+      "health": -0.0548,
+      "vol_ratio": 0.0,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -57,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.98991,
-      "ema200": 0.99228,
-      "macd": 0.000361,
-      "macd_signal": 0.000253,
-      "rsi14": 46.8,
-      "atr14": 0.00132,
-      "bb_position": 0.478
+      "ema50": 0.98984,
+      "ema200": 0.99224,
+      "macd": 0.000192,
+      "macd_signal": 0.000235,
+      "rsi14": 45.3,
+      "atr14": 0.00125,
+      "bb_position": 0.409
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -75,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.54%",
-    "portfolio_eur": 9.6754,
-    "total_pnl_pct": -2.426,
-    "bh_pnl_pct": -0.242,
-    "alpha_pct": -2.184,
+    "reason": "STOP_LOSS: -1.58%",
+    "portfolio_eur": 9.6715,
+    "total_pnl_pct": -2.466,
+    "bh_pnl_pct": -0.282,
+    "alpha_pct": -2.183,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6754,
+    "cash_eur": 9.6715,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -113,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158201
+  "data_bars": 158202
 }
