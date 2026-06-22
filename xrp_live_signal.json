@@ -1,32 +1,33 @@
 {
-  "timestamp": "2026-06-22T07:31:33.032907+00:00",
+  "timestamp": "2026-06-22T07:36:12.613765+00:00",
   "signal": {
-    "price": 0.9932,
+    "price": 0.993,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.413,
-    "hybrid_score": 2,
+    "xgb_prob": 0.4179,
+    "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.025,
+      "score": -0.004,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.6,
-      "bearish_pct": 31.1,
-      "headlines_analyzed": 45,
+      "bullish_pct": 31.7,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.126,
-        "geopolitical": -0.335,
+        "crypto_macro": -0.113,
+        "geopolitical": -0.273,
         "fed_rates": 0.222
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "recovering": true,
+        "recovering": false,
         "buy_signal": false,
-        "phase": "RECOVERING"
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
@@ -38,15 +39,15 @@
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
-        "RCAT Stock Heads For Worst Month This Year: China\u2019s New Export Restrictions Raise New Supply Chain Fears - Stocktwits"
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.01,
-      "health": -0.0444,
-      "vol_ratio": 1.67,
+      "up_down_ratio": 1.0,
+      "health": -0.0413,
+      "vol_ratio": 1.0,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -57,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.98971,
-      "ema200": 0.99175,
-      "macd": 0.000656,
-      "macd_signal": 6.6e-05,
-      "rsi14": 63.6,
-      "atr14": 0.00171,
-      "bb_position": 0.962
+      "ema50": 0.98983,
+      "ema200": 0.99176,
+      "macd": 0.000798,
+      "macd_signal": 0.00021,
+      "rsi14": 63.1,
+      "atr14": 0.00166,
+      "bb_position": 0.893
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -75,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.14%",
-    "portfolio_eur": 9.7145,
-    "total_pnl_pct": -2.032,
-    "bh_pnl_pct": 0.161,
+    "reason": "STOP_LOSS: -1.16%",
+    "portfolio_eur": 9.7125,
+    "total_pnl_pct": -2.052,
+    "bh_pnl_pct": 0.141,
     "alpha_pct": -2.193,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.7145,
+    "cash_eur": 9.7125,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -113,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158221
+  "data_bars": 158222
 }
