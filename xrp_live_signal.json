@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T21:36:12.576410+00:00",
+  "timestamp": "2026-06-22T21:41:20.814749+00:00",
   "signal": {
-    "price": 0.9882,
+    "price": 0.9852,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0937,
+    "xgb_prob": 0.1161,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -20,7 +20,7 @@
         "xrp": 0.158,
         "crypto_macro": 0.054,
         "geopolitical": -0.176,
-        "fed_rates": 0.148
+        "fed_rates": 0.147
       },
       "geo_shock": false,
       "geo_dip": {
@@ -46,18 +46,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.01,
-      "health": 0.0242,
-      "vol_ratio": 0.0,
+      "health": 0.0236,
+      "vol_ratio": 0.08,
       "interpretation": "No clear volume conviction"
     },
     "technicals": {
-      "ema50": 0.9917,
-      "ema200": 0.99455,
-      "macd": -0.001119,
-      "macd_signal": -0.001121,
-      "rsi14": 41.5,
-      "atr14": 0.00117,
-      "bb_position": 0.275
+      "ema50": 0.99133,
+      "ema200": 0.99443,
+      "macd": -0.001516,
+      "macd_signal": -0.001239,
+      "rsi14": 33.2,
+      "atr14": 0.00135,
+      "bb_position": -0.024
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -68,22 +68,15 @@
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "STOP_LOSS: -1.64%",
-    "portfolio_eur": 9.6656,
-    "total_pnl_pct": -2.525,
-    "bh_pnl_pct": -0.343,
-    "alpha_pct": -2.182,
+    "action": "HOLD",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "portfolio_eur": 4922.43,
+    "total_pnl_pct": -1.551,
     "position": "CASH",
-    "xrp_held": 0,
-    "cash_eur": 9.6656,
-    "trade_count": 3,
-    "draw_levels": {
-      "entry": 1.0047,
-      "take_profit": 1.03484,
-      "stop_loss": 0.99465,
-      "trailing_stop": 0.98461
-    }
+    "xrp_held": 0.0,
+    "cash_eur": 4922.43,
+    "trade_count": 46,
+    "draw_levels": {}
   },
   "trade_feedback": {
     "overall_win_rate": 0.435,
@@ -107,5 +100,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158390
+  "data_bars": 158391
 }
