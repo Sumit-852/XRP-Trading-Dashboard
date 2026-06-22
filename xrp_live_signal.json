@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-06-22T14:51:25.810738+00:00",
+  "timestamp": "2026-06-22T14:56:18.979821+00:00",
   "signal": {
-    "price": 0.9989,
+    "price": 0.9959,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5022,
+    "xgb_prob": 0.5092,
     "hybrid_score": 1,
-    "regime": "BULLISH",
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.079,
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews",
         "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": -0.1593,
-      "vol_ratio": 0.33,
+      "up_down_ratio": 0.95,
+      "health": -0.1743,
+      "vol_ratio": 0.77,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.00295,
-      "ema200": 0.99633,
-      "macd": -0.001578,
-      "macd_signal": 0.000247,
-      "rsi14": 34.7,
-      "atr14": 0.0025,
-      "bb_position": 0.147
+      "ema50": 1.00261,
+      "ema200": 0.99631,
+      "macd": -0.002142,
+      "macd_signal": -0.000252,
+      "rsi14": 30.1,
+      "atr14": 0.00259,
+      "bb_position": 0.095
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.58%",
-    "portfolio_eur": 9.7702,
-    "total_pnl_pct": -1.47,
-    "bh_pnl_pct": 0.736,
-    "alpha_pct": -2.206,
+    "reason": "HOLD LONG: P&L -0.88%",
+    "portfolio_eur": 9.7409,
+    "total_pnl_pct": -1.766,
+    "bh_pnl_pct": 0.434,
+    "alpha_pct": -2.199,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158309
+  "data_bars": 158310
 }
