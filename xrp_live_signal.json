@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T02:26:11.883381+00:00",
+  "timestamp": "2026-06-22T02:31:29.936611+00:00",
   "signal": {
-    "price": 0.995,
+    "price": 0.9942,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4637,
+    "xgb_prob": 0.4719,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.067,
+      "score": -0.055,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.004,
-        "crypto_macro": -0.164,
-        "geopolitical": -0.286,
+        "xrp": 0.052,
+        "crypto_macro": -0.177,
+        "geopolitical": -0.293,
         "fed_rates": 0.222
       },
       "geo_shock": false,
@@ -34,8 +34,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Is XRP (Ripple) a Strong Buy at $1.15? - 24/7 Wall St."
+        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
@@ -45,8 +45,8 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": -0.0264,
+      "up_down_ratio": 1.04,
+      "health": -0.0316,
       "vol_ratio": 0.11,
       "interpretation": "No clear volume conviction"
     },
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99179,
+      "ema50": 0.99187,
       "ema200": 0.99374,
-      "macd": 0.001852,
-      "macd_signal": 0.002276,
-      "rsi14": 53.8,
-      "atr14": 0.00264,
-      "bb_position": 0.513
+      "macd": 0.001599,
+      "macd_signal": 0.002135,
+      "rsi14": 52.0,
+      "atr14": 0.0026,
+      "bb_position": 0.428
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -75,16 +75,16 @@
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.97%",
-    "portfolio_eur": 9.7321,
-    "total_pnl_pct": -1.855,
-    "bh_pnl_pct": 0.343,
-    "alpha_pct": -2.198,
-    "position": "LONG",
-    "xrp_held": 9.781,
-    "cash_eur": 0,
-    "trade_count": 2,
+    "action": "SELL",
+    "reason": "STOP_LOSS: -1.05%",
+    "portfolio_eur": 9.7243,
+    "total_pnl_pct": -1.933,
+    "bh_pnl_pct": 0.262,
+    "alpha_pct": -2.195,
+    "position": "CASH",
+    "xrp_held": 0,
+    "cash_eur": 9.7243,
+    "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
       "take_profit": 1.03484,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158160
+  "data_bars": 158161
 }
