@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T09:36:18.481832+00:00",
+  "timestamp": "2026-06-22T09:41:14.976840+00:00",
   "signal": {
     "price": 0.9886,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4899,
+    "xgb_prob": 0.481,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.022,
+      "score": 0.036,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 28.3,
-      "bearish_pct": 23.3,
+      "bullish_pct": 30.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.152,
+        "xrp": 0.177,
         "crypto_macro": -0.07,
         "geopolitical": -0.226,
-        "fed_rates": 0.192
+        "fed_rates": 0.222
       },
       "geo_shock": false,
       "geo_dip": {
@@ -40,14 +40,14 @@
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
         "Why Is Bitcoin Plunging? - Morningstar",
-        "Whales dump XRP worth millions - thestreet.com"
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.14,
-      "health": 0.2242,
-      "vol_ratio": 0.4,
+      "health": 0.2266,
+      "vol_ratio": 0.03,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99013,
-      "ema200": 0.9915,
-      "macd": -0.000314,
-      "macd_signal": -0.000127,
-      "rsi14": 43.4,
-      "atr14": 0.00135,
-      "bb_position": 0.158
+      "ema50": 0.99005,
+      "ema200": 0.99146,
+      "macd": -0.000429,
+      "macd_signal": -0.000196,
+      "rsi14": 44.3,
+      "atr14": 0.00136,
+      "bb_position": 0.202
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158246
+  "data_bars": 158247
 }
