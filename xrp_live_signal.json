@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-06-22T09:01:35.997842+00:00",
+  "timestamp": "2026-06-22T09:06:10.766655+00:00",
   "signal": {
-    "price": 0.9902,
+    "price": 0.9909,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4578,
-    "hybrid_score": 0,
+    "xgb_prob": 0.4637,
+    "hybrid_score": 3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.013,
+      "score": 0.009,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
-      "bearish_pct": 28.3,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.094,
-        "crypto_macro": -0.101,
+        "crypto_macro": -0.043,
         "geopolitical": -0.249,
-        "fed_rates": 0.192
+        "fed_rates": 0.222
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
         "recovering": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
@@ -39,16 +39,16 @@
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
+        "Why Is Bitcoin Plunging? - Morningstar"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": 0.2376,
-      "vol_ratio": 0.52,
-      "interpretation": "No clear volume conviction"
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.16,
+      "health": 0.258,
+      "vol_ratio": 0.0,
+      "interpretation": "Buyers in control -- volume rises on up-moves, quiet on pullbacks"
     },
     "seasonality": {
       "month_score": 0.0,
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99024,
+      "ema50": 0.9903,
       "ema200": 0.99162,
-      "macd": -0.000146,
-      "macd_signal": 6.1e-05,
-      "rsi14": 49.3,
-      "atr14": 0.0015,
-      "bb_position": 0.351
+      "macd": -3.8e-05,
+      "macd_signal": 5e-05,
+      "rsi14": 51.9,
+      "atr14": 0.00146,
+      "bb_position": 0.463
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.44%",
-    "portfolio_eur": 9.6851,
-    "total_pnl_pct": -2.329,
-    "bh_pnl_pct": -0.141,
-    "alpha_pct": -2.187,
+    "reason": "STOP_LOSS: -1.37%",
+    "portfolio_eur": 9.692,
+    "total_pnl_pct": -2.259,
+    "bh_pnl_pct": -0.071,
+    "alpha_pct": -2.188,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6851,
+    "cash_eur": 9.692,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158239
+  "data_bars": 158240
 }
