@@ -1,24 +1,33 @@
 {
-  "timestamp": "2026-06-22T16:41:20.797848+00:00",
-  "score": 0.012,
+  "timestamp": "2026-06-22T16:46:34.973584+00:00",
+  "score": 0.048,
   "label": "NEUTRAL",
-  "bullish_pct": 31.1,
-  "bearish_pct": 31.1,
-  "count": 45,
+  "bullish_pct": 33.3,
+  "bearish_pct": 25.0,
+  "count": 60,
   "feed_scores": {
-    "crypto_macro": 0.05,
+    "xrp": 0.123,
+    "crypto_macro": 0.033,
     "geopolitical": -0.193,
     "fed_rates": 0.19
   },
   "geo_shock": false,
   "top_bull": [
     {
-      "title": "Crypto trading rebounds as search interest surges despite June market correction - eciks.org",
-      "pubdate": "Mon, 22 Jun 2026 11:27:08",
-      "compound": 0.758,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": 0.606
+      "title": "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+      "pubdate": "Sat, 20 Jun 2026 20:00:27",
+      "compound": 0.625,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": 0.625
+    },
+    {
+      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
+      "pubdate": "Mon, 22 Jun 2026 04:05:04",
+      "compound": 0.542,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": 0.542
     },
     {
       "title": "How To Choose The Best Crypto App In 2026 - Forbes",
@@ -27,17 +36,17 @@
       "feed": "crypto_macro",
       "weight": 0.8,
       "weighted_score": 0.51
-    },
-    {
-      "title": "Is Exodus Movement, Inc. (NYSEAMERICAN:EXOD) among the Best Crypto Exchange Stocks to Buy Following Bitcoin\u2019s Recovery? ",
-      "pubdate": "Mon, 22 Jun 2026 12:49:58",
-      "compound": 0.637,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": 0.51
     }
   ],
   "top_bear": [
+    {
+      "title": "XRP\u2019s Biggest Warning Sign Is Still Flashing Despite Easing Whale Activity - CryptoPotato",
+      "pubdate": "Mon, 22 Jun 2026 15:45:00",
+      "compound": -0.544,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": -0.544
+    },
     {
       "title": "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
       "pubdate": "Wed, 17 Jun 2026 21:05:00",
@@ -53,14 +62,6 @@
       "feed": "geopolitical",
       "weight": 0.5,
       "weighted_score": -0.345
-    },
-    {
-      "title": "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune",
-      "pubdate": "Sat, 20 Jun 2026 22:12:00",
-      "compound": -0.612,
-      "feed": "geopolitical",
-      "weight": 0.5,
-      "weighted_score": -0.306
     }
   ]
 }
