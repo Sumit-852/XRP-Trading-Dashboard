@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T01:11:21.005030+00:00",
+  "timestamp": "2026-06-22T01:16:12.463353+00:00",
   "signal": {
-    "price": 0.9902,
+    "price": 0.989,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4661,
+    "xgb_prob": 0.4704,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.0,
+      "score": 0.006,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
+      "bullish_pct": 33.3,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.14,
+        "xrp": 0.155,
         "crypto_macro": -0.106,
         "geopolitical": -0.286,
         "fed_rates": 0.222
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.99,
-      "health": -0.5822,
-      "vol_ratio": 0.09,
+      "up_down_ratio": 0.98,
+      "health": -0.5309,
+      "vol_ratio": 0.44,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.98832,
-      "ema200": 0.99337,
-      "macd": 0.001692,
-      "macd_signal": 0.001128,
-      "rsi14": 56.6,
-      "atr14": 0.00219,
-      "bb_position": 0.678
+      "ema50": 0.98826,
+      "ema200": 0.99331,
+      "macd": 0.001362,
+      "macd_signal": 0.001145,
+      "rsi14": 52.8,
+      "atr14": 0.00227,
+      "bb_position": 0.604
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.44%",
-    "portfolio_eur": 9.6851,
-    "total_pnl_pct": -2.329,
-    "bh_pnl_pct": -0.141,
-    "alpha_pct": -2.187,
+    "reason": "STOP_LOSS: -1.56%",
+    "portfolio_eur": 9.6734,
+    "total_pnl_pct": -2.447,
+    "bh_pnl_pct": -0.262,
+    "alpha_pct": -2.184,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6851,
+    "cash_eur": 9.6734,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158145
+  "data_bars": 158146
 }
