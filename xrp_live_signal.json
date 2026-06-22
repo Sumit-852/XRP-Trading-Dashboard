@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T02:16:18.301032+00:00",
+  "timestamp": "2026-06-22T02:21:11.559349+00:00",
   "signal": {
-    "price": 0.9935,
+    "price": 0.9964,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4697,
+    "xgb_prob": 0.4523,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.031,
+      "score": -0.05,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.101,
+        "xrp": 0.052,
         "crypto_macro": -0.164,
         "geopolitical": -0.286,
         "fed_rates": 0.222
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga"
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": -0.2279,
-      "vol_ratio": 0.23,
+      "up_down_ratio": 1.05,
+      "health": -0.2339,
+      "vol_ratio": 0.0,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99139,
-      "ema200": 0.99368,
-      "macd": 0.001973,
-      "macd_signal": 0.002412,
-      "rsi14": 51.5,
-      "atr14": 0.00262,
-      "bb_position": 0.424
+      "ema50": 0.99172,
+      "ema200": 0.99375,
+      "macd": 0.002156,
+      "macd_signal": 0.002406,
+      "rsi14": 57.1,
+      "atr14": 0.00266,
+      "bb_position": 0.635
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -75,16 +75,16 @@
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "STOP_LOSS: -1.11%",
-    "portfolio_eur": 9.7174,
-    "total_pnl_pct": -2.003,
-    "bh_pnl_pct": 0.192,
-    "alpha_pct": -2.194,
-    "position": "CASH",
-    "xrp_held": 0,
-    "cash_eur": 9.7174,
-    "trade_count": 3,
+    "action": "HOLD",
+    "reason": "HOLD LONG: P&L -0.83%",
+    "portfolio_eur": 9.7458,
+    "total_pnl_pct": -1.717,
+    "bh_pnl_pct": 0.484,
+    "alpha_pct": -2.201,
+    "position": "LONG",
+    "xrp_held": 9.781,
+    "cash_eur": 0,
+    "trade_count": 2,
     "draw_levels": {
       "entry": 1.0047,
       "take_profit": 1.03484,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158158
+  "data_bars": 158159
 }
