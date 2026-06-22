@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T00:51:17.870855+00:00",
+  "timestamp": "2026-06-22T00:56:11.187265+00:00",
   "signal": {
-    "price": 0.9903,
+    "price": 0.9921,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4476,
+    "xgb_prob": 0.4233,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.025,
+      "score": 0.008,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.0,
+      "bullish_pct": 33.3,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.185,
+        "xrp": 0.14,
         "crypto_macro": -0.106,
         "geopolitical": -0.245,
         "fed_rates": 0.222
@@ -35,7 +35,7 @@
       "top_bullish": [
         "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
         "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
-        "XRP Price To $27? Bullish Analysts See Growth as Ex-Ripple CTO Boasts Use Cases - Yahoo Finance"
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto"
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
@@ -46,8 +46,8 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.0,
-      "health": -0.572,
-      "vol_ratio": 0.23,
+      "health": -0.5748,
+      "vol_ratio": 0.05,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.98775,
-      "ema200": 0.99345,
-      "macd": 0.001406,
-      "macd_signal": 0.000243,
-      "rsi14": 59.3,
-      "atr14": 0.00222,
-      "bb_position": 0.797
+      "ema50": 0.98795,
+      "ema200": 0.99344,
+      "macd": 0.001649,
+      "macd_signal": 0.000533,
+      "rsi14": 63.7,
+      "atr14": 0.00215,
+      "bb_position": 0.854
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.43%",
-    "portfolio_eur": 9.6861,
-    "total_pnl_pct": -2.318,
-    "bh_pnl_pct": -0.131,
-    "alpha_pct": -2.187,
+    "reason": "STOP_LOSS: -1.25%",
+    "portfolio_eur": 9.7037,
+    "total_pnl_pct": -2.141,
+    "bh_pnl_pct": 0.05,
+    "alpha_pct": -2.191,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6861,
+    "cash_eur": 9.7037,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158141
+  "data_bars": 158142
 }
