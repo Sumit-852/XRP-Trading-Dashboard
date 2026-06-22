@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T15:21:29.198043+00:00",
+  "timestamp": "2026-06-22T15:26:14.738892+00:00",
   "signal": {
-    "price": 0.9997,
+    "price": 0.9994,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4766,
+    "xgb_prob": 0.4765,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.066,
+      "score": 0.077,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 35.0,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.159,
-        "crypto_macro": 0.033,
+        "crypto_macro": 0.07,
         "geopolitical": -0.193,
         "fed_rates": 0.222
       },
@@ -34,8 +34,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
-        "How To Choose The Best Crypto App In 2026 - Forbes"
+        "Crypto trading rebounds as search interest surges despite June market correction - eciks.org",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": -0.1776,
-      "vol_ratio": 1.02,
+      "up_down_ratio": 0.95,
+      "health": -0.188,
+      "vol_ratio": 1.39,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.00223,
-      "ema200": 0.99652,
-      "macd": -0.001872,
-      "macd_signal": -0.001338,
-      "rsi14": 41.9,
-      "atr14": 0.00258,
-      "bb_position": 0.324
+      "ema50": 1.00212,
+      "ema200": 0.99655,
+      "macd": -0.001863,
+      "macd_signal": -0.001444,
+      "rsi14": 41.2,
+      "atr14": 0.00252,
+      "bb_position": 0.333
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.50%",
-    "portfolio_eur": 9.7781,
-    "total_pnl_pct": -1.391,
-    "bh_pnl_pct": 0.817,
-    "alpha_pct": -2.208,
+    "reason": "HOLD LONG: P&L -0.53%",
+    "portfolio_eur": 9.7751,
+    "total_pnl_pct": -1.421,
+    "bh_pnl_pct": 0.787,
+    "alpha_pct": -2.207,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158315
+  "data_bars": 158316
 }
