@@ -1,27 +1,22 @@
 {
-  "timestamp": "2026-06-22T21:41:20.814749+00:00",
+  "timestamp": "2026-06-22T21:46:40.531670+00:00",
   "signal": {
-    "price": 0.9852,
+    "price": 0.9867,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1161,
+    "xgb_prob": 0.1071,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.064,
+      "sentiment": "NO_DATA",
+      "score": 0.0,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
-      "bearish_pct": 23.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.158,
-        "crypto_macro": 0.054,
-        "geopolitical": -0.176,
-        "fed_rates": 0.147
-      },
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -32,32 +27,24 @@
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "From Bitcoin to Stocks: QuantRate Launches Free AI Trading Bot to Help Retail Investors Execute Stock and Crypto Trading",
-        "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
-      ],
-      "top_bearish": [
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.01,
-      "health": 0.0236,
-      "vol_ratio": 0.08,
+      "health": 0.0252,
+      "vol_ratio": 0.04,
       "interpretation": "No clear volume conviction"
     },
     "technicals": {
-      "ema50": 0.99133,
-      "ema200": 0.99443,
-      "macd": -0.001516,
-      "macd_signal": -0.001239,
-      "rsi14": 33.2,
-      "atr14": 0.00135,
-      "bb_position": -0.024
+      "ema50": 0.99117,
+      "ema200": 0.99436,
+      "macd": -0.001453,
+      "macd_signal": -0.001273,
+      "rsi14": 40.0,
+      "atr14": 0.00136,
+      "bb_position": 0.173
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +87,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158391
+  "data_bars": 158392
 }
