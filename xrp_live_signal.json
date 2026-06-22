@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T02:46:13.642361+00:00",
+  "timestamp": "2026-06-22T02:51:16.877114+00:00",
   "signal": {
-    "price": 0.993,
+    "price": 0.9915,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4695,
+    "xgb_prob": 0.4883,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.033,
+      "score": -0.06,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
+      "bullish_pct": 30.0,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.131,
-        "crypto_macro": -0.208,
+        "xrp": 0.034,
+        "crypto_macro": -0.164,
         "geopolitical": -0.286,
-        "fed_rates": 0.222
+        "fed_rates": 0.192
       },
       "geo_shock": false,
       "geo_dip": {
@@ -34,20 +34,20 @@
       "news_driven_crash": false,
       "top_bullish": [
         "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
-        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto"
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+        "Is XRP (Ripple) a Strong Buy at $1.15? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga"
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": -0.0549,
-      "vol_ratio": 0.19,
+      "up_down_ratio": 1.03,
+      "health": -0.046,
+      "vol_ratio": 0.42,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.9921,
-      "ema200": 0.99375,
-      "macd": 0.001025,
-      "macd_signal": 0.001682,
-      "rsi14": 48.6,
-      "atr14": 0.00238,
-      "bb_position": 0.267
+      "ema50": 0.99204,
+      "ema200": 0.99372,
+      "macd": 0.000631,
+      "macd_signal": 0.001458,
+      "rsi14": 45.0,
+      "atr14": 0.00235,
+      "bb_position": 0.027
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.16%",
-    "portfolio_eur": 9.7125,
-    "total_pnl_pct": -2.052,
-    "bh_pnl_pct": 0.141,
-    "alpha_pct": -2.193,
+    "reason": "STOP_LOSS: -1.31%",
+    "portfolio_eur": 9.6979,
+    "total_pnl_pct": -2.199,
+    "bh_pnl_pct": -0.01,
+    "alpha_pct": -2.189,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.7125,
+    "cash_eur": 9.6979,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158164
+  "data_bars": 158165
 }
