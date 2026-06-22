@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-06-22T10:36:06.858406+00:00",
+  "timestamp": "2026-06-22T10:41:19.746525+00:00",
   "signal": {
     "price": 0.9911,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4614,
-    "hybrid_score": 1,
+    "xgb_prob": 0.4647,
+    "hybrid_score": 2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
+      "score": 0.03,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 33.3,
-      "bearish_pct": 25.0,
+      "bullish_pct": 30.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.157,
-        "crypto_macro": 0.009,
-        "geopolitical": -0.29,
+        "crypto_macro": -0.005,
+        "geopolitical": -0.311,
         "fed_rates": 0.204
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "recovering": false,
+        "recovering": true,
         "buy_signal": false,
-        "phase": "NONE"
+        "phase": "RECOVERING"
       },
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
@@ -39,14 +39,14 @@
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews",
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
         "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.13,
-      "health": 0.2136,
+      "health": 0.2061,
       "vol_ratio": 0.0,
       "interpretation": "No clear volume conviction"
     },
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99034,
+      "ema50": 0.99039,
       "ema200": 0.9914,
-      "macd": 0.000284,
-      "macd_signal": 0.000128,
-      "rsi14": 53.2,
-      "atr14": 0.00116,
-      "bb_position": 0.674
+      "macd": 0.000312,
+      "macd_signal": 0.00017,
+      "rsi14": 52.9,
+      "atr14": 0.00113,
+      "bb_position": 0.664
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158258
+  "data_bars": 158259
 }
