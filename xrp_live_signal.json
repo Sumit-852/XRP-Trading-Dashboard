@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-22T19:06:18.752484+00:00",
+  "timestamp": "2026-06-22T19:11:25.243307+00:00",
   "signal": {
-    "price": 0.9894,
+    "price": 0.9898,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5088,
-    "hybrid_score": 2,
+    "xgb_prob": 0.5037,
+    "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.053,
+      "score": 0.04,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
+      "bullish_pct": 28.3,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.129,
-        "crypto_macro": 0.05,
+        "crypto_macro": 0.008,
         "geopolitical": -0.21,
         "fed_rates": 0.195
       },
@@ -35,7 +35,7 @@
       "top_bullish": [
         "Crypto trading rebounds as search interest surges despite June market correction - eciks.org",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
-        "How To Choose The Best Crypto App In 2026 - Forbes"
+        "Is Exodus Movement, Inc. (NYSEAMERICAN:EXOD) among the Best Crypto Exchange Stocks to Buy Following Bitcoin\u2019s Recovery? "
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.07,
-      "health": 0.0061,
-      "vol_ratio": 0.04,
+      "up_down_ratio": 1.06,
+      "health": 0.0033,
+      "vol_ratio": 0.03,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99627,
-      "ema200": 0.99614,
-      "macd": -0.001292,
-      "macd_signal": -0.000505,
-      "rsi14": 29.7,
-      "atr14": 0.00165,
-      "bb_position": 0.055
+      "ema50": 0.99602,
+      "ema200": 0.99608,
+      "macd": -0.001496,
+      "macd_signal": -0.000702,
+      "rsi14": 31.4,
+      "atr14": 0.00159,
+      "bb_position": 0.11
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.52%",
-    "portfolio_eur": 9.6773,
-    "total_pnl_pct": -2.407,
-    "bh_pnl_pct": -0.222,
-    "alpha_pct": -2.185,
+    "reason": "STOP_LOSS: -1.48%",
+    "portfolio_eur": 9.6812,
+    "total_pnl_pct": -2.368,
+    "bh_pnl_pct": -0.182,
+    "alpha_pct": -2.186,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6773,
+    "cash_eur": 9.6812,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158360
+  "data_bars": 158361
 }
