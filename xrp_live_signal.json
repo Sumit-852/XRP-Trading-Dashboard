@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T10:16:17.748428+00:00",
+  "timestamp": "2026-06-22T10:21:27.736030+00:00",
   "signal": {
-    "price": 0.9913,
+    "price": 0.9909,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4499,
+    "xgb_prob": 0.4694,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews",
         "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": 0.2089,
-      "vol_ratio": 0.08,
+      "up_down_ratio": 1.13,
+      "health": 0.188,
+      "vol_ratio": 0.1,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.9902,
+      "ema50": 0.99023,
       "ema200": 0.9914,
-      "macd": 0.000179,
-      "macd_signal": -8.7e-05,
-      "rsi14": 54.9,
-      "atr14": 0.00123,
-      "bb_position": 0.805
+      "macd": 0.000208,
+      "macd_signal": -2.7e-05,
+      "rsi14": 52.9,
+      "atr14": 0.00122,
+      "bb_position": 0.693
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.33%",
-    "portfolio_eur": 9.6959,
-    "total_pnl_pct": -2.22,
-    "bh_pnl_pct": -0.03,
-    "alpha_pct": -2.189,
+    "reason": "STOP_LOSS: -1.37%",
+    "portfolio_eur": 9.692,
+    "total_pnl_pct": -2.259,
+    "bh_pnl_pct": -0.071,
+    "alpha_pct": -2.188,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6959,
+    "cash_eur": 9.692,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158254
+  "data_bars": 158255
 }
