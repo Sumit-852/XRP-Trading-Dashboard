@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T13:51:16.859918+00:00",
+  "timestamp": "2026-06-22T13:56:14.406291+00:00",
   "signal": {
-    "price": 1.0144,
+    "price": 1.0148,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4357,
+    "xgb_prob": 0.4402,
     "hybrid_score": 1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.058,
+      "score": 0.061,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 36.7,
+      "bullish_pct": 35.0,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.146,
-        "crypto_macro": 0.047,
+        "crypto_macro": 0.057,
         "geopolitical": -0.22,
         "fed_rates": 0.208
       },
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
+        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": -0.0798,
-      "vol_ratio": 0.25,
+      "up_down_ratio": 1.08,
+      "health": -0.0653,
+      "vol_ratio": 0.01,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.00214,
-      "ema200": 0.99524,
-      "macd": 0.003696,
-      "macd_signal": 0.003378,
-      "rsi14": 75.1,
-      "atr14": 0.00216,
-      "bb_position": 0.909
+      "ema50": 1.00265,
+      "ema200": 0.99544,
+      "macd": 0.003824,
+      "macd_signal": 0.003474,
+      "rsi14": 75.4,
+      "atr14": 0.00202,
+      "bb_position": 0.89
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.97%",
-    "portfolio_eur": 9.9218,
-    "total_pnl_pct": 0.059,
-    "bh_pnl_pct": 2.299,
-    "alpha_pct": -2.24,
+    "reason": "HOLD LONG: P&L +1.01%",
+    "portfolio_eur": 9.9258,
+    "total_pnl_pct": 0.098,
+    "bh_pnl_pct": 2.34,
+    "alpha_pct": -2.241,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -89,7 +89,7 @@
       "entry": 1.0047,
       "take_profit": 1.03484,
       "stop_loss": 0.99465,
-      "trailing_stop": 0.99411
+      "trailing_stop": 0.9945
     }
   },
   "trade_feedback": {
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158297
+  "data_bars": 158298
 }
