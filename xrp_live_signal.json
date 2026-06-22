@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-06-22T17:41:14.816685+00:00",
+  "timestamp": "2026-06-22T17:46:25.355673+00:00",
   "signal": {
-    "price": 0.9919,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5079,
-    "hybrid_score": 1,
+    "price": 0.9938,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4655,
+    "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.048,
+      "score": 0.057,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 30.0,
-      "bearish_pct": 26.7,
+      "bullish_pct": 28.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.102,
+        "xrp": 0.14,
         "crypto_macro": 0.05,
         "geopolitical": -0.182,
-        "fed_rates": 0.195
+        "fed_rates": 0.163
       },
       "geo_shock": false,
       "geo_dip": {
@@ -38,16 +38,16 @@
         "How To Choose The Best Crypto App In 2026 - Forbes"
       ],
       "top_bearish": [
-        "XRP\u2019s Biggest Warning Sign Is Still Flashing Despite Easing Whale Activity - CryptoPotato",
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
+        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.07,
-      "health": 0.0498,
-      "vol_ratio": 0.04,
+      "health": 0.0376,
+      "vol_ratio": 0.32,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99729,
-      "ema200": 0.99625,
-      "macd": -0.001937,
-      "macd_signal": -0.001839,
-      "rsi14": 32.0,
-      "atr14": 0.00174,
-      "bb_position": 0.123
+      "ema50": 0.99718,
+      "ema200": 0.99623,
+      "macd": -0.001729,
+      "macd_signal": -0.001811,
+      "rsi14": 42.9,
+      "atr14": 0.00177,
+      "bb_position": 0.396
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.27%",
-    "portfolio_eur": 9.7018,
-    "total_pnl_pct": -2.16,
-    "bh_pnl_pct": 0.03,
-    "alpha_pct": -2.19,
+    "reason": "STOP_LOSS: -1.08%",
+    "portfolio_eur": 9.7204,
+    "total_pnl_pct": -1.973,
+    "bh_pnl_pct": 0.222,
+    "alpha_pct": -2.194,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.7018,
+    "cash_eur": 9.7204,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158343
+  "data_bars": 158344
 }
