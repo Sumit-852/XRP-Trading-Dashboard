@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-22T22:11:11.137779+00:00",
+  "timestamp": "2026-06-22T22:16:17.482833+00:00",
   "signal": {
-    "price": 0.9898,
+    "price": 0.99,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1208,
-    "hybrid_score": 0,
+    "xgb_prob": 0.3513,
+    "hybrid_score": 3.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
@@ -12,7 +12,6 @@
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.063,
-      "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 31.7,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
@@ -25,12 +24,10 @@
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "recovering": false,
         "buy_signal": false,
         "phase": "NONE"
       },
       "crypto_specific_bad": false,
-      "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
         "From Bitcoin to Stocks: QuantRate Launches Free AI Trading Bot to Help Retail Investors Execute Stock and Crypto Trading",
@@ -45,25 +42,24 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": 0.0239,
-      "vol_ratio": 0.0,
-      "interpretation": "No clear volume conviction"
+      "up_down_ratio": 1.03,
+      "health": 0.0149,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99083,
-      "ema200": 0.99411,
-      "macd": -0.000557,
-      "macd_signal": -0.000988,
-      "rsi14": 51.9,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00622,
-      "bb_position": 0.697
+      "ema50": 0.99081,
+      "ema200": 0.99407,
+      "macd": -0.0004,
+      "macd_signal": -0.000868,
+      "rsi14": 52.7,
+      "atr14": 0.00124,
+      "atr14_hourly": 0.00629,
+      "bb_position": 0.752
     },
     "trade_feedback": {
       "loss_streak": 3,
       "recent_win_rate": 0.125,
-      "score_raised_by": 1,
+      "entry_prob_adjusted": 0.6,
       "adapted_sl_mult": 1.5,
       "adapted_tp_mult": 2.5
     }
@@ -94,12 +90,11 @@
     },
     "sl_loss_ratio": 0.077,
     "model_loss_ratio": 0.923,
-    "low_score_loss_pct": 0.692,
     "adapted_sl_mult": 1.5,
     "adapted_tp_mult": 2.5,
     "score_adjustment": 1,
-    "min_score_effective": 4
+    "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158397
+  "data_bars": 158398
 }
