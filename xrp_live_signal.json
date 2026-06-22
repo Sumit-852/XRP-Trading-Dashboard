@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T06:46:20.391538+00:00",
+  "timestamp": "2026-06-22T06:51:17.014803+00:00",
   "signal": {
-    "price": 0.9875,
+    "price": 0.9867,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4887,
+    "xgb_prob": 0.4906,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.053,
+      "score": -0.035,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 26.7,
-      "bearish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.011,
+        "xrp": 0.06,
         "crypto_macro": -0.113,
         "geopolitical": -0.305,
         "fed_rates": 0.222
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga"
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.93,
-      "health": -0.1288,
-      "vol_ratio": 0.04,
+      "up_down_ratio": 0.94,
+      "health": -0.1295,
+      "vol_ratio": 0.08,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.9895,
-      "ema200": 0.99192,
-      "macd": -0.000444,
-      "macd_signal": -0.000128,
-      "rsi14": 40.7,
-      "atr14": 0.00132,
-      "bb_position": 0.083
+      "ema50": 0.98937,
+      "ema200": 0.99186,
+      "macd": -0.000604,
+      "macd_signal": -0.00023,
+      "rsi14": 36.2,
+      "atr14": 0.00127,
+      "bb_position": 0.033
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.71%",
-    "portfolio_eur": 9.6587,
-    "total_pnl_pct": -2.595,
-    "bh_pnl_pct": -0.413,
-    "alpha_pct": -2.181,
+    "reason": "STOP_LOSS: -1.79%",
+    "portfolio_eur": 9.6509,
+    "total_pnl_pct": -2.673,
+    "bh_pnl_pct": -0.494,
+    "alpha_pct": -2.179,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6587,
+    "cash_eur": 9.6509,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158212
+  "data_bars": 158213
 }
