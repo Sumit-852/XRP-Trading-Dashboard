@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-22T11:16:17.990940+00:00",
+  "timestamp": "2026-06-22T11:21:14.113084+00:00",
   "signal": {
-    "price": 0.9958,
+    "price": 0.9963,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4145,
+    "xgb_prob": 0.4259,
     "hybrid_score": 1,
-    "regime": "BULLISH",
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.038,
+      "score": 0.046,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.157,
         "crypto_macro": -0.005,
-        "geopolitical": -0.265,
+        "geopolitical": -0.224,
         "fed_rates": 0.204
       },
       "geo_shock": false,
@@ -46,8 +46,8 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.98,
-      "health": 0.0414,
-      "vol_ratio": 0.16,
+      "health": 0.0295,
+      "vol_ratio": 0.0,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99127,
-      "ema200": 0.99157,
-      "macd": 0.001294,
-      "macd_signal": 0.000728,
-      "rsi14": 65.8,
-      "atr14": 0.00138,
-      "bb_position": 0.953
+      "ema50": 0.99149,
+      "ema200": 0.99162,
+      "macd": 0.001463,
+      "macd_signal": 0.000881,
+      "rsi14": 67.9,
+      "atr14": 0.00131,
+      "bb_position": 0.934
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.89%",
-    "portfolio_eur": 9.7399,
-    "total_pnl_pct": -1.776,
-    "bh_pnl_pct": 0.424,
-    "alpha_pct": -2.199,
+    "reason": "HOLD LONG: P&L -0.84%",
+    "portfolio_eur": 9.7448,
+    "total_pnl_pct": -1.726,
+    "bh_pnl_pct": 0.474,
+    "alpha_pct": -2.2,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158266
+  "data_bars": 158267
 }
