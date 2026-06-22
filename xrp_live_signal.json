@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T02:36:11.789749+00:00",
+  "timestamp": "2026-06-22T02:41:12.973063+00:00",
   "signal": {
-    "price": 0.9934,
+    "price": 0.995,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4745,
+    "xgb_prob": 0.4531,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.073,
+      "score": -0.023,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "bullish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.004,
-        "crypto_macro": -0.164,
-        "geopolitical": -0.293,
-        "fed_rates": 0.192
+        "xrp": 0.131,
+        "crypto_macro": -0.158,
+        "geopolitical": -0.286,
+        "fed_rates": 0.189
       },
       "geo_shock": false,
       "geo_dip": {
@@ -34,20 +34,20 @@
       "news_driven_crash": false,
       "top_bullish": [
         "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Is XRP (Ripple) a Strong Buy at $1.15? - 24/7 Wall St."
+        "XRP: Institutional Adoption Is Accelerating Despite The Selloff (Cryptocurrency:XRP-USD) - Seeking Alpha",
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga"
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
+        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.04,
-      "health": -0.0553,
-      "vol_ratio": 0.02,
+      "health": -0.0471,
+      "vol_ratio": 0.21,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99193,
-      "ema200": 0.99374,
-      "macd": 0.001343,
-      "macd_signal": 0.001977,
-      "rsi14": 50.0,
-      "atr14": 0.00247,
-      "bb_position": 0.349
+      "ema50": 0.99208,
+      "ema200": 0.99376,
+      "macd": 0.001304,
+      "macd_signal": 0.001852,
+      "rsi14": 53.9,
+      "atr14": 0.00242,
+      "bb_position": 0.477
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -75,16 +75,16 @@
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "STOP_LOSS: -1.12%",
-    "portfolio_eur": 9.7164,
-    "total_pnl_pct": -2.013,
-    "bh_pnl_pct": 0.182,
-    "alpha_pct": -2.194,
-    "position": "CASH",
-    "xrp_held": 0,
-    "cash_eur": 9.7164,
-    "trade_count": 3,
+    "action": "HOLD",
+    "reason": "HOLD LONG: P&L -0.97%",
+    "portfolio_eur": 9.7321,
+    "total_pnl_pct": -1.855,
+    "bh_pnl_pct": 0.343,
+    "alpha_pct": -2.198,
+    "position": "LONG",
+    "xrp_held": 9.781,
+    "cash_eur": 0,
+    "trade_count": 2,
     "draw_levels": {
       "entry": 1.0047,
       "take_profit": 1.03484,
@@ -114,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158162
+  "data_bars": 158163
 }
