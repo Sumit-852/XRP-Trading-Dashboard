@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T11:41:16.714448+00:00",
+  "timestamp": "2026-06-22T11:46:15.770819+00:00",
   "signal": {
-    "price": 1.0003,
+    "price": 1.0002,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4196,
+    "xgb_prob": 0.4135,
     "hybrid_score": 1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.059,
+      "score": 0.073,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.0,
+      "bullish_pct": 38.3,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.157,
-        "crypto_macro": 0.036,
-        "geopolitical": -0.244,
+        "xrp": 0.1,
+        "crypto_macro": 0.129,
+        "geopolitical": -0.2,
         "fed_rates": 0.237
       },
       "geo_shock": false,
@@ -35,19 +35,19 @@
       "top_bullish": [
         "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
         "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+        "Crypto trading rebounds as search interest surges despite June market correction - eciks.org"
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
-        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
+        "XRP Buyers Keep Stepping In, So Why Does A Sub-$1 Drop Still Loom? - Yellow.com",
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": 0.0789,
-      "vol_ratio": 0.46,
+      "up_down_ratio": 0.99,
+      "health": 0.0788,
+      "vol_ratio": 0.22,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99274,
-      "ema200": 0.99194,
-      "macd": 0.00247,
-      "macd_signal": 0.001657,
-      "rsi14": 72.7,
-      "atr14": 0.00166,
-      "bb_position": 0.925
+      "ema50": 0.99304,
+      "ema200": 0.99203,
+      "macd": 0.002557,
+      "macd_signal": 0.001839,
+      "rsi14": 72.1,
+      "atr14": 0.0016,
+      "bb_position": 0.868
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,10 +76,10 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.44%",
-    "portfolio_eur": 9.7839,
-    "total_pnl_pct": -1.332,
-    "bh_pnl_pct": 0.877,
+    "reason": "HOLD LONG: P&L -0.45%",
+    "portfolio_eur": 9.783,
+    "total_pnl_pct": -1.342,
+    "bh_pnl_pct": 0.867,
     "alpha_pct": -2.209,
     "position": "LONG",
     "xrp_held": 9.781,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158271
+  "data_bars": 158272
 }
