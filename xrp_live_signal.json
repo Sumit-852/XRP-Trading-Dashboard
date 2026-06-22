@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T10:51:22.936853+00:00",
+  "timestamp": "2026-06-22T10:56:15.433325+00:00",
   "signal": {
-    "price": 0.992,
+    "price": 0.9925,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4403,
+    "xgb_prob": 0.4376,
     "hybrid_score": 2,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.039,
+      "score": 0.03,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
-      "headlines_analyzed": 45,
+      "bullish_pct": 30.0,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.157,
-        "geopolitical": -0.33,
+        "crypto_macro": -0.005,
+        "geopolitical": -0.31,
         "fed_rates": 0.204
       },
       "geo_shock": true,
@@ -37,16 +38,16 @@
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
       ],
       "top_bearish": [
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
         "China announces sanctions on 10 US companies as trade tensions flare - Euronews",
-        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune",
-        "Chinese Export Flood Tests Europe\u2019s Stomach for Trade War With Beijing - WSJ"
+        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.13,
-      "health": 0.2177,
-      "vol_ratio": 0.04,
+      "health": 0.2166,
+      "vol_ratio": 0.0,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -57,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99047,
-      "ema200": 0.9914,
-      "macd": 0.000365,
-      "macd_signal": 0.000224,
-      "rsi14": 56.6,
-      "atr14": 0.00112,
-      "bb_position": 0.821
+      "ema50": 0.99057,
+      "ema200": 0.99141,
+      "macd": 0.000482,
+      "macd_signal": 0.000282,
+      "rsi14": 58.6,
+      "atr14": 0.00108,
+      "bb_position": 0.863
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -75,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.26%",
-    "portfolio_eur": 9.7028,
-    "total_pnl_pct": -2.15,
-    "bh_pnl_pct": 0.04,
-    "alpha_pct": -2.19,
+    "reason": "STOP_LOSS: -1.21%",
+    "portfolio_eur": 9.7076,
+    "total_pnl_pct": -2.102,
+    "bh_pnl_pct": 0.091,
+    "alpha_pct": -2.192,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.7028,
+    "cash_eur": 9.7076,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -113,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158261
+  "data_bars": 158262
 }
