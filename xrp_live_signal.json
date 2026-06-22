@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T18:41:24.375290+00:00",
+  "timestamp": "2026-06-22T18:46:26.485900+00:00",
   "signal": {
-    "price": 0.9963,
+    "price": 0.9947,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4623,
+    "xgb_prob": 0.4825,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.072,
+      "score": 0.067,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.161,
-        "crypto_macro": 0.05,
+        "crypto_macro": 0.033,
         "geopolitical": -0.146,
-        "fed_rates": 0.163
+        "fed_rates": 0.165
       },
       "geo_shock": false,
       "geo_dip": {
@@ -33,9 +33,9 @@
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto trading rebounds as search interest surges despite June market correction - eciks.org",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
-        "How To Choose The Best Crypto App In 2026 - Forbes"
+        "How To Choose The Best Crypto App In 2026 - Forbes",
+        "Is Exodus Movement, Inc. (NYSEAMERICAN:EXOD) among the Best Crypto Exchange Stocks to Buy Following Bitcoin\u2019s Recovery? "
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.11,
-      "health": 0.0654,
-      "vol_ratio": 0.05,
+      "up_down_ratio": 1.1,
+      "health": 0.0384,
+      "vol_ratio": 0.98,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99732,
-      "ema200": 0.99637,
-      "macd": 0.000273,
-      "macd_signal": -1.4e-05,
-      "rsi14": 48.7,
-      "atr14": 0.0015,
-      "bb_position": 0.569
+      "ema50": 0.99724,
+      "ema200": 0.99636,
+      "macd": 0.000107,
+      "macd_signal": 1.6e-05,
+      "rsi14": 43.0,
+      "atr14": 0.00154,
+      "bb_position": 0.415
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.84%",
-    "portfolio_eur": 9.7448,
-    "total_pnl_pct": -1.726,
-    "bh_pnl_pct": 0.474,
-    "alpha_pct": -2.2,
+    "reason": "HOLD LONG: P&L -1.00%",
+    "portfolio_eur": 9.7292,
+    "total_pnl_pct": -1.884,
+    "bh_pnl_pct": 0.313,
+    "alpha_pct": -2.197,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158355
+  "data_bars": 158356
 }
