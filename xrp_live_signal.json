@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T16:16:26.184941+00:00",
+  "timestamp": "2026-06-22T16:21:36.287312+00:00",
   "signal": {
-    "price": 0.9964,
+    "price": 0.9984,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4813,
+    "xgb_prob": 0.4571,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.071,
+      "score": 0.082,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 35.0,
+      "bullish_pct": 36.7,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.159,
+        "xrp": 0.188,
         "crypto_macro": 0.05,
         "geopolitical": -0.193,
         "fed_rates": 0.222
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews",
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
         "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.98,
-      "health": -0.0035,
-      "vol_ratio": 0.17,
+      "health": -0.0114,
+      "vol_ratio": 0.21,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.00049,
-      "ema200": 0.99662,
-      "macd": -0.00217,
-      "macd_signal": -0.002003,
-      "rsi14": 40.1,
+      "ema50": 1.00043,
+      "ema200": 0.99665,
+      "macd": -0.001887,
+      "macd_signal": -0.001971,
+      "rsi14": 46.4,
       "atr14": 0.00234,
-      "bb_position": 0.274
+      "bb_position": 0.504
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.83%",
-    "portfolio_eur": 9.7458,
-    "total_pnl_pct": -1.717,
-    "bh_pnl_pct": 0.484,
-    "alpha_pct": -2.201,
+    "reason": "HOLD LONG: P&L -0.63%",
+    "portfolio_eur": 9.7654,
+    "total_pnl_pct": -1.519,
+    "bh_pnl_pct": 0.686,
+    "alpha_pct": -2.205,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158326
+  "data_bars": 158327
 }
