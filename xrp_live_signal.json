@@ -1,40 +1,53 @@
 {
-  "timestamp": "2026-06-22T06:01:59.397210+00:00",
+  "timestamp": "2026-06-22T06:06:13.161282+00:00",
   "signal": {
-    "price": 0.9899,
+    "price": 0.989,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4619,
-    "hybrid_score": 0,
+    "xgb_prob": 0.4688,
+    "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
+      "sentiment": "NEUTRAL",
+      "score": -0.039,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
-      "geo_shock": false,
+      "bullish_pct": 26.7,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.036,
+        "crypto_macro": -0.096,
+        "geopolitical": -0.305,
+        "fed_rates": 0.222
+      },
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "recovering": false,
+        "recovering": true,
         "buy_signal": false,
-        "phase": "NONE"
+        "phase": "RECOVERING"
       },
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
+        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+      ],
+      "top_bearish": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Trump's Threat On Hormuz Strait To Iran: Analyst Says BTC Brea - Benzinga",
+        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": -0.0342,
-      "vol_ratio": 0.58,
+      "up_down_ratio": 0.95,
+      "health": -0.0474,
+      "vol_ratio": 0.01,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -45,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.98988,
-      "ema200": 0.99222,
-      "macd": 0.000225,
-      "macd_signal": 0.000243,
-      "rsi14": 50.5,
-      "atr14": 0.00127,
-      "bb_position": 0.543
+      "ema50": 0.98982,
+      "ema200": 0.99219,
+      "macd": 9.6e-05,
+      "macd_signal": 0.000207,
+      "rsi14": 46.4,
+      "atr14": 0.00122,
+      "bb_position": 0.389
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -63,14 +76,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.47%",
-    "portfolio_eur": 9.6822,
-    "total_pnl_pct": -2.358,
-    "bh_pnl_pct": -0.171,
-    "alpha_pct": -2.186,
+    "reason": "STOP_LOSS: -1.56%",
+    "portfolio_eur": 9.6734,
+    "total_pnl_pct": -2.447,
+    "bh_pnl_pct": -0.262,
+    "alpha_pct": -2.184,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6822,
+    "cash_eur": 9.6734,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -101,5 +114,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158203
+  "data_bars": 158204
 }
