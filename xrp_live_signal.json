@@ -1,33 +1,32 @@
 {
-  "timestamp": "2026-06-22T00:26:07.567114+00:00",
+  "timestamp": "2026-06-22T00:31:24.103260+00:00",
   "signal": {
-    "price": 0.9872,
+    "price": 0.9884,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4477,
-    "hybrid_score": 2,
+    "xgb_prob": 0.4446,
+    "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.009,
+      "score": 0.035,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
+      "bullish_pct": 33.3,
       "bearish_pct": 33.3,
-      "headlines_analyzed": 60,
+      "headlines_analyzed": 45,
       "feed_scores": {
-        "xrp": 0.14,
-        "crypto_macro": -0.106,
-        "geopolitical": -0.336,
+        "xrp": 0.122,
+        "geopolitical": -0.286,
         "fed_rates": 0.222
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "recovering": true,
+        "recovering": false,
         "buy_signal": false,
-        "phase": "RECOVERING"
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "stealth_accumulation": false,
@@ -38,16 +37,16 @@
         "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto"
       ],
       "top_bearish": [
-        "Bitcoin Plunges To $62,500, Ethereum, XRP Lose 5%: What Is Going? - Benzinga",
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Why is Crypto Market Going Down today? BTC, ETH And XRP Crash - Coinpedia"
+        "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
+        "Whales dump XRP worth millions - thestreet.com",
+        "RippleX Engineer Says the Market Stopped Talking Lawsuits and Started Talking XRP - Coinpedia"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.99,
-      "health": -0.6539,
-      "vol_ratio": 0.2,
+      "health": -0.6098,
+      "vol_ratio": 0.47,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +57,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.98701,
-      "ema200": 0.99357,
-      "macd": -0.000392,
-      "macd_signal": -0.001293,
-      "rsi14": 56.5,
+      "ema50": 0.98705,
+      "ema200": 0.99351,
+      "macd": -6.9e-05,
+      "macd_signal": -0.001052,
+      "rsi14": 59.1,
       "atr14": 0.00212,
-      "bb_position": 0.851
+      "bb_position": 0.943
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -76,14 +75,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.74%",
-    "portfolio_eur": 9.6558,
-    "total_pnl_pct": -2.624,
-    "bh_pnl_pct": -0.444,
-    "alpha_pct": -2.18,
+    "reason": "STOP_LOSS: -1.62%",
+    "portfolio_eur": 9.6675,
+    "total_pnl_pct": -2.506,
+    "bh_pnl_pct": -0.323,
+    "alpha_pct": -2.183,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6558,
+    "cash_eur": 9.6675,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +113,5 @@
     "min_score_effective": 3
   },
   "retrained": true,
-  "data_bars": 158136
+  "data_bars": 158137
 }
