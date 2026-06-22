@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-22T16:26:24.142944+00:00",
+  "timestamp": "2026-06-22T16:31:44.457019+00:00",
   "signal": {
-    "price": 0.9962,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4862,
-    "hybrid_score": 0,
-    "regime": "BEARISH",
+    "price": 0.9952,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5002,
+    "hybrid_score": 1,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.055,
+      "score": 0.053,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.13,
+        "xrp": 0.123,
         "crypto_macro": 0.05,
         "geopolitical": -0.193,
         "fed_rates": 0.19
@@ -38,16 +38,16 @@
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
       ],
       "top_bearish": [
+        "XRP\u2019s Biggest Warning Sign Is Still Flashing Despite Easing Whale Activity - CryptoPotato",
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
-        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": 0.0129,
-      "vol_ratio": 0.08,
+      "up_down_ratio": 0.98,
+      "health": 0.0045,
+      "vol_ratio": 0.07,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 1.00021,
-      "ema200": 0.99663,
-      "macd": -0.001956,
-      "macd_signal": -0.001987,
-      "rsi14": 40.2,
-      "atr14": 0.00227,
-      "bb_position": 0.275
+      "ema50": 1.00001,
+      "ema200": 0.99661,
+      "macd": -0.001973,
+      "macd_signal": -0.001984,
+      "rsi14": 37.8,
+      "atr14": 0.00226,
+      "bb_position": 0.185
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.85%",
-    "portfolio_eur": 9.7438,
-    "total_pnl_pct": -1.736,
-    "bh_pnl_pct": 0.464,
-    "alpha_pct": -2.2,
+    "reason": "HOLD LONG: P&L -0.95%",
+    "portfolio_eur": 9.7341,
+    "total_pnl_pct": -1.835,
+    "bh_pnl_pct": 0.363,
+    "alpha_pct": -2.198,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158328
+  "data_bars": 158329
 }
