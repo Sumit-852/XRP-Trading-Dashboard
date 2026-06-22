@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T10:26:15.583468+00:00",
+  "timestamp": "2026-06-22T10:31:26.213987+00:00",
   "signal": {
-    "price": 0.9915,
+    "price": 0.9906,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4557,
+    "xgb_prob": 0.4682,
     "hybrid_score": 1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.044,
+      "score": -0.035,
       "role": "tiebreaker (price + volume are primary)",
-      "bullish_pct": 33.3,
-      "bearish_pct": 21.7,
-      "headlines_analyzed": 60,
+      "bullish_pct": 28.9,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 45,
       "feed_scores": {
-        "xrp": 0.157,
         "crypto_macro": -0.005,
-        "geopolitical": -0.246,
+        "geopolitical": -0.29,
         "fed_rates": 0.222
       },
       "geo_shock": false,
@@ -33,20 +32,20 @@
       "stealth_accumulation": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "WOW! It\u2019 Getting REAL XRP!! \ud83e\udd2f Studente (ZjtW75tgEZ) - Fathom Journal",
-        "Ripple gains academic recognition as XRPL activity grows \u2013 Will utility help XRP? - AMBCrypto",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+        "Better Crypto for the Next Bull Run: Bitcoin vs. Ethereum - Yahoo Finance",
+        "The Fed Held Its Target Range For the Fourth Meeting in a Row but Interest Costs Remain High - Peter G. Peterson Foundat",
+        "Fed holds US interest rates steady as uncertainty over Trump's Iran deal remains - BBC"
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews",
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
         "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.13,
-      "health": 0.2042,
+      "health": 0.1965,
       "vol_ratio": 0.0,
       "interpretation": "No clear volume conviction"
     },
@@ -58,13 +57,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99031,
-      "ema200": 0.99141,
-      "macd": 0.000325,
-      "macd_signal": 5.5e-05,
-      "rsi14": 55.4,
-      "atr14": 0.00118,
-      "bb_position": 0.777
+      "ema50": 0.99029,
+      "ema200": 0.99139,
+      "macd": 0.000236,
+      "macd_signal": 8.1e-05,
+      "rsi14": 50.9,
+      "atr14": 0.00116,
+      "bb_position": 0.582
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,14 +75,14 @@
   },
   "trade": {
     "action": "SELL",
-    "reason": "STOP_LOSS: -1.31%",
-    "portfolio_eur": 9.6979,
-    "total_pnl_pct": -2.199,
-    "bh_pnl_pct": -0.01,
-    "alpha_pct": -2.189,
+    "reason": "STOP_LOSS: -1.40%",
+    "portfolio_eur": 9.6891,
+    "total_pnl_pct": -2.288,
+    "bh_pnl_pct": -0.101,
+    "alpha_pct": -2.187,
     "position": "CASH",
     "xrp_held": 0,
-    "cash_eur": 9.6979,
+    "cash_eur": 9.6891,
     "trade_count": 3,
     "draw_levels": {
       "entry": 1.0047,
@@ -114,5 +113,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158256
+  "data_bars": 158257
 }
