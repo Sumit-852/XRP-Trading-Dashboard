@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T17:11:26.636072+00:00",
+  "timestamp": "2026-06-22T17:16:22.894237+00:00",
   "signal": {
     "price": 0.995,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4884,
+    "xgb_prob": 0.4862,
     "hybrid_score": 0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,16 +11,16 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.05,
+      "score": 0.066,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 31.7,
-      "bearish_pct": 26.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.11,
+        "xrp": 0.14,
         "crypto_macro": 0.05,
         "geopolitical": -0.182,
-        "fed_rates": 0.19
+        "fed_rates": 0.222
       },
       "geo_shock": false,
       "geo_dip": {
@@ -38,16 +38,16 @@
         "How To Choose The Best Crypto App In 2026 - Forbes"
       ],
       "top_bearish": [
-        "XRP\u2019s Biggest Warning Sign Is Still Flashing Despite Easing Whale Activity - CryptoPotato",
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
+        "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.99,
-      "health": -0.0105,
-      "vol_ratio": 0.01,
+      "up_down_ratio": 1.01,
+      "health": 0.0146,
+      "vol_ratio": 0.13,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99867,
-      "ema200": 0.9965,
-      "macd": -0.001584,
-      "macd_signal": -0.001781,
+      "ema50": 0.99852,
+      "ema200": 0.99648,
+      "macd": -0.001512,
+      "macd_signal": -0.001727,
       "rsi14": 39.6,
-      "atr14": 0.00191,
-      "bb_position": 0.331
+      "atr14": 0.0018,
+      "bb_position": 0.336
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158337
+  "data_bars": 158338
 }
