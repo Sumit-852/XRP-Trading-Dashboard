@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T18:16:18.006433+00:00",
+  "timestamp": "2026-06-22T18:21:22.869367+00:00",
   "signal": {
-    "price": 0.9989,
+    "price": 0.9987,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.408,
+    "xgb_prob": 0.4096,
     "hybrid_score": 1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.07,
+      "score": 0.069,
       "role": "tiebreaker (price + volume are primary)",
       "bullish_pct": 31.7,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.161,
+        "xrp": 0.159,
         "crypto_macro": 0.05,
         "geopolitical": -0.182,
         "fed_rates": 0.195
@@ -45,9 +45,9 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": 0.0675,
-      "vol_ratio": 0.01,
+      "up_down_ratio": 1.1,
+      "health": 0.068,
+      "vol_ratio": 0.03,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.9973,
-      "ema200": 0.99632,
-      "macd": 0.000114,
-      "macd_signal": -0.000768,
-      "rsi14": 61.7,
-      "atr14": 0.0016,
-      "bb_position": 0.939
+      "ema50": 0.99735,
+      "ema200": 0.99634,
+      "macd": 0.000291,
+      "macd_signal": -0.000557,
+      "rsi14": 60.9,
+      "atr14": 0.00156,
+      "bb_position": 0.871
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,10 +76,10 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.58%",
-    "portfolio_eur": 9.7702,
-    "total_pnl_pct": -1.47,
-    "bh_pnl_pct": 0.736,
+    "reason": "HOLD LONG: P&L -0.60%",
+    "portfolio_eur": 9.7683,
+    "total_pnl_pct": -1.49,
+    "bh_pnl_pct": 0.716,
     "alpha_pct": -2.206,
     "position": "LONG",
     "xrp_held": 9.781,
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158350
+  "data_bars": 158351
 }
