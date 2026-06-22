@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-22T12:56:15.390456+00:00",
+  "timestamp": "2026-06-22T13:01:34.917313+00:00",
   "signal": {
-    "price": 1.0095,
+    "price": 1.0093,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.396,
+    "xgb_prob": 0.4371,
     "hybrid_score": 1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -39,15 +39,15 @@
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com",
+        "China announces sanctions on 10 US companies as trade tensions flare - Euronews",
         "A new trade war may be brewing. This time, Europe is taking a page from Trump's playbook - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": -0.117,
-      "vol_ratio": 0.78,
+      "up_down_ratio": 1.03,
+      "health": -0.114,
+      "vol_ratio": 0.8,
       "interpretation": "No clear volume conviction"
     },
     "seasonality": {
@@ -58,13 +58,13 @@
       "seasonal_wind": 0.5
     },
     "technicals": {
-      "ema50": 0.99749,
-      "ema200": 0.99348,
-      "macd": 0.003167,
-      "macd_signal": 0.002672,
-      "rsi14": 77.1,
-      "atr14": 0.00194,
-      "bb_position": 1.122
+      "ema50": 0.99796,
+      "ema200": 0.99364,
+      "macd": 0.003384,
+      "macd_signal": 0.002818,
+      "rsi14": 75.3,
+      "atr14": 0.002,
+      "bb_position": 1.016
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -76,11 +76,11 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.48%",
-    "portfolio_eur": 9.8739,
-    "total_pnl_pct": -0.424,
-    "bh_pnl_pct": 1.805,
-    "alpha_pct": -2.23,
+    "reason": "HOLD LONG: P&L +0.46%",
+    "portfolio_eur": 9.872,
+    "total_pnl_pct": -0.444,
+    "bh_pnl_pct": 1.785,
+    "alpha_pct": -2.229,
     "position": "LONG",
     "xrp_held": 9.781,
     "cash_eur": 0,
@@ -89,7 +89,7 @@
       "entry": 1.0047,
       "take_profit": 1.03484,
       "stop_loss": 0.99465,
-      "trailing_stop": 0.98931
+      "trailing_stop": 0.98911
     }
   },
   "trade_feedback": {
@@ -114,5 +114,5 @@
     "min_score_effective": 4
   },
   "retrained": true,
-  "data_bars": 158286
+  "data_bars": 158287
 }
