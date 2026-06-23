@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-23T10:31:33.278958+00:00",
+  "timestamp": "2026-06-23T10:36:13.663625+00:00",
   "signal": {
-    "price": 0.9666,
+    "price": 0.966,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4224,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.4312,
+    "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.005,
-      "bullish_pct": 30.0,
-      "bearish_pct": 28.3,
+      "score": 0.043,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.066,
-        "crypto_macro": -0.024,
-        "geopolitical": -0.263,
-        "fed_rates": 0.177
+        "xrp": 0.183,
+        "crypto_macro": -0.03,
+        "geopolitical": -0.219,
+        "fed_rates": 0.162
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
-        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
+        "Bitwise XRP ETFs see over $200M inflows in 2026, showing strong altcoin demand beyond Bitcoin and Ethereum. - Pluang",
+        "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news"
       ],
       "top_bearish": [
-        "ETH, SOL, DOGE price news: Bitcoin under $63,000 amid tech selloff - CoinDesk",
         "The crisis in the Strait of Hormuz will not replay itself in the South China Sea - Lowy Institute",
+        "BTC analysis: SpaceX\u2019s $600 billion plunge erased nearly half of bitcoin\u2019s market cap in three days - CoinDesk",
         "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.75,
-      "health": -0.229,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.76,
+      "health": -0.2157,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.96957,
-      "ema200": 0.98014,
-      "macd": -0.000498,
-      "macd_signal": -0.000826,
-      "rsi14": 46.6,
+      "ema50": 0.96939,
+      "ema200": 0.97999,
+      "macd": -0.00059,
+      "macd_signal": -0.000792,
+      "rsi14": 44.9,
       "atr14": 0.00153,
-      "atr14_hourly": 0.007,
-      "bb_position": 0.556
+      "atr14_hourly": 0.00683,
+      "bb_position": 0.398
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158545
+  "data_bars": 158546
 }
