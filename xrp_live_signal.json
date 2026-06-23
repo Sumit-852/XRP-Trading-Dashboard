@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-06-23T11:06:13.423423+00:00",
+  "timestamp": "2026-06-23T11:11:35.153346+00:00",
   "signal": {
-    "price": 0.9682,
+    "price": 0.9691,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3579,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.354,
+    "hybrid_score": 3.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.043,
-      "bullish_pct": 33.3,
-      "bearish_pct": 26.7,
+      "score": 0.03,
+      "bullish_pct": 31.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.183,
-        "crypto_macro": -0.03,
-        "geopolitical": -0.219,
-        "fed_rates": 0.162
+        "xrp": 0.214,
+        "crypto_macro": -0.048,
+        "geopolitical": -0.333,
+        "fed_rates": 0.177
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Here's what seven straight weeks of ETF inflows mean for XRP - FXStreet",
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
-        "Bitwise XRP ETFs see over $200M inflows in 2026, showing strong altcoin demand beyond Bitcoin and Ethereum. - Pluang",
         "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news"
       ],
       "top_bearish": [
         "The crisis in the Strait of Hormuz will not replay itself in the South China Sea - Lowy Institute",
-        "BTC analysis: SpaceX\u2019s $600 billion plunge erased nearly half of bitcoin\u2019s market cap in three days - CoinDesk",
+        "Strait of Hormuz traffic flowing slowly as US, Iran trade threats - Yahoo Finance",
         "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.79,
-      "health": -0.1318,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.78,
+      "health": -0.1492,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.9689,
-      "ema200": 0.97923,
-      "macd": -0.000135,
-      "macd_signal": -0.000478,
-      "rsi14": 54.3,
+      "ema50": 0.96892,
+      "ema200": 0.97913,
+      "macd": 5.8e-05,
+      "macd_signal": -0.000367,
+      "rsi14": 57.7,
       "atr14": 0.00137,
-      "atr14_hourly": 0.00583,
-      "bb_position": 0.823
+      "atr14_hourly": 0.00573,
+      "bb_position": 0.947
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158552
+  "data_bars": 158553
 }
