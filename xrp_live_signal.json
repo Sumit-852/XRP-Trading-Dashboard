@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-23T08:16:24.598107+00:00",
+  "timestamp": "2026-06-23T08:21:26.639107+00:00",
   "signal": {
-    "price": 0.9717,
+    "price": 0.9679,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4094,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.4706,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.01,
-      "bullish_pct": 30.0,
+      "score": 0.012,
+      "bullish_pct": 33.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.045,
-        "crypto_macro": -0.007,
-        "geopolitical": -0.262,
-        "fed_rates": 0.161
+        "crypto_macro": 0.039,
+        "geopolitical": -0.255,
+        "fed_rates": 0.209
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
-        "Is Exodus Movement, Inc. (NYSEAMERICAN:EXOD) among the Best Crypto Exchange Stocks to Buy Following Bitcoin\u2019s Recovery? "
+        "Crypto Overview: Bitcoin holds steady as ETF outflows decline \u2013 DEXE and TIA extend gains - FXStreet",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
       ],
       "top_bearish": [
         "ETH, SOL, DOGE price news: Bitcoin slips toward $63,000 amid tech selloff - CoinDesk",
-        "Strait of Hormuz traffic flowing slowly as US, Iran trade threats - Yahoo Finance",
-        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
+        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews",
+        "Crypto Market Today, June 22: Bitcoin Holds Above $64,000 on Easing Geopolitical Tensions - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.82,
-      "health": -0.2622,
-      "vol_ratio": 0.95
+      "up_down_ratio": 0.8,
+      "health": -0.2577,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 0.97657,
-      "ema200": 0.98463,
-      "macd": -0.000838,
-      "macd_signal": -0.00072,
-      "rsi14": 38.7,
-      "atr14": 0.00176,
-      "atr14_hourly": 0.00523,
-      "bb_position": -0.085
+      "ema50": 0.97601,
+      "ema200": 0.98441,
+      "macd": -0.00159,
+      "macd_signal": -0.000966,
+      "rsi14": 34.2,
+      "atr14": 0.00204,
+      "atr14_hourly": 0.00589,
+      "bb_position": -0.087
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -66,7 +66,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4922.43,
     "total_pnl_pct": -1.551,
     "position": "CASH",
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158518
+  "data_bars": 158519
 }
