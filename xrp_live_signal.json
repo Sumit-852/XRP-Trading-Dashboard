@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-23T17:21:31.634393+00:00",
+  "timestamp": "2026-06-23T17:26:22.532941+00:00",
   "signal": {
-    "price": 0.9673,
+    "price": 0.9687,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3428,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.3341,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.026,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "score": -0.015,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.18,
+        "xrp": 0.114,
         "crypto_macro": -0.144,
-        "geopolitical": -0.201,
-        "fed_rates": 0.264
+        "geopolitical": -0.206,
+        "fed_rates": 0.161
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Here's what seven straight weeks of ETF inflows mean for XRP - FXStreet",
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
-        "Ripple Wins Historic European Licence: XRP Holders Say So What? - TradingView"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
+        "Ripple MiCA Approval: What It Means for XRP Price - Cryptonews"
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,000: Is The Worst Of The Bear Market Still To Come? - Benzinga",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.9,
-      "health": 0.1119,
-      "vol_ratio": 0.01
+      "health": 0.1076,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.96582,
-      "ema200": 0.97252,
-      "macd": 0.000264,
-      "macd_signal": -9e-06,
-      "rsi14": 56.3,
-      "atr14": 0.00199,
-      "atr14_hourly": 0.00825,
-      "bb_position": 0.76
+      "ema50": 0.96597,
+      "ema200": 0.9725,
+      "macd": 0.000558,
+      "macd_signal": 0.000118,
+      "rsi14": 59.8,
+      "atr14": 0.00195,
+      "atr14_hourly": 0.00813,
+      "bb_position": 0.897
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158627
+  "data_bars": 158628
 }
