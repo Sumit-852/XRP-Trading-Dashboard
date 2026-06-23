@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-23T18:31:40.256131+00:00",
+  "timestamp": "2026-06-23T18:36:16.518977+00:00",
   "signal": {
-    "price": 0.9644,
+    "price": 0.9648,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3608,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.3369,
+    "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.02,
-      "bullish_pct": 35.0,
+      "score": 0.042,
+      "bullish_pct": 38.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.213,
+        "xrp": 0.273,
         "crypto_macro": -0.15,
-        "geopolitical": -0.211,
+        "geopolitical": -0.208,
         "fed_rates": 0.161
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP ETFs log strong inflows as institutions keep buying - thestreet.com",
-        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+        "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com",
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
       ],
       "top_bearish": [
         "Bitcoin Plunges To $62,000: Is The Worst Of The Bear Market Still To Come? - Benzinga",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.86,
-      "health": 0.1356,
-      "vol_ratio": 0.3
+      "health": 0.1367,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.9656,
-      "ema200": 0.97159,
-      "macd": -0.000118,
-      "macd_signal": -7.5e-05,
-      "rsi14": 47.0,
-      "atr14": 0.00177,
-      "atr14_hourly": 0.00722,
-      "bb_position": 0.317
+      "ema50": 0.96559,
+      "ema200": 0.97153,
+      "macd": -0.000113,
+      "macd_signal": -7.8e-05,
+      "rsi14": 48.2,
+      "atr14": 0.00165,
+      "atr14_hourly": 0.00702,
+      "bb_position": 0.39
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158641
+  "data_bars": 158642
 }
