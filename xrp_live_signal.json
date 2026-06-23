@@ -1,25 +1,24 @@
 {
-  "timestamp": "2026-06-23T08:51:20.763514+00:00",
+  "timestamp": "2026-06-23T08:56:19.693291+00:00",
   "signal": {
-    "price": 0.9627,
+    "price": 0.9632,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5248,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5333,
+    "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.012,
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
-      "headlines_analyzed": 60,
+      "score": -0.011,
+      "bullish_pct": 24.4,
+      "bearish_pct": 37.8,
+      "headlines_analyzed": 45,
       "feed_scores": {
-        "xrp": 0.045,
+        "xrp": 0.076,
         "crypto_macro": 0.039,
-        "geopolitical": -0.255,
-        "fed_rates": 0.209
+        "geopolitical": -0.262
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +34,26 @@
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
       ],
       "top_bearish": [
-        "ETH, SOL, DOGE price news: Bitcoin slips toward $63,000 amid tech selloff - CoinDesk",
         "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews",
-        "Crypto Market Today, June 22: Bitcoin Holds Above $64,000 on Easing Geopolitical Tensions - The Motley Fool"
+        "Crypto Market Today, June 22: Bitcoin Holds Above $64,000 on Easing Geopolitical Tensions - The Motley Fool",
+        "ETH, SOL, DOGE price news: Bitcoin slips toward $63,000 amid tech selloff - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.73,
-      "health": -0.3295,
-      "vol_ratio": 0.12
+      "health": -0.3304,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.97328,
-      "ema200": 0.98317,
-      "macd": -0.003311,
-      "macd_signal": -0.00249,
-      "rsi14": 32.9,
-      "atr14": 0.00274,
-      "atr14_hourly": 0.01008,
-      "bb_position": 0.145
+      "ema50": 0.97293,
+      "ema200": 0.98299,
+      "macd": -0.003259,
+      "macd_signal": -0.002629,
+      "rsi14": 35.1,
+      "atr14": 0.00273,
+      "atr14_hourly": 0.01057,
+      "bb_position": 0.195
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +95,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158525
+  "data_bars": 158526
 }
