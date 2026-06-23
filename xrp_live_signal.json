@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-06-23T06:06:10.751039+00:00",
+  "timestamp": "2026-06-23T06:11:18.307180+00:00",
   "signal": {
-    "price": 0.9753,
+    "price": 0.976,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3766,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.3746,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.023,
+      "score": 0.012,
       "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.086,
+        "xrp": 0.055,
         "crypto_macro": 0.029,
         "geopolitical": -0.256,
         "fed_rates": 0.205
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
-        "Strait of Hormuz traffic flowing slowly as US, Iran trade threats - Yahoo Finance",
-        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
+        "ETH, SOL, DOGE price news: Bitcoin slips toward $63,000 amid tech selloff - CoinDesk",
+        "Strait of Hormuz traffic flowing slowly as US, Iran trade threats - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": -0.1624,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.91,
+      "health": -0.1732,
+      "vol_ratio": 0.2
     },
     "technicals": {
-      "ema50": 0.98114,
-      "ema200": 0.98777,
-      "macd": -0.002309,
-      "macd_signal": -0.002429,
-      "rsi14": 31.5,
-      "atr14": 0.00144,
-      "atr14_hourly": 0.00637,
-      "bb_position": 0.314
+      "ema50": 0.98091,
+      "ema200": 0.98765,
+      "macd": -0.002193,
+      "macd_signal": -0.002391,
+      "rsi14": 38.4,
+      "atr14": 0.00163,
+      "atr14_hourly": 0.00646,
+      "bb_position": 0.399
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158492
+  "data_bars": 158493
 }
