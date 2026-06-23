@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23T20:11:24.323003+00:00",
+  "timestamp": "2026-06-23T20:16:29.031445+00:00",
   "signal": {
     "price": 0.9696,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3283,
+    "xgb_prob": 0.3277,
     "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.06,
-      "bullish_pct": 38.3,
-      "bearish_pct": 30.0,
+      "score": -0.015,
+      "bullish_pct": 30.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.273,
-        "crypto_macro": -0.113,
-        "geopolitical": -0.154,
-        "fed_rates": 0.142
+        "xrp": 0.162,
+        "crypto_macro": -0.148,
+        "geopolitical": -0.251,
+        "fed_rates": 0.101
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
       ],
       "top_bearish": [
+        "Why is Crypto Crashing Hard Today? BTC, ETH and XRP Fall 5% - Coinpedia",
         "Bitcoin Plunges To $62,000: Is The Worst Of The Bear Market Still To Come? - Benzinga",
-        "XRP transactions plunge 41% below 6-month average \u2013 Here\u2019s why! - AMBCrypto",
-        "Why Is the Crypto Market Crashing Today? - TradingView"
+        "XRP transactions plunge 41% below 6-month average \u2013 Here\u2019s why! - AMBCrypto"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.87,
-      "health": 0.0491,
-      "vol_ratio": 0.41
+      "health": 0.0722,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96609,
-      "ema200": 0.97061,
-      "macd": 0.001059,
-      "macd_signal": 0.000563,
-      "rsi14": 61.9,
-      "atr14": 0.00158,
-      "atr14_hourly": 0.00598,
-      "bb_position": 0.931
+      "ema50": 0.96622,
+      "ema200": 0.9706,
+      "macd": 0.001124,
+      "macd_signal": 0.000672,
+      "rsi14": 61.4,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.00608,
+      "bb_position": 0.886
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158661
+  "data_bars": 158662
 }
