@@ -1,26 +1,27 @@
 {
-  "timestamp": "2026-06-23T14:31:37.515762+00:00",
+  "timestamp": "2026-06-23T14:36:23.354912+00:00",
   "signal": {
-    "price": 0.9696,
+    "price": 0.9702,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4014,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3944,
+    "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.001,
-      "bullish_pct": 40.0,
-      "bearish_pct": 35.6,
-      "headlines_analyzed": 45,
+      "score": -0.0,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.084,
-        "geopolitical": -0.301,
-        "fed_rates": 0.161
+        "xrp": 0.106,
+        "crypto_macro": -0.092,
+        "geopolitical": -0.222,
+        "fed_rates": 0.192
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
-        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
+        "Bitwise XRP ETF Crosses $200M in Year-to-Date Inflows - U.Today",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
       ],
       "top_bearish": [
         "Crypto Today: How low can Bitcoin, Ethereum and XRP plunge? - FXStreet",
-        "XRP transactions plunge 41% below 6-month average \u2013 Here\u2019s why! - AMBCrypto",
-        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga"
+        "Bitcoin Plunges To $62,000: Is The Worst Of The Bear Market Still To Come? - Benzinga",
+        "XRP transactions plunge 41% below 6-month average \u2013 Here\u2019s why! - AMBCrypto"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.81,
-      "health": 0.0658,
-      "vol_ratio": 0.52
+      "health": 0.0869,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 0.96838,
-      "ema200": 0.97565,
-      "macd": 0.000605,
-      "macd_signal": 4.2e-05,
-      "rsi14": 55.2,
-      "atr14": 0.00229,
-      "atr14_hourly": 0.00823,
-      "bb_position": 0.762
+      "ema50": 0.96843,
+      "ema200": 0.97559,
+      "macd": 0.00064,
+      "macd_signal": 0.000154,
+      "rsi14": 56.6,
+      "atr14": 0.00238,
+      "atr14_hourly": 0.00835,
+      "bb_position": 0.796
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -95,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158593
+  "data_bars": 158594
 }
