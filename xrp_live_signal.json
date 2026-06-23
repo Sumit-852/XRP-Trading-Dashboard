@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23T07:46:21.203682+00:00",
+  "timestamp": "2026-06-23T07:51:24.420532+00:00",
   "signal": {
-    "price": 0.975,
+    "price": 0.9755,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3338,
+    "xgb_prob": 0.3323,
     "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.021,
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
+      "score": -0.01,
+      "bullish_pct": 30.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.062,
-        "crypto_macro": 0.018,
-        "geopolitical": -0.191,
-        "fed_rates": 0.189
+        "xrp": 0.045,
+        "crypto_macro": -0.007,
+        "geopolitical": -0.262,
+        "fed_rates": 0.161
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "From Bitcoin to Stocks: QuantRate Launches Free AI Trading Bot to Help Retail Investors Execute Stock and Crypto Trading",
         "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
+        "Is Exodus Movement, Inc. (NYSEAMERICAN:EXOD) among the Best Crypto Exchange Stocks to Buy Following Bitcoin\u2019s Recovery? "
       ],
       "top_bearish": [
-        "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
         "ETH, SOL, DOGE price news: Bitcoin slips toward $63,000 amid tech selloff - CoinDesk",
+        "Strait of Hormuz traffic flowing slowly as US, Iran trade threats - Yahoo Finance",
         "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.82,
-      "health": -0.3349,
-      "vol_ratio": 0.54
+      "health": -0.347,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.97739,
-      "ema200": 0.98532,
-      "macd": -0.000592,
-      "macd_signal": -0.000936,
-      "rsi14": 48.1,
-      "atr14": 0.00149,
-      "atr14_hourly": 0.00603,
-      "bb_position": 0.653
+      "ema50": 0.97735,
+      "ema200": 0.98523,
+      "macd": -0.000431,
+      "macd_signal": -0.000823,
+      "rsi14": 50.2,
+      "atr14": 0.00147,
+      "atr14_hourly": 0.00577,
+      "bb_position": 0.728
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158512
+  "data_bars": 158513
 }
