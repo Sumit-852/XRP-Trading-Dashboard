@@ -1,27 +1,26 @@
 {
-  "timestamp": "2026-06-23T11:41:18.458293+00:00",
+  "timestamp": "2026-06-23T11:46:19.793662+00:00",
   "signal": {
-    "price": 0.9726,
+    "price": 0.9724,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2951,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.2763,
+    "hybrid_score": 2.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.03,
-      "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
-      "headlines_analyzed": 60,
+      "score": 0.016,
+      "bullish_pct": 37.8,
+      "bearish_pct": 28.9,
+      "headlines_analyzed": 45,
       "feed_scores": {
-        "xrp": 0.214,
-        "crypto_macro": -0.048,
-        "geopolitical": -0.333,
+        "xrp": 0.097,
+        "geopolitical": -0.275,
         "fed_rates": 0.177
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +29,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Here's what seven straight weeks of ETF inflows mean for XRP - FXStreet",
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
-        "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
+        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
       ],
       "top_bearish": [
-        "The crisis in the Strait of Hormuz will not replay itself in the South China Sea - Lowy Institute",
-        "Strait of Hormuz traffic flowing slowly as US, Iran trade threats - Yahoo Finance",
-        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
+        "XRP transactions plunge 41% below 6-month average \u2013 Here\u2019s why! - AMBCrypto",
+        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga",
+        "The crisis in the Strait of Hormuz will not replay itself in the South China Sea - Lowy Institute"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.81,
-      "health": -0.0847,
-      "vol_ratio": 0.23
+      "up_down_ratio": 0.82,
+      "health": -0.0701,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.96952,
-      "ema200": 0.9787,
-      "macd": 0.001276,
-      "macd_signal": 0.000598,
-      "rsi14": 68.8,
-      "atr14": 0.00138,
-      "atr14_hourly": 0.00639,
-      "bb_position": 0.924
+      "ema50": 0.96962,
+      "ema200": 0.97864,
+      "macd": 0.001334,
+      "macd_signal": 0.000741,
+      "rsi14": 67.2,
+      "atr14": 0.00131,
+      "atr14_hourly": 0.00649,
+      "bb_position": 0.864
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +95,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158559
+  "data_bars": 158560
 }
