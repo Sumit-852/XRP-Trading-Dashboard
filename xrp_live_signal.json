@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-23T04:26:09.367127+00:00",
+  "timestamp": "2026-06-23T04:31:27.306871+00:00",
   "signal": {
-    "price": 0.9842,
+    "price": 0.9841,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3342,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.3352,
+    "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
+      "score": 0.046,
       "bullish_pct": 35.0,
-      "bearish_pct": 26.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.106,
-        "crypto_macro": 0.043,
-        "geopolitical": -0.243,
+        "crypto_macro": 0.08,
+        "geopolitical": -0.257,
         "fed_rates": 0.205
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Crypto trading rebounds as search interest surges despite June market correction - eciks.org",
         "From Bitcoin to Stocks: QuantRate Launches Free AI Trading Bot to Help Retail Investors Execute Stock and Crypto Trading",
-        "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+        "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news"
       ],
       "top_bearish": [
         "Crypto Market Update: Binance Faces Looming MiCA License Rejection - Investing News Network",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.0,
-      "health": -0.0577,
+      "health": -0.0445,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.98631,
-      "ema200": 0.99009,
-      "macd": -0.000561,
-      "macd_signal": -0.000439,
-      "rsi14": 42.8,
-      "atr14": 0.00126,
-      "atr14_hourly": 0.00445,
-      "bb_position": 0.157
+      "ema50": 0.98624,
+      "ema200": 0.99003,
+      "macd": -0.000579,
+      "macd_signal": -0.000463,
+      "rsi14": 42.4,
+      "atr14": 0.00121,
+      "atr14_hourly": 0.00443,
+      "bb_position": 0.15
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158472
+  "data_bars": 158473
 }
