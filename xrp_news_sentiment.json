@@ -1,14 +1,15 @@
 {
-  "timestamp": "2026-06-23T08:56:19.684016+00:00",
-  "score": -0.011,
+  "timestamp": "2026-06-23T09:31:32.178612+00:00",
+  "score": 0.017,
   "label": "NEUTRAL",
-  "bullish_pct": 24.4,
-  "bearish_pct": 37.8,
-  "count": 45,
+  "bullish_pct": 33.3,
+  "bearish_pct": 26.7,
+  "count": 60,
   "feed_scores": {
-    "xrp": 0.076,
-    "crypto_macro": 0.039,
-    "geopolitical": -0.262
+    "xrp": 0.066,
+    "crypto_macro": -0.006,
+    "geopolitical": -0.172,
+    "fed_rates": 0.177
   },
   "geo_shock": false,
   "top_bull": [
@@ -21,23 +22,31 @@
       "weighted_score": 0.572
     },
     {
-      "title": "Crypto Overview: Bitcoin holds steady as ETF outflows decline \u2013 DEXE and TIA extend gains - FXStreet",
-      "pubdate": "Tue, 23 Jun 2026 03:37:34",
-      "compound": 0.707,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": 0.565
-    },
-    {
       "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
       "pubdate": "Mon, 22 Jun 2026 04:05:04",
       "compound": 0.542,
       "feed": "xrp",
       "weight": 1.0,
       "weighted_score": 0.542
+    },
+    {
+      "title": "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance",
+      "pubdate": "Sun, 21 Jun 2026 11:55:09",
+      "compound": 0.511,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": 0.511
     }
   ],
   "top_bear": [
+    {
+      "title": "ETH, SOL, DOGE price news: Bitcoin under $63,000 amid tech selloff - CoinDesk",
+      "pubdate": "Tue, 23 Jun 2026 05:25:34",
+      "compound": -0.459,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": -0.459
+    },
     {
       "title": "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews",
       "pubdate": "Mon, 22 Jun 2026 20:06:27",
@@ -53,14 +62,6 @@
       "feed": "crypto_macro",
       "weight": 0.8,
       "weighted_score": -0.381
-    },
-    {
-      "title": "ETH, SOL, DOGE price news: Bitcoin slips toward $63,000 amid tech selloff - CoinDesk",
-      "pubdate": "Tue, 23 Jun 2026 05:25:34",
-      "compound": -0.459,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": -0.367
     }
   ]
 }

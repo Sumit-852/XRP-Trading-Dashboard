@@ -1,24 +1,25 @@
 {
-  "timestamp": "2026-06-23T09:26:09.841754+00:00",
+  "timestamp": "2026-06-23T09:31:32.188109+00:00",
   "signal": {
-    "price": 0.9658,
+    "price": 0.9667,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4843,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.4562,
+    "hybrid_score": 4.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.011,
-      "bullish_pct": 24.4,
-      "bearish_pct": 37.8,
-      "headlines_analyzed": 45,
+      "score": 0.017,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.076,
-        "crypto_macro": 0.039,
-        "geopolitical": -0.262
+        "xrp": 0.066,
+        "crypto_macro": -0.006,
+        "geopolitical": -0.172,
+        "fed_rates": 0.177
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news",
-        "Crypto Overview: Bitcoin holds steady as ETF outflows decline \u2013 DEXE and TIA extend gains - FXStreet",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC recovers, Ethereum clings to support, XRP consolidates - FXStree",
+        "Is XRP (Ripple) a Strong Buy at $1.15? - Yahoo Finance"
       ],
       "top_bearish": [
+        "ETH, SOL, DOGE price news: Bitcoin under $63,000 amid tech selloff - CoinDesk",
         "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews",
-        "Crypto Market Today, June 22: Bitcoin Holds Above $64,000 on Easing Geopolitical Tensions - The Motley Fool",
-        "ETH, SOL, DOGE price news: Bitcoin slips toward $63,000 amid tech selloff - CoinDesk"
+        "Crypto Market Today, June 22: Bitcoin Holds Above $64,000 on Easing Geopolitical Tensions - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.74,
-      "health": -0.3334,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.75,
+      "health": -0.3302,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.97136,
-      "ema200": 0.98197,
-      "macd": -0.002188,
-      "macd_signal": -0.002558,
-      "rsi14": 43.1,
-      "atr14": 0.00222,
-      "atr14_hourly": 0.01087,
-      "bb_position": 0.431
+      "ema50": 0.9712,
+      "ema200": 0.98183,
+      "macd": -0.001919,
+      "macd_signal": -0.002423,
+      "rsi14": 45.8,
+      "atr14": 0.00216,
+      "atr14_hourly": 0.01043,
+      "bb_position": 0.507
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -95,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158532
+  "data_bars": 158533
 }
