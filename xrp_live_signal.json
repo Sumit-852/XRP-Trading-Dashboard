@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-23T09:56:13.966770+00:00",
+  "timestamp": "2026-06-23T10:01:45.180240+00:00",
   "signal": {
-    "price": 0.9664,
+    "price": 0.9665,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4368,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.4233,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.017,
-      "bullish_pct": 33.3,
-      "bearish_pct": 26.7,
+      "score": -0.005,
+      "bullish_pct": 30.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.066,
-        "crypto_macro": -0.006,
-        "geopolitical": -0.172,
+        "crypto_macro": -0.024,
+        "geopolitical": -0.263,
         "fed_rates": 0.177
       },
       "geo_shock": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "ETH, SOL, DOGE price news: Bitcoin under $63,000 amid tech selloff - CoinDesk",
-        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews",
-        "Crypto Market Today, June 22: Bitcoin Holds Above $64,000 on Easing Geopolitical Tensions - The Motley Fool"
+        "The crisis in the Strait of Hormuz will not replay itself in the South China Sea - Lowy Institute",
+        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.68,
-      "health": -0.4118,
-      "vol_ratio": 0.59
+      "up_down_ratio": 0.69,
+      "health": -0.3755,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.97028,
-      "ema200": 0.98106,
-      "macd": -0.00124,
-      "macd_signal": -0.001788,
-      "rsi14": 46.2,
-      "atr14": 0.00182,
-      "atr14_hourly": 0.00863,
-      "bb_position": 0.715
+      "ema50": 0.97013,
+      "ema200": 0.98091,
+      "macd": -0.001127,
+      "macd_signal": -0.001657,
+      "rsi14": 46.6,
+      "atr14": 0.00173,
+      "atr14_hourly": 0.00821,
+      "bb_position": 0.719
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158538
+  "data_bars": 158539
 }
