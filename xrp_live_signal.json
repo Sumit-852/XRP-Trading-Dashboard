@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-23T16:46:37.409231+00:00",
+  "timestamp": "2026-06-23T16:51:36.437724+00:00",
   "signal": {
-    "price": 0.966,
+    "price": 0.9652,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3825,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.3744,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.058,
-      "bullish_pct": 26.7,
-      "bearish_pct": 35.0,
+      "score": 0.026,
+      "bullish_pct": 38.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.024,
-        "crypto_macro": -0.176,
-        "geopolitical": -0.21,
-        "fed_rates": 0.161
+        "xrp": 0.18,
+        "crypto_macro": -0.144,
+        "geopolitical": -0.201,
+        "fed_rates": 0.264
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto.com Joins Ripple in Winning Conditional OCC Approval for Trust Bank Charter - Yahoo Finance",
-        "Ripple (XRP) Funds Continue to Defy Crypto ETF Downtrend With Fresh Inflows - CryptoRank",
-        "SEC Approves T. Rowe Price Crypto ETF: XRP Ranks Third Behind BTC and ETH - TradingView"
+        "Here's what seven straight weeks of ETF inflows mean for XRP - FXStreet",
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
+        "Ripple Wins Historic European Licence: XRP Holders Say So What? - TradingView"
       ],
       "top_bearish": [
-        "Bitcoin Below $63,000, Ethereum, XRP, Dogecoin Also Plummet Amid 'Extreme Fear': Analyst Pinpoints Bearish Shift In BTC'",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC weakens, ETH turns lower, XRP faces channel rejection - Mitrade",
-        "Bitcoin Plunges To $62,000: Is The Worst Of The Bear Market Still To Come? - Benzinga"
+        "Bitcoin Plunges To $62,000: Is The Worst Of The Bear Market Still To Come? - Benzinga",
+        "XRP transactions plunge 41% below 6-month average \u2013 Here\u2019s why! - AMBCrypto",
+        "Ripple (XRP) price prediction: June sell-off, escrow unlock, regulation - Capital.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": 0.0935,
-      "vol_ratio": 1.47
+      "up_down_ratio": 0.87,
+      "health": 0.0512,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.96582,
-      "ema200": 0.97301,
-      "macd": -6e-05,
-      "macd_signal": -0.00041,
-      "rsi14": 52.7,
-      "atr14": 0.00215,
-      "atr14_hourly": 0.00989,
-      "bb_position": 0.725
+      "ema50": 0.9658,
+      "ema200": 0.97293,
+      "macd": -4.4e-05,
+      "macd_signal": -0.000338,
+      "rsi14": 50.4,
+      "atr14": 0.0021,
+      "atr14_hourly": 0.00972,
+      "bb_position": 0.638
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158620
+  "data_bars": 158621
 }
