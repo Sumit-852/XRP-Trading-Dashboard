@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T16:21:18.447841+00:00",
+  "timestamp": "2026-06-24T16:26:22.647036+00:00",
   "signal": {
-    "price": 0.9363,
+    "price": 0.936,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5883,
+    "xgb_prob": 0.5892,
     "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.055,
-      "bullish_pct": 33.3,
-      "bearish_pct": 25.0,
+      "score": 0.056,
+      "bullish_pct": 28.3,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.23,
-        "crypto_macro": -0.07,
-        "geopolitical": -0.189,
-        "fed_rates": 0.174
+        "xrp": 0.194,
+        "crypto_macro": -0.042,
+        "geopolitical": -0.12,
+        "fed_rates": 0.126
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
       ],
       "top_bearish": [
-        "Crypto networks fuel the Houthi war machine - The Jerusalem Post",
         "Bitcoin slides to $62,300 as tech stock rout drags crypto lower - CoinDesk",
-        "China announces sanctions on 10 US companies as trade tensions flare - Euronews.com"
+        "A trade war between the EU and China seems inevitable - The Economist",
+        "'Much More to Come': Ripple Prime CEO Teases What's Next for XRP and RLUSD - U.Today"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.81,
-      "health": -0.4772,
-      "vol_ratio": 0.19
+      "up_down_ratio": 0.82,
+      "health": -0.4784,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.94572,
-      "ema200": 0.95932,
-      "macd": -0.004054,
-      "macd_signal": -0.00457,
+      "ema50": 0.9454,
+      "ema200": 0.9591,
+      "macd": -0.003665,
+      "macd_signal": -0.00437,
       "rsi14": 38.7,
-      "atr14": 0.00256,
-      "atr14_hourly": 0.01304,
-      "bb_position": 0.402
+      "atr14": 0.00265,
+      "atr14_hourly": 0.01277,
+      "bb_position": 0.403
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158903
+  "data_bars": 158904
 }
