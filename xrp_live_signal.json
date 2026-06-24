@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-24T17:31:35.145479+00:00",
+  "timestamp": "2026-06-24T17:36:10.841159+00:00",
   "signal": {
-    "price": 0.9271,
+    "price": 0.9273,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6207,
-    "hybrid_score": 6.2,
+    "xgb_prob": 0.6045,
+    "hybrid_score": 6.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.056,
+      "score": 0.031,
       "bullish_pct": 26.7,
-      "bearish_pct": 23.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.23,
-        "crypto_macro": -0.042,
-        "geopolitical": -0.141,
-        "fed_rates": 0.063
+        "xrp": 0.164,
+        "crypto_macro": -0.079,
+        "geopolitical": -0.11,
+        "fed_rates": 0.094
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
       ],
       "top_bearish": [
-        "Bitcoin slides to $62,300 as tech stock rout drags crypto lower - CoinDesk",
-        "A trade war between the EU and China seems inevitable - The Economist",
-        "'Much More to Come': Ripple Prime CEO Teases What's Next for XRP and RLUSD - U.Today"
+        "Crypto networks fuel the Houthi war machine - The Jerusalem Post",
+        "XRP Struggles Near $1.10 Despite Ripple\u2019s EU Regulatory Milestone - Bitcoin News",
+        "Bitcoin slides to $62,300 as tech stock rout drags crypto lower - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": -0.6361,
-      "vol_ratio": 0.61
+      "up_down_ratio": 0.68,
+      "health": -0.7455,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 0.93926,
-      "ema200": 0.95562,
-      "macd": -0.003593,
-      "macd_signal": -0.003563,
-      "rsi14": 34.2,
-      "atr14": 0.00314,
-      "atr14_hourly": 0.01268,
-      "bb_position": 0.159
+      "ema50": 0.93883,
+      "ema200": 0.95535,
+      "macd": -0.003486,
+      "macd_signal": -0.003536,
+      "rsi14": 34.5,
+      "atr14": 0.00306,
+      "atr14_hourly": 0.01249,
+      "bb_position": 0.193
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158917
+  "data_bars": 158918
 }
