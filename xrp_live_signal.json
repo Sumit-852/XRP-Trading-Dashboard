@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-24T02:11:13.057863+00:00",
+  "timestamp": "2026-06-24T02:41:18.977161+00:00",
   "signal": {
-    "price": 0.9727,
+    "price": 0.9733,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3643,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.4036,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
+      "score": -0.006,
+      "bullish_pct": 25.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.261,
-        "crypto_macro": -0.162,
+        "xrp": 0.263,
+        "crypto_macro": -0.204,
         "geopolitical": -0.189,
-        "fed_rates": 0.139
+        "fed_rates": -0.056
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
       ],
       "top_bearish": [
-        "Why is Crypto Crashing Hard Today? BTC, ETH and XRP Fall 5% - Coinpedia",
-        "Why Is the Crypto Market Crashing Today? - TradingView",
-        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout - Yahoo Finance"
+        "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
+        "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
+        "Why Is the Crypto Market Crashing Today? - TradingView"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": 0.1047,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.93,
+      "health": 0.0919,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.9733,
-      "ema200": 0.97174,
-      "macd": -0.000168,
-      "macd_signal": 0.000202,
-      "rsi14": 43.0,
-      "atr14": 0.00117,
-      "atr14_hourly": 0.00505,
-      "bb_position": 0.146
+      "ema50": 0.97299,
+      "ema200": 0.97175,
+      "macd": -0.000606,
+      "macd_signal": -0.000379,
+      "rsi14": 50.1,
+      "atr14": 0.00139,
+      "atr14_hourly": 0.00553,
+      "bb_position": 0.474
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158733
+  "data_bars": 158739
 }
