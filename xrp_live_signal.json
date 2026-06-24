@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T06:11:23.981664+00:00",
+  "timestamp": "2026-06-24T06:16:19.285008+00:00",
   "signal": {
-    "price": 0.9711,
+    "price": 0.9707,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3563,
+    "xgb_prob": 0.3649,
     "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,21 +11,21 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.002,
-      "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
+      "score": 0.04,
+      "bullish_pct": 35.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.234,
-        "crypto_macro": -0.211,
+        "crypto_macro": -0.108,
         "geopolitical": -0.233,
-        "fed_rates": 0.139
+        "fed_rates": 0.189
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
         "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
-        "Why Is the Crypto Market Crashing Today? - TradingView"
+        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout - Yahoo Finance"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.29,
-      "health": 0.3557,
-      "vol_ratio": 0.06
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.3,
+      "health": 0.3624,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.97027,
+      "ema50": 0.97028,
       "ema200": 0.97097,
-      "macd": 0.000364,
-      "macd_signal": 0.000233,
-      "rsi14": 54.5,
-      "atr14": 0.00124,
-      "atr14_hourly": 0.00585,
-      "bb_position": 0.73
+      "macd": 0.000348,
+      "macd_signal": 0.000253,
+      "rsi14": 52.9,
+      "atr14": 0.0012,
+      "atr14_hourly": 0.00569,
+      "bb_position": 0.64
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158781
+  "data_bars": 158782
 }
