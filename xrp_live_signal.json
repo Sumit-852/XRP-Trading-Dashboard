@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-24T14:41:18.813184+00:00",
+  "timestamp": "2026-06-24T14:46:31.217721+00:00",
   "signal": {
-    "price": 0.9486,
+    "price": 0.948,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5112,
-    "hybrid_score": 5.1,
+    "xgb_prob": 0.5163,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.027,
-      "bullish_pct": 35.0,
-      "bearish_pct": 28.3,
+      "score": 0.019,
+      "bullish_pct": 31.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.15,
-        "crypto_macro": -0.068,
-        "geopolitical": -0.189,
-        "fed_rates": 0.178
+        "xrp": 0.144,
+        "crypto_macro": -0.07,
+        "geopolitical": -0.221,
+        "fed_rates": 0.182
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
-        "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com",
-        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
+        "Ripple\u2019s IPO could reward XRP holders. What we actually know - crypto.news"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
-        "Why Is the Crypto Market Crashing Today? - TradingView",
-        "Crypto networks fuel the Houthi war machine - The Jerusalem Post"
+        "Crypto networks fuel the Houthi war machine - The Jerusalem Post",
+        "Bitcoin slides to $62,300 as tech stock rout drags crypto lower - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.2343,
-      "vol_ratio": 0.17
+      "up_down_ratio": 1.07,
+      "health": -0.2651,
+      "vol_ratio": 0.28
     },
     "technicals": {
-      "ema50": 0.95585,
-      "ema200": 0.96399,
-      "macd": -0.002674,
-      "macd_signal": -0.00283,
-      "rsi14": 39.9,
-      "atr14": 0.00303,
-      "atr14_hourly": 0.01175,
-      "bb_position": 0.297
+      "ema50": 0.95554,
+      "ema200": 0.96383,
+      "macd": -0.002626,
+      "macd_signal": -0.00279,
+      "rsi14": 38.8,
+      "atr14": 0.00298,
+      "atr14_hourly": 0.01147,
+      "bb_position": 0.263
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158883
+  "data_bars": 158884
 }
