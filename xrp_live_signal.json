@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T07:51:18.634402+00:00",
+  "timestamp": "2026-06-24T07:56:12.272044+00:00",
   "signal": {
-    "price": 0.9657,
+    "price": 0.966,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3934,
+    "xgb_prob": 0.3884,
     "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.029,
-      "bullish_pct": 33.3,
+      "score": 0.033,
+      "bullish_pct": 35.0,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.259,
+        "xrp": 0.254,
         "crypto_macro": -0.194,
-        "geopolitical": -0.161,
-        "fed_rates": 0.139
+        "geopolitical": -0.159,
+        "fed_rates": 0.17
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP ETFs log strong inflows as institutions keep buying - thestreet.com",
         "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com",
-        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
+        "XRP Price Prediction Amid Ripple\u2019s Major Win in $420B European Crypto Market - CoinGape"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.23,
-      "health": 0.2695,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.21,
+      "health": 0.243,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.96905,
-      "ema200": 0.97049,
-      "macd": -0.001018,
-      "macd_signal": -0.000663,
-      "rsi14": 31.5,
-      "atr14": 0.00089,
-      "atr14_hourly": 0.00414,
-      "bb_position": 0.062
+      "ema50": 0.96892,
+      "ema200": 0.97044,
+      "macd": -0.001053,
+      "macd_signal": -0.000743,
+      "rsi14": 35.2,
+      "atr14": 0.00091,
+      "atr14_hourly": 0.00418,
+      "bb_position": 0.157
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158801
+  "data_bars": 158802
 }
