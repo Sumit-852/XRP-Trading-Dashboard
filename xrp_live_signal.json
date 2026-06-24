@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T22:36:13.763578+00:00",
+  "timestamp": "2026-06-24T22:41:16.106517+00:00",
   "signal": {
-    "price": 0.945,
+    "price": 0.9433,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3797,
+    "xgb_prob": 0.3816,
     "hybrid_score": 3.8,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.065,
-      "bullish_pct": 23.3,
-      "bearish_pct": 36.7,
+      "score": -0.025,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.013,
-        "crypto_macro": -0.149,
-        "geopolitical": -0.172,
-        "fed_rates": 0.038
+        "xrp": 0.049,
+        "crypto_macro": -0.129,
+        "geopolitical": -0.213,
+        "fed_rates": 0.234
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
-        "Here's why XRP could retest $1.00 support - FXStreet"
+        "Congress Is Taking the CLARITY Act to New York: What It Changes for Bitcoin, Ethereum, and XRP - Yahoo Finance"
       ],
       "top_bearish": [
         "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive - Yahoo Finance",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.82,
-      "health": 0.3068,
-      "vol_ratio": 0.0
+      "health": 0.3081,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.94084,
-      "ema200": 0.94763,
-      "macd": 0.001836,
-      "macd_signal": 0.002271,
-      "rsi14": 57.5,
+      "ema50": 0.94087,
+      "ema200": 0.94757,
+      "macd": 0.001451,
+      "macd_signal": 0.002084,
+      "rsi14": 51.3,
       "atr14": 0.00183,
-      "atr14_hourly": 0.01083,
-      "bb_position": 0.587
+      "atr14_hourly": 0.01058,
+      "bb_position": 0.414
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158978
+  "data_bars": 158979
 }
