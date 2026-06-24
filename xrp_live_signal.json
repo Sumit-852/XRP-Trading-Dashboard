@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-24T04:21:14.148024+00:00",
+  "timestamp": "2026-06-24T04:26:13.839148+00:00",
   "signal": {
-    "price": 0.9681,
+    "price": 0.9648,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3877,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.4575,
+    "hybrid_score": 4.6,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.013,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": 0.042,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.263,
-        "crypto_macro": -0.204,
-        "geopolitical": -0.242,
+        "crypto_macro": -0.128,
+        "geopolitical": -0.206,
         "fed_rates": 0.139
       },
       "geo_shock": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
         "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
-        "Why Is the Crypto Market Crashing Today? - TradingView"
+        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.08,
-      "health": 0.2518,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.14,
+      "health": 0.2938,
+      "vol_ratio": 1.77
     },
     "technicals": {
-      "ema50": 0.97114,
-      "ema200": 0.97138,
-      "macd": -0.000962,
-      "macd_signal": -0.000882,
-      "rsi14": 38.9,
-      "atr14": 0.00099,
-      "atr14_hourly": 0.00576,
-      "bb_position": 0.237
+      "ema50": 0.97067,
+      "ema200": 0.97126,
+      "macd": -0.001618,
+      "macd_signal": -0.001105,
+      "rsi14": 36.0,
+      "atr14": 0.0015,
+      "atr14_hourly": 0.0064,
+      "bb_position": 0.056
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -66,7 +66,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4922.43,
     "total_pnl_pct": -1.551,
     "position": "CASH",
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158759
+  "data_bars": 158760
 }
