@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-06-24T19:11:45.946751+00:00",
+  "timestamp": "2026-06-24T19:16:24.236335+00:00",
   "signal": {
-    "price": 0.9294,
+    "price": 0.9273,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5353,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.572,
+    "hybrid_score": 5.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": -0.016,
+      "bullish_pct": 25.0,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.062,
+        "crypto_macro": -0.088,
+        "geopolitical": -0.15,
+        "fed_rates": 0.102
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
+        "Here's why XRP could retest $1.00 support - FXStreet"
+      ],
+      "top_bearish": [
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
+        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga"
+      ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.71,
-      "health": -0.5787,
-      "vol_ratio": 0.24
+      "up_down_ratio": 0.68,
+      "health": -0.6461,
+      "vol_ratio": 0.53
     },
     "technicals": {
-      "ema50": 0.93526,
-      "ema200": 0.95128,
-      "macd": -0.000252,
-      "macd_signal": -5.5e-05,
-      "rsi14": 41.5,
-      "atr14": 0.00278,
-      "atr14_hourly": 0.0151,
-      "bb_position": 0.395
+      "ema50": 0.93499,
+      "ema200": 0.95105,
+      "macd": -0.000552,
+      "macd_signal": -0.000138,
+      "rsi14": 37.2,
+      "atr14": 0.00298,
+      "atr14_hourly": 0.01519,
+      "bb_position": 0.284
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -83,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158937
+  "data_bars": 158938
 }
