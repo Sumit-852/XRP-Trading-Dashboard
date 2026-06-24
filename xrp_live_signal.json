@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T10:41:16.961313+00:00",
+  "timestamp": "2026-06-24T10:46:27.910080+00:00",
   "signal": {
-    "price": 0.9571,
+    "price": 0.9566,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4273,
+    "xgb_prob": 0.4277,
     "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,12 +11,12 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.062,
-      "bullish_pct": 38.3,
+      "score": 0.047,
+      "bullish_pct": 36.7,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.283,
+        "xrp": 0.242,
         "crypto_macro": -0.132,
         "geopolitical": -0.195,
         "fed_rates": 0.22
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - Yahoo Finance",
-        "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
+        "XRP ETFs log strong inflows as institutions keep buying - thestreet.com",
         "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.15,
-      "health": -0.1195,
-      "vol_ratio": 0.28
+      "up_down_ratio": 1.13,
+      "health": -0.1264,
+      "vol_ratio": 1.96
     },
     "technicals": {
-      "ema50": 0.9655,
-      "ema200": 0.96899,
-      "macd": -0.002882,
-      "macd_signal": -0.001938,
-      "rsi14": 27.3,
-      "atr14": 0.00153,
-      "atr14_hourly": 0.00712,
-      "bb_position": 0.15
+      "ema50": 0.96517,
+      "ema200": 0.96887,
+      "macd": -0.002962,
+      "macd_signal": -0.002139,
+      "rsi14": 27.2,
+      "atr14": 0.00151,
+      "atr14_hourly": 0.00748,
+      "bb_position": 0.162
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158835
+  "data_bars": 158836
 }
