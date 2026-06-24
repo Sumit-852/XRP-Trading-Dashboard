@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-06-24T15:21:53.216733+00:00",
+  "timestamp": "2026-06-24T15:26:12.248396+00:00",
   "signal": {
-    "price": 0.9414,
+    "price": 0.9392,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5801,
-    "hybrid_score": 5.8,
+    "xgb_prob": 0.5857,
+    "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.043,
+      "bullish_pct": 33.3,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.194,
+        "crypto_macro": -0.108,
+        "geopolitical": -0.122,
+        "fed_rates": 0.174
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
+        "XRP ETFs log strong inflows as institutions keep buying - thestreet.com",
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
+      ],
+      "top_bearish": [
+        "Crypto networks fuel the Houthi war machine - The Jerusalem Post",
+        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout - Yahoo Finance",
+        "Bitcoin slides to $62,300 as tech stock rout drags crypto lower - CoinDesk"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": -0.1952,
-      "vol_ratio": 0.63
+      "up_down_ratio": 0.94,
+      "health": -0.2171,
+      "vol_ratio": 0.39
     },
     "technicals": {
-      "ema50": 0.95268,
-      "ema200": 0.96249,
-      "macd": -0.003341,
-      "macd_signal": -0.003017,
-      "rsi14": 27.5,
-      "atr14": 0.00259,
-      "atr14_hourly": 0.01068,
-      "bb_position": -0.004
+      "ema50": 0.9521,
+      "ema200": 0.96224,
+      "macd": -0.003663,
+      "macd_signal": -0.003163,
+      "rsi14": 24.5,
+      "atr14": 0.00255,
+      "atr14_hourly": 0.01096,
+      "bb_position": -0.044
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -83,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158891
+  "data_bars": 158892
 }
