@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-24T00:11:13.153039+00:00",
+  "timestamp": "2026-06-24T00:16:26.089641+00:00",
   "signal": {
     "price": 0.9754,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3299,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.3719,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.011,
-      "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "score": 0.029,
+      "bullish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.187,
-        "crypto_macro": -0.174,
-        "geopolitical": -0.231,
+        "xrp": 0.261,
+        "crypto_macro": -0.162,
+        "geopolitical": -0.183,
         "fed_rates": 0.098
       },
       "geo_shock": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Why is Crypto Crashing Hard Today? BTC, ETH and XRP Fall 5% - Coinpedia",
-        "XRP transactions plunge 41% below 6-month average \u2013 Here\u2019s why! - AMBCrypto",
-        "Why Is the Crypto Market Crashing Today? - TradingView"
+        "Why Is the Crypto Market Crashing Today? - TradingView",
+        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": -0.0426,
-      "vol_ratio": 0.14
+      "up_down_ratio": 0.88,
+      "health": -0.0138,
+      "vol_ratio": 0.17
     },
     "technicals": {
-      "ema50": 0.97128,
-      "ema200": 0.97093,
-      "macd": 0.001175,
-      "macd_signal": 0.000948,
-      "rsi14": 65.4,
-      "atr14": 0.00122,
-      "atr14_hourly": 0.00481,
-      "bb_position": 0.941
+      "ema50": 0.97148,
+      "ema200": 0.97099,
+      "macd": 0.001268,
+      "macd_signal": 0.001025,
+      "rsi14": 62.7,
+      "atr14": 0.00128,
+      "atr14_hourly": 0.00482,
+      "bb_position": 0.856
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158709
+  "data_bars": 158710
 }
