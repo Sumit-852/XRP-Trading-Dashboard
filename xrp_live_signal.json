@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-24T11:16:21.198225+00:00",
+  "timestamp": "2026-06-24T11:21:26.172978+00:00",
   "signal": {
-    "price": 0.9545,
+    "price": 0.9535,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4373,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.428,
+    "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.047,
+      "score": 0.056,
       "bullish_pct": 36.7,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.242,
+        "xrp": 0.283,
         "crypto_macro": -0.132,
-        "geopolitical": -0.195,
-        "fed_rates": 0.22
+        "geopolitical": -0.17,
+        "fed_rates": 0.149
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - Yahoo Finance",
-        "XRP ETFs log strong inflows as institutions keep buying - thestreet.com",
+        "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
         "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.22,
-      "health": -0.0567,
-      "vol_ratio": 0.15
+      "up_down_ratio": 1.23,
+      "health": -0.0628,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.96316,
-      "ema200": 0.96811,
-      "macd": -0.003112,
-      "macd_signal": -0.002791,
-      "rsi14": 27.4,
-      "atr14": 0.00159,
-      "atr14_hourly": 0.0088,
-      "bb_position": 0.235
+      "ema50": 0.96278,
+      "ema200": 0.96796,
+      "macd": -0.003176,
+      "macd_signal": -0.002869,
+      "rsi14": 25.5,
+      "atr14": 0.00155,
+      "atr14_hourly": 0.00854,
+      "bb_position": 0.216
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158842
+  "data_bars": 158843
 }
