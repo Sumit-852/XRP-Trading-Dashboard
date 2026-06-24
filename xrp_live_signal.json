@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-24T06:21:20.708338+00:00",
+  "timestamp": "2026-06-24T06:51:20.007753+00:00",
   "signal": {
-    "price": 0.9701,
+    "price": 0.9691,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3606,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.3357,
+    "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.04,
-      "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "score": 0.034,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.234,
-        "crypto_macro": -0.108,
+        "xrp": 0.254,
+        "crypto_macro": -0.128,
         "geopolitical": -0.233,
-        "fed_rates": 0.189
+        "fed_rates": 0.139
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
-        "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Importan - Benzinga",
-        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout - Yahoo Finance"
+        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout - Yahoo Finance",
+        "Bitcoin slides below $62,000 and Ethereum plunges 6% as crypto markets face $700M in liquidations today - eciks.org"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.31,
-      "health": 0.3728,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.27,
+      "health": 0.3028,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.97025,
-      "ema200": 0.97096,
-      "macd": 0.00026,
-      "macd_signal": 0.000247,
-      "rsi14": 50.3,
-      "atr14": 0.00115,
-      "atr14_hourly": 0.00553,
-      "bb_position": 0.491
+      "ema50": 0.97011,
+      "ema200": 0.97088,
+      "macd": -5.4e-05,
+      "macd_signal": 0.00011,
+      "rsi14": 45.0,
+      "atr14": 0.00097,
+      "atr14_hourly": 0.00465,
+      "bb_position": 0.121
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158783
+  "data_bars": 158789
 }
