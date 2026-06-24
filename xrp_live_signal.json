@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-24T18:01:48.463343+00:00",
+  "timestamp": "2026-06-24T18:06:14.337770+00:00",
   "signal": {
-    "price": 0.9254,
+    "price": 0.9268,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5875,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.5698,
+    "hybrid_score": 5.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
+      "score": -0.002,
       "bullish_pct": 26.7,
-      "bearish_pct": 25.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.164,
+        "xrp": 0.079,
         "crypto_macro": -0.079,
         "geopolitical": -0.11,
-        "fed_rates": 0.094
+        "fed_rates": 0.086
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
-        "XRP ETFs log strong inflows as institutions keep buying - thestreet.com",
-        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk"
+        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
+        "What does Pakistan stand to gain from helping broker the US-Iran deal? - Al Jazeera"
       ],
       "top_bearish": [
-        "Crypto networks fuel the Houthi war machine - The Jerusalem Post",
-        "XRP Struggles Near $1.10 Despite Ripple\u2019s EU Regulatory Milestone - Bitcoin News",
-        "Bitcoin slides to $62,300 as tech stock rout drags crypto lower - CoinDesk"
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
+        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga",
+        "XRP Struggles Near $1.10 Despite Ripple\u2019s EU Regulatory Milestone - Bitcoin News"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": -0.6915,
-      "vol_ratio": 0.63
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.73,
+      "health": -0.6772,
+      "vol_ratio": 0.76
     },
     "technicals": {
-      "ema50": 0.93631,
-      "ema200": 0.95386,
-      "macd": -0.003524,
-      "macd_signal": -0.003592,
-      "rsi14": 34.4,
-      "atr14": 0.00307,
-      "atr14_hourly": 0.01218,
-      "bb_position": 0.25
+      "ema50": 0.93598,
+      "ema200": 0.95361,
+      "macd": -0.003208,
+      "macd_signal": -0.0035,
+      "rsi14": 39.0,
+      "atr14": 0.00303,
+      "atr14_hourly": 0.01215,
+      "bb_position": 0.349
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 158923
+  "data_bars": 158924
 }
