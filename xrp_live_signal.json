@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-25T10:16:20.381178+00:00",
+  "timestamp": "2026-06-25T10:21:18.498959+00:00",
   "signal": {
-    "price": 0.9508,
+    "price": 0.9488,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3399,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.3216,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.077,
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "sentiment": "BEARISH",
+      "score": -0.12,
+      "bullish_pct": 30.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.033,
-        "crypto_macro": -0.223,
-        "geopolitical": -0.2,
-        "fed_rates": 0.091
+        "xrp": -0.038,
+        "crypto_macro": -0.299,
+        "geopolitical": -0.193,
+        "fed_rates": 0.121
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP News: Ripple\u2019s MiCA Approval & Binance Withdrawal Trend Spark Fresh Optimism - TradingView",
         "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com",
-        "Here's why XRP could retest $1.00 support - FXStreet"
+        "Here's why XRP could retest $1.00 support - FXStreet",
+        "XRP Price Increases As Ripple Seeks To Expand AI Workforce - MarketForces Africa"
       ],
       "top_bearish": [
         "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive - Decrypt",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.87,
-      "health": 0.0837,
-      "vol_ratio": 0.19
+      "health": 0.0758,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.95127,
-      "ema200": 0.94885,
-      "macd": -0.000769,
-      "macd_signal": -0.000825,
-      "rsi14": 47.7,
-      "atr14": 0.00089,
-      "atr14_hourly": 0.00387,
-      "bb_position": 0.51
+      "ema50": 0.95113,
+      "ema200": 0.94884,
+      "macd": -0.000893,
+      "macd_signal": -0.000851,
+      "rsi14": 33.4,
+      "atr14": 0.0009,
+      "atr14_hourly": 0.00374,
+      "bb_position": 0.102
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159118
+  "data_bars": 159119
 }
