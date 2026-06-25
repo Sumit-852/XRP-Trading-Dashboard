@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-25T11:21:17.913583+00:00",
+  "timestamp": "2026-06-25T11:26:20.609618+00:00",
   "signal": {
     "price": 0.9429,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3769,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.3638,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.077,
-      "bullish_pct": 30.0,
+      "score": -0.072,
+      "bullish_pct": 31.7,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.031,
-        "crypto_macro": -0.302,
-        "geopolitical": -0.146,
+        "xrp": 0.032,
+        "crypto_macro": -0.289,
+        "geopolitical": -0.145,
         "fed_rates": 0.19
       },
       "geo_shock": false,
@@ -27,12 +27,12 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "XRP News: Ripple\u2019s MiCA Approval & Binance Withdrawal Trend Spark Fresh Optimism - TradingView",
-        "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com",
-        "Here's why XRP could retest $1.00 support - FXStreet"
+        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
+        "Better Buy for This Crypto Bear Market: XRP or Dogecoin? - AOL.com"
       ],
       "top_bearish": [
         "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive - Decrypt",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": 0.0596,
-      "vol_ratio": 0.11
+      "up_down_ratio": 0.92,
+      "health": 0.0833,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.94864,
-      "ema200": 0.94838,
-      "macd": -0.002235,
-      "macd_signal": -0.001876,
-      "rsi14": 31.3,
-      "atr14": 0.00134,
-      "atr14_hourly": 0.00589,
-      "bb_position": 0.175
+      "ema50": 0.94842,
+      "ema200": 0.94832,
+      "macd": -0.002207,
+      "macd_signal": -0.001941,
+      "rsi14": 31.6,
+      "atr14": 0.00125,
+      "atr14_hourly": 0.00608,
+      "bb_position": 0.206
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159131
+  "data_bars": 159132
 }
