@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-25T03:36:08.492442+00:00",
+  "timestamp": "2026-06-25T03:41:25.815602+00:00",
   "signal": {
     "price": 0.9402,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3668,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.3643,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.056,
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "sentiment": "BEARISH",
+      "score": -0.104,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.01,
-        "crypto_macro": -0.173,
+        "xrp": -0.091,
+        "crypto_macro": -0.192,
         "geopolitical": -0.129,
-        "fed_rates": 0.105
+        "fed_rates": 0.069
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3? - CCN.com",
         "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
-        "Here's why XRP could retest $1.00 support - FXStreet"
+        "Here's why XRP could retest $1.00 support - FXStreet",
+        "XRP Price Increases As Ripple Seeks To Expand AI Workforce - MarketForces Africa"
       ],
       "top_bearish": [
-        "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive - Decrypt",
+        "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive - Yahoo Finance",
         "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
+        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.71,
-      "health": -0.1312,
+      "health": -0.1282,
       "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.94276,
-      "ema200": 0.94577,
-      "macd": -0.001141,
-      "macd_signal": -0.000973,
+      "ema50": 0.94266,
+      "ema200": 0.94572,
+      "macd": -0.001131,
+      "macd_signal": -0.001006,
       "rsi14": 37.7,
-      "atr14": 0.00111,
-      "atr14_hourly": 0.0051,
-      "bb_position": 0.251
+      "atr14": 0.00107,
+      "atr14_hourly": 0.00502,
+      "bb_position": 0.263
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159038
+  "data_bars": 159039
 }
