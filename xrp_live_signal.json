@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-25T04:46:11.914022+00:00",
+  "timestamp": "2026-06-25T04:51:23.376484+00:00",
   "signal": {
-    "price": 0.9423,
+    "price": 0.9451,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3387,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.3213,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.102,
+      "score": -0.106,
       "bullish_pct": 31.7,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.074,
+        "xrp": -0.115,
         "crypto_macro": -0.192,
-        "geopolitical": -0.137,
+        "geopolitical": -0.076,
         "fed_rates": 0.05
       },
       "geo_shock": false,
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple secures preliminary approval in EU through Luxembourg MiCA license - CoinDesk",
         "Here's why XRP could retest $1.00 support - FXStreet",
+        "What does Pakistan stand to gain from helping broker the US-Iran deal? - Al Jazeera",
         "XRP Price Increases As Ripple Seeks To Expand AI Workforce - MarketForces Africa"
       ],
       "top_bearish": [
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.73,
-      "health": -0.1042,
-      "vol_ratio": 0.01
+      "health": -0.1039,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.94202,
-      "ema200": 0.94515,
-      "macd": -0.000258,
-      "macd_signal": -0.000531,
-      "rsi14": 55.1,
-      "atr14": 0.00089,
-      "atr14_hourly": 0.00355,
-      "bb_position": 1.031
+      "ema50": 0.94223,
+      "ema200": 0.94517,
+      "macd": 0.000219,
+      "macd_signal": -0.00035,
+      "rsi14": 66.3,
+      "atr14": 0.00106,
+      "atr14_hourly": 0.00389,
+      "bb_position": 1.193
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159052
+  "data_bars": 159053
 }
