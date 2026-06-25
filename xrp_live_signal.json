@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-25T20:56:03.991370+00:00",
+  "timestamp": "2026-06-25T21:01:31.180262+00:00",
   "signal": {
-    "price": 0.9063,
+    "price": 0.9075,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5401,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.5088,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.024,
-      "bullish_pct": 31.7,
-      "bearish_pct": 35.0,
+      "score": -0.093,
+      "bullish_pct": 25.0,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.182,
+        "xrp": 0.034,
         "crypto_macro": -0.22,
-        "geopolitical": -0.2,
-        "fed_rates": 0.067
+        "geopolitical": -0.218,
+        "fed_rates": 0.0
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple Gets Preliminary OK for EU Crypto Asset Service Provider License - PYMNTS.com",
-        "Ripple launches 'Clarity truck' in D.C. to push for clear crypto regulations amid Senate hurdles - Pluang",
-        "Ripple Price Prediction: Will the CLARITY Act Trigger a Repricing Event for XRP? - Coinpedia"
+        "Ripple Price Prediction: Will the CLARITY Act Trigger a Repricing Event for XRP? - Coinpedia",
+        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
+        "Here's why XRP could retest $1.00 support - FXStreet"
       ],
       "top_bearish": [
+        "XRP and Ethereum Share This 1 Critical Problem. Should You Sell Them? - The Motley Fool",
         "Crypto market chaos: Prices plunge trillions - News.com.au",
-        "Crypto steadies after brutal $1 billion liquidation day: Crypto Markets Today - CoinDesk",
-        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga"
+        "Crypto steadies after brutal $1 billion liquidation day: Crypto Markets Today - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.56,
-      "health": -0.0989,
-      "vol_ratio": 0.0
+      "health": -0.0535,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.91009,
-      "ema200": 0.925,
-      "macd": -0.000601,
-      "macd_signal": -0.000328,
-      "rsi14": 42.6,
-      "atr14": 0.00197,
-      "atr14_hourly": 0.00951,
-      "bb_position": 0.31
+      "ema50": 0.91003,
+      "ema200": 0.92484,
+      "macd": -0.000523,
+      "macd_signal": -0.000352,
+      "rsi14": 46.4,
+      "atr14": 0.00193,
+      "atr14_hourly": 0.00935,
+      "bb_position": 0.395
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159246
+  "data_bars": 159247
 }
