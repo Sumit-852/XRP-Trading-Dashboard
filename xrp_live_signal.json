@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T21:31:28.900797+00:00",
+  "timestamp": "2026-06-26T21:36:08.088012+00:00",
   "signal": {
-    "price": 0.9168,
+    "price": 0.916,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5147,
-    "hybrid_score": 5.1,
+    "xgb_prob": 0.5012,
+    "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.057,
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
+      "sentiment": "BEARISH",
+      "score": -0.121,
+      "bullish_pct": 30.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.021,
-        "crypto_macro": -0.153,
-        "geopolitical": -0.127,
-        "fed_rates": 0.131
+        "xrp": -0.059,
+        "crypto_macro": -0.308,
+        "geopolitical": -0.181,
+        "fed_rates": 0.175
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,34 +27,34 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": false,
+      "crypto_specific_bad": true,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Crypto Market Update: Catholic Leaders Oppose CLARITY Act Provisions - Investing News Network"
+        "XRP Sinks Deeper as the Psychological $1 Mark Comes Into Play - Yahoo Finance"
       ],
       "top_bearish": [
         "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
+        "Crypto market chaos: Prices plunge trillions - News.com.au",
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 1.53,
-      "health": 0.0015,
-      "vol_ratio": 0.09
+      "health": 0.039,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.91616,
-      "ema200": 0.91244,
-      "macd": -0.0006,
-      "macd_signal": -0.000407,
-      "rsi14": 50.9,
-      "atr14": 0.00206,
-      "atr14_hourly": 0.00894,
-      "bb_position": 0.459
+      "ema50": 0.91613,
+      "ema200": 0.91247,
+      "macd": -0.000594,
+      "macd_signal": -0.000455,
+      "rsi14": 48.7,
+      "atr14": 0.00196,
+      "atr14_hourly": 0.00868,
+      "bb_position": 0.397
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159541
+  "data_bars": 159542
 }
