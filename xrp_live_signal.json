@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T15:56:07.069250+00:00",
+  "timestamp": "2026-06-26T16:01:37.775309+00:00",
   "signal": {
-    "price": 0.9146,
+    "price": 0.922,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5246,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5696,
+    "hybrid_score": 5.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.087,
-      "bullish_pct": 26.7,
-      "bearish_pct": 36.7,
+      "score": -0.082,
+      "bullish_pct": 21.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.017,
-        "crypto_macro": -0.207,
+        "xrp": -0.019,
+        "crypto_macro": -0.213,
         "geopolitical": -0.098,
-        "fed_rates": -0.01
+        "fed_rates": 0.039
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Is XRP a Better Investment Than Bitcoin Right Now? - 24/7 Wall St."
+        "What Will XRP Be Worth in 3 Years? - 24/7 Wall St.",
+        "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4% - CNBC"
       ],
       "top_bearish": [
         "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
         "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga",
-        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga"
+        "Binance to stop providing services to EU clients after failing to obtain licence - Financial Times"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.5,
-      "health": 0.0661,
-      "vol_ratio": 0.22
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.52,
+      "health": 0.0433,
+      "vol_ratio": 2.21
     },
     "technicals": {
-      "ema50": 0.90706,
-      "ema200": 0.90798,
-      "macd": 0.003199,
-      "macd_signal": 0.003362,
-      "rsi14": 57.2,
-      "atr14": 0.00399,
-      "atr14_hourly": 0.01436,
-      "bb_position": 0.688
+      "ema50": 0.90768,
+      "ema200": 0.90813,
+      "macd": 0.003696,
+      "macd_signal": 0.003439,
+      "rsi14": 65.3,
+      "atr14": 0.00429,
+      "atr14_hourly": 0.01447,
+      "bb_position": 1.118
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159474
+  "data_bars": 159475
 }
