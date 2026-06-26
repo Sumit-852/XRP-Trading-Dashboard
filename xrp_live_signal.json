@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-26T19:16:16.960758+00:00",
+  "timestamp": "2026-06-26T19:21:22.555765+00:00",
   "signal": {
-    "price": 0.9155,
+    "price": 0.9157,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.495,
+    "xgb_prob": 0.4993,
     "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.054,
-      "bullish_pct": 30.0,
+      "score": -0.035,
+      "bullish_pct": 31.7,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.041,
-        "crypto_macro": -0.128,
+        "xrp": 0.01,
+        "crypto_macro": -0.112,
         "geopolitical": -0.132,
-        "fed_rates": 0.159
+        "fed_rates": 0.132
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Ripple got RLUSD into Japan, now the stablecoin race begins as Circle and Nomura join - CryptoSlate"
+        "Crypto Market Update: Catholic Leaders Oppose CLARITY Act Provisions - Investing News Network"
       ],
       "top_bearish": [
         "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.36,
-      "health": -0.1189,
-      "vol_ratio": 0.08
+      "health": -0.1384,
+      "vol_ratio": 0.94
     },
     "technicals": {
-      "ema50": 0.91471,
-      "ema200": 0.91097,
-      "macd": -0.000585,
-      "macd_signal": -0.000453,
-      "rsi14": 49.2,
+      "ema50": 0.91474,
+      "ema200": 0.91101,
+      "macd": -0.000519,
+      "macd_signal": -0.000469,
+      "rsi14": 49.7,
       "atr14": 0.00226,
-      "atr14_hourly": 0.00808,
-      "bb_position": 0.417
+      "atr14_hourly": 0.00797,
+      "bb_position": 0.452
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159514
+  "data_bars": 159515
 }
