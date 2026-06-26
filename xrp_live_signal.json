@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T09:41:24.207284+00:00",
+  "timestamp": "2026-06-26T09:46:21.770014+00:00",
   "signal": {
-    "price": 0.9084,
+    "price": 0.9073,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5085,
-    "hybrid_score": 5.1,
+    "xgb_prob": 0.5711,
+    "hybrid_score": 5.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.042,
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "score": -0.064,
+      "bullish_pct": 26.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.065,
-        "crypto_macro": -0.163,
+        "xrp": 0.044,
+        "crypto_macro": -0.219,
         "geopolitical": -0.103,
-        "fed_rates": 0.008
+        "fed_rates": 0.025
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Matt \u2018Fortune Favors the Brave\u2019 Damon Is Back for More Crypto Fun - Gizmodo",
-        "Ripple Wins Historic European Licence: XRP Holders Say So What? - TradingView",
-        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk"
+        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
+        "Is XRP a Better Investment Than Bitcoin Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
-        "XRP and Ethereum Share This 1 Critical Problem. Should You Sell Them? - The Motley Fool",
         "Crypto market chaos: Prices plunge trillions - News.com.au",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
+        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.01,
-      "health": 0.2956,
-      "vol_ratio": 0.06
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.19,
+      "health": 0.426,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.91092,
-      "ema200": 0.91302,
-      "macd": -0.00171,
-      "macd_signal": -0.001445,
-      "rsi14": 41.0,
-      "atr14": 0.00173,
-      "atr14_hourly": 0.00846,
-      "bb_position": 0.315
+      "ema50": 0.91071,
+      "ema200": 0.91294,
+      "macd": -0.001832,
+      "macd_signal": -0.001545,
+      "rsi14": 37.3,
+      "atr14": 0.00176,
+      "atr14_hourly": 0.00823,
+      "bb_position": 0.201
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159399
+  "data_bars": 159400
 }
