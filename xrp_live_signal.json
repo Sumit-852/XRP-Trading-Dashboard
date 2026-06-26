@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T12:36:07.739437+00:00",
+  "timestamp": "2026-06-26T12:41:19.622101+00:00",
   "signal": {
-    "price": 0.9025,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4559,
-    "hybrid_score": 4.6,
+    "price": 0.8954,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6046,
+    "hybrid_score": 6.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.054,
-      "bullish_pct": 31.7,
-      "bearish_pct": 35.0,
+      "score": -0.076,
+      "bullish_pct": 30.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.067,
-        "crypto_macro": -0.243,
+        "xrp": 0.009,
+        "crypto_macro": -0.249,
         "geopolitical": -0.066,
-        "fed_rates": 0.036
+        "fed_rates": 0.043
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP News: Ripple\u2019s MiCA Approval & Binance Withdrawal Trend Spark Fresh Optimism - TradingView",
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk"
+        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
+        "Is XRP a Better Investment Than Bitcoin Right Now? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Crypto market chaos: Prices plunge trillions - News.com.au",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.52,
-      "health": 0.4026,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.51,
+      "health": 0.3992,
+      "vol_ratio": 0.24
     },
     "technicals": {
-      "ema50": 0.90251,
-      "ema200": 0.90921,
-      "macd": -0.000333,
-      "macd_signal": -0.001427,
-      "rsi14": 56.8,
-      "atr14": 0.00214,
-      "atr14_hourly": 0.00829,
-      "bb_position": 0.89
+      "ema50": 0.90201,
+      "ema200": 0.90901,
+      "macd": -0.001039,
+      "macd_signal": -0.001424,
+      "rsi14": 39.5,
+      "atr14": 0.00264,
+      "atr14_hourly": 0.00858,
+      "bb_position": 0.214
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159434
+  "data_bars": 159435
 }
