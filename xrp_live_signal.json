@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T23:51:10.982293+00:00",
+  "timestamp": "2026-06-26T23:56:15.745216+00:00",
   "signal": {
-    "price": 0.9197,
+    "price": 0.9195,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4625,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.4745,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.112,
-      "bullish_pct": 26.7,
-      "bearish_pct": 38.3,
+      "sentiment": "NEUTRAL",
+      "score": -0.085,
+      "bullish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.093,
-        "crypto_macro": -0.254,
-        "geopolitical": -0.12,
-        "fed_rates": 0.138
+        "xrp": -0.049,
+        "crypto_macro": -0.219,
+        "geopolitical": -0.173,
+        "fed_rates": 0.202
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Ripple got RLUSD into Japan, now the stablecoin race begins as Circle and Nomura join - CryptoSlate"
+        "Is XRP a Better Investment Than Bitcoin Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
         "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.41,
-      "health": 0.0262,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.27,
+      "health": -0.0686,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.9174,
-      "ema200": 0.9137,
-      "macd": 0.00093,
-      "macd_signal": 0.00082,
-      "rsi14": 56.8,
-      "atr14": 0.0012,
-      "atr14_hourly": 0.0062,
-      "bb_position": 0.694
+      "ema50": 0.91746,
+      "ema200": 0.91375,
+      "macd": 0.000858,
+      "macd_signal": 0.000821,
+      "rsi14": 55.7,
+      "atr14": 0.00118,
+      "atr14_hourly": 0.00598,
+      "bb_position": 0.652
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159569
+  "data_bars": 159570
 }
