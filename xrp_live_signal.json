@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-26T05:51:26.864915+00:00",
+  "timestamp": "2026-06-26T05:56:14.379450+00:00",
   "signal": {
-    "price": 0.9067,
+    "price": 0.9068,
     "xgb_pred": "UP",
-    "xgb_prob": 0.549,
+    "xgb_prob": 0.5514,
     "hybrid_score": 5.5,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.09,
+      "score": -0.073,
       "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.058,
-        "crypto_macro": -0.288,
+        "xrp": 0.067,
+        "crypto_macro": -0.24,
         "geopolitical": -0.175,
         "fed_rates": 0.041
       },
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Matt \u2018Fortune Favors the Brave\u2019 Damon Is Back for More Crypto Fun - Gizmodo",
-        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Is XRP a Better Investment Than Bitcoin Right Now? - Yahoo Finance"
+        "Ripple Wins Historic European Licence: XRP Holders Say So What? - TradingView",
+        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk"
       ],
       "top_bearish": [
         "XRP and Ethereum Share This 1 Critical Problem. Should You Sell Them? - The Motley Fool",
-        "Crypto steadies after brutal $1 billion liquidation day: Crypto Markets Today - CoinDesk",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
+        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.74,
-      "health": 0.1985,
-      "vol_ratio": 0.01
+      "health": 0.212,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.90457,
-      "ema200": 0.91308,
-      "macd": 0.001062,
-      "macd_signal": 0.000848,
-      "rsi14": 57.1,
-      "atr14": 0.00198,
-      "atr14_hourly": 0.00954,
-      "bb_position": 0.738
+      "ema50": 0.90466,
+      "ema200": 0.91302,
+      "macd": 0.001088,
+      "macd_signal": 0.000898,
+      "rsi14": 57.4,
+      "atr14": 0.00184,
+      "atr14_hourly": 0.00939,
+      "bb_position": 0.757
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159353
+  "data_bars": 159354
 }
