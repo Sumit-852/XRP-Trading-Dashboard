@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T14:16:12.425576+00:00",
+  "timestamp": "2026-06-26T14:21:19.476146+00:00",
   "signal": {
-    "price": 0.9112,
+    "price": 0.9088,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5502,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.5377,
+    "hybrid_score": 5.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.062,
-      "bullish_pct": 28.3,
-      "bearish_pct": 33.3,
+      "score": -0.097,
+      "bullish_pct": 25.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.018,
-        "crypto_macro": -0.231,
-        "geopolitical": 0.006,
-        "fed_rates": -0.009
+        "xrp": -0.02,
+        "crypto_macro": -0.262,
+        "geopolitical": -0.051,
+        "fed_rates": -0.017
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Africa\u2019s largest lender wins China approval to clear yuan payments across 19 African countries in major trade shift - Bu"
+        "What Will XRP Be Worth in 3 Years? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
         "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
-        "Binance to stop providing services to EU clients after failing to obtain licence - Financial Times"
+        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.62,
-      "health": 0.4325,
-      "vol_ratio": 0.44
+      "up_down_ratio": 1.55,
+      "health": 0.4102,
+      "vol_ratio": 0.26
     },
     "technicals": {
-      "ema50": 0.90026,
-      "ema200": 0.90702,
+      "ema50": 0.90048,
+      "ema200": 0.90701,
       "macd": 0.003329,
-      "macd_signal": 0.00094,
-      "rsi14": 71.0,
-      "atr14": 0.00405,
-      "atr14_hourly": 0.01774,
-      "bb_position": 0.933
+      "macd_signal": 0.001379,
+      "rsi14": 65.5,
+      "atr14": 0.00434,
+      "atr14_hourly": 0.01827,
+      "bb_position": 0.835
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159454
+  "data_bars": 159455
 }
