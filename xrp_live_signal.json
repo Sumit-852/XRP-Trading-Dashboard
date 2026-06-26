@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-26T20:56:08.963127+00:00",
+  "timestamp": "2026-06-26T21:01:38.679549+00:00",
   "signal": {
-    "price": 0.9175,
+    "price": 0.9161,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5067,
+    "xgb_prob": 0.5105,
     "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.055,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": -0.057,
+      "bullish_pct": 33.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.002,
-        "crypto_macro": -0.171,
+        "xrp": -0.021,
+        "crypto_macro": -0.153,
         "geopolitical": -0.127,
         "fed_rates": 0.131
       },
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Ripple got RLUSD into Japan, now the stablecoin race begins as Circle and Nomura join - CryptoSlate"
+        "Crypto Market Update: Catholic Leaders Oppose CLARITY Act Provisions - Investing News Network"
       ],
       "top_bearish": [
+        "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
         "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
-        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga",
-        "Ripple Gets MiCA Approval Across 30 EU Countries, But XRP Plunges To $1.10 - Benzinga"
+        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.45,
-      "health": -0.0374,
+      "up_down_ratio": 1.46,
+      "health": -0.0413,
       "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.91666,
-      "ema200": 0.91229,
-      "macd": 0.000214,
-      "macd_signal": 0.000469,
-      "rsi14": 49.5,
-      "atr14": 0.0023,
-      "atr14_hourly": 0.00985,
-      "bb_position": 0.392
+      "ema50": 0.91659,
+      "ema200": 0.91231,
+      "macd": -2.1e-05,
+      "macd_signal": 0.000356,
+      "rsi14": 46.3,
+      "atr14": 0.00228,
+      "atr14_hourly": 0.0097,
+      "bb_position": 0.198
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159534
+  "data_bars": 159535
 }
