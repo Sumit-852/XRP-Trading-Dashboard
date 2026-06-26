@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T05:21:15.484800+00:00",
+  "timestamp": "2026-06-26T05:26:10.228813+00:00",
   "signal": {
-    "price": 0.9047,
+    "price": 0.9049,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5876,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.6071,
+    "hybrid_score": 6.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.064,
+      "score": -0.09,
       "bullish_pct": 30.0,
-      "bearish_pct": 35.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.058,
-        "crypto_macro": -0.24,
-        "geopolitical": -0.127,
-        "fed_rates": 0.063
+        "crypto_macro": -0.288,
+        "geopolitical": -0.175,
+        "fed_rates": 0.041
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP and Ethereum Share This 1 Critical Problem. Should You Sell Them? - The Motley Fool",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
-        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
+        "Crypto steadies after brutal $1 billion liquidation day: Crypto Markets Today - CoinDesk",
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.75,
-      "health": 0.1855,
-      "vol_ratio": 0.22
+      "health": 0.1937,
+      "vol_ratio": 0.35
     },
     "technicals": {
-      "ema50": 0.90401,
-      "ema200": 0.91348,
-      "macd": 0.000467,
-      "macd_signal": 0.000504,
-      "rsi14": 54.8,
-      "atr14": 0.00208,
-      "atr14_hourly": 0.01097,
-      "bb_position": 0.486
+      "ema50": 0.904,
+      "ema200": 0.91338,
+      "macd": 0.000452,
+      "macd_signal": 0.000478,
+      "rsi14": 54.9,
+      "atr14": 0.00212,
+      "atr14_hourly": 0.01046,
+      "bb_position": 0.526
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159347
+  "data_bars": 159348
 }
