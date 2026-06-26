@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-26T00:51:14.008318+00:00",
+  "timestamp": "2026-06-26T00:56:15.684381+00:00",
   "signal": {
-    "price": 0.9157,
+    "price": 0.9148,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4783,
+    "xgb_prob": 0.4826,
     "hybrid_score": 4.8,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "HOLD",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.117,
-      "bullish_pct": 26.7,
+      "score": -0.106,
+      "bullish_pct": 28.3,
       "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.016,
-        "crypto_macro": -0.266,
+        "xrp": 0.019,
+        "crypto_macro": -0.273,
         "geopolitical": -0.215,
         "fed_rates": 0.049
       },
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple pushes for CLARITY Act as US Senate delays crypto regulation vote - Pluang",
         "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "RLUSD Just Overtook Ethereum on the XRP Ledger: Can It Help XRP this Time? - 24/7 Wall St.",
-        "XRP Price Increases As Ripple Seeks To Expand AI Workforce - MarketForces Africa"
+        "RLUSD Just Overtook Ethereum on the XRP Ledger: Can It Help XRP this Time? - 24/7 Wall St."
       ],
       "top_bearish": [
         "XRP and Ethereum Share This 1 Critical Problem. Should You Sell Them? - The Motley Fool",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.63,
-      "health": 0.1405,
+      "up_down_ratio": 0.62,
+      "health": 0.1076,
       "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.91521,
-      "ema200": 0.92137,
-      "macd": 0.000478,
-      "macd_signal": 0.000915,
-      "rsi14": 47.0,
-      "atr14": 0.00134,
-      "atr14_hourly": 0.0063,
-      "bb_position": 0.097
+      "ema50": 0.91516,
+      "ema200": 0.92129,
+      "macd": 0.000207,
+      "macd_signal": 0.000761,
+      "rsi14": 44.2,
+      "atr14": 0.00132,
+      "atr14_hourly": 0.00622,
+      "bb_position": 0.051
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159293
+  "data_bars": 159294
 }
