@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T17:01:35.126922+00:00",
+  "timestamp": "2026-06-26T17:06:17.006176+00:00",
   "signal": {
-    "price": 0.9174,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5125,
-    "hybrid_score": 5.1,
+    "price": 0.917,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4839,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.06,
-      "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "score": -0.046,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.029,
-        "crypto_macro": -0.132,
-        "geopolitical": -0.133,
-        "fed_rates": 0.094
+        "xrp": 0.02,
+        "crypto_macro": -0.137,
+        "geopolitical": -0.139,
+        "fed_rates": 0.086
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "Cantor Bitcoin SPAC Lets Investors Commit Less as Crypto Slides - Bloomberg.com"
+        "Ripple got RLUSD into Japan, now the stablecoin race begins as Circle and Nomura join - CryptoSlate"
       ],
       "top_bearish": [
         "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.48,
-      "health": 0.0405,
-      "vol_ratio": 0.44
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.47,
+      "health": 0.0423,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.9111,
-      "ema200": 0.90908,
-      "macd": 0.002119,
-      "macd_signal": 0.002548,
-      "rsi14": 55.6,
-      "atr14": 0.00329,
-      "atr14_hourly": 0.01288,
-      "bb_position": 0.628
+      "ema50": 0.91134,
+      "ema200": 0.90916,
+      "macd": 0.00199,
+      "macd_signal": 0.002436,
+      "rsi14": 54.8,
+      "atr14": 0.00309,
+      "atr14_hourly": 0.0127,
+      "bb_position": 0.563
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159487
+  "data_bars": 159488
 }
