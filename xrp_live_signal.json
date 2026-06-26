@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-26T18:21:21.271916+00:00",
+  "timestamp": "2026-06-26T18:26:06.832758+00:00",
   "signal": {
-    "price": 0.9179,
+    "price": 0.9172,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4944,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.4793,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.41,
-      "health": -0.0932,
-      "vol_ratio": 0.07
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.37,
+      "health": -0.1356,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 0.9149,
-      "ema200": 0.91058,
-      "macd": 0.000945,
-      "macd_signal": 0.001463,
-      "rsi14": 50.8,
-      "atr14": 0.00236,
-      "atr14_hourly": 0.00811,
-      "bb_position": 0.328
+      "ema50": 0.91495,
+      "ema200": 0.91063,
+      "macd": 0.000696,
+      "macd_signal": 0.001297,
+      "rsi14": 49.0,
+      "atr14": 0.00235,
+      "atr14_hourly": 0.00793,
+      "bb_position": 0.237
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159503
+  "data_bars": 159504
 }
