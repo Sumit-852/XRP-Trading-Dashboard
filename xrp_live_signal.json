@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-26T01:26:05.259225+00:00",
+  "timestamp": "2026-06-26T01:31:25.229499+00:00",
   "signal": {
-    "price": 0.9083,
+    "price": 0.9049,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5493,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.5645,
+    "hybrid_score": 5.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.106,
-      "bullish_pct": 28.3,
+      "score": -0.103,
+      "bullish_pct": 30.0,
       "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.019,
-        "crypto_macro": -0.273,
-        "geopolitical": -0.215,
-        "fed_rates": 0.049
+        "xrp": 0.017,
+        "crypto_macro": -0.258,
+        "geopolitical": -0.234,
+        "fed_rates": 0.072
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Matt \u2018Fortune Favors the Brave\u2019 Damon Is Back for More Crypto Fun - Gizmodo",
         "Ripple pushes for CLARITY Act as US Senate delays crypto regulation vote - Pluang",
-        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk",
-        "RLUSD Just Overtook Ethereum on the XRP Ledger: Can It Help XRP this Time? - 24/7 Wall St."
+        "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval - CoinDesk"
       ],
       "top_bearish": [
         "XRP and Ethereum Share This 1 Critical Problem. Should You Sell Them? - The Motley Fool",
-        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
+        "Crypto steadies after brutal $1 billion liquidation day: Crypto Markets Today - CoinDesk",
+        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.59,
-      "health": 0.0342,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.57,
+      "health": 0.0037,
+      "vol_ratio": 0.36
     },
     "technicals": {
-      "ema50": 0.9143,
-      "ema200": 0.92071,
-      "macd": -0.001513,
-      "macd_signal": -0.000468,
-      "rsi14": 28.1,
-      "atr14": 0.00141,
-      "atr14_hourly": 0.0067,
-      "bb_position": -0.059
+      "ema50": 0.91386,
+      "ema200": 0.92053,
+      "macd": -0.002158,
+      "macd_signal": -0.000831,
+      "rsi14": 22.8,
+      "atr14": 0.00155,
+      "atr14_hourly": 0.00728,
+      "bb_position": -0.096
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159300
+  "data_bars": 159301
 }
