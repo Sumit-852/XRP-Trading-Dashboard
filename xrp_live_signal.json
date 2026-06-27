@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-06-27T19:56:10.080891+00:00",
+  "timestamp": "2026-06-27T20:01:31.374094+00:00",
   "signal": {
-    "price": 0.9251,
+    "price": 0.9253,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3499,
-    "hybrid_score": 3.5,
+    "xgb_prob": 0.3397,
+    "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.123,
-      "bullish_pct": 28.3,
+      "sentiment": "NEUTRAL",
+      "score": -0.097,
+      "bullish_pct": 33.3,
       "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.025,
-        "crypto_macro": -0.276,
-        "geopolitical": -0.368,
+        "xrp": 0.087,
+        "crypto_macro": -0.258,
+        "geopolitical": -0.38,
         "fed_rates": 0.12
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato",
-        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC"
+        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato"
       ],
       "top_bearish": [
-        "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com",
+        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "ACCUMULATION",
       "up_down_ratio": 2.0,
-      "health": 0.1973,
-      "vol_ratio": 0.06
+      "health": 0.176,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 0.93022,
-      "ema200": 0.9293,
-      "macd": -0.001753,
-      "macd_signal": -0.001793,
-      "rsi14": 34.8,
-      "atr14": 0.0013,
-      "atr14_hourly": 0.006,
-      "bb_position": 0.153
+      "ema50": 0.93001,
+      "ema200": 0.92926,
+      "macd": -0.001728,
+      "macd_signal": -0.001784,
+      "rsi14": 36.8,
+      "atr14": 0.00127,
+      "atr14_hourly": 0.00601,
+      "bb_position": 0.218
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159810
+  "data_bars": 159811
 }
