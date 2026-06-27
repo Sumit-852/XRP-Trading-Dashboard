@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-27T06:31:22.202997+00:00",
+  "timestamp": "2026-06-27T06:36:16.439325+00:00",
   "signal": {
-    "price": 0.9271,
+    "price": 0.9281,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4349,
+    "xgb_prob": 0.4294,
     "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.05,
+      "score": -0.059,
       "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.029,
-        "crypto_macro": -0.171,
-        "geopolitical": -0.15,
-        "fed_rates": 0.118
+        "xrp": -0.001,
+        "crypto_macro": -0.202,
+        "geopolitical": -0.13,
+        "fed_rates": 0.168
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
-        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
+        "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
+        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": -0.0628,
-      "vol_ratio": 0.3
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.27,
+      "health": -0.0395,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.92724,
-      "ema200": 0.921,
-      "macd": -0.000745,
-      "macd_signal": -0.000785,
-      "rsi14": 48.7,
-      "atr14": 0.00125,
-      "atr14_hourly": 0.00575,
-      "bb_position": 0.546
+      "ema50": 0.92733,
+      "ema200": 0.92108,
+      "macd": -0.000491,
+      "macd_signal": -0.00071,
+      "rsi14": 52.5,
+      "atr14": 0.0013,
+      "atr14_hourly": 0.00573,
+      "bb_position": 0.76
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159649
+  "data_bars": 159650
 }
