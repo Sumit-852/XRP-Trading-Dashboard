@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-06-27T17:06:03.798279+00:00",
+  "timestamp": "2026-06-27T17:11:17.500694+00:00",
   "signal": {
-    "price": 0.9335,
+    "price": 0.9333,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3715,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.3626,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.099,
-      "bullish_pct": 26.7,
-      "bearish_pct": 40.0,
+      "score": -0.091,
+      "bullish_pct": 28.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.07,
+        "xrp": -0.021,
         "crypto_macro": -0.106,
-        "geopolitical": -0.277,
-        "fed_rates": 0.066
+        "geopolitical": -0.35,
+        "fed_rates": 0.089
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -35,26 +35,26 @@
         "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato"
       ],
       "top_bearish": [
-        "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
         "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
-        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool"
+        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 2.06,
-      "health": 0.3925,
-      "vol_ratio": 0.62
+      "phase": "NEUTRAL",
+      "up_down_ratio": 2.08,
+      "health": 0.4067,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.93675,
-      "ema200": 0.9296,
-      "macd": -0.000577,
-      "macd_signal": 0.000652,
-      "rsi14": 36.6,
-      "atr14": 0.00186,
-      "atr14_hourly": 0.0072,
-      "bb_position": -0.016
+      "ema50": 0.9366,
+      "ema200": 0.92963,
+      "macd": -0.000915,
+      "macd_signal": 0.000334,
+      "rsi14": 36.0,
+      "atr14": 0.00176,
+      "atr14_hourly": 0.0076,
+      "bb_position": 0.052
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159776
+  "data_bars": 159777
 }
