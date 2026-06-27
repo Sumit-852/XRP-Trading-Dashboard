@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-06-27T14:46:10.676071+00:00",
+  "timestamp": "2026-06-27T14:51:14.688557+00:00",
   "signal": {
-    "price": 0.9352,
+    "price": 0.9359,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3273,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.3202,
+    "hybrid_score": 3.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.11,
-      "bullish_pct": 30.0,
-      "bearish_pct": 41.7,
+      "score": -0.121,
+      "bullish_pct": 26.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.087,
+        "xrp": -0.135,
         "crypto_macro": -0.178,
-        "geopolitical": -0.18,
-        "fed_rates": 0.059
+        "geopolitical": -0.144,
+        "fed_rates": 0.057
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "XRP (Ripple) vs Stellar (XLM): Which Wins the Cross-Border Payments Race? - 24/7 Wall St.",
-        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC"
+        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC",
+        "Crypto Market Update: Catholic Leaders Oppose CLARITY Act Provisions - Investing News Network"
       ],
       "top_bearish": [
         "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.71,
-      "health": 0.2327,
-      "vol_ratio": 0.04
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.74,
+      "health": 0.2519,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.93092,
-      "ema200": 0.92628,
-      "macd": 0.001518,
-      "macd_signal": 0.001475,
-      "rsi14": 67.9,
-      "atr14": 0.00115,
-      "atr14_hourly": 0.00501,
-      "bb_position": 0.806
+      "ema50": 0.93115,
+      "ema200": 0.92639,
+      "macd": 0.001624,
+      "macd_signal": 0.001519,
+      "rsi14": 68.5,
+      "atr14": 0.00121,
+      "atr14_hourly": 0.00507,
+      "bb_position": 0.836
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159748
+  "data_bars": 159749
 }
