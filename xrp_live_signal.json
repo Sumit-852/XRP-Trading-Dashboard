@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-06-27T09:16:11.546559+00:00",
+  "timestamp": "2026-06-27T09:21:16.619362+00:00",
   "signal": {
-    "price": 0.9249,
+    "price": 0.926,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4295,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3709,
+    "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.102,
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
+      "sentiment": "NEUTRAL",
+      "score": -0.09,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.136,
-        "crypto_macro": -0.198,
-        "geopolitical": -0.097,
+        "xrp": -0.08,
+        "crypto_macro": -0.186,
+        "geopolitical": -0.165,
         "fed_rates": 0.168
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.3,
-      "health": 0.045,
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.29,
+      "health": 0.1527,
       "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.92767,
-      "ema200": 0.92303,
-      "macd": -0.000755,
-      "macd_signal": -0.000533,
-      "rsi14": 37.4,
-      "atr14": 0.00117,
-      "atr14_hourly": 0.00456,
-      "bb_position": 0.057
+      "ema50": 0.92766,
+      "ema200": 0.92307,
+      "macd": -0.000661,
+      "macd_signal": -0.000541,
+      "rsi14": 42.9,
+      "atr14": 0.00118,
+      "atr14_hourly": 0.00448,
+      "bb_position": 0.246
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159682
+  "data_bars": 159683
 }
