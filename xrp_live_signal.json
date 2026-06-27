@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-27T10:21:10.310046+00:00",
+  "timestamp": "2026-06-27T10:26:11.220970+00:00",
   "signal": {
-    "price": 0.9286,
+    "price": 0.9289,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3921,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.3971,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.099,
+      "sentiment": "BEARISH",
+      "score": -0.115,
       "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.096,
-        "crypto_macro": -0.196,
-        "geopolitical": -0.165,
+        "xrp": -0.141,
+        "crypto_macro": -0.186,
+        "geopolitical": -0.179,
         "fed_rates": 0.168
       },
       "geo_shock": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Crypto Market Update: Catholic Leaders Oppose CLARITY Act Provisions - Investing News Network",
-        "US and Iran \u2018trade strikes\u2019 for first time since ceasefire deal - The Times"
+        "US and Iran trade strikes for first time since ceasefire deal - The Times"
       ],
       "top_bearish": [
         "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.3,
-      "health": 0.1381,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.32,
+      "health": 0.1562,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.9276,
-      "ema200": 0.92357,
-      "macd": 0.00016,
-      "macd_signal": -0.000129,
-      "rsi14": 56.6,
-      "atr14": 0.00093,
-      "atr14_hourly": 0.00397,
-      "bb_position": 0.901
+      "ema50": 0.92766,
+      "ema200": 0.92362,
+      "macd": 0.000265,
+      "macd_signal": -4.7e-05,
+      "rsi14": 58.0,
+      "atr14": 0.00094,
+      "atr14_hourly": 0.004,
+      "bb_position": 0.904
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159695
+  "data_bars": 159696
 }
