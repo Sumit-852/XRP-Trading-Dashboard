@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-27T03:41:11.257993+00:00",
+  "timestamp": "2026-06-27T03:46:16.717542+00:00",
   "signal": {
-    "price": 0.9295,
+    "price": 0.93,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4524,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.4303,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.052,
+      "score": -0.045,
       "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.009,
-        "crypto_macro": -0.202,
-        "geopolitical": -0.073,
-        "fed_rates": 0.12
+        "crypto_macro": -0.171,
+        "geopolitical": -0.081,
+        "fed_rates": 0.118
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
-        "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
-        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool"
+        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
+        "Bitcoin, XRP crash as fear reaches peak - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.21,
-      "health": -0.2382,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.2,
+      "health": -0.2707,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.92567,
-      "ema200": 0.91804,
-      "macd": 0.001668,
-      "macd_signal": 0.002203,
-      "rsi14": 53.6,
-      "atr14": 0.00189,
-      "atr14_hourly": 0.00924,
-      "bb_position": 0.392
+      "ema50": 0.92586,
+      "ema200": 0.91816,
+      "macd": 0.001562,
+      "macd_signal": 0.002081,
+      "rsi14": 55.3,
+      "atr14": 0.00175,
+      "atr14_hourly": 0.00908,
+      "bb_position": 0.4
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -66,7 +66,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4922.43,
     "total_pnl_pct": -1.551,
     "position": "CASH",
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159615
+  "data_bars": 159616
 }
