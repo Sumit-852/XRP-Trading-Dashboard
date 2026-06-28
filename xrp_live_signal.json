@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-28T14:51:23.063006+00:00",
+  "timestamp": "2026-06-28T14:56:14.443333+00:00",
   "signal": {
-    "price": 0.9245,
+    "price": 0.9235,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3723,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.2464,
+    "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.063,
-      "bullish_pct": 35.0,
-      "bearish_pct": 41.7,
+      "score": -0.047,
+      "bullish_pct": 33.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.08,
-        "crypto_macro": -0.235,
+        "xrp": 0.139,
+        "crypto_macro": -0.256,
         "geopolitical": -0.204,
         "fed_rates": 0.103
       },
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "XRP investors capitulate at fastest pace since the 2022 crypto crash amid slide to $1 - CryptoSlate"
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.09,
-      "health": -0.2963,
-      "vol_ratio": 1.47
+      "health": -0.3004,
+      "vol_ratio": 0.74
     },
     "technicals": {
       "ema50": 0.92234,
       "ema200": 0.92223,
-      "macd": 0.00088,
-      "macd_signal": 0.000679,
-      "rsi14": 56.7,
-      "atr14": 0.00159,
-      "atr14_hourly": 0.0066,
-      "bb_position": 0.722
+      "macd": 0.000706,
+      "macd_signal": 0.000668,
+      "rsi14": 52.5,
+      "atr14": 0.00157,
+      "atr14_hourly": 0.00666,
+      "bb_position": 0.589
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.202,
+      "percentile": 0.203,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160037
+  "data_bars": 160038
 }
