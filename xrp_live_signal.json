@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-28T00:21:19.236893+00:00",
+  "timestamp": "2026-06-28T00:26:08.672684+00:00",
   "signal": {
     "price": 0.9208,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3188,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.3079,
+    "hybrid_score": 3.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.157,
-      "bullish_pct": 25.0,
-      "bearish_pct": 48.3,
+      "score": -0.15,
+      "bullish_pct": 26.7,
+      "bearish_pct": 50.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.003,
-        "crypto_macro": -0.28,
+        "xrp": 0.021,
+        "crypto_macro": -0.279,
         "geopolitical": -0.407,
         "fed_rates": 0.003
       },
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC"
+        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato"
       ],
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.82,
-      "health": -0.1666,
+      "up_down_ratio": 1.84,
+      "health": -0.101,
       "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.92314,
-      "ema200": 0.92673,
-      "macd": -0.000917,
-      "macd_signal": -0.001054,
+      "ema50": 0.92305,
+      "ema200": 0.92667,
+      "macd": -0.000819,
+      "macd_signal": -0.001005,
       "rsi14": 46.2,
-      "atr14": 0.00116,
-      "atr14_hourly": 0.00599,
-      "bb_position": 0.429
+      "atr14": 0.00113,
+      "atr14_hourly": 0.00574,
+      "bb_position": 0.443
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159863
+  "data_bars": 159864
 }
