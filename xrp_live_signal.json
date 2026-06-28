@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-28T20:26:12.042055+00:00",
+  "timestamp": "2026-06-28T20:31:26.325893+00:00",
   "signal": {
-    "price": 0.9187,
+    "price": 0.919,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4891,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.4779,
+    "hybrid_score": 4.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.049,
-      "bullish_pct": 43.3,
-      "bearish_pct": 36.7,
+      "score": 0.051,
+      "bullish_pct": 48.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.328,
-        "crypto_macro": -0.19,
+        "xrp": 0.253,
+        "crypto_macro": -0.14,
         "geopolitical": -0.131,
-        "fed_rates": 0.057
+        "fed_rates": 0.153
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "What\u2019s the Best XRP ETF? - Yahoo Finance",
-        "What\u2019s the Best XRP ETF? - 24/7 Wall St.",
-        "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa"
+        "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
+        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
+        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
       ],
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.88,
-      "health": -0.245,
-      "vol_ratio": 0.05
+      "health": -0.2923,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.9179,
-      "ema200": 0.92036,
-      "macd": 0.000261,
-      "macd_signal": -0.000166,
-      "rsi14": 55.6,
-      "atr14": 0.00165,
-      "atr14_hourly": 0.0067,
-      "bb_position": 0.797
+      "ema50": 0.91793,
+      "ema200": 0.92034,
+      "macd": 0.000325,
+      "macd_signal": -7.4e-05,
+      "rsi14": 56.3,
+      "atr14": 0.00162,
+      "atr14_hourly": 0.00686,
+      "bb_position": 0.831
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.189,
+      "percentile": 0.191,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160104
+  "data_bars": 160105
 }
