@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-28T06:06:10.302833+00:00",
+  "timestamp": "2026-06-28T06:36:11.424319+00:00",
   "signal": {
-    "price": 0.9187,
+    "price": 0.9164,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2666,
-    "hybrid_score": 2.7,
+    "xgb_prob": 0.328,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.059,
-      "bullish_pct": 31.7,
-      "bearish_pct": 38.3,
+      "score": -0.062,
+      "bullish_pct": 33.3,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.135,
-        "crypto_macro": -0.2,
-        "geopolitical": -0.313,
-        "fed_rates": 0.054
+        "xrp": 0.155,
+        "crypto_macro": -0.226,
+        "geopolitical": -0.349,
+        "fed_rates": 0.085
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
-        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
+        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
+        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato"
       ],
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.74,
-      "health": -0.0762,
-      "vol_ratio": 0.0
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.63,
+      "health": -0.1363,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 0.91941,
-      "ema200": 0.92321,
-      "macd": -0.00042,
-      "macd_signal": -0.000562,
-      "rsi14": 49.7,
-      "atr14": 0.00099,
-      "atr14_hourly": 0.00493,
-      "bb_position": 0.52
+      "ema50": 0.91866,
+      "ema200": 0.92278,
+      "macd": -0.000848,
+      "macd_signal": -0.000764,
+      "rsi14": 43.3,
+      "atr14": 0.00116,
+      "atr14_hourly": 0.0052,
+      "bb_position": 0.331
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159932
+  "data_bars": 159938
 }
