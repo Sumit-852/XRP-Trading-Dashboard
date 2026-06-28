@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-28T10:21:18.976807+00:00",
+  "timestamp": "2026-06-28T10:26:11.638795+00:00",
   "signal": {
-    "price": 0.9204,
+    "price": 0.9177,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2935,
-    "hybrid_score": 3.7,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3189,
+    "hybrid_score": 3.9,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.072,
-      "bullish_pct": 35.0,
+      "score": -0.064,
+      "bullish_pct": 36.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.076,
-        "crypto_macro": -0.226,
-        "geopolitical": -0.293,
+        "xrp": 0.104,
+        "crypto_macro": -0.235,
+        "geopolitical": -0.292,
         "fed_rates": 0.142
       },
       "geo_shock": false,
@@ -35,26 +35,26 @@
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
       ],
       "top_bearish": [
+        "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Coinpedia",
-        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
+        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Coinpedia"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.66,
-      "health": -0.1055,
-      "vol_ratio": 0.02
+      "up_down_ratio": 1.5,
+      "health": -0.1574,
+      "vol_ratio": 10.36
     },
     "technicals": {
-      "ema50": 0.92168,
-      "ema200": 0.92248,
-      "macd": -0.000501,
-      "macd_signal": 5.4e-05,
-      "rsi14": 41.7,
-      "atr14": 0.00141,
-      "atr14_hourly": 0.0061,
-      "bb_position": 0.179
+      "ema50": 0.9215,
+      "ema200": 0.92243,
+      "macd": -0.000828,
+      "macd_signal": -0.000132,
+      "rsi14": 33.4,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.00624,
+      "bb_position": -0.032
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.166,
+      "percentile": 0.169,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 159983
+  "data_bars": 159984
 }
