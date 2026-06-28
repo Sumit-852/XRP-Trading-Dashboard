@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-28T07:21:21.500973+00:00",
+  "timestamp": "2026-06-28T07:51:08.373382+00:00",
   "signal": {
-    "price": 0.9192,
+    "price": 0.9206,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2668,
-    "hybrid_score": 2.7,
+    "xgb_prob": 0.3097,
+    "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.092,
-      "bullish_pct": 31.7,
-      "bearish_pct": 45.0,
+      "sentiment": "BEARISH",
+      "score": -0.119,
+      "bullish_pct": 30.0,
+      "bearish_pct": 46.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.155,
-        "crypto_macro": -0.32,
-        "geopolitical": -0.365,
+        "xrp": 0.078,
+        "crypto_macro": -0.334,
+        "geopolitical": -0.33,
         "fed_rates": 0.085
       },
       "geo_shock": true,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato"
+        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC"
       ],
       "top_bearish": [
-        "Crypto steadies after brutal $1 billion liquidation day: Crypto Markets Today - CoinDesk",
+        "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
+        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Cryptonews.net"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.73,
-      "health": -0.0814,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.72,
+      "health": -0.0529,
+      "vol_ratio": 0.3
     },
     "technicals": {
-      "ema50": 0.91847,
-      "ema200": 0.92236,
-      "macd": 0.000147,
-      "macd_signal": -0.000289,
-      "rsi14": 57.7,
-      "atr14": 0.00107,
-      "atr14_hourly": 0.00569,
-      "bb_position": 0.794
+      "ema50": 0.9189,
+      "ema200": 0.92225,
+      "macd": 0.000768,
+      "macd_signal": 0.00038,
+      "rsi14": 60.1,
+      "atr14": 0.00108,
+      "atr14_hourly": 0.00585,
+      "bb_position": 0.797
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159947
+  "data_bars": 159953
 }
