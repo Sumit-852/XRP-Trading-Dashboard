@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-28T22:41:16.165394+00:00",
+  "timestamp": "2026-06-28T22:46:13.659494+00:00",
   "signal": {
-    "price": 0.9138,
+    "price": 0.9119,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3455,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3388,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
+      "score": -0.007,
       "bullish_pct": 41.7,
-      "bearish_pct": 35.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.21,
+        "xrp": 0.131,
         "crypto_macro": -0.196,
-        "geopolitical": -0.226,
-        "fed_rates": 0.208
+        "geopolitical": -0.148,
+        "fed_rates": 0.206
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Here\u2019s Why The Crypto Market Is Crashing This Year - Benzinga"
+        "XRP investors capitulate at fastest pace since the 2022 crypto crash amid slide to $1 - CryptoSlate",
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.87,
-      "health": 0.0099,
+      "health": 0.0068,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.91655,
-      "ema200": 0.91936,
-      "macd": -0.000646,
-      "macd_signal": -0.000464,
-      "rsi14": 45.0,
-      "atr14": 0.00255,
-      "atr14_hourly": 0.00844,
-      "bb_position": 0.317
+      "ema50": 0.91632,
+      "ema200": 0.91927,
+      "macd": -0.000945,
+      "macd_signal": -0.000578,
+      "rsi14": 41.3,
+      "atr14": 0.00254,
+      "atr14_hourly": 0.00862,
+      "bb_position": 0.172
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.273,
+      "percentile": 0.277,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160131
+  "data_bars": 160132
 }
