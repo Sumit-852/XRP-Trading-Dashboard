@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-28T13:46:14.153355+00:00",
+  "timestamp": "2026-06-28T13:51:16.353525+00:00",
   "signal": {
-    "price": 0.9219,
+    "price": 0.922,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2461,
+    "xgb_prob": 0.2424,
     "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.109,
-      "bullish_pct": 28.3,
-      "bearish_pct": 43.3,
+      "sentiment": "NEUTRAL",
+      "score": -0.09,
+      "bullish_pct": 31.7,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.022,
+        "xrp": 0.047,
         "crypto_macro": -0.251,
-        "geopolitical": -0.289,
-        "fed_rates": 0.069
+        "geopolitical": -0.273,
+        "fed_rates": 0.118
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC"
+        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
+        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
       ],
       "top_bearish": [
         "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.3182,
-      "vol_ratio": 0.09
+      "up_down_ratio": 1.08,
+      "health": -0.3162,
+      "vol_ratio": 0.41
     },
     "technicals": {
-      "ema50": 0.9214,
+      "ema50": 0.92141,
       "ema200": 0.92204,
-      "macd": -3.5e-05,
-      "macd_signal": -0.000131,
-      "rsi14": 51.9,
-      "atr14": 0.00152,
-      "atr14_hourly": 0.00633,
-      "bb_position": 0.573
+      "macd": 4e-06,
+      "macd_signal": -0.000106,
+      "rsi14": 52.3,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.00628,
+      "bb_position": 0.596
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160024
+  "data_bars": 160025
 }
