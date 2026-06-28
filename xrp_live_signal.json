@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-28T19:51:15.705340+00:00",
+  "timestamp": "2026-06-28T19:56:14.763476+00:00",
   "signal": {
-    "price": 0.914,
+    "price": 0.9149,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2886,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.3109,
+    "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.061,
-      "bullish_pct": 48.3,
-      "bearish_pct": 35.0,
+      "score": 0.049,
+      "bullish_pct": 43.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.328,
-        "crypto_macro": -0.195,
-        "geopolitical": -0.158,
-        "fed_rates": 0.176
+        "crypto_macro": -0.19,
+        "geopolitical": -0.131,
+        "fed_rates": 0.057
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
         "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
+        "Here\u2019s Why The Crypto Market Is Crashing This Year - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.91,
-      "health": -0.1889,
-      "vol_ratio": 0.09
+      "health": -0.1896,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.91783,
-      "ema200": 0.92053,
-      "macd": -0.000749,
+      "ema50": 0.91778,
+      "ema200": 0.92049,
+      "macd": -0.000673,
       "macd_signal": -0.000566,
-      "rsi14": 39.0,
-      "atr14": 0.00157,
-      "atr14_hourly": 0.00545,
-      "bb_position": 0.001
+      "rsi14": 43.4,
+      "atr14": 0.00164,
+      "atr14_hourly": 0.00565,
+      "bb_position": 0.168
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.181,
+      "percentile": 0.184,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160097
+  "data_bars": 160098
 }
