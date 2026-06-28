@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-06-28T10:56:11.186542+00:00",
+  "timestamp": "2026-06-28T11:01:39.793926+00:00",
   "signal": {
     "price": 0.9198,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2638,
+    "xgb_prob": 0.2668,
     "hybrid_score": 3.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.064,
-      "bullish_pct": 36.7,
-      "bearish_pct": 38.3,
+      "sentiment": "BEARISH",
+      "score": -0.13,
+      "bullish_pct": 31.7,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.104,
-        "crypto_macro": -0.235,
-        "geopolitical": -0.292,
-        "fed_rates": 0.142
+        "xrp": -0.01,
+        "crypto_macro": -0.288,
+        "geopolitical": -0.318,
+        "fed_rates": 0.123
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP and HYPE Keep Winning the ETF Race as SOL Joins BTC and ETH - CryptoPotato",
         "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
+        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
+        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC"
       ],
       "top_bearish": [
         "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
-        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Coinpedia"
+        "Crypto steadies after brutal $1 billion liquidation day: Crypto Markets Today - CoinDesk",
+        "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.69,
-      "health": -0.0361,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.68,
+      "health": -0.041,
+      "vol_ratio": 0.37
     },
     "technicals": {
-      "ema50": 0.92099,
-      "ema200": 0.92223,
-      "macd": -0.000935,
-      "macd_signal": -0.000783,
-      "rsi14": 44.6,
-      "atr14": 0.00119,
-      "atr14_hourly": 0.00625,
-      "bb_position": 0.366
+      "ema50": 0.92094,
+      "ema200": 0.92221,
+      "macd": -0.000884,
+      "macd_signal": -0.000806,
+      "rsi14": 44.8,
+      "atr14": 0.00114,
+      "atr14_hourly": 0.00615,
+      "bb_position": 0.387
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 159990
+  "data_bars": 159991
 }
