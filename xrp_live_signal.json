@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-28T08:16:13.595247+00:00",
+  "timestamp": "2026-06-28T08:21:14.520188+00:00",
   "signal": {
-    "price": 0.922,
+    "price": 0.9222,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2597,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.2527,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.119,
+      "sentiment": "NEUTRAL",
+      "score": -0.093,
       "bullish_pct": 30.0,
-      "bearish_pct": 46.7,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.078,
-        "crypto_macro": -0.334,
-        "geopolitical": -0.33,
+        "xrp": 0.091,
+        "crypto_macro": -0.267,
+        "geopolitical": -0.325,
         "fed_rates": 0.085
       },
       "geo_shock": true,
@@ -27,34 +27,34 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
-        "Ripple CEO Brad Garlinghouse says he's 'bullish' on bitcoin - CNBC"
+        "Ripple reports 2200% surge in tokenised assets, XRP recovers above $1 - Invezz"
       ],
       "top_bearish": [
-        "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Cryptonews.net"
+        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Cryptonews.net",
+        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.75,
-      "health": -0.0139,
-      "vol_ratio": 0.02
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.74,
+      "health": -0.0203,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.91954,
+      "ema50": 0.91965,
       "ema200": 0.92226,
-      "macd": 0.001193,
-      "macd_signal": 0.000894,
-      "rsi14": 61.6,
+      "macd": 0.001184,
+      "macd_signal": 0.000952,
+      "rsi14": 62.5,
       "atr14": 0.00104,
-      "atr14_hourly": 0.00562,
-      "bb_position": 0.749
+      "atr14_hourly": 0.00556,
+      "bb_position": 0.751
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -96,5 +96,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 159958
+  "data_bars": 159959
 }
