@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-28T17:11:22.996324+00:00",
+  "timestamp": "2026-06-28T17:16:17.878986+00:00",
   "signal": {
-    "price": 0.9174,
+    "price": 0.9168,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.32,
+    "xgb_prob": 0.3235,
     "hybrid_score": 3.9,
-    "regime": "BULLISH",
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.014,
-      "bullish_pct": 38.3,
+      "score": -0.017,
+      "bullish_pct": 40.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.206,
-        "crypto_macro": -0.256,
+        "xrp": 0.182,
+        "crypto_macro": -0.26,
         "geopolitical": -0.204,
-        "fed_rates": 0.157
+        "fed_rates": 0.207
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "What\u2019s the Best XRP ETF? - Yahoo Finance",
         "What\u2019s the Best XRP ETF? - 24/7 Wall St.",
-        "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa"
+        "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
+        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga"
       ],
       "top_bearish": [
         "Crypto market chaos: Prices plunge trillions - Yahoo Finance Australia",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.04,
-      "health": 0.05,
-      "vol_ratio": 0.65
+      "health": -0.0186,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 0.9212,
-      "ema200": 0.92199,
-      "macd": -0.001498,
-      "macd_signal": -0.001284,
-      "rsi14": 38.2,
-      "atr14": 0.00173,
-      "atr14_hourly": 0.00722,
-      "bb_position": 0.239
+      "ema50": 0.92101,
+      "ema200": 0.92194,
+      "macd": -0.001577,
+      "macd_signal": -0.001349,
+      "rsi14": 36.6,
+      "atr14": 0.00175,
+      "atr14_hourly": 0.00729,
+      "bb_position": 0.217
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.168,
+      "percentile": 0.169,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160065
+  "data_bars": 160066
 }
