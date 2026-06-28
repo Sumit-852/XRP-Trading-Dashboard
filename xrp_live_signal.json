@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-06-28T09:46:13.099796+00:00",
+  "timestamp": "2026-06-28T09:51:26.232342+00:00",
   "signal": {
-    "price": 0.9247,
+    "price": 0.9225,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3396,
-    "hybrid_score": 4.0,
-    "regime": "BULLISH",
+    "xgb_prob": 0.2815,
+    "hybrid_score": 3.6,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.095,
-      "bullish_pct": 31.7,
-      "bearish_pct": 43.3,
+      "score": -0.072,
+      "bullish_pct": 35.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.076,
-        "crypto_macro": -0.253,
-        "geopolitical": -0.325,
-        "fed_rates": 0.085
+        "crypto_macro": -0.226,
+        "geopolitical": -0.293,
+        "fed_rates": 0.142
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Cryptonews.net",
+        "Dogecoin, XRP and Solana Split From the Pack in Crypto\u2019s Worst June Week - Coinpedia",
         "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.7,
-      "health": -0.0854,
+      "health": -0.0749,
       "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.92211,
-      "ema200": 0.92264,
-      "macd": 0.000953,
-      "macd_signal": 0.001163,
-      "rsi14": 56.1,
-      "atr14": 0.00134,
-      "atr14_hourly": 0.00636,
-      "bb_position": 0.558
+      "ema50": 0.92206,
+      "ema200": 0.92262,
+      "macd": 0.000623,
+      "macd_signal": 0.001032,
+      "rsi14": 47.3,
+      "atr14": 0.0014,
+      "atr14_hourly": 0.0062,
+      "bb_position": 0.256
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.16,
+      "percentile": 0.164,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 159976
+  "data_bars": 159977
 }
