@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-29T00:56:09.124773+00:00",
+  "timestamp": "2026-06-29T01:01:32.603829+00:00",
   "signal": {
-    "price": 0.9173,
+    "price": 0.9179,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.475,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.2675,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.023,
-      "bullish_pct": 38.3,
-      "bearish_pct": 38.3,
+      "score": 0.014,
+      "bullish_pct": 41.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.131,
-        "crypto_macro": -0.196,
-        "geopolitical": -0.224,
-        "fed_rates": 0.191
+        "xrp": 0.183,
+        "crypto_macro": -0.143,
+        "geopolitical": -0.172,
+        "fed_rates": 0.136
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "What\u2019s the Best XRP ETF? - 24/7 Wall St.",
         "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
-        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
+        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga"
       ],
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.87,
-      "health": -0.0787,
-      "vol_ratio": 0.16
+      "health": -0.0511,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.9157,
+      "ema50": 0.91581,
       "ema200": 0.91841,
-      "macd": -0.000665,
-      "macd_signal": -0.000542,
-      "rsi14": 54.0,
-      "atr14": 0.00317,
-      "atr14_hourly": 0.01266,
-      "bb_position": 0.556
+      "macd": -0.000307,
+      "macd_signal": -0.000487,
+      "rsi14": 54.9,
+      "atr14": 0.00309,
+      "atr14_hourly": 0.01269,
+      "bb_position": 0.584
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.375,
+      "percentile": 0.374,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4922.43,
     "total_pnl_pct": -1.551,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160158
+  "data_bars": 160159
 }
