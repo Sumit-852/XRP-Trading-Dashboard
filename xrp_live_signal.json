@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-06-29T12:16:18.086728+00:00",
+  "timestamp": "2026-06-29T12:21:19.974886+00:00",
   "signal": {
-    "price": 0.9319,
+    "price": 0.9301,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6689,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.6412,
+    "hybrid_score": 5.9,
     "regime": "BULLISH",
-    "entry_signal": true,
+    "entry_signal": false,
     "exit_signal": false,
-    "action": "BUY",
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.047,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": 0.3171,
-      "vol_ratio": 0.23
+      "up_down_ratio": 1.02,
+      "health": 0.3391,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.92154,
-      "ema200": 0.91902,
-      "macd": 0.002325,
-      "macd_signal": 0.001317,
-      "rsi14": 73.2,
-      "atr14": 0.00282,
-      "atr14_hourly": 0.00964,
-      "bb_position": 1.089
+      "ema50": 0.92183,
+      "ema200": 0.91912,
+      "macd": 0.002443,
+      "macd_signal": 0.001529,
+      "rsi14": 67.5,
+      "atr14": 0.00279,
+      "atr14_hourly": 0.01005,
+      "bb_position": 0.925
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,18 +70,18 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.16%",
-    "portfolio_eur": 4922.83,
-    "total_pnl_pct": -1.543,
+    "reason": "HOLD LONG: P&L -0.03%",
+    "portfolio_eur": 4922.35,
+    "total_pnl_pct": -1.553,
     "position": "LONG",
     "xrp_held": 264.5307,
     "cash_eur": 4676.31,
     "trade_count": 47,
     "draw_levels": {
       "entry": 0.9304079600000001,
-      "take_profit": 0.95447,
-      "stop_loss": 0.91597,
-      "trailing_stop": 0.91262
+      "take_profit": 0.95554,
+      "stop_loss": 0.91533,
+      "trailing_stop": 0.91176
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160294
+  "data_bars": 160295
 }
