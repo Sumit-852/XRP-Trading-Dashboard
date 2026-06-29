@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-29T06:31:29.913254+00:00",
+  "timestamp": "2026-06-29T06:36:13.836823+00:00",
   "signal": {
-    "price": 0.9218,
+    "price": 0.9199,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4755,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.328,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.017,
-      "bullish_pct": 38.3,
-      "bearish_pct": 41.7,
+      "score": 0.03,
+      "bullish_pct": 43.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.115,
-        "crypto_macro": -0.149,
+        "xrp": 0.207,
+        "crypto_macro": -0.104,
         "geopolitical": -0.227,
         "fed_rates": 0.177
       },
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Market Today, June 25: Crypto Selloff Deepens as Bitcoin Hits Multi-Year Low - The Motley Fool",
-        "XRP investors capitulate at fastest pace since the 2022 crypto crash amid slide to $1 - CryptoSlate",
-        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk"
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
+        "Here\u2019s Why The Crypto Market Is Crashing This Year - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.88,
-      "health": -0.0167,
-      "vol_ratio": 0.02
+      "health": -0.0234,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.91773,
+      "ema50": 0.91774,
       "ema200": 0.91787,
-      "macd": 0.001681,
-      "macd_signal": 0.000847,
-      "rsi14": 59.5,
-      "atr14": 0.0021,
-      "atr14_hourly": 0.01043,
-      "bb_position": 0.768
+      "macd": 0.001407,
+      "macd_signal": 0.000934,
+      "rsi14": 54.0,
+      "atr14": 0.00209,
+      "atr14_hourly": 0.01046,
+      "bb_position": 0.657
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.449,
+      "percentile": 0.452,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4922.43,
     "total_pnl_pct": -1.551,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160225
+  "data_bars": 160226
 }
