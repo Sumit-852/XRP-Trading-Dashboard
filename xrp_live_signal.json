@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-06-29T17:41:13.593139+00:00",
+  "timestamp": "2026-06-29T17:46:23.569957+00:00",
   "signal": {
-    "price": 0.9312,
+    "price": 0.934,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6004,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.5852,
+    "hybrid_score": 6.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.084,
-      "bullish_pct": 38.3,
-      "bearish_pct": 20.0,
+      "score": 0.038,
+      "bullish_pct": 36.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.251,
-        "crypto_macro": -0.018,
-        "geopolitical": -0.191,
+        "xrp": 0.159,
+        "crypto_macro": -0.037,
+        "geopolitical": -0.222,
         "fed_rates": 0.212
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "What\u2019s the Best XRP ETF? - 24/7 Wall St.",
         "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
       ],
       "top_bearish": [
+        "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk",
-        "1 Brand New Big Green Flag for XRP (Ripple) in 2026 and Beyond - The Motley Fool"
+        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.5,
-      "health": 0.2482,
-      "vol_ratio": 0.0
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.55,
+      "health": 0.2689,
+      "vol_ratio": 0.69
     },
     "technicals": {
-      "ema50": 0.92089,
-      "ema200": 0.91949,
-      "macd": 0.003952,
-      "macd_signal": 0.002713,
-      "rsi14": 68.7,
-      "atr14": 0.00276,
-      "atr14_hourly": 0.01371,
-      "bb_position": 0.834
+      "ema50": 0.92149,
+      "ema200": 0.91966,
+      "macd": 0.00439,
+      "macd_signal": 0.00308,
+      "rsi14": 71.9,
+      "atr14": 0.00284,
+      "atr14_hourly": 0.01394,
+      "bb_position": 0.868
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.582,
+      "percentile": 0.585,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160359
+  "data_bars": 160360
 }
