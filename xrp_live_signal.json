@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-29T11:36:07.961520+00:00",
+  "timestamp": "2026-06-29T11:41:15.499631+00:00",
   "signal": {
-    "price": 0.9244,
+    "price": 0.9223,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2509,
+    "xgb_prob": 0.2704,
     "hybrid_score": 3.6,
-    "regime": "BULLISH",
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.065,
-      "bullish_pct": 45.0,
-      "bearish_pct": 26.7,
+      "score": 0.031,
+      "bullish_pct": 38.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.215,
-        "crypto_macro": -0.02,
-        "geopolitical": -0.232,
-        "fed_rates": 0.232
+        "crypto_macro": -0.067,
+        "geopolitical": -0.208,
+        "fed_rates": 0.068
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
       ],
       "top_bearish": [
+        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
         "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Here\u2019s Why The Crypto Market Is Crashing This Year - Benzinga",
-        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
+        "Here\u2019s Why The Crypto Market Is Crashing This Year - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.87,
-      "health": -0.0003,
-      "vol_ratio": 0.01
+      "health": -0.0295,
+      "vol_ratio": 0.23
     },
     "technicals": {
-      "ema50": 0.91992,
-      "ema200": 0.91848,
-      "macd": 0.000937,
-      "macd_signal": 0.000759,
-      "rsi14": 62.8,
-      "atr14": 0.0019,
-      "atr14_hourly": 0.00712,
-      "bb_position": 0.833
+      "ema50": 0.91993,
+      "ema200": 0.9185,
+      "macd": 0.000763,
+      "macd_signal": 0.000732,
+      "rsi14": 54.9,
+      "atr14": 0.00199,
+      "atr14_hourly": 0.0074,
+      "bb_position": 0.554
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.45,
+      "percentile": 0.452,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160286
+  "data_bars": 160287
 }
