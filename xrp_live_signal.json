@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-06-29T18:16:11.108242+00:00",
+  "timestamp": "2026-06-29T18:21:14.822774+00:00",
   "signal": {
-    "price": 0.9334,
+    "price": 0.9332,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5365,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5291,
+    "hybrid_score": 6.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.038,
-      "bullish_pct": 36.7,
-      "bearish_pct": 25.0,
+      "score": 0.052,
+      "bullish_pct": 35.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.159,
-        "crypto_macro": -0.037,
-        "geopolitical": -0.222,
-        "fed_rates": 0.212
+        "xrp": 0.17,
+        "crypto_macro": -0.018,
+        "geopolitical": -0.209,
+        "fed_rates": 0.222
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "What\u2019s the Best XRP ETF? - 24/7 Wall St.",
         "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
+        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
       ],
       "top_bearish": [
-        "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
         "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.53,
-      "health": 0.188,
-      "vol_ratio": 0.06
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.5,
+      "health": 0.1745,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.92383,
-      "ema200": 0.9204,
-      "macd": 0.003989,
-      "macd_signal": 0.003817,
-      "rsi14": 66.8,
-      "atr14": 0.00242,
-      "atr14_hourly": 0.01288,
-      "bb_position": 0.725
+      "ema50": 0.9242,
+      "ema200": 0.92053,
+      "macd": 0.003867,
+      "macd_signal": 0.003827,
+      "rsi14": 66.1,
+      "atr14": 0.0024,
+      "atr14_hourly": 0.01239,
+      "bb_position": 0.699
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.587,
+      "percentile": 0.586,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160366
+  "data_bars": 160367
 }
