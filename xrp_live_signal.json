@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-29T12:06:13.679897+00:00",
+  "timestamp": "2026-06-29T12:11:27.790408+00:00",
   "signal": {
-    "price": 0.927,
+    "price": 0.9292,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6371,
-    "hybrid_score": 5.8,
+    "xgb_prob": 0.657,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 38.3,
-      "bearish_pct": 33.3,
+      "score": 0.047,
+      "bullish_pct": 43.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.215,
-        "crypto_macro": -0.067,
-        "geopolitical": -0.208,
-        "fed_rates": 0.068
+        "xrp": 0.17,
+        "crypto_macro": -0.03,
+        "geopolitical": -0.221,
+        "fed_rates": 0.232
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple XRP Climbs On EU Market Optimism, Institutional Appetite - MarketForces Africa",
         "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
+        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": 0.0802,
-      "vol_ratio": 0.37
+      "up_down_ratio": 1.03,
+      "health": 0.3007,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.92063,
-      "ema200": 0.91875,
-      "macd": 0.001193,
-      "macd_signal": 0.000837,
-      "rsi14": 65.5,
-      "atr14": 0.00245,
-      "atr14_hourly": 0.00853,
-      "bb_position": 1.092
+      "ema50": 0.92102,
+      "ema200": 0.91887,
+      "macd": 0.001687,
+      "macd_signal": 0.001026,
+      "rsi14": 69.4,
+      "atr14": 0.00265,
+      "atr14_hourly": 0.00908,
+      "bb_position": 1.102
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,20 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.457,
+      "percentile": 0.461,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
-    "portfolio_eur": 4922.43,
-    "total_pnl_pct": -1.551,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4922.43,
-    "trade_count": 46,
-    "draw_levels": {}
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=6.0",
+    "portfolio_eur": 4922.11,
+    "total_pnl_pct": -1.558,
+    "position": "LONG",
+    "xrp_held": 264.5307,
+    "cash_eur": 4676.31,
+    "trade_count": 47,
+    "draw_levels": {
+      "entry": 0.9304079600000001,
+      "take_profit": 0.95314,
+      "stop_loss": 0.91677
+    }
   },
   "trade_feedback": {
     "overall_win_rate": 0.435,
@@ -100,5 +104,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160292
+  "data_bars": 160293
 }
