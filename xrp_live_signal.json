@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T10:11:12.119864+00:00",
+  "timestamp": "2026-06-30T10:16:16.891453+00:00",
   "signal": {
-    "price": 0.9134,
+    "price": 0.9143,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2811,
-    "hybrid_score": 2.5,
+    "xgb_prob": 0.3597,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.094,
-      "bullish_pct": 41.7,
-      "bearish_pct": 23.3,
+      "score": 0.073,
+      "bullish_pct": 38.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.258,
         "crypto_macro": 0.033,
         "geopolitical": -0.18,
-        "fed_rates": 0.149
+        "fed_rates": 0.006
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
         "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk",
-        "Why the US-China trade war lacks the guardrails of the past - Peterson Institute for International Economics"
+        "Fed rate cuts: Payrolls will weaken, inflation will plunge, and Warsh was 'largely performative' - Fortune"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.69,
-      "health": -0.3339,
-      "vol_ratio": 0.25
+      "up_down_ratio": 0.64,
+      "health": -0.3627,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.91623,
-      "ema200": 0.91967,
-      "macd": -0.000739,
-      "macd_signal": -0.000715,
-      "rsi14": 37.0,
-      "atr14": 0.00092,
-      "atr14_hourly": 0.0037,
-      "bb_position": 0.081
+      "ema50": 0.91618,
+      "ema200": 0.91962,
+      "macd": -0.000661,
+      "macd_signal": -0.000695,
+      "rsi14": 42.3,
+      "atr14": 0.00088,
+      "atr14_hourly": 0.00358,
+      "bb_position": 0.301
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.391,
+      "percentile": 0.39,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160557
+  "data_bars": 160558
 }
