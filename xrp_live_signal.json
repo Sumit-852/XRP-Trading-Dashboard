@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-06-30T04:41:18.182742+00:00",
+  "timestamp": "2026-06-30T04:46:12.732863+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9175,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9178,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2775,
+    "hybrid_score": 3.7,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.009,
+      "bullish_pct": 30.0,
+      "bearish_pct": 28.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.13,
+        "crypto_macro": -0.075,
+        "geopolitical": -0.163,
+        "fed_rates": 0.087
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "What\u2019s the Best XRP ETF? - 24/7 Wall St.",
+        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
+      ],
+      "top_bearish": [
+        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
+        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.17,
+      "health": -0.1561,
+      "vol_ratio": 0.09
+    },
+    "technicals": {
+      "ema50": 0.91919,
+      "ema200": 0.9223,
+      "macd": -0.000706,
+      "macd_signal": -0.000927,
+      "rsi14": 49.8,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00576,
+      "bb_position": 0.511
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.125,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.443,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4920.18,
     "total_pnl_pct": -1.596,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160491
+  "data_bars": 160492
 }
