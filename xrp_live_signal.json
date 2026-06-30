@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-06-30T10:46:16.110656+00:00",
+  "timestamp": "2026-06-30T10:51:18.527574+00:00",
   "signal": {
-    "price": 0.913,
+    "price": 0.9129,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2519,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.2575,
+    "hybrid_score": 2.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.073,
-      "bullish_pct": 38.3,
+      "score": 0.096,
+      "bullish_pct": 41.7,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.258,
-        "crypto_macro": 0.033,
-        "geopolitical": -0.18,
+        "xrp": 0.304,
+        "crypto_macro": 0.056,
+        "geopolitical": -0.183,
         "fed_rates": 0.006
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple Isn\u2019t Waiting for the CLARITY Act To Expand XRP Across Global Markets - TradingView",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc",
-        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato",
-        "Ripple President Monica Long to Share Vision for XRP at Major Event - U.Today"
+        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.66,
-      "health": -0.3453,
+      "health": -0.3558,
       "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.91557,
-      "ema200": 0.91926,
-      "macd": -0.000777,
-      "macd_signal": -0.00073,
-      "rsi14": 34.2,
-      "atr14": 0.00078,
-      "atr14_hourly": 0.00311,
-      "bb_position": 0.086
+      "ema50": 0.9155,
+      "ema200": 0.9192,
+      "macd": -0.000727,
+      "macd_signal": -0.000717,
+      "rsi14": 36.8,
+      "atr14": 0.00086,
+      "atr14_hourly": 0.00307,
+      "bb_position": 0.001
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.388,
+      "percentile": 0.389,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160564
+  "data_bars": 160565
 }
