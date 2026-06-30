@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T15:36:18.285865+00:00",
+  "timestamp": "2026-06-30T15:41:26.008196+00:00",
   "signal": {
-    "price": 0.9056,
+    "price": 0.9036,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3445,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3706,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
+      "score": 0.063,
       "bullish_pct": 38.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.149,
-        "crypto_macro": 0.053,
-        "geopolitical": -0.214,
-        "fed_rates": 0.036
+        "xrp": 0.229,
+        "crypto_macro": 0.02,
+        "geopolitical": -0.21,
+        "fed_rates": 0.077
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple Expands Into Credit Markets, But Volatility For XRP Looms At $1 Support - Benzinga",
         "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc",
-        "Better Crypto Blue Chip: Bitcoin vs. Ripple (XRP) - Yahoo Finance"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
       ],
       "top_bearish": [
+        "Bitcoin on pace for worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk",
-        "Ripple bets XRPL lending can give XRP a future beyond payments as price struggles - CryptoSlate"
+        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.64,
-      "health": -0.0018,
-      "vol_ratio": 0.24
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.62,
+      "health": -0.0569,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.90712,
-      "ema200": 0.91382,
-      "macd": -0.000972,
-      "macd_signal": -0.000749,
-      "rsi14": 49.5,
-      "atr14": 0.00248,
-      "atr14_hourly": 0.01151,
-      "bb_position": 0.402
+      "ema50": 0.9069,
+      "ema200": 0.9137,
+      "macd": -0.001129,
+      "macd_signal": -0.000853,
+      "rsi14": 45.3,
+      "atr14": 0.0025,
+      "atr14_hourly": 0.0115,
+      "bb_position": 0.319
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.271,
+      "percentile": 0.274,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160622
+  "data_bars": 160623
 }
