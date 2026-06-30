@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T14:01:29.793659+00:00",
+  "timestamp": "2026-06-30T14:06:12.417113+00:00",
   "signal": {
-    "price": 0.9069,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3691,
-    "hybrid_score": 3.0,
+    "price": 0.9121,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.544,
+    "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
-      "bullish_pct": 41.7,
+      "score": 0.019,
+      "bullish_pct": 38.3,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.116,
-        "crypto_macro": 0.046,
-        "geopolitical": -0.21,
-        "fed_rates": 0.133
+        "xrp": 0.12,
+        "crypto_macro": -0.01,
+        "geopolitical": -0.237,
+        "fed_rates": 0.147
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc",
-        "Ripple President Monica Long to Share Vision for XRP at Major Event - U.Today",
         "Better Crypto Blue Chip: Bitcoin vs. Ripple (XRP) - Yahoo Finance"
       ],
       "top_bearish": [
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.46,
-      "health": -0.32,
-      "vol_ratio": 1.63
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.48,
+      "health": -0.3026,
+      "vol_ratio": 1.07
     },
     "technicals": {
-      "ema50": 0.90778,
-      "ema200": 0.91522,
-      "macd": -0.000916,
-      "macd_signal": -0.001729,
-      "rsi14": 54.9,
-      "atr14": 0.00197,
-      "atr14_hourly": 0.00668,
-      "bb_position": 1.001
+      "ema50": 0.90813,
+      "ema200": 0.91524,
+      "macd": 6.5e-05,
+      "macd_signal": -0.001307,
+      "rsi14": 66.1,
+      "atr14": 0.00235,
+      "atr14_hourly": 0.0076,
+      "bb_position": 1.156
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.272,
+      "percentile": 0.285,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4920.18,
     "total_pnl_pct": -1.596,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160603
+  "data_bars": 160604
 }
