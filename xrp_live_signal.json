@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T18:51:17.040158+00:00",
+  "timestamp": "2026-06-30T18:56:11.038115+00:00",
   "signal": {
-    "price": 0.9121,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4523,
-    "hybrid_score": 4.8,
+    "price": 0.9118,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5221,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.059,
-      "bullish_pct": 41.7,
-      "bearish_pct": 26.7,
+      "score": 0.071,
+      "bullish_pct": 38.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.228,
-        "crypto_macro": -0.05,
-        "geopolitical": -0.089,
-        "fed_rates": 0.038
+        "xrp": 0.291,
+        "crypto_macro": -0.067,
+        "geopolitical": -0.137,
+        "fed_rates": 0.055
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Ripple Expands Into Credit Markets, But Volatility For XRP Looms At $1 Support - Benzinga",
-        "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
+        "XRP Holds $1 Support As Wallet Growth Hits Three-Month High - TradingView",
+        "Ripple Expands Into Credit Markets, But Volatility For XRP Looms At $1 Support - Benzinga"
       ],
       "top_bearish": [
         "Bitcoin on pace for worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.85,
-      "health": 0.9445,
-      "vol_ratio": 0.33
+      "up_down_ratio": 0.86,
+      "health": 0.9309,
+      "vol_ratio": 0.2
     },
     "technicals": {
-      "ema50": 0.90922,
-      "ema200": 0.91233,
-      "macd": 0.000942,
-      "macd_signal": 0.000874,
-      "rsi14": 55.0,
-      "atr14": 0.00202,
-      "atr14_hourly": 0.00809,
-      "bb_position": 0.745
+      "ema50": 0.90929,
+      "ema200": 0.91231,
+      "macd": 0.000883,
+      "macd_signal": 0.000866,
+      "rsi14": 54.2,
+      "atr14": 0.00196,
+      "atr14_hourly": 0.00811,
+      "bb_position": 0.705
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.295,
+      "percentile": 0.296,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160661
+  "data_bars": 160662
 }
