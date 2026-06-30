@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T09:06:07.896964+00:00",
+  "timestamp": "2026-06-30T09:11:14.123514+00:00",
   "signal": {
-    "price": 0.9166,
+    "price": 0.9153,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3806,
-    "hybrid_score": 3.1,
+    "xgb_prob": 0.2588,
+    "hybrid_score": 2.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.036,
-      "bullish_pct": 33.3,
-      "bearish_pct": 28.3,
+      "score": 0.053,
+      "bullish_pct": 40.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.202,
-        "crypto_macro": -0.027,
-        "geopolitical": -0.249,
-        "fed_rates": 0.104
+        "xrp": 0.185,
+        "crypto_macro": 0.038,
+        "geopolitical": -0.255,
+        "fed_rates": 0.134
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple President Monica Long to Share Vision for XRP at Major Event - U.Today"
       ],
       "top_bearish": [
+        "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk",
-        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK"
+        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.72,
-      "health": -0.3292,
-      "vol_ratio": 0.02
+      "health": -0.3363,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 0.91747,
-      "ema200": 0.9204,
-      "macd": -0.000488,
-      "macd_signal": -0.000587,
-      "rsi14": 48.4,
-      "atr14": 0.00114,
+      "ema50": 0.91734,
+      "ema200": 0.92033,
+      "macd": -0.000621,
+      "macd_signal": -0.000611,
+      "rsi14": 42.4,
+      "atr14": 0.00118,
       "atr14_hourly": 0.00429,
-      "bb_position": 0.494
+      "bb_position": 0.241
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.401,
+      "percentile": 0.403,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160544
+  "data_bars": 160545
 }
