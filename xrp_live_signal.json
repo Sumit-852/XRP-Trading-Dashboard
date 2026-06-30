@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T01:36:04.079986+00:00",
+  "timestamp": "2026-06-30T01:41:13.700196+00:00",
   "signal": {
-    "price": 0.9194,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5217,
-    "hybrid_score": 5.2,
+    "price": 0.9177,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.3446,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.039,
-      "bullish_pct": 38.3,
+      "score": -0.008,
+      "bullish_pct": 35.0,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.2,
-        "crypto_macro": -0.094,
+        "xrp": 0.006,
+        "crypto_macro": -0.02,
         "geopolitical": -0.176,
-        "fed_rates": 0.174
+        "fed_rates": 0.189
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "What\u2019s the Best XRP ETF? - 24/7 Wall St.",
-        "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady - Benzinga",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc",
+        "Crypto Market Update: Catholic Leaders Oppose CLARITY Act Provisions - Investing News Network"
       ],
       "top_bearish": [
+        "Bitcoin ETFs Lose $7.7B in Seven Straight Weeks \u2014 Worst Month on Record - Bitcoin Foundation",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Crypto Technical Analysis: Can the bearish pressure slow down? - FOREX.com"
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.41,
-      "health": -0.0543,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.4,
+      "health": -0.0444,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.9235,
-      "ema200": 0.92414,
-      "macd": -0.00169,
-      "macd_signal": -0.001975,
-      "rsi14": 42.1,
-      "atr14": 0.00136,
-      "atr14_hourly": 0.00645,
-      "bb_position": 0.41
+      "ema50": 0.92324,
+      "ema200": 0.92407,
+      "macd": -0.001772,
+      "macd_signal": -0.001947,
+      "rsi14": 37.2,
+      "atr14": 0.00141,
+      "atr14_hourly": 0.00627,
+      "bb_position": 0.285
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.485,
+      "percentile": 0.486,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4920.18,
     "total_pnl_pct": -1.596,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160454
+  "data_bars": 160455
 }
