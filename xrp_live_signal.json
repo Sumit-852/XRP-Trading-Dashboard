@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T07:31:27.805966+00:00",
+  "timestamp": "2026-06-30T07:36:12.483818+00:00",
   "signal": {
-    "price": 0.917,
+    "price": 0.9179,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3179,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.3013,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.035,
-      "bullish_pct": 36.7,
-      "bearish_pct": 31.7,
+      "score": 0.043,
+      "bullish_pct": 35.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.252,
-        "crypto_macro": -0.084,
-        "geopolitical": -0.276,
-        "fed_rates": 0.115
+        "xrp": 0.207,
+        "crypto_macro": -0.036,
+        "geopolitical": -0.197,
+        "fed_rates": 0.094
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
       ],
       "top_bearish": [
+        "Ripple CEO says Michael Saylor has hurt crypto market as Strategy's STRC trades 25% below par - The Block",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
         "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "ACCUMULATION",
       "up_down_ratio": 1.16,
-      "health": -0.2299,
-      "vol_ratio": 0.0
+      "health": -0.2385,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.91861,
-      "ema200": 0.9212,
-      "macd": -0.000317,
-      "macd_signal": 8e-06,
-      "rsi14": 42.5,
-      "atr14": 0.00099,
-      "atr14_hourly": 0.00371,
-      "bb_position": 0.122
+      "ema50": 0.91859,
+      "ema200": 0.92117,
+      "macd": -0.00028,
+      "macd_signal": -4.5e-05,
+      "rsi14": 47.8,
+      "atr14": 0.00101,
+      "atr14_hourly": 0.0037,
+      "bb_position": 0.326
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160525
+  "data_bars": 160526
 }
