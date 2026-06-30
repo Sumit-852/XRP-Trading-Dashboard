@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T17:11:21.803851+00:00",
+  "timestamp": "2026-06-30T17:16:20.074454+00:00",
   "signal": {
-    "price": 0.9116,
+    "price": 0.9106,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2573,
-    "hybrid_score": 2.4,
+    "xgb_prob": 0.2636,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.105,
+      "score": 0.118,
       "bullish_pct": 45.0,
-      "bearish_pct": 25.0,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.304,
         "crypto_macro": -0.007,
-        "geopolitical": -0.131,
-        "fed_rates": 0.128
+        "geopolitical": -0.023,
+        "fed_rates": 0.076
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,7 +30,7 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRPNews Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
+        "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
         "Ripple Expands Into Credit Markets, But Volatility For XRP Looms At $1 Support - Benzinga",
         "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": 0.208,
-      "vol_ratio": 0.12
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.74,
+      "health": 0.2084,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.90767,
-      "ema200": 0.91277,
-      "macd": 0.001574,
-      "macd_signal": 0.000849,
-      "rsi14": 58.8,
-      "atr14": 0.00252,
-      "atr14_hourly": 0.0097,
-      "bb_position": 0.826
+      "ema50": 0.90773,
+      "ema200": 0.91274,
+      "macd": 0.001441,
+      "macd_signal": 0.000947,
+      "rsi14": 56.1,
+      "atr14": 0.00249,
+      "atr14_hourly": 0.00975,
+      "bb_position": 0.737
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.275,
+      "percentile": 0.277,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160641
+  "data_bars": 160642
 }
