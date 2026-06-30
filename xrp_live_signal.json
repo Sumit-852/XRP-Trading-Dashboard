@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T15:06:07.799448+00:00",
+  "timestamp": "2026-06-30T15:11:23.338511+00:00",
   "signal": {
-    "price": 0.9016,
+    "price": 0.903,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4309,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.3907,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.04,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "score": 0.037,
+      "bullish_pct": 38.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.149,
         "crypto_macro": 0.053,
-        "geopolitical": -0.218,
-        "fed_rates": 0.062
+        "geopolitical": -0.214,
+        "fed_rates": 0.036
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
         "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk",
-        "China Shock 2.0: An EU-China trade war is unlikely despite friction being structural, says economist - CNBC"
+        "Ripple bets XRPL lending can give XRP a future beyond payments as price struggles - CryptoSlate"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.65,
-      "health": -0.0355,
-      "vol_ratio": 1.24
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.64,
+      "health": -0.0621,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.90802,
-      "ema200": 0.91445,
-      "macd": -0.000727,
-      "macd_signal": 0.000227,
-      "rsi14": 37.3,
-      "atr14": 0.00267,
-      "atr14_hourly": 0.01048,
-      "bb_position": 0.187
+      "ema50": 0.90785,
+      "ema200": 0.91434,
+      "macd": -0.000887,
+      "macd_signal": 1.2e-05,
+      "rsi14": 40.7,
+      "atr14": 0.00259,
+      "atr14_hourly": 0.01077,
+      "bb_position": 0.255
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.28,
+      "percentile": 0.279,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4920.18,
     "total_pnl_pct": -1.596,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160616
+  "data_bars": 160617
 }
