@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-30T11:16:19.154903+00:00",
+  "timestamp": "2026-06-30T11:21:23.698142+00:00",
   "signal": {
-    "price": 0.9142,
+    "price": 0.9129,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2861,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.2805,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.096,
-      "bullish_pct": 41.7,
-      "bearish_pct": 26.7,
+      "score": 0.031,
+      "bullish_pct": 35.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.304,
-        "crypto_macro": 0.056,
-        "geopolitical": -0.183,
-        "fed_rates": 0.006
+        "xrp": 0.128,
+        "crypto_macro": 0.052,
+        "geopolitical": -0.148,
+        "fed_rates": -0.03
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple Isn\u2019t Waiting for the CLARITY Act To Expand XRP Across Global Markets - TradingView",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc",
-        "Ripple CEO Praises XRP, Questions Strategy\u2019s Impact on Bitcoin and Crypto - CryptoPotato"
+        "Ripple President Monica Long to Share Vision for XRP at Major Event - U.Today",
+        "Crypto SWOT: Ripple receives regulatory approval for its RLUSD stablecoin in Japan - KITCO"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk",
-        "Fed rate cuts: Payrolls will weaken, inflation will plunge, and Warsh was 'largely performative' - Fortune"
+        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
+        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.67,
-      "health": -0.3288,
-      "vol_ratio": 0.06
+      "health": -0.3871,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.91518,
-      "ema200": 0.91894,
-      "macd": -0.000487,
-      "macd_signal": -0.000631,
-      "rsi14": 49.3,
+      "ema50": 0.91505,
+      "ema200": 0.91886,
+      "macd": -0.000587,
+      "macd_signal": -0.000636,
+      "rsi14": 39.5,
       "atr14": 0.00084,
-      "atr14_hourly": 0.00284,
-      "bb_position": 0.625
+      "atr14_hourly": 0.00278,
+      "bb_position": 0.145
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.388,
+      "percentile": 0.383,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160570
+  "data_bars": 160571
 }
