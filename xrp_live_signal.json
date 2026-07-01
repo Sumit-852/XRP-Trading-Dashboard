@@ -1,26 +1,21 @@
 {
-  "timestamp": "2026-07-01T04:36:06.423041+00:00",
+  "timestamp": "2026-07-01T04:41:51.028078+00:00",
   "signal": {
-    "price": 0.9197,
+    "price": 0.92,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2655,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.3855,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.026,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.085,
-        "crypto_macro": -0.028,
-        "geopolitical": -0.096,
-        "fed_rates": 0.14
-      },
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Top 5 Altcoins for the Next 100x Crypto \u2013 Best Crypto to Buy Now 2026 - Bitcoin Foundation",
-        "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
-      ],
-      "top_bearish": [
-        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Extreme Fear' Persists: Analyst Notes Half of BTC Circulating - Benzinga"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": 0.0408,
-      "vol_ratio": 0.18
+      "up_down_ratio": 1.01,
+      "health": 0.0275,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.91521,
-      "ema200": 0.91247,
-      "macd": 0.001874,
-      "macd_signal": 0.001997,
-      "rsi14": 59.9,
-      "atr14": 0.00151,
-      "atr14_hourly": 0.00809,
-      "bb_position": 0.648
+      "ema50": 0.91541,
+      "ema200": 0.91255,
+      "macd": 0.001792,
+      "macd_signal": 0.001959,
+      "rsi14": 61.3,
+      "atr14": 0.00142,
+      "atr14_hourly": 0.00778,
+      "bb_position": 0.656
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +51,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.293,
+      "percentile": 0.292,
       "extreme": false
     }
   },
@@ -100,5 +87,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160778
+  "data_bars": 160779
 }
