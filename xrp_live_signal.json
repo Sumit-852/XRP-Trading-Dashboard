@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-01T13:56:16.492563+00:00",
+  "timestamp": "2026-07-01T14:01:40.045460+00:00",
   "signal": {
-    "price": 0.9191,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.6563,
-    "hybrid_score": 6.0,
+    "price": 0.9184,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.2437,
+    "hybrid_score": 2.3,
     "regime": "BULLISH",
-    "entry_signal": true,
-    "exit_signal": false,
-    "action": "BUY",
+    "entry_signal": false,
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.056,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.76,
-      "health": -0.2579,
-      "vol_ratio": 0.15
+      "health": -0.2497,
+      "vol_ratio": 0.59
     },
     "technicals": {
-      "ema50": 0.91342,
-      "ema200": 0.91352,
-      "macd": 0.001584,
-      "macd_signal": 0.000884,
-      "rsi14": 73.1,
-      "atr14": 0.00208,
-      "atr14_hourly": 0.00649,
-      "bb_position": 0.963
+      "ema50": 0.91365,
+      "ema200": 0.91358,
+      "macd": 0.001759,
+      "macd_signal": 0.00107,
+      "rsi14": 66.3,
+      "atr14": 0.00212,
+      "atr14_hourly": 0.00679,
+      "bb_position": 0.85
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.321,
+      "percentile": 0.306,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.04%",
-    "portfolio_eur": 4920.29,
-    "total_pnl_pct": -1.594,
+    "reason": "HOLD LONG: P&L -0.03%",
+    "portfolio_eur": 4920.1,
+    "total_pnl_pct": -1.598,
     "position": "LONG",
     "xrp_held": 267.7816,
     "cash_eur": 4674.17,
     "trade_count": 49,
     "draw_levels": {
       "entry": 0.9186927500000001,
-      "take_profit": 0.93491,
-      "stop_loss": 0.90896,
-      "trailing_stop": 0.90612
+      "take_profit": 0.93567,
+      "stop_loss": 0.9085,
+      "trailing_stop": 0.90551
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160890
+  "data_bars": 160891
 }
