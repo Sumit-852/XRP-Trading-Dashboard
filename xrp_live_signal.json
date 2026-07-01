@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-01T15:51:12.686139+00:00",
+  "timestamp": "2026-07-01T15:56:15.136915+00:00",
   "signal": {
-    "price": 0.9309,
+    "price": 0.9305,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6387,
+    "xgb_prob": 0.6294,
     "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": true,
@@ -11,15 +11,15 @@
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.014,
-      "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "score": -0.007,
+      "bullish_pct": 28.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.154,
-        "crypto_macro": -0.148,
-        "geopolitical": -0.176,
-        "fed_rates": 0.032
+        "xrp": 0.212,
+        "crypto_macro": -0.154,
+        "geopolitical": -0.188,
+        "fed_rates": -0.036
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
       "top_bearish": [
-        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
         "Bitcoin posts worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
-        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk"
+        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
+        "ADP Jobs Miss at 98,000 \u2014 Bitcoin's Weakest Q3 Start Since 2022 and Trump's $1.2B Crypto Disclosure - Binance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": -0.1086,
+      "up_down_ratio": 0.88,
+      "health": 0.0242,
       "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.92175,
-      "ema200": 0.91621,
-      "macd": 0.003697,
-      "macd_signal": 0.003529,
-      "rsi14": 64.6,
-      "atr14": 0.00231,
-      "atr14_hourly": 0.01283,
-      "bb_position": 0.731
+      "ema50": 0.92208,
+      "ema200": 0.91635,
+      "macd": 0.003497,
+      "macd_signal": 0.003519,
+      "rsi14": 63.3,
+      "atr14": 0.00219,
+      "atr14_hourly": 0.0128,
+      "bb_position": 0.698
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.316,
+      "percentile": 0.312,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.40%",
-    "portfolio_eur": 4921.86,
-    "total_pnl_pct": -1.563,
+    "reason": "HOLD LONG: P&L +0.36%",
+    "portfolio_eur": 4921.76,
+    "total_pnl_pct": -1.565,
     "position": "LONG",
     "xrp_held": 265.3613,
     "cash_eur": 4674.84,
     "trade_count": 51,
     "draw_levels": {
       "entry": 0.9272038000000001,
-      "take_profit": 0.95915,
-      "stop_loss": 0.90804,
-      "trailing_stop": 0.90728
+      "take_profit": 0.95909,
+      "stop_loss": 0.90807,
+      "trailing_stop": 0.90733
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 160913
+  "data_bars": 160914
 }
