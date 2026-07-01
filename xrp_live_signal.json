@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-01T08:56:06.512206+00:00",
+  "timestamp": "2026-07-01T09:01:41.045347+00:00",
   "signal": {
-    "price": 0.9144,
+    "price": 0.9169,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3819,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.2229,
+    "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
-      "bullish_pct": 36.7,
-      "bearish_pct": 31.7,
+      "score": 0.006,
+      "bullish_pct": 35.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.192,
-        "crypto_macro": -0.113,
-        "geopolitical": -0.133,
-        "fed_rates": 0.041
+        "xrp": 0.189,
+        "crypto_macro": -0.096,
+        "geopolitical": -0.189,
+        "fed_rates": -0.004
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
       "top_bearish": [
-        "Bitcoin posts worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool"
+        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool",
+        "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Extreme Fear' Persists: Analyst Notes Half of BTC Circulating - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.09,
-      "health": 0.08,
-      "vol_ratio": 0.01
+      "health": 0.0881,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.9144,
-      "ema200": 0.91362,
-      "macd": -0.000478,
-      "macd_signal": -0.000769,
-      "rsi14": 53.2,
-      "atr14": 0.00119,
-      "atr14_hourly": 0.00515,
-      "bb_position": 0.734
+      "ema50": 0.91465,
+      "ema200": 0.91369,
+      "macd": 9.6e-05,
+      "macd_signal": -0.000546,
+      "rsi14": 59.1,
+      "atr14": 0.00148,
+      "atr14_hourly": 0.0056,
+      "bb_position": 0.979
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.313,
+      "percentile": 0.327,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160830
+  "data_bars": 160831
 }
