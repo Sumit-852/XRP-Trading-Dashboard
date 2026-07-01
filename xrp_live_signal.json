@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-01T08:21:16.576275+00:00",
+  "timestamp": "2026-07-01T08:26:10.816360+00:00",
   "signal": {
-    "price": 0.9123,
+    "price": 0.9114,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3049,
-    "hybrid_score": 3.8,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3162,
+    "hybrid_score": 3.9,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.013,
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
+      "score": 0.019,
+      "bullish_pct": 36.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.126,
-        "crypto_macro": -0.064,
-        "geopolitical": -0.153,
-        "fed_rates": 0.09
+        "xrp": 0.192,
+        "crypto_macro": -0.113,
+        "geopolitical": -0.133,
+        "fed_rates": 0.041
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
       "top_bearish": [
+        "Bitcoin posts worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
         "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.03,
-      "health": 0.0421,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.02,
+      "health": 0.028,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.91494,
-      "ema200": 0.91369,
-      "macd": -0.000796,
-      "macd_signal": -0.000861,
-      "rsi14": 40.8,
-      "atr14": 0.00116,
-      "atr14_hourly": 0.00522,
-      "bb_position": 0.286
+      "ema50": 0.91477,
+      "ema200": 0.91365,
+      "macd": -0.000954,
+      "macd_signal": -0.000891,
+      "rsi14": 37.9,
+      "atr14": 0.00117,
+      "atr14_hourly": 0.00523,
+      "bb_position": 0.107
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.313,
+      "percentile": 0.314,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160823
+  "data_bars": 160824
 }
