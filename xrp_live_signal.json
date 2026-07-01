@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-01T13:46:12.762664+00:00",
+  "timestamp": "2026-07-01T13:51:26.391397+00:00",
   "signal": {
-    "price": 0.9155,
+    "price": 0.9175,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6289,
-    "hybrid_score": 5.8,
+    "xgb_prob": 0.659,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.056,
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.74,
-      "health": -0.2325,
-      "vol_ratio": 0.73
+      "health": -0.2563,
+      "vol_ratio": 1.08
     },
     "technicals": {
-      "ema50": 0.91291,
-      "ema200": 0.9134,
-      "macd": 0.000945,
-      "macd_signal": 0.00052,
-      "rsi14": 63.4,
-      "atr14": 0.00193,
-      "atr14_hourly": 0.00576,
-      "bb_position": 0.819
+      "ema50": 0.91317,
+      "ema200": 0.91346,
+      "macd": 0.00129,
+      "macd_signal": 0.000699,
+      "rsi14": 69.2,
+      "atr14": 0.00205,
+      "atr14_hourly": 0.00615,
+      "bb_position": 0.915
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,20 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.326,
+      "percentile": 0.321,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
-    "portfolio_eur": 4920.18,
-    "total_pnl_pct": -1.596,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4920.18,
-    "trade_count": 48,
-    "draw_levels": {}
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=6.0",
+    "portfolio_eur": 4919.86,
+    "total_pnl_pct": -1.603,
+    "position": "LONG",
+    "xrp_held": 267.7816,
+    "cash_eur": 4674.17,
+    "trade_count": 49,
+    "draw_levels": {
+      "entry": 0.9186927500000001,
+      "take_profit": 0.93409,
+      "stop_loss": 0.90946
+    }
   },
   "trade_feedback": {
     "overall_win_rate": 0.417,
@@ -100,5 +104,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160888
+  "data_bars": 160889
 }
