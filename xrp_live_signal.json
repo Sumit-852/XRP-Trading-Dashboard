@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-01T00:06:06.062439+00:00",
+  "timestamp": "2026-07-01T00:11:20.618804+00:00",
   "signal": {
-    "price": 0.9107,
+    "price": 0.9096,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.466,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.3835,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.028,
-      "bullish_pct": 38.3,
-      "bearish_pct": 25.0,
+      "score": 0.019,
+      "bullish_pct": 35.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.171,
-        "crypto_macro": -0.058,
-        "geopolitical": -0.187,
-        "fed_rates": 0.109
+        "crypto_macro": -0.1,
+        "geopolitical": -0.134,
+        "fed_rates": 0.067
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
       ],
       "top_bearish": [
-        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
+        "Bitcoin on pace for worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
         "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk"
+        "Here\u2019s Why The Crypto Market Is Crashing This Year - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.07,
-      "health": 0.2221,
-      "vol_ratio": 0.02
+      "up_down_ratio": 1.06,
+      "health": 0.2255,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.91011,
-      "ema200": 0.91153,
-      "macd": -6.9e-05,
-      "macd_signal": -0.00026,
-      "rsi14": 55.5,
-      "atr14": 0.00094,
-      "atr14_hourly": 0.00357,
-      "bb_position": 1.077
+      "ema50": 0.91005,
+      "ema200": 0.9115,
+      "macd": -0.000137,
+      "macd_signal": -0.000247,
+      "rsi14": 48.2,
+      "atr14": 0.0009,
+      "atr14_hourly": 0.0035,
+      "bb_position": 0.586
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.265,
+      "percentile": 0.264,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4920.18,
     "total_pnl_pct": -1.596,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160724
+  "data_bars": 160725
 }
