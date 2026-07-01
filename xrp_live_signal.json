@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-01T23:41:11.517707+00:00",
+  "timestamp": "2026-07-01T23:46:17.403601+00:00",
   "signal": {
     "price": 0.9259,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3155,
+    "xgb_prob": 0.3086,
     "hybrid_score": 2.6,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,13 +11,13 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
-      "bullish_pct": 28.3,
-      "bearish_pct": 36.7,
+      "score": -0.023,
+      "bullish_pct": 25.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.258,
-        "crypto_macro": -0.152,
+        "xrp": 0.23,
+        "crypto_macro": -0.223,
         "geopolitical": -0.187,
         "fed_rates": -0.048
       },
@@ -35,26 +35,26 @@
         "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
       "top_bearish": [
+        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
         "Bitcoin posts worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
-        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
+        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.67,
-      "health": 0.1303,
-      "vol_ratio": 0.04
+      "health": 0.1452,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.93117,
+      "ema50": 0.93096,
       "ema200": 0.92561,
-      "macd": -0.002127,
-      "macd_signal": -0.001414,
-      "rsi14": 32.2,
-      "atr14": 0.0018,
-      "atr14_hourly": 0.01062,
-      "bb_position": 0.203
+      "macd": -0.00217,
+      "macd_signal": -0.001566,
+      "rsi14": 32.5,
+      "atr14": 0.00169,
+      "atr14_hourly": 0.01049,
+      "bb_position": 0.231
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.3,
+      "percentile": 0.298,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161007
+  "data_bars": 161008
 }
