@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-01T14:36:10.261176+00:00",
+  "timestamp": "2026-07-01T14:41:24.276933+00:00",
   "signal": {
-    "price": 0.9214,
+    "price": 0.9215,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4449,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.4752,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.81,
-      "health": -0.2518,
-      "vol_ratio": 0.23
+      "up_down_ratio": 0.83,
+      "health": -0.2313,
+      "vol_ratio": 0.26
     },
     "technicals": {
-      "ema50": 0.91625,
-      "ema200": 0.91431,
-      "macd": 0.003138,
-      "macd_signal": 0.002761,
-      "rsi14": 58.4,
-      "atr14": 0.00249,
-      "atr14_hourly": 0.01099,
-      "bb_position": 0.638
+      "ema50": 0.91651,
+      "ema200": 0.9144,
+      "macd": 0.002994,
+      "macd_signal": 0.002826,
+      "rsi14": 57.5,
+      "atr14": 0.00247,
+      "atr14_hourly": 0.01132,
+      "bb_position": 0.62
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.329,
+      "percentile": 0.328,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.29%",
-    "portfolio_eur": 4920.9,
-    "total_pnl_pct": -1.582,
+    "reason": "HOLD LONG: P&L +0.31%",
+    "portfolio_eur": 4920.93,
+    "total_pnl_pct": -1.581,
     "position": "LONG",
     "xrp_held": 267.7816,
     "cash_eur": 4674.17,
     "trade_count": 49,
     "draw_levels": {
       "entry": 0.9186927500000001,
-      "take_profit": 0.94609,
-      "stop_loss": 0.90226,
-      "trailing_stop": 0.90557
+      "take_profit": 0.94691,
+      "stop_loss": 0.90176,
+      "trailing_stop": 0.90491
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160898
+  "data_bars": 160899
 }
