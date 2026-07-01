@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-01T03:31:28.924659+00:00",
+  "timestamp": "2026-07-01T03:36:08.851878+00:00",
   "signal": {
-    "price": 0.9161,
+    "price": 0.916,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2747,
+    "xgb_prob": 0.2765,
     "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.046,
-      "bullish_pct": 40.0,
-      "bearish_pct": 25.0,
+      "score": 0.011,
+      "bullish_pct": 36.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.122,
+        "xrp": 0.085,
         "crypto_macro": -0.028,
-        "geopolitical": -0.096,
-        "fed_rates": 0.183
+        "geopolitical": -0.175,
+        "fed_rates": 0.14
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
         "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool"
+        "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Extreme Fear' Persists: Analyst Notes Half of BTC Circulating - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.99,
-      "health": 0.155,
-      "vol_ratio": 0.0
+      "health": 0.1451,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 0.91201,
-      "ema200": 0.91145,
-      "macd": 0.00141,
-      "macd_signal": 0.001611,
-      "rsi14": 62.0,
+      "ema50": 0.91214,
+      "ema200": 0.91149,
+      "macd": 0.001353,
+      "macd_signal": 0.001551,
+      "rsi14": 61.8,
       "atr14": 0.00162,
-      "atr14_hourly": 0.00858,
-      "bb_position": 0.703
+      "atr14_hourly": 0.00829,
+      "bb_position": 0.677
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160765
+  "data_bars": 160766
 }
