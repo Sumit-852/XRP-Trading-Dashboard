@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-01T15:46:23.165075+00:00",
+  "timestamp": "2026-07-01T15:51:12.686139+00:00",
   "signal": {
-    "price": 0.9323,
+    "price": 0.9309,
     "xgb_pred": "UP",
-    "xgb_prob": 0.628,
+    "xgb_prob": 0.6387,
     "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": true,
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.91,
-      "health": -0.0871,
-      "vol_ratio": 0.05
+      "health": -0.1086,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.92141,
-      "ema200": 0.91607,
-      "macd": 0.003905,
-      "macd_signal": 0.003501,
-      "rsi14": 69.1,
-      "atr14": 0.00239,
-      "atr14_hourly": 0.01286,
-      "bb_position": 0.831
+      "ema50": 0.92175,
+      "ema200": 0.91621,
+      "macd": 0.003697,
+      "macd_signal": 0.003529,
+      "rsi14": 64.6,
+      "atr14": 0.00231,
+      "atr14_hourly": 0.01283,
+      "bb_position": 0.731
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.317,
+      "percentile": 0.316,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.55%",
-    "portfolio_eur": 4922.24,
-    "total_pnl_pct": -1.555,
+    "reason": "HOLD LONG: P&L +0.40%",
+    "portfolio_eur": 4921.86,
+    "total_pnl_pct": -1.563,
     "position": "LONG",
     "xrp_held": 265.3613,
     "cash_eur": 4674.84,
     "trade_count": 51,
     "draw_levels": {
       "entry": 0.9272038000000001,
-      "take_profit": 0.95918,
-      "stop_loss": 0.90802,
-      "trailing_stop": 0.90726
+      "take_profit": 0.95915,
+      "stop_loss": 0.90804,
+      "trailing_stop": 0.90728
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 160912
+  "data_bars": 160913
 }
