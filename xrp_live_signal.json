@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-01T00:41:16.936793+00:00",
+  "timestamp": "2026-07-01T00:46:14.909281+00:00",
   "signal": {
-    "price": 0.907,
+    "price": 0.9068,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3361,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3413,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
+      "score": 0.029,
       "bullish_pct": 35.0,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.171,
-        "crypto_macro": -0.1,
-        "geopolitical": -0.134,
+        "xrp": 0.184,
+        "crypto_macro": -0.033,
+        "geopolitical": -0.213,
         "fed_rates": 0.067
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC rebounds, ETH and XRP defend key support following recent correc"
+        "Top 5 Altcoins for the Next 100x Crypto \u2013 Best Crypto to Buy Now 2026 - Bitcoin Foundation",
+        "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
       "top_bearish": [
-        "Bitcoin on pace for worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
-        "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto - CoinDesk",
-        "Here\u2019s Why The Crypto Market Is Crashing This Year - Benzinga"
+        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
+        "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle - CoinDesk",
+        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.06,
-      "health": 0.218,
-      "vol_ratio": 0.0
+      "health": 0.2314,
+      "vol_ratio": 0.27
     },
     "technicals": {
-      "ema50": 0.90954,
-      "ema200": 0.91128,
-      "macd": -0.000695,
-      "macd_signal": -0.000442,
-      "rsi14": 36.2,
+      "ema50": 0.90941,
+      "ema200": 0.91123,
+      "macd": -0.0008,
+      "macd_signal": -0.000521,
+      "rsi14": 36.8,
       "atr14": 0.00115,
-      "atr14_hourly": 0.00382,
-      "bb_position": 0.055
+      "atr14_hourly": 0.0039,
+      "bb_position": 0.1
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.256,
+      "percentile": 0.255,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160731
+  "data_bars": 160732
 }
