@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-01T15:01:31.835029+00:00",
+  "timestamp": "2026-07-01T15:06:09.642911+00:00",
   "signal": {
-    "price": 0.9225,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3526,
-    "hybrid_score": 4.1,
+    "price": 0.926,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6229,
+    "hybrid_score": 5.7,
     "regime": "BULLISH",
-    "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "entry_signal": true,
+    "exit_signal": false,
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
       "score": -0.02,
@@ -43,55 +43,54 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.86,
-      "health": -0.1533,
-      "vol_ratio": 0.23
+      "health": -0.1442,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.91734,
-      "ema200": 0.9147,
-      "macd": 0.002309,
-      "macd_signal": 0.00262,
-      "rsi14": 58.4,
-      "atr14": 0.00242,
+      "ema50": 0.91778,
+      "ema200": 0.91484,
+      "macd": 0.002628,
+      "macd_signal": 0.002656,
+      "rsi14": 64.8,
+      "atr14": 0.00247,
       "atr14_hourly": 0.01143,
-      "bb_position": 0.608
+      "bb_position": 0.773
     },
     "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.125,
-      "entry_prob_adjusted": 0.65,
+      "loss_streak": 0,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.6,
       "adapted_sl_mult": 1.5,
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.304,
+      "percentile": 0.312,
       "extreme": false
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "MODEL_SELL: score=4.1",
-    "portfolio_eur": 4920.88,
-    "total_pnl_pct": -1.582,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4920.88,
-    "trade_count": 50,
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=5.7",
+    "portfolio_eur": 4920.56,
+    "total_pnl_pct": -1.589,
+    "position": "LONG",
+    "xrp_held": 265.3613,
+    "cash_eur": 4674.84,
+    "trade_count": 51,
     "draw_levels": {
-      "entry": 0.9186927500000001,
-      "take_profit": 0.94715,
-      "stop_loss": 0.90162,
-      "trailing_stop": 0.90471
+      "entry": 0.9272038000000001,
+      "take_profit": 0.95582,
+      "stop_loss": 0.91004
     }
   },
   "trade_feedback": {
-    "overall_win_rate": 0.417,
-    "recent_win_rate": 0.125,
-    "avg_win_pct": 0.492,
+    "overall_win_rate": 0.44,
+    "recent_win_rate": 0.25,
+    "avg_win_pct": 0.485,
     "avg_loss_pct": -0.516,
-    "loss_streak": 4,
-    "win_streak": 0,
-    "total_wins": 10,
+    "loss_streak": 0,
+    "win_streak": 1,
+    "total_wins": 11,
     "total_losses": 14,
     "loss_reasons": {
       "MODEL_SELL": 13,
@@ -101,9 +100,9 @@
     "model_loss_ratio": 0.929,
     "adapted_sl_mult": 1.5,
     "adapted_tp_mult": 2.5,
-    "score_adjustment": 1,
-    "entry_prob_effective": 0.65
+    "score_adjustment": 0,
+    "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 160903
+  "data_bars": 160904
 }
