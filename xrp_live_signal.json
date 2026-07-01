@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-01T11:51:14.524879+00:00",
+  "timestamp": "2026-07-01T11:56:13.013437+00:00",
   "signal": {
-    "price": 0.9104,
+    "price": 0.9103,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3944,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.3354,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 38.3,
-      "bearish_pct": 30.0,
+      "score": 0.022,
+      "bullish_pct": 40.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.164,
-        "crypto_macro": -0.096,
-        "geopolitical": -0.133,
-        "fed_rates": 0.16
+        "crypto_macro": -0.116,
+        "geopolitical": -0.16,
+        "fed_rates": 0.174
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Best Crypto Prediction Markets in June 2026 \u2013 Trade on Crypto - Federal News Network"
       ],
       "top_bearish": [
+        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
         "Bitcoin posts worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
-        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool"
+        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.91,
-      "health": -0.056,
-      "vol_ratio": 0.03
+      "health": -0.0585,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.91351,
-      "ema200": 0.91374,
-      "macd": -0.00116,
-      "macd_signal": -0.001042,
-      "rsi14": 38.0,
-      "atr14": 0.00124,
-      "atr14_hourly": 0.00521,
-      "bb_position": 0.178
+      "ema50": 0.91338,
+      "ema200": 0.9137,
+      "macd": -0.001164,
+      "macd_signal": -0.001067,
+      "rsi14": 37.6,
+      "atr14": 0.00127,
+      "atr14_hourly": 0.00514,
+      "bb_position": 0.176
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 160865
+  "data_bars": 160866
 }
