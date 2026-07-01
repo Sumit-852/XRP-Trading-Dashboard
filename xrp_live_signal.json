@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-01T20:46:09.458016+00:00",
+  "timestamp": "2026-07-01T20:51:21.364444+00:00",
   "signal": {
-    "price": 0.9283,
+    "price": 0.9303,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3543,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.424,
+    "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.013,
-      "bullish_pct": 30.0,
+      "score": -0.0,
+      "bullish_pct": 26.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.235,
-        "crypto_macro": -0.139,
-        "geopolitical": -0.223,
+        "crypto_macro": -0.119,
+        "geopolitical": -0.187,
         "fed_rates": -0.12
       },
       "geo_shock": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin posts worst month since June 2022 as one strategist says token could drop to $40,000 - Yahoo Finance",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Israel and Iran trade strikes, threatening to drag the region back into full-scale war - 10tv.com"
+        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.62,
-      "health": -0.4412,
-      "vol_ratio": 0.0
+      "health": -0.4441,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.92995,
-      "ema200": 0.92278,
-      "macd": -0.001017,
-      "macd_signal": -0.000657,
-      "rsi14": 41.5,
-      "atr14": 0.00138,
-      "atr14_hourly": 0.00608,
-      "bb_position": 0.237
+      "ema50": 0.93005,
+      "ema200": 0.92288,
+      "macd": -0.000719,
+      "macd_signal": -0.00064,
+      "rsi14": 49.4,
+      "atr14": 0.00147,
+      "atr14_hourly": 0.00602,
+      "bb_position": 0.444
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.25,
+      "percentile": 0.253,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4921.36,
     "total_pnl_pct": -1.573,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 160972
+  "data_bars": 160973
 }
