@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T17:46:16.271580+00:00",
+  "timestamp": "2026-07-02T17:51:18.666638+00:00",
   "signal": {
-    "price": 0.9534,
+    "price": 0.9521,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4537,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.4417,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.05,
-      "bullish_pct": 35.0,
-      "bearish_pct": 38.3,
+      "score": 0.055,
+      "bullish_pct": 33.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.284,
-        "crypto_macro": -0.058,
-        "geopolitical": -0.241,
-        "fed_rates": 0.043
+        "crypto_macro": 0.011,
+        "geopolitical": -0.281,
+        "fed_rates": -0.008
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance"
       ],
       "top_bearish": [
-        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg"
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
+        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times",
+        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.42,
-      "health": 0.3008,
-      "vol_ratio": 0.03
+      "health": 0.1401,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95376,
-      "ema200": 0.94404,
-      "macd": -0.000181,
-      "macd_signal": -0.000184,
-      "rsi14": 48.1,
-      "atr14": 0.00194,
-      "atr14_hourly": 0.00772,
-      "bb_position": 0.465
+      "ema50": 0.95365,
+      "ema200": 0.94411,
+      "macd": -0.000387,
+      "macd_signal": -0.000241,
+      "rsi14": 44.9,
+      "atr14": 0.00189,
+      "atr14_hourly": 0.00752,
+      "bb_position": 0.31
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.414,
+      "percentile": 0.415,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.20%",
-    "portfolio_eur": 4918.51,
-    "total_pnl_pct": -1.63,
+    "reason": "HOLD LONG: P&L -0.34%",
+    "portfolio_eur": 4918.18,
+    "total_pnl_pct": -1.636,
     "position": "LONG",
     "xrp_held": 257.448,
     "cash_eur": 4673.06,
     "trade_count": 57,
     "draw_levels": {
       "entry": 0.9553403300000001,
-      "take_profit": 0.97468,
-      "stop_loss": 0.94374,
-      "trailing_stop": 0.94101
+      "take_profit": 0.9742,
+      "stop_loss": 0.94402,
+      "trailing_stop": 0.94139
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161224
+  "data_bars": 161225
 }
