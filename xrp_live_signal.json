@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-02T01:31:22.441533+00:00",
+  "timestamp": "2026-07-02T01:36:03.076428+00:00",
   "signal": {
-    "price": 0.9268,
+    "price": 0.9278,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6065,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.575,
+    "hybrid_score": 5.5,
     "regime": "BULLISH",
-    "entry_signal": true,
+    "entry_signal": false,
     "exit_signal": false,
-    "action": "BUY",
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.01,
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.69,
-      "health": 0.0964,
-      "vol_ratio": 0.09
+      "health": 0.1079,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.92586,
-      "ema200": 0.92491,
-      "macd": -0.000713,
-      "macd_signal": -0.001808,
-      "rsi14": 61.0,
+      "ema50": 0.92596,
+      "ema200": 0.92494,
+      "macd": -0.00024,
+      "macd_signal": -0.001486,
+      "rsi14": 63.6,
       "atr14": 0.00144,
-      "atr14_hourly": 0.00775,
-      "bb_position": 1.04
+      "atr14_hourly": 0.00799,
+      "bb_position": 1.041
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,23 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.304,
+      "percentile": 0.278,
       "extreme": false
     }
   },
   "trade": {
-    "action": "BUY",
-    "reason": "MODEL_BUY: score=5.6",
-    "portfolio_eur": 4921.04,
-    "total_pnl_pct": -1.579,
+    "action": "HOLD",
+    "reason": "HOLD LONG: P&L -0.02%",
+    "portfolio_eur": 4921.3,
+    "total_pnl_pct": -1.574,
     "position": "LONG",
     "xrp_held": 265.1581,
     "cash_eur": 4675.29,
     "trade_count": 53,
     "draw_levels": {
       "entry": 0.92800484,
-      "take_profit": 0.94741,
-      "stop_loss": 0.91636
+      "take_profit": 0.94798,
+      "stop_loss": 0.91602,
+      "trailing_stop": 0.91182
     }
   },
   "trade_feedback": {
@@ -104,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161029
+  "data_bars": 161030
 }
