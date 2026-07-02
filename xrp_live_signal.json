@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-07-02T17:11:20.730993+00:00",
+  "timestamp": "2026-07-02T17:16:16.913868+00:00",
   "signal": {
-    "price": 0.9533,
+    "price": 0.9536,
     "xgb_pred": "UP",
-    "xgb_prob": 0.538,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5172,
+    "hybrid_score": 6.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.024,
-      "bullish_pct": 31.7,
+      "score": 0.05,
+      "bullish_pct": 35.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.201,
-        "crypto_macro": -0.015,
+        "xrp": 0.284,
+        "crypto_macro": -0.058,
         "geopolitical": -0.241,
-        "fed_rates": -0.009
+        "fed_rates": 0.043
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple Is \"Planting Seeds\" For Global XRP Adoption After CLARITY Act, Says Expert - CoinGape",
         "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance",
-        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St."
+        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance"
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "ACCUMULATION",
       "up_down_ratio": 1.43,
-      "health": 0.4082,
-      "vol_ratio": 0.02
+      "health": 0.4412,
+      "vol_ratio": 0.19
     },
     "technicals": {
       "ema50": 0.95362,
-      "ema200": 0.9433,
-      "macd": -0.000403,
-      "macd_signal": -0.000478,
-      "rsi14": 48.0,
-      "atr14": 0.00211,
-      "atr14_hourly": 0.00916,
-      "bb_position": 0.398
+      "ema200": 0.9434,
+      "macd": -0.000363,
+      "macd_signal": -0.000454,
+      "rsi14": 48.9,
+      "atr14": 0.00204,
+      "atr14_hourly": 0.00893,
+      "bb_position": 0.445
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.415,
+      "percentile": 0.413,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.21%",
-    "portfolio_eur": 4918.49,
-    "total_pnl_pct": -1.63,
+    "reason": "HOLD LONG: P&L -0.18%",
+    "portfolio_eur": 4918.56,
+    "total_pnl_pct": -1.629,
     "position": "LONG",
     "xrp_held": 257.448,
     "cash_eur": 4673.06,
     "trade_count": 57,
     "draw_levels": {
       "entry": 0.9553403300000001,
-      "take_profit": 0.97829,
-      "stop_loss": 0.94157,
-      "trailing_stop": 0.93576
+      "take_profit": 0.97771,
+      "stop_loss": 0.94192,
+      "trailing_stop": 0.93623
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161217
+  "data_bars": 161218
 }
