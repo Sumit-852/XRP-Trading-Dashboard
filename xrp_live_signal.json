@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-07-02T22:51:21.192543+00:00",
+  "timestamp": "2026-07-02T22:56:14.445175+00:00",
   "signal": {
-    "price": 0.9441,
+    "price": 0.9479,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1946,
-    "hybrid_score": 3.2,
-    "regime": "BEARISH",
+    "xgb_prob": 0.184,
+    "hybrid_score": 4.4,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.024,
-      "bullish_pct": 33.3,
-      "bearish_pct": 40.0,
+      "score": 0.021,
+      "bullish_pct": 35.0,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.217,
+        "xrp": 0.188,
         "crypto_macro": -0.051,
-        "geopolitical": -0.278,
-        "fed_rates": 0.071
+        "geopolitical": -0.209,
+        "fed_rates": 0.035
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -35,26 +35,26 @@
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa"
       ],
       "top_bearish": [
+        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool",
         "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.51,
-      "health": 0.0636,
-      "vol_ratio": 0.0
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.52,
+      "health": 0.0695,
+      "vol_ratio": 0.36
     },
     "technicals": {
-      "ema50": 0.94645,
-      "ema200": 0.94545,
-      "macd": -0.000759,
-      "macd_signal": -0.000994,
-      "rsi14": 43.6,
-      "atr14": 0.00076,
-      "atr14_hourly": 0.00395,
-      "bb_position": 0.473
+      "ema50": 0.94663,
+      "ema200": 0.9455,
+      "macd": -0.000201,
+      "macd_signal": -0.000794,
+      "rsi14": 64.0,
+      "atr14": 0.00096,
+      "atr14_hourly": 0.00421,
+      "bb_position": 1.128
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.367,
+      "percentile": 0.373,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161285
+  "data_bars": 161286
 }
