@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-02T01:01:30.861907+00:00",
+  "timestamp": "2026-07-02T01:06:05.030803+00:00",
   "signal": {
-    "price": 0.9199,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9195,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3738,
-    "hybrid_score": 3.0,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.006,
-      "bullish_pct": 30.0,
-      "bearish_pct": 36.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.258,
-        "crypto_macro": -0.16,
-        "geopolitical": -0.187,
-        "fed_rates": -0.048
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
-      ],
-      "top_bearish": [
-        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.68,
-      "health": 0.081,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.92635,
-      "ema200": 0.92496,
-      "macd": -0.002798,
-      "macd_signal": -0.002897,
-      "rsi14": 33.1,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00819,
-      "bb_position": 0.286
-    },
-    "trade_feedback": {
-      "loss_streak": 0,
-      "recent_win_rate": 0.375,
-      "entry_prob_adjusted": 0.6,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.308,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4921.36,
     "total_pnl_pct": -1.573,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161023
+  "data_bars": 161024
 }
