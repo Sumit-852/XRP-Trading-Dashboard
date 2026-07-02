@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T02:31:19.843023+00:00",
+  "timestamp": "2026-07-02T02:36:08.646663+00:00",
   "signal": {
-    "price": 0.9284,
+    "price": 0.9294,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3481,
-    "hybrid_score": 2.8,
+    "xgb_prob": 0.4365,
+    "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.011,
+      "score": -0.005,
       "bullish_pct": 26.7,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.286,
-        "crypto_macro": -0.161,
-        "geopolitical": -0.175,
-        "fed_rates": -0.099
+        "xrp": 0.205,
+        "crypto_macro": -0.121,
+        "geopolitical": -0.186,
+        "fed_rates": -0.068
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple Is \"Planting Seeds\" For Global XRP Adoption After CLARITY Act, Says Expert - CoinGape",
         "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance"
+        "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.7,
-      "health": 0.0433,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.74,
+      "health": 0.0999,
+      "vol_ratio": 0.48
     },
     "technicals": {
-      "ema50": 0.92664,
-      "ema200": 0.92525,
-      "macd": 0.000986,
-      "macd_signal": 0.000666,
-      "rsi14": 59.7,
-      "atr14": 0.0014,
-      "atr14_hourly": 0.00804,
-      "bb_position": 0.709
+      "ema50": 0.92677,
+      "ema200": 0.92529,
+      "macd": 0.001109,
+      "macd_signal": 0.00076,
+      "rsi14": 62.9,
+      "atr14": 0.00141,
+      "atr14_hourly": 0.00777,
+      "bb_position": 0.775
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.275,
+      "percentile": 0.272,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4921.01,
     "total_pnl_pct": -1.58,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161041
+  "data_bars": 161042
 }
