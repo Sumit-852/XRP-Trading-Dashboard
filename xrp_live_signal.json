@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-02T21:56:13.718973+00:00",
+  "timestamp": "2026-07-02T22:01:32.500212+00:00",
   "signal": {
-    "price": 0.9444,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9448,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2521,
-    "hybrid_score": 3.5,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.003,
-      "bullish_pct": 31.7,
-      "bearish_pct": 45.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.174,
-        "crypto_macro": -0.081,
-        "geopolitical": -0.253,
-        "fed_rates": 0.023
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Ripple Price Analysis: Bullish Divergence Emerges as XRP Defends $1 Support Zone - CryptoPotato",
-        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - AOL.com",
-        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa"
-      ],
-      "top_bearish": [
-        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool",
-        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.54,
-      "health": 0.0604,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.94794,
-      "ema200": 0.94565,
-      "macd": -0.001209,
-      "macd_signal": -0.001188,
-      "rsi14": 38.6,
-      "atr14": 0.00102,
-      "atr14_hourly": 0.00533,
-      "bb_position": 0.219
-    },
-    "trade_feedback": {
-      "loss_streak": 3,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.391,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161274
+  "data_bars": 161275
 }
