@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-02T16:46:10.877941+00:00",
+  "timestamp": "2026-07-02T16:51:17.456756+00:00",
   "signal": {
-    "price": 0.9527,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4009,
-    "hybrid_score": 5.7,
+    "price": 0.9541,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6,
+    "hybrid_score": 5.6,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.024,
@@ -24,8 +24,8 @@
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.45,
-      "health": 0.5092,
-      "vol_ratio": 0.02
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.47,
+      "health": 0.5221,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.95349,
-      "ema200": 0.94274,
-      "macd": -0.000827,
-      "macd_signal": -0.000641,
-      "rsi14": 46.5,
-      "atr14": 0.00226,
-      "atr14_hourly": 0.00975,
-      "bb_position": 0.37
+      "ema50": 0.95363,
+      "ema200": 0.94288,
+      "macd": -0.000499,
+      "macd_signal": -0.000574,
+      "rsi14": 49.9,
+      "atr14": 0.00241,
+      "atr14_hourly": 0.00963,
+      "bb_position": 0.508
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,20 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.411,
+      "percentile": 0.416,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
-    "portfolio_eur": 4919.01,
-    "total_pnl_pct": -1.62,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4919.01,
-    "trade_count": 56,
-    "draw_levels": {}
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=5.6",
+    "portfolio_eur": 4918.69,
+    "total_pnl_pct": -1.626,
+    "position": "LONG",
+    "xrp_held": 257.448,
+    "cash_eur": 4673.06,
+    "trade_count": 57,
+    "draw_levels": {
+      "entry": 0.9553403300000001,
+      "take_profit": 0.97945,
+      "stop_loss": 0.94088
+    }
   },
   "trade_feedback": {
     "overall_win_rate": 0.429,
@@ -100,5 +104,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161212
+  "data_bars": 161213
 }

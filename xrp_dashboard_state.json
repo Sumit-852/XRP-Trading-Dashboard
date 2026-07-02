@@ -1,9 +1,9 @@
 {
-  "capital": 4919.01,
-  "xrp_held": 0.0,
-  "position": "CASH",
-  "entry_price": 0.0,
-  "peak_price": 0.0,
+  "capital": 4673.06,
+  "xrp_held": 257.448,
+  "position": "LONG",
+  "entry_price": 0.9553403300000001,
+  "peak_price": 0.9541,
   "trades": [
     {
       "time": "2026-06-08T21:00:00+00:00",
@@ -546,6 +546,16 @@
       "pnl_pct": -0.68,
       "reason": "MODEL_SELL: score=4.3",
       "score": 4.3
+    },
+    {
+      "time": "2026-07-02T16:51:17.423144+00:00",
+      "action": "BUY",
+      "price": 0.9541,
+      "fill_price": 0.95534,
+      "xrp": 257.448,
+      "eur": 245.95,
+      "reason": "MODEL_BUY: score=5.6",
+      "score": 5.6
     }
   ],
   "equity_history": [
@@ -31265,6 +31275,16 @@
       "hybrid_score": 5.7,
       "action": "HOLD",
       "regime": "BULLISH"
+    },
+    {
+      "time": "2026-07-02T16:51:17.423144+00:00",
+      "value": 4918.69,
+      "price": 0.9541,
+      "xgb_prob": 0.6,
+      "hybrid_score": 5.6,
+      "action": "BUY",
+      "regime": "BULLISH"
     }
-  ]
+  ],
+  "bars_held": 0
 }
