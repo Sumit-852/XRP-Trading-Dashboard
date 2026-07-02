@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-02T15:11:22.574604+00:00",
+  "timestamp": "2026-07-02T15:16:14.306773+00:00",
   "signal": {
-    "price": 0.9509,
+    "price": 0.9512,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3809,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.4107,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.041,
@@ -43,22 +43,22 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.44,
-      "health": 0.2685,
-      "vol_ratio": 0.2
+      "health": 0.3151,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.95325,
-      "ema200": 0.94041,
-      "macd": -0.001575,
-      "macd_signal": -0.000468,
-      "rsi14": 40.5,
-      "atr14": 0.00309,
-      "atr14_hourly": 0.01556,
-      "bb_position": 0.234
+      "ema50": 0.95318,
+      "ema200": 0.94052,
+      "macd": -0.001629,
+      "macd_signal": -0.000696,
+      "rsi14": 41.2,
+      "atr14": 0.00293,
+      "atr14_hourly": 0.01519,
+      "bb_position": 0.266
     },
     "trade_feedback": {
-      "loss_streak": 1,
-      "recent_win_rate": 0.375,
+      "loss_streak": 2,
+      "recent_win_rate": 0.25,
       "entry_prob_adjusted": 0.6,
       "adapted_sl_mult": 1.5,
       "adapted_tp_mult": 2.5
@@ -69,41 +69,36 @@
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "MODEL_SELL: score=4.3",
+    "action": "HOLD",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4919.01,
     "total_pnl_pct": -1.62,
     "position": "CASH",
     "xrp_held": 0.0,
     "cash_eur": 4919.01,
     "trade_count": 56,
-    "draw_levels": {
-      "entry": 0.9574430600000001,
-      "take_profit": 0.99661,
-      "stop_loss": 0.93394,
-      "trailing_stop": 0.93758
-    }
+    "draw_levels": {}
   },
   "trade_feedback": {
-    "overall_win_rate": 0.444,
-    "recent_win_rate": 0.375,
+    "overall_win_rate": 0.429,
+    "recent_win_rate": 0.25,
     "avg_win_pct": 0.471,
-    "avg_loss_pct": -0.483,
-    "loss_streak": 1,
+    "avg_loss_pct": -0.495,
+    "loss_streak": 2,
     "win_streak": 0,
     "total_wins": 12,
-    "total_losses": 15,
+    "total_losses": 16,
     "loss_reasons": {
-      "MODEL_SELL": 14,
+      "MODEL_SELL": 15,
       "STOP_LOSS": 1
     },
-    "sl_loss_ratio": 0.067,
-    "model_loss_ratio": 0.933,
+    "sl_loss_ratio": 0.062,
+    "model_loss_ratio": 0.938,
     "adapted_sl_mult": 1.5,
     "adapted_tp_mult": 2.5,
     "score_adjustment": 0,
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161193
+  "data_bars": 161194
 }
