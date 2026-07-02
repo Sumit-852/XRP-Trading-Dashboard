@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-02T16:51:17.456756+00:00",
+  "timestamp": "2026-07-02T16:56:12.408568+00:00",
   "signal": {
-    "price": 0.9541,
+    "price": 0.954,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.5652,
+    "hybrid_score": 5.4,
     "regime": "BULLISH",
-    "entry_signal": true,
+    "entry_signal": false,
     "exit_signal": false,
-    "action": "BUY",
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.024,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.47,
-      "health": 0.5221,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.45,
+      "health": 0.5034,
+      "vol_ratio": 0.84
     },
     "technicals": {
-      "ema50": 0.95363,
-      "ema200": 0.94288,
-      "macd": -0.000499,
-      "macd_signal": -0.000574,
-      "rsi14": 49.9,
-      "atr14": 0.00241,
-      "atr14_hourly": 0.00963,
-      "bb_position": 0.508
+      "ema50": 0.95367,
+      "ema200": 0.943,
+      "macd": -0.000382,
+      "macd_signal": -0.000526,
+      "rsi14": 49.5,
+      "atr14": 0.0023,
+      "atr14_hourly": 0.00951,
+      "bb_position": 0.47
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,23 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.416,
+      "percentile": 0.415,
       "extreme": false
     }
   },
   "trade": {
-    "action": "BUY",
-    "reason": "MODEL_BUY: score=5.6",
-    "portfolio_eur": 4918.69,
-    "total_pnl_pct": -1.626,
+    "action": "HOLD",
+    "reason": "HOLD LONG: P&L -0.14%",
+    "portfolio_eur": 4918.67,
+    "total_pnl_pct": -1.627,
     "position": "LONG",
     "xrp_held": 257.448,
     "cash_eur": 4673.06,
     "trade_count": 57,
     "draw_levels": {
       "entry": 0.9553403300000001,
-      "take_profit": 0.97945,
-      "stop_loss": 0.94088
+      "take_profit": 0.97915,
+      "stop_loss": 0.94106,
+      "trailing_stop": 0.93508
     }
   },
   "trade_feedback": {
@@ -104,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161213
+  "data_bars": 161214
 }
