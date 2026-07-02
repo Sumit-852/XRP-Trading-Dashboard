@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-02T15:31:22.233999+00:00",
+  "timestamp": "2026-07-02T15:36:07.871494+00:00",
   "signal": {
-    "price": 0.9538,
+    "price": 0.9553,
     "xgb_pred": "UP",
-    "xgb_prob": 0.511,
-    "hybrid_score": 5.1,
+    "xgb_prob": 0.5614,
+    "hybrid_score": 5.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.041,
-      "bullish_pct": 33.3,
-      "bearish_pct": 40.0,
+      "score": 0.018,
+      "bullish_pct": 31.7,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.249,
-        "crypto_macro": -0.011,
-        "geopolitical": -0.268,
-        "fed_rates": 0.01
+        "xrp": 0.287,
+        "crypto_macro": -0.105,
+        "geopolitical": -0.326,
+        "fed_rates": 0.022
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance"
       ],
       "top_bearish": [
+        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
         "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.44,
-      "health": 0.2486,
-      "vol_ratio": 0.11
+      "up_down_ratio": 1.45,
+      "health": 0.2744,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95325,
-      "ema200": 0.94091,
-      "macd": -0.001194,
-      "macd_signal": -0.000995,
-      "rsi14": 47.7,
-      "atr14": 0.00279,
-      "atr14_hourly": 0.01362,
-      "bb_position": 0.432
+      "ema50": 0.95338,
+      "ema200": 0.94107,
+      "macd": -0.000866,
+      "macd_signal": -0.00095,
+      "rsi14": 51.3,
+      "atr14": 0.00267,
+      "atr14_hourly": 0.01316,
+      "bb_position": 0.543
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.406,
+      "percentile": 0.407,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161197
+  "data_bars": 161198
 }
