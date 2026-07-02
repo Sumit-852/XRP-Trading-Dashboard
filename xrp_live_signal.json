@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T18:51:15.761022+00:00",
+  "timestamp": "2026-07-02T18:56:16.560845+00:00",
   "signal": {
-    "price": 0.9525,
+    "price": 0.9508,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.495,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.4187,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.06,
-      "bullish_pct": 33.3,
-      "bearish_pct": 40.0,
+      "score": 0.049,
+      "bullish_pct": 35.0,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.287,
-        "crypto_macro": 0.011,
+        "xrp": 0.322,
+        "crypto_macro": -0.088,
         "geopolitical": -0.261,
-        "fed_rates": -0.008
+        "fed_rates": 0.025
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance"
       ],
       "top_bearish": [
+        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times",
-        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
+        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.46,
-      "health": -0.0391,
-      "vol_ratio": 0.02
+      "health": -0.0371,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95335,
-      "ema200": 0.9451,
-      "macd": -0.000311,
-      "macd_signal": -0.000322,
-      "rsi14": 46.9,
-      "atr14": 0.00139,
-      "atr14_hourly": 0.00533,
-      "bb_position": 0.344
+      "ema50": 0.95322,
+      "ema200": 0.94515,
+      "macd": -0.000507,
+      "macd_signal": -0.000369,
+      "rsi14": 41.5,
+      "atr14": 0.00141,
+      "atr14_hourly": 0.00518,
+      "bb_position": 0.078
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161237
+  "data_bars": 161238
 }
