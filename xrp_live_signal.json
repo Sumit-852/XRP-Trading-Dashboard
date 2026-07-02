@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T14:26:05.706836+00:00",
+  "timestamp": "2026-07-02T14:31:26.105716+00:00",
   "signal": {
-    "price": 0.9557,
+    "price": 0.9533,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4823,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.4502,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.002,
+      "score": 0.007,
       "bullish_pct": 30.0,
-      "bearish_pct": 40.0,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.249,
-        "crypto_macro": -0.144,
-        "geopolitical": -0.264,
-        "fed_rates": 0.009
+        "crypto_macro": -0.099,
+        "geopolitical": -0.29,
+        "fed_rates": -0.017
       },
       "geo_shock": false,
       "geo_dip": {
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.48,
-      "health": 0.4855,
-      "vol_ratio": 0.07
+      "up_down_ratio": 1.47,
+      "health": 0.407,
+      "vol_ratio": 0.92
     },
     "technicals": {
-      "ema50": 0.95386,
-      "ema200": 0.93934,
-      "macd": 0.001615,
-      "macd_signal": 0.003078,
-      "rsi14": 45.1,
-      "atr14": 0.00358,
-      "atr14_hourly": 0.01452,
-      "bb_position": 0.252
+      "ema50": 0.95376,
+      "ema200": 0.93945,
+      "macd": 0.000818,
+      "macd_signal": 0.002598,
+      "rsi14": 41.5,
+      "atr14": 0.00359,
+      "atr14_hourly": 0.01497,
+      "bb_position": 0.162
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.434,
+      "percentile": 0.427,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.18%",
-    "portfolio_eur": 4920.56,
-    "total_pnl_pct": -1.589,
+    "reason": "HOLD LONG: P&L -0.43%",
+    "portfolio_eur": 4919.95,
+    "total_pnl_pct": -1.601,
     "position": "LONG",
     "xrp_held": 256.9871,
     "cash_eur": 4674.96,
     "trade_count": 55,
     "draw_levels": {
       "entry": 0.9574430600000001,
-      "take_profit": 0.99381,
-      "stop_loss": 0.93562,
-      "trailing_stop": 0.93985
+      "take_profit": 0.99503,
+      "stop_loss": 0.93489,
+      "trailing_stop": 0.93886
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161184
+  "data_bars": 161185
 }
