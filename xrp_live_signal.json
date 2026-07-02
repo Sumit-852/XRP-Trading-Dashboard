@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-02T20:31:24.036460+00:00",
+  "timestamp": "2026-07-02T20:36:08.566026+00:00",
   "signal": {
-    "price": 0.9455,
+    "price": 0.946,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3135,
+    "xgb_prob": 0.3161,
     "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,17 +11,17 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.059,
-      "bullish_pct": 38.3,
-      "bearish_pct": 41.7,
+      "score": 0.05,
+      "bullish_pct": 35.0,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.325,
-        "crypto_macro": -0.088,
-        "geopolitical": -0.277,
-        "fed_rates": 0.107
+        "xrp": 0.295,
+        "crypto_macro": -0.052,
+        "geopolitical": -0.303,
+        "fed_rates": 0.081
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple Is \"Planting Seeds\" For Global XRP Adoption After CLARITY Act, Says Expert - CoinGape",
         "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St."
+        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - AOL.com"
       ],
       "top_bearish": [
-        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times",
+        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.45,
-      "health": 0.0067,
-      "vol_ratio": 0.06
+      "up_down_ratio": 1.49,
+      "health": 0.0335,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.95045,
-      "ema200": 0.94568,
-      "macd": -0.001551,
-      "macd_signal": -0.001328,
-      "rsi14": 33.1,
-      "atr14": 0.0012,
-      "atr14_hourly": 0.00519,
-      "bb_position": 0.101
+      "ema50": 0.95029,
+      "ema200": 0.94569,
+      "macd": -0.001519,
+      "macd_signal": -0.00136,
+      "rsi14": 35.9,
+      "atr14": 0.00121,
+      "atr14_hourly": 0.00524,
+      "bb_position": 0.177
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161257
+  "data_bars": 161258
 }
