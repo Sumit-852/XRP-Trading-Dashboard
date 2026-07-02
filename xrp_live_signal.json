@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T04:16:10.442832+00:00",
+  "timestamp": "2026-07-02T04:21:14.565553+00:00",
   "signal": {
-    "price": 0.9346,
+    "price": 0.9337,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2323,
-    "hybrid_score": 2.1,
+    "xgb_prob": 0.2581,
+    "hybrid_score": 2.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.024,
-      "bullish_pct": 25.0,
-      "bearish_pct": 41.7,
+      "score": -0.005,
+      "bullish_pct": 30.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.221,
+        "xrp": 0.261,
         "crypto_macro": -0.172,
-        "geopolitical": -0.216,
-        "fed_rates": -0.099
+        "geopolitical": -0.268,
+        "fed_rates": -0.005
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.81,
-      "health": 0.1833,
+      "health": 0.1865,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.93028,
-      "ema200": 0.92665,
-      "macd": 0.002033,
-      "macd_signal": 0.00204,
-      "rsi14": 59.9,
-      "atr14": 0.00158,
-      "atr14_hourly": 0.00828,
-      "bb_position": 0.672
+      "ema50": 0.93038,
+      "ema200": 0.92671,
+      "macd": 0.001796,
+      "macd_signal": 0.00198,
+      "rsi14": 56.4,
+      "atr14": 0.00157,
+      "atr14_hourly": 0.00851,
+      "bb_position": 0.585
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161062
+  "data_bars": 161063
 }
