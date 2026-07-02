@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T03:41:14.784848+00:00",
+  "timestamp": "2026-07-02T03:46:12.079285+00:00",
   "signal": {
-    "price": 0.9344,
+    "price": 0.9356,
     "xgb_pred": "UP",
-    "xgb_prob": 0.532,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.5182,
+    "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.01,
+      "score": -0.024,
       "bullish_pct": 25.0,
-      "bearish_pct": 40.0,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.221,
-        "crypto_macro": -0.145,
+        "crypto_macro": -0.172,
         "geopolitical": -0.216,
-        "fed_rates": -0.058
+        "fed_rates": -0.099
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple unveils XRPL lending protocol to bring institutional credit and onchain loans to XRP ledger - thestreet.com"
       ],
       "top_bearish": [
+        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
         "Bitcoin (BTC) price steadies as analysts warn more downside lies ahead - CoinDesk",
-        "Binance and founder sued by crypto investors in London lawsuit - Financial Times",
-        "Robinhood's Long-Term Story Is Bigger Than Crypto Trading - The Motley Fool"
+        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.79,
-      "health": 0.1771,
-      "vol_ratio": 0.49
+      "up_down_ratio": 0.78,
+      "health": 0.1533,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.92857,
-      "ema200": 0.926,
-      "macd": 0.001765,
-      "macd_signal": 0.001395,
-      "rsi14": 69.7,
+      "ema50": 0.9289,
+      "ema200": 0.92611,
+      "macd": 0.002059,
+      "macd_signal": 0.001546,
+      "rsi14": 71.5,
       "atr14": 0.00146,
-      "atr14_hourly": 0.00626,
-      "bb_position": 0.986
+      "atr14_hourly": 0.00647,
+      "bb_position": 0.983
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.283,
+      "percentile": 0.284,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161055
+  "data_bars": 161056
 }
