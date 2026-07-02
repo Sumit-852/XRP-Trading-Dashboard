@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T19:26:07.887942+00:00",
+  "timestamp": "2026-07-02T19:31:29.421805+00:00",
   "signal": {
-    "price": 0.9475,
+    "price": 0.9477,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.378,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3684,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.049,
-      "bullish_pct": 35.0,
-      "bearish_pct": 43.3,
+      "score": 0.031,
+      "bullish_pct": 33.3,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.322,
+        "xrp": 0.249,
         "crypto_macro": -0.088,
-        "geopolitical": -0.261,
-        "fed_rates": 0.025
+        "geopolitical": -0.239,
+        "fed_rates": 0.065
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple Is \"Planting Seeds\" For Global XRP Adoption After CLARITY Act, Says Expert - CoinGape",
         "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
-        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - Yahoo Finance"
+        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.49,
-      "health": 0.0234,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.48,
+      "health": -0.0116,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.95237,
-      "ema200": 0.94539,
-      "macd": -0.001371,
-      "macd_signal": -0.00084,
-      "rsi14": 33.1,
-      "atr14": 0.00134,
-      "atr14_hourly": 0.00531,
-      "bb_position": -0.029
+      "ema50": 0.95219,
+      "ema200": 0.94541,
+      "macd": -0.001469,
+      "macd_signal": -0.000966,
+      "rsi14": 34.2,
+      "atr14": 0.00131,
+      "atr14_hourly": 0.00537,
+      "bb_position": 0.066
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.405,
+      "percentile": 0.401,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161244
+  "data_bars": 161245
 }
