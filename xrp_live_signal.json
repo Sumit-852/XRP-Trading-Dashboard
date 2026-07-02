@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-02T17:06:11.437202+00:00",
+  "timestamp": "2026-07-02T17:11:20.730993+00:00",
   "signal": {
-    "price": 0.9534,
+    "price": 0.9533,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5487,
-    "hybrid_score": 6.6,
+    "xgb_prob": 0.538,
+    "hybrid_score": 5.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -24,8 +24,8 @@
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 1.43,
-      "health": 0.4198,
-      "vol_ratio": 0.03
+      "health": 0.4082,
+      "vol_ratio": 0.02
     },
     "technicals": {
       "ema50": 0.95362,
-      "ema200": 0.9432,
-      "macd": -0.000433,
-      "macd_signal": -0.000501,
-      "rsi14": 48.3,
-      "atr14": 0.00214,
-      "atr14_hourly": 0.0093,
-      "bb_position": 0.401
+      "ema200": 0.9433,
+      "macd": -0.000403,
+      "macd_signal": -0.000478,
+      "rsi14": 48.0,
+      "atr14": 0.00211,
+      "atr14_hourly": 0.00916,
+      "bb_position": 0.398
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -70,8 +70,8 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.20%",
-    "portfolio_eur": 4918.51,
+    "reason": "HOLD LONG: P&L -0.21%",
+    "portfolio_eur": 4918.49,
     "total_pnl_pct": -1.63,
     "position": "LONG",
     "xrp_held": 257.448,
@@ -79,9 +79,9 @@
     "trade_count": 57,
     "draw_levels": {
       "entry": 0.9553403300000001,
-      "take_profit": 0.97864,
-      "stop_loss": 0.94136,
-      "trailing_stop": 0.93549
+      "take_profit": 0.97829,
+      "stop_loss": 0.94157,
+      "trailing_stop": 0.93576
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161216
+  "data_bars": 161217
 }
