@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-02T17:01:41.609261+00:00",
+  "timestamp": "2026-07-02T17:06:11.437202+00:00",
   "signal": {
-    "price": 0.9529,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3954,
-    "hybrid_score": 4.4,
+    "price": 0.9534,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5487,
+    "hybrid_score": 6.6,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.024,
@@ -24,8 +24,8 @@
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.45,
-      "health": 0.4851,
-      "vol_ratio": 0.08
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.43,
+      "health": 0.4198,
+      "vol_ratio": 0.03
     },
     "technicals": {
       "ema50": 0.95362,
-      "ema200": 0.94309,
-      "macd": -0.00046,
-      "macd_signal": -0.00052,
-      "rsi14": 46.9,
-      "atr14": 0.00221,
-      "atr14_hourly": 0.0094,
-      "bb_position": 0.332
+      "ema200": 0.9432,
+      "macd": -0.000433,
+      "macd_signal": -0.000501,
+      "rsi14": 48.3,
+      "atr14": 0.00214,
+      "atr14_hourly": 0.0093,
+      "bb_position": 0.401
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -70,18 +70,18 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.26%",
-    "portfolio_eur": 4918.38,
-    "total_pnl_pct": -1.632,
+    "reason": "HOLD LONG: P&L -0.20%",
+    "portfolio_eur": 4918.51,
+    "total_pnl_pct": -1.63,
     "position": "LONG",
     "xrp_held": 257.448,
     "cash_eur": 4673.06,
     "trade_count": 57,
     "draw_levels": {
       "entry": 0.9553403300000001,
-      "take_profit": 0.9789,
-      "stop_loss": 0.9412,
-      "trailing_stop": 0.93528
+      "take_profit": 0.97864,
+      "stop_loss": 0.94136,
+      "trailing_stop": 0.93549
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161215
+  "data_bars": 161216
 }
