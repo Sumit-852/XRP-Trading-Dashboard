@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-02T12:06:04.595468+00:00",
+  "timestamp": "2026-07-02T12:11:14.789776+00:00",
   "signal": {
-    "price": 0.95,
+    "price": 0.9538,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2807,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.2715,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.014,
-      "bullish_pct": 28.3,
-      "bearish_pct": 36.7,
+      "score": -0.038,
+      "bullish_pct": 26.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.18,
-        "crypto_macro": -0.096,
+        "xrp": 0.167,
+        "crypto_macro": -0.174,
         "geopolitical": -0.297,
-        "fed_rates": 0.016
+        "fed_rates": 0.047
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Elon Musk Grok AI Predicts Shocking XRP Price by End of 2026 - Cryptonews"
+        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.01,
-      "health": 0.3299,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.02,
+      "health": 0.3776,
+      "vol_ratio": 0.53
     },
     "technicals": {
-      "ema50": 0.94192,
-      "ema200": 0.93296,
-      "macd": 0.002732,
-      "macd_signal": 0.002967,
-      "rsi14": 67.1,
-      "atr14": 0.00186,
-      "atr14_hourly": 0.00838,
-      "bb_position": 0.788
+      "ema50": 0.94247,
+      "ema200": 0.93319,
+      "macd": 0.003071,
+      "macd_signal": 0.003016,
+      "rsi14": 74.6,
+      "atr14": 0.002,
+      "atr14_hourly": 0.00839,
+      "bb_position": 1.064
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.344,
+      "percentile": 0.346,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 161156
+  "data_bars": 161157
 }
