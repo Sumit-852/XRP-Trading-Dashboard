@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-03T21:26:07.864001+00:00",
+  "timestamp": "2026-07-03T21:31:37.206839+00:00",
   "signal": {
-    "price": 0.9881,
+    "price": 0.9877,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4027,
+    "xgb_prob": 0.3903,
     "hybrid_score": 4.4,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.013,
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
+      "score": 0.017,
+      "bullish_pct": 35.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.102,
-        "crypto_macro": -0.059,
-        "geopolitical": -0.292,
+        "crypto_macro": -0.025,
+        "geopolitical": -0.188,
         "fed_rates": 0.143
       },
       "geo_shock": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.01,
-      "health": -0.0233,
-      "vol_ratio": 0.53
+      "health": -0.0207,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.98802,
-      "ema200": 0.97384,
-      "macd": 0.000553,
-      "macd_signal": 0.001684,
-      "rsi14": 41.5,
-      "atr14": 0.00269,
-      "atr14_hourly": 0.01274,
-      "bb_position": 0.171
+      "ema50": 0.98801,
+      "ema200": 0.97398,
+      "macd": 0.000191,
+      "macd_signal": 0.001384,
+      "rsi14": 40.5,
+      "atr14": 0.00256,
+      "atr14_hourly": 0.01273,
+      "bb_position": 0.15
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161556
+  "data_bars": 161557
 }
