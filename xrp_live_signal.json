@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-03T14:41:20.994978+00:00",
+  "timestamp": "2026-07-03T14:46:21.114760+00:00",
   "signal": {
-    "price": 0.9713,
+    "price": 0.9709,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.349,
+    "xgb_prob": 0.3505,
     "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.026,
+      "score": 0.018,
       "bullish_pct": 35.0,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.193,
+        "xrp": 0.154,
         "crypto_macro": -0.035,
-        "geopolitical": -0.243,
-        "fed_rates": 0.066
+        "geopolitical": -0.236,
+        "fed_rates": 0.096
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "China soybean purchases up but still below pre-trade war levels - KWQC"
+        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.03,
-      "health": 0.0133,
-      "vol_ratio": 0.21
+      "health": -0.0151,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.96772,
-      "ema200": 0.96003,
-      "macd": 0.000373,
-      "macd_signal": 0.000592,
-      "rsi14": 57.4,
-      "atr14": 0.00222,
-      "atr14_hourly": 0.00799,
-      "bb_position": 0.65
+      "ema50": 0.96781,
+      "ema200": 0.96013,
+      "macd": 0.000404,
+      "macd_signal": 0.000542,
+      "rsi14": 56.5,
+      "atr14": 0.00213,
+      "atr14_hourly": 0.00793,
+      "bb_position": 0.588
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.198,
+      "percentile": 0.195,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161475
+  "data_bars": 161476
 }
