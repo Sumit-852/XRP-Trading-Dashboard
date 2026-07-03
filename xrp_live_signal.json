@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-03T18:06:05.565007+00:00",
+  "timestamp": "2026-07-03T18:11:36.142879+00:00",
   "signal": {
-    "price": 0.9803,
+    "price": 0.9797,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2872,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.3496,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.026,
-      "bullish_pct": 36.7,
-      "bearish_pct": 33.3,
+      "score": -0.005,
+      "bullish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.172,
+        "xrp": 0.088,
         "crypto_macro": -0.046,
-        "geopolitical": -0.223,
+        "geopolitical": -0.218,
         "fed_rates": 0.113
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
+        "Best Crypto Prediction Markets in June 2026 \u2013 Trade on Crypto - Federal News Network"
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": -0.0264,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.01,
+      "health": -0.0192,
+      "vol_ratio": 0.64
     },
     "technicals": {
-      "ema50": 0.97569,
-      "ema200": 0.96579,
-      "macd": 0.001423,
-      "macd_signal": 0.001156,
-      "rsi14": 58.7,
-      "atr14": 0.00195,
-      "atr14_hourly": 0.00747,
-      "bb_position": 0.792
+      "ema50": 0.97581,
+      "ema200": 0.96592,
+      "macd": 0.001297,
+      "macd_signal": 0.001171,
+      "rsi14": 56.4,
+      "atr14": 0.00198,
+      "atr14_hourly": 0.00742,
+      "bb_position": 0.716
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.238,
+      "percentile": 0.24,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161516
+  "data_bars": 161517
 }
