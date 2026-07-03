@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-03T21:56:12.330915+00:00",
+  "timestamp": "2026-07-03T22:01:41.569136+00:00",
   "signal": {
-    "price": 0.9912,
+    "price": 0.9915,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4812,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.3854,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.017,
-      "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "score": 0.026,
+      "bullish_pct": 38.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.102,
+        "xrp": 0.138,
         "crypto_macro": -0.025,
-        "geopolitical": -0.188,
+        "geopolitical": -0.21,
         "fed_rates": 0.143
       },
       "geo_shock": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Binance and founder sued by crypto investors in London lawsuit - Financial Times"
+        "Ripple Unlocks 1 Billion XRP as the Bearish Nightmare Deepens: What\u2019s Next? - Yahoo Finance",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.01,
-      "health": 0.0179,
-      "vol_ratio": 0.22
+      "up_down_ratio": 1.0,
+      "health": 0.1653,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.98815,
-      "ema200": 0.9747,
-      "macd": -0.00021,
-      "macd_signal": 0.000205,
-      "rsi14": 52.9,
-      "atr14": 0.00243,
-      "atr14_hourly": 0.01262,
-      "bb_position": 0.454
+      "ema50": 0.98825,
+      "ema200": 0.97486,
+      "macd": -0.000138,
+      "macd_signal": 0.000123,
+      "rsi14": 53.6,
+      "atr14": 0.00241,
+      "atr14_hourly": 0.01241,
+      "bb_position": 0.485
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161562
+  "data_bars": 161563
 }
