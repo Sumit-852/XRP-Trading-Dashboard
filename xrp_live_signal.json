@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-03T00:31:32.585947+00:00",
+  "timestamp": "2026-07-03T00:36:06.704003+00:00",
   "signal": {
-    "price": 0.9482,
+    "price": 0.9479,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2573,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.2552,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
+      "score": 0.064,
       "bullish_pct": 38.3,
-      "bearish_pct": 40.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.217,
-        "crypto_macro": -0.044,
-        "geopolitical": -0.269,
+        "crypto_macro": 0.004,
+        "geopolitical": -0.184,
         "fed_rates": 0.113
       },
       "geo_shock": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times",
+        "China soybean purchases up but still below pre-trade war levels - KWQC"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 1.47,
-      "health": -0.0108,
-      "vol_ratio": 0.01
+      "health": -0.006,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.94816,
-      "ema200": 0.94617,
-      "macd": 0.000875,
-      "macd_signal": 0.001145,
-      "rsi14": 47.9,
-      "atr14": 0.00106,
-      "atr14_hourly": 0.00489,
-      "bb_position": 0.349
+      "ema50": 0.94814,
+      "ema200": 0.94619,
+      "macd": 0.000665,
+      "macd_signal": 0.001045,
+      "rsi14": 46.5,
+      "atr14": 0.00102,
+      "atr14_hourly": 0.00485,
+      "bb_position": 0.303
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.358,
+      "percentile": 0.357,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161305
+  "data_bars": 161306
 }
