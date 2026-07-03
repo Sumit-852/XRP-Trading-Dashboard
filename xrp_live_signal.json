@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-03T09:26:12.358848+00:00",
+  "timestamp": "2026-07-03T09:31:36.572615+00:00",
   "signal": {
-    "price": 0.9616,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.513,
-    "hybrid_score": 5.1,
+    "price": 0.9617,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4952,
+    "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
-      "bullish_pct": 41.7,
-      "bearish_pct": 35.0,
+      "score": 0.048,
+      "bullish_pct": 43.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.163,
-        "crypto_macro": -0.092,
-        "geopolitical": -0.186,
-        "fed_rates": 0.14
+        "xrp": 0.146,
+        "crypto_macro": 0.024,
+        "geopolitical": -0.169,
+        "fed_rates": 0.123
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - AOL.com",
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet"
       ],
       "top_bearish": [
         "XRP Price Faces Stubborn $1.07 Barrier After Repeated June Rejections - TradingView",
-        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
+        "China soybean purchases up but still below pre-trade war levels - KWQC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": -0.2211,
-      "vol_ratio": 1.25
+      "up_down_ratio": 1.05,
+      "health": -0.2472,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95981,
-      "ema200": 0.9536,
-      "macd": 0.000429,
-      "macd_signal": 0.000419,
-      "rsi14": 52.1,
-      "atr14": 0.00161,
-      "atr14_hourly": 0.00639,
-      "bb_position": 0.577
+      "ema50": 0.95989,
+      "ema200": 0.95368,
+      "macd": 0.000426,
+      "macd_signal": 0.000422,
+      "rsi14": 52.4,
+      "atr14": 0.00151,
+      "atr14_hourly": 0.00647,
+      "bb_position": 0.597
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.371,
+      "percentile": 0.347,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161412
+  "data_bars": 161413
 }
