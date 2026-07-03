@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-03T07:11:24.457490+00:00",
+  "timestamp": "2026-07-03T07:16:19.174981+00:00",
   "signal": {
-    "price": 0.9579,
+    "price": 0.9586,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.362,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.4202,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.064,
-      "bullish_pct": 31.7,
-      "bearish_pct": 46.7,
+      "score": 0.005,
+      "bullish_pct": 33.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.01,
-        "crypto_macro": -0.063,
+        "xrp": 0.205,
+        "crypto_macro": -0.108,
         "geopolitical": -0.239,
-        "fed_rates": 0.016
+        "fed_rates": 0.038
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
-        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St.",
-        "Trump made more than $1 billion from his cryptocurrencies. Many who invested in them weren\u2019t so lucky. - NBC News"
+        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - AOL.com",
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa"
       ],
       "top_bearish": [
         "XRP Price Faces Stubborn $1.07 Barrier After Repeated June Rejections - TradingView",
-        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool",
-        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK"
+        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.99,
-      "health": -0.3728,
-      "vol_ratio": 0.15
+      "health": -0.3826,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.95726,
-      "ema200": 0.9513,
-      "macd": 0.000934,
-      "macd_signal": 0.001595,
-      "rsi14": 44.9,
-      "atr14": 0.0015,
+      "ema50": 0.95731,
+      "ema200": 0.95137,
+      "macd": 0.000743,
+      "macd_signal": 0.001426,
+      "rsi14": 47.8,
+      "atr14": 0.00146,
       "atr14_hourly": 0.00648,
-      "bb_position": 0.04
+      "bb_position": 0.178
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161385
+  "data_bars": 161386
 }
