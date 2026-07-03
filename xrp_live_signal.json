@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-03T05:01:32.821444+00:00",
+  "timestamp": "2026-07-03T05:06:17.748441+00:00",
   "signal": {
     "price": 0.9542,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3767,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.3775,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.021,
-      "bullish_pct": 35.0,
+      "score": -0.034,
+      "bullish_pct": 40.0,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.017,
+        "xrp": 0.041,
         "crypto_macro": -0.002,
-        "geopolitical": -0.226,
-        "fed_rates": 0.104
+        "geopolitical": -0.347,
+        "fed_rates": 0.106
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP Price Faces Stubborn $1.07 Barrier After Repeated June Rejections - TradingView",
-        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool",
-        "China soybean purchases up but still below pre-trade war levels - KWQC"
+        "Israel and Iran trade strikes, threatening to drag region back into full-scale war - WGEM",
+        "Israel and Iran trade strikes, threatening to drag region back to full-scale war - WUSA9"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.16,
-      "health": -0.2359,
-      "vol_ratio": 0.09
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.19,
+      "health": -0.2031,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.95206,
-      "ema200": 0.94877,
-      "macd": 0.000534,
-      "macd_signal": 0.000329,
-      "rsi14": 57.4,
-      "atr14": 0.00125,
-      "atr14_hourly": 0.0049,
-      "bb_position": 0.847
+      "ema50": 0.95213,
+      "ema200": 0.94882,
+      "macd": 0.000559,
+      "macd_signal": 0.000373,
+      "rsi14": 57.5,
+      "atr14": 0.00124,
+      "atr14_hourly": 0.00486,
+      "bb_position": 0.839
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.35,
+      "percentile": 0.347,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161359
+  "data_bars": 161360
 }
