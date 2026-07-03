@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-03T12:56:05.346263+00:00",
+  "timestamp": "2026-07-03T13:01:46.452066+00:00",
   "signal": {
-    "price": 0.9665,
+    "price": 0.9679,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3547,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.4406,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.066,
+      "score": 0.064,
       "bullish_pct": 45.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.303,
-        "crypto_macro": -0.052,
-        "geopolitical": -0.283,
-        "fed_rates": 0.145
+        "xrp": 0.25,
+        "crypto_macro": -0.028,
+        "geopolitical": -0.204,
+        "fed_rates": 0.119
       },
       "geo_shock": false,
       "geo_dip": {
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": -0.0962,
-      "vol_ratio": 0.26
+      "up_down_ratio": 1.03,
+      "health": -0.0615,
+      "vol_ratio": 0.24
     },
     "technicals": {
-      "ema50": 0.96478,
-      "ema200": 0.95769,
-      "macd": -0.000127,
-      "macd_signal": 0.000208,
-      "rsi14": 52.0,
-      "atr14": 0.00185,
-      "atr14_hourly": 0.00791,
-      "bb_position": 0.473
+      "ema50": 0.96491,
+      "ema200": 0.95779,
+      "macd": 6.8e-05,
+      "macd_signal": 0.000183,
+      "rsi14": 55.7,
+      "atr14": 0.00183,
+      "atr14_hourly": 0.00795,
+      "bb_position": 0.628
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.286,
+      "percentile": 0.285,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161454
+  "data_bars": 161455
 }
