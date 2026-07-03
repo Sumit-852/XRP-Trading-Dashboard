@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-03T06:41:24.826490+00:00",
+  "timestamp": "2026-07-03T06:46:15.885066+00:00",
   "signal": {
-    "price": 0.96,
+    "price": 0.9613,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3045,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.2884,
+    "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.045,
-      "bullish_pct": 36.7,
-      "bearish_pct": 36.7,
+      "score": -0.064,
+      "bullish_pct": 31.7,
+      "bearish_pct": 46.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.191,
-        "crypto_macro": -0.027,
-        "geopolitical": -0.182,
-        "fed_rates": 0.106
+        "xrp": -0.01,
+        "crypto_macro": -0.063,
+        "geopolitical": -0.239,
+        "fed_rates": 0.016
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP News Today: Ripple Secures 75+ Licenses Ahead of CLARITY Act Decision - TradingView",
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet"
+        "Which Crypto Is Best to Invest Now? XRP, Solana, Hyperliquid, or Chainlink? - 24/7 Wall St.",
+        "Trump made more than $1 billion from his cryptocurrencies. Many who invested in them weren\u2019t so lucky. - NBC News"
       ],
       "top_bearish": [
-        "China soybean purchases up but still below pre-trade war levels - KWQC",
-        "Binance and founder sued by crypto investors in London lawsuit - Financial Times",
-        "Crypto Market Today, June 30: Bitcoin Slides on Strategy Pivot - The Motley Fool"
+        "XRP Price Faces Stubborn $1.07 Barrier After Repeated June Rejections - TradingView",
+        "Where Will the Cryptocurrency XRP Be in 5 Years? - The Motley Fool",
+        "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.97,
-      "health": -0.3918,
-      "vol_ratio": 0.01
+      "health": -0.3986,
+      "vol_ratio": 0.23
     },
     "technicals": {
-      "ema50": 0.95645,
-      "ema200": 0.95074,
-      "macd": 0.001978,
-      "macd_signal": 0.00217,
-      "rsi14": 56.0,
-      "atr14": 0.00142,
-      "atr14_hourly": 0.00684,
-      "bb_position": 0.54
+      "ema50": 0.95671,
+      "ema200": 0.95087,
+      "macd": 0.00198,
+      "macd_signal": 0.002154,
+      "rsi14": 59.5,
+      "atr14": 0.00148,
+      "atr14_hourly": 0.00678,
+      "bb_position": 0.626
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.348,
+      "percentile": 0.345,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161379
+  "data_bars": 161380
 }
