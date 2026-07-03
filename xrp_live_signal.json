@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-03T10:36:10.357089+00:00",
+  "timestamp": "2026-07-03T10:41:21.882442+00:00",
   "signal": {
-    "price": 0.9631,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.436,
-    "hybrid_score": 4.6,
+    "price": 0.9642,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5084,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.018,
-      "bullish_pct": 38.3,
+      "score": 0.046,
+      "bullish_pct": 46.7,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.078,
-        "crypto_macro": 0.024,
-        "geopolitical": -0.156,
-        "fed_rates": 0.072
+        "xrp": 0.177,
+        "crypto_macro": -0.034,
+        "geopolitical": -0.177,
+        "fed_rates": 0.159
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Over 200 crypto firms urge US Senate to vote on CLARITY Act before August recess to clear regulatory uncertainty. - Plua",
-        "Best Crypto Prediction Markets in June 2026 \u2013 Trade on Crypto - Federal News Network"
+        "XRP Could Rise to $1.15 as Rounded Bottom Breakout Gains Momentum - CCN.com",
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet"
       ],
       "top_bearish": [
         "XRP Price Faces Stubborn $1.07 Barrier After Repeated June Rejections - TradingView",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "China soybean purchases up but still below pre-trade war levels - KWQC"
+        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": 0.1014,
-      "vol_ratio": 0.09
+      "up_down_ratio": 1.11,
+      "health": 0.0811,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 0.96054,
-      "ema200": 0.95463,
-      "macd": 0.000422,
-      "macd_signal": 0.00024,
-      "rsi14": 57.9,
-      "atr14": 0.0014,
-      "atr14_hourly": 0.00515,
-      "bb_position": 0.882
+      "ema50": 0.96073,
+      "ema200": 0.95473,
+      "macd": 0.000654,
+      "macd_signal": 0.000338,
+      "rsi14": 61.3,
+      "atr14": 0.00144,
+      "atr14_hourly": 0.00523,
+      "bb_position": 0.983
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161426
+  "data_bars": 161427
 }
