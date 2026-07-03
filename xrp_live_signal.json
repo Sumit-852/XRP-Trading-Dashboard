@@ -1,26 +1,21 @@
 {
-  "timestamp": "2026-07-03T22:31:27.443972+00:00",
+  "timestamp": "2026-07-03T22:36:40.695923+00:00",
   "signal": {
     "price": 0.9858,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3715,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3285,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.026,
-      "bullish_pct": 38.3,
-      "bearish_pct": 33.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.138,
-        "crypto_macro": -0.025,
-        "geopolitical": -0.21,
-        "fed_rates": 0.143
-      },
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "Top 5 Altcoins for the Next 100x Crypto \u2013 Best Crypto to Buy Now 2026 - Bitcoin Foundation"
-      ],
-      "top_bearish": [
-        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "Ripple Unlocks 1 Billion XRP as the Bearish Nightmare Deepens: What\u2019s Next? - Yahoo Finance",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.97,
-      "health": 0.0242,
-      "vol_ratio": 0.04
+      "health": 0.0147,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.98802,
-      "ema200": 0.97558,
-      "macd": -0.000914,
-      "macd_signal": -0.000479,
-      "rsi14": 39.4,
-      "atr14": 0.00207,
-      "atr14_hourly": 0.01059,
-      "bb_position": 0.192
+      "ema50": 0.98793,
+      "ema200": 0.97568,
+      "macd": -0.001051,
+      "macd_signal": -0.000596,
+      "rsi14": 39.7,
+      "atr14": 0.00195,
+      "atr14_hourly": 0.01034,
+      "bb_position": 0.205
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +87,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161569
+  "data_bars": 161570
 }
