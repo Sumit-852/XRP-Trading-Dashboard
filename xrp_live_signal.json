@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-03T02:51:15.652005+00:00",
+  "timestamp": "2026-07-03T02:56:08.980924+00:00",
   "signal": {
-    "price": 0.9508,
+    "price": 0.9516,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3088,
+    "xgb_prob": 0.297,
     "hybrid_score": 3.8,
-    "regime": "BEARISH",
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.005,
-      "bullish_pct": 35.0,
-      "bearish_pct": 38.3,
+      "score": -0.001,
+      "bullish_pct": 36.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.093,
-        "crypto_macro": -0.086,
-        "geopolitical": -0.184,
+        "crypto_macro": -0.026,
+        "geopolitical": -0.26,
         "fed_rates": 0.139
       },
       "geo_shock": false,
@@ -37,7 +37,7 @@
       "top_bearish": [
         "XRP Price Faces Stubborn $1.07 Barrier After Repeated June Rejections - TradingView",
         "Bitcoin plunges to year-low price as \u2018crypto winter\u2019 descends - Yahoo Finance UK",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
@@ -47,14 +47,14 @@
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95104,
-      "ema200": 0.94768,
-      "macd": -2.2e-05,
-      "macd_signal": 0.000631,
-      "rsi14": 44.5,
-      "atr14": 0.0015,
-      "atr14_hourly": 0.00658,
-      "bb_position": 0.179
+      "ema50": 0.9511,
+      "ema200": 0.94772,
+      "macd": -0.0,
+      "macd_signal": 0.000515,
+      "rsi14": 48.2,
+      "atr14": 0.00145,
+      "atr14_hourly": 0.00665,
+      "bb_position": 0.276
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.363,
+      "percentile": 0.364,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161333
+  "data_bars": 161334
 }
