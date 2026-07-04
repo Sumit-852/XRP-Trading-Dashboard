@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-04T15:41:21.670579+00:00",
+  "timestamp": "2026-07-04T15:46:16.657788+00:00",
   "signal": {
-    "price": 1.0259,
+    "price": 1.0249,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6198,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.6284,
+    "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
+      "score": 0.046,
       "bullish_pct": 36.7,
-      "bearish_pct": 33.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.135,
-        "crypto_macro": 0.011,
+        "xrp": 0.204,
+        "crypto_macro": 0.008,
         "geopolitical": -0.269,
-        "fed_rates": 0.102
+        "fed_rates": 0.122
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP Is Testing a Trendline That Could Spark a 30% Rally. Can the XRP Price Break Out? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "Fake Weakness? Could Ripple (XRP) Be Setting Up for a Violent Move? - CryptoPotato",
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool"
+        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": -0.0555,
-      "vol_ratio": 0.36
+      "up_down_ratio": 1.03,
+      "health": -0.0503,
+      "vol_ratio": 0.44
     },
     "technicals": {
-      "ema50": 1.01351,
-      "ema200": 0.99963,
-      "macd": 0.004409,
-      "macd_signal": 0.004729,
-      "rsi14": 63.0,
-      "atr14": 0.00399,
-      "atr14_hourly": 0.01591,
-      "bb_position": 0.718
+      "ema50": 1.01396,
+      "ema200": 0.99989,
+      "macd": 0.004184,
+      "macd_signal": 0.004621,
+      "rsi14": 60.6,
+      "atr14": 0.00395,
+      "atr14_hourly": 0.01563,
+      "bb_position": 0.649
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.484,
+      "percentile": 0.485,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161775
+  "data_bars": 161776
 }
