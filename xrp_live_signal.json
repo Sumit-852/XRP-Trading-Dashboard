@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-04T04:46:09.998354+00:00",
+  "timestamp": "2026-07-04T04:51:22.474696+00:00",
   "signal": {
-    "price": 1.0034,
+    "price": 1.0035,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5218,
+    "xgb_prob": 0.5323,
     "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.056,
-      "bullish_pct": 30.0,
-      "bearish_pct": 36.7,
+      "score": -0.08,
+      "bullish_pct": 25.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.038,
-        "crypto_macro": -0.149,
-        "geopolitical": -0.23,
-        "fed_rates": 0.112
+        "crypto_macro": -0.195,
+        "geopolitical": -0.225,
+        "fed_rates": 0.039
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "10 Best Crypto Exchanges Of 2026 - Forbes"
+        "Analyst Links XRP \u201cRelief Pump\u201d To US Clarity Act - DailyCoin"
       ],
       "top_bearish": [
         "XRP Scam Alert: Fake Ripple Payout Tokens Used to Drain Crypto Wallets - U.Today",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.12,
-      "health": 0.1087,
-      "vol_ratio": 0.06
+      "up_down_ratio": 1.14,
+      "health": 0.1284,
+      "vol_ratio": 0.32
     },
     "technicals": {
-      "ema50": 0.99435,
-      "ema200": 0.98501,
-      "macd": 0.001959,
-      "macd_signal": 0.00117,
-      "rsi14": 71.2,
-      "atr14": 0.00254,
-      "atr14_hourly": 0.0071,
-      "bb_position": 1.18
+      "ema50": 0.9947,
+      "ema200": 0.98519,
+      "macd": 0.002259,
+      "macd_signal": 0.001387,
+      "rsi14": 71.3,
+      "atr14": 0.00246,
+      "atr14_hourly": 0.00737,
+      "bb_position": 1.065
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161644
+  "data_bars": 161645
 }
