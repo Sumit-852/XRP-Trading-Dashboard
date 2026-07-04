@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-04T10:31:35.235478+00:00",
+  "timestamp": "2026-07-04T10:36:11.983706+00:00",
   "signal": {
-    "price": 0.9961,
+    "price": 0.9953,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3613,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.467,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.012,
-      "bullish_pct": 30.0,
+      "score": -0.003,
+      "bullish_pct": 33.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.089,
-        "crypto_macro": -0.018,
-        "geopolitical": -0.311,
+        "xrp": 0.108,
+        "crypto_macro": -0.034,
+        "geopolitical": -0.272,
         "fed_rates": 0.119
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin Spikes as Kevin Warsh Flags Inflation Concerns; Ethereum, XRP, Dogecoin Also Gain: Popular Analyst Says 'Market ",
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - AOL.com"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet"
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.06,
-      "health": -0.0433,
+      "health": -0.0518,
       "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.99611,
-      "ema200": 0.99068,
-      "macd": -0.000304,
-      "macd_signal": -0.000452,
-      "rsi14": 50.2,
-      "atr14": 0.00176,
-      "atr14_hourly": 0.00793,
-      "bb_position": 0.555
+      "ema50": 0.99606,
+      "ema200": 0.99073,
+      "macd": -0.00034,
+      "macd_signal": -0.000434,
+      "rsi14": 47.8,
+      "atr14": 0.00175,
+      "atr14_hourly": 0.00773,
+      "bb_position": 0.456
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161713
+  "data_bars": 161714
 }
