@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-04T23:21:19.355848+00:00",
+  "timestamp": "2026-07-04T23:26:09.918391+00:00",
   "signal": {
-    "price": 1.0116,
+    "price": 1.0123,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3797,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3977,
+    "hybrid_score": 4.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.024,
-      "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "score": 0.022,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.146,
+        "xrp": 0.159,
         "crypto_macro": -0.049,
         "geopolitical": -0.184,
-        "fed_rates": 0.126
+        "fed_rates": 0.082
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Crypto News: Pepeto Ships Top Security Upgrade While XRP Price Prediction Targets $20 and Trump Reserve Deadline Nears -"
       ],
       "top_bearish": [
-        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool",
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ"
+        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ",
+        "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": -0.0263,
-      "vol_ratio": 0.02
+      "up_down_ratio": 1.1,
+      "health": 0.0226,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.01799,
-      "ema200": 1.0124,
-      "macd": -0.001849,
-      "macd_signal": -0.001368,
-      "rsi14": 29.5,
+      "ema50": 1.01781,
+      "ema200": 1.01241,
+      "macd": -0.001814,
+      "macd_signal": -0.001445,
+      "rsi14": 34.0,
       "atr14": 0.0016,
-      "atr14_hourly": 0.00669,
-      "bb_position": 0.058
+      "atr14_hourly": 0.00679,
+      "bb_position": 0.148
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161867
+  "data_bars": 161868
 }
