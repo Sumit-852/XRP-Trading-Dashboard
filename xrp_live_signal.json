@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-07-04T09:56:06.855415+00:00",
+  "timestamp": "2026-07-04T10:01:43.259146+00:00",
   "signal": {
-    "price": 0.9947,
+    "price": 0.9931,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3269,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.4873,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.02,
+      "score": -0.012,
       "bullish_pct": 30.0,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.059,
-        "crypto_macro": -0.005,
+        "xrp": 0.089,
+        "crypto_macro": -0.018,
         "geopolitical": -0.311,
         "fed_rates": 0.119
       },
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "Bitcoin Price Prediction 2026: Will BTC Finally Rally to 100k? - Bitcoin Foundation"
+        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - AOL.com"
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.0354,
-      "vol_ratio": 0.07
+      "up_down_ratio": 1.07,
+      "health": -0.0364,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.99627,
-      "ema200": 0.99033,
-      "macd": -0.000734,
-      "macd_signal": -0.000235,
-      "rsi14": 45.2,
-      "atr14": 0.00199,
-      "atr14_hourly": 0.009,
-      "bb_position": 0.266
+      "ema50": 0.99613,
+      "ema200": 0.99035,
+      "macd": -0.000907,
+      "macd_signal": -0.000376,
+      "rsi14": 41.3,
+      "atr14": 0.00196,
+      "atr14_hourly": 0.00891,
+      "bb_position": 0.165
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.427,
+      "percentile": 0.428,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161706
+  "data_bars": 161707
 }
