@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-04T01:21:25.720597+00:00",
+  "timestamp": "2026-07-04T01:26:08.870903+00:00",
   "signal": {
-    "price": 0.9944,
+    "price": 0.9935,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3592,
+    "xgb_prob": 0.3436,
     "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.022,
-      "bullish_pct": 30.0,
+      "score": -0.005,
+      "bullish_pct": 35.0,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.131,
+        "xrp": 0.17,
         "crypto_macro": -0.139,
-        "geopolitical": -0.273,
+        "geopolitical": -0.26,
         "fed_rates": 0.143
       },
       "geo_shock": false,
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
+        "Crypto Rally Alert: Bitcoin, Ethereum, and XRP Price Prediction As Trump Confirms Peace Deal - Cryptonews.net",
+        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
         "Best Crypto Prediction Markets in July 2026 \u2013 Trade on Crypto - Federal News Network"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": 0.1134,
-      "vol_ratio": 0.06
+      "up_down_ratio": 1.13,
+      "health": 0.0922,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.99176,
-      "ema200": 0.98039,
-      "macd": 0.001057,
-      "macd_signal": 0.001338,
-      "rsi14": 53.1,
-      "atr14": 0.00208,
+      "ema50": 0.99185,
+      "ema200": 0.98053,
+      "macd": 0.000938,
+      "macd_signal": 0.001266,
+      "rsi14": 50.3,
+      "atr14": 0.00204,
       "atr14_hourly": 0.00723,
-      "bb_position": 0.524
+      "bb_position": 0.396
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.365,
+      "percentile": 0.366,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161603
+  "data_bars": 161604
 }
