@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-04T01:56:03.620442+00:00",
+  "timestamp": "2026-07-04T02:01:30.738519+00:00",
   "signal": {
-    "price": 0.9909,
+    "price": 0.9905,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3506,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.4323,
+    "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.005,
-      "bullish_pct": 35.0,
-      "bearish_pct": 36.7,
+      "score": -0.042,
+      "bullish_pct": 31.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.17,
+        "xrp": 0.071,
         "crypto_macro": -0.139,
-        "geopolitical": -0.26,
-        "fed_rates": 0.143
+        "geopolitical": -0.235,
+        "fed_rates": 0.112
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Rally Alert: Bitcoin, Ethereum, and XRP Price Prediction As Trump Confirms Peace Deal - Cryptonews.net",
-        "Ripple reports explosive 2200% surge in tokenized assets - thestreet.com",
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
         "Best Crypto Prediction Markets in July 2026 \u2013 Trade on Crypto - Federal News Network"
       ],
       "top_bearish": [
+        "XRP Scam Alert: Fake Ripple Payout Tokens Used to Drain Crypto Wallets - U.Today",
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "Trump gave crypto the red-carpet treatment. It\u2019s crashing anyway - CNN",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
+        "Trump gave crypto the red-carpet treatment. It\u2019s crashing anyway - CNN"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": 0.0472,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.09,
+      "health": 0.0431,
+      "vol_ratio": 0.32
     },
     "technicals": {
-      "ema50": 0.99183,
-      "ema200": 0.98119,
-      "macd": -0.000243,
-      "macd_signal": 0.000453,
-      "rsi14": 44.0,
-      "atr14": 0.00196,
-      "atr14_hourly": 0.00757,
-      "bb_position": 0.173
+      "ema50": 0.99175,
+      "ema200": 0.98127,
+      "macd": -0.000445,
+      "macd_signal": 0.000262,
+      "rsi14": 43.5,
+      "atr14": 0.00195,
+      "atr14_hourly": 0.00753,
+      "bb_position": 0.16
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161610
+  "data_bars": 161611
 }
