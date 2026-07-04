@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-07-04T15:11:54.345607+00:00",
+  "timestamp": "2026-07-04T15:16:14.270408+00:00",
   "signal": {
-    "price": 1.0259,
+    "price": 1.0226,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6132,
+    "xgb_prob": 0.6082,
     "hybrid_score": 5.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.019,
+      "bullish_pct": 36.7,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.135,
+        "crypto_macro": 0.011,
+        "geopolitical": -0.269,
+        "fed_rates": 0.102
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Congress Is Moving Forward With the Clarity Act. That Makes Ethereum the Best Crypto to Buy This Summer - Yahoo Finance",
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
+        "XRP Is Testing a Trendline That Could Spark a 30% Rally. Can the XRP Price Break Out? - 24/7 Wall St."
+      ],
+      "top_bearish": [
+        "Fake Weakness? Could Ripple (XRP) Be Setting Up for a Violent Move? - CryptoPotato",
+        "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
+        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": -0.113,
-      "vol_ratio": 1.89
+      "up_down_ratio": 0.95,
+      "health": -0.1622,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.01058,
-      "ema200": 0.99812,
-      "macd": 0.005766,
-      "macd_signal": 0.004914,
-      "rsi14": 66.1,
-      "atr14": 0.0042,
-      "atr14_hourly": 0.01616,
-      "bb_position": 0.793
+      "ema50": 1.01097,
+      "ema200": 0.99834,
+      "macd": 0.00524,
+      "macd_signal": 0.00495,
+      "rsi14": 60.0,
+      "atr14": 0.00417,
+      "atr14_hourly": 0.01632,
+      "bb_position": 0.675
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.487,
+      "percentile": 0.492,
       "extreme": false
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161769
+  "data_bars": 161770
 }
