@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-04T18:31:30.663892+00:00",
+  "timestamp": "2026-07-04T18:36:10.110536+00:00",
   "signal": {
-    "price": 1.0284,
+    "price": 1.0277,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.428,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.4141,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.014,
-      "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
+      "score": -0.045,
+      "bullish_pct": 26.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.152,
-        "crypto_macro": -0.04,
-        "geopolitical": -0.269,
-        "fed_rates": 0.128
+        "xrp": 0.092,
+        "crypto_macro": -0.113,
+        "geopolitical": -0.308,
+        "fed_rates": 0.08
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.08,
-      "health": 0.3021,
-      "vol_ratio": 0.01
+      "health": 0.3172,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.02361,
-      "ema200": 1.00729,
-      "macd": 0.002012,
-      "macd_signal": 0.002248,
-      "rsi14": 52.7,
-      "atr14": 0.00286,
-      "atr14_hourly": 0.01127,
-      "bb_position": 0.528
+      "ema50": 1.02377,
+      "ema200": 1.00749,
+      "macd": 0.001717,
+      "macd_signal": 0.00214,
+      "rsi14": 51.0,
+      "atr14": 0.00272,
+      "atr14_hourly": 0.01106,
+      "bb_position": 0.469
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.506,
+      "percentile": 0.504,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161809
+  "data_bars": 161810
 }
