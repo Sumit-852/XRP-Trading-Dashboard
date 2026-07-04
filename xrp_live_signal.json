@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-04T02:31:30.601293+00:00",
+  "timestamp": "2026-07-04T02:36:14.369237+00:00",
   "signal": {
     "price": 0.9916,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.391,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3467,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.042,
-      "bullish_pct": 31.7,
+      "score": -0.071,
+      "bullish_pct": 26.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.071,
-        "crypto_macro": -0.139,
-        "geopolitical": -0.235,
+        "xrp": 0.042,
+        "crypto_macro": -0.185,
+        "geopolitical": -0.26,
         "fed_rates": 0.112
       },
       "geo_shock": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "Best Crypto Prediction Markets in July 2026 \u2013 Trade on Crypto - Federal News Network"
+        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - 24/7 Wall St."
       ],
       "top_bearish": [
         "XRP Scam Alert: Fake Ripple Payout Tokens Used to Drain Crypto Wallets - U.Today",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.11,
-      "health": 0.0935,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.13,
+      "health": 0.1125,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99178,
-      "ema200": 0.98189,
-      "macd": -0.00041,
-      "macd_signal": -0.000202,
-      "rsi14": 48.0,
-      "atr14": 0.00197,
-      "atr14_hourly": 0.00728,
-      "bb_position": 0.372
+      "ema50": 0.99172,
+      "ema200": 0.98197,
+      "macd": -0.000483,
+      "macd_signal": -0.000275,
+      "rsi14": 48.5,
+      "atr14": 0.00203,
+      "atr14_hourly": 0.00718,
+      "bb_position": 0.403
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.372,
+      "percentile": 0.374,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161617
+  "data_bars": 161618
 }
