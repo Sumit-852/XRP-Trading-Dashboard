@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-04T06:31:32.444924+00:00",
+  "timestamp": "2026-07-04T06:36:12.200813+00:00",
   "signal": {
-    "price": 0.9942,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5258,
-    "hybrid_score": 5.1,
+    "price": 0.9948,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4885,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.07,
-      "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "score": -0.036,
+      "bullish_pct": 28.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.011,
-        "crypto_macro": -0.178,
-        "geopolitical": -0.213,
+        "xrp": 0.059,
+        "crypto_macro": -0.114,
+        "geopolitical": -0.225,
         "fed_rates": 0.119
       },
       "geo_shock": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "Crypto prices stage a weekly recovery, but bears still hold the structural advantage: Crypto Markets Today - CoinDesk"
+        "10 Best Crypto Exchanges Of 2026 - Forbes"
       ],
       "top_bearish": [
-        "XRP Scam Alert: Fake Ripple Payout Tokens Used to Drain Crypto Wallets - U.Today",
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
-        "Trump gave crypto the red-carpet treatment. It\u2019s crashing anyway - CNN"
+        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": -0.0695,
-      "vol_ratio": 0.16
+      "up_down_ratio": 1.07,
+      "health": -0.0579,
+      "vol_ratio": 0.43
     },
     "technicals": {
-      "ema50": 0.99591,
-      "ema200": 0.98736,
-      "macd": -0.000461,
-      "macd_signal": 0.000128,
-      "rsi14": 44.1,
-      "atr14": 0.00248,
-      "atr14_hourly": 0.00896,
-      "bb_position": 0.199
+      "ema50": 0.99586,
+      "ema200": 0.98743,
+      "macd": -0.000545,
+      "macd_signal": -9e-06,
+      "rsi14": 45.7,
+      "atr14": 0.00242,
+      "atr14_hourly": 0.00911,
+      "bb_position": 0.267
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.411,
+      "percentile": 0.407,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161665
+  "data_bars": 161666
 }
