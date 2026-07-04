@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-04T08:11:20.711473+00:00",
+  "timestamp": "2026-07-04T08:16:11.540993+00:00",
   "signal": {
-    "price": 0.9993,
+    "price": 0.9997,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3302,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3225,
+    "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.041,
-      "bullish_pct": 26.7,
+      "score": -0.027,
+      "bullish_pct": 28.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.059,
-        "crypto_macro": -0.113,
-        "geopolitical": -0.251,
+        "crypto_macro": -0.062,
+        "geopolitical": -0.259,
         "fed_rates": 0.119
       },
       "geo_shock": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "Crypto prices stage a weekly recovery, but bears still hold the structural advantage: Crypto Markets Today - CoinDesk"
+        "XRP Trading Volume Tops Bitcoin on Upbit - Yahoo Finance"
       ],
       "top_bearish": [
         "Crypto claws back some losses but derivatives markets point to more pain ahead: Crypto Markets Today - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": 0.0552,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.15,
+      "health": 0.045,
+      "vol_ratio": 1.37
     },
     "technicals": {
-      "ema50": 0.9952,
-      "ema200": 0.98864,
-      "macd": 0.000456,
-      "macd_signal": -0.000418,
-      "rsi14": 63.1,
-      "atr14": 0.00211,
-      "atr14_hourly": 0.00796,
-      "bb_position": 1.009
+      "ema50": 0.99543,
+      "ema200": 0.98877,
+      "macd": 0.000833,
+      "macd_signal": -0.000149,
+      "rsi14": 62.2,
+      "atr14": 0.00213,
+      "atr14_hourly": 0.00819,
+      "bb_position": 0.943
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.415,
+      "percentile": 0.416,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161685
+  "data_bars": 161686
 }
