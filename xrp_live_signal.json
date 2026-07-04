@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-04T04:11:24.174515+00:00",
+  "timestamp": "2026-07-04T04:16:15.876850+00:00",
   "signal": {
-    "price": 0.9953,
+    "price": 0.995,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4128,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.3918,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.055,
+      "score": -0.056,
       "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.069,
-        "crypto_macro": -0.161,
-        "geopolitical": -0.269,
+        "xrp": 0.038,
+        "crypto_macro": -0.149,
+        "geopolitical": -0.23,
         "fed_rates": 0.112
       },
       "geo_shock": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - 24/7 Wall St."
+        "10 Best Crypto Exchanges Of 2026 - Forbes"
       ],
       "top_bearish": [
         "XRP Scam Alert: Fake Ripple Payout Tokens Used to Drain Crypto Wallets - U.Today",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.16,
-      "health": 0.1601,
-      "vol_ratio": 0.06
+      "health": 0.1563,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99299,
-      "ema200": 0.98404,
-      "macd": 0.00077,
-      "macd_signal": 0.000624,
-      "rsi14": 55.7,
-      "atr14": 0.00191,
-      "atr14_hourly": 0.00668,
-      "bb_position": 0.741
+      "ema50": 0.99309,
+      "ema200": 0.98416,
+      "macd": 0.000776,
+      "macd_signal": 0.00066,
+      "rsi14": 54.0,
+      "atr14": 0.0019,
+      "atr14_hourly": 0.00661,
+      "bb_position": 0.668
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161637
+  "data_bars": 161638
 }
