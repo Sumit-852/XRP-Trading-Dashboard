@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-04T05:56:06.513352+00:00",
+  "timestamp": "2026-07-04T06:01:35.446028+00:00",
   "signal": {
-    "price": 0.9947,
+    "price": 0.9961,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3704,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.4777,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.066,
+      "score": -0.07,
       "bullish_pct": 30.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.038,
+        "xrp": 0.011,
         "crypto_macro": -0.178,
-        "geopolitical": -0.238,
-        "fed_rates": 0.112
+        "geopolitical": -0.213,
+        "fed_rates": 0.119
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "Analyst Links XRP \u201cRelief Pump\u201d To US Clarity Act - DailyCoin"
+        "Crypto prices stage a weekly recovery, but bears still hold the structural advantage: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
         "XRP Scam Alert: Fake Ripple Payout Tokens Used to Drain Crypto Wallets - U.Today",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.07,
-      "health": -0.088,
-      "vol_ratio": 0.08
+      "up_down_ratio": 1.06,
+      "health": -0.0777,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.99577,
-      "ema200": 0.98669,
-      "macd": 6.5e-05,
-      "macd_signal": 0.00069,
-      "rsi14": 43.5,
-      "atr14": 0.00222,
-      "atr14_hourly": 0.00893,
-      "bb_position": 0.164
+      "ema50": 0.9958,
+      "ema200": 0.98679,
+      "macd": 2.4e-05,
+      "macd_signal": 0.000563,
+      "rsi14": 47.7,
+      "atr14": 0.00218,
+      "atr14_hourly": 0.00877,
+      "bb_position": 0.288
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.395,
+      "percentile": 0.394,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161658
+  "data_bars": 161659
 }
