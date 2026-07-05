@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-05T21:11:33.695273+00:00",
+  "timestamp": "2026-07-05T21:16:13.177312+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9928,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.992,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3224,
+    "hybrid_score": 3.9,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.005,
+      "bullish_pct": 36.7,
+      "bearish_pct": 23.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.049,
+        "crypto_macro": -0.074,
+        "geopolitical": -0.123,
+        "fed_rates": 0.215
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
+        "XRP eyes bullish shift on growing demand - FXStreet",
+        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance"
+      ],
+      "top_bearish": [
+        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - The Motley Fool",
+        "Weekend Round-Up: XRP's 70% Crash, Trump's Billion-Dollar Crypto Income and More - Benzinga",
+        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - Yahoo Finance"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.47,
+      "health": -0.0243,
+      "vol_ratio": 0.33
+    },
+    "technicals": {
+      "ema50": 0.99293,
+      "ema200": 0.99443,
+      "macd": -0.000202,
+      "macd_signal": -0.000161,
+      "rsi14": 45.5,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00382,
+      "bb_position": 0.311
+    },
+    "trade_feedback": {
+      "loss_streak": 3,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.079,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162129
+  "data_bars": 162130
 }
