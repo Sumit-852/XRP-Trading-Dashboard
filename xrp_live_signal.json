@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-07-05T02:46:16.160889+00:00",
+  "timestamp": "2026-07-05T02:51:31.186034+00:00",
   "signal": {
-    "price": 0.9912,
+    "price": 0.9926,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4378,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.4133,
+    "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.018,
-      "bullish_pct": 33.3,
+      "score": 0.033,
+      "bullish_pct": 35.0,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.126,
+        "xrp": 0.166,
         "crypto_macro": -0.049,
         "geopolitical": -0.182,
         "fed_rates": 0.135
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance"
+        "XRP Is Testing a Trendline That Could Spark a 30% Rally. Can the XRP Price Break Out? - 24/7 Wall St.",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet"
       ],
       "top_bearish": [
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.99,
-      "health": -0.0654,
-      "vol_ratio": 0.12
+      "health": -0.066,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.00392,
-      "ema200": 1.00913,
-      "macd": -0.003757,
-      "macd_signal": -0.003436,
-      "rsi14": 24.3,
-      "atr14": 0.00184,
-      "atr14_hourly": 0.00838,
-      "bb_position": 0.038
+      "ema50": 1.0035,
+      "ema200": 1.00897,
+      "macd": -0.00365,
+      "macd_signal": -0.003469,
+      "rsi14": 28.4,
+      "atr14": 0.00178,
+      "atr14_hourly": 0.00853,
+      "bb_position": 0.157
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161908
+  "data_bars": 161909
 }
