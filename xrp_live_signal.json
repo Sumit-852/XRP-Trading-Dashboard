@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-05T11:21:21.007377+00:00",
+  "timestamp": "2026-07-05T11:26:12.662769+00:00",
   "signal": {
-    "price": 0.9896,
+    "price": 0.9888,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2825,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.2701,
+    "hybrid_score": 2.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 38.3,
-      "bearish_pct": 31.7,
+      "score": 0.035,
+      "bullish_pct": 36.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.183,
-        "crypto_macro": -0.102,
-        "geopolitical": -0.188,
+        "crypto_macro": -0.09,
+        "geopolitical": -0.181,
         "fed_rates": 0.185
       },
       "geo_shock": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.59,
-      "health": -0.2198,
-      "vol_ratio": 0.21
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.57,
+      "health": -0.2403,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99041,
-      "ema200": 0.99836,
-      "macd": -0.000733,
-      "macd_signal": -0.001353,
-      "rsi14": 56.2,
-      "atr14": 0.00107,
-      "atr14_hourly": 0.0057,
-      "bb_position": 1.125
+      "ema50": 0.99031,
+      "ema200": 0.99825,
+      "macd": -0.000653,
+      "macd_signal": -0.001223,
+      "rsi14": 51.3,
+      "atr14": 0.00105,
+      "atr14_hourly": 0.00567,
+      "bb_position": 0.938
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162011
+  "data_bars": 162012
 }
