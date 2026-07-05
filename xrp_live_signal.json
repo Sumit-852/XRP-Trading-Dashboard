@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-07-05T22:21:58.614000+00:00",
+  "timestamp": "2026-07-05T22:26:11.880391+00:00",
   "signal": {
-    "price": 1.0115,
+    "price": 1.0107,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5522,
-    "hybrid_score": 5.3,
+    "xgb_prob": 0.5346,
+    "hybrid_score": 5.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.012,
+      "bullish_pct": 35.0,
+      "bearish_pct": 23.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.049,
+        "crypto_macro": -0.072,
+        "geopolitical": -0.077,
+        "fed_rates": 0.199
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
+        "XRP eyes bullish shift on growing demand - FXStreet",
+        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance"
+      ],
+      "top_bearish": [
+        "Weekend Round-Up: XRP's 70% Crash, Trump's Billion-Dollar Crypto Income and More - Benzinga",
+        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - Yahoo Finance",
+        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.78,
-      "health": 0.6113,
-      "vol_ratio": 6.99
+      "up_down_ratio": 0.8,
+      "health": 0.6522,
+      "vol_ratio": 0.38
     },
     "technicals": {
-      "ema50": 0.99657,
-      "ema200": 0.9953,
-      "macd": 0.003391,
-      "macd_signal": 0.002136,
-      "rsi14": 79.3,
-      "atr14": 0.00224,
-      "atr14_hourly": 0.00824,
-      "bb_position": 1.135
+      "ema50": 0.99709,
+      "ema200": 0.99545,
+      "macd": 0.003772,
+      "macd_signal": 0.002454,
+      "rsi14": 78.3,
+      "atr14": 0.00215,
+      "atr14_hourly": 0.00868,
+      "bb_position": 1.016
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.119,
+      "percentile": 0.115,
       "extreme": false
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162143
+  "data_bars": 162144
 }
