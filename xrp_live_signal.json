@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-05T06:51:24.659222+00:00",
+  "timestamp": "2026-07-05T06:56:06.581545+00:00",
   "signal": {
-    "price": 0.9955,
+    "price": 0.9954,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.395,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.376,
+    "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
-      "bullish_pct": 35.0,
-      "bearish_pct": 28.3,
+      "score": 0.013,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.166,
-        "crypto_macro": -0.049,
+        "xrp": 0.126,
+        "crypto_macro": -0.068,
         "geopolitical": -0.215,
-        "fed_rates": 0.185
+        "fed_rates": 0.179
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ",
-        "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk"
+        "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk",
+        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.87,
-      "health": -0.1295,
-      "vol_ratio": 0.01
+      "health": -0.1413,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99568,
-      "ema200": 1.00346,
-      "macd": 7.9e-05,
-      "macd_signal": -0.000292,
-      "rsi14": 54.9,
-      "atr14": 0.00113,
-      "atr14_hourly": 0.00478,
-      "bb_position": 0.872
+      "ema50": 0.99567,
+      "ema200": 1.00338,
+      "macd": 0.000143,
+      "macd_signal": -0.000206,
+      "rsi14": 54.6,
+      "atr14": 0.00105,
+      "atr14_hourly": 0.00474,
+      "bb_position": 0.822
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161957
+  "data_bars": 161958
 }
