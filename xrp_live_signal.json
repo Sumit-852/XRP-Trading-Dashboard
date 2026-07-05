@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-07-05T01:46:40.218430+00:00",
+  "timestamp": "2026-07-05T01:51:23.746481+00:00",
   "signal": {
-    "price": 1.0011,
+    "price": 1.0002,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4026,
+    "xgb_prob": 0.4029,
     "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.012,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.159,
+        "crypto_macro": -0.049,
+        "geopolitical": -0.28,
+        "fed_rates": 0.135
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
+        "Crypto News: Pepeto Ships Top Security Upgrade While XRP Price Prediction Targets $20 and Trump Reserve Deadline Nears -"
+      ],
+      "top_bearish": [
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
+        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times",
+        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.99,
-      "health": -0.0425,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.0,
+      "health": -0.0302,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.00916,
-      "ema200": 1.01084,
-      "macd": -0.003041,
-      "macd_signal": -0.003003,
-      "rsi14": 36.0,
+      "ema50": 1.00875,
+      "ema200": 1.01072,
+      "macd": -0.003091,
+      "macd_signal": -0.003044,
+      "rsi14": 34.4,
       "atr14": 0.0017,
-      "atr14_hourly": 0.00777,
-      "bb_position": 0.257
+      "atr14_hourly": 0.00774,
+      "bb_position": 0.224
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.459,
+      "percentile": 0.458,
       "extreme": false
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161896
+  "data_bars": 161897
 }
