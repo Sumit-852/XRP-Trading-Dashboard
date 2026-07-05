@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-05T03:21:18.186760+00:00",
+  "timestamp": "2026-07-05T03:26:09.444504+00:00",
   "signal": {
-    "price": 0.9966,
+    "price": 0.9948,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4141,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.4389,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.033,
+      "score": 0.034,
       "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.166,
-        "crypto_macro": -0.049,
-        "geopolitical": -0.182,
+        "xrp": 0.142,
+        "crypto_macro": -0.023,
+        "geopolitical": -0.17,
         "fed_rates": 0.135
       },
       "geo_shock": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
         "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ",
-        "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk"
+        "Why the US-China trade war lacks the guardrails of the past - Peterson Institute for International Economics"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": -0.0316,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.05,
+      "health": -0.0225,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.00186,
-      "ema200": 1.0082,
-      "macd": -0.001981,
-      "macd_signal": -0.002785,
-      "rsi14": 45.2,
-      "atr14": 0.00153,
-      "atr14_hourly": 0.00806,
-      "bb_position": 0.562
+      "ema50": 1.00152,
+      "ema200": 1.00805,
+      "macd": -0.002015,
+      "macd_signal": -0.002654,
+      "rsi14": 40.0,
+      "atr14": 0.00162,
+      "atr14_hourly": 0.00792,
+      "bb_position": 0.425
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.452,
+      "percentile": 0.453,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161915
+  "data_bars": 161916
 }
