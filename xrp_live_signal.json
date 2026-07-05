@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-05T17:06:07.572290+00:00",
+  "timestamp": "2026-07-05T17:11:32.627658+00:00",
   "signal": {
-    "price": 0.994,
+    "price": 0.9928,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3327,
-    "hybrid_score": 2.7,
-    "regime": "BULLISH",
+    "xgb_prob": 0.35,
+    "hybrid_score": 4.1,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.012,
+      "score": -0.008,
       "bullish_pct": 35.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.09,
-        "crypto_macro": -0.158,
-        "geopolitical": -0.092,
-        "fed_rates": 0.124
+        "xrp": 0.076,
+        "crypto_macro": -0.113,
+        "geopolitical": -0.149,
+        "fed_rates": 0.166
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "The Federal Reserve Just Delivered Fantastic News for Crypto Investors. Which Cryptos Should You Buy? - Yahoo Finance"
+        "The Federal Reserve Just Delivered Fantastic News for Crypto Investors. Which Cryptos Should You Buy? - The Globe and Ma"
       ],
       "top_bearish": [
         "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - The Motley Fool",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.48,
-      "health": -0.1004,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.47,
+      "health": -0.1091,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 0.99273,
-      "ema200": 0.99534,
-      "macd": -5e-06,
-      "macd_signal": 2e-05,
-      "rsi14": 54.8,
-      "atr14": 0.00114,
-      "atr14_hourly": 0.00435,
-      "bb_position": 0.66
+      "ema50": 0.9927,
+      "ema200": 0.99531,
+      "macd": -9.1e-05,
+      "macd_signal": -1.5e-05,
+      "rsi14": 48.9,
+      "atr14": 0.00115,
+      "atr14_hourly": 0.00427,
+      "bb_position": 0.387
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.131,
+      "percentile": 0.121,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162080
+  "data_bars": 162081
 }
