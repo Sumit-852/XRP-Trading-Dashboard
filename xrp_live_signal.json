@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-05T09:01:37.124669+00:00",
+  "timestamp": "2026-07-05T09:06:13.745187+00:00",
   "signal": {
-    "price": 0.9957,
+    "price": 0.9952,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3386,
+    "xgb_prob": 0.3297,
     "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.015,
+      "score": 0.011,
       "bullish_pct": 33.3,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.126,
         "crypto_macro": -0.054,
-        "geopolitical": -0.215,
+        "geopolitical": -0.234,
         "fed_rates": 0.163
       },
       "geo_shock": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
         "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk",
-        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ"
+        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": 0.0152,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.13,
+      "health": 0.1104,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99581,
-      "ema200": 1.0017,
-      "macd": 0.000257,
-      "macd_signal": 0.00039,
-      "rsi14": 49.8,
-      "atr14": 0.00105,
-      "atr14_hourly": 0.00388,
-      "bb_position": 0.401
+      "ema50": 0.99577,
+      "ema200": 1.00163,
+      "macd": 0.000142,
+      "macd_signal": 0.000334,
+      "rsi14": 47.2,
+      "atr14": 0.00099,
+      "atr14_hourly": 0.0038,
+      "bb_position": 0.219
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161983
+  "data_bars": 161984
 }
