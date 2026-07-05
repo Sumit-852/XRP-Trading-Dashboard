@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-05T02:16:13.157624+00:00",
+  "timestamp": "2026-07-05T02:21:26.409461+00:00",
   "signal": {
-    "price": 0.9933,
+    "price": 0.997,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4538,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4145,
+    "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.012,
+      "score": 0.018,
       "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.159,
+        "xrp": 0.126,
         "crypto_macro": -0.049,
-        "geopolitical": -0.28,
+        "geopolitical": -0.182,
         "fed_rates": 0.135
       },
       "geo_shock": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "XRP Gains Momentum As Ripple Unites Credit, Payment, Tokenisation - MarketForces Africa",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet",
-        "Crypto News: Pepeto Ships Top Security Upgrade While XRP Price Prediction Targets $20 and Trump Reserve Deadline Nears -"
+        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance"
       ],
       "top_bearish": [
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times",
-        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ"
+        "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ",
+        "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.0,
-      "health": -0.0543,
-      "vol_ratio": 0.33
+      "health": -0.0571,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.00672,
-      "ema200": 1.01008,
-      "macd": -0.003368,
-      "macd_signal": -0.003046,
-      "rsi14": 24.3,
-      "atr14": 0.00184,
-      "atr14_hourly": 0.00777,
-      "bb_position": -0.087
+      "ema50": 1.0064,
+      "ema200": 1.00997,
+      "macd": -0.003192,
+      "macd_signal": -0.003056,
+      "rsi14": 34.8,
+      "atr14": 0.00188,
+      "atr14_hourly": 0.00797,
+      "bb_position": 0.187
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.459,
+      "percentile": 0.457,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161902
+  "data_bars": 161903
 }
