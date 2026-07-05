@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-05T10:16:10.031007+00:00",
+  "timestamp": "2026-07-05T10:21:30.902647+00:00",
   "signal": {
-    "price": 0.986,
+    "price": 0.9863,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4691,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.4965,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.007,
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "score": -0.022,
+      "bullish_pct": 30.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.126,
-        "crypto_macro": -0.066,
+        "xrp": 0.157,
+        "crypto_macro": -0.207,
         "geopolitical": -0.234,
-        "fed_rates": 0.159
+        "fed_rates": 0.165
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC and ETH rebound as bulls return, XRP targets breakout - FXStreet"
       ],
       "top_bearish": [
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk",
-        "Officials skeptical of EU push to reset China trade amid retaliation fears - The Japan Times"
+        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - The Motley Fool",
+        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - Yahoo Finance",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.7,
-      "health": -0.1408,
-      "vol_ratio": 0.05
+      "up_down_ratio": 0.73,
+      "health": -0.1201,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.99242,
-      "ema200": 0.99989,
-      "macd": -0.002579,
-      "macd_signal": -0.002163,
-      "rsi14": 27.6,
-      "atr14": 0.0014,
-      "atr14_hourly": 0.00777,
-      "bb_position": 0.244
+      "ema50": 0.99217,
+      "ema200": 0.99975,
+      "macd": -0.002517,
+      "macd_signal": -0.002236,
+      "rsi14": 30.5,
+      "atr14": 0.00137,
+      "atr14_hourly": 0.00787,
+      "bb_position": 0.285
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161998
+  "data_bars": 161999
 }
