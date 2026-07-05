@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-07-05T03:56:06.243454+00:00",
+  "timestamp": "2026-07-05T04:01:39.484915+00:00",
   "signal": {
-    "price": 0.9951,
+    "price": 0.9946,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4179,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.3366,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
+      "score": 0.026,
       "bullish_pct": 35.0,
-      "bearish_pct": 28.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.142,
-        "crypto_macro": -0.023,
+        "crypto_macro": -0.049,
         "geopolitical": -0.17,
         "fed_rates": 0.135
       },
@@ -37,24 +37,24 @@
       "top_bearish": [
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
         "Europe Learns It\u2019s Hard to Start a Trade War With China During a Heat Wave - WSJ",
-        "Why the US-China trade war lacks the guardrails of the past - Peterson Institute for International Economics"
+        "BTC price news: Bitcoin retakes $63,000, reversing end-June losses - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": -0.0399,
+      "up_down_ratio": 1.0,
+      "health": -0.0559,
       "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.99997,
-      "ema200": 1.00724,
-      "macd": -0.001436,
-      "macd_signal": -0.001968,
-      "rsi14": 45.1,
-      "atr14": 0.00149,
-      "atr14_hourly": 0.00702,
-      "bb_position": 0.637
+      "ema50": 0.99975,
+      "ema200": 1.00711,
+      "macd": -0.001362,
+      "macd_signal": -0.00185,
+      "rsi14": 43.5,
+      "atr14": 0.00142,
+      "atr14_hourly": 0.00683,
+      "bb_position": 0.552
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 161922
+  "data_bars": 161923
 }
