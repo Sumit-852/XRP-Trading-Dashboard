@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-06T05:06:21.065482+00:00",
+  "timestamp": "2026-07-06T05:11:40.325254+00:00",
   "signal": {
-    "price": 1.0002,
+    "price": 0.9999,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.408,
+    "xgb_prob": 0.4122,
     "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.028,
-      "bullish_pct": 36.7,
-      "bearish_pct": 21.7,
+      "score": 0.03,
+      "bullish_pct": 33.3,
+      "bearish_pct": 20.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.07,
-        "crypto_macro": -0.056,
-        "geopolitical": -0.055,
+        "xrp": 0.073,
+        "crypto_macro": -0.035,
+        "geopolitical": -0.081,
         "fed_rates": 0.192
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP eyes bullish shift on growing demand - FXStreet",
+        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
         "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance",
-        "Bitcoin Price Prediction 2026: Will BTC Finally Rally to 100k? - Bitcoin Foundation"
+        "China Just Had Its Best Trade Year in History. | by Vikas | The Geopolitical Economist | Jul, 2026 - Medium"
       ],
       "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "Why the US-China trade war lacks the guardrails of the past - Peterson Institute for International Economics"
+        "Why the US-China trade war lacks the guardrails of the past - Peterson Institute for International Economics",
+        "China faces heavy costs in invasion: think tank - Taipei Times"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.85,
-      "health": 0.0294,
-      "vol_ratio": 12.57
+      "up_down_ratio": 0.88,
+      "health": 0.0658,
+      "vol_ratio": 0.8
     },
     "technicals": {
-      "ema50": 1.00347,
-      "ema200": 1.0012,
-      "macd": -0.000715,
-      "macd_signal": -0.000757,
-      "rsi14": 41.6,
-      "atr14": 0.00156,
-      "atr14_hourly": 0.0059,
-      "bb_position": 0.196
+      "ema50": 1.00329,
+      "ema200": 1.00118,
+      "macd": -0.000867,
+      "macd_signal": -0.000792,
+      "rsi14": 41.8,
+      "atr14": 0.00157,
+      "atr14_hourly": 0.00591,
+      "bb_position": 0.164
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.227,
+      "percentile": 0.228,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162224
+  "data_bars": 162225
 }
