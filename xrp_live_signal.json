@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-06T16:56:10.134978+00:00",
+  "timestamp": "2026-07-06T17:01:54.475470+00:00",
   "signal": {
-    "price": 1.0073,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5717,
-    "hybrid_score": 5.5,
+    "price": 1.0086,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.3842,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.045,
-      "bullish_pct": 40.0,
-      "bearish_pct": 26.7,
+      "score": 0.039,
+      "bullish_pct": 41.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.24,
-        "crypto_macro": -0.162,
-        "geopolitical": -0.18,
+        "xrp": 0.261,
+        "crypto_macro": -0.165,
+        "geopolitical": -0.254,
         "fed_rates": 0.255
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP price jumps 8%, Ripple-linked token may provide great risk-reward at these levels - CoinDesk",
-        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
-        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
+        "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com",
+        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato"
       ],
       "top_bearish": [
+        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Bitcoin crash triggers billions in liquidations - thestreet.com",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Bitcoin crash triggers billions in liquidations - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": 0.0226,
-      "vol_ratio": 0.34
+      "up_down_ratio": 1.14,
+      "health": 0.1428,
+      "vol_ratio": 0.5
     },
     "technicals": {
-      "ema50": 0.99394,
-      "ema200": 0.99463,
-      "macd": 0.005784,
-      "macd_signal": 0.005578,
-      "rsi14": 67.6,
-      "atr14": 0.00307,
-      "atr14_hourly": 0.01589,
-      "bb_position": 0.737
+      "ema50": 0.99457,
+      "ema200": 0.99478,
+      "macd": 0.005787,
+      "macd_signal": 0.005638,
+      "rsi14": 68.9,
+      "atr14": 0.003,
+      "atr14_hourly": 0.01559,
+      "bb_position": 0.754
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.532,
+      "percentile": 0.533,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162366
+  "data_bars": 162367
 }
