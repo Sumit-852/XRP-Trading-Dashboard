@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-06T06:16:14.280892+00:00",
+  "timestamp": "2026-07-06T06:21:37.461899+00:00",
   "signal": {
-    "price": 0.9971,
+    "price": 0.9955,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4243,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.3644,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
+      "score": 0.036,
       "bullish_pct": 36.7,
-      "bearish_pct": 21.7,
+      "bearish_pct": 18.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.073,
-        "crypto_macro": -0.093,
-        "geopolitical": -0.081,
-        "fed_rates": 0.213
+        "crypto_macro": -0.019,
+        "geopolitical": -0.098,
+        "fed_rates": 0.219
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin Price Prediction 2026: Will BTC Finally Rally to 100k? - Bitcoin Foundation"
       ],
       "top_bearish": [
-        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - The Motley Fool",
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg"
+        "How conflict minerals fuel war in eastern DR Congo amid US sanctions - Al Jazeera",
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": 0.0743,
-      "vol_ratio": 0.15
+      "up_down_ratio": 1.13,
+      "health": 0.0772,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.00085,
-      "ema200": 1.00071,
-      "macd": -0.001398,
-      "macd_signal": -0.001426,
-      "rsi14": 42.0,
-      "atr14": 0.00154,
-      "atr14_hourly": 0.00732,
-      "bb_position": 0.336
+      "ema50": 1.00058,
+      "ema200": 1.00064,
+      "macd": -0.001565,
+      "macd_signal": -0.001474,
+      "rsi14": 36.8,
+      "atr14": 0.00151,
+      "atr14_hourly": 0.0072,
+      "bb_position": 0.219
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162238
+  "data_bars": 162239
 }
