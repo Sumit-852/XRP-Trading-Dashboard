@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-06T01:16:10.623876+00:00",
+  "timestamp": "2026-07-06T01:21:35.113263+00:00",
   "signal": {
-    "price": 1.012,
+    "price": 1.0138,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5009,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.5237,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.012,
+      "score": -0.004,
       "bullish_pct": 36.7,
-      "bearish_pct": 23.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.049,
-        "crypto_macro": -0.08,
-        "geopolitical": -0.077,
-        "fed_rates": 0.219
+        "crypto_macro": -0.078,
+        "geopolitical": -0.125,
+        "fed_rates": 0.165
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance"
       ],
       "top_bearish": [
+        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - The Motley Fool",
         "Weekend Round-Up: XRP's 70% Crash, Trump's Billion-Dollar Crypto Income and More - Benzinga",
-        "The Crypto Fear and Greed Index Is Flashing Red. This Is the Only Cryptocurrency I'm Buying Right Now. - Yahoo Finance",
         "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.06,
-      "health": 1.0943,
-      "vol_ratio": 0.05
+      "health": 1.0855,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 1.00675,
-      "ema200": 0.99973,
-      "macd": 0.001078,
-      "macd_signal": 0.000652,
-      "rsi14": 57.7,
-      "atr14": 0.00245,
-      "atr14_hourly": 0.0124,
-      "bb_position": 0.705
+      "ema50": 1.00708,
+      "ema200": 0.99989,
+      "macd": 0.001358,
+      "macd_signal": 0.000809,
+      "rsi14": 62.5,
+      "atr14": 0.00236,
+      "atr14_hourly": 0.01245,
+      "bb_position": 0.821
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.177,
+      "percentile": 0.176,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162178
+  "data_bars": 162179
 }
