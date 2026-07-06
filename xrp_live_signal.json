@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-06T23:41:28.824196+00:00",
+  "timestamp": "2026-07-06T23:46:10.783214+00:00",
   "signal": {
-    "price": 1.0011,
+    "price": 1.0007,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2715,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.2639,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
@@ -12,14 +12,14 @@
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.043,
-      "bullish_pct": 41.7,
+      "bullish_pct": 45.0,
       "bearish_pct": 20.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.165,
-        "crypto_macro": -0.145,
-        "geopolitical": -0.073,
-        "fed_rates": 0.263
+        "crypto_macro": -0.17,
+        "geopolitical": -0.063,
+        "fed_rates": 0.294
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
       ],
       "top_bearish": [
+        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Bitcoin crash triggers billions in liquidations - thestreet.com",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Bitcoin crash triggers billions in liquidations - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.9,
-      "health": 0.1005,
-      "vol_ratio": 0.0
+      "health": 0.0886,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.00305,
-      "ema200": 0.99966,
-      "macd": -0.001068,
-      "macd_signal": -0.000742,
-      "rsi14": 42.4,
-      "atr14": 0.00148,
-      "atr14_hourly": 0.00767,
-      "bb_position": 0.258
+      "ema50": 1.00295,
+      "ema200": 0.99967,
+      "macd": -0.00109,
+      "macd_signal": -0.000813,
+      "rsi14": 40.9,
+      "atr14": 0.0014,
+      "atr14_hourly": 0.00742,
+      "bb_position": 0.239
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162447
+  "data_bars": 162448
 }
