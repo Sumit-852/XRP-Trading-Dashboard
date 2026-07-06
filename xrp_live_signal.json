@@ -1,26 +1,21 @@
 {
-  "timestamp": "2026-07-06T19:11:33.167724+00:00",
+  "timestamp": "2026-07-06T19:16:44.168042+00:00",
   "signal": {
-    "price": 1.0009,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3692,
-    "hybrid_score": 3.0,
+    "price": 1.0014,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5048,
+    "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.012,
-      "bullish_pct": 36.7,
-      "bearish_pct": 25.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.196,
-        "crypto_macro": -0.229,
-        "geopolitical": -0.151,
-        "fed_rates": 0.24
-      },
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "XRP price jumps 8%, Ripple-linked token may provide great risk-reward at these levels - CoinDesk",
-        "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com",
-        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato"
-      ],
-      "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Bitcoin crash triggers billions in liquidations - thestreet.com"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.81,
-      "health": -0.247,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.78,
+      "health": -0.2844,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 1.00012,
-      "ema200": 0.99684,
-      "macd": -0.000254,
-      "macd_signal": 3.3e-05,
-      "rsi14": 46.2,
-      "atr14": 0.00218,
-      "atr14_hourly": 0.01046,
-      "bb_position": 0.355
+      "ema50": 1.00017,
+      "ema200": 0.99689,
+      "macd": -0.000266,
+      "macd_signal": -2.6e-05,
+      "rsi14": 47.9,
+      "atr14": 0.00208,
+      "atr14_hourly": 0.01017,
+      "bb_position": 0.44
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +57,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +87,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162393
+  "data_bars": 162394
 }
