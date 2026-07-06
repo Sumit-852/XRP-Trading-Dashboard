@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-06T08:01:48.850303+00:00",
+  "timestamp": "2026-07-06T08:06:10.442855+00:00",
   "signal": {
-    "price": 1.0039,
+    "price": 1.0066,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4229,
-    "hybrid_score": 5.8,
+    "xgb_prob": 0.4617,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.029,
-      "bullish_pct": 38.3,
-      "bearish_pct": 18.3,
+      "score": 0.032,
+      "bullish_pct": 36.7,
+      "bearish_pct": 20.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.049,
-        "crypto_macro": -0.032,
-        "geopolitical": -0.076,
-        "fed_rates": 0.232
+        "xrp": 0.073,
+        "crypto_macro": -0.047,
+        "geopolitical": -0.064,
+        "fed_rates": 0.205
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
-        "Bitcoin Price Prediction 2026: Will BTC Finally Rally to 100k? - Bitcoin Foundation",
-        "China Just Had Its Best Trade Year in History. | by Vikas | The Geopolitical Economist | Jul, 2026 - Medium"
+        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance",
+        "Bitcoin Price Prediction 2026: Will BTC Finally Rally to 100k? - Bitcoin Foundation"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.22,
-      "health": 0.1577,
-      "vol_ratio": 0.4
+      "up_down_ratio": 1.29,
+      "health": 0.2182,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.9995,
-      "ema200": 1.00018,
-      "macd": 0.001302,
-      "macd_signal": 0.000412,
-      "rsi14": 71.0,
-      "atr14": 0.00138,
-      "atr14_hourly": 0.00642,
-      "bb_position": 0.97
+      "ema50": 0.99981,
+      "ema200": 1.00025,
+      "macd": 0.001743,
+      "macd_signal": 0.000687,
+      "rsi14": 76.5,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.0068,
+      "bb_position": 1.043
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.237,
+      "percentile": 0.24,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162259
+  "data_bars": 162260
 }
