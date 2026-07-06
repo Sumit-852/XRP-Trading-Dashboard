@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-06T22:31:39.628553+00:00",
+  "timestamp": "2026-07-06T22:36:18.694960+00:00",
   "signal": {
-    "price": 1.004,
+    "price": 1.0027,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3395,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3252,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.018,
-      "bullish_pct": 40.0,
-      "bearish_pct": 21.7,
+      "score": 0.043,
+      "bullish_pct": 41.7,
+      "bearish_pct": 20.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.143,
-        "crypto_macro": -0.216,
+        "xrp": 0.165,
+        "crypto_macro": -0.145,
         "geopolitical": -0.073,
-        "fed_rates": 0.284
+        "fed_rates": 0.263
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
       ],
       "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Bitcoin crash triggers billions in liquidations - thestreet.com"
+        "Bitcoin crash triggers billions in liquidations - thestreet.com",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": -0.1186,
-      "vol_ratio": 0.1
+      "up_down_ratio": 0.85,
+      "health": -0.1185,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.00391,
-      "ema200": 0.99931,
-      "macd": 0.000574,
-      "macd_signal": 0.00098,
-      "rsi14": 46.3,
-      "atr14": 0.002,
-      "atr14_hourly": 0.01117,
-      "bb_position": 0.297
+      "ema50": 1.00383,
+      "ema200": 0.99933,
+      "macd": 0.00022,
+      "macd_signal": 0.000815,
+      "rsi14": 43.1,
+      "atr14": 0.00194,
+      "atr14_hourly": 0.01091,
+      "bb_position": 0.156
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.589,
+      "percentile": 0.59,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162433
+  "data_bars": 162434
 }
