@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-06T00:41:30.344463+00:00",
+  "timestamp": "2026-07-06T00:46:13.486018+00:00",
   "signal": {
-    "price": 1.0072,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3705,
-    "hybrid_score": 4.2,
+    "price": 1.0089,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.51,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.02,
+      "score": 0.012,
       "bullish_pct": 36.7,
-      "bearish_pct": 21.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.049,
         "crypto_macro": -0.08,
-        "geopolitical": -0.037,
+        "geopolitical": -0.077,
         "fed_rates": 0.219
       },
       "geo_shock": false,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.83,
-      "health": 0.9263,
-      "vol_ratio": 0.45
+      "up_down_ratio": 1.03,
+      "health": 1.1273,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 1.00531,
-      "ema200": 0.99891,
-      "macd": -0.000299,
-      "macd_signal": 0.000728,
-      "rsi14": 49.0,
-      "atr14": 0.00266,
-      "atr14_hourly": 0.01258,
-      "bb_position": 0.324
+      "ema50": 1.00545,
+      "ema200": 0.99901,
+      "macd": -0.000152,
+      "macd_signal": 0.000554,
+      "rsi14": 52.8,
+      "atr14": 0.00262,
+      "atr14_hourly": 0.01253,
+      "bb_position": 0.443
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162171
+  "data_bars": 162172
 }
