@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-06T09:41:30.132782+00:00",
+  "timestamp": "2026-07-06T09:46:18.406530+00:00",
   "signal": {
-    "price": 0.9939,
+    "price": 0.993,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.321,
+    "xgb_prob": 0.3307,
     "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.041,
+      "score": 0.027,
       "bullish_pct": 35.0,
       "bearish_pct": 16.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.095,
-        "crypto_macro": -0.007,
-        "geopolitical": -0.125,
-        "fed_rates": 0.213
+        "xrp": 0.092,
+        "crypto_macro": -0.059,
+        "geopolitical": -0.159,
+        "fed_rates": 0.272
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin Price Prediction 2026: Will BTC Finally Rally to 100k? - Bitcoin Foundation"
       ],
       "top_bearish": [
+        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
-        "The Chinese Company That Could Start a Trade War With Europe - The New York Times",
-        "Why the US-China trade war lacks the guardrails of the past - Peterson Institute for International Economics"
+        "The Hidden Export Compliance Crisis Inside the Tariff Optimization Rush - Global Trade Magazine"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.09,
-      "health": 0.0349,
-      "vol_ratio": 0.41
+      "health": 0.0433,
+      "vol_ratio": 0.31
     },
     "technicals": {
-      "ema50": 0.99877,
-      "ema200": 0.99991,
-      "macd": -0.00135,
-      "macd_signal": -0.000612,
-      "rsi14": 32.8,
-      "atr14": 0.00136,
-      "atr14_hourly": 0.00747,
-      "bb_position": 0.102
+      "ema50": 0.99854,
+      "ema200": 0.99984,
+      "macd": -0.001542,
+      "macd_signal": -0.000799,
+      "rsi14": 30.2,
+      "atr14": 0.00137,
+      "atr14_hourly": 0.00742,
+      "bb_position": 0.071
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162279
+  "data_bars": 162280
 }
