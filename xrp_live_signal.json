@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-06T16:26:24.064235+00:00",
+  "timestamp": "2026-07-06T16:31:51.094526+00:00",
   "signal": {
-    "price": 1.0009,
+    "price": 1.0035,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3838,
+    "xgb_prob": 0.3813,
     "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.051,
-      "bullish_pct": 41.7,
-      "bearish_pct": 25.0,
+      "score": 0.045,
+      "bullish_pct": 40.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.24,
-        "crypto_macro": -0.14,
+        "crypto_macro": -0.162,
         "geopolitical": -0.18,
-        "fed_rates": 0.253
+        "fed_rates": 0.255
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
       ],
       "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Bitcoin crash triggers billions in liquidations - thestreet.com"
+        "Bitcoin crash triggers billions in liquidations - thestreet.com",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": 0.0395,
-      "vol_ratio": 0.27
+      "up_down_ratio": 1.14,
+      "health": 0.0418,
+      "vol_ratio": 0.72
     },
     "technicals": {
-      "ema50": 0.99024,
-      "ema200": 0.99383,
-      "macd": 0.005485,
-      "macd_signal": 0.004576,
-      "rsi14": 62.8,
-      "atr14": 0.00339,
-      "atr14_hourly": 0.01541,
-      "bb_position": 0.736
+      "ema50": 0.99082,
+      "ema200": 0.99394,
+      "macd": 0.005559,
+      "macd_signal": 0.004792,
+      "rsi14": 66.9,
+      "atr14": 0.00328,
+      "atr14_hourly": 0.01576,
+      "bb_position": 0.785
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.527,
+      "percentile": 0.526,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162360
+  "data_bars": 162361
 }
