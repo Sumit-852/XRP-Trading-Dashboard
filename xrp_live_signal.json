@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-06T09:06:13.805369+00:00",
+  "timestamp": "2026-07-06T09:11:42.618700+00:00",
   "signal": {
-    "price": 0.9986,
+    "price": 0.9981,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4115,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.3489,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.03,
-      "bullish_pct": 36.7,
-      "bearish_pct": 20.0,
+      "score": 0.041,
+      "bullish_pct": 35.0,
+      "bearish_pct": 16.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.095,
-        "crypto_macro": -0.032,
-        "geopolitical": -0.143,
-        "fed_rates": 0.205
+        "crypto_macro": -0.007,
+        "geopolitical": -0.125,
+        "fed_rates": 0.213
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin Price Prediction 2026: Will BTC Finally Rally to 100k? - Bitcoin Foundation"
       ],
       "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
-        "How conflict minerals fuel war in eastern DR Congo amid US sanctions - Al Jazeera",
-        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com"
+        "EU Flinches in China Trade Reset, Fearing Painful Retaliation - Bloomberg.com",
+        "The Chinese Company That Could Start a Trade War With Europe - The New York Times",
+        "Why the US-China trade war lacks the guardrails of the past - Peterson Institute for International Economics"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.11,
-      "health": 0.0664,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.1,
+      "health": 0.0581,
+      "vol_ratio": 0.29
     },
     "technicals": {
-      "ema50": 0.9998,
-      "ema200": 1.00021,
-      "macd": -2.1e-05,
-      "macd_signal": 0.000415,
-      "rsi14": 45.6,
-      "atr14": 0.00131,
-      "atr14_hourly": 0.00819,
-      "bb_position": 0.212
+      "ema50": 0.99972,
+      "ema200": 1.00019,
+      "macd": -0.000162,
+      "macd_signal": 0.000296,
+      "rsi14": 43.8,
+      "atr14": 0.00125,
+      "atr14_hourly": 0.00802,
+      "bb_position": 0.177
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162272
+  "data_bars": 162273
 }
