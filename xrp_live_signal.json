@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-07-07T17:41:37.035527+00:00",
+  "timestamp": "2026-07-07T17:46:33.064100+00:00",
   "signal": {
-    "price": 0.9885,
+    "price": 0.988,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5831,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.6293,
+    "hybrid_score": 5.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.038,
-      "bullish_pct": 41.7,
-      "bearish_pct": 28.3,
+      "score": -0.063,
+      "bullish_pct": 31.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.283,
-        "crypto_macro": -0.185,
+        "xrp": 0.039,
+        "crypto_macro": -0.222,
         "geopolitical": -0.245,
         "fed_rates": 0.223
       },
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Rally Alert: Bitcoin, Ethereum, and XRP Price Prediction As Trump Confirms Peace Deal - Cryptonews.net",
-        "Ripple\u2019s Garlinghouse at Consensus 2026 Declares a \u201cBig Positive Shift\u201d for Crypto: - HedgeCo.Net",
-        "Is XRP (Ripple) a Strong Buy at $1.15? - 24/7 Wall St."
+        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
+        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com",
+        "Bitcoin pulls back from $64,500 as weak ETF flows, falling open interest cloud outlook - CoinDesk"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": -0.1537,
-      "vol_ratio": 0.13
+      "up_down_ratio": 1.02,
+      "health": -0.1881,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.98584,
-      "ema200": 0.98712,
-      "macd": 0.000921,
-      "macd_signal": 0.001257,
-      "rsi14": 54.2,
-      "atr14": 0.00201,
-      "atr14_hourly": 0.00887,
-      "bb_position": 0.56
+      "ema50": 0.98594,
+      "ema200": 0.98714,
+      "macd": 0.000856,
+      "macd_signal": 0.001181,
+      "rsi14": 52.4,
+      "atr14": 0.00195,
+      "atr14_hourly": 0.00877,
+      "bb_position": 0.461
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162663
+  "data_bars": 162664
 }
