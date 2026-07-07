@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-07T12:36:26.853697+00:00",
+  "timestamp": "2026-07-07T12:41:46.740326+00:00",
   "signal": {
-    "price": 0.9847,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.422,
-    "hybrid_score": 4.5,
+    "price": 0.9854,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5256,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.053,
-      "bullish_pct": 36.7,
-      "bearish_pct": 36.7,
+      "score": -0.083,
+      "bullish_pct": 33.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.091,
-        "crypto_macro": -0.25,
-        "geopolitical": -0.237,
+        "xrp": 0.006,
+        "crypto_macro": -0.276,
+        "geopolitical": -0.193,
         "fed_rates": 0.215
       },
       "geo_shock": false,
@@ -35,26 +35,26 @@
         "Soybeans Surge as US-China Trade Hopes Spark Biggest Grain Rally in Weeks - 101.5 WKKG"
       ],
       "top_bearish": [
+        "Crypto Today: Bitcoin, Ethereum, XRP struggle to build momentum despite returning ETF inflows - FXStreet",
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.26,
-      "health": -0.0083,
-      "vol_ratio": 0.17
+      "up_down_ratio": 1.24,
+      "health": -0.0293,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.98469,
-      "ema200": 0.98945,
-      "macd": 0.000914,
-      "macd_signal": 0.000539,
-      "rsi14": 50.3,
-      "atr14": 0.00149,
-      "atr14_hourly": 0.00711,
-      "bb_position": 0.592
+      "ema50": 0.98475,
+      "ema200": 0.98942,
+      "macd": 0.000889,
+      "macd_signal": 0.00062,
+      "rsi14": 52.9,
+      "atr14": 0.00144,
+      "atr14_hourly": 0.00715,
+      "bb_position": 0.623
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.451,
+      "percentile": 0.435,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162602
+  "data_bars": 162603
 }
