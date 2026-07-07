@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-07T03:56:03.571464+00:00",
+  "timestamp": "2026-07-07T04:01:43.928978+00:00",
   "signal": {
-    "price": 0.9858,
+    "price": 0.9869,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3782,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.4021,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.032,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.08,
-      "health": 0.2172,
-      "vol_ratio": 0.04
+      "up_down_ratio": 1.03,
+      "health": 0.1667,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.99365,
-      "ema200": 0.99767,
-      "macd": -0.002708,
-      "macd_signal": -0.00278,
-      "rsi14": 31.1,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00709,
-      "bb_position": 0.188
+      "ema50": 0.99341,
+      "ema200": 0.99757,
+      "macd": -0.002513,
+      "macd_signal": -0.002718,
+      "rsi14": 36.4,
+      "atr14": 0.0013,
+      "atr14_hourly": 0.00691,
+      "bb_position": 0.315
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.533,
+      "percentile": 0.534,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162498
+  "data_bars": 162499
 }
