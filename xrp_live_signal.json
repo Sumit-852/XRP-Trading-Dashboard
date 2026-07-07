@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-07T01:56:03.686127+00:00",
+  "timestamp": "2026-07-07T02:01:42.976837+00:00",
   "signal": {
-    "price": 0.9978,
+    "price": 0.9972,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2976,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.4289,
+    "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
-      "bullish_pct": 41.7,
-      "bearish_pct": 20.0,
+      "score": 0.035,
+      "bullish_pct": 40.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.143,
-        "crypto_macro": -0.17,
-        "geopolitical": -0.058,
+        "crypto_macro": -0.198,
+        "geopolitical": -0.01,
         "fed_rates": 0.284
       },
       "geo_shock": false,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": 0.3143,
-      "vol_ratio": 0.05
+      "up_down_ratio": 1.11,
+      "health": 0.3279,
+      "vol_ratio": 0.79
     },
     "technicals": {
-      "ema50": 1.00109,
-      "ema200": 0.99985,
-      "macd": -0.001314,
-      "macd_signal": -0.00112,
-      "rsi14": 42.1,
-      "atr14": 0.00168,
-      "atr14_hourly": 0.00786,
-      "bb_position": 0.277
+      "ema50": 1.00091,
+      "ema200": 0.99982,
+      "macd": -0.001387,
+      "macd_signal": -0.001184,
+      "rsi14": 40.9,
+      "atr14": 0.00169,
+      "atr14_hourly": 0.00768,
+      "bb_position": 0.26
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162474
+  "data_bars": 162475
 }
