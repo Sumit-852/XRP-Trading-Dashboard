@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-07T18:16:10.265339+00:00",
+  "timestamp": "2026-07-07T18:21:35.439869+00:00",
   "signal": {
-    "price": 0.9878,
+    "price": 0.9884,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3124,
+    "xgb_prob": 0.3015,
     "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.063,
-      "bullish_pct": 31.7,
-      "bearish_pct": 36.7,
+      "score": -0.047,
+      "bullish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.039,
-        "crypto_macro": -0.222,
-        "geopolitical": -0.245,
-        "fed_rates": 0.223
+        "crypto_macro": -0.175,
+        "geopolitical": -0.244,
+        "fed_rates": 0.236
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
         "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com",
-        "Bitcoin pulls back from $64,500 as weak ETF flows, falling open interest cloud outlook - CoinDesk"
+        "Bitcoin, XRP Gain Ground in Japan as Weak Yen Fuels Corporate Treasury Diversification - Benzinga"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.02,
-      "health": -0.242,
-      "vol_ratio": 0.02
+      "health": -0.2062,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.98649,
+      "ema50": 0.98654,
       "ema200": 0.98722,
-      "macd": 0.000555,
-      "macd_signal": 0.000845,
-      "rsi14": 50.4,
-      "atr14": 0.00169,
-      "atr14_hourly": 0.00721,
-      "bb_position": 0.293
+      "macd": 0.00047,
+      "macd_signal": 0.00076,
+      "rsi14": 52.5,
+      "atr14": 0.00175,
+      "atr14_hourly": 0.00697,
+      "bb_position": 0.473
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.337,
+      "percentile": 0.333,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162670
+  "data_bars": 162671
 }
