@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T16:31:43.774574+00:00",
+  "timestamp": "2026-07-07T16:36:14.266550+00:00",
   "signal": {
-    "price": 0.9882,
+    "price": 0.9872,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5459,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5032,
+    "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.059,
-      "bullish_pct": 35.0,
-      "bearish_pct": 36.7,
+      "score": -0.089,
+      "bullish_pct": 30.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.041,
-        "crypto_macro": -0.237,
-        "geopolitical": -0.205,
-        "fed_rates": 0.228
+        "xrp": 0.017,
+        "crypto_macro": -0.235,
+        "geopolitical": -0.299,
+        "fed_rates": 0.199
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com",
-        "Soybeans Surge as US-China Trade Hopes Spark Biggest Grain Rally in Weeks - 101.5 WKKG",
-        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk"
+        "Bitcoin pulls back from $64,500 as weak ETF flows, falling open interest cloud outlook - CoinDesk",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC maintains recovery, ETH challenges 50-day EMA, XRP breaks higher"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.14,
-      "health": -0.1486,
-      "vol_ratio": 0.07
+      "health": -0.1535,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.98383,
-      "ema200": 0.98691,
-      "macd": 0.001878,
-      "macd_signal": 0.001762,
-      "rsi14": 58.8,
-      "atr14": 0.00241,
-      "atr14_hourly": 0.01116,
-      "bb_position": 0.707
+      "ema50": 0.98393,
+      "ema200": 0.9869,
+      "macd": 0.001719,
+      "macd_signal": 0.001743,
+      "rsi14": 56.0,
+      "atr14": 0.00236,
+      "atr14_hourly": 0.01081,
+      "bb_position": 0.61
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.349,
+      "percentile": 0.346,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162649
+  "data_bars": 162650
 }
