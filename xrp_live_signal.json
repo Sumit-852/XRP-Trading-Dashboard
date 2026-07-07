@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T06:31:43.236706+00:00",
+  "timestamp": "2026-07-07T06:36:08.862779+00:00",
   "signal": {
-    "price": 0.9863,
+    "price": 0.9886,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3955,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.4373,
+    "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.013,
+      "score": 0.016,
       "bullish_pct": 45.0,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.178,
+        "xrp": 0.198,
         "crypto_macro": -0.262,
         "geopolitical": -0.129,
-        "fed_rates": 0.329
+        "fed_rates": 0.299
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com",
-        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com",
-        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance"
+        "Ripple Wins Full MiCA CASP License From Luxembourg, Authorizing Crypto Services Across EEA - NewsCord",
+        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "ACCUMULATION",
       "up_down_ratio": 1.28,
-      "health": 0.1362,
-      "vol_ratio": 0.05
+      "health": 0.1505,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.98731,
-      "ema200": 0.99417,
-      "macd": 7.5e-05,
-      "macd_signal": -0.000319,
-      "rsi14": 53.2,
-      "atr14": 0.00126,
-      "atr14_hourly": 0.00607,
-      "bb_position": 0.699
+      "ema50": 0.98742,
+      "ema200": 0.99413,
+      "macd": 0.000411,
+      "macd_signal": -0.000152,
+      "rsi14": 61.3,
+      "atr14": 0.00131,
+      "atr14_hourly": 0.00601,
+      "bb_position": 0.877
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162529
+  "data_bars": 162530
 }
