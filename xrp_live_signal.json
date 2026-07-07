@@ -1,32 +1,33 @@
 {
-  "timestamp": "2026-07-07T11:31:43.443885+00:00",
+  "timestamp": "2026-07-07T11:36:15.458163+00:00",
   "signal": {
-    "price": 0.9808,
+    "price": 0.9804,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3287,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.3344,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.096,
-      "bullish_pct": 30.8,
-      "bearish_pct": 48.7,
-      "headlines_analyzed": 39,
+      "score": -0.026,
+      "bullish_pct": 41.7,
+      "bearish_pct": 35.0,
+      "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.105,
-        "crypto_macro": -0.367,
-        "geopolitical": -0.237
+        "xrp": 0.125,
+        "crypto_macro": -0.233,
+        "geopolitical": -0.237,
+        "fed_rates": 0.275
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com",
@@ -34,26 +35,26 @@
         "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
       ],
       "top_bearish": [
+        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
-        "Bitcoin crash triggers billions in liquidations - thestreet.com"
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "ACCUMULATION",
       "up_down_ratio": 1.36,
-      "health": 0.0501,
-      "vol_ratio": 0.04
+      "health": 0.0497,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.98414,
-      "ema200": 0.99003,
-      "macd": -0.001381,
-      "macd_signal": -0.001133,
-      "rsi14": 37.9,
-      "atr14": 0.00101,
-      "atr14_hourly": 0.00561,
-      "bb_position": 0.278
+      "ema50": 0.98397,
+      "ema200": 0.98993,
+      "macd": -0.001397,
+      "macd_signal": -0.001193,
+      "rsi14": 35.8,
+      "atr14": 0.00098,
+      "atr14_hourly": 0.00556,
+      "bb_position": 0.271
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -99,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162589
+  "data_bars": 162590
 }
