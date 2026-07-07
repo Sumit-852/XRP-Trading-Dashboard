@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T13:41:33.797455+00:00",
+  "timestamp": "2026-07-07T13:46:30.657391+00:00",
   "signal": {
-    "price": 0.9792,
+    "price": 0.9831,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3286,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.3158,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.076,
-      "bullish_pct": 33.3,
+      "score": -0.055,
+      "bullish_pct": 38.3,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.067,
-        "crypto_macro": -0.306,
+        "xrp": 0.055,
+        "crypto_macro": -0.238,
         "geopolitical": -0.224,
-        "fed_rates": 0.215
+        "fed_rates": 0.245
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,7 +27,7 @@
         "buy_signal": true,
         "phase": "BUY THE DIP"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.41,
-      "health": 0.0308,
-      "vol_ratio": 0.27
+      "up_down_ratio": 1.43,
+      "health": 0.028,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.98365,
-      "ema200": 0.98859,
-      "macd": -0.0012,
-      "macd_signal": -0.000515,
-      "rsi14": 35.3,
-      "atr14": 0.00159,
+      "ema50": 0.98366,
+      "ema200": 0.98854,
+      "macd": -0.000947,
+      "macd_signal": -0.000591,
+      "rsi14": 50.4,
+      "atr14": 0.00176,
       "atr14_hourly": 0.0073,
-      "bb_position": 0.112
+      "bb_position": 0.427
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.387,
+      "percentile": 0.385,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162615
+  "data_bars": 162616
 }
