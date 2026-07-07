@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T14:51:48.890721+00:00",
+  "timestamp": "2026-07-07T14:56:15.836749+00:00",
   "signal": {
-    "price": 0.9779,
+    "price": 0.9809,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5659,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.658,
+    "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.06,
-      "bullish_pct": 36.7,
-      "bearish_pct": 38.3,
+      "score": -0.042,
+      "bullish_pct": 35.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.079,
-        "crypto_macro": -0.301,
+        "xrp": 0.041,
+        "crypto_macro": -0.189,
         "geopolitical": -0.169,
-        "fed_rates": 0.213
+        "fed_rates": 0.202
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,34 +27,34 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com",
         "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com",
-        "Soybeans Surge as US-China Trade Hopes Spark Biggest Grain Rally in Weeks - 101.5 WKKG"
+        "Soybeans Surge as US-China Trade Hopes Spark Biggest Grain Rally in Weeks - 101.5 WKKG",
+        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk"
       ],
       "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Bitcoin crash triggers billions in liquidations - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.15,
-      "health": -0.2244,
-      "vol_ratio": 0.18
+      "up_down_ratio": 1.17,
+      "health": -0.2132,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.98072,
-      "ema200": 0.98709,
-      "macd": -0.002148,
-      "macd_signal": -0.002088,
-      "rsi14": 48.0,
+      "ema50": 0.98084,
+      "ema200": 0.98706,
+      "macd": -0.001455,
+      "macd_signal": -0.001923,
+      "rsi14": 53.8,
       "atr14": 0.00279,
-      "atr14_hourly": 0.01014,
-      "bb_position": 0.478
+      "atr14_hourly": 0.01038,
+      "bb_position": 0.696
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.411,
+      "percentile": 0.42,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162629
+  "data_bars": 162630
 }
