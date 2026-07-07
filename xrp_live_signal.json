@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-07T22:11:36.393565+00:00",
+  "timestamp": "2026-07-07T22:16:18.018618+00:00",
   "signal": {
-    "price": 0.9758,
+    "price": 0.9766,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3991,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.4119,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.023,
-      "bullish_pct": 38.3,
+      "score": 0.022,
+      "bullish_pct": 36.7,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.169,
-        "crypto_macro": -0.068,
-        "geopolitical": -0.244,
+        "xrp": 0.13,
+        "crypto_macro": -0.015,
+        "geopolitical": -0.254,
         "fed_rates": 0.172
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
-        "Big Win for XRP? 2.2 Million Hotels Now Bookable With XRP - U.Today",
-        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato"
+        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
+        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
       ],
       "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Strategy Is No Longer Just Going to \"Inoculate the Market,\" Selling Crypto May Be Much More Common. Here's What That Cou"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.79,
-      "health": -0.2658,
-      "vol_ratio": 1.23
+      "health": -0.2546,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.98022,
-      "ema200": 0.9845,
-      "macd": -0.001672,
-      "macd_signal": -0.001471,
-      "rsi14": 40.1,
-      "atr14": 0.00171,
-      "atr14_hourly": 0.00767,
-      "bb_position": 0.244
+      "ema50": 0.98009,
+      "ema200": 0.98443,
+      "macd": -0.001534,
+      "macd_signal": -0.001478,
+      "rsi14": 43.3,
+      "atr14": 0.00166,
+      "atr14_hourly": 0.00772,
+      "bb_position": 0.348
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162717
+  "data_bars": 162718
 }
