@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T20:32:12.650833+00:00",
+  "timestamp": "2026-07-07T20:36:26.862664+00:00",
   "signal": {
-    "price": 0.9816,
+    "price": 0.9799,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.265,
-    "hybrid_score": 2.3,
+    "xgb_prob": 0.3021,
+    "hybrid_score": 2.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.002,
-      "bullish_pct": 35.0,
-      "bearish_pct": 33.3,
+      "score": 0.037,
+      "bullish_pct": 40.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.13,
-        "crypto_macro": -0.099,
-        "geopolitical": -0.224,
-        "fed_rates": 0.167
+        "xrp": 0.154,
+        "crypto_macro": -0.001,
+        "geopolitical": -0.253,
+        "fed_rates": 0.184
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "Strategy Is No Longer Just Going to \"Inoculate the Market,\" Selling Crypto May Be Much More Common. Here's What That Cou"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.78,
-      "health": -0.3583,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.79,
+      "health": -0.3461,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.9834,
-      "ema200": 0.98596,
-      "macd": -0.000584,
-      "macd_signal": -0.000851,
-      "rsi14": 45.5,
-      "atr14": 0.00172,
-      "atr14_hourly": 0.00893,
-      "bb_position": 0.575
+      "ema50": 0.9832,
+      "ema200": 0.98588,
+      "macd": -0.000809,
+      "macd_signal": -0.000864,
+      "rsi14": 39.7,
+      "atr14": 0.00171,
+      "atr14_hourly": 0.00873,
+      "bb_position": 0.396
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.337,
+      "percentile": 0.339,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162697
+  "data_bars": 162698
 }
