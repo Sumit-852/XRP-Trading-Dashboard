@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T21:41:36.144785+00:00",
+  "timestamp": "2026-07-07T21:46:11.671211+00:00",
   "signal": {
-    "price": 0.9762,
+    "price": 0.9759,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3122,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.3309,
+    "hybrid_score": 2.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.022,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "score": 0.023,
+      "bullish_pct": 38.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.13,
-        "crypto_macro": -0.001,
-        "geopolitical": -0.253,
-        "fed_rates": 0.144
+        "xrp": 0.169,
+        "crypto_macro": -0.068,
+        "geopolitical": -0.244,
+        "fed_rates": 0.172
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
-        "Strategy Is No Longer Just Going to \"Inoculate the Market,\" Selling Crypto May Be Much More Common. Here's What That Cou"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.8,
-      "health": -0.3427,
-      "vol_ratio": 0.41
+      "health": -0.3432,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.98142,
-      "ema200": 0.98504,
-      "macd": -0.001411,
-      "macd_signal": -0.001065,
-      "rsi14": 35.9,
-      "atr14": 0.00159,
-      "atr14_hourly": 0.00674,
-      "bb_position": 0.049
+      "ema50": 0.98121,
+      "ema200": 0.98495,
+      "macd": -0.001511,
+      "macd_signal": -0.001153,
+      "rsi14": 35.3,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.00676,
+      "bb_position": 0.075
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162711
+  "data_bars": 162712
 }
