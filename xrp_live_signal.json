@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T05:56:04.725725+00:00",
+  "timestamp": "2026-07-07T06:02:00.567267+00:00",
   "signal": {
-    "price": 0.9872,
+    "price": 0.9858,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4437,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4031,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.015,
-      "bullish_pct": 43.3,
+      "score": 0.013,
+      "bullish_pct": 45.0,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.195,
+        "xrp": 0.178,
         "crypto_macro": -0.262,
         "geopolitical": -0.129,
-        "fed_rates": 0.299
+        "fed_rates": 0.329
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com",
-        "Ripple Wins Full MiCA CASP License From Luxembourg, Authorizing Crypto Services Across EEA - NewsCord",
-        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
+        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com",
+        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally? - Yahoo Finance"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.36,
-      "health": 0.3547,
-      "vol_ratio": 0.04
+      "up_down_ratio": 1.34,
+      "health": 0.2789,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.98788,
-      "ema200": 0.9948,
-      "macd": -0.00025,
-      "macd_signal": -0.001145,
-      "rsi14": 56.8,
+      "ema50": 0.98775,
+      "ema200": 0.9947,
+      "macd": -0.000264,
+      "macd_signal": -0.000986,
+      "rsi14": 51.6,
       "atr14": 0.00132,
-      "atr14_hourly": 0.00612,
-      "bb_position": 0.867
+      "atr14_hourly": 0.0062,
+      "bb_position": 0.708
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162522
+  "data_bars": 162523
 }
