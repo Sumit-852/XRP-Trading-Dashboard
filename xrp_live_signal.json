@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-07-08T12:42:13.007085+00:00",
+  "timestamp": "2026-07-08T12:46:26.094252+00:00",
   "signal": {
     "price": 0.9505,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3278,
+    "xgb_prob": 0.334,
     "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": -0.016,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.147,
+        "crypto_macro": -0.159,
+        "geopolitical": -0.223,
+        "fed_rates": 0.127
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
+        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
+        "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto"
+      ],
+      "top_bearish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
+        "India central bank backs crypto ban, tax department warns of evasion risks, documents show - Reuters",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+      ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.63,
-      "health": 0.1813,
-      "vol_ratio": 0.1
+      "health": 0.1957,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95041,
-      "ema200": 0.96028,
-      "macd": 0.000914,
-      "macd_signal": 0.001104,
+      "ema50": 0.95042,
+      "ema200": 0.96019,
+      "macd": 0.000766,
+      "macd_signal": 0.001036,
       "rsi14": 49.8,
-      "atr14": 0.00123,
-      "atr14_hourly": 0.00623,
-      "bb_position": 0.469
+      "atr14": 0.00114,
+      "atr14_hourly": 0.00604,
+      "bb_position": 0.458
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.31,
+      "percentile": 0.308,
       "extreme": false
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162891
+  "data_bars": 162892
 }
