@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-08T10:26:10.817360+00:00",
+  "timestamp": "2026-07-08T10:31:59.470698+00:00",
   "signal": {
-    "price": 0.946,
+    "price": 0.9468,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4882,
+    "xgb_prob": 0.4994,
     "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.028,
-      "bullish_pct": 38.3,
-      "bearish_pct": 23.3,
+      "score": -0.032,
+      "bullish_pct": 31.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.148,
-        "crypto_macro": -0.058,
-        "geopolitical": -0.174,
-        "fed_rates": 0.157
+        "xrp": 0.059,
+        "crypto_macro": -0.156,
+        "geopolitical": -0.158,
+        "fed_rates": 0.144
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple (XRP) Scores Major European Win With Full MiCA License - CryptoPotato",
         "Best Copy Trading Platforms for 2026 - thestreet.com",
-        "AngelList ends crypto funding support tied to Ripple\u2019s Rail - Crypto News"
+        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
       ],
       "top_bearish": [
-        "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
-        "BTC, XRP, ETH news: Major tokens under pressure as U.S. attacks Iran - CoinDesk",
-        "XRP Spot Demand Rises While Binance Perps Flash A $783M Warning - Yellow.com"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
+        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
+        "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.57,
-      "health": 0.0695,
-      "vol_ratio": 0.0
+      "health": 0.0636,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.94978,
-      "ema200": 0.96335,
-      "macd": -0.001337,
-      "macd_signal": -0.001709,
-      "rsi14": 45.0,
-      "atr14": 0.00156,
-      "atr14_hourly": 0.00723,
-      "bb_position": 0.586
+      "ema50": 0.94972,
+      "ema200": 0.9632,
+      "macd": -0.001058,
+      "macd_signal": -0.00156,
+      "rsi14": 48.3,
+      "atr14": 0.0016,
+      "atr14_hourly": 0.007,
+      "bb_position": 0.742
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.308,
+      "percentile": 0.309,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162864
+  "data_bars": 162865
 }
