@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-08T16:01:56.143363+00:00",
+  "timestamp": "2026-07-08T16:06:13.839222+00:00",
   "signal": {
-    "price": 0.9421,
+    "price": 0.9432,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4821,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.4655,
+    "hybrid_score": 4.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.027,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "score": -0.045,
+      "bullish_pct": 36.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.087,
-        "crypto_macro": -0.134,
-        "geopolitical": -0.235,
-        "fed_rates": 0.161
+        "xrp": 0.077,
+        "crypto_macro": -0.165,
+        "geopolitical": -0.288,
+        "fed_rates": 0.195
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
-        "India central bank backs crypto ban, tax department warns of evasion risks, documents show - Reuters",
+        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.66,
-      "health": 0.1221,
-      "vol_ratio": 0.1
+      "health": 0.1135,
+      "vol_ratio": 0.34
     },
     "technicals": {
-      "ema50": 0.94523,
-      "ema200": 0.95521,
-      "macd": -0.001494,
-      "macd_signal": -0.001751,
-      "rsi14": 44.4,
-      "atr14": 0.00171,
-      "atr14_hourly": 0.00814,
-      "bb_position": 0.459
+      "ema50": 0.94513,
+      "ema200": 0.95509,
+      "macd": -0.001302,
+      "macd_signal": -0.001668,
+      "rsi14": 49.4,
+      "atr14": 0.00177,
+      "atr14_hourly": 0.00801,
+      "bb_position": 0.616
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.239,
+      "percentile": 0.242,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162931
+  "data_bars": 162932
 }
