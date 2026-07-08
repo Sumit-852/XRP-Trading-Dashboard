@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-08T12:06:08.389348+00:00",
+  "timestamp": "2026-07-08T12:11:36.556043+00:00",
   "signal": {
-    "price": 0.953,
+    "price": 0.9536,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4573,
+    "xgb_prob": 0.4547,
     "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.01,
+      "score": -0.038,
       "bullish_pct": 31.7,
-      "bearish_pct": 20.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.057,
-        "crypto_macro": -0.136,
-        "geopolitical": -0.106,
-        "fed_rates": 0.193
+        "xrp": 0.055,
+        "crypto_macro": -0.173,
+        "geopolitical": -0.165,
+        "fed_rates": 0.157
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
-        "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
+        "India central bank backs crypto ban, tax department warns of evasion risks, documents show - Reuters",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.65,
-      "health": 0.2169,
-      "vol_ratio": 0.15
+      "health": 0.2175,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.94988,
-      "ema200": 0.96088,
-      "macd": 0.001307,
-      "macd_signal": 0.00075,
-      "rsi14": 64.6,
+      "ema50": 0.95006,
+      "ema200": 0.96081,
+      "macd": 0.001474,
+      "macd_signal": 0.000905,
+      "rsi14": 65.7,
       "atr14": 0.00143,
-      "atr14_hourly": 0.00614,
-      "bb_position": 0.887
+      "atr14_hourly": 0.00623,
+      "bb_position": 0.883
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.311,
+      "percentile": 0.312,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162884
+  "data_bars": 162885
 }
