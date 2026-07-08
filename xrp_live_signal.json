@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-08T18:06:09.622636+00:00",
+  "timestamp": "2026-07-08T18:11:43.063709+00:00",
   "signal": {
-    "price": 0.9532,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4147,
-    "hybrid_score": 3.2,
+    "price": 0.9529,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5053,
+    "hybrid_score": 5.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.079,
+      "score": -0.07,
       "bullish_pct": 28.3,
-      "bearish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.046,
+        "xrp": 0.065,
         "crypto_macro": -0.152,
         "geopolitical": -0.344,
-        "fed_rates": 0.086
+        "fed_rates": 0.101
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
         "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto",
-        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk"
+        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.7,
-      "health": 0.1492,
-      "vol_ratio": 0.0
+      "health": 0.1155,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.94863,
-      "ema200": 0.95405,
-      "macd": 0.001944,
-      "macd_signal": 0.002106,
-      "rsi14": 59.4,
-      "atr14": 0.00177,
-      "atr14_hourly": 0.00917,
-      "bb_position": 0.666
+      "ema50": 0.94877,
+      "ema200": 0.95403,
+      "macd": 0.001812,
+      "macd_signal": 0.002035,
+      "rsi14": 58.1,
+      "atr14": 0.00178,
+      "atr14_hourly": 0.00912,
+      "bb_position": 0.63
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.262,
+      "percentile": 0.263,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162956
+  "data_bars": 162957
 }
