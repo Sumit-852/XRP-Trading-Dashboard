@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-08T01:01:50.830107+00:00",
+  "timestamp": "2026-07-08T01:06:12.466666+00:00",
   "signal": {
-    "price": 0.976,
+    "price": 0.9747,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3685,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.3348,
+    "hybrid_score": 2.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
-      "bullish_pct": 38.3,
-      "bearish_pct": 21.7,
+      "score": 0.013,
+      "bullish_pct": 33.3,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.186,
-        "crypto_macro": -0.049,
-        "geopolitical": -0.267,
+        "xrp": 0.065,
+        "crypto_macro": -0.022,
+        "geopolitical": -0.201,
         "fed_rates": 0.22
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
         "Ripple (XRP) Scores Major European Win With Full MiCA License - CryptoPotato",
-        "Best Copy Trading Platforms for 2026 - thestreet.com"
+        "Best Copy Trading Platforms for 2026 - thestreet.com",
+        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.64,
-      "health": -0.2019,
-      "vol_ratio": 0.02
+      "health": -0.2029,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.97743,
-      "ema200": 0.98226,
-      "macd": -0.000416,
-      "macd_signal": -0.000596,
-      "rsi14": 48.1,
-      "atr14": 0.00131,
-      "atr14_hourly": 0.00563,
-      "bb_position": 0.524
+      "ema50": 0.9773,
+      "ema200": 0.98218,
+      "macd": -0.000529,
+      "macd_signal": -0.000591,
+      "rsi14": 43.2,
+      "atr14": 0.00132,
+      "atr14_hourly": 0.00557,
+      "bb_position": 0.276
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162751
+  "data_bars": 162752
 }
