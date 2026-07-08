@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-08T01:36:08.006051+00:00",
+  "timestamp": "2026-07-08T01:41:43.150428+00:00",
   "signal": {
-    "price": 0.9715,
+    "price": 0.9656,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.376,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.398,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.013,
-      "bullish_pct": 33.3,
-      "bearish_pct": 23.3,
+      "score": 0.046,
+      "bullish_pct": 35.0,
+      "bearish_pct": 20.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.065,
-        "crypto_macro": -0.022,
-        "geopolitical": -0.201,
+        "xrp": 0.142,
+        "crypto_macro": 0.019,
+        "geopolitical": -0.244,
         "fed_rates": 0.22
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
         "Ripple (XRP) Scores Major European Win With Full MiCA License - CryptoPotato",
-        "Best Copy Trading Platforms for 2026 - thestreet.com",
-        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
+        "Best Copy Trading Platforms for 2026 - thestreet.com"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.61,
-      "health": -0.2326,
-      "vol_ratio": 0.42
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.55,
+      "health": -0.3406,
+      "vol_ratio": 1.23
     },
     "technicals": {
-      "ema50": 0.97663,
-      "ema200": 0.98172,
-      "macd": -0.000961,
-      "macd_signal": -0.000612,
-      "rsi14": 33.2,
-      "atr14": 0.00139,
-      "atr14_hourly": 0.00537,
-      "bb_position": -0.107
+      "ema50": 0.97597,
+      "ema200": 0.9815,
+      "macd": -0.001977,
+      "macd_signal": -0.000964,
+      "rsi14": 23.6,
+      "atr14": 0.00182,
+      "atr14_hourly": 0.00638,
+      "bb_position": -0.167
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.221,
+      "percentile": 0.247,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162758
+  "data_bars": 162759
 }
