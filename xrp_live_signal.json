@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-08T13:51:30.848559+00:00",
+  "timestamp": "2026-07-08T13:56:28.730162+00:00",
   "signal": {
-    "price": 0.9459,
+    "price": 0.945,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3107,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.4084,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.036,
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
+      "score": -0.033,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.094,
-        "crypto_macro": -0.179,
-        "geopolitical": -0.207,
-        "fed_rates": 0.14
+        "xrp": 0.13,
+        "crypto_macro": -0.158,
+        "geopolitical": -0.267,
+        "fed_rates": 0.101
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
-        "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto",
-        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
+        "Live markets: Bitcoin drops to $62,000, stocks slide, oil soars as Iran ceasefire collapses - CoinDesk",
+        "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto"
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
-        "Bitcoin Price, XRP, Ethereum Drop as Cryptos Get Caught Up in Trump Iran Selloff - Barron's",
-        "India central bank backs crypto ban, tax department warns of evasion risks, documents show - Reuters"
+        "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
+        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.64,
-      "health": 0.287,
-      "vol_ratio": 0.11
+      "up_down_ratio": 0.59,
+      "health": 0.2418,
+      "vol_ratio": 24.27
     },
     "technicals": {
-      "ema50": 0.94936,
-      "ema200": 0.95868,
-      "macd": -0.000814,
-      "macd_signal": -0.000444,
-      "rsi14": 38.7,
-      "atr14": 0.00147,
-      "atr14_hourly": 0.00607,
-      "bb_position": 0.112
+      "ema50": 0.94931,
+      "ema200": 0.95858,
+      "macd": -0.000781,
+      "macd_signal": -0.000468,
+      "rsi14": 40.1,
+      "atr14": 0.00212,
+      "atr14_hourly": 0.0063,
+      "bb_position": 0.004
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.292,
+      "percentile": 0.316,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162905
+  "data_bars": 162906
 }
