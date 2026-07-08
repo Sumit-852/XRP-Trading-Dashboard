@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-08T00:31:48.629083+00:00",
+  "timestamp": "2026-07-08T00:36:08.821918+00:00",
   "signal": {
-    "price": 0.9766,
+    "price": 0.9748,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5676,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.6735,
+    "hybrid_score": 4.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.036,
-      "bullish_pct": 36.7,
-      "bearish_pct": 23.3,
+      "score": 0.037,
+      "bullish_pct": 38.3,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.169,
+        "xrp": 0.186,
         "crypto_macro": -0.049,
-        "geopolitical": -0.243,
+        "geopolitical": -0.267,
         "fed_rates": 0.22
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
-        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
-        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
+        "Ripple (XRP) Scores Major European Win With Full MiCA License - CryptoPotato",
+        "Best Copy Trading Platforms for 2026 - thestreet.com"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.64,
-      "health": -0.2331,
-      "vol_ratio": 0.53
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.63,
+      "health": -0.2343,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.97783,
-      "ema200": 0.98265,
-      "macd": -0.000786,
-      "macd_signal": -0.000781,
-      "rsi14": 49.8,
-      "atr14": 0.00151,
-      "atr14_hourly": 0.00616,
-      "bb_position": 0.473
+      "ema50": 0.97764,
+      "ema200": 0.98256,
+      "macd": -0.000918,
+      "macd_signal": -0.000832,
+      "rsi14": 43.3,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.006,
+      "bb_position": 0.288
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.244,
+      "percentile": 0.237,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162745
+  "data_bars": 162746
 }
