@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-07T23:56:01.921576+00:00",
+  "timestamp": "2026-07-08T00:01:51.558525+00:00",
   "signal": {
-    "price": 0.9747,
+    "price": 0.9751,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3549,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.4127,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.047,
-      "bullish_pct": 40.0,
-      "bearish_pct": 25.0,
+      "score": 0.036,
+      "bullish_pct": 36.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.169,
-        "crypto_macro": -0.027,
-        "geopolitical": -0.22,
-        "fed_rates": 0.223
+        "crypto_macro": -0.049,
+        "geopolitical": -0.243,
+        "fed_rates": 0.22
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
-        "Big Win for XRP? 2.2 Million Hotels Now Bookable With XRP - U.Today",
-        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato"
+        "Ripple Price Analysis: What Are XRP\u2019s Next Targets After 8% Weekly Surge? - CryptoPotato",
+        "Can Ripple Break $1.20 After an 8% Weekly Surge? Key Levels to Watch - CCN.com"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.8,
-      "health": -0.1725,
-      "vol_ratio": 0.31
+      "up_down_ratio": 0.81,
+      "health": -0.1101,
+      "vol_ratio": 1.41
     },
     "technicals": {
-      "ema50": 0.97869,
-      "ema200": 0.9832,
-      "macd": -0.000646,
-      "macd_signal": -0.000346,
-      "rsi14": 38.2,
-      "atr14": 0.00126,
-      "atr14_hourly": 0.00609,
-      "bb_position": 0.025
+      "ema50": 0.97854,
+      "ema200": 0.98311,
+      "macd": -0.000764,
+      "macd_signal": -0.000434,
+      "rsi14": 40.6,
+      "atr14": 0.00128,
+      "atr14_hourly": 0.00615,
+      "bb_position": 0.124
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.244,
+      "percentile": 0.245,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162738
+  "data_bars": 162739
 }
