@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-08T17:36:09.811126+00:00",
+  "timestamp": "2026-07-08T17:41:37.525646+00:00",
   "signal": {
-    "price": 0.9571,
+    "price": 0.956,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4767,
-    "hybrid_score": 4.8,
-    "regime": "BEARISH",
+    "xgb_prob": 0.4622,
+    "hybrid_score": 3.5,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.069,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": -0.079,
+      "bullish_pct": 28.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.048,
-        "crypto_macro": -0.151,
-        "geopolitical": -0.314,
-        "fed_rates": 0.107
+        "xrp": 0.046,
+        "crypto_macro": -0.152,
+        "geopolitical": -0.344,
+        "fed_rates": 0.086
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
         "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto",
-        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
+        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk"
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
-        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga"
+        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.69,
-      "health": 0.0988,
-      "vol_ratio": 0.23
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.68,
+      "health": 0.0899,
+      "vol_ratio": 0.34
     },
     "technicals": {
-      "ema50": 0.9477,
-      "ema200": 0.95418,
-      "macd": 0.002971,
-      "macd_signal": 0.001917,
-      "rsi14": 77.9,
-      "atr14": 0.00161,
-      "atr14_hourly": 0.00881,
-      "bb_position": 0.985
+      "ema50": 0.94801,
+      "ema200": 0.95419,
+      "macd": 0.003046,
+      "macd_signal": 0.002137,
+      "rsi14": 74.1,
+      "atr14": 0.0016,
+      "atr14_hourly": 0.00905,
+      "bb_position": 0.89
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.248,
+      "percentile": 0.246,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162950
+  "data_bars": 162951
 }
