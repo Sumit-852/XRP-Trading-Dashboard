@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-08T14:56:05.435333+00:00",
+  "timestamp": "2026-07-08T15:02:00.180374+00:00",
   "signal": {
-    "price": 0.9451,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.558,
-    "hybrid_score": 4.1,
+    "price": 0.9442,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.421,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.047,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": -0.043,
+      "bullish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.117,
-        "crypto_macro": -0.201,
-        "geopolitical": -0.287,
+        "xrp": 0.075,
+        "crypto_macro": -0.137,
+        "geopolitical": -0.28,
         "fed_rates": 0.148
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
-        "Live markets: Bitcoin drops to $62,000, stocks slide, oil soars as Iran ceasefire collapses - CoinDesk",
-        "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto"
+        "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto",
+        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
         "India central bank backs crypto ban, tax department warns of evasion risks, documents show - Reuters",
-        "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk"
+        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.6,
-      "health": 0.17,
+      "up_down_ratio": 0.62,
+      "health": 0.2293,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.94804,
-      "ema200": 0.95717,
-      "macd": -0.001178,
-      "macd_signal": -0.000984,
-      "rsi14": 43.9,
-      "atr14": 0.00213,
-      "atr14_hourly": 0.00753,
-      "bb_position": 0.277
+      "ema50": 0.94786,
+      "ema200": 0.95704,
+      "macd": -0.001273,
+      "macd_signal": -0.001054,
+      "rsi14": 41.7,
+      "atr14": 0.00208,
+      "atr14_hourly": 0.00756,
+      "bb_position": 0.198
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.258,
+      "percentile": 0.256,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162918
+  "data_bars": 162919
 }
