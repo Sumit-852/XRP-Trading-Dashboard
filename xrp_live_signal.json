@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-08T03:51:30.974556+00:00",
+  "timestamp": "2026-07-08T03:56:16.682036+00:00",
   "signal": {
-    "price": 0.9603,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.458,
-    "hybrid_score": 3.5,
+    "price": 0.9592,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5077,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 40.0,
-      "bearish_pct": 23.3,
+      "score": 0.035,
+      "bullish_pct": 38.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.113,
-        "crypto_macro": -0.014,
+        "xrp": 0.118,
+        "crypto_macro": 0.015,
         "geopolitical": -0.281,
-        "fed_rates": 0.309
+        "fed_rates": 0.26
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
       ],
       "top_bearish": [
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
-        "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector"
+        "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector",
+        "Strait of Hormuz Disruptions: Beyond reopening - lasting impacts on vulnerable economies | - UN Trade and Development (U"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.49,
-      "health": -0.4882,
-      "vol_ratio": 0.21
+      "health": -0.4954,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.96756,
-      "ema200": 0.97726,
-      "macd": -0.001635,
-      "macd_signal": -0.001714,
-      "rsi14": 35.0,
-      "atr14": 0.00167,
-      "atr14_hourly": 0.01001,
-      "bb_position": 0.23
+      "ema50": 0.96716,
+      "ema200": 0.97706,
+      "macd": -0.001926,
+      "macd_signal": -0.001782,
+      "rsi14": 34.6,
+      "atr14": 0.00174,
+      "atr14_hourly": 0.01004,
+      "bb_position": 0.174
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.265,
+      "percentile": 0.272,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162785
+  "data_bars": 162786
 }
