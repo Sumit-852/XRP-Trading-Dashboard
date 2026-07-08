@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-08T04:56:04.082445+00:00",
+  "timestamp": "2026-07-08T05:01:51.292580+00:00",
   "signal": {
-    "price": 0.9569,
+    "price": 0.9589,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4937,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.3974,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.044,
-      "bullish_pct": 36.7,
-      "bearish_pct": 25.0,
+      "score": 0.012,
+      "bullish_pct": 38.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.142,
-        "crypto_macro": 0.061,
-        "geopolitical": -0.307,
-        "fed_rates": 0.205
+        "xrp": 0.11,
+        "crypto_macro": -0.029,
+        "geopolitical": -0.313,
+        "fed_rates": 0.254
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Best Copy Trading Platforms for 2026 - thestreet.com"
       ],
       "top_bearish": [
-        "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector",
-        "Strait of Hormuz Disruptions: Beyond reopening - lasting impacts on vulnerable economies | - UN Trade and Development (U",
-        "Iran accuses US of violating peace agreement after strikes target sites around strait of Hormuz - The Guardian"
+        "BTC, XRP, ETH news: Major tokens under pressure as U.S. attacks Iran - CoinDesk",
+        "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
+        "BTC, XRP, ETH news: Major tokens under pressure as U.S. attacks Iran - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.52,
-      "health": -0.4534,
-      "vol_ratio": 0.31
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.53,
+      "health": -0.4573,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96386,
-      "ema200": 0.97498,
-      "macd": -0.002026,
-      "macd_signal": -0.001936,
-      "rsi14": 34.7,
-      "atr14": 0.00145,
-      "atr14_hourly": 0.00764,
-      "bb_position": 0.182
+      "ema50": 0.96372,
+      "ema200": 0.97483,
+      "macd": -0.001761,
+      "macd_signal": -0.001883,
+      "rsi14": 43.0,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.00741,
+      "bb_position": 0.396
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.272,
+      "percentile": 0.274,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4917.93,
     "total_pnl_pct": -1.641,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162798
+  "data_bars": 162799
 }
