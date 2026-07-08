@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-08T07:46:21.037470+00:00",
+  "timestamp": "2026-07-08T07:51:39.446238+00:00",
   "signal": {
-    "price": 0.9568,
+    "price": 0.9564,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5167,
+    "xgb_prob": 0.5197,
     "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
-      "bullish_pct": 36.7,
-      "bearish_pct": 28.3,
+      "score": -0.014,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.192,
-        "crypto_macro": -0.056,
-        "geopolitical": -0.375,
-        "fed_rates": 0.228
+        "xrp": 0.181,
+        "crypto_macro": -0.127,
+        "geopolitical": -0.434,
+        "fed_rates": 0.252
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
         "Ripple (XRP) Scores Major European Win With Full MiCA License - CryptoPotato",
-        "Ripple Wins Crypto Service Provider License in EU - PYMNTS.com"
+        "Best Copy Trading Platforms for 2026 - thestreet.com"
       ],
       "top_bearish": [
         "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
         "BTC, XRP, ETH news: Major tokens under pressure as U.S. attacks Iran - CoinDesk",
-        "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.52,
-      "health": 0.0538,
-      "vol_ratio": 0.02
+      "health": 0.0783,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.95745,
-      "ema200": 0.96932,
-      "macd": 0.00011,
-      "macd_signal": -0.000447,
-      "rsi14": 55.4,
-      "atr14": 0.00118,
-      "atr14_hourly": 0.00556,
-      "bb_position": 0.814
+      "ema50": 0.95741,
+      "ema200": 0.96919,
+      "macd": 0.000151,
+      "macd_signal": -0.000327,
+      "rsi14": 53.3,
+      "atr14": 0.00117,
+      "atr14_hourly": 0.00552,
+      "bb_position": 0.736
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.258,
+      "percentile": 0.257,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162832
+  "data_bars": 162833
 }
