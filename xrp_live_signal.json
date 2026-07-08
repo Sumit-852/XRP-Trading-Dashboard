@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-08T04:26:07.068789+00:00",
+  "timestamp": "2026-07-08T04:31:43.357877+00:00",
   "signal": {
-    "price": 0.9602,
+    "price": 0.9597,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6146,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.6414,
+    "hybrid_score": 4.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.035,
-      "bullish_pct": 38.3,
+      "score": 0.044,
+      "bullish_pct": 36.7,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.118,
-        "crypto_macro": 0.015,
-        "geopolitical": -0.281,
-        "fed_rates": 0.26
+        "xrp": 0.142,
+        "crypto_macro": 0.061,
+        "geopolitical": -0.307,
+        "fed_rates": 0.205
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
         "Ripple (XRP) Scores Major European Win With Full MiCA License - CryptoPotato",
-        "Best Copy Trading Platforms for 2026 - thestreet.com",
-        "XRP slides as retail demand cools, shrugs off Ripple's MiCA license approval - FXStreet"
+        "Best Copy Trading Platforms for 2026 - thestreet.com"
       ],
       "top_bearish": [
-        "BTC price July rise at risk as Coinbase Premium logs 50-day negative streak: Crypto Daily - CoinDesk",
         "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector",
-        "Strait of Hormuz Disruptions: Beyond reopening - lasting impacts on vulnerable economies | - UN Trade and Development (U"
+        "Strait of Hormuz Disruptions: Beyond reopening - lasting impacts on vulnerable economies | - UN Trade and Development (U",
+        "Iran accuses US of violating peace agreement after strikes target sites around strait of Hormuz - The Guardian"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.5,
-      "health": -0.4907,
-      "vol_ratio": 0.04
+      "health": -0.484,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96562,
-      "ema200": 0.97607,
-      "macd": -0.001738,
-      "macd_signal": -0.001833,
-      "rsi14": 40.6,
-      "atr14": 0.00147,
-      "atr14_hourly": 0.00912,
-      "bb_position": 0.301
+      "ema50": 0.96537,
+      "ema200": 0.9759,
+      "macd": -0.001722,
+      "macd_signal": -0.001817,
+      "rsi14": 39.2,
+      "atr14": 0.0014,
+      "atr14_hourly": 0.00887,
+      "bb_position": 0.275
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.272,
+      "percentile": 0.271,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 162792
+  "data_bars": 162793
 }
