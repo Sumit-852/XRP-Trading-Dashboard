@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-09T17:01:47.886411+00:00",
+  "timestamp": "2026-07-09T18:01:46.903319+00:00",
   "signal": {
-    "price": 0.9519,
+    "price": 0.9588,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3581,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.343,
+    "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
+      "score": 0.048,
       "bullish_pct": 45.0,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.183,
-        "crypto_macro": -0.02,
-        "geopolitical": -0.218,
-        "fed_rates": 0.106
+        "xrp": 0.189,
+        "crypto_macro": 0.008,
+        "geopolitical": -0.229,
+        "fed_rates": 0.127
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is HYPE Better Than XRP? We Compared Price, ETFs, and Growth Potential - Yahoo Finance",
         "Is HYPE Better Than XRP? We Compared Price, ETFs, and Growth Potential - 24/7 Wall St.",
-        "Is HYPE Better Than XRP? We Compared Price, ETFs, and Growth Potential - 24/7 Wall St."
+        "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
+        "XRP price news: Why traders eye this long-term breakout setup in Ripple-linked token - CoinDesk"
       ],
       "top_bearish": [
         "Crypto Today: BTC, ETH, XRP rebound as tensions weigh on risk - FXStreet",
-        "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags Major 'Wall' BT",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": -0.3549,
-      "vol_ratio": 0.01
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.25,
+      "health": -0.1634,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 0.95444,
-      "ema200": 0.9555,
-      "macd": -0.001197,
-      "macd_signal": -0.001333,
-      "rsi14": 44.7,
-      "atr14": 0.0013,
-      "atr14_hourly": 0.00555,
-      "bb_position": 0.41
+      "ema50": 0.95536,
+      "ema200": 0.95564,
+      "macd": 0.00127,
+      "macd_signal": 0.000628,
+      "rsi14": 62.5,
+      "atr14": 0.00134,
+      "atr14_hourly": 0.00655,
+      "bb_position": 0.844
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.192,
+      "percentile": 0.178,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163231
+  "data_bars": 163243
 }
