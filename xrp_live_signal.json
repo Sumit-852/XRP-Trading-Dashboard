@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-09T04:16:13.199854+00:00",
+  "timestamp": "2026-07-09T04:21:38.660106+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.951,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9504,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3695,
+    "hybrid_score": 2.9,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.032,
+      "bullish_pct": 35.0,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.025,
+        "crypto_macro": -0.088,
+        "geopolitical": -0.187,
+        "fed_rates": 0.128
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com",
+        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk"
+      ],
+      "top_bearish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
+        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.81,
+      "health": 0.0778,
+      "vol_ratio": 0.0
+    },
+    "technicals": {
+      "ema50": 0.95157,
+      "ema200": 0.95291,
+      "macd": -0.000131,
+      "macd_signal": -0.000207,
+      "rsi14": 46.2,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00581,
+      "bb_position": 0.493
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.224,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163078
+  "data_bars": 163079
 }
