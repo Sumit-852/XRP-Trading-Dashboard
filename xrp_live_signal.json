@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-09T05:57:08.262193+00:00",
+  "timestamp": "2026-07-09T06:02:01.084618+00:00",
   "signal": {
-    "price": 0.9609,
+    "price": 0.9617,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.363,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.3853,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.038,
-      "bullish_pct": 36.7,
-      "bearish_pct": 35.0,
+      "score": -0.082,
+      "bullish_pct": 31.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.004,
-        "crypto_macro": -0.055,
-        "geopolitical": -0.211,
-        "fed_rates": 0.128
+        "xrp": -0.052,
+        "crypto_macro": -0.101,
+        "geopolitical": -0.255,
+        "fed_rates": 0.098
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com",
-        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk"
+        "Here\u2019s why XRP\u2019s RWA market is now 4x larger than its entire ETF sector - AMBCrypto",
+        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk",
+        "KU Athletics announces jersey patch deal with cryptocurrency company Ripple - Lawrence Journal-World"
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
         "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags - Benzinga",
-        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga"
+        "Bitcoin nurses losses near $62k as US-Iran conflict re-escalates - Investing.com"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.82,
-      "health": 0.1523,
-      "vol_ratio": 0.05
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.83,
+      "health": 0.1292,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.95449,
-      "ema200": 0.95357,
-      "macd": 0.00204,
-      "macd_signal": 0.001598,
-      "rsi14": 69.0,
-      "atr14": 0.00133,
-      "atr14_hourly": 0.00673,
-      "bb_position": 0.893
+      "ema50": 0.95479,
+      "ema200": 0.95365,
+      "macd": 0.002214,
+      "macd_signal": 0.001728,
+      "rsi14": 72.1,
+      "atr14": 0.00128,
+      "atr14_hourly": 0.00675,
+      "bb_position": 0.935
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.242,
+      "percentile": 0.24,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163098
+  "data_bars": 163099
 }
