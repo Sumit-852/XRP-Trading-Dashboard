@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-09T13:05:41.621142+00:00",
+  "timestamp": "2026-07-09T14:01:56.160455+00:00",
   "signal": {
-    "price": 0.9605,
+    "price": 0.96,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4798,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.4112,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.016,
-      "bullish_pct": 43.3,
+      "score": 0.004,
+      "bullish_pct": 45.0,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.055,
+        "xrp": 0.155,
         "crypto_macro": -0.127,
-        "geopolitical": -0.109,
+        "geopolitical": -0.198,
         "fed_rates": 0.145
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
         "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
+        "XRP price news: Why traders eye this long-term breakout setup in Ripple-linked token - CoinDesk",
+        "U.S. judge behind landmark XRP ruling deals fresh blow - thestreet.com"
       ],
       "top_bearish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
+        "Crypto Today: BTC, ETH, XRP rebound as tensions weigh on risk - FXStreet",
         "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags Major 'Wall' BT",
-        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.42,
-      "health": 0.4337,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.35,
+      "health": 0.3537,
+      "vol_ratio": 1.1
     },
     "technicals": {
-      "ema50": 0.95662,
-      "ema200": 0.95572,
-      "macd": 0.000761,
-      "macd_signal": 0.000259,
-      "rsi14": 64.2,
-      "atr14": 0.00133,
-      "atr14_hourly": 0.0039,
-      "bb_position": 1.094
+      "ema50": 0.95755,
+      "ema200": 0.95608,
+      "macd": 0.000974,
+      "macd_signal": 0.000828,
+      "rsi14": 56.4,
+      "atr14": 0.00169,
+      "atr14_hourly": 0.00496,
+      "bb_position": 0.732
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.2,
+      "percentile": 0.186,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163184
+  "data_bars": 163195
 }
