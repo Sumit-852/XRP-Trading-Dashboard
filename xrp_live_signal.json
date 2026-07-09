@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-09T14:01:56.160455+00:00",
+  "timestamp": "2026-07-09T15:01:52.768841+00:00",
   "signal": {
-    "price": 0.96,
+    "price": 0.9565,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4112,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.3874,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.004,
-      "bullish_pct": 45.0,
-      "bearish_pct": 33.3,
+      "score": 0.0,
+      "bullish_pct": 43.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.155,
-        "crypto_macro": -0.127,
-        "geopolitical": -0.198,
+        "xrp": 0.1,
+        "crypto_macro": -0.052,
+        "geopolitical": -0.229,
         "fed_rates": 0.145
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
-        "XRP price news: Why traders eye this long-term breakout setup in Ripple-linked token - CoinDesk",
-        "U.S. judge behind landmark XRP ruling deals fresh blow - thestreet.com"
+        "U.S. judge behind landmark XRP ruling deals fresh blow - thestreet.com",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
       ],
       "top_bearish": [
         "Crypto Today: BTC, ETH, XRP rebound as tensions weigh on risk - FXStreet",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.35,
-      "health": 0.3537,
-      "vol_ratio": 1.1
+      "up_down_ratio": 1.72,
+      "health": 0.5242,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.95755,
-      "ema200": 0.95608,
-      "macd": 0.000974,
-      "macd_signal": 0.000828,
-      "rsi14": 56.4,
-      "atr14": 0.00169,
-      "atr14_hourly": 0.00496,
-      "bb_position": 0.732
+      "ema50": 0.95728,
+      "ema200": 0.95618,
+      "macd": -0.000473,
+      "macd_signal": -0.000135,
+      "rsi14": 47.4,
+      "atr14": 0.00187,
+      "atr14_hourly": 0.00639,
+      "bb_position": 0.323
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.186,
+      "percentile": 0.185,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163195
+  "data_bars": 163207
 }
