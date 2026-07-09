@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-09T19:01:48.941765+00:00",
+  "timestamp": "2026-07-09T20:01:43.035310+00:00",
   "signal": {
-    "price": 0.9559,
+    "price": 0.9594,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3676,
-    "hybrid_score": 4.2,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3394,
+    "hybrid_score": 4.0,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
-      "bullish_pct": 43.3,
-      "bearish_pct": 31.7,
+      "score": -0.05,
+      "bullish_pct": 35.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.138,
-        "crypto_macro": 0.052,
-        "geopolitical": -0.264,
-        "fed_rates": 0.129
+        "xrp": -0.004,
+        "crypto_macro": 0.012,
+        "geopolitical": -0.298,
+        "fed_rates": 0.022
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is HYPE Better Than XRP? We Compared Price, ETFs, and Growth Potential - 24/7 Wall St.",
         "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
-        "XRP price news: Why traders eye this long-term breakout setup in Ripple-linked token - CoinDesk"
+        "XRP price news: Why traders eye this long-term breakout setup in Ripple-linked token - CoinDesk",
+        "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com"
       ],
       "top_bearish": [
-        "Crypto Today: BTC, ETH, XRP rebound as tensions weigh on risk - FXStreet",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
+        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.59,
-      "health": -0.1415,
-      "vol_ratio": 0.08
+      "up_down_ratio": 1.6,
+      "health": -0.0913,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95656,
-      "ema200": 0.95598,
-      "macd": 0.000541,
-      "macd_signal": 0.001063,
-      "rsi14": 45.4,
-      "atr14": 0.00146,
-      "atr14_hourly": 0.00632,
-      "bb_position": 0.163
+      "ema50": 0.95721,
+      "ema200": 0.95622,
+      "macd": 0.000699,
+      "macd_signal": 0.00053,
+      "rsi14": 57.2,
+      "atr14": 0.00117,
+      "atr14_hourly": 0.00593,
+      "bb_position": 0.695
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.176,
+      "percentile": 0.174,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163255
+  "data_bars": 163267
 }
