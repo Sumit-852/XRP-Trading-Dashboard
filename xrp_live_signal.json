@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-09T10:01:59.752062+00:00",
+  "timestamp": "2026-07-09T11:02:04.487102+00:00",
   "signal": {
-    "price": 0.9568,
+    "price": 0.9556,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2311,
-    "hybrid_score": 3.4,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3532,
+    "hybrid_score": 5.4,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.02,
-      "bullish_pct": 43.3,
-      "bearish_pct": 28.3,
+      "score": -0.023,
+      "bullish_pct": 46.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.025,
-        "crypto_macro": -0.106,
-        "geopolitical": -0.051,
+        "crypto_macro": -0.067,
+        "geopolitical": -0.13,
         "fed_rates": 0.078
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "\u2018I\u2019ve Thrown in That Towel\u2019: ADA\u2019s Charles Hoskinson Finally Admits XRP\u2019s Model Won - Coinpedia",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com",
-        "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant - CoinDesk"
+        "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
       ],
       "top_bearish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces renewed selling, ETH weakens, XRP risks deeper losses - FX",
         "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags Major 'Wall' BT",
-        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga"
+        "Bitcoin nurses losses near $62k as US-Iran conflict re-escalates - Investing.com"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.15,
-      "health": 0.2572,
-      "vol_ratio": 0.02
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.26,
+      "health": 0.3139,
+      "vol_ratio": 0.97
     },
     "technicals": {
-      "ema50": 0.95753,
-      "ema200": 0.95552,
-      "macd": -0.000719,
-      "macd_signal": -0.00069,
-      "rsi14": 46.3,
-      "atr14": 0.00096,
-      "atr14_hourly": 0.00457,
-      "bb_position": 0.405
+      "ema50": 0.95706,
+      "ema200": 0.95562,
+      "macd": -0.000611,
+      "macd_signal": -0.000533,
+      "rsi14": 42.9,
+      "atr14": 0.00094,
+      "atr14_hourly": 0.00414,
+      "bb_position": 0.29
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163147
+  "data_bars": 163159
 }
