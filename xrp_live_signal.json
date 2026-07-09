@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-09T01:46:18.794738+00:00",
+  "timestamp": "2026-07-09T01:51:29.008871+00:00",
   "signal": {
-    "price": 0.9492,
+    "price": 0.9495,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3722,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.3944,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.76,
-      "health": 0.1531,
-      "vol_ratio": 0.05
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.77,
+      "health": 0.17,
+      "vol_ratio": 0.83
     },
     "technicals": {
-      "ema50": 0.95367,
-      "ema200": 0.95373,
-      "macd": -0.00037,
-      "macd_signal": 0.000152,
-      "rsi14": 36.5,
-      "atr14": 0.00173,
-      "atr14_hourly": 0.00711,
-      "bb_position": 0.069
+      "ema50": 0.95359,
+      "ema200": 0.9537,
+      "macd": -0.000531,
+      "macd_signal": 4.1e-05,
+      "rsi14": 37.6,
+      "atr14": 0.00188,
+      "atr14_hourly": 0.00756,
+      "bb_position": 0.113
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.243,
+      "percentile": 0.241,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.80%",
-    "portfolio_eur": 4915.96,
-    "total_pnl_pct": -1.681,
+    "reason": "HOLD LONG: P&L -0.77%",
+    "portfolio_eur": 4916.04,
+    "total_pnl_pct": -1.679,
     "position": "LONG",
     "xrp_held": 256.9875,
     "cash_eur": 4672.03,
     "trade_count": 59,
     "draw_levels": {
       "entry": 0.95684228,
-      "take_profit": 0.97476,
-      "stop_loss": 0.94609,
-      "trailing_stop": 0.94128
+      "take_profit": 0.97589,
+      "stop_loss": 0.94541,
+      "trailing_stop": 0.94038
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163048
+  "data_bars": 163049
 }
