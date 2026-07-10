@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-10T08:01:52.064245+00:00",
+  "timestamp": "2026-07-10T09:01:51.801157+00:00",
   "signal": {
-    "price": 0.9659,
+    "price": 0.9709,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3541,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3049,
+    "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.065,
-      "bullish_pct": 48.3,
-      "bearish_pct": 31.7,
+      "score": 0.007,
+      "bullish_pct": 43.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.216,
-        "crypto_macro": 0.073,
+        "xrp": 0.171,
+        "crypto_macro": -0.032,
         "geopolitical": -0.24,
-        "fed_rates": 0.054
+        "fed_rates": -0.013
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is HYPE Better Than XRP? We Compared Price, ETFs, and Growth Potential - 24/7 Wall St.",
         "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
-        "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com"
+        "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com",
+        "Bitcoin and ether exchange supplies hit historic lows but a rally isn't guaranteed ( - CoinDesk"
       ],
       "top_bearish": [
-        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise - The Motley Fool",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
-        "AscendEX crypto exchange shuts down, no assurance on user payouts - The Block"
+        "Ethereum Just Printed Its First Weekly Death Cross in Years. Is a Bigger Crypto Sell-Off Coming? - Bitcoin Foundation",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.35,
-      "health": -0.0037,
-      "vol_ratio": 0.02
+      "up_down_ratio": 1.28,
+      "health": -0.0929,
+      "vol_ratio": 0.2
     },
     "technicals": {
-      "ema50": 0.96624,
-      "ema200": 0.96209,
-      "macd": -0.000447,
-      "macd_signal": -0.000456,
-      "rsi14": 46.8,
-      "atr14": 0.0009,
-      "atr14_hourly": 0.00382,
-      "bb_position": 0.48
+      "ema50": 0.96851,
+      "ema200": 0.96323,
+      "macd": 0.001531,
+      "macd_signal": 0.001387,
+      "rsi14": 54.7,
+      "atr14": 0.00131,
+      "atr14_hourly": 0.00689,
+      "bb_position": 0.593
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.13,
+      "percentile": 0.154,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163411
+  "data_bars": 163423
 }
