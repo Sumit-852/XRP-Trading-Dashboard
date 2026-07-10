@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-10T12:01:49.861020+00:00",
+  "timestamp": "2026-07-10T13:01:50.301615+00:00",
   "signal": {
-    "price": 0.9729,
+    "price": 0.9682,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3715,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.4407,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.008,
-      "bullish_pct": 40.0,
-      "bearish_pct": 38.3,
+      "score": 0.028,
+      "bullish_pct": 45.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.172,
-        "crypto_macro": -0.156,
+        "xrp": 0.155,
+        "crypto_macro": -0.074,
         "geopolitical": -0.154,
-        "fed_rates": 0.017
+        "fed_rates": 0.143
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Prices Today: BTC, ETH and XRP Price Rally - TradingView",
-        "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com",
-        "Bitcoin and ether exchange supplies hit historic lows but a rally isn't guaranteed ( - CoinDesk"
+        "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
+        "XRP price jumps 2% on bitcoin strength as buyers push through $1.10 resistance - CoinDesk",
+        "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": -0.4431,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.0,
+      "health": -0.3317,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 0.97267,
-      "ema200": 0.96656,
-      "macd": -0.000468,
-      "macd_signal": -0.000222,
-      "rsi14": 47.5,
-      "atr14": 0.00111,
-      "atr14_hourly": 0.00525,
-      "bb_position": 0.355
+      "ema50": 0.97176,
+      "ema200": 0.967,
+      "macd": -0.001166,
+      "macd_signal": -0.000863,
+      "rsi14": 31.4,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00509,
+      "bb_position": -0.065
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.16,
+      "percentile": 0.141,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163459
+  "data_bars": 163471
 }
