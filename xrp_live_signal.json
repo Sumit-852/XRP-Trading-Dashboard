@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-10T11:01:49.478798+00:00",
+  "timestamp": "2026-07-10T12:01:49.861020+00:00",
   "signal": {
-    "price": 0.9734,
+    "price": 0.9729,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3504,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3715,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.019,
-      "bullish_pct": 38.3,
+      "score": -0.008,
+      "bullish_pct": 40.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.146,
-        "crypto_macro": -0.148,
-        "geopolitical": -0.168,
+        "xrp": 0.172,
+        "crypto_macro": -0.156,
+        "geopolitical": -0.154,
         "fed_rates": 0.017
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Crypto Prices Today: BTC, ETH and XRP Price Rally - TradingView",
         "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com",
-        "Bitcoin and ether exchange supplies hit historic lows but a rally isn't guaranteed ( - CoinDesk",
-        "Crypto News Today (July 10): BTC Surging Toward $65K, Polymarket Eyeing Margin Trading, and Interpol Busts $122M Crypto "
+        "Bitcoin and ether exchange supplies hit historic lows but a rally isn't guaranteed ( - CoinDesk"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.01,
-      "health": -0.302,
-      "vol_ratio": 0.49
+      "up_down_ratio": 0.89,
+      "health": -0.4431,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.97262,
-      "ema200": 0.96576,
-      "macd": 0.000698,
-      "macd_signal": 0.001127,
-      "rsi14": 45.8,
-      "atr14": 0.00124,
-      "atr14_hourly": 0.00532,
-      "bb_position": 0.031
+      "ema50": 0.97267,
+      "ema200": 0.96656,
+      "macd": -0.000468,
+      "macd_signal": -0.000222,
+      "rsi14": 47.5,
+      "atr14": 0.00111,
+      "atr14_hourly": 0.00525,
+      "bb_position": 0.355
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.158,
+      "percentile": 0.16,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163447
+  "data_bars": 163459
 }
