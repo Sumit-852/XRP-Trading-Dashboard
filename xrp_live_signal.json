@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-10T10:01:57.023201+00:00",
+  "timestamp": "2026-07-10T11:01:49.478798+00:00",
   "signal": {
-    "price": 0.9755,
+    "price": 0.9734,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4403,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.3504,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.014,
-      "bullish_pct": 43.3,
+      "score": -0.019,
+      "bullish_pct": 38.3,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.123,
-        "crypto_macro": 0.005,
+        "xrp": 0.146,
+        "crypto_macro": -0.148,
         "geopolitical": -0.168,
-        "fed_rates": -0.013
+        "fed_rates": 0.017
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Metaplanet announces join study to bring BTC-powered digital credit to Japan - CoinDesk",
         "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com",
-        "Bitcoin and ether exchange supplies hit historic lows but a rally isn't guaranteed ( - CoinDesk"
+        "Bitcoin and ether exchange supplies hit historic lows but a rally isn't guaranteed ( - CoinDesk",
+        "Crypto News Today (July 10): BTC Surging Toward $65K, Polymarket Eyeing Margin Trading, and Interpol Busts $122M Crypto "
       ],
       "top_bearish": [
+        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise - The Motley Fool",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": -0.1837,
-      "vol_ratio": 0.08
+      "up_down_ratio": 1.01,
+      "health": -0.302,
+      "vol_ratio": 0.49
     },
     "technicals": {
-      "ema50": 0.97106,
-      "ema200": 0.96457,
-      "macd": 0.001812,
-      "macd_signal": 0.001816,
-      "rsi14": 62.2,
+      "ema50": 0.97262,
+      "ema200": 0.96576,
+      "macd": 0.000698,
+      "macd_signal": 0.001127,
+      "rsi14": 45.8,
       "atr14": 0.00124,
-      "atr14_hourly": 0.00639,
-      "bb_position": 0.685
+      "atr14_hourly": 0.00532,
+      "bb_position": 0.031
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.154,
+      "percentile": 0.158,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163435
+  "data_bars": 163447
 }
