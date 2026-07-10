@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-10T18:01:59.369253+00:00",
+  "timestamp": "2026-07-10T19:01:50.527517+00:00",
   "signal": {
-    "price": 0.9644,
+    "price": 0.9615,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.474,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.3569,
+    "hybrid_score": 2.9,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.03,
-      "bullish_pct": 38.3,
-      "bearish_pct": 40.0,
+      "score": -0.02,
+      "bullish_pct": 36.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.055,
-        "crypto_macro": -0.149,
-        "geopolitical": -0.14,
+        "xrp": 0.091,
+        "crypto_macro": -0.146,
+        "geopolitical": -0.166,
         "fed_rates": 0.136
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC gears up for a breakout, ETH tests key EMA, XRP holds support - ",
-        "Bitcoin Prediction Markets: Best Sites to Trade BTC in 2026 - SailGP",
-        "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com"
+        "Analysts flag 'most encouraging signals' for Bitcoin and Ethereum - thestreet.com",
+        "U.S. judge behind landmark XRP ruling deals fresh blow - thestreet.com"
       ],
       "top_bearish": [
-        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga",
         "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.6,
-      "health": -0.427,
-      "vol_ratio": 0.02
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.58,
+      "health": -0.4775,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 0.96537,
-      "ema200": 0.96624,
-      "macd": -8.7e-05,
-      "macd_signal": -8.4e-05,
-      "rsi14": 49.1,
-      "atr14": 0.00123,
-      "atr14_hourly": 0.00521,
-      "bb_position": 0.509
+      "ema50": 0.9645,
+      "ema200": 0.9659,
+      "macd": -0.000778,
+      "macd_signal": -0.000439,
+      "rsi14": 39.6,
+      "atr14": 0.00121,
+      "atr14_hourly": 0.00485,
+      "bb_position": 0.098
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.115,
+      "percentile": 0.107,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163531
+  "data_bars": 163543
 }
