@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-11T07:01:51.000562+00:00",
+  "timestamp": "2026-07-11T08:01:53.698779+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9697,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9696,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.1953,
+    "hybrid_score": 1.9,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.027,
+      "bullish_pct": 40.0,
+      "bearish_pct": 36.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.123,
+        "crypto_macro": -0.263,
+        "geopolitical": -0.086,
+        "fed_rates": 0.146
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC gears up for a breakout, ETH tests key EMA, XRP holds support - ",
+        "Can Ripple (XRP) Get a Slice of SWIFT? A Former SWIFT Exec Says No - 24/7 Wall St.",
+        "U.S. judge behind landmark XRP ruling deals fresh blow - thestreet.com"
+      ],
+      "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.52,
+      "health": -0.0139,
+      "vol_ratio": 0.48
+    },
+    "technicals": {
+      "ema50": 0.96948,
+      "ema200": 0.96804,
+      "macd": 0.000203,
+      "macd_signal": 0.000274,
+      "rsi14": 47.6,
+      "atr14": 0.00059,
+      "atr14_hourly": 0.00227,
+      "bb_position": 0.125
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.041,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163687
+  "data_bars": 163699
 }
