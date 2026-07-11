@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-11T19:01:43.310222+00:00",
+  "timestamp": "2026-07-11T20:01:48.497945+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9783,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9774,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2507,
+    "hybrid_score": 3.4,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.096,
+      "bullish_pct": 30.0,
+      "bearish_pct": 46.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.089,
+        "crypto_macro": -0.386,
+        "geopolitical": -0.11,
+        "fed_rates": 0.038
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": true,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC gears up for a breakout, ETH tests key EMA, XRP holds support - ",
+        "What is the CLARITY Act and Why Does it Matter for Crypto - Kavout | AI",
+        "Crypto Market Adds $170 Billion in 10 Days as Bitcoin Reclaims $64K: Here's What's Driving the Surge - Cryptonews.net"
+      ],
+      "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.26,
+      "health": 0.1042,
+      "vol_ratio": 0.0
+    },
+    "technicals": {
+      "ema50": 0.97664,
+      "ema200": 0.973,
+      "macd": 8.5e-05,
+      "macd_signal": 0.000321,
+      "rsi14": 50.4,
+      "atr14": 0.00075,
+      "atr14_hourly": 0.00406,
+      "bb_position": 0.35
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.011,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163831
+  "data_bars": 163843
 }
