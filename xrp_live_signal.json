@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-11T04:01:44.871572+00:00",
+  "timestamp": "2026-07-11T05:01:42.524917+00:00",
   "signal": {
-    "price": 0.97,
+    "price": 0.9672,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2418,
+    "xgb_prob": 0.2551,
     "hybrid_score": 2.2,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.041,
-      "bullish_pct": 38.3,
-      "bearish_pct": 41.7,
+      "score": -0.065,
+      "bullish_pct": 36.7,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.098,
-        "crypto_macro": -0.22,
-        "geopolitical": -0.144,
-        "fed_rates": 0.098
+        "xrp": 0.033,
+        "crypto_macro": -0.248,
+        "geopolitical": -0.122,
+        "fed_rates": 0.128
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC gears up for a breakout, ETH tests key EMA, XRP holds support - ",
         "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP",
-        "Can Ripple (XRP) Get a Slice of SWIFT? A Former SWIFT Exec Says No - 24/7 Wall St."
+        "U.S. judge behind landmark XRP ruling deals fresh blow - thestreet.com"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
-        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "XRP Plunges 4%: Why Is It Going Down Again? - Benzinga",
+        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.55,
-      "health": -0.0089,
+      "up_down_ratio": 0.51,
+      "health": -0.0651,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96855,
-      "ema200": 0.9672,
-      "macd": 0.000705,
-      "macd_signal": 0.00065,
-      "rsi14": 57.2,
-      "atr14": 0.00067,
-      "atr14_hourly": 0.00317,
-      "bb_position": 0.662
+      "ema50": 0.96844,
+      "ema200": 0.96733,
+      "macd": -0.000382,
+      "macd_signal": -4e-05,
+      "rsi14": 35.3,
+      "atr14": 0.00055,
+      "atr14_hourly": 0.00337,
+      "bb_position": 0.095
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.054,
+      "percentile": 0.048,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163651
+  "data_bars": 163663
 }
