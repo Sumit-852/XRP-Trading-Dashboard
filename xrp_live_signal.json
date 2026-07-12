@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-07-12T16:01:50.017214+00:00",
+  "timestamp": "2026-07-12T17:01:54.053663+00:00",
   "signal": {
-    "price": 0.9654,
+    "price": 0.9644,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3018,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.2539,
+    "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.121,
-      "bullish_pct": 23.3,
-      "bearish_pct": 40.0,
+      "score": -0.139,
+      "bullish_pct": 25.0,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.061,
-        "crypto_macro": -0.301,
-        "geopolitical": -0.394,
-        "fed_rates": 0.124
+        "crypto_macro": -0.334,
+        "geopolitical": -0.426,
+        "fed_rates": 0.111
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": true,
       "news_driven_crash": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Markets Prove Resilient as Iran Closes Strait of Hormuz Again - CryptoRank",
-        "Crypto Markets Prove Resilient as Iran Closes Strait of Hormuz Again - BeInCrypto",
+        "Bitcoin steadies above $64,000 as investors shrug off Hormuz tensions By Investing.com - Investing.com",
         "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 2.3,
-      "health": 0.4338,
-      "vol_ratio": 1.1
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.88,
+      "health": 0.2326,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96295,
-      "ema200": 0.96245,
-      "macd": 0.000757,
-      "macd_signal": 0.000748,
-      "rsi14": 56.8,
-      "atr14": 0.00097,
-      "atr14_hourly": 0.00438,
-      "bb_position": 0.681
+      "ema50": 0.96351,
+      "ema200": 0.96268,
+      "macd": 0.000188,
+      "macd_signal": 0.000322,
+      "rsi14": 51.1,
+      "atr14": 0.00082,
+      "atr14_hourly": 0.00369,
+      "bb_position": 0.412
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164083
+  "data_bars": 164095
 }
