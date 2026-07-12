@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-12T11:01:41.596663+00:00",
+  "timestamp": "2026-07-12T12:01:48.795721+00:00",
   "signal": {
-    "price": 0.9587,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9605,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2213,
-    "hybrid_score": 3.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.089,
-      "bullish_pct": 23.3,
-      "bearish_pct": 38.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.083,
-        "crypto_macro": -0.241,
-        "geopolitical": -0.351,
-        "fed_rates": 0.111
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC gears up for a breakout, ETH tests key EMA, XRP holds support - ",
-        "Ethereum Rallied 8% This Month While XRP Fell. Which Is the Better Buy? - 24/7 Wall St.",
-        "U.S. judge behind landmark XRP ruling deals fresh blow - Yahoo Finance Singapore"
-      ],
-      "top_bearish": [
-        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise - The Motley Fool"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.48,
-      "health": 0.144,
-      "vol_ratio": 0.23
-    },
-    "technicals": {
-      "ema50": 0.95823,
-      "ema200": 0.96223,
-      "macd": 0.00027,
-      "macd_signal": 0.000374,
-      "rsi14": 52.3,
-      "atr14": 0.0006,
-      "atr14_hourly": 0.00347,
-      "bb_position": 0.5
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.039,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164023
+  "data_bars": 164035
 }
