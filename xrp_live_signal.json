@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-12T07:01:52.143590+00:00",
+  "timestamp": "2026-07-12T08:01:46.518917+00:00",
   "signal": {
-    "price": 0.9556,
+    "price": 0.9559,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2716,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.214,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.076,
-      "bullish_pct": 30.0,
-      "bearish_pct": 41.7,
+      "sentiment": "BEARISH",
+      "score": -0.125,
+      "bullish_pct": 25.0,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.016,
-        "crypto_macro": -0.141,
-        "geopolitical": -0.316,
-        "fed_rates": 0.127
+        "xrp": -0.035,
+        "crypto_macro": -0.187,
+        "geopolitical": -0.401,
+        "fed_rates": 0.12
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC gears up for a breakout, ETH tests key EMA, XRP holds support - ",
         "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP",
-        "Ethereum Rallied 8% This Month While XRP Fell. Which Is the Better Buy? - 24/7 Wall St."
+        "Ethereum Rallied 8% This Month While XRP Fell. Which Is the Better Buy? - 24/7 Wall St.",
+        "XRP Price Hovers At $1.11 As Ripple Seals Partnership Deals - MarketForces Africa"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.46,
-      "health": 0.1327,
-      "vol_ratio": 0.05
+      "up_down_ratio": 1.56,
+      "health": 0.199,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95838,
-      "ema200": 0.9649,
-      "macd": -0.001153,
-      "macd_signal": -0.001353,
-      "rsi14": 43.0,
-      "atr14": 0.00089,
-      "atr14_hourly": 0.00508,
-      "bb_position": 0.421
+      "ema50": 0.95759,
+      "ema200": 0.96394,
+      "macd": -0.00041,
+      "macd_signal": -0.00051,
+      "rsi14": 45.2,
+      "atr14": 0.00065,
+      "atr14_hourly": 0.00416,
+      "bb_position": 0.526
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 163975
+  "data_bars": 163987
 }
