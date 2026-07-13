@@ -1,20 +1,70 @@
 {
-  "timestamp": "2026-07-13T12:01:49.163298+00:00",
+  "timestamp": "2026-07-13T13:01:52.620744+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9415,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9384,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.4091,
+    "hybrid_score": 3.1,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "action": "HOLD",
+    "news": {
+      "sentiment": "BEARISH",
+      "score": -0.157,
+      "bullish_pct": 21.7,
+      "bearish_pct": 48.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": -0.019,
+        "crypto_macro": -0.221,
+        "geopolitical": -0.449,
+        "fed_rates": -0.011
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces $64K hurdle, ETH signals caution, XRP defends key support ",
+        "XRP Buoys As SWIFT Taps Ripple\u2019s Partner Banks For Tokenised Payment - MarketForces Africa",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
+      ],
+      "top_bearish": [
+        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.43,
+      "health": -0.3918,
+      "vol_ratio": 0.15
+    },
+    "technicals": {
+      "ema50": 0.94196,
+      "ema200": 0.9473,
+      "macd": -0.001305,
+      "macd_signal": -0.000978,
+      "rsi14": 35.2,
+      "atr14": 0.00105,
+      "atr14_hourly": 0.0048,
+      "bb_position": 0.199
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.225,
       "extreme": false
     }
   },
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164323
+  "data_bars": 164335
 }
