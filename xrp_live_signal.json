@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-07-13T19:02:21.095869+00:00",
+  "timestamp": "2026-07-13T20:01:46.160811+00:00",
   "signal": {
-    "price": 0.9314,
+    "price": 0.9361,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4237,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.2989,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": -0.097,
+      "bullish_pct": 26.7,
+      "bearish_pct": 41.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": -0.003,
+        "crypto_macro": -0.13,
+        "geopolitical": -0.3,
+        "fed_rates": -0.014
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Today's Crypto News: Circle's Federal Trust Bank Boost - Investing News Network",
+        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St.",
+        "XRP Buoys As SWIFT Taps Ripple\u2019s Partner Banks For Tokenised Payment - MarketForces Africa"
+      ],
+      "top_bearish": [
+        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+      ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.53,
-      "health": 0.1981,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.47,
+      "health": 0.1053,
+      "vol_ratio": 0.23
     },
     "technicals": {
-      "ema50": 0.93485,
-      "ema200": 0.94179,
-      "macd": -0.001599,
-      "macd_signal": -0.002108,
-      "rsi14": 45.2,
-      "atr14": 0.00147,
-      "atr14_hourly": 0.00685,
-      "bb_position": 0.54
+      "ema50": 0.93469,
+      "ema200": 0.94093,
+      "macd": 0.000805,
+      "macd_signal": 4.4e-05,
+      "rsi14": 59.6,
+      "atr14": 0.00154,
+      "atr14_hourly": 0.00672,
+      "bb_position": 0.818
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -51,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.259,
+      "percentile": 0.265,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164407
+  "data_bars": 164419
 }
