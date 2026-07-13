@@ -1,70 +1,20 @@
 {
-  "timestamp": "2026-07-13T11:01:55.107648+00:00",
+  "timestamp": "2026-07-13T12:01:49.163298+00:00",
   "signal": {
-    "price": 0.9414,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9415,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4025,
-    "hybrid_score": 3.0,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
     "exit_signal": false,
-    "action": "HOLD",
-    "news": {
-      "sentiment": "BEARISH",
-      "score": -0.211,
-      "bullish_pct": 18.3,
-      "bearish_pct": 51.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": -0.034,
-        "crypto_macro": -0.245,
-        "geopolitical": -0.673,
-        "fed_rates": -0.011
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces $64K hurdle, ETH signals caution, XRP defends key support ",
-        "XRP Buoys As SWIFT Taps Ripple\u2019s Partner Banks For Tokenised Payment - MarketForces Africa",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
-      ],
-      "top_bearish": [
-        "XRP News: Garlinghouse Breaks Silence on Ripple\u2019s Near Shutdown During SEC War - TradingView",
-        "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.44,
-      "health": -0.4439,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.94327,
-      "ema200": 0.94884,
-      "macd": -0.000621,
-      "macd_signal": -0.000521,
-      "rsi14": 41.3,
-      "atr14": 0.00077,
-      "atr14_hourly": 0.00316,
-      "bb_position": 0.224
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.218,
+      "percentile": 0.5,
       "extreme": false
     }
   },
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164311
+  "data_bars": 164323
 }
