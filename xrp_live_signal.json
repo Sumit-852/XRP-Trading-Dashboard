@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-13T05:01:52.964358+00:00",
+  "timestamp": "2026-07-13T06:01:51.502624+00:00",
   "signal": {
-    "price": 0.9404,
+    "price": 0.9442,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4617,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.39,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.169,
-      "bullish_pct": 16.7,
-      "bearish_pct": 46.7,
+      "score": -0.192,
+      "bullish_pct": 15.0,
+      "bearish_pct": 48.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.025,
-        "crypto_macro": -0.252,
-        "geopolitical": -0.592,
+        "crypto_macro": -0.179,
+        "geopolitical": -0.834,
         "fed_rates": 0.041
       },
       "geo_shock": true,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC gears up for a breakout, ETH tests key EMA, XRP holds support - ",
-        "XRP Buoys As SWIFT Taps Ripple\u2019s Partner Banks For Tokenised Payment - MarketForces Africa",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
+        "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP",
+        "XRP Buoys As SWIFT Taps Ripple\u2019s Partner Banks For Tokenised Payment - MarketForces Africa"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.69,
-      "health": -0.5809,
-      "vol_ratio": 2.19
+      "up_down_ratio": 0.72,
+      "health": -0.5218,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 0.94542,
-      "ema200": 0.95439,
-      "macd": -0.001313,
-      "macd_signal": -0.00157,
-      "rsi14": 41.0,
-      "atr14": 0.00161,
-      "atr14_hourly": 0.00775,
-      "bb_position": 0.364
+      "ema50": 0.94462,
+      "ema200": 0.95314,
+      "macd": 6.4e-05,
+      "macd_signal": -0.00028,
+      "rsi14": 54.1,
+      "atr14": 0.00156,
+      "atr14_hourly": 0.00696,
+      "bb_position": 0.814
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.209,
+      "percentile": 0.223,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164239
+  "data_bars": 164251
 }
