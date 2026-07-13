@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-13T16:01:55.548575+00:00",
+  "timestamp": "2026-07-13T17:01:55.630983+00:00",
   "signal": {
-    "price": 0.9399,
+    "price": 0.9395,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3706,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.4204,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.143,
-      "bullish_pct": 21.7,
-      "bearish_pct": 45.0,
+      "score": -0.144,
+      "bullish_pct": 20.0,
+      "bearish_pct": 50.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.006,
-        "crypto_macro": -0.198,
-        "geopolitical": -0.435,
-        "fed_rates": -0.041
+        "xrp": 0.079,
+        "crypto_macro": -0.226,
+        "geopolitical": -0.43,
+        "fed_rates": -0.18
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Price To $13? Rare 1,100% Growth Signal Flashes as XRP Tops Forbes Ranking - Yahoo Finance",
         "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St.",
-        "XRP Buoys As SWIFT Taps Ripple\u2019s Partner Banks For Tokenised Payment - MarketForces Africa",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
+        "Will XRP fall below $1 as the Clarity Act stalls in the Senate? - MSN"
       ],
       "top_bearish": [
         "Bitcoin (BTC) price challenges Monday's rejection level as ether (ETH) looks to break its streak of lower highs - CoinDe",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.48,
-      "health": 0.0974,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.49,
+      "health": 0.1849,
+      "vol_ratio": 0.79
     },
     "technicals": {
-      "ema50": 0.94134,
-      "ema200": 0.94523,
-      "macd": 0.000266,
-      "macd_signal": 0.000892,
-      "rsi14": 43.2,
-      "atr14": 0.00151,
-      "atr14_hourly": 0.0074,
-      "bb_position": 0.15
+      "ema50": 0.94025,
+      "ema200": 0.94447,
+      "macd": -0.000828,
+      "macd_signal": -0.000701,
+      "rsi14": 49.0,
+      "atr14": 0.00144,
+      "atr14_hourly": 0.007,
+      "bb_position": 0.45
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.245,
+      "percentile": 0.252,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164371
+  "data_bars": 164383
 }
