@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-14T19:01:53.317927+00:00",
+  "timestamp": "2026-07-14T20:01:55.384348+00:00",
   "signal": {
-    "price": 0.9742,
+    "price": 0.9747,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4042,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.4852,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.001,
-      "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "score": -0.048,
+      "bullish_pct": 26.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.233,
-        "crypto_macro": -0.103,
-        "geopolitical": -0.265,
+        "xrp": 0.151,
+        "crypto_macro": -0.185,
+        "geopolitical": -0.233,
         "fed_rates": -0.037
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
         "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk",
-        "Binance bets on becoming a crypto super app amid stablecoin growth - Crypto Briefing"
+        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.25,
-      "health": 0.4642,
-      "vol_ratio": 0.86
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.32,
+      "health": 0.2493,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.96473,
-      "ema200": 0.95163,
-      "macd": 0.00205,
-      "macd_signal": 0.001204,
-      "rsi14": 75.8,
-      "atr14": 0.00158,
-      "atr14_hourly": 0.00674,
-      "bb_position": 1.054
+      "ema50": 0.96907,
+      "ema200": 0.9544,
+      "macd": 0.002477,
+      "macd_signal": 0.002705,
+      "rsi14": 56.7,
+      "atr14": 0.00248,
+      "atr14_hourly": 0.00953,
+      "bb_position": 0.571
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.236,
+      "percentile": 0.255,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164695
+  "data_bars": 164707
 }
