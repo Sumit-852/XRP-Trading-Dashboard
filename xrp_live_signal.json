@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-14T10:01:55.455605+00:00",
+  "timestamp": "2026-07-14T11:01:48.363930+00:00",
   "signal": {
-    "price": 0.9366,
+    "price": 0.9389,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2457,
-    "hybrid_score": 3.5,
+    "xgb_prob": 0.3371,
+    "hybrid_score": 2.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
-      "bullish_pct": 35.0,
-      "bearish_pct": 23.3,
+      "score": 0.048,
+      "bullish_pct": 33.3,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.198,
-        "crypto_macro": -0.179,
-        "geopolitical": 0.017,
-        "fed_rates": 0.091
+        "xrp": 0.147,
+        "crypto_macro": -0.021,
+        "geopolitical": -0.052,
+        "fed_rates": 0.06
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Retail traders are hyping up XRP and ether during a dip, but history says a crash could be next - CoinDesk",
         "Crypto Market Today, July 13: Crypto Slides on Renewed Inflation Fears - The Motley Fool",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "Iran war: Strait of Hormuz blockade returns as U.S. and Iran trade weekend fire - FOX 10 Phoenix"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.61,
-      "health": 0.0606,
-      "vol_ratio": 0.01
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.72,
+      "health": 0.183,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.93715,
-      "ema200": 0.93708,
-      "macd": -0.000288,
-      "macd_signal": -0.000222,
-      "rsi14": 45.6,
-      "atr14": 0.00074,
-      "atr14_hourly": 0.00257,
-      "bb_position": 0.295
+      "ema50": 0.9375,
+      "ema200": 0.93718,
+      "macd": 0.000455,
+      "macd_signal": 0.000185,
+      "rsi14": 58.8,
+      "atr14": 0.00091,
+      "atr14_hourly": 0.00295,
+      "bb_position": 0.845
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.073,
+      "percentile": 0.072,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164587
+  "data_bars": 164599
 }
