@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-14T20:01:55.384348+00:00",
+  "timestamp": "2026-07-14T21:01:55.267064+00:00",
   "signal": {
-    "price": 0.9747,
+    "price": 0.9717,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4852,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.4293,
+    "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.048,
+      "score": -0.043,
       "bullish_pct": 26.7,
-      "bearish_pct": 35.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.151,
-        "crypto_macro": -0.185,
-        "geopolitical": -0.233,
-        "fed_rates": -0.037
+        "xrp": 0.153,
+        "crypto_macro": -0.207,
+        "geopolitical": -0.213,
+        "fed_rates": 0.005
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
         "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk",
-        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St."
+        "Ripple-backed Evernorth unveils $44M CEO award before XRP debut - Crypto News"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.32,
-      "health": 0.2493,
-      "vol_ratio": 0.22
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.24,
+      "health": 0.1965,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.96907,
-      "ema200": 0.9544,
-      "macd": 0.002477,
-      "macd_signal": 0.002705,
-      "rsi14": 56.7,
-      "atr14": 0.00248,
-      "atr14_hourly": 0.00953,
-      "bb_position": 0.571
+      "ema50": 0.9702,
+      "ema200": 0.9564,
+      "macd": 4.7e-05,
+      "macd_signal": 0.000608,
+      "rsi14": 47.3,
+      "atr14": 0.00164,
+      "atr14_hourly": 0.00796,
+      "bb_position": 0.261
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.255,
+      "percentile": 0.247,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164707
+  "data_bars": 164719
 }
