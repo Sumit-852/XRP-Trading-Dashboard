@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-14T01:01:55.144800+00:00",
+  "timestamp": "2026-07-14T02:01:40.114574+00:00",
   "signal": {
-    "price": 0.9379,
+    "price": 0.9345,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2738,
-    "hybrid_score": 2.3,
+    "xgb_prob": 0.2537,
+    "hybrid_score": 2.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.077,
-      "bullish_pct": 26.7,
-      "bearish_pct": 40.0,
+      "score": -0.053,
+      "bullish_pct": 30.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.066,
+        "xrp": 0.108,
         "crypto_macro": -0.132,
-        "geopolitical": -0.36,
-        "fed_rates": 0.027
+        "geopolitical": -0.335,
+        "fed_rates": 0.051
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Price To $13? Rare 1,100% Growth Signal Flashes as XRP Tops Forbes Ranking - CCN.com",
         "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
-        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St.",
-        "XRP Buoys As SWIFT Taps Ripple\u2019s Partner Banks For Tokenised Payment - MarketForces Africa"
+        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Crypto Market Today, July 13: Crypto Slides on Renewed Inflation Fears - The Motley Fool",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.6,
-      "health": 0.2194,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.54,
+      "health": 0.1597,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.93419,
-      "ema200": 0.93739,
-      "macd": 0.001241,
-      "macd_signal": 0.001197,
-      "rsi14": 66.4,
-      "atr14": 0.00112,
-      "atr14_hourly": 0.00506,
-      "bb_position": 0.915
+      "ema50": 0.93504,
+      "ema200": 0.9373,
+      "macd": 9.2e-05,
+      "macd_signal": 0.000628,
+      "rsi14": 42.3,
+      "atr14": 0.00088,
+      "atr14_hourly": 0.00481,
+      "bb_position": 0.131
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.164,
+      "percentile": 0.14,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164479
+  "data_bars": 164491
 }
