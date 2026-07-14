@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-14T08:01:47.787682+00:00",
+  "timestamp": "2026-07-14T09:01:54.509113+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.937,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9365,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2352,
+    "hybrid_score": 2.2,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.004,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.126,
+        "crypto_macro": -0.151,
+        "geopolitical": -0.08,
+        "fed_rates": 0.058
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC faces $64K hurdle, ETH signals caution, XRP defends key support ",
+        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St."
+      ],
+      "top_bearish": [
+        "Crypto Market Today, July 13: Crypto Slides on Renewed Inflation Fears - The Motley Fool",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.6,
+      "health": 0.0214,
+      "vol_ratio": 0.04
+    },
+    "technicals": {
+      "ema50": 0.93733,
+      "ema200": 0.9371,
+      "macd": -0.00028,
+      "macd_signal": -0.000245,
+      "rsi14": 42.2,
+      "atr14": 0.00065,
+      "atr14_hourly": 0.00273,
+      "bb_position": 0.302
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.074,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164563
+  "data_bars": 164575
 }
