@@ -1,20 +1,70 @@
 {
-  "timestamp": "2026-07-15T07:01:51.879551+00:00",
+  "timestamp": "2026-07-15T08:01:51.345184+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9683,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.966,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.4016,
+    "hybrid_score": 4.4,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "action": "HOLD",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.064,
+      "bullish_pct": 26.7,
+      "bearish_pct": 40.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.103,
+        "crypto_macro": -0.087,
+        "geopolitical": -0.336,
+        "fed_rates": -0.099
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
+        "When Modest Bitcoin ETF Inflows Begin to Feel Meaningful - Bloomberg.com",
+        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk"
+      ],
+      "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Prediction: XRP Will Lose 50% of Its Value -- Here's Why - The Motley Fool"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.07,
+      "health": -0.1828,
+      "vol_ratio": 0.6
+    },
+    "technicals": {
+      "ema50": 0.96644,
+      "ema200": 0.96386,
+      "macd": -0.000236,
+      "macd_signal": 0.000153,
+      "rsi14": 46.3,
+      "atr14": 0.00102,
+      "atr14_hourly": 0.00627,
+      "bb_position": 0.273
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.261,
       "extreme": false
     }
   },
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164839
+  "data_bars": 164851
 }
