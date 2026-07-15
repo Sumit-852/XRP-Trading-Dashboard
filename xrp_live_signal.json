@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-15T05:01:49.186449+00:00",
+  "timestamp": "2026-07-15T06:01:50.866355+00:00",
   "signal": {
-    "price": 0.9651,
+    "price": 0.967,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3671,
-    "hybrid_score": 4.2,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3849,
+    "hybrid_score": 4.3,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.044,
-      "bullish_pct": 28.3,
+      "score": -0.027,
+      "bullish_pct": 30.0,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.159,
-        "crypto_macro": -0.109,
-        "geopolitical": -0.306,
+        "xrp": 0.135,
+        "crypto_macro": -0.023,
+        "geopolitical": -0.301,
         "fed_rates": -0.099
       },
       "geo_shock": true,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
-        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk",
-        "Ripple XRP Gains Attention After SWIFT Blockchain Expansion - Yahoo Finance"
+        "When Modest Bitcoin ETF Inflows Begin to Feel Meaningful - Bloomberg.com",
+        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk"
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": -0.1517,
-      "vol_ratio": 0.45
+      "up_down_ratio": 1.05,
+      "health": -0.2028,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.96482,
-      "ema200": 0.96263,
-      "macd": 0.000217,
-      "macd_signal": 0.00012,
-      "rsi14": 55.7,
-      "atr14": 0.00093,
+      "ema50": 0.96435,
+      "ema200": 0.96272,
+      "macd": 0.000361,
+      "macd_signal": -5.4e-05,
+      "rsi14": 65.8,
+      "atr14": 0.00098,
       "atr14_hourly": 0.00436,
-      "bb_position": 0.695
+      "bb_position": 1.073
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.225,
+      "percentile": 0.23,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164815
+  "data_bars": 164827
 }
