@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-15T06:01:50.866355+00:00",
+  "timestamp": "2026-07-15T07:01:51.879551+00:00",
   "signal": {
-    "price": 0.967,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9683,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3849,
-    "hybrid_score": 4.3,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.027,
-      "bullish_pct": 30.0,
-      "bearish_pct": 40.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.135,
-        "crypto_macro": -0.023,
-        "geopolitical": -0.301,
-        "fed_rates": -0.099
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
-        "When Modest Bitcoin ETF Inflows Begin to Feel Meaningful - Bloomberg.com",
-        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk"
-      ],
-      "top_bearish": [
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Prediction: XRP Will Lose 50% of Its Value -- Here's Why - The Motley Fool",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": -0.2028,
-      "vol_ratio": 0.01
-    },
-    "technicals": {
-      "ema50": 0.96435,
-      "ema200": 0.96272,
-      "macd": 0.000361,
-      "macd_signal": -5.4e-05,
-      "rsi14": 65.8,
-      "atr14": 0.00098,
-      "atr14_hourly": 0.00436,
-      "bb_position": 1.073
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.23,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164827
+  "data_bars": 164839
 }
