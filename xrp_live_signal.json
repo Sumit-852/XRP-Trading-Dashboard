@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-15T20:01:46.980912+00:00",
+  "timestamp": "2026-07-15T21:01:47.781661+00:00",
   "signal": {
-    "price": 0.9672,
+    "price": 0.9695,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3633,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.3048,
+    "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.011,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": -0.03,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.117,
-        "crypto_macro": -0.013,
-        "geopolitical": -0.279,
+        "xrp": 0.098,
+        "crypto_macro": -0.063,
+        "geopolitical": -0.266,
         "fed_rates": 0.009
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Price to $110? Lummis Says CLARITY Act Targets July 20 as Bulls Predict 'Millionaire' Rally - CCN.com",
-        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk",
+        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St.",
         "Best crypto exchanges for fast sign-up and trading in 2026 - Crypto Briefing"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Prediction: XRP Will Lose 50% of Its Value -- Here's Why - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.85,
-      "health": -0.2273,
-      "vol_ratio": 0.11
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.87,
+      "health": -0.193,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.97249,
-      "ema200": 0.97194,
-      "macd": -0.001542,
-      "macd_signal": -0.001447,
-      "rsi14": 34.2,
-      "atr14": 0.00133,
-      "atr14_hourly": 0.00648,
-      "bb_position": 0.138
+      "ema50": 0.97146,
+      "ema200": 0.97169,
+      "macd": -0.000374,
+      "macd_signal": -0.000599,
+      "rsi14": 46.2,
+      "atr14": 0.00106,
+      "atr14_hourly": 0.00535,
+      "bb_position": 0.546
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.152,
+      "percentile": 0.153,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164995
+  "data_bars": 165007
 }
