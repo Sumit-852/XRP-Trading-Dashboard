@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-15T18:01:58.386938+00:00",
+  "timestamp": "2026-07-15T19:01:55.127764+00:00",
   "signal": {
-    "price": 0.9739,
+    "price": 0.9699,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3625,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3895,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.048,
-      "bullish_pct": 26.7,
+      "score": -0.029,
+      "bullish_pct": 30.0,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.093,
+        "xrp": 0.134,
         "crypto_macro": -0.077,
         "geopolitical": -0.312,
-        "fed_rates": -0.015
+        "fed_rates": 0.013
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Price to $110? Lummis Says CLARITY Act Targets July 20 as Bulls Predict 'Millionaire' Rally - CCN.com",
         "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk",
-        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St."
+        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - Yahoo Finance"
       ],
       "top_bearish": [
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.16,
-      "health": -0.1488,
-      "vol_ratio": 1.79
+      "up_down_ratio": 0.88,
+      "health": -0.4343,
+      "vol_ratio": 0.6
     },
     "technicals": {
-      "ema50": 0.97599,
-      "ema200": 0.97225,
-      "macd": -0.001277,
-      "macd_signal": -0.001824,
-      "rsi14": 46.4,
-      "atr14": 0.0019,
-      "atr14_hourly": 0.00878,
-      "bb_position": 0.736
+      "ema50": 0.9747,
+      "ema200": 0.97231,
+      "macd": -0.001283,
+      "macd_signal": -0.000983,
+      "rsi14": 36.7,
+      "atr14": 0.0016,
+      "atr14_hourly": 0.00732,
+      "bb_position": 0.1
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.171,
+      "percentile": 0.173,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164971
+  "data_bars": 164983
 }
