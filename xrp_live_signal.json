@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-07-15T03:01:51.010376+00:00",
+  "timestamp": "2026-07-15T04:01:48.567734+00:00",
   "signal": {
-    "price": 0.9603,
+    "price": 0.9652,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3568,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3548,
+    "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.048,
-      "bullish_pct": 28.3,
-      "bearish_pct": 41.7,
+      "score": -0.086,
+      "bullish_pct": 23.3,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.159,
-        "crypto_macro": -0.117,
-        "geopolitical": -0.293,
-        "fed_rates": -0.126
+        "crypto_macro": -0.245,
+        "geopolitical": -0.294,
+        "fed_rates": -0.119
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple (XRP)'s UDAX Launches in Brazil, Boosting XRP Ecosystem Growth - blockchain.news",
-        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth - CoinDesk",
-        "Ripple XRP Gains Attention After SWIFT Blockchain Expansion - Yahoo Finance"
+        "Ripple XRP Gains Attention After SWIFT Blockchain Expansion - Yahoo Finance",
+        "SBI partners with Doppler to enhance institutional XRP adoption in Japan - Crypto Briefing"
       ],
       "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Prediction: XRP Will Lose 50% of Its Value -- Here's Why - The Motley Fool",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Prediction: XRP Will Lose 50% of Its Value -- Here's Why - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.26,
-      "health": 0.0467,
-      "vol_ratio": 0.0
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.36,
+      "health": 0.1265,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.96592,
-      "ema200": 0.96226,
-      "macd": -0.002085,
-      "macd_signal": -0.002043,
-      "rsi14": 20.8,
-      "atr14": 0.00078,
-      "atr14_hourly": 0.00509,
-      "bb_position": 0.226
+      "ema50": 0.96502,
+      "ema200": 0.96239,
+      "macd": 3.2e-05,
+      "macd_signal": -0.000642,
+      "rsi14": 59.4,
+      "atr14": 0.00088,
+      "atr14_hourly": 0.00445,
+      "bb_position": 0.923
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.235,
+      "percentile": 0.228,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164791
+  "data_bars": 164803
 }
