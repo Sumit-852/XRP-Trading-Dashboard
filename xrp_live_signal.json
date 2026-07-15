@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-15T11:02:01.884115+00:00",
+  "timestamp": "2026-07-15T12:01:50.922753+00:00",
   "signal": {
-    "price": 0.97,
+    "price": 0.9701,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3375,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3895,
+    "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.052,
-      "bullish_pct": 25.0,
-      "bearish_pct": 38.3,
+      "score": -0.043,
+      "bullish_pct": 26.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.092,
+        "xrp": 0.084,
         "crypto_macro": -0.047,
-        "geopolitical": -0.306,
-        "fed_rates": -0.106
+        "geopolitical": -0.255,
+        "fed_rates": -0.088
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": -0.1499,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.9,
+      "health": -0.1354,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.96924,
-      "ema200": 0.96571,
-      "macd": 0.000149,
-      "macd_signal": 0.000288,
-      "rsi14": 50.4,
-      "atr14": 0.0007,
-      "atr14_hourly": 0.00385,
-      "bb_position": 0.376
+      "ema50": 0.96952,
+      "ema200": 0.96619,
+      "macd": 5.7e-05,
+      "macd_signal": 4.7e-05,
+      "rsi14": 51.0,
+      "atr14": 0.00064,
+      "atr14_hourly": 0.00257,
+      "bb_position": 0.6
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.258,
+      "percentile": 0.257,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164887
+  "data_bars": 164899
 }
