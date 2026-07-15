@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-14T23:01:47.284018+00:00",
+  "timestamp": "2026-07-15T00:01:44.104484+00:00",
   "signal": {
-    "price": 0.9709,
+    "price": 0.9725,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3946,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.4367,
+    "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.032,
-      "bullish_pct": 31.7,
-      "bearish_pct": 36.7,
+      "score": -0.062,
+      "bullish_pct": 26.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.184,
+        "xrp": 0.182,
         "crypto_macro": -0.197,
-        "geopolitical": -0.265,
-        "fed_rates": 0.049
+        "geopolitical": -0.286,
+        "fed_rates": -0.119
       },
       "geo_shock": false,
       "geo_dip": {
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.19,
-      "health": 0.2104,
-      "vol_ratio": 0.19
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.23,
+      "health": -0.0269,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.97081,
-      "ema200": 0.95953,
-      "macd": 0.00022,
-      "macd_signal": 9.7e-05,
-      "rsi14": 47.2,
-      "atr14": 0.00139,
-      "atr14_hourly": 0.00627,
-      "bb_position": 0.485
+      "ema50": 0.9713,
+      "ema200": 0.96095,
+      "macd": 0.000281,
+      "macd_signal": 0.000204,
+      "rsi14": 54.1,
+      "atr14": 0.00097,
+      "atr14_hourly": 0.00477,
+      "bb_position": 0.555
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.253,
+      "percentile": 0.248,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 164743
+  "data_bars": 164755
 }
