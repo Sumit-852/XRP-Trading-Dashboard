@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-16T04:02:21.507054+00:00",
+  "timestamp": "2026-07-16T05:01:48.167735+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9703,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9708,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.1826,
+    "hybrid_score": 3.1,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.024,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.178,
+        "crypto_macro": -0.089,
+        "geopolitical": -0.338,
+        "fed_rates": -0.007
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP Price to $110? Lummis Says CLARITY Act Targets July 20 as Bulls Predict 'Millionaire' Rally - CCN.com",
+        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data - Yahoo Finance",
+        "Clarity Act negotiations: High-level White House meeting planned, sources say - CoinDesk"
+      ],
+      "top_bearish": [
+        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.04,
+      "health": 0.1487,
+      "vol_ratio": 0.0
+    },
+    "technicals": {
+      "ema50": 0.97051,
+      "ema200": 0.97105,
+      "macd": -0.00012,
+      "macd_signal": -0.000242,
+      "rsi14": 53.1,
+      "atr14": 0.00069,
+      "atr14_hourly": 0.00364,
+      "bb_position": 0.673
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.161,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165091
+  "data_bars": 165103
 }
