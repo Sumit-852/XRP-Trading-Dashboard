@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-16T07:01:52.922312+00:00",
+  "timestamp": "2026-07-16T08:01:58.707290+00:00",
   "signal": {
-    "price": 0.9709,
+    "price": 0.9643,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.268,
-    "hybrid_score": 3.6,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3612,
+    "hybrid_score": 4.2,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.025,
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "score": -0.01,
+      "bullish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.177,
-        "crypto_macro": -0.086,
-        "geopolitical": -0.347,
+        "xrp": 0.221,
+        "crypto_macro": -0.106,
+        "geopolitical": -0.32,
         "fed_rates": -0.007
       },
       "geo_shock": true,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Google Search Interest Rises as Analyst Flags Fresh Buy Signal\u2014Here's What the Technicals Are Showing - Benzinga",
         "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St.",
-        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto",
-        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data - Yahoo Finance"
+        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.11,
-      "health": 0.018,
-      "vol_ratio": 0.55
+      "up_down_ratio": 0.94,
+      "health": -0.128,
+      "vol_ratio": 0.88
     },
     "technicals": {
-      "ema50": 0.97142,
-      "ema200": 0.97128,
-      "macd": -0.000122,
-      "macd_signal": 3.2e-05,
-      "rsi14": 44.9,
-      "atr14": 0.00085,
-      "atr14_hourly": 0.00419,
-      "bb_position": 0.222
+      "ema50": 0.96937,
+      "ema200": 0.97072,
+      "macd": -0.002104,
+      "macd_signal": -0.001511,
+      "rsi14": 30.8,
+      "atr14": 0.00117,
+      "atr14_hourly": 0.00581,
+      "bb_position": 0.198
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.126,
+      "percentile": 0.134,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165127
+  "data_bars": 165139
 }
