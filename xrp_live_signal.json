@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-16T06:01:48.479651+00:00",
+  "timestamp": "2026-07-16T07:01:52.922312+00:00",
   "signal": {
-    "price": 0.9732,
+    "price": 0.9709,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1953,
-    "hybrid_score": 3.1,
-    "regime": "BEARISH",
+    "xgb_prob": 0.268,
+    "hybrid_score": 3.6,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.034,
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
+      "score": -0.025,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.178,
-        "crypto_macro": -0.139,
-        "geopolitical": -0.333,
-        "fed_rates": 0.017
+        "xrp": 0.177,
+        "crypto_macro": -0.086,
+        "geopolitical": -0.347,
+        "fed_rates": -0.007
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Price to $110? Lummis Says CLARITY Act Targets July 20 as Bulls Predict 'Millionaire' Rally - CCN.com",
-        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data - Yahoo Finance",
-        "Clarity Act negotiations: High-level White House meeting planned, sources say - CoinDesk"
+        "Will XRP Fall Below $1 as the CLARITY Act Stalls in the Senate? - 24/7 Wall St.",
+        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto",
+        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data - Yahoo Finance"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
-        "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": -0.0219,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.11,
+      "health": 0.018,
+      "vol_ratio": 0.55
     },
     "technicals": {
-      "ema50": 0.97147,
-      "ema200": 0.97127,
-      "macd": 0.000728,
-      "macd_signal": 0.000607,
-      "rsi14": 63.9,
-      "atr14": 0.00073,
-      "atr14_hourly": 0.00394,
-      "bb_position": 0.729
+      "ema50": 0.97142,
+      "ema200": 0.97128,
+      "macd": -0.000122,
+      "macd_signal": 3.2e-05,
+      "rsi14": 44.9,
+      "atr14": 0.00085,
+      "atr14_hourly": 0.00419,
+      "bb_position": 0.222
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.151,
+      "percentile": 0.126,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165115
+  "data_bars": 165127
 }
