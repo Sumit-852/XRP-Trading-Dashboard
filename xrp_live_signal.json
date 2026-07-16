@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-16T19:01:35.233874+00:00",
+  "timestamp": "2026-07-16T20:01:45.269310+00:00",
   "signal": {
-    "price": 0.9559,
+    "price": 0.9585,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3711,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.3281,
+    "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.019,
+      "score": -0.034,
       "bullish_pct": 28.3,
-      "bearish_pct": 36.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.156,
-        "crypto_macro": -0.079,
-        "geopolitical": -0.297,
-        "fed_rates": 0.008
+        "xrp": 0.063,
+        "crypto_macro": -0.088,
+        "geopolitical": -0.193,
+        "fed_rates": 0.028
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "$1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF - CoinDesk",
         "Ripple\u2019s Chief Legal Officer warns against voting against CLARITY Act - Crypto Briefing",
-        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto"
+        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto",
+        "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion - CoinDesk"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.63,
-      "health": 0.0628,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.64,
+      "health": -0.2666,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 0.96253,
-      "ema200": 0.96671,
-      "macd": -0.003251,
-      "macd_signal": -0.003485,
-      "rsi14": 38.1,
-      "atr14": 0.00175,
-      "atr14_hourly": 0.01092,
-      "bb_position": 0.384
+      "ema50": 0.9609,
+      "ema200": 0.96574,
+      "macd": -0.000509,
+      "macd_signal": -0.001192,
+      "rsi14": 48.7,
+      "atr14": 0.00144,
+      "atr14_hourly": 0.00825,
+      "bb_position": 0.695
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.113,
+      "percentile": 0.121,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165271
+  "data_bars": 165283
 }
