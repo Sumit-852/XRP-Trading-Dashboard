@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-16T18:01:38.070918+00:00",
+  "timestamp": "2026-07-16T19:01:35.233874+00:00",
   "signal": {
-    "price": 0.9565,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5095,
-    "hybrid_score": 5.0,
+    "price": 0.9559,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.3711,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.039,
-      "bullish_pct": 26.7,
-      "bearish_pct": 33.3,
+      "score": -0.019,
+      "bullish_pct": 28.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.102,
-        "crypto_macro": -0.165,
-        "geopolitical": -0.212,
-        "fed_rates": 0.078
+        "xrp": 0.156,
+        "crypto_macro": -0.079,
+        "geopolitical": -0.297,
+        "fed_rates": 0.008
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "$1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF - CoinDesk",
         "Ripple\u2019s Chief Legal Officer warns against voting against CLARITY Act - Crypto Briefing",
-        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto",
-        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data - Yahoo Finance"
+        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.6,
-      "health": 0.0263,
-      "vol_ratio": 0.21
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.63,
+      "health": 0.0628,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96718,
-      "ema200": 0.96819,
-      "macd": -0.002788,
-      "macd_signal": -0.001817,
-      "rsi14": 22.1,
-      "atr14": 0.00217,
-      "atr14_hourly": 0.009,
-      "bb_position": -0.072
+      "ema50": 0.96253,
+      "ema200": 0.96671,
+      "macd": -0.003251,
+      "macd_signal": -0.003485,
+      "rsi14": 38.1,
+      "atr14": 0.00175,
+      "atr14_hourly": 0.01092,
+      "bb_position": 0.384
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.116,
+      "percentile": 0.113,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165259
+  "data_bars": 165271
 }
