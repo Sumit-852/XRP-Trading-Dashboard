@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-16T05:01:48.167735+00:00",
+  "timestamp": "2026-07-16T06:01:48.479651+00:00",
   "signal": {
-    "price": 0.9708,
+    "price": 0.9732,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1826,
+    "xgb_prob": 0.1953,
     "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.024,
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "score": -0.034,
+      "bullish_pct": 33.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.178,
-        "crypto_macro": -0.089,
-        "geopolitical": -0.338,
-        "fed_rates": -0.007
+        "crypto_macro": -0.139,
+        "geopolitical": -0.333,
+        "fed_rates": 0.017
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Clarity Act negotiations: High-level White House meeting planned, sources say - CoinDesk"
       ],
       "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "Bitcoin climbs back above $61,000 as crypto market steadies after brutal selloff - Investing.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.04,
-      "health": 0.1487,
+      "health": -0.0219,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.97051,
-      "ema200": 0.97105,
-      "macd": -0.00012,
-      "macd_signal": -0.000242,
-      "rsi14": 53.1,
-      "atr14": 0.00069,
-      "atr14_hourly": 0.00364,
-      "bb_position": 0.673
+      "ema50": 0.97147,
+      "ema200": 0.97127,
+      "macd": 0.000728,
+      "macd_signal": 0.000607,
+      "rsi14": 63.9,
+      "atr14": 0.00073,
+      "atr14_hourly": 0.00394,
+      "bb_position": 0.729
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.161,
+      "percentile": 0.151,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165103
+  "data_bars": 165115
 }
