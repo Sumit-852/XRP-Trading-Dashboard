@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-17T05:01:39.376219+00:00",
+  "timestamp": "2026-07-17T06:01:35.283308+00:00",
   "signal": {
-    "price": 0.9521,
+    "price": 0.9428,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3162,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.4351,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.029,
-      "bullish_pct": 30.0,
+      "score": -0.018,
+      "bullish_pct": 33.3,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.179,
-        "crypto_macro": -0.11,
-        "geopolitical": -0.364,
+        "xrp": 0.137,
+        "crypto_macro": -0.082,
+        "geopolitical": -0.262,
         "fed_rates": 0.029
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.64,
-      "health": 0.0301,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.62,
+      "health": -0.0681,
+      "vol_ratio": 0.2
     },
     "technicals": {
-      "ema50": 0.95276,
-      "ema200": 0.95739,
-      "macd": -4.3e-05,
-      "macd_signal": 6.3e-05,
-      "rsi14": 47.1,
-      "atr14": 0.00106,
-      "atr14_hourly": 0.00531,
-      "bb_position": 0.303
+      "ema50": 0.95078,
+      "ema200": 0.95632,
+      "macd": -0.002283,
+      "macd_signal": -0.001379,
+      "rsi14": 21.1,
+      "atr14": 0.00132,
+      "atr14_hourly": 0.00653,
+      "bb_position": 0.005
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.162,
+      "percentile": 0.172,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165391
+  "data_bars": 165403
 }
