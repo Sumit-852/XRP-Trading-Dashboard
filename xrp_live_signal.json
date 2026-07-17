@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-17T13:01:36.862626+00:00",
+  "timestamp": "2026-07-17T14:01:42.288234+00:00",
   "signal": {
-    "price": 0.9421,
+    "price": 0.9462,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3945,
-    "hybrid_score": 3.1,
+    "xgb_prob": 0.4506,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.051,
-      "bullish_pct": 31.7,
-      "bearish_pct": 38.3,
+      "score": -0.041,
+      "bullish_pct": 35.0,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.149,
-        "crypto_macro": -0.22,
-        "geopolitical": -0.241,
+        "xrp": 0.146,
+        "crypto_macro": -0.168,
+        "geopolitical": -0.265,
         "fed_rates": 0.025
       },
       "geo_shock": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple Executives Back CLARITY Act as XRP Eyes Breakout to $1.35 - Benzinga",
         "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
-        "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga"
+        "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.55,
-      "health": -0.116,
-      "vol_ratio": 0.19
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.91,
+      "health": 0.21,
+      "vol_ratio": 0.36
     },
     "technicals": {
-      "ema50": 0.94705,
-      "ema200": 0.95124,
-      "macd": -0.001499,
-      "macd_signal": -0.001094,
-      "rsi14": 27.7,
-      "atr14": 0.0009,
-      "atr14_hourly": 0.00423,
-      "bb_position": 0.034
+      "ema50": 0.94429,
+      "ema200": 0.94993,
+      "macd": -0.001217,
+      "macd_signal": -0.002028,
+      "rsi14": 61.5,
+      "atr14": 0.00189,
+      "atr14_hourly": 0.00703,
+      "bb_position": 0.881
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.158,
+      "percentile": 0.174,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165487
+  "data_bars": 165499
 }
