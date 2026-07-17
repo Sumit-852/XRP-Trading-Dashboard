@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-17T06:01:35.283308+00:00",
+  "timestamp": "2026-07-17T07:01:38.122987+00:00",
   "signal": {
-    "price": 0.9428,
+    "price": 0.9485,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4351,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.3738,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.018,
+      "score": -0.022,
       "bullish_pct": 33.3,
-      "bearish_pct": 40.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.137,
-        "crypto_macro": -0.082,
-        "geopolitical": -0.262,
+        "crypto_macro": -0.097,
+        "geopolitical": -0.261,
         "fed_rates": 0.029
       },
       "geo_shock": false,
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.62,
-      "health": -0.0681,
-      "vol_ratio": 0.2
+      "up_down_ratio": 0.59,
+      "health": -0.1041,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.95078,
-      "ema200": 0.95632,
-      "macd": -0.002283,
-      "macd_signal": -0.001379,
-      "rsi14": 21.1,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00653,
-      "bb_position": 0.005
+      "ema50": 0.94954,
+      "ema200": 0.95531,
+      "macd": -0.000533,
+      "macd_signal": -0.001017,
+      "rsi14": 50.4,
+      "atr14": 0.00114,
+      "atr14_hourly": 0.0068,
+      "bb_position": 0.708
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.172,
+      "percentile": 0.184,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165403
+  "data_bars": 165415
 }
