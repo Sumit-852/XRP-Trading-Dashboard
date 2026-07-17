@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-17T19:01:39.027209+00:00",
+  "timestamp": "2026-07-17T20:01:35.282076+00:00",
   "signal": {
-    "price": 0.953,
+    "price": 0.9536,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3759,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.2907,
+    "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.011,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": -0.067,
+      "bullish_pct": 25.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.149,
-        "crypto_macro": -0.244,
-        "geopolitical": 0.046,
+        "xrp": 0.112,
+        "crypto_macro": -0.279,
+        "geopolitical": -0.126,
         "fed_rates": -0.015
       },
       "geo_shock": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
         "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
-        "Crypto Market Today: BTC, ETH and XRP Prices Dip As CLARITY Act Hearing Begins - Coinpedia"
+        "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.08,
-      "health": 0.1724,
-      "vol_ratio": 0.56
+      "up_down_ratio": 1.22,
+      "health": 0.328,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95108,
-      "ema200": 0.94998,
-      "macd": 0.000869,
-      "macd_signal": 0.001121,
-      "rsi14": 50.5,
-      "atr14": 0.00152,
-      "atr14_hourly": 0.00621,
-      "bb_position": 0.3
+      "ema50": 0.95167,
+      "ema200": 0.95027,
+      "macd": 0.000246,
+      "macd_signal": 0.000221,
+      "rsi14": 54.0,
+      "atr14": 0.00124,
+      "atr14_hourly": 0.00627,
+      "bb_position": 0.603
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.175,
+      "percentile": 0.17,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165559
+  "data_bars": 165571
 }
