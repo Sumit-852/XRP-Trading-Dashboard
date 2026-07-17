@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-17T00:01:41.551267+00:00",
+  "timestamp": "2026-07-17T01:01:33.687470+00:00",
   "signal": {
-    "price": 0.9494,
+    "price": 0.9534,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3939,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3332,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.035,
-      "bullish_pct": 33.3,
-      "bearish_pct": 40.0,
+      "score": -0.044,
+      "bullish_pct": 30.0,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.076,
+        "xrp": 0.11,
         "crypto_macro": -0.053,
-        "geopolitical": -0.28,
-        "fed_rates": 0.032
+        "geopolitical": -0.381,
+        "fed_rates": 0.013
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
         "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto",
-        "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion - CoinDesk",
-        "Crypto.com clinches $400M investment from Citadel Securities, valuing exchange at $20B - New York Post"
+        "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion - CoinDesk"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.62,
-      "health": -0.0162,
-      "vol_ratio": 0.29
+      "up_down_ratio": 0.65,
+      "health": 0.0202,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.95453,
-      "ema200": 0.96161,
-      "macd": -0.002045,
-      "macd_signal": -0.002099,
-      "rsi14": 36.5,
-      "atr14": 0.00109,
-      "atr14_hourly": 0.00603,
-      "bb_position": 0.315
+      "ema50": 0.95287,
+      "ema200": 0.9603,
+      "macd": -0.000257,
+      "macd_signal": -0.001094,
+      "rsi14": 60.1,
+      "atr14": 0.00124,
+      "atr14_hourly": 0.00515,
+      "bb_position": 1.062
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.131,
+      "percentile": 0.139,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165331
+  "data_bars": 165343
 }
