@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-17T12:01:45.174046+00:00",
+  "timestamp": "2026-07-17T13:01:36.862626+00:00",
   "signal": {
-    "price": 0.9484,
+    "price": 0.9421,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2754,
-    "hybrid_score": 2.4,
+    "xgb_prob": 0.3945,
+    "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.05,
+      "score": -0.051,
       "bullish_pct": 31.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.158,
-        "crypto_macro": -0.197,
+        "xrp": 0.149,
+        "crypto_macro": -0.22,
         "geopolitical": -0.241,
-        "fed_rates": -0.035
+        "fed_rates": 0.025
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,7 +30,7 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Price to $300? XRP Lawyer Says CLARITY Act \u2018Could Die\u2019 as Analysts Predict Surge - CCN.com",
+        "Ripple Executives Back CLARITY Act as XRP Eyes Breakout to $1.35 - Benzinga",
         "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
         "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga"
       ],
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.56,
-      "health": -0.0432,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.55,
+      "health": -0.116,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 0.94869,
-      "ema200": 0.9521,
-      "macd": -0.00012,
-      "macd_signal": 2.6e-05,
-      "rsi14": 46.7,
-      "atr14": 0.00074,
-      "atr14_hourly": 0.00344,
-      "bb_position": 0.324
+      "ema50": 0.94705,
+      "ema200": 0.95124,
+      "macd": -0.001499,
+      "macd_signal": -0.001094,
+      "rsi14": 27.7,
+      "atr14": 0.0009,
+      "atr14_hourly": 0.00423,
+      "bb_position": 0.034
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.163,
+      "percentile": 0.158,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165475
+  "data_bars": 165487
 }
