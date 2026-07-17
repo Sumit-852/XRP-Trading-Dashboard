@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-16T22:01:38.629507+00:00",
+  "timestamp": "2026-07-17T00:01:41.551267+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9591,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9494,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3939,
+    "hybrid_score": 4.3,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.035,
+      "bullish_pct": 33.3,
+      "bearish_pct": 40.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.076,
+        "crypto_macro": -0.053,
+        "geopolitical": -0.28,
+        "fed_rates": 0.032
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto",
+        "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion - CoinDesk",
+        "Crypto.com clinches $400M investment from Citadel Securities, valuing exchange at $20B - New York Post"
+      ],
+      "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
+        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.62,
+      "health": -0.0162,
+      "vol_ratio": 0.29
+    },
+    "technicals": {
+      "ema50": 0.95453,
+      "ema200": 0.96161,
+      "macd": -0.002045,
+      "macd_signal": -0.002099,
+      "rsi14": 36.5,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00603,
+      "bb_position": 0.315
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.131,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165307
+  "data_bars": 165331
 }
