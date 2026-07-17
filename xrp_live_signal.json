@@ -1,70 +1,20 @@
 {
-  "timestamp": "2026-07-17T17:01:34.484731+00:00",
+  "timestamp": "2026-07-17T18:01:32.062020+00:00",
   "signal": {
-    "price": 0.951,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9539,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4124,
-    "hybrid_score": 4.5,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
     "exit_signal": false,
-    "action": "HOLD",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.013,
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.199,
-        "crypto_macro": -0.236,
-        "geopolitical": -0.041,
-        "fed_rates": -0.061
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Ripple Executives Back CLARITY Act as XRP Eyes Breakout to $1.35 - Benzinga",
-        "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
-        "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St."
-      ],
-      "top_bearish": [
-        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
-        "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
-        "Bitcoin (BTC) price falls below $63,00 as AI fatigue, Middle East tensions drag crypto, tech stocks lower - CoinDesk"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": 0.5817,
-      "vol_ratio": 0.08
-    },
-    "technicals": {
-      "ema50": 0.94616,
-      "ema200": 0.94882,
-      "macd": 0.001656,
-      "macd_signal": 0.001266,
-      "rsi14": 62.6,
-      "atr14": 0.00173,
-      "atr14_hourly": 0.0082,
-      "bb_position": 0.867
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.179,
+      "percentile": 0.5,
       "extreme": false
     }
   },
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165535
+  "data_bars": 165547
 }
