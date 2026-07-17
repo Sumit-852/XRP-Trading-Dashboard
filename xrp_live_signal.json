@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-17T10:01:40.944652+00:00",
+  "timestamp": "2026-07-17T11:01:31.617118+00:00",
   "signal": {
-    "price": 0.9483,
+    "price": 0.9499,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3211,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.3402,
+    "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.105,
-      "bullish_pct": 23.3,
-      "bearish_pct": 43.3,
+      "sentiment": "NEUTRAL",
+      "score": -0.081,
+      "bullish_pct": 25.0,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.027,
-        "crypto_macro": -0.189,
-        "geopolitical": -0.327,
-        "fed_rates": 0.011
+        "xrp": 0.158,
+        "crypto_macro": -0.215,
+        "geopolitical": -0.383,
+        "fed_rates": -0.035
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga",
-        "Binance unveils $800K XRP airdrop to accelerate RLUSD adoption - Crypto News",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
+        "XRP Price to $300? XRP Lawyer Says CLARITY Act \u2018Could Die\u2019 as Analysts Predict Surge - CCN.com",
+        "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
+        "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
-        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com"
+        "Bitcoin (BTC) price falls below $63,00 as AI fatigue, Middle East tensions drag crypto, tech stocks lower - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.62,
-      "health": -0.0222,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.63,
+      "health": 0.0152,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.9481,
-      "ema200": 0.9529,
-      "macd": 0.000459,
-      "macd_signal": 0.000509,
-      "rsi14": 51.5,
-      "atr14": 0.001,
-      "atr14_hourly": 0.00481,
-      "bb_position": 0.553
+      "ema50": 0.94884,
+      "ema200": 0.95257,
+      "macd": 0.000737,
+      "macd_signal": 0.000664,
+      "rsi14": 54.1,
+      "atr14": 0.00099,
+      "atr14_hourly": 0.00371,
+      "bb_position": 0.581
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.17,
+      "percentile": 0.168,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165451
+  "data_bars": 165463
 }
