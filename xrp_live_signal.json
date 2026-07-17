@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-17T07:01:38.122987+00:00",
+  "timestamp": "2026-07-17T08:01:43.605628+00:00",
   "signal": {
-    "price": 0.9485,
+    "price": 0.9459,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3738,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.3753,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.022,
-      "bullish_pct": 33.3,
-      "bearish_pct": 38.3,
+      "score": -0.052,
+      "bullish_pct": 31.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.137,
-        "crypto_macro": -0.097,
-        "geopolitical": -0.261,
+        "xrp": 0.059,
+        "crypto_macro": -0.115,
+        "geopolitical": -0.24,
         "fed_rates": 0.029
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
-        "Ripple\u2019s Chief Legal Officer warns against voting against CLARITY Act - Crypto Briefing",
-        "XRP/BTC consolidates for 10 weeks \u2013 Is a FOMO-fueled breakout next? - AMBCrypto"
+        "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga",
+        "Crypto.com clinches $400M investment from Citadel Securities, valuing exchange at $20B - New York Post",
+        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data - Yahoo Finance"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.59,
-      "health": -0.1041,
-      "vol_ratio": 0.22
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.63,
+      "health": -0.01,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.94954,
-      "ema200": 0.95531,
-      "macd": -0.000533,
-      "macd_signal": -0.001017,
-      "rsi14": 50.4,
-      "atr14": 0.00114,
-      "atr14_hourly": 0.0068,
-      "bb_position": 0.708
+      "ema50": 0.94835,
+      "ema200": 0.95431,
+      "macd": -0.000644,
+      "macd_signal": -0.000684,
+      "rsi14": 43.0,
+      "atr14": 0.00105,
+      "atr14_hourly": 0.00505,
+      "bb_position": 0.207
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.184,
+      "percentile": 0.175,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165415
+  "data_bars": 165427
 }
