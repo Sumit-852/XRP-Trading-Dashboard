@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-18T12:01:34.281653+00:00",
+  "timestamp": "2026-07-18T13:01:33.346203+00:00",
   "signal": {
-    "price": 0.9515,
+    "price": 0.9518,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2086,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.2482,
+    "hybrid_score": 3.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.058,
-      "bullish_pct": 28.3,
-      "bearish_pct": 40.0,
+      "score": -0.049,
+      "bullish_pct": 30.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.205,
-        "crypto_macro": -0.293,
-        "geopolitical": -0.238,
+        "xrp": 0.224,
+        "crypto_macro": -0.184,
+        "geopolitical": -0.404,
         "fed_rates": -0.017
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
-        "Bitcoin, XRP and Altcoins Could Rip on Day One of CLARITY, Expert Reveals Why - Coinpedia",
-        "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga"
+        "Ripple Executives Back CLARITY Act as XRP Eyes Breakout to $1.35 - Benzinga",
+        "Crypto Fundamental Analysis: Inflation relief fails to revive crypto confidence - FOREX.com",
+        "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.1695,
-      "vol_ratio": 0.04
+      "up_down_ratio": 1.08,
+      "health": -0.1618,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.95067,
-      "ema200": 0.95105,
-      "macd": 0.00032,
-      "macd_signal": 0.000137,
-      "rsi14": 60.0,
-      "atr14": 0.00046,
-      "atr14_hourly": 0.00246,
-      "bb_position": 0.851
+      "ema50": 0.9509,
+      "ema200": 0.95107,
+      "macd": 0.000343,
+      "macd_signal": 0.000238,
+      "rsi14": 57.1,
+      "atr14": 0.00063,
+      "atr14_hourly": 0.00334,
+      "bb_position": 0.659
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.068,
+      "percentile": 0.066,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165763
+  "data_bars": 165775
 }
