@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-18T21:01:19.815337+00:00",
+  "timestamp": "2026-07-18T22:01:30.152520+00:00",
   "signal": {
-    "price": 0.9561,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9563,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2475,
-    "hybrid_score": 2.2,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.068,
-      "bullish_pct": 26.7,
-      "bearish_pct": 38.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.161,
-        "crypto_macro": -0.185,
-        "geopolitical": -0.328,
-        "fed_rates": -0.085
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Crypto Fundamental Analysis: Inflation relief fails to revive crypto confidence - FOREX.com",
-        "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
-        "Bitcoin, XRP and Altcoins Could Rip on Day One of CLARITY, Expert Reveals Why - Coinpedia"
-      ],
-      "top_bearish": [
-        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
-        "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.56,
-      "health": 0.379,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.95467,
-      "ema200": 0.9524,
-      "macd": 0.000501,
-      "macd_signal": 0.000641,
-      "rsi14": 54.3,
-      "atr14": 0.00062,
-      "atr14_hourly": 0.00358,
-      "bb_position": 0.542
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.008,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165871
+  "data_bars": 165883
 }
