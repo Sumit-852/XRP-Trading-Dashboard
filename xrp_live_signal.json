@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-18T11:01:30.653061+00:00",
+  "timestamp": "2026-07-18T12:01:34.281653+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9498,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9515,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2086,
+    "hybrid_score": 3.2,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.058,
+      "bullish_pct": 28.3,
+      "bearish_pct": 40.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.205,
+        "crypto_macro": -0.293,
+        "geopolitical": -0.238,
+        "fed_rates": -0.017
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
+        "Bitcoin, XRP and Altcoins Could Rip on Day One of CLARITY, Expert Reveals Why - Coinpedia",
+        "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case - Benzinga"
+      ],
+      "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
+        "Bitcoin (BTC) price falls below $63,00 as AI fatigue, Middle East tensions drag crypto, tech stocks lower - CoinDesk"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.09,
+      "health": -0.1695,
+      "vol_ratio": 0.04
+    },
+    "technicals": {
+      "ema50": 0.95067,
+      "ema200": 0.95105,
+      "macd": 0.00032,
+      "macd_signal": 0.000137,
+      "rsi14": 60.0,
+      "atr14": 0.00046,
+      "atr14_hourly": 0.00246,
+      "bb_position": 0.851
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.068,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165751
+  "data_bars": 165763
 }
