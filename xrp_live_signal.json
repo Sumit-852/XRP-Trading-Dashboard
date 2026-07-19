@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-19T05:01:34.020409+00:00",
+  "timestamp": "2026-07-19T06:01:28.200856+00:00",
   "signal": {
-    "price": 0.9586,
+    "price": 0.9581,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2426,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.2244,
+    "hybrid_score": 2.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.03,
-      "bullish_pct": 35.0,
-      "bearish_pct": 35.0,
+      "score": -0.061,
+      "bullish_pct": 33.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.164,
-        "crypto_macro": -0.122,
-        "geopolitical": -0.262,
-        "fed_rates": -0.044
+        "xrp": 0.125,
+        "crypto_macro": -0.155,
+        "geopolitical": -0.277,
+        "fed_rates": -0.065
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Fundamental Analysis: Inflation relief fails to revive crypto confidence - FOREX.com",
         "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
-        "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP"
+        "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP",
+        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.52,
-      "health": -0.1422,
-      "vol_ratio": 0.04
+      "up_down_ratio": 0.48,
+      "health": -0.1985,
+      "vol_ratio": 0.2
     },
     "technicals": {
-      "ema50": 0.95726,
-      "ema200": 0.95511,
-      "macd": 0.000357,
-      "macd_signal": 0.000174,
-      "rsi14": 56.9,
-      "atr14": 0.00069,
-      "atr14_hourly": 0.00354,
-      "bb_position": 0.8
+      "ema50": 0.95766,
+      "ema200": 0.95547,
+      "macd": 0.000268,
+      "macd_signal": 0.000264,
+      "rsi14": 50.6,
+      "atr14": 0.00054,
+      "atr14_hourly": 0.00278,
+      "bb_position": 0.406
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.017,
+      "percentile": 0.015,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165967
+  "data_bars": 165979
 }
