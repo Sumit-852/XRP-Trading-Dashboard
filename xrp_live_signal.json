@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-19T22:01:21.077699+00:00",
+  "timestamp": "2026-07-19T23:01:26.092393+00:00",
   "signal": {
-    "price": 0.9565,
+    "price": 0.9578,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2471,
-    "hybrid_score": 3.4,
-    "regime": "BEARISH",
+    "xgb_prob": 0.338,
+    "hybrid_score": 2.7,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.067,
+      "score": -0.068,
       "bullish_pct": 33.3,
-      "bearish_pct": 40.0,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.109,
-        "crypto_macro": -0.156,
-        "geopolitical": -0.306,
-        "fed_rates": -0.03
+        "crypto_macro": -0.173,
+        "geopolitical": -0.281,
+        "fed_rates": -0.038
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "4 Cryptocurrencies Poised to Deliver Huge Gains, According to Standard Chartered - Yahoo Finance",
         "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
-        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - University of Kansas - kuat"
+        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.39,
-      "health": 0.0448,
-      "vol_ratio": 0.08
+      "health": 0.0329,
+      "vol_ratio": 0.98
     },
     "technicals": {
-      "ema50": 0.95686,
-      "ema200": 0.95691,
-      "macd": -0.000344,
-      "macd_signal": -3.8e-05,
-      "rsi14": 47.2,
-      "atr14": 0.00074,
-      "atr14_hourly": 0.00339,
-      "bb_position": 0.321
+      "ema50": 0.95818,
+      "ema200": 0.9573,
+      "macd": 0.000722,
+      "macd_signal": 0.000805,
+      "rsi14": 44.7,
+      "atr14": 0.00132,
+      "atr14_hourly": 0.00607,
+      "bb_position": 0.415
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.016,
+      "percentile": 0.021,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166171
+  "data_bars": 166183
 }
