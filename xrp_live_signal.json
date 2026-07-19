@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-19T21:01:23.473282+00:00",
+  "timestamp": "2026-07-19T22:01:21.077699+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9587,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9565,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2471,
+    "hybrid_score": 3.4,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.067,
+      "bullish_pct": 33.3,
+      "bearish_pct": 40.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.109,
+        "crypto_macro": -0.156,
+        "geopolitical": -0.306,
+        "fed_rates": -0.03
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
+        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - University of Kansas - kuat"
+      ],
+      "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
+        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.39,
+      "health": 0.0448,
+      "vol_ratio": 0.08
+    },
+    "technicals": {
+      "ema50": 0.95686,
+      "ema200": 0.95691,
+      "macd": -0.000344,
+      "macd_signal": -3.8e-05,
+      "rsi14": 47.2,
+      "atr14": 0.00074,
+      "atr14_hourly": 0.00339,
+      "bb_position": 0.321
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.016,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166159
+  "data_bars": 166171
 }
