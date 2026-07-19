@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-19T06:01:28.200856+00:00",
+  "timestamp": "2026-07-19T07:01:25.551360+00:00",
   "signal": {
-    "price": 0.9581,
+    "price": 0.9584,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2244,
-    "hybrid_score": 2.1,
+    "xgb_prob": 0.2313,
+    "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.061,
-      "bullish_pct": 33.3,
+      "score": -0.042,
+      "bullish_pct": 35.0,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.125,
+        "xrp": 0.161,
         "crypto_macro": -0.155,
-        "geopolitical": -0.277,
+        "geopolitical": -0.25,
         "fed_rates": -0.065
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
-        "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP",
-        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia"
+        "Bitcoin, XRP and Altcoins Could Rip on Day One of CLARITY, Expert Reveals Why - Coinpedia",
+        "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.48,
-      "health": -0.1985,
-      "vol_ratio": 0.2
+      "health": -0.2066,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.95766,
-      "ema200": 0.95547,
-      "macd": 0.000268,
-      "macd_signal": 0.000264,
-      "rsi14": 50.6,
-      "atr14": 0.00054,
-      "atr14_hourly": 0.00278,
-      "bb_position": 0.406
+      "ema50": 0.95795,
+      "ema200": 0.95581,
+      "macd": 4.9e-05,
+      "macd_signal": 0.000142,
+      "rsi14": 51.5,
+      "atr14": 0.00058,
+      "atr14_hourly": 0.00235,
+      "bb_position": 0.5
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 165979
+  "data_bars": 165991
 }
