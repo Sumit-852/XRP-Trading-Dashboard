@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-20T17:01:29.519305+00:00",
+  "timestamp": "2026-07-20T18:01:31.989826+00:00",
   "signal": {
-    "price": 0.9759,
+    "price": 0.9765,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4764,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.4173,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.051,
-      "bullish_pct": 23.3,
-      "bearish_pct": 38.3,
+      "score": -0.043,
+      "bullish_pct": 25.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.05,
-        "crypto_macro": -0.048,
-        "geopolitical": -0.176,
-        "fed_rates": -0.155
+        "xrp": 0.108,
+        "crypto_macro": -0.093,
+        "geopolitical": -0.219,
+        "fed_rates": -0.104
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
-        "Spain's World Cup win triggers crypto ripple effects across fan tokens, NFTs, and prediction markets - Crypto Briefing",
-        "Crypto SWOT: T. Rowe Price launches first active multi-token spot crypto ETF - KITCO"
+        "Europe Has to Take on China to Save Free Trade - Council on Foreign Relations",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - University of Kansas - kuat"
       ],
       "top_bearish": [
-        "Crypto Today: Bitcoin, Ethereum, XRP slip as US-Iran escalating hostilities pressure risk assets - FXStreet",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
+        "U.S. and Iran trade strikes for 9th day; Ansarallah announces Saudi blockade; House to vote on fusing elements of U.S., "
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.58,
-      "health": 0.4977,
-      "vol_ratio": 0.07
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.62,
+      "health": 0.5342,
+      "vol_ratio": 0.76
     },
     "technicals": {
-      "ema50": 0.96708,
-      "ema200": 0.96032,
-      "macd": 0.003056,
-      "macd_signal": 0.003211,
-      "rsi14": 70.0,
-      "atr14": 0.00189,
-      "atr14_hourly": 0.0093,
-      "bb_position": 0.782
+      "ema50": 0.96985,
+      "ema200": 0.96189,
+      "macd": 0.001653,
+      "macd_signal": 0.001792,
+      "rsi14": 65.5,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.00681,
+      "bb_position": 0.888
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.316,
+      "percentile": 0.32,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166399
+  "data_bars": 166411
 }
