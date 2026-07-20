@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-20T10:01:36.526712+00:00",
+  "timestamp": "2026-07-20T11:01:28.957355+00:00",
   "signal": {
-    "price": 0.9529,
+    "price": 0.9553,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3494,
-    "hybrid_score": 2.8,
+    "xgb_prob": 0.3563,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.003,
-      "bullish_pct": 30.0,
-      "bearish_pct": 26.7,
+      "score": -0.016,
+      "bullish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.118,
-        "crypto_macro": -0.019,
-        "geopolitical": -0.183,
-        "fed_rates": -0.004
+        "crypto_macro": -0.007,
+        "geopolitical": -0.326,
+        "fed_rates": 0.018
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
-        "US-Iran Situation Deteriorates: Ethereum Shows Bullish Structure Against the Trend, Expected to Continue Outperforming B",
+        "2 Cryptocurrencies Poised to Soar 3,000% or More, According to 1 Top Wall Street Analyst - Yahoo Finance",
         "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - University of Kansas - kuat"
       ],
       "top_bearish": [
-        "US and Iran Trade Strikes Over Strait of Hormuz. Kuwait Suffers Infrastructure Damage - Military.com",
+        "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
         "Bitcoin flat near $64,000 as oil hits a one-month high and Kimi AI selloff lingers - CoinDesk",
-        "US day traders flock to \u2018the most dangerous product in crypto\u2019 - Financial Times"
+        "U.S. strikes Iran for 9th night as Hormuz conflict escalates - upi.com"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.57,
-      "health": 0.2619,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.34,
+      "health": -1.0736,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.95229,
-      "ema200": 0.95537,
-      "macd": 0.000672,
-      "macd_signal": 0.000492,
-      "rsi14": 54.4,
-      "atr14": 0.001,
-      "atr14_hourly": 0.00487,
-      "bb_position": 0.664
+      "ema50": 0.95345,
+      "ema200": 0.95536,
+      "macd": 0.00105,
+      "macd_signal": 0.001041,
+      "rsi14": 56.6,
+      "atr14": 0.00097,
+      "atr14_hourly": 0.0046,
+      "bb_position": 0.641
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.196,
+      "percentile": 0.206,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166315
+  "data_bars": 166327
 }
