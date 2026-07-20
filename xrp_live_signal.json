@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-20T15:01:34.812161+00:00",
+  "timestamp": "2026-07-20T16:01:25.464867+00:00",
   "signal": {
-    "price": 0.9588,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4247,
-    "hybrid_score": 4.6,
-    "regime": "BEARISH",
+    "price": 0.9743,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5057,
+    "hybrid_score": 5.0,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
-      "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "score": 0.006,
+      "bullish_pct": 26.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.14,
-        "crypto_macro": 0.052,
-        "geopolitical": -0.179,
-        "fed_rates": -0.171
+        "xrp": 0.108,
+        "crypto_macro": 0.089,
+        "geopolitical": -0.205,
+        "fed_rates": -0.155
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Crypto SWOT: T. Rowe Price launches first active multi-token spot crypto ETF - KITCO"
       ],
       "top_bearish": [
-        "Chamath Palihapitiya Says Bitcoin Faces Two \u2018Structural\u2019 Headwinds \u2013 But Two Of Crypto's Biggest CEOs Call The Threat Ov",
-        "U.S. and Iran trade strikes after two U.S. service members killed in Jordan - NBC News",
-        "2 service members killed as U.S. and Iran trade strikes - WWLTV.com"
+        "U.S. and Iran trade strikes for 9th day; Ansarallah announces Saudi blockade; House to vote on fusing elements of U.S., ",
+        "2 service members killed as U.S. and Iran trade strikes - WWLTV.com",
+        "U.S. and Iran trade strikes after two U.S. service members killed in Jordan - NBC News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.41,
-      "health": -0.4616,
-      "vol_ratio": 1.6
+      "up_down_ratio": 0.48,
+      "health": 0.4458,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.95828,
-      "ema200": 0.95714,
-      "macd": -0.000866,
-      "macd_signal": -0.001148,
-      "rsi14": 52.7,
-      "atr14": 0.00169,
-      "atr14_hourly": 0.00841,
-      "bb_position": 0.622
+      "ema50": 0.9627,
+      "ema200": 0.95856,
+      "macd": 0.003715,
+      "macd_signal": 0.002553,
+      "rsi14": 77.5,
+      "atr14": 0.00219,
+      "atr14_hourly": 0.01269,
+      "bb_position": 0.869
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.257,
+      "percentile": 0.313,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166375
+  "data_bars": 166387
 }
