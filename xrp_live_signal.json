@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-20T06:02:01.044371+00:00",
+  "timestamp": "2026-07-20T07:01:34.737139+00:00",
   "signal": {
-    "price": 0.9507,
+    "price": 0.9488,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4155,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.4,
+    "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.044,
+      "score": -0.013,
       "bullish_pct": 33.3,
-      "bearish_pct": 36.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.06,
-        "crypto_macro": -0.085,
-        "geopolitical": -0.206,
-        "fed_rates": -0.023
+        "xrp": 0.15,
+        "crypto_macro": -0.116,
+        "geopolitical": -0.175,
+        "fed_rates": -0.01
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "5-Minute Crypto Prediction Markets (Best Sites for Trading) - SailGP",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
         "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia",
         "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - University of Kansas - kuat"
       ],
       "top_bearish": [
-        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
+        "US and Iran Trade Strikes Over Strait of Hormuz. Kuwait Suffers Infrastructure Damage - Military.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.71,
-      "health": 0.3879,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.64,
+      "health": 0.2785,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.9566,
-      "ema200": 0.95802,
-      "macd": -0.00229,
-      "macd_signal": -0.002143,
-      "rsi14": 35.2,
-      "atr14": 0.00158,
-      "atr14_hourly": 0.00816,
-      "bb_position": 0.248
+      "ema50": 0.95391,
+      "ema200": 0.95707,
+      "macd": -0.001914,
+      "macd_signal": -0.001973,
+      "rsi14": 37.4,
+      "atr14": 0.00143,
+      "atr14_hourly": 0.00606,
+      "bb_position": 0.239
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.171,
+      "percentile": 0.176,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166267
+  "data_bars": 166279
 }
