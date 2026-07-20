@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-20T04:01:27.788093+00:00",
+  "timestamp": "2026-07-20T05:01:31.596430+00:00",
   "signal": {
-    "price": 0.9611,
+    "price": 0.9572,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3463,
-    "hybrid_score": 2.8,
+    "xgb_prob": 0.4085,
+    "hybrid_score": 3.2,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.04,
-      "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "score": -0.042,
+      "bullish_pct": 35.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.114,
-        "crypto_macro": -0.131,
-        "geopolitical": -0.236,
-        "fed_rates": 0.001
+        "xrp": 0.158,
+        "crypto_macro": -0.187,
+        "geopolitical": -0.221,
+        "fed_rates": -0.028
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Trades Soft As Ripple Urges Senate To Support Clarity Act - MarketForces Africa",
         "How Much Will XRP Be After the CLARITY Act Passes? - 24/7 Wall St.",
-        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia",
-        "What Drives XRP\u2019s Value If It Can Be Reused Every Few Seconds? - 24/7 Wall St."
+        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia"
       ],
       "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets - The Motley Fool",
-        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "Google searches for XRP sink amid 60% price crash in a year - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.44,
-      "health": 0.1229,
+      "up_down_ratio": 0.42,
+      "health": 0.0086,
       "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.96072,
-      "ema200": 0.95892,
-      "macd": -9.4e-05,
-      "macd_signal": -8.9e-05,
-      "rsi14": 50.7,
-      "atr14": 0.00159,
-      "atr14_hourly": 0.00648,
-      "bb_position": 0.511
+      "ema50": 0.9598,
+      "ema200": 0.95885,
+      "macd": -0.000787,
+      "macd_signal": -0.000616,
+      "rsi14": 39.7,
+      "atr14": 0.00139,
+      "atr14_hourly": 0.00545,
+      "bb_position": 0.153
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.142,
+      "percentile": 0.144,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166243
+  "data_bars": 166255
 }
