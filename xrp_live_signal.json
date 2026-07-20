@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-20T18:01:31.989826+00:00",
+  "timestamp": "2026-07-20T19:01:32.142402+00:00",
   "signal": {
-    "price": 0.9765,
+    "price": 0.9755,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4173,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.3764,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.043,
-      "bullish_pct": 25.0,
+      "score": -0.02,
+      "bullish_pct": 28.3,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.108,
-        "crypto_macro": -0.093,
-        "geopolitical": -0.219,
+        "xrp": 0.179,
+        "crypto_macro": -0.079,
+        "geopolitical": -0.257,
         "fed_rates": -0.104
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
-        "Europe Has to Take on China to Save Free Trade - Council on Foreign Relations",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - University of Kansas - kuat"
+        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance",
+        "RippleX Executive Says XRP Is 15x More Efficient Than Stablecoin Pairs - Coinpedia"
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
         "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
-        "U.S. and Iran trade strikes for 9th day; Ansarallah announces Saudi blockade; House to vote on fusing elements of U.S., "
+        "U.S., Iran trade strikes for 9th night as Hormuz conflict escalates - upi.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.62,
-      "health": 0.5342,
-      "vol_ratio": 0.76
+      "up_down_ratio": 1.01,
+      "health": 1.6731,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 0.96985,
-      "ema200": 0.96189,
-      "macd": 0.001653,
-      "macd_signal": 0.001792,
-      "rsi14": 65.5,
-      "atr14": 0.00153,
-      "atr14_hourly": 0.00681,
-      "bb_position": 0.888
+      "ema50": 0.97277,
+      "ema200": 0.96368,
+      "macd": 0.00099,
+      "macd_signal": 0.001533,
+      "rsi14": 50.0,
+      "atr14": 0.00149,
+      "atr14_hourly": 0.00727,
+      "bb_position": 0.411
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.32,
+      "percentile": 0.34,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166411
+  "data_bars": 166423
 }
