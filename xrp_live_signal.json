@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-21T01:01:27.711515+00:00",
+  "timestamp": "2026-07-21T02:01:28.608865+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.977,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9753,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3465,
+    "hybrid_score": 2.8,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.008,
+      "bullish_pct": 31.7,
+      "bearish_pct": 35.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.165,
+        "crypto_macro": -0.039,
+        "geopolitical": -0.336,
+        "fed_rates": 0.027
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
+        "Bitcoin, ETH, XRP, DOGE Rally As CLARITY Act Goes To Senate - Benzinga",
+        "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Fa"
+      ],
+      "top_bearish": [
+        "Crypto Today: Bitcoin, Ethereum, XRP slip as US-Iran escalating hostilities pressure risk assets - FXStreet",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.78,
+      "health": -0.109,
+      "vol_ratio": 0.04
+    },
+    "technicals": {
+      "ema50": 0.97593,
+      "ema200": 0.97058,
+      "macd": 9.7e-05,
+      "macd_signal": 0.000509,
+      "rsi14": 44.3,
+      "atr14": 0.00104,
+      "atr14_hourly": 0.00516,
+      "bb_position": 0.155
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.219,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166495
+  "data_bars": 166507
 }
