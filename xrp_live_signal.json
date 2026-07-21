@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-21T17:01:37.088961+00:00",
+  "timestamp": "2026-07-21T18:01:26.484307+00:00",
   "signal": {
-    "price": 1.0079,
+    "price": 1.0128,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.444,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4854,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.04,
-      "bullish_pct": 30.0,
+      "score": 0.015,
+      "bullish_pct": 26.7,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.226,
-        "crypto_macro": 0.077,
-        "geopolitical": -0.366,
+        "xrp": 0.196,
+        "crypto_macro": 0.017,
+        "geopolitical": -0.349,
         "fed_rates": 0.012
       },
       "geo_shock": true,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
         "Bitcoin, ETH, XRP, DOGE Rally As CLARITY Act Goes To Senate - Benzinga",
-        "Crypto markets rally on Clarity progress report, Asian chip-stock rebound - CoinDesk"
+        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance"
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
         "Houthi Threat Adds to Fears of Wider War as US and Iran Trade Strikes - GV Wire",
-        "Nearly 100 U.S. troops injured in last two weeks of Iran war, Pentagon says - The Washington Post"
+        "President Trump announces new tariffs on imports from Canada as trade war heats up - 13newsnow.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.33,
-      "health": -0.0488,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.49,
+      "health": 0.0496,
+      "vol_ratio": 0.27
     },
     "technicals": {
-      "ema50": 1.00512,
-      "ema200": 0.99334,
-      "macd": 0.000647,
-      "macd_signal": 0.001203,
-      "rsi14": 51.1,
-      "atr14": 0.00201,
-      "atr14_hourly": 0.00929,
-      "bb_position": 0.405
+      "ema50": 1.00752,
+      "ema200": 0.99536,
+      "macd": 0.001664,
+      "macd_signal": 0.001318,
+      "rsi14": 59.4,
+      "atr14": 0.00259,
+      "atr14_hourly": 0.00883,
+      "bb_position": 0.77
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.253,
+      "percentile": 0.257,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166687
+  "data_bars": 166699
 }
