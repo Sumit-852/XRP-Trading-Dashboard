@@ -1,70 +1,20 @@
 {
-  "timestamp": "2026-07-21T22:01:20.857607+00:00",
+  "timestamp": "2026-07-21T23:01:16.788757+00:00",
   "signal": {
-    "price": 1.0048,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 1.0008,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.411,
-    "hybrid_score": 4.5,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
     "exit_signal": false,
-    "action": "HOLD",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.034,
-      "bullish_pct": 33.3,
-      "bearish_pct": 36.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.241,
-        "crypto_macro": 0.086,
-        "geopolitical": -0.419,
-        "fed_rates": -0.02
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
-        "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance",
-        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance"
-      ],
-      "top_bearish": [
-        "Houthi Threat Adds to Fears of Wider War as US and Iran Trade Strikes - GV Wire",
-        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - WRAL",
-        "Welch calls Trump\u2019s new 50% tariff on Canada an \u2018extreme escalation\u2019 of trade war - WCAX"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": -0.4141,
-      "vol_ratio": 0.15
-    },
-    "technicals": {
-      "ema50": 1.00869,
-      "ema200": 1.00115,
-      "macd": -0.001776,
-      "macd_signal": -0.001883,
-      "rsi14": 36.7,
-      "atr14": 0.0012,
-      "atr14_hourly": 0.00621,
-      "bb_position": 0.221
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.237,
+      "percentile": 0.5,
       "extreme": false
     }
   },
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166747
+  "data_bars": 166759
 }
