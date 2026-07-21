@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-21T05:01:20.270339+00:00",
+  "timestamp": "2026-07-21T06:01:16.204653+00:00",
   "signal": {
-    "price": 0.9864,
+    "price": 0.9901,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3429,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3957,
+    "hybrid_score": 4.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": -0.007,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.235,
-        "crypto_macro": -0.009,
-        "geopolitical": -0.422,
-        "fed_rates": 0.065
+        "xrp": 0.114,
+        "crypto_macro": 0.028,
+        "geopolitical": -0.401,
+        "fed_rates": 0.117
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
-        "Iran War Day 143: The U.S. and Iran Trade Strikes as Casualties Mount, Ships Avoid Hormuz, and Gas Prices Rise - The Ame"
+        "Iran and US trade more attacks as Houthis threaten blockade - South China Morning Post",
+        "Trump\u2019s new 50% tariffs on Canada risk igniting a fresh trade war - CNN"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.99,
-      "health": 0.31,
-      "vol_ratio": 0.02
+      "up_down_ratio": 1.0,
+      "health": 0.3207,
+      "vol_ratio": 5.44
     },
     "technicals": {
-      "ema50": 0.98137,
-      "ema200": 0.97408,
-      "macd": 0.001357,
-      "macd_signal": 0.001452,
-      "rsi14": 64.3,
-      "atr14": 0.00124,
-      "atr14_hourly": 0.00654,
-      "bb_position": 0.854
+      "ema50": 0.98489,
+      "ema200": 0.97597,
+      "macd": 0.001756,
+      "macd_signal": 0.00198,
+      "rsi14": 58.1,
+      "atr14": 0.00167,
+      "atr14_hourly": 0.01006,
+      "bb_position": 0.626
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.22,
+      "percentile": 0.301,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166543
+  "data_bars": 166555
 }
