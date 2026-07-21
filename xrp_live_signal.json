@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-21T06:01:16.204653+00:00",
+  "timestamp": "2026-07-21T07:01:35.909832+00:00",
   "signal": {
-    "price": 0.9901,
+    "price": 0.9917,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3957,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.3945,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.007,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": -0.03,
+      "bullish_pct": 26.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.114,
-        "crypto_macro": 0.028,
-        "geopolitical": -0.401,
-        "fed_rates": 0.117
+        "xrp": 0.084,
+        "crypto_macro": -0.007,
+        "geopolitical": -0.393,
+        "fed_rates": 0.092
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Cryptocurrencies Rally Strongly: BTC Breaks $65,000, ETH Tops $1,900 Mark - TradingKey"
       ],
       "top_bearish": [
+        "Ripple's ex-CTO regrets early XRP and Ethereum sales driven by risk aversion, missing later gains. - Pluang",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Iran and US trade more attacks as Houthis threaten blockade - South China Morning Post",
-        "Trump\u2019s new 50% tariffs on Canada risk igniting a fresh trade war - CNN"
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": 0.3207,
-      "vol_ratio": 5.44
+      "up_down_ratio": 1.51,
+      "health": 0.7514,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.98489,
-      "ema200": 0.97597,
-      "macd": 0.001756,
-      "macd_signal": 0.00198,
-      "rsi14": 58.1,
-      "atr14": 0.00167,
-      "atr14_hourly": 0.01006,
-      "bb_position": 0.626
+      "ema50": 0.98772,
+      "ema200": 0.97781,
+      "macd": 0.001576,
+      "macd_signal": 0.001791,
+      "rsi14": 55.3,
+      "atr14": 0.00149,
+      "atr14_hourly": 0.00765,
+      "bb_position": 0.569
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.301,
+      "percentile": 0.302,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166555
+  "data_bars": 166567
 }
