@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-21T15:01:32.639218+00:00",
+  "timestamp": "2026-07-21T16:01:31.519146+00:00",
   "signal": {
-    "price": 1.006,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4276,
-    "hybrid_score": 4.6,
+    "price": 1.0113,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5064,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -12,14 +12,14 @@
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.03,
-      "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
+      "bullish_pct": 26.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.176,
-        "crypto_macro": 0.059,
-        "geopolitical": -0.327,
-        "fed_rates": 0.052
+        "xrp": 0.149,
+        "crypto_macro": 0.091,
+        "geopolitical": -0.321,
+        "fed_rates": 0.049
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Donald Trump threatens to reignite trade war with fresh 50% tariffs on Canada - Financial Times",
-        "U.S. and Iran trade strikes after two U.S. service members killed in Jordan - NBC News"
+        "Nearly 100 U.S. troops injured in last two weeks of Iran war, Pentagon says - The Washington Post",
+        "Veteran Ripple developer regrets selling XRP - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.12,
-      "health": -0.2796,
-      "vol_ratio": 0.08
+      "up_down_ratio": 1.14,
+      "health": -0.2514,
+      "vol_ratio": 0.27
     },
     "technicals": {
-      "ema50": 0.99933,
-      "ema200": 0.98916,
-      "macd": 0.002534,
-      "macd_signal": 0.002318,
-      "rsi14": 64.7,
-      "atr14": 0.00197,
-      "atr14_hourly": 0.0079,
-      "bb_position": 0.752
+      "ema50": 1.00301,
+      "ema200": 0.99139,
+      "macd": 0.002596,
+      "macd_signal": 0.002393,
+      "rsi14": 62.2,
+      "atr14": 0.00252,
+      "atr14_hourly": 0.00858,
+      "bb_position": 0.838
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.222,
+      "percentile": 0.24,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166663
+  "data_bars": 166675
 }
