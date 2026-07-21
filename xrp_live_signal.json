@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-21T14:01:42.880960+00:00",
+  "timestamp": "2026-07-21T15:01:32.639218+00:00",
   "signal": {
-    "price": 0.9986,
+    "price": 1.006,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3843,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.4276,
+    "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.022,
-      "bullish_pct": 31.7,
-      "bearish_pct": 36.7,
+      "score": 0.03,
+      "bullish_pct": 28.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.279,
-        "crypto_macro": -0.04,
-        "geopolitical": -0.418,
+        "xrp": 0.176,
+        "crypto_macro": 0.059,
+        "geopolitical": -0.327,
         "fed_rates": 0.052
       },
       "geo_shock": true,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
-        "Top 5 Biggest Crypto Bubbles in History \u2014 What Investors Can Learn Before the Next Crash - Bitcoin Foundation"
+        "Donald Trump threatens to reignite trade war with fresh 50% tariffs on Canada - Financial Times",
+        "U.S. and Iran trade strikes after two U.S. service members killed in Jordan - NBC News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.26,
-      "health": -0.1558,
-      "vol_ratio": 5.12
+      "up_down_ratio": 1.12,
+      "health": -0.2796,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.99573,
-      "ema200": 0.98714,
-      "macd": 0.001185,
-      "macd_signal": 0.001518,
-      "rsi14": 56.2,
-      "atr14": 0.00138,
-      "atr14_hourly": 0.00589,
-      "bb_position": 0.493
+      "ema50": 0.99933,
+      "ema200": 0.98916,
+      "macd": 0.002534,
+      "macd_signal": 0.002318,
+      "rsi14": 64.7,
+      "atr14": 0.00197,
+      "atr14_hourly": 0.0079,
+      "bb_position": 0.752
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.22,
+      "percentile": 0.222,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166651
+  "data_bars": 166663
 }
