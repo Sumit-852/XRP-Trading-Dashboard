@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-21T03:01:24.257799+00:00",
+  "timestamp": "2026-07-21T04:01:22.675682+00:00",
   "signal": {
-    "price": 0.9802,
+    "price": 0.9848,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3533,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3483,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.059,
-      "bullish_pct": 36.7,
+      "score": 0.047,
+      "bullish_pct": 35.0,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.283,
-        "crypto_macro": 0.035,
-        "geopolitical": -0.336,
-        "fed_rates": 0.04
+        "xrp": 0.262,
+        "crypto_macro": 0.022,
+        "geopolitical": -0.376,
+        "fed_rates": 0.091
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
         "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St.",
-        "Trump\u2019s new 50% tariffs on Canada risk igniting a fresh trade war - CNN"
+        "U.S. and Iran trade strikes after two U.S. service members killed in Jordan - NBC News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.98,
-      "health": 0.3001,
-      "vol_ratio": 0.0
+      "health": 0.2845,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.97638,
-      "ema200": 0.9713,
-      "macd": 0.000672,
-      "macd_signal": 0.000226,
-      "rsi14": 65.3,
-      "atr14": 0.00122,
-      "atr14_hourly": 0.00517,
-      "bb_position": 1.027
+      "ema50": 0.97921,
+      "ema200": 0.97271,
+      "macd": 0.002088,
+      "macd_signal": 0.001847,
+      "rsi14": 68.8,
+      "atr14": 0.00129,
+      "atr14_hourly": 0.00736,
+      "bb_position": 0.762
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.215,
+      "percentile": 0.221,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166519
+  "data_bars": 166531
 }
