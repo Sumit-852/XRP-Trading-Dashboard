@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-21T19:01:29.984905+00:00",
+  "timestamp": "2026-07-21T20:01:24.674618+00:00",
   "signal": {
-    "price": 1.015,
+    "price": 1.0137,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4526,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4382,
+    "hybrid_score": 5.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.008,
-      "bullish_pct": 26.7,
+      "score": 0.017,
+      "bullish_pct": 28.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.187,
-        "crypto_macro": 0.017,
-        "geopolitical": -0.349,
-        "fed_rates": -0.011
+        "xrp": 0.199,
+        "crypto_macro": 0.022,
+        "geopolitical": -0.337,
+        "fed_rates": -0.005
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH defends key support, XRP recovery stays on tr",
-        "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance",
-        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance"
+        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance",
+        "Bitcoin Clears $66K \u2014 But Crypto Whales Aren\u2019t Fully Back Yet - Grayscale Bitcoin Mini Trust (BTC) (ARCA - Benzinga"
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.53,
-      "health": 0.0528,
-      "vol_ratio": 0.02
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.19,
+      "health": 0.0813,
+      "vol_ratio": 0.51
     },
     "technicals": {
-      "ema50": 1.01029,
-      "ema200": 0.99756,
-      "macd": 0.001339,
-      "macd_signal": 0.001573,
-      "rsi14": 57.9,
-      "atr14": 0.00241,
-      "atr14_hourly": 0.00985,
-      "bb_position": 0.635
+      "ema50": 1.01244,
+      "ema200": 0.99965,
+      "macd": 0.000693,
+      "macd_signal": 0.001189,
+      "rsi14": 46.7,
+      "atr14": 0.0023,
+      "atr14_hourly": 0.00917,
+      "bb_position": 0.23
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.253,
+      "percentile": 0.244,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166711
+  "data_bars": 166723
 }
