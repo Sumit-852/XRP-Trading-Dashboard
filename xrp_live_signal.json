@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-07-21T09:01:37.404430+00:00",
+  "timestamp": "2026-07-21T10:01:30.646484+00:00",
   "signal": {
-    "price": 0.9918,
+    "price": 0.9929,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3928,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.3917,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.02,
-      "bullish_pct": 28.3,
+      "score": -0.031,
+      "bullish_pct": 26.7,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.103,
-        "crypto_macro": -0.017,
-        "geopolitical": -0.332,
+        "crypto_macro": -0.041,
+        "geopolitical": -0.354,
         "fed_rates": 0.059
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.49,
-      "health": 0.4335,
-      "vol_ratio": 0.31
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.51,
+      "health": 0.3641,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 0.99064,
-      "ema200": 0.98093,
-      "macd": 0.000234,
-      "macd_signal": 0.000451,
-      "rsi14": 48.4,
-      "atr14": 0.00119,
-      "atr14_hourly": 0.00499,
-      "bb_position": 0.33
+      "ema50": 0.99125,
+      "ema200": 0.9822,
+      "macd": 0.000337,
+      "macd_signal": 0.000196,
+      "rsi14": 53.6,
+      "atr14": 0.00099,
+      "atr14_hourly": 0.00464,
+      "bb_position": 0.68
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.294,
+      "percentile": 0.293,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166591
+  "data_bars": 166603
 }
