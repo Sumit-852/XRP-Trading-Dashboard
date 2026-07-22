@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-22T22:01:21.308762+00:00",
+  "timestamp": "2026-07-22T23:01:25.888098+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 1.0005,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 1.0004,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3074,
+    "hybrid_score": 2.7,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "BULLISH",
+      "score": 0.11,
+      "bullish_pct": 35.0,
+      "bearish_pct": 23.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.277,
+        "crypto_macro": 0.151,
+        "geopolitical": -0.213,
+        "fed_rates": 0.013
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "The CLARITY Act Is Now One Clause Away From Passing: Should XRP Holders Celebrate? - Yahoo Finance",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends gains, ETH and XRP target breakout moves - FXStreet",
+        "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com"
+      ],
+      "top_bearish": [
+        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS",
+        "Trump and Iran trade threats to attack energy infrastructure as U.S. completes 11th night of strikes - CBS News",
+        "China braces as new US global tariffs loom: fresh trade war or managed friction? - South China Morning Post"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.78,
+      "health": -0.1517,
+      "vol_ratio": 0.87
+    },
+    "technicals": {
+      "ema50": 0.99958,
+      "ema200": 0.99983,
+      "macd": 0.000447,
+      "macd_signal": 0.000416,
+      "rsi14": 55.4,
+      "atr14": 0.00093,
+      "atr14_hourly": 0.00384,
+      "bb_position": 0.615
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.092,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167035
+  "data_bars": 167047
 }
