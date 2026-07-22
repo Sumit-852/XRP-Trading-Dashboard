@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-21T23:01:16.788757+00:00",
+  "timestamp": "2026-07-22T00:01:34.849230+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 1.0008,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 1.002,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3827,
+    "hybrid_score": 3.1,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.017,
+      "bullish_pct": 31.7,
+      "bearish_pct": 36.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.154,
+        "crypto_macro": 0.099,
+        "geopolitical": -0.342,
+        "fed_rates": -0.041
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Bitcoin, ether rally on Clarity progress report, Asian chip stock rebound: Crypto Markets Today - CoinDesk",
+        "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance",
+        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance"
+      ],
+      "top_bearish": [
+        "Ripple prepares to dump 1 billion XRP next week - Finbold",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Houthi Threat Adds to Fears of Wider War as US and Iran Trade Strikes - GV Wire"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.83,
+      "health": -0.7,
+      "vol_ratio": 0.07
+    },
+    "technicals": {
+      "ema50": 1.00361,
+      "ema200": 1.001,
+      "macd": -0.000699,
+      "macd_signal": -0.001331,
+      "rsi14": 51.9,
+      "atr14": 0.00088,
+      "atr14_hourly": 0.00482,
+      "bb_position": 0.774
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.247,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166759
+  "data_bars": 166771
 }
