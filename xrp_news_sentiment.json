@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-07-22T10:01:28.764028+00:00",
-  "score": 0.103,
-  "label": "BULLISH",
-  "bullish_pct": 41.7,
-  "bearish_pct": 25.0,
+  "timestamp": "2026-07-22T11:01:27.906007+00:00",
+  "score": 0.07,
+  "label": "NEUTRAL",
+  "bullish_pct": 38.3,
+  "bearish_pct": 28.3,
   "count": 60,
   "feed_scores": {
-    "xrp": 0.203,
-    "crypto_macro": 0.187,
-    "geopolitical": -0.226,
-    "fed_rates": 0.096
+    "xrp": 0.215,
+    "crypto_macro": 0.13,
+    "geopolitical": -0.306,
+    "fed_rates": 0.055
   },
-  "geo_shock": false,
+  "geo_shock": true,
   "top_bull": [
     {
       "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends gains, ETH and XRP target breakout moves - FXStreet",
@@ -40,6 +40,14 @@
   ],
   "top_bear": [
     {
+      "title": "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+      "pubdate": "Fri, 05 Jun 2026 07:00:00",
+      "compound": -0.844,
+      "feed": "crypto_macro",
+      "weight": 0.8,
+      "weighted_score": -0.675
+    },
+    {
       "title": "Ripple prepares to dump 1 billion XRP next week - Finbold",
       "pubdate": "Tue, 21 Jul 2026 13:59:12",
       "compound": -0.542,
@@ -54,14 +62,6 @@
       "feed": "crypto_macro",
       "weight": 0.8,
       "weighted_score": -0.5
-    },
-    {
-      "title": "A New Threat by Yemen\u2019s Houthis Could Widen the Iran War and Put Another Trade Chokepoint at Risk - Military.com",
-      "pubdate": "Tue, 21 Jul 2026 20:28:19",
-      "compound": -0.859,
-      "feed": "geopolitical",
-      "weight": 0.5,
-      "weighted_score": -0.43
     }
   ]
 }
