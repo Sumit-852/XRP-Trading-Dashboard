@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-22T09:01:29.606861+00:00",
+  "timestamp": "2026-07-22T10:01:28.811659+00:00",
   "signal": {
-    "price": 0.9943,
+    "price": 0.9947,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2089,
-    "hybrid_score": 2.0,
+    "xgb_prob": 0.2071,
+    "hybrid_score": 2.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.044,
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
+      "sentiment": "BULLISH",
+      "score": 0.103,
+      "bullish_pct": 41.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.158,
-        "crypto_macro": 0.099,
-        "geopolitical": -0.223,
-        "fed_rates": -0.019
+        "xrp": 0.203,
+        "crypto_macro": 0.187,
+        "geopolitical": -0.226,
+        "fed_rates": 0.096
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin, ether rally on Clarity progress report, Asian chip stock rebound: Crypto Markets Today - CoinDesk",
-        "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance",
-        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends gains, ETH and XRP target breakout moves - FXStreet",
+        "Bitcoin tops $66K on regulatory optimism and ETF inflows - The Jerusalem Post",
+        "Bitcoin, ether rally on Clarity progress report, Asian chip stock rebound: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
         "Ripple prepares to dump 1 billion XRP next week - Finbold",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Houthi Threat Adds to Fears of Wider War as US and Iran Trade Strikes - GV Wire"
+        "A New Threat by Yemen\u2019s Houthis Could Widen the Iran War and Put Another Trade Chokepoint at Risk - Military.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.61,
-      "health": -0.0562,
+      "up_down_ratio": 0.49,
+      "health": -0.2422,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99396,
-      "ema200": 0.99794,
-      "macd": 0.000428,
-      "macd_signal": 0.000157,
-      "rsi14": 57.7,
-      "atr14": 0.00082,
-      "atr14_hourly": 0.00468,
-      "bb_position": 0.735
+      "ema50": 0.99401,
+      "ema200": 0.9975,
+      "macd": 0.000278,
+      "macd_signal": 0.000283,
+      "rsi14": 55.5,
+      "atr14": 0.00087,
+      "atr14_hourly": 0.00352,
+      "bb_position": 0.697
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.117,
+      "percentile": 0.122,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166879
+  "data_bars": 166891
 }
