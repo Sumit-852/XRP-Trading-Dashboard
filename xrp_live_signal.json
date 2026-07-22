@@ -1,20 +1,70 @@
 {
-  "timestamp": "2026-07-22T19:01:23.185209+00:00",
+  "timestamp": "2026-07-22T20:01:24.908352+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 1.0007,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9972,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.4215,
+    "hybrid_score": 4.6,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "action": "HOLD",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.079,
+      "bullish_pct": 35.0,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.176,
+        "crypto_macro": 0.123,
+        "geopolitical": -0.185,
+        "fed_rates": 0.075
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "The CLARITY Act Is Now One Clause Away From Passing: Should XRP Holders Celebrate? - Yahoo Finance",
+        "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com",
+        "Bitcoin, ether rally on Clarity progress report, Asian chip stock rebound: Crypto Markets Today - CoinDesk"
+      ],
+      "top_bearish": [
+        "Ripple prepares to dump 1 billion XRP next week - Finbold",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "War widens as US, Iran trade attacks - China Daily"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.83,
+      "health": 0.5558,
+      "vol_ratio": 3.19
+    },
+    "technicals": {
+      "ema50": 1.00128,
+      "ema200": 1.00036,
+      "macd": -0.001831,
+      "macd_signal": -0.001935,
+      "rsi14": 38.2,
+      "atr14": 0.00143,
+      "atr14_hourly": 0.00716,
+      "bb_position": 0.303
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.101,
       "extreme": false
     }
   },
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166999
+  "data_bars": 167011
 }
