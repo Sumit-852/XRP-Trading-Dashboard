@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-22T08:01:22.035498+00:00",
+  "timestamp": "2026-07-22T09:01:29.606861+00:00",
   "signal": {
-    "price": 0.9918,
+    "price": 0.9943,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.383,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.2089,
+    "hybrid_score": 2.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.043,
+      "score": 0.044,
       "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.156,
+        "xrp": 0.158,
         "crypto_macro": 0.099,
-        "geopolitical": -0.202,
-        "fed_rates": -0.044
+        "geopolitical": -0.223,
+        "fed_rates": -0.019
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Bitcoin, ether rally on Clarity progress report, Asian chip stock rebound: Crypto Markets Today - CoinDesk",
         "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance",
-        "Bitcoin, Ethereum, XRP, Dogecoin Lift Amid Crypto Bill Optimism: Analyst Flags BTC's 'Biggest Test' - Yahoo Finance UK"
+        "Grayscale Highlights Ripple\u2019s Elite Deals, but Why Won\u2019t XRP\u2019s Price Rally? - Yahoo Finance"
       ],
       "top_bearish": [
         "Ripple prepares to dump 1 billion XRP next week - Finbold",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.64,
-      "health": -0.0456,
-      "vol_ratio": 0.02
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.61,
+      "health": -0.0562,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.99398,
-      "ema200": 0.99845,
-      "macd": -0.000963,
-      "macd_signal": -0.001179,
-      "rsi14": 48.4,
-      "atr14": 0.00096,
-      "atr14_hourly": 0.00404,
-      "bb_position": 0.662
+      "ema50": 0.99396,
+      "ema200": 0.99794,
+      "macd": 0.000428,
+      "macd_signal": 0.000157,
+      "rsi14": 57.7,
+      "atr14": 0.00082,
+      "atr14_hourly": 0.00468,
+      "bb_position": 0.735
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.12,
+      "percentile": 0.117,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166867
+  "data_bars": 166879
 }
