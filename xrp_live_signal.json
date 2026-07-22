@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-22T15:01:25.140557+00:00",
+  "timestamp": "2026-07-22T16:01:36.818518+00:00",
   "signal": {
-    "price": 1.0025,
+    "price": 1.0078,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4051,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.415,
+    "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.087,
-      "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
+      "score": 0.075,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.199,
-        "crypto_macro": 0.122,
+        "xrp": 0.168,
+        "crypto_macro": 0.109,
         "geopolitical": -0.164,
-        "fed_rates": 0.054
+        "fed_rates": 0.075
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Ripple prepares to dump 1 billion XRP next week - Finbold",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "War widens as US, Iran trade attacks - China Daily"
+        "Bitcoin, XRP Snubbed As S&P Unveils Revenue-Focused Crypto Index - Benzinga"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.4,
-      "health": -0.1616,
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.55,
+      "health": 0.0612,
       "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.9978,
-      "ema200": 0.99753,
-      "macd": 0.000902,
-      "macd_signal": 0.000824,
-      "rsi14": 62.8,
-      "atr14": 0.00165,
-      "atr14_hourly": 0.00881,
-      "bb_position": 0.824
+      "ema50": 1.0019,
+      "ema200": 0.99877,
+      "macd": 0.00276,
+      "macd_signal": 0.002723,
+      "rsi14": 60.2,
+      "atr14": 0.00184,
+      "atr14_hourly": 0.01114,
+      "bb_position": 0.652
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.122,
+      "percentile": 0.1,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 166951
+  "data_bars": 166963
 }
