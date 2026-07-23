@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-23T20:01:25.311211+00:00",
+  "timestamp": "2026-07-23T21:01:24.551958+00:00",
   "signal": {
-    "price": 0.9703,
+    "price": 0.9781,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.374,
-    "hybrid_score": 3.1,
+    "xgb_prob": 0.2667,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.078,
+      "score": 0.07,
       "bullish_pct": 35.0,
-      "bearish_pct": 21.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.297,
+        "xrp": 0.272,
         "crypto_macro": 0.035,
         "geopolitical": -0.343,
-        "fed_rates": 0.142
+        "fed_rates": 0.147
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St."
       ],
       "top_bearish": [
+        "Bitcoin Slips To $64,000 As ETH, XRP, DOGE Tumble In Macro Sell-Off - Benzinga",
         "US and Iran trade strikes as Tehran blocks tankers from Strait of Hormuz - africanews.com",
-        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS",
-        "Tensions over Yemen chokepoint threaten to ignite another theater of US-Iran war - ABC News - Breaking News, Latest News"
+        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.66,
-      "health": 0.0946,
-      "vol_ratio": 0.02
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.88,
+      "health": 0.2449,
+      "vol_ratio": 0.6
     },
     "technicals": {
-      "ema50": 0.97244,
-      "ema200": 0.98269,
-      "macd": -0.000529,
-      "macd_signal": -0.000692,
-      "rsi14": 47.4,
-      "atr14": 0.00105,
-      "atr14_hourly": 0.00433,
-      "bb_position": 0.521
+      "ema50": 0.97407,
+      "ema200": 0.98202,
+      "macd": 0.001616,
+      "macd_signal": 0.001238,
+      "rsi14": 70.9,
+      "atr14": 0.0009,
+      "atr14_hourly": 0.00642,
+      "bb_position": 0.822
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.072,
+      "percentile": 0.08,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167299
+  "data_bars": 167311
 }
