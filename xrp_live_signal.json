@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-23T12:01:35.001831+00:00",
+  "timestamp": "2026-07-23T13:01:32.389021+00:00",
   "signal": {
-    "price": 0.993,
+    "price": 0.9845,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3096,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.4679,
+    "hybrid_score": 4.9,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.098,
-      "bullish_pct": 38.3,
-      "bearish_pct": 20.0,
+      "score": 0.077,
+      "bullish_pct": 35.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.28,
-        "crypto_macro": 0.109,
-        "geopolitical": -0.214,
-        "fed_rates": 0.013
+        "crypto_macro": 0.094,
+        "geopolitical": -0.285,
+        "fed_rates": -0.011
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS",
-        "Trump and Iran trade threats to attack energy infrastructure as U.S. completes 11th night of strikes - CBS News",
-        "China braces as new US global tariffs loom: fresh trade war or managed friction? - South China Morning Post"
+        "Several killed as Ukraine, Russia trade attacks deep behind the front line - Al Jazeera",
+        "Trump and Iran trade threats to attack energy infrastructure as U.S. completes 11th night of strikes - CBS News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": 0.1577,
-      "vol_ratio": 0.22
+      "up_down_ratio": 0.94,
+      "health": -0.2104,
+      "vol_ratio": 1.19
     },
     "technicals": {
-      "ema50": 0.99414,
-      "ema200": 0.99551,
-      "macd": -0.000183,
-      "macd_signal": 1.5e-05,
-      "rsi14": 40.4,
-      "atr14": 0.00073,
-      "atr14_hourly": 0.00301,
-      "bb_position": -0.036
+      "ema50": 0.99215,
+      "ema200": 0.9948,
+      "macd": -0.002346,
+      "macd_signal": -0.001494,
+      "rsi14": 24.6,
+      "atr14": 0.00137,
+      "atr14_hourly": 0.00579,
+      "bb_position": 0.053
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.103,
+      "percentile": 0.113,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167203
+  "data_bars": 167215
 }
