@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-23T16:01:33.324440+00:00",
+  "timestamp": "2026-07-23T17:01:26.643910+00:00",
   "signal": {
-    "price": 0.9771,
+    "price": 0.974,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3193,
-    "hybrid_score": 2.7,
+    "xgb_prob": 0.3493,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.049,
-      "bullish_pct": 31.7,
-      "bearish_pct": 26.7,
+      "sentiment": "BULLISH",
+      "score": 0.111,
+      "bullish_pct": 41.7,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.264,
-        "crypto_macro": 0.064,
-        "geopolitical": -0.36,
-        "fed_rates": -0.011
+        "xrp": 0.348,
+        "crypto_macro": 0.107,
+        "geopolitical": -0.342,
+        "fed_rates": 0.09
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "US and Iran trade strikes as Tehran blocks tankers from Strait of Hormuz - africanews.com",
         "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS",
-        "Several killed as Ukraine, Russia trade attacks deep behind the front line - Al Jazeera"
+        "Tensions over Yemen chokepoint threaten to ignite another theater of US-Iran war - ABC News - Breaking News, Latest News"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.71,
-      "health": -0.5203,
-      "vol_ratio": 0.39
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.68,
+      "health": -0.556,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.98045,
-      "ema200": 0.98949,
-      "macd": -0.0009,
-      "macd_signal": -0.001732,
-      "rsi14": 48.6,
-      "atr14": 0.00164,
-      "atr14_hourly": 0.00822,
-      "bb_position": 0.604
+      "ema50": 0.97813,
+      "ema200": 0.98778,
+      "macd": -0.001006,
+      "macd_signal": -0.001055,
+      "rsi14": 43.2,
+      "atr14": 0.00126,
+      "atr14_hourly": 0.00688,
+      "bb_position": 0.309
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.099,
+      "percentile": 0.084,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167251
+  "data_bars": 167263
 }
