@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-23T13:01:32.389021+00:00",
+  "timestamp": "2026-07-23T14:01:33.771998+00:00",
   "signal": {
-    "price": 0.9845,
+    "price": 0.9774,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4679,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.407,
+    "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.077,
-      "bullish_pct": 35.0,
+      "score": 0.087,
+      "bullish_pct": 36.7,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.28,
-        "crypto_macro": 0.094,
-        "geopolitical": -0.285,
-        "fed_rates": -0.011
+        "xrp": 0.332,
+        "crypto_macro": 0.028,
+        "geopolitical": -0.254,
+        "fed_rates": 0.02
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "The CLARITY Act Is Now One Clause Away From Passing: Should XRP Holders Celebrate? - Yahoo Finance",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends gains, ETH and XRP target breakout moves - FXStreet",
-        "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com",
-        "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St."
+        "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com"
       ],
       "top_bearish": [
         "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.94,
-      "health": -0.2104,
-      "vol_ratio": 1.19
+      "up_down_ratio": 0.81,
+      "health": -0.4268,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.99215,
-      "ema200": 0.9948,
-      "macd": -0.002346,
-      "macd_signal": -0.001494,
-      "rsi14": 24.6,
-      "atr14": 0.00137,
-      "atr14_hourly": 0.00579,
-      "bb_position": 0.053
+      "ema50": 0.98715,
+      "ema200": 0.99303,
+      "macd": -0.003593,
+      "macd_signal": -0.003522,
+      "rsi14": 29.5,
+      "atr14": 0.00186,
+      "atr14_hourly": 0.00907,
+      "bb_position": 0.218
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.113,
+      "percentile": 0.124,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167215
+  "data_bars": 167227
 }
