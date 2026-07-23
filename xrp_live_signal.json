@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-23T07:01:33.167092+00:00",
+  "timestamp": "2026-07-23T08:01:27.323560+00:00",
   "signal": {
-    "price": 0.9941,
+    "price": 0.9921,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2056,
-    "hybrid_score": 2.0,
+    "xgb_prob": 0.3106,
+    "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.052,
+      "score": 0.044,
       "bullish_pct": 30.0,
-      "bearish_pct": 26.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.285,
-        "crypto_macro": 0.011,
-        "geopolitical": -0.33,
-        "fed_rates": 0.026
+        "xrp": 0.249,
+        "crypto_macro": 0.067,
+        "geopolitical": -0.373,
+        "fed_rates": 0.005
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com"
       ],
       "top_bearish": [
-        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS"
+        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS",
+        "U.S. and Iran trade strikes after two U.S. service members killed in Jordan - NBC News"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.79,
-      "health": 0.0525,
-      "vol_ratio": 0.1
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.18,
+      "health": 0.4254,
+      "vol_ratio": 0.35
     },
     "technicals": {
-      "ema50": 0.99384,
-      "ema200": 0.9968,
-      "macd": 0.000211,
-      "macd_signal": -1e-06,
-      "rsi14": 53.7,
-      "atr14": 0.00081,
-      "atr14_hourly": 0.00364,
-      "bb_position": 0.63
+      "ema50": 0.99295,
+      "ema200": 0.9962,
+      "macd": -0.000367,
+      "macd_signal": -0.000386,
+      "rsi14": 48.7,
+      "atr14": 0.00095,
+      "atr14_hourly": 0.00477,
+      "bb_position": 0.442
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.103,
+      "percentile": 0.108,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167143
+  "data_bars": 167155
 }
