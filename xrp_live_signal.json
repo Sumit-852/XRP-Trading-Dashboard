@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-23T18:01:27.677352+00:00",
+  "timestamp": "2026-07-23T19:01:30.474405+00:00",
   "signal": {
-    "price": 0.9698,
+    "price": 0.9713,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4364,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.3851,
+    "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.055,
+      "score": 0.087,
       "bullish_pct": 36.7,
-      "bearish_pct": 25.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.272,
-        "crypto_macro": 0.026,
-        "geopolitical": -0.341,
-        "fed_rates": 0.064
+        "xrp": 0.318,
+        "crypto_macro": 0.035,
+        "geopolitical": -0.315,
+        "fed_rates": 0.114
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends gains, ETH and XRP target breakout moves - FXStreet",
         "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com",
-        "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St.",
-        "XRP Surges 8% As Whales Bought And Retail Walked Away: Is $1.30 Next? - Benzinga"
+        "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St."
       ],
       "top_bearish": [
-        "Why BitMEX Is Shutting Down: Top 3 Fatal Mistakes That Destroyed a Crypto Giant - Bitcoin Foundation",
         "US and Iran trade strikes as Tehran blocks tankers from Strait of Hormuz - africanews.com",
-        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS"
+        "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - PBS",
+        "Tensions over Yemen chokepoint threaten to ignite another theater of US-Iran war - ABC News - Breaking News, Latest News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.64,
-      "health": -0.5506,
-      "vol_ratio": 0.06
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.66,
+      "health": -0.2833,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.97598,
-      "ema200": 0.98607,
-      "macd": -0.001385,
-      "macd_signal": -0.00104,
-      "rsi14": 34.2,
-      "atr14": 0.00142,
-      "atr14_hourly": 0.00539,
-      "bb_position": -0.007
+      "ema50": 0.97391,
+      "ema200": 0.98431,
+      "macd": -0.00095,
+      "macd_signal": -0.001166,
+      "rsi14": 47.5,
+      "atr14": 0.00116,
+      "atr14_hourly": 0.00572,
+      "bb_position": 0.51
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.079,
+      "percentile": 0.07,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167275
+  "data_bars": 167287
 }
