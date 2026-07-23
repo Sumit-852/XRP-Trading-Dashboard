@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-23T15:01:34.750054+00:00",
+  "timestamp": "2026-07-23T16:01:33.324440+00:00",
   "signal": {
-    "price": 0.9747,
+    "price": 0.9771,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4186,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.3193,
+    "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.065,
-      "bullish_pct": 35.0,
-      "bearish_pct": 23.3,
+      "score": 0.049,
+      "bullish_pct": 31.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.285,
-        "crypto_macro": 0.028,
-        "geopolitical": -0.279,
-        "fed_rates": 0.02
+        "xrp": 0.264,
+        "crypto_macro": 0.064,
+        "geopolitical": -0.36,
+        "fed_rates": -0.011
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends gains, ETH and XRP target breakout moves - FXStreet",
         "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com",
-        "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance"
+        "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St."
       ],
       "top_bearish": [
         "US and Iran trade strikes as Tehran blocks tankers from Strait of Hormuz - africanews.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": -0.2553,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.71,
+      "health": -0.5203,
+      "vol_ratio": 0.39
     },
     "technicals": {
-      "ema50": 0.98355,
-      "ema200": 0.99131,
-      "macd": -0.002486,
-      "macd_signal": -0.002549,
-      "rsi14": 28.8,
-      "atr14": 0.00175,
-      "atr14_hourly": 0.00682,
-      "bb_position": -0.07
+      "ema50": 0.98045,
+      "ema200": 0.98949,
+      "macd": -0.0009,
+      "macd_signal": -0.001732,
+      "rsi14": 48.6,
+      "atr14": 0.00164,
+      "atr14_hourly": 0.00822,
+      "bb_position": 0.604
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.102,
-      "extreme": false
+      "percentile": 0.099,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167239
+  "data_bars": 167251
 }
