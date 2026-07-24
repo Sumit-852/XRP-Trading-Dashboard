@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-24T10:01:43.314005+00:00",
+  "timestamp": "2026-07-24T11:01:37.375586+00:00",
   "signal": {
-    "price": 0.9729,
+    "price": 0.9716,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3308,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3021,
+    "hybrid_score": 3.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
-      "bullish_pct": 30.0,
-      "bearish_pct": 30.0,
+      "score": -0.0,
+      "bullish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.201,
-        "crypto_macro": -0.023,
-        "geopolitical": -0.439,
-        "fed_rates": 0.201
+        "xrp": 0.161,
+        "crypto_macro": 0.02,
+        "geopolitical": -0.526,
+        "fed_rates": 0.214
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Notabene Secures Strategic Investment from Ripple to Scale Global Crypto Compliance - FF News",
         "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St.",
-        "Bitcoin, Ethereum, XRP, Dogecoin Lift Amid Crypto Bill Optimism: Analyst Flags BTC's 'Biggest Test' - Benzinga"
+        "Bitcoin, Ethereum, XRP, Dogecoin Lift Amid Crypto Bill Optimism: Analyst Flags BTC's 'Biggest Test' - Benzinga",
+        "COIN Stock Jumps, XRP Leads Crypto Majors After Scott Bessent Signals CLARITY Act Is On Senate\u2019s \u2018One-Yard Line\u2019 - Tradi"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes From Here - Morningstar",
         "US tariff hikes linked to claims of foreign labor dismay and anger trading partners - WRAL",
-        "China reaffirms tariff, trade wars serve no one's interests - news.cgtn.com"
+        "Trump imposes forced labor tariffs, drawing protests from trading partners - Reuters"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.87,
-      "health": -0.0012,
+      "up_down_ratio": 1.3,
+      "health": 0.2957,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.97551,
-      "ema200": 0.97663,
-      "macd": -0.001086,
-      "macd_signal": -0.000919,
-      "rsi14": 35.2,
+      "ema50": 0.97378,
+      "ema200": 0.97599,
+      "macd": -0.001062,
+      "macd_signal": -0.00127,
+      "rsi14": 42.4,
       "atr14": 0.00066,
-      "atr14_hourly": 0.00468,
-      "bb_position": 0.225
+      "atr14_hourly": 0.00417,
+      "bb_position": 0.44
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.084,
+      "percentile": 0.086,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167467
+  "data_bars": 167479
 }
