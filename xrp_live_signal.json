@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-07-24T14:01:26.134091+00:00",
+  "timestamp": "2026-07-24T15:01:29.284299+00:00",
   "signal": {
-    "price": 0.9604,
+    "price": 0.9591,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4414,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.43,
+    "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.034,
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "score": -0.075,
+      "bullish_pct": 26.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.177,
-        "crypto_macro": -0.082,
-        "geopolitical": -0.61,
-        "fed_rates": 0.254
+        "xrp": 0.092,
+        "crypto_macro": -0.16,
+        "geopolitical": -0.541,
+        "fed_rates": 0.259
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St.",
         "XRP to $27 or $1? CLARITY Act Faces Make-or-Break Talks as Coinbase CEO Returns to Capitol Hill - Yahoo Finance",
-        "COIN Stock Jumps, XRP Leads Crypto Majors After Scott Bessent Signals CLARITY Act Is On Senate\u2019s \u2018One-Yard Line\u2019 - Tradi"
+        "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "US tariff hikes linked to claims of foreign forced labor dismay and anger trading partners - AP News",
-        "U.S. carries out more strikes as Trump threatens Iran, Houthis with \"major military punishment\" - CBS News"
+        "BitMEX shuts down without an FTX style crisis, revealing where crypto\u2019s real danger has moved - CryptoSlate",
+        "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.26,
-      "health": 0.3358,
-      "vol_ratio": 0.22
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.2,
+      "health": 0.2943,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.96745,
-      "ema200": 0.97313,
-      "macd": -0.002549,
-      "macd_signal": -0.002146,
-      "rsi14": 35.4,
-      "atr14": 0.00155,
-      "atr14_hourly": 0.00677,
-      "bb_position": 0.207
+      "ema50": 0.96359,
+      "ema200": 0.97134,
+      "macd": -0.002111,
+      "macd_signal": -0.00262,
+      "rsi14": 44.9,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.00698,
+      "bb_position": 0.522
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167515
+  "data_bars": 167527
 }
