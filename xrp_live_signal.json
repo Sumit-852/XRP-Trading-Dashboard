@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-24T12:01:32.299783+00:00",
+  "timestamp": "2026-07-24T13:01:32.116687+00:00",
   "signal": {
-    "price": 0.9691,
+    "price": 0.9666,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3641,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.4039,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.058,
+      "score": -0.057,
       "bullish_pct": 25.0,
-      "bearish_pct": 38.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.113,
-        "crypto_macro": -0.077,
-        "geopolitical": -0.557,
-        "fed_rates": 0.176
+        "xrp": 0.142,
+        "crypto_macro": -0.072,
+        "geopolitical": -0.614,
+        "fed_rates": 0.17
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "BitMEX shuts down without an FTX style crisis, revealing where crypto\u2019s real danger has moved - CryptoSlate",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes From Here - Morningstar",
-        "US tariff hikes linked to claims of foreign labor dismay and anger trading partners - WRAL"
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "US tariff hikes linked to claims of foreign forced labor dismay and anger trading partners - AP News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.27,
       "health": 0.2586,
-      "vol_ratio": 0.04
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.97215,
-      "ema200": 0.97526,
-      "macd": -0.001057,
-      "macd_signal": -0.00113,
-      "rsi14": 40.1,
-      "atr14": 0.00087,
-      "atr14_hourly": 0.00388,
-      "bb_position": 0.24
+      "ema50": 0.97084,
+      "ema200": 0.97453,
+      "macd": -0.000995,
+      "macd_signal": -0.000812,
+      "rsi14": 34.5,
+      "atr14": 0.00093,
+      "atr14_hourly": 0.0036,
+      "bb_position": -0.034
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.088,
+      "percentile": 0.078,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167491
+  "data_bars": 167503
 }
