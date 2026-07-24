@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-24T19:01:27.488361+00:00",
+  "timestamp": "2026-07-24T20:01:25.670799+00:00",
   "signal": {
-    "price": 0.9554,
+    "price": 0.9575,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2539,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.2134,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.062,
+      "score": -0.053,
       "bullish_pct": 28.3,
-      "bearish_pct": 36.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.099,
-        "crypto_macro": -0.114,
-        "geopolitical": -0.511,
-        "fed_rates": 0.203
+        "xrp": 0.126,
+        "crypto_macro": -0.09,
+        "geopolitical": -0.531,
+        "fed_rates": 0.172
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Senate Dems should accept the victory they won on Trump's crypto limits: White House - CoinDesk",
         "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St.",
-        "XRP to $27 or $1? CLARITY Act Faces Make-or-Break Talks as Coinbase CEO Returns to Capitol Hill - Yahoo Finance",
-        "Crypto Today: BTC, ETH, XRP steady as ETF flows diverge - FXStreet"
+        "XRP to $27 or $1? CLARITY Act Faces Make-or-Break Talks as Coinbase CEO Returns to Capitol Hill - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.8,
-      "health": -0.4248,
-      "vol_ratio": 0.01
+      "health": -0.3318,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.95718,
-      "ema200": 0.96563,
-      "macd": -0.000442,
-      "macd_signal": -0.000455,
-      "rsi14": 46.0,
-      "atr14": 0.00073,
-      "atr14_hourly": 0.00389,
-      "bb_position": 0.337
+      "ema50": 0.95689,
+      "ema200": 0.96458,
+      "macd": 0.000366,
+      "macd_signal": 6.2e-05,
+      "rsi14": 58.0,
+      "atr14": 0.0008,
+      "atr14_hourly": 0.0037,
+      "bb_position": 0.817
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.067,
+      "percentile": 0.064,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167575
+  "data_bars": 167587
 }
