@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-24T07:01:32.203293+00:00",
+  "timestamp": "2026-07-24T08:01:27.921567+00:00",
   "signal": {
-    "price": 0.9777,
+    "price": 0.9775,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2395,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.3723,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.007,
+      "score": 0.016,
       "bullish_pct": 30.0,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.209,
-        "crypto_macro": -0.042,
-        "geopolitical": -0.436,
+        "xrp": 0.215,
+        "crypto_macro": -0.023,
+        "geopolitical": -0.428,
         "fed_rates": 0.152
       },
       "geo_shock": true,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "BTC, ETH price news: Bitcoin steady around $65,000 as 'Mag 7' have worst day since 2025 - CoinDesk",
-        "New Tariffs as Old Ones Expire: The Latest on Trump\u2019s Trade War - The New York Times",
+        "Trump\u2019s Global Tariffs: What\u2019s the Latest on the Trade War - The New York Times",
         "U.S., Iran trade attacks; Trump says Iran to pay for ship damage - upi.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.87,
-      "health": -0.0175,
-      "vol_ratio": 0.98
+      "up_down_ratio": 0.88,
+      "health": -0.0775,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.97509,
-      "ema200": 0.97677,
-      "macd": 0.000934,
-      "macd_signal": 0.000798,
-      "rsi14": 62.4,
-      "atr14": 0.00075,
-      "atr14_hourly": 0.00386,
-      "bb_position": 0.799
+      "ema50": 0.97639,
+      "ema200": 0.97698,
+      "macd": 0.000366,
+      "macd_signal": 0.00076,
+      "rsi14": 51.0,
+      "atr14": 0.00122,
+      "atr14_hourly": 0.00643,
+      "bb_position": 0.425
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.07,
+      "percentile": 0.086,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167431
+  "data_bars": 167443
 }
