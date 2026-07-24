@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-24T17:01:24.818034+00:00",
+  "timestamp": "2026-07-24T18:01:33.049034+00:00",
   "signal": {
-    "price": 0.9545,
+    "price": 0.9569,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3817,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.2899,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.054,
-      "bullish_pct": 30.0,
+      "score": -0.042,
+      "bullish_pct": 28.3,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.134,
-        "crypto_macro": -0.192,
-        "geopolitical": -0.478,
-        "fed_rates": 0.281
+        "xrp": 0.12,
+        "crypto_macro": -0.114,
+        "geopolitical": -0.445,
+        "fed_rates": 0.203
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St.",
         "XRP to $27 or $1? CLARITY Act Faces Make-or-Break Talks as Coinbase CEO Returns to Capitol Hill - Yahoo Finance",
-        "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap? - 24/7 Wall St."
+        "Crypto Today: BTC, ETH, XRP steady as ETF flows diverge - FXStreet"
       ],
       "top_bearish": [
-        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.85,
-      "health": -0.4407,
-      "vol_ratio": 0.04
+      "up_down_ratio": 0.83,
+      "health": -0.4426,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.95935,
-      "ema200": 0.96827,
-      "macd": -0.00125,
-      "macd_signal": -0.001046,
-      "rsi14": 37.5,
-      "atr14": 0.00119,
-      "atr14_hourly": 0.0049,
-      "bb_position": 0.124
+      "ema50": 0.95832,
+      "ema200": 0.96694,
+      "macd": -0.000122,
+      "macd_signal": -0.000392,
+      "rsi14": 50.1,
+      "atr14": 0.00094,
+      "atr14_hourly": 0.00487,
+      "bb_position": 0.628
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.074,
+      "percentile": 0.069,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167551
+  "data_bars": 167563
 }
