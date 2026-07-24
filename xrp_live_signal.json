@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-24T06:01:27.144640+00:00",
+  "timestamp": "2026-07-24T07:01:32.203293+00:00",
   "signal": {
-    "price": 0.9746,
+    "price": 0.9777,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1867,
-    "hybrid_score": 3.1,
+    "xgb_prob": 0.2395,
+    "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.007,
+      "score": 0.007,
       "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.209,
-        "crypto_macro": -0.068,
-        "geopolitical": -0.455,
-        "fed_rates": 0.13
+        "crypto_macro": -0.042,
+        "geopolitical": -0.436,
+        "fed_rates": 0.152
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "BTC, ETH price news: Bitcoin steady around $65,000 as 'Mag 7' have worst day since 2025 - CoinDesk",
         "New Tariffs as Old Ones Expire: The Latest on Trump\u2019s Trade War - The New York Times",
-        "Iran War Day 146: Oil Cracks $100 Per Barrel as U.S. and Iran Trade Strikes - The American Conservative"
+        "U.S., Iran trade attacks; Trump says Iran to pay for ship damage - upi.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": -0.0582,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.87,
+      "health": -0.0175,
+      "vol_ratio": 0.98
     },
     "technicals": {
-      "ema50": 0.97391,
-      "ema200": 0.97674,
-      "macd": 0.000171,
-      "macd_signal": -9e-06,
-      "rsi14": 54.8,
-      "atr14": 0.00068,
-      "atr14_hourly": 0.0033,
-      "bb_position": 0.813
+      "ema50": 0.97509,
+      "ema200": 0.97677,
+      "macd": 0.000934,
+      "macd_signal": 0.000798,
+      "rsi14": 62.4,
+      "atr14": 0.00075,
+      "atr14_hourly": 0.00386,
+      "bb_position": 0.799
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167419
+  "data_bars": 167431
 }
