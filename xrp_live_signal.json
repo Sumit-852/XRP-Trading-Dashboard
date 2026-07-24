@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-07-24T13:01:32.116687+00:00",
+  "timestamp": "2026-07-24T14:01:26.134091+00:00",
   "signal": {
-    "price": 0.9666,
+    "price": 0.9604,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4039,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.4414,
+    "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.057,
-      "bullish_pct": 25.0,
-      "bearish_pct": 36.7,
+      "score": -0.034,
+      "bullish_pct": 28.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.142,
-        "crypto_macro": -0.072,
-        "geopolitical": -0.614,
-        "fed_rates": 0.17
+        "xrp": 0.177,
+        "crypto_macro": -0.082,
+        "geopolitical": -0.61,
+        "fed_rates": 0.254
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -35,26 +35,26 @@
         "COIN Stock Jumps, XRP Leads Crypto Majors After Scott Bessent Signals CLARITY Act Is On Senate\u2019s \u2018One-Yard Line\u2019 - Tradi"
       ],
       "top_bearish": [
-        "BitMEX shuts down without an FTX style crisis, revealing where crypto\u2019s real danger has moved - CryptoSlate",
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "US tariff hikes linked to claims of foreign forced labor dismay and anger trading partners - AP News"
+        "US tariff hikes linked to claims of foreign forced labor dismay and anger trading partners - AP News",
+        "U.S. carries out more strikes as Trump threatens Iran, Houthis with \"major military punishment\" - CBS News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.27,
-      "health": 0.2586,
-      "vol_ratio": 0.05
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.26,
+      "health": 0.3358,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.97084,
-      "ema200": 0.97453,
-      "macd": -0.000995,
-      "macd_signal": -0.000812,
-      "rsi14": 34.5,
-      "atr14": 0.00093,
-      "atr14_hourly": 0.0036,
-      "bb_position": -0.034
+      "ema50": 0.96745,
+      "ema200": 0.97313,
+      "macd": -0.002549,
+      "macd_signal": -0.002146,
+      "rsi14": 35.4,
+      "atr14": 0.00155,
+      "atr14_hourly": 0.00677,
+      "bb_position": 0.207
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.078,
+      "percentile": 0.084,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167503
+  "data_bars": 167515
 }
