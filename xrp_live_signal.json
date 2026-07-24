@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-24T08:01:27.921567+00:00",
+  "timestamp": "2026-07-24T09:01:28.360007+00:00",
   "signal": {
-    "price": 0.9775,
+    "price": 0.9762,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3723,
-    "hybrid_score": 4.2,
-    "regime": "BULLISH",
+    "xgb_prob": 0.2599,
+    "hybrid_score": 2.3,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": 0.02,
+      "bullish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.215,
-        "crypto_macro": -0.023,
-        "geopolitical": -0.428,
-        "fed_rates": 0.152
+        "xrp": 0.193,
+        "crypto_macro": 0.024,
+        "geopolitical": -0.408,
+        "fed_rates": 0.111
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple (XRP) Bullish Setup Strengthens as Whale Inflows Hit 18-Month Low - CCN.com",
-        "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance",
-        "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St."
+        "XRP Surges to a 2-Week High as Whale Buying Stretches Into a Fifth Week - 24/7 Wall St.",
+        "Bitcoin, Ethereum, XRP, Dogecoin Lift Amid Crypto Bill Optimism: Analyst Flags BTC's 'Biggest Test' - Benzinga",
+        "XRP to $27 or $1? CLARITY Act Faces Make-or-Break Talks as Coinbase CEO Returns to Capitol Hill - Yahoo Finance"
       ],
       "top_bearish": [
         "BTC, ETH price news: Bitcoin steady around $65,000 as 'Mag 7' have worst day since 2025 - CoinDesk",
-        "Trump\u2019s Global Tariffs: What\u2019s the Latest on the Trade War - The New York Times",
-        "U.S., Iran trade attacks; Trump says Iran to pay for ship damage - upi.com"
+        "US tariff hikes linked to claims of foreign labor dismay and anger trading partners - Boston 25 News",
+        "Trump\u2019s Global Tariffs: What\u2019s the Latest on the Trade War - The New York Times"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": -0.0775,
-      "vol_ratio": 0.02
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.83,
+      "health": -0.0961,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.97639,
-      "ema200": 0.97698,
-      "macd": 0.000366,
-      "macd_signal": 0.00076,
-      "rsi14": 51.0,
-      "atr14": 0.00122,
-      "atr14_hourly": 0.00643,
-      "bb_position": 0.425
+      "ema50": 0.97674,
+      "ema200": 0.97703,
+      "macd": -8.9e-05,
+      "macd_signal": 0.000159,
+      "rsi14": 43.8,
+      "atr14": 0.00081,
+      "atr14_hourly": 0.00494,
+      "bb_position": 0.221
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.086,
+      "percentile": 0.083,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167443
+  "data_bars": 167455
 }
