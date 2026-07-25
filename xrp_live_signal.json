@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-25T15:01:29.806898+00:00",
+  "timestamp": "2026-07-25T16:01:22.840681+00:00",
   "signal": {
-    "price": 0.9612,
+    "price": 0.966,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1839,
-    "hybrid_score": 1.9,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3001,
+    "hybrid_score": 3.8,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.004,
-      "bullish_pct": 30.0,
+      "score": -0.022,
+      "bullish_pct": 26.7,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.139,
-        "crypto_macro": 0.052,
-        "geopolitical": -0.48,
+        "xrp": 0.121,
+        "crypto_macro": 0.001,
+        "geopolitical": -0.5,
         "fed_rates": 0.173
       },
       "geo_shock": true,
@@ -30,7 +30,7 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "The CLARITY Act Is Now One Clause Away From Passing: Should XRP Holders Celebrate? - 24/7 Wall St.",
+        "Do People Interested in XRP Actually Care About Ripple? - CryptoPotato",
         "Will Ripple\u2019s institutional push, XRP Ledger\u2019s new milestone spur new price rally? - AMBCrypto",
         "1 Popular Cryptocurrency to Buy Before It Soars 1,125%, According to Cathie Wood's Ark Invest - Yahoo Finance"
       ],
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.79,
-      "health": -0.0308,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.86,
+      "health": -0.0584,
+      "vol_ratio": 1.42
     },
     "technicals": {
-      "ema50": 0.95934,
-      "ema200": 0.95939,
-      "macd": 0.000564,
-      "macd_signal": 0.00045,
-      "rsi14": 65.6,
-      "atr14": 0.00042,
-      "atr14_hourly": 0.00229,
-      "bb_position": 0.852
+      "ema50": 0.96154,
+      "ema200": 0.96002,
+      "macd": 0.001729,
+      "macd_signal": 0.001489,
+      "rsi14": 69.8,
+      "atr14": 0.00075,
+      "atr14_hourly": 0.00426,
+      "bb_position": 0.783
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.004,
+      "percentile": 0.005,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167815
+  "data_bars": 167827
 }
