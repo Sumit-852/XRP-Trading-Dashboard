@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-25T08:01:15.681598+00:00",
+  "timestamp": "2026-07-25T09:01:32.715020+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9563,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9556,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2302,
+    "hybrid_score": 2.1,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.026,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.062,
+        "crypto_macro": 0.058,
+        "geopolitical": -0.467,
+        "fed_rates": 0.139
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Will Ripple\u2019s institutional push, XRP Ledger\u2019s new milestone spur new price rally? - AMBCrypto",
+        "How Coinbase Stock Could Win Even If the Clarity Act Loses - Barron's",
+        "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap? - 24/7 Wall St."
+      ],
+      "top_bearish": [
+        "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "Saudi Arabia and Houthis trade fire as US fires on tanker in Hormuz Strait - BBC"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.76,
+      "health": 0.0453,
+      "vol_ratio": 0.02
+    },
+    "technicals": {
+      "ema50": 0.95726,
+      "ema200": 0.95997,
+      "macd": -0.000496,
+      "macd_signal": -0.000517,
+      "rsi14": 42.5,
+      "atr14": 0.00055,
+      "atr14_hourly": 0.00248,
+      "bb_position": 0.294
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.021,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167731
+  "data_bars": 167743
 }
