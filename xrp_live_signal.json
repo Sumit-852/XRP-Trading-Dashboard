@@ -1,22 +1,27 @@
 {
-  "timestamp": "2026-07-25T04:01:47.791485+00:00",
+  "timestamp": "2026-07-25T05:01:21.708023+00:00",
   "signal": {
-    "price": 0.9595,
+    "price": 0.9612,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2486,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.219,
+    "hybrid_score": 2.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
-      "geo_shock": false,
+      "sentiment": "NEUTRAL",
+      "score": -0.032,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.071,
+        "crypto_macro": 0.027,
+        "geopolitical": -0.467,
+        "fed_rates": 0.139
+      },
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious - Yahoo Finance",
+        "How Coinbase Stock Could Win Even If the Clarity Act Loses - Barron's",
+        "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap? - 24/7 Wall St."
+      ],
+      "top_bearish": [
+        "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "Saudi Arabia and Houthis trade fire as US fires on tanker in Hormuz Strait - BBC"
+      ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": -0.1022,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.73,
+      "health": -0.1108,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.96048,
-      "ema200": 0.96181,
-      "macd": -0.000253,
-      "macd_signal": -1.6e-05,
-      "rsi14": 35.9,
-      "atr14": 0.00044,
-      "atr14_hourly": 0.00211,
-      "bb_position": 0.019
+      "ema50": 0.96051,
+      "ema200": 0.96166,
+      "macd": 0.000114,
+      "macd_signal": -4.3e-05,
+      "rsi14": 57.5,
+      "atr14": 0.00043,
+      "atr14_hourly": 0.0021,
+      "bb_position": 0.774
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.037,
+      "percentile": 0.036,
       "extreme": true
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167683
+  "data_bars": 167695
 }
