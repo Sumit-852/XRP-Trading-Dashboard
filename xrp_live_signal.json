@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-25T18:01:21.160804+00:00",
+  "timestamp": "2026-07-25T19:01:23.224036+00:00",
   "signal": {
-    "price": 0.9709,
+    "price": 0.9698,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3906,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.2786,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.01,
-      "bullish_pct": 30.0,
-      "bearish_pct": 30.0,
+      "score": -0.029,
+      "bullish_pct": 26.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.095,
+        "xrp": 0.031,
         "crypto_macro": 0.001,
-        "geopolitical": -0.432,
+        "geopolitical": -0.407,
         "fed_rates": 0.232
       },
       "geo_shock": true,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Will Ripple\u2019s institutional push, XRP Ledger\u2019s new milestone spur new price rally? - AMBCrypto",
         "1 Popular Cryptocurrency to Buy Before It Soars 1,125%, According to Cathie Wood's Ark Invest - Yahoo Finance",
-        "XRP to $27 or $1? CLARITY Act Faces Make-or-Break Talks as Coinbase CEO Returns to Capitol Hill - Yahoo Finance"
+        "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap? - 24/7 Wall St."
       ],
       "top_bearish": [
         "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": 0.2822,
-      "vol_ratio": 3.52
+      "up_down_ratio": 0.98,
+      "health": 0.2819,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96647,
-      "ema200": 0.96197,
-      "macd": 0.001684,
-      "macd_signal": 0.001797,
-      "rsi14": 60.4,
-      "atr14": 0.00101,
-      "atr14_hourly": 0.00488,
-      "bb_position": 0.664
+      "ema50": 0.96777,
+      "ema200": 0.96286,
+      "macd": 0.000476,
+      "macd_signal": 0.000768,
+      "rsi14": 52.6,
+      "atr14": 0.00074,
+      "atr14_hourly": 0.00469,
+      "bb_position": 0.36
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.005,
+      "percentile": 0.007,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167851
+  "data_bars": 167863
 }
