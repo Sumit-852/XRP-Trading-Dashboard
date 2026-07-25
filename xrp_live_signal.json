@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-25T09:01:32.715020+00:00",
+  "timestamp": "2026-07-25T10:02:16.586129+00:00",
   "signal": {
-    "price": 0.9556,
+    "price": 0.957,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2302,
+    "xgb_prob": 0.2193,
     "hybrid_score": 2.1,
-    "regime": "BEARISH",
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.026,
-      "bullish_pct": 30.0,
+      "score": -0.015,
+      "bullish_pct": 31.7,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.062,
-        "crypto_macro": 0.058,
-        "geopolitical": -0.467,
-        "fed_rates": 0.139
+        "xrp": 0.01,
+        "crypto_macro": 0.107,
+        "geopolitical": -0.433,
+        "fed_rates": 0.203
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Will Ripple\u2019s institutional push, XRP Ledger\u2019s new milestone spur new price rally? - AMBCrypto",
-        "How Coinbase Stock Could Win Even If the Clarity Act Loses - Barron's",
-        "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap? - 24/7 Wall St."
+        "1 Popular Cryptocurrency to Buy Before It Soars 1,125%, According to Cathie Wood's Ark Invest - Yahoo Finance",
+        "How Coinbase Stock Could Win Even If the Clarity Act Loses - Barron's"
       ],
       "top_bearish": [
+        "Ripple, Hyperliquid, and Zcash risk further decline - FXStreet",
         "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Saudi Arabia and Houthis trade fire as US fires on tanker in Hormuz Strait - BBC"
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.76,
-      "health": 0.0453,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.81,
+      "health": 0.0775,
+      "vol_ratio": 0.3
     },
     "technicals": {
-      "ema50": 0.95726,
-      "ema200": 0.95997,
-      "macd": -0.000496,
-      "macd_signal": -0.000517,
-      "rsi14": 42.5,
-      "atr14": 0.00055,
-      "atr14_hourly": 0.00248,
-      "bb_position": 0.294
+      "ema50": 0.95703,
+      "ema200": 0.95959,
+      "macd": 0.000116,
+      "macd_signal": -5e-05,
+      "rsi14": 54.3,
+      "atr14": 0.00056,
+      "atr14_hourly": 0.00264,
+      "bb_position": 0.716
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.021,
+      "percentile": 0.02,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167743
+  "data_bars": 167755
 }
