@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-26T05:01:25.131223+00:00",
+  "timestamp": "2026-07-26T06:01:20.288899+00:00",
   "signal": {
-    "price": 0.9683,
+    "price": 0.9664,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2091,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.2173,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.052,
-      "bullish_pct": 23.3,
-      "bearish_pct": 35.0,
+      "score": -0.046,
+      "bullish_pct": 25.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.043,
+        "xrp": 0.032,
         "crypto_macro": -0.115,
-        "geopolitical": -0.33,
+        "geopolitical": -0.272,
         "fed_rates": 0.183
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Will Ripple\u2019s institutional push, XRP Ledger\u2019s new milestone spur new price rally? - AMBCrypto",
-        "How America\u2019s 250-year China dream became its greatest strategic challenge - South China Morning Post",
-        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
+        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
+        "How America\u2019s 250-year China dream became its greatest strategic challenge - South China Morning Post"
       ],
       "top_bearish": [
         "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": 0.0144,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.94,
+      "health": -0.0606,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96772,
-      "ema200": 0.96585,
-      "macd": 0.000429,
-      "macd_signal": 0.000469,
-      "rsi14": 51.2,
-      "atr14": 0.00051,
-      "atr14_hourly": 0.00263,
-      "bb_position": 0.449
+      "ema50": 0.96751,
+      "ema200": 0.966,
+      "macd": -0.000326,
+      "macd_signal": -0.000118,
+      "rsi14": 40.4,
+      "atr14": 0.0006,
+      "atr14_hourly": 0.00309,
+      "bb_position": 0.137
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167983
+  "data_bars": 167995
 }
