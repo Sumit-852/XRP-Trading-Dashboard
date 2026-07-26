@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-26T16:01:25.826992+00:00",
+  "timestamp": "2026-07-26T17:01:23.173359+00:00",
   "signal": {
-    "price": 0.9711,
+    "price": 0.969,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3114,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.2282,
+    "hybrid_score": 2.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.067,
-      "bullish_pct": 25.0,
-      "bearish_pct": 36.7,
+      "sentiment": "BEARISH",
+      "score": -0.113,
+      "bullish_pct": 23.3,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.118,
-        "crypto_macro": -0.159,
+        "xrp": 0.008,
+        "crypto_macro": -0.201,
         "geopolitical": -0.497,
-        "fed_rates": 0.195
+        "fed_rates": 0.241
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Will Ripple\u2019s institutional push, XRP Ledger\u2019s new milestone spur new price rally? - AMBCrypto",
-        "BREAKING: Grayscale believes the CLARITY Act could unlock - KuCoin",
-        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
+        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
       ],
       "top_bearish": [
         "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58% - CoinDesk"
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.39,
-      "health": -0.6562,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.4,
+      "health": -0.1604,
+      "vol_ratio": 0.53
     },
     "technicals": {
-      "ema50": 0.96747,
-      "ema200": 0.9666,
-      "macd": 0.001299,
-      "macd_signal": 0.001026,
-      "rsi14": 66.6,
-      "atr14": 0.00084,
-      "atr14_hourly": 0.00478,
-      "bb_position": 0.814
+      "ema50": 0.96843,
+      "ema200": 0.96699,
+      "macd": 0.000585,
+      "macd_signal": 0.000845,
+      "rsi14": 48.5,
+      "atr14": 0.00094,
+      "atr14_hourly": 0.00411,
+      "bb_position": 0.136
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.01,
+      "percentile": 0.011,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168115
+  "data_bars": 168127
 }
