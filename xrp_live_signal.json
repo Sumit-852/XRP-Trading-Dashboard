@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-26T04:01:17.072390+00:00",
+  "timestamp": "2026-07-26T05:01:25.131223+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9681,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9683,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2091,
+    "hybrid_score": 3.2,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.052,
+      "bullish_pct": 23.3,
+      "bearish_pct": 35.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.043,
+        "crypto_macro": -0.115,
+        "geopolitical": -0.33,
+        "fed_rates": 0.183
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Will Ripple\u2019s institutional push, XRP Ledger\u2019s new milestone spur new price rally? - AMBCrypto",
+        "How America\u2019s 250-year China dream became its greatest strategic challenge - South China Morning Post",
+        "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com"
+      ],
+      "top_bearish": [
+        "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
+        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.97,
+      "health": 0.0144,
+      "vol_ratio": 0.01
+    },
+    "technicals": {
+      "ema50": 0.96772,
+      "ema200": 0.96585,
+      "macd": 0.000429,
+      "macd_signal": 0.000469,
+      "rsi14": 51.2,
+      "atr14": 0.00051,
+      "atr14_hourly": 0.00263,
+      "bb_position": 0.449
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.006,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 167971
+  "data_bars": 167983
 }
