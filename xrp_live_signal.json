@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-27T17:01:36.116311+00:00",
+  "timestamp": "2026-07-27T18:01:33.707425+00:00",
   "signal": {
-    "price": 0.9605,
+    "price": 0.9617,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3608,
-    "hybrid_score": 5.3,
+    "xgb_prob": 0.312,
+    "hybrid_score": 3.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BEARISH",
-      "score": -0.102,
+      "score": -0.131,
       "bullish_pct": 23.3,
-      "bearish_pct": 43.3,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.043,
-        "crypto_macro": -0.251,
-        "geopolitical": -0.265,
-        "fed_rates": 0.038
+        "xrp": 0.001,
+        "crypto_macro": -0.343,
+        "geopolitical": -0.246,
+        "fed_rates": 0.106
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,34 +27,34 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": false,
+      "crypto_specific_bad": true,
       "news_driven_crash": false,
       "top_bullish": [
-        "Grayscale Sees CLARITY Act as Crypto's Next ETF Moment\u2014What It Means for XRP - Coinpaper",
         "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
-        "Crypto Today: Bitcoin, Ethereum, XRP hold key support as US and Iran agree to halt strikes - FXStreet"
+        "Crypto Today: Bitcoin, Ethereum, XRP hold key support as US and Iran agree to halt strikes - FXStreet",
+        "Mobilizing for Techno-Economic War, Part 6: From Free Trade Agreements to Strategic Techno-Economic Agreements - Informa"
       ],
       "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "Bitcoin holds firm as Hormuz hostilities pause, Fed prepares interest-rate decision: Crypto Markets Today - CoinDesk",
-        "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
+        "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.49,
-      "health": -0.207,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.44,
+      "health": -0.2935,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.96161,
-      "ema200": 0.96707,
-      "macd": -0.000174,
-      "macd_signal": -0.000966,
-      "rsi14": 53.4,
-      "atr14": 0.00162,
-      "atr14_hourly": 0.00822,
-      "bb_position": 0.8
+      "ema50": 0.96152,
+      "ema200": 0.96642,
+      "macd": 0.000573,
+      "macd_signal": 0.000409,
+      "rsi14": 55.2,
+      "atr14": 0.00115,
+      "atr14_hourly": 0.00646,
+      "bb_position": 0.687
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.102,
+      "percentile": 0.106,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168415
+  "data_bars": 168427
 }
