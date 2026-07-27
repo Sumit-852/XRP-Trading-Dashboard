@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-27T16:01:27.592461+00:00",
+  "timestamp": "2026-07-27T17:01:36.116311+00:00",
   "signal": {
-    "price": 0.9546,
+    "price": 0.9605,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.395,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.3608,
+    "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.097,
+      "sentiment": "BEARISH",
+      "score": -0.102,
       "bullish_pct": 23.3,
       "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.065,
+        "xrp": 0.043,
         "crypto_macro": -0.251,
-        "geopolitical": -0.284,
+        "geopolitical": -0.265,
         "fed_rates": 0.038
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Grayscale Sees CLARITY Act as Crypto's Next ETF Moment\u2014What It Means for XRP - Coinpaper",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
-        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
+        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
+        "Crypto Today: Bitcoin, Ethereum, XRP hold key support as US and Iran agree to halt strikes - FXStreet"
       ],
       "top_bearish": [
         "Bitcoin holds firm as Hormuz hostilities pause, Fed prepares interest-rate decision: Crypto Markets Today - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.38,
-      "health": -0.3373,
-      "vol_ratio": 0.08
+      "up_down_ratio": 1.49,
+      "health": -0.207,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.96308,
-      "ema200": 0.96809,
-      "macd": -0.003123,
-      "macd_signal": -0.003254,
-      "rsi14": 35.4,
-      "atr14": 0.00198,
-      "atr14_hourly": 0.01021,
-      "bb_position": 0.229
+      "ema50": 0.96161,
+      "ema200": 0.96707,
+      "macd": -0.000174,
+      "macd_signal": -0.000966,
+      "rsi14": 53.4,
+      "atr14": 0.00162,
+      "atr14_hourly": 0.00822,
+      "bb_position": 0.8
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,8 +64,8 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.095,
-      "extreme": true
+      "percentile": 0.102,
+      "extreme": false
     }
   },
   "trade": {
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168403
+  "data_bars": 168415
 }
