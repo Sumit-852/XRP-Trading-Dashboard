@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-27T19:01:40.277427+00:00",
+  "timestamp": "2026-07-27T20:01:30.674521+00:00",
   "signal": {
-    "price": 0.9576,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9601,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3572,
-    "hybrid_score": 4.1,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "BEARISH",
-      "score": -0.12,
-      "bullish_pct": 25.0,
-      "bearish_pct": 45.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": -0.011,
-        "crypto_macro": -0.292,
-        "geopolitical": -0.269,
-        "fed_rates": 0.14
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
-        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
-        "Mobilizing for Techno-Economic War, Part 6: From Free Trade Agreements to Strategic Techno-Economic Agreements - Informa"
-      ],
-      "top_bearish": [
-        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
-        "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow - CCN.com",
-        "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.6,
-      "health": -0.2763,
-      "vol_ratio": 0.46
-    },
-    "technicals": {
-      "ema50": 0.96015,
-      "ema200": 0.96548,
-      "macd": -0.000931,
-      "macd_signal": -0.000598,
-      "rsi14": 43.3,
-      "atr14": 0.00111,
-      "atr14_hourly": 0.00593,
-      "bb_position": 0.285
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.112,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168439
+  "data_bars": 168451
 }
