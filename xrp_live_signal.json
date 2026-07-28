@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-28T19:01:46.048401+00:00",
+  "timestamp": "2026-07-28T20:01:29.139761+00:00",
   "signal": {
-    "price": 0.9288,
+    "price": 0.9318,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3648,
+    "xgb_prob": 0.3562,
     "hybrid_score": 4.1,
-    "regime": "BEARISH",
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.073,
-      "bullish_pct": 25.0,
-      "bearish_pct": 36.7,
+      "score": -0.039,
+      "bullish_pct": 30.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.157,
-        "crypto_macro": -0.303,
-        "geopolitical": -0.276,
-        "fed_rates": 0.062
+        "xrp": 0.19,
+        "crypto_macro": -0.255,
+        "geopolitical": -0.224,
+        "fed_rates": 0.055
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,7 +27,7 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": 0.494,
-      "vol_ratio": 1.9
+      "up_down_ratio": 0.87,
+      "health": 0.4701,
+      "vol_ratio": 0.49
     },
     "technicals": {
-      "ema50": 0.92866,
-      "ema200": 0.93139,
-      "macd": -0.000481,
-      "macd_signal": -0.000571,
-      "rsi14": 50.9,
-      "atr14": 0.00109,
-      "atr14_hourly": 0.00524,
-      "bb_position": 0.737
+      "ema50": 0.9292,
+      "ema200": 0.93123,
+      "macd": 0.000643,
+      "macd_signal": 0.000249,
+      "rsi14": 64.2,
+      "atr14": 0.00103,
+      "atr14_hourly": 0.00456,
+      "bb_position": 0.97
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.244,
+      "percentile": 0.231,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168727
+  "data_bars": 168739
 }
