@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-07-28T11:01:39.675792+00:00",
+  "timestamp": "2026-07-28T12:01:39.740756+00:00",
   "signal": {
-    "price": 0.9283,
+    "price": 0.9226,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3513,
-    "hybrid_score": 2.8,
+    "xgb_prob": 0.4828,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.097,
+      "score": -0.071,
       "bullish_pct": 28.3,
-      "bearish_pct": 43.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.072,
-        "crypto_macro": -0.32,
-        "geopolitical": -0.302,
-        "fed_rates": 0.18
+        "crypto_macro": -0.249,
+        "geopolitical": -0.299,
+        "fed_rates": 0.21
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Bitcoin slips to 10-day low near $63k as tech sell-off, Fed uncertainty weigh - Investing.com",
-        "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
-        "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk"
+        "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.5,
-      "health": 0.1212,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.47,
+      "health": 0.0205,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.92914,
-      "ema200": 0.93728,
-      "macd": -0.000174,
-      "macd_signal": -9.1e-05,
-      "rsi14": 46.4,
-      "atr14": 0.00094,
-      "atr14_hourly": 0.00415,
-      "bb_position": 0.325
+      "ema50": 0.92713,
+      "ema200": 0.93578,
+      "macd": -0.001587,
+      "macd_signal": -0.001277,
+      "rsi14": 37.6,
+      "atr14": 0.00125,
+      "atr14_hourly": 0.00531,
+      "bb_position": 0.171
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.185,
+      "percentile": 0.2,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168631
+  "data_bars": 168643
 }
