@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-28T02:01:27.016633+00:00",
+  "timestamp": "2026-07-28T03:01:26.618778+00:00",
   "signal": {
-    "price": 0.9289,
+    "price": 0.9285,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4199,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.3539,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.078,
-      "bullish_pct": 25.0,
+      "score": -0.085,
+      "bullish_pct": 23.3,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.044,
-        "crypto_macro": -0.283,
-        "geopolitical": -0.162,
-        "fed_rates": 0.129
+        "crypto_macro": -0.313,
+        "geopolitical": -0.146,
+        "fed_rates": 0.128
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,7 +27,7 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": false,
+      "crypto_specific_bad": true,
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": -0.6939,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.9,
+      "health": -0.6115,
+      "vol_ratio": 0.27
     },
     "technicals": {
-      "ema50": 0.93731,
-      "ema200": 0.95281,
-      "macd": -0.002224,
-      "macd_signal": -0.00255,
-      "rsi14": 34.6,
-      "atr14": 0.00143,
-      "atr14_hourly": 0.00761,
-      "bb_position": 0.237
+      "ema50": 0.9342,
+      "ema200": 0.95014,
+      "macd": -0.001336,
+      "macd_signal": -0.001543,
+      "rsi14": 38.8,
+      "atr14": 0.00104,
+      "atr14_hourly": 0.00542,
+      "bb_position": 0.256
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.173,
+      "percentile": 0.176,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168523
+  "data_bars": 168535
 }
