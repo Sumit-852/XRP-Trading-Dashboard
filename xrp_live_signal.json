@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-28T01:01:21.545669+00:00",
+  "timestamp": "2026-07-28T02:01:27.016633+00:00",
   "signal": {
-    "price": 0.93,
+    "price": 0.9289,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4278,
+    "xgb_prob": 0.4199,
     "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.072,
-      "bullish_pct": 26.7,
+      "score": -0.078,
+      "bullish_pct": 25.0,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.08,
-        "crypto_macro": -0.29,
-        "geopolitical": -0.194,
-        "fed_rates": 0.14
+        "xrp": 0.044,
+        "crypto_macro": -0.283,
+        "geopolitical": -0.162,
+        "fed_rates": 0.129
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
-        "Major wealth manager discloses Bitcoin, XRP holdings - thestreet.com",
-        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
+        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
+        "Mobilizing for Techno-Economic War, Part 6: From Free Trade Agreements to Strategic Techno-Economic Agreements - Informa"
       ],
       "top_bearish": [
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": -0.7481,
-      "vol_ratio": 0.29
+      "up_down_ratio": 0.86,
+      "health": -0.6939,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.94179,
-      "ema200": 0.95572,
-      "macd": -0.00327,
-      "macd_signal": -0.003312,
-      "rsi14": 23.6,
+      "ema50": 0.93731,
+      "ema200": 0.95281,
+      "macd": -0.002224,
+      "macd_signal": -0.00255,
+      "rsi14": 34.6,
       "atr14": 0.00143,
-      "atr14_hourly": 0.00735,
-      "bb_position": -0.055
+      "atr14_hourly": 0.00761,
+      "bb_position": 0.237
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.158,
+      "percentile": 0.173,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168511
+  "data_bars": 168523
 }
