@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-28T12:01:39.740756+00:00",
+  "timestamp": "2026-07-28T13:01:31.575812+00:00",
   "signal": {
-    "price": 0.9226,
+    "price": 0.9267,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4828,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.3831,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.071,
-      "bullish_pct": 28.3,
-      "bearish_pct": 38.3,
+      "score": -0.044,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.072,
-        "crypto_macro": -0.249,
-        "geopolitical": -0.299,
-        "fed_rates": 0.21
+        "xrp": 0.141,
+        "crypto_macro": -0.251,
+        "geopolitical": -0.303,
+        "fed_rates": 0.231
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
-        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
-        "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag - CNBC"
+        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
+        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
       ],
       "top_bearish": [
         "Bitcoin slips to 10-day low near $63k as tech sell-off, Fed uncertainty weigh - Investing.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.47,
-      "health": 0.0205,
+      "up_down_ratio": 0.48,
+      "health": 0.0702,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.92713,
-      "ema200": 0.93578,
-      "macd": -0.001587,
-      "macd_signal": -0.001277,
-      "rsi14": 37.6,
-      "atr14": 0.00125,
-      "atr14_hourly": 0.00531,
-      "bb_position": 0.171
+      "ema50": 0.92635,
+      "ema200": 0.93455,
+      "macd": -6.8e-05,
+      "macd_signal": -0.000603,
+      "rsi14": 56.0,
+      "atr14": 0.00107,
+      "atr14_hourly": 0.00452,
+      "bb_position": 0.933
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.2,
+      "percentile": 0.192,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168643
+  "data_bars": 168655
 }
