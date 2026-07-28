@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-28T09:01:22.616767+00:00",
+  "timestamp": "2026-07-28T10:01:32.849939+00:00",
   "signal": {
-    "price": 0.9283,
+    "price": 0.9285,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.258,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.3347,
+    "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.079,
-      "bullish_pct": 25.0,
-      "bearish_pct": 40.0,
+      "score": -0.095,
+      "bullish_pct": 23.3,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.151,
-        "crypto_macro": -0.369,
-        "geopolitical": -0.236,
-        "fed_rates": 0.119
+        "xrp": 0.096,
+        "crypto_macro": -0.327,
+        "geopolitical": -0.277,
+        "fed_rates": 0.116
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,10 +32,10 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
         "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa",
-        "Ripple (XRP) price prediction: Fed decision and ETF flows - Capital.com"
+        "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag - CNBC"
       ],
       "top_bearish": [
-        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Bitcoin slips to 10-day low near $63k as tech sell-off, Fed uncertainty weigh - Investing.com",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.43,
-      "health": -0.2489,
-      "vol_ratio": 0.0
+      "health": -0.0805,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.92939,
-      "ema200": 0.93952,
-      "macd": -0.000398,
-      "macd_signal": -0.000494,
-      "rsi14": 45.9,
-      "atr14": 0.00065,
-      "atr14_hourly": 0.00331,
-      "bb_position": 0.508
+      "ema50": 0.92951,
+      "ema200": 0.9384,
+      "macd": 0.000327,
+      "macd_signal": 0.000209,
+      "rsi14": 45.0,
+      "atr14": 0.0009,
+      "atr14_hourly": 0.00351,
+      "bb_position": 0.394
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.164,
+      "percentile": 0.174,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168607
+  "data_bars": 168619
 }
