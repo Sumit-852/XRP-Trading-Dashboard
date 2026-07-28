@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-28T07:01:30.315889+00:00",
+  "timestamp": "2026-07-28T08:01:33.305800+00:00",
   "signal": {
-    "price": 0.9318,
+    "price": 0.928,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2237,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.2921,
+    "hybrid_score": 2.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.077,
-      "bullish_pct": 25.0,
+      "score": -0.091,
+      "bullish_pct": 23.3,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.108,
-        "crypto_macro": -0.325,
-        "geopolitical": -0.205,
+        "crypto_macro": -0.369,
+        "geopolitical": -0.212,
         "fed_rates": 0.116
       },
       "geo_shock": false,
@@ -35,26 +35,26 @@
         "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
       ],
       "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
         "2026 Crypto Crash Causes: Why Bitcoin Prices Broke Through Key Levels? Future Trends and Key Support Level Predictions -",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.45,
-      "health": -0.4541,
-      "vol_ratio": 0.25
+      "health": -0.4849,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.93078,
-      "ema200": 0.94246,
-      "macd": 0.000394,
-      "macd_signal": 0.000184,
-      "rsi14": 61.5,
-      "atr14": 0.00074,
+      "ema50": 0.93016,
+      "ema200": 0.94097,
+      "macd": -0.000562,
+      "macd_signal": -0.000264,
+      "rsi14": 34.4,
+      "atr14": 0.00067,
       "atr14_hourly": 0.00384,
-      "bb_position": 0.791
+      "bb_position": 0.147
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.169,
+      "percentile": 0.164,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168583
+  "data_bars": 168595
 }
