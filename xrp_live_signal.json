@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-28T06:01:26.663478+00:00",
+  "timestamp": "2026-07-28T07:01:30.315889+00:00",
   "signal": {
-    "price": 0.9298,
+    "price": 0.9318,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2788,
-    "hybrid_score": 2.3,
+    "xgb_prob": 0.2237,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.101,
+      "sentiment": "NEUTRAL",
+      "score": -0.077,
       "bullish_pct": 25.0,
-      "bearish_pct": 43.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.079,
-        "crypto_macro": -0.361,
-        "geopolitical": -0.241,
-        "fed_rates": 0.145
+        "xrp": 0.108,
+        "crypto_macro": -0.325,
+        "geopolitical": -0.205,
+        "fed_rates": 0.116
       },
       "geo_shock": false,
       "geo_dip": {
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.44,
-      "health": -0.4934,
-      "vol_ratio": 0.05
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.45,
+      "health": -0.4541,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 0.93103,
-      "ema200": 0.94402,
-      "macd": 0.000276,
-      "macd_signal": 0.000282,
-      "rsi14": 47.0,
-      "atr14": 0.00068,
-      "atr14_hourly": 0.00376,
-      "bb_position": 0.472
+      "ema50": 0.93078,
+      "ema200": 0.94246,
+      "macd": 0.000394,
+      "macd_signal": 0.000184,
+      "rsi14": 61.5,
+      "atr14": 0.00074,
+      "atr14_hourly": 0.00384,
+      "bb_position": 0.791
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.168,
+      "percentile": 0.169,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168571
+  "data_bars": 168583
 }
