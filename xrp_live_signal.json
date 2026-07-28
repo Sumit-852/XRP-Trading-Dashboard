@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-28T18:01:33.595832+00:00",
+  "timestamp": "2026-07-28T19:01:46.048401+00:00",
   "signal": {
-    "price": 0.9292,
+    "price": 0.9288,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4068,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.3648,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.018,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": -0.073,
+      "bullish_pct": 25.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.235,
-        "crypto_macro": -0.262,
-        "geopolitical": -0.264,
-        "fed_rates": 0.144
+        "xrp": 0.157,
+        "crypto_macro": -0.303,
+        "geopolitical": -0.276,
+        "fed_rates": 0.062
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,12 +27,12 @@
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": false,
+      "crypto_specific_bad": true,
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
         "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
-        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin"
+        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
       ],
       "top_bearish": [
         "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.6,
-      "health": 0.132,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.86,
+      "health": 0.494,
+      "vol_ratio": 1.9
     },
     "technicals": {
-      "ema50": 0.92906,
-      "ema200": 0.93183,
-      "macd": -0.000676,
-      "macd_signal": -0.00031,
-      "rsi14": 49.1,
-      "atr14": 0.00145,
-      "atr14_hourly": 0.00709,
-      "bb_position": 0.4
+      "ema50": 0.92866,
+      "ema200": 0.93139,
+      "macd": -0.000481,
+      "macd_signal": -0.000571,
+      "rsi14": 50.9,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00524,
+      "bb_position": 0.737
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.246,
+      "percentile": 0.244,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168715
+  "data_bars": 168727
 }
