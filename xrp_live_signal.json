@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-29T12:01:28.102821+00:00",
+  "timestamp": "2026-07-29T13:01:33.543730+00:00",
   "signal": {
-    "price": 0.9513,
+    "price": 0.9464,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4457,
-    "hybrid_score": 3.4,
-    "regime": "BULLISH",
+    "xgb_prob": 0.439,
+    "hybrid_score": 4.6,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.092,
-      "bullish_pct": 20.0,
-      "bearish_pct": 40.0,
+      "score": -0.038,
+      "bullish_pct": 25.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.095,
-        "crypto_macro": -0.277,
-        "geopolitical": -0.229,
-        "fed_rates": -0.017
+        "xrp": 0.199,
+        "crypto_macro": -0.212,
+        "geopolitical": -0.268,
+        "fed_rates": 0.001
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
-        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
-        "3 Levels XRP Must Clear to End Its Year-Long Downtrend - 24/7 Wall St."
+        "XRP Ledger Adoption Accelerates: Is That Bullish for XRP? - Benzinga",
+        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto"
       ],
       "top_bearish": [
+        "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
         "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.82,
-      "health": -0.145,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.85,
+      "health": -0.1595,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.95302,
-      "ema200": 0.94647,
-      "macd": -0.000776,
-      "macd_signal": -0.000558,
-      "rsi14": 38.9,
-      "atr14": 0.00095,
-      "atr14_hourly": 0.00399,
-      "bb_position": 0.178
+      "ema50": 0.95064,
+      "ema200": 0.94652,
+      "macd": -0.001911,
+      "macd_signal": -0.001787,
+      "rsi14": 31.8,
+      "atr14": 0.00093,
+      "atr14_hourly": 0.00595,
+      "bb_position": 0.27
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.292,
+      "percentile": 0.298,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168931
+  "data_bars": 168943
 }
