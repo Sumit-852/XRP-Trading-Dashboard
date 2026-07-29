@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-29T16:01:33.108723+00:00",
+  "timestamp": "2026-07-29T17:01:27.609945+00:00",
   "signal": {
-    "price": 0.9375,
+    "price": 0.9391,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4552,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4001,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.034,
-      "bullish_pct": 26.7,
+      "score": -0.024,
+      "bullish_pct": 28.3,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.133,
-        "crypto_macro": -0.194,
-        "geopolitical": -0.287,
-        "fed_rates": 0.184
+        "crypto_macro": -0.159,
+        "geopolitical": -0.294,
+        "fed_rates": 0.189
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP Ledger Adoption Accelerates: Is That Bullish for XRP? - Benzinga"
       ],
       "top_bearish": [
-        "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - nytimes.com",
+        "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
         "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": 0.0153,
-      "vol_ratio": 0.37
+      "up_down_ratio": 1.0,
+      "health": 0.2083,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.94281,
-      "ema200": 0.94484,
-      "macd": -0.001596,
-      "macd_signal": -0.001506,
-      "rsi14": 37.2,
-      "atr14": 0.00163,
-      "atr14_hourly": 0.00586,
-      "bb_position": 0.174
+      "ema50": 0.94105,
+      "ema200": 0.94409,
+      "macd": -0.000748,
+      "macd_signal": -0.001006,
+      "rsi14": 49.9,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.00549,
+      "bb_position": 0.705
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.2,
+      "percentile": 0.204,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168979
+  "data_bars": 168991
 }
