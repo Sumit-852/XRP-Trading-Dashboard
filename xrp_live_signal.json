@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-29T00:01:20.963162+00:00",
+  "timestamp": "2026-07-29T01:01:18.997940+00:00",
   "signal": {
-    "price": 0.939,
+    "price": 0.9464,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4033,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.3569,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.058,
-      "bullish_pct": 30.0,
+      "score": -0.087,
+      "bullish_pct": 26.7,
       "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.153,
-        "crypto_macro": -0.149,
-        "geopolitical": -0.372,
+        "xrp": 0.105,
+        "crypto_macro": -0.185,
+        "geopolitical": -0.373,
         "fed_rates": -0.01
       },
       "geo_shock": true,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
         "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
-        "US Senate delays CLARITY Act vote, leaving XRP regulatory clarity uncertain until September - Pluang"
+        "US Senate delays CLARITY Act vote, leaving XRP regulatory clarity uncertain until September - Pluang",
+        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
       ],
       "top_bearish": [
         "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": 0.1209,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.97,
+      "health": 0.1312,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.93386,
-      "ema200": 0.93242,
-      "macd": 0.000923,
-      "macd_signal": 0.000235,
-      "rsi14": 68.6,
-      "atr14": 0.00127,
-      "atr14_hourly": 0.00663,
-      "bb_position": 0.941
+      "ema50": 0.93779,
+      "ema200": 0.93373,
+      "macd": 0.002965,
+      "macd_signal": 0.002481,
+      "rsi14": 67.4,
+      "atr14": 0.00189,
+      "atr14_hourly": 0.00924,
+      "bb_position": 0.811
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.203,
+      "percentile": 0.225,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168787
+  "data_bars": 168799
 }
