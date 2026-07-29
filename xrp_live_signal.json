@@ -1,20 +1,70 @@
 {
-  "timestamp": "2026-07-29T06:01:18.732600+00:00",
+  "timestamp": "2026-07-29T07:01:22.409216+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9519,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9539,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.4377,
+    "hybrid_score": 4.6,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "action": "HOLD",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.072,
+      "bullish_pct": 21.7,
+      "bearish_pct": 36.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.15,
+        "crypto_macro": -0.181,
+        "geopolitical": -0.387,
+        "fed_rates": -0.014
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
+        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
+        "US Senate delays CLARITY Act vote, leaving XRP regulatory clarity uncertain until September - Pluang"
+      ],
+      "top_bearish": [
+        "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
+        "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.98,
+      "health": 0.1,
+      "vol_ratio": 0.0
+    },
+    "technicals": {
+      "ema50": 0.94864,
+      "ema200": 0.9405,
+      "macd": 0.001713,
+      "macd_signal": 0.001962,
+      "rsi14": 61.3,
+      "atr14": 0.00137,
+      "atr14_hourly": 0.00803,
+      "bb_position": 0.713
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.313,
       "extreme": false
     }
   },
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168859
+  "data_bars": 168871
 }
