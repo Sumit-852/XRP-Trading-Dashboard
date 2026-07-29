@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-29T13:01:33.543730+00:00",
+  "timestamp": "2026-07-29T14:01:29.717239+00:00",
   "signal": {
-    "price": 0.9464,
+    "price": 0.9425,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.439,
-    "hybrid_score": 4.6,
-    "regime": "BEARISH",
+    "xgb_prob": 0.4129,
+    "hybrid_score": 3.2,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.038,
+      "score": -0.031,
       "bullish_pct": 25.0,
-      "bearish_pct": 38.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.199,
-        "crypto_macro": -0.212,
-        "geopolitical": -0.268,
-        "fed_rates": 0.001
+        "xrp": 0.181,
+        "crypto_macro": -0.128,
+        "geopolitical": -0.296,
+        "fed_rates": -0.034
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
-        "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.85,
-      "health": -0.1595,
-      "vol_ratio": 0.04
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.83,
+      "health": -0.0089,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.95064,
-      "ema200": 0.94652,
-      "macd": -0.001911,
-      "macd_signal": -0.001787,
-      "rsi14": 31.8,
-      "atr14": 0.00093,
-      "atr14_hourly": 0.00595,
-      "bb_position": 0.27
+      "ema50": 0.94788,
+      "ema200": 0.94618,
+      "macd": -0.002068,
+      "macd_signal": -0.002061,
+      "rsi14": 36.0,
+      "atr14": 0.00162,
+      "atr14_hourly": 0.00596,
+      "bb_position": 0.208
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.298,
+      "percentile": 0.28,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168943
+  "data_bars": 168955
 }
