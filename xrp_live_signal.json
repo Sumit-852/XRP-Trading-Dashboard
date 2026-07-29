@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-29T14:01:29.717239+00:00",
+  "timestamp": "2026-07-29T15:01:32.084186+00:00",
   "signal": {
-    "price": 0.9425,
+    "price": 0.9405,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4129,
-    "hybrid_score": 3.2,
-    "regime": "BULLISH",
+    "xgb_prob": 0.4214,
+    "hybrid_score": 3.3,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.031,
-      "bullish_pct": 25.0,
-      "bearish_pct": 40.0,
+      "score": -0.037,
+      "bullish_pct": 28.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.181,
-        "crypto_macro": -0.128,
-        "geopolitical": -0.296,
-        "fed_rates": -0.034
+        "xrp": 0.133,
+        "crypto_macro": -0.156,
+        "geopolitical": -0.317,
+        "fed_rates": 0.122
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
         "XRP Ledger Adoption Accelerates: Is That Bullish for XRP? - Benzinga",
-        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto"
+        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
+        "XRP Ledger Adoption Accelerates: Is That Bullish for XRP? - Benzinga"
       ],
       "top_bearish": [
         "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
+        "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": -0.0089,
-      "vol_ratio": 0.06
+      "up_down_ratio": 0.81,
+      "health": -0.1117,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 0.94788,
-      "ema200": 0.94618,
-      "macd": -0.002068,
-      "macd_signal": -0.002061,
-      "rsi14": 36.0,
-      "atr14": 0.00162,
-      "atr14_hourly": 0.00596,
-      "bb_position": 0.208
+      "ema50": 0.94524,
+      "ema200": 0.94559,
+      "macd": -0.001479,
+      "macd_signal": -0.001767,
+      "rsi14": 42.7,
+      "atr14": 0.00192,
+      "atr14_hourly": 0.00605,
+      "bb_position": 0.296
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.28,
+      "percentile": 0.299,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168955
+  "data_bars": 168967
 }
