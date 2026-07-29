@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-29T02:01:23.854383+00:00",
+  "timestamp": "2026-07-29T03:01:32.685513+00:00",
   "signal": {
-    "price": 0.9386,
+    "price": 0.9465,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3735,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.4134,
+    "hybrid_score": 4.4,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.105,
-      "bullish_pct": 23.3,
-      "bearish_pct": 45.0,
+      "sentiment": "NEUTRAL",
+      "score": -0.064,
+      "bullish_pct": 30.0,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.105,
-        "crypto_macro": -0.193,
-        "geopolitical": -0.429,
-        "fed_rates": -0.049
+        "xrp": 0.161,
+        "crypto_macro": -0.164,
+        "geopolitical": -0.376,
+        "fed_rates": -0.033
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
         "US Senate delays CLARITY Act vote, leaving XRP regulatory clarity uncertain until September - Pluang",
-        "XRP Price Prediction: Bullish Momentum Forms As Ripple Taps New Platforms - MarketForces Africa"
+        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin"
       ],
       "top_bearish": [
         "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": -0.0686,
-      "vol_ratio": 0.06
+      "up_down_ratio": 0.9,
+      "health": -0.1347,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.93976,
-      "ema200": 0.9348,
-      "macd": 0.000401,
-      "macd_signal": 0.001441,
-      "rsi14": 39.2,
-      "atr14": 0.00171,
-      "atr14_hourly": 0.0082,
-      "bb_position": -0.038
+      "ema50": 0.94169,
+      "ema200": 0.93591,
+      "macd": 0.001272,
+      "macd_signal": 0.001048,
+      "rsi14": 59.5,
+      "atr14": 0.00173,
+      "atr14_hourly": 0.0089,
+      "bb_position": 0.765
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.219,
+      "percentile": 0.24,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168811
+  "data_bars": 168823
 }
