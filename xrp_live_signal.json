@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-07-29T09:01:23.788057+00:00",
+  "timestamp": "2026-07-29T10:01:22.727974+00:00",
   "signal": {
-    "price": 0.953,
+    "price": 0.9543,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4296,
+    "xgb_prob": 0.4315,
     "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.112,
-      "bullish_pct": 20.0,
-      "bearish_pct": 40.0,
+      "sentiment": "NEUTRAL",
+      "score": -0.079,
+      "bullish_pct": 23.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.123,
-        "crypto_macro": -0.312,
-        "geopolitical": -0.347,
+        "crypto_macro": -0.241,
+        "geopolitical": -0.282,
         "fed_rates": -0.004
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
         "phase": "NONE"
       },
-      "crypto_specific_bad": true,
+      "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC extends winning streak, ETH clears key hurdle, XRP steadies - FX",
         "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
-        "3 Levels XRP Must Clear to End Its Year-Long Downtrend - 24/7 Wall St."
+        "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag - CNBC"
       ],
       "top_bearish": [
-        "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
         "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
+        "Crypto Crash Today: Why Bitcoin, Ethereum, XRP, and Solana Are All Down Double Digits - 24/7 Wall St."
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.84,
-      "health": -0.059,
+      "up_down_ratio": 0.91,
+      "health": -0.0317,
       "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.95157,
-      "ema200": 0.94326,
-      "macd": 0.000192,
-      "macd_signal": 0.000374,
-      "rsi14": 50.2,
-      "atr14": 0.00094,
-      "atr14_hourly": 0.00467,
-      "bb_position": 0.378
+      "ema50": 0.95301,
+      "ema200": 0.94463,
+      "macd": 0.000542,
+      "macd_signal": 0.000685,
+      "rsi14": 49.7,
+      "atr14": 0.00106,
+      "atr14_hourly": 0.00499,
+      "bb_position": 0.473
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 168895
+  "data_bars": 168907
 }
