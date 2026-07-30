@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-30T08:01:30.458011+00:00",
+  "timestamp": "2026-07-30T09:01:24.144950+00:00",
   "signal": {
-    "price": 0.9401,
+    "price": 0.9408,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3469,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.2816,
+    "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.041,
-      "bullish_pct": 40.0,
-      "bearish_pct": 26.7,
+      "score": 0.007,
+      "bullish_pct": 38.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.183,
+        "xrp": 0.11,
         "crypto_macro": -0.123,
-        "geopolitical": -0.271,
+        "geopolitical": -0.304,
         "fed_rates": 0.4
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge - CoinDesk",
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "$2 Trillion Opportunity For XRP: Ripple Signs Landmark Deal - DailyCoin"
+        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin"
       ],
       "top_bearish": [
         "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.29,
-      "health": 0.135,
-      "vol_ratio": 0.05
+      "up_down_ratio": 1.44,
+      "health": 0.2486,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.9391,
-      "ema200": 0.93914,
-      "macd": 0.000855,
-      "macd_signal": 0.000872,
-      "rsi14": 51.4,
-      "atr14": 0.00106,
-      "atr14_hourly": 0.00502,
-      "bb_position": 0.534
+      "ema50": 0.93968,
+      "ema200": 0.9393,
+      "macd": 0.000385,
+      "macd_signal": 0.000482,
+      "rsi14": 53.0,
+      "atr14": 0.0009,
+      "atr14_hourly": 0.00441,
+      "bb_position": 0.452
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.219,
+      "percentile": 0.216,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169171
+  "data_bars": 169183
 }
