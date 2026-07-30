@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-30T15:01:24.827050+00:00",
+  "timestamp": "2026-07-30T16:01:20.992022+00:00",
   "signal": {
-    "price": 0.943,
+    "price": 0.9465,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3402,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3852,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.041,
-      "bullish_pct": 36.7,
-      "bearish_pct": 25.0,
+      "score": 0.008,
+      "bullish_pct": 35.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.144,
-        "crypto_macro": -0.098,
-        "geopolitical": -0.236,
-        "fed_rates": 0.406
+        "xrp": 0.094,
+        "crypto_macro": -0.126,
+        "geopolitical": -0.244,
+        "fed_rates": 0.375
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "As the US and Iran trade blows over Hormuz, how long before the nuclear threat forces Israel to go back to war? - The Je",
-        "Robinhood\u2019s crypto trading revenue plunges 38% as retail traders sit on the sidelines - Crypto Briefing"
+        "Scammers stoke millions of XRP tokens from dozens of investors via a fake Flare Network site - CoinDesk",
+        "As the US and Iran trade blows over Hormuz, how long before the nuclear threat forces Israel to go back to war? - The Je"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": -0.3316,
-      "vol_ratio": 0.04
+      "up_down_ratio": 1.74,
+      "health": 0.1637,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.9421,
-      "ema200": 0.9407,
-      "macd": 0.000592,
-      "macd_signal": 0.000272,
-      "rsi14": 52.2,
-      "atr14": 0.0016,
-      "atr14_hourly": 0.00628,
-      "bb_position": 0.621
+      "ema50": 0.94401,
+      "ema200": 0.94143,
+      "macd": 0.001223,
+      "macd_signal": 0.00127,
+      "rsi14": 55.6,
+      "atr14": 0.0018,
+      "atr14_hourly": 0.00718,
+      "bb_position": 0.598
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.187,
+      "percentile": 0.19,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169255
+  "data_bars": 169267
 }
