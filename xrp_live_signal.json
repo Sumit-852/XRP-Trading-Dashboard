@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-30T13:01:28.466843+00:00",
+  "timestamp": "2026-07-30T14:01:25.931667+00:00",
   "signal": {
-    "price": 0.9433,
+    "price": 0.9411,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3131,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.3486,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.052,
-      "bullish_pct": 38.3,
+      "score": 0.078,
+      "bullish_pct": 41.7,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.17,
-        "crypto_macro": -0.086,
-        "geopolitical": -0.243,
-        "fed_rates": 0.4
+        "xrp": 0.144,
+        "crypto_macro": -0.036,
+        "geopolitical": -0.157,
+        "fed_rates": 0.431
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - dailycoin.com",
-        "3 Levels XRP Must Clear to End Its Year-Long Downtrend - 24/7 Wall St."
+        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin",
+        "Crypto's resilience is tested as oil surges back above $90 and the Fed signals rates could still rise - CoinDesk"
       ],
       "top_bearish": [
-        "Fed Pause Supports Bitcoin as Crypto Exchange Collapse Turmoil Risks BTC Drop to $58,000 - TradingKey",
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "As the US and Iran trade blows over Hormuz, how long before the nuclear threat forces Israel to go back to war? - The Je"
+        "As the US and Iran trade blows over Hormuz, how long before the nuclear threat forces Israel to go back to war? - The Je",
+        "Robinhood\u2019s Crypto Trading Revenue Plunges 38% - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.41,
-      "health": 0.0984,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.38,
+      "health": -0.0551,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 0.94188,
-      "ema200": 0.94034,
-      "macd": 0.000473,
-      "macd_signal": 0.000508,
-      "rsi14": 55.1,
-      "atr14": 0.00087,
-      "atr14_hourly": 0.00365,
-      "bb_position": 0.602
+      "ema50": 0.94178,
+      "ema200": 0.94048,
+      "macd": -0.000119,
+      "macd_signal": -6.4e-05,
+      "rsi14": 45.8,
+      "atr14": 0.00121,
+      "atr14_hourly": 0.00405,
+      "bb_position": 0.28
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.21,
+      "percentile": 0.208,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169231
+  "data_bars": 169243
 }
