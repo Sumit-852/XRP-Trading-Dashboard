@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-30T19:01:36.207402+00:00",
+  "timestamp": "2026-07-30T20:01:21.942709+00:00",
   "signal": {
-    "price": 0.9397,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9456,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3698,
-    "hybrid_score": 4.2,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.022,
-      "bullish_pct": 35.0,
-      "bearish_pct": 25.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.128,
-        "crypto_macro": -0.116,
-        "geopolitical": -0.253,
-        "fed_rates": 0.375
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge - CoinDesk",
-        "XRP breakout odds rise amid utility boost - FXStreet",
-        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
-      ],
-      "top_bearish": [
-        "12.3 Billion Won Crypto Scam Group Arrested - \uc870\uc120\uc77c\ubcf4",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "As the US and Iran trade blows over Hormuz, how long before the nuclear threat forces Israel to go back to war? - The Je"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.65,
-      "health": 0.1347,
-      "vol_ratio": 0.37
-    },
-    "technicals": {
-      "ema50": 0.94392,
-      "ema200": 0.94229,
-      "macd": -0.001235,
-      "macd_signal": -0.000644,
-      "rsi14": 30.8,
-      "atr14": 0.00113,
-      "atr14_hourly": 0.00485,
-      "bb_position": 0.031
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.139,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169303
+  "data_bars": 169315
 }
