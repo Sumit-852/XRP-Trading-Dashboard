@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-07-30T12:01:31.703295+00:00",
+  "timestamp": "2026-07-30T13:01:28.466843+00:00",
   "signal": {
-    "price": 0.9439,
+    "price": 0.9433,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3664,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3131,
+    "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.06,
-      "bullish_pct": 40.0,
-      "bearish_pct": 26.7,
+      "score": 0.052,
+      "bullish_pct": 38.3,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.22,
-        "crypto_macro": -0.022,
-        "geopolitical": -0.365,
-        "fed_rates": 0.356
+        "xrp": 0.17,
+        "crypto_macro": -0.086,
+        "geopolitical": -0.243,
+        "fed_rates": 0.4
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge - CoinDesk",
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - dailycoin.com"
+        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - dailycoin.com",
+        "3 Levels XRP Must Clear to End Its Year-Long Downtrend - 24/7 Wall St."
       ],
       "top_bearish": [
         "Fed Pause Supports Bitcoin as Crypto Exchange Collapse Turmoil Risks BTC Drop to $58,000 - TradingKey",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.52,
-      "health": 0.2964,
+      "up_down_ratio": 1.41,
+      "health": 0.0984,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.94111,
-      "ema200": 0.93998,
-      "macd": 0.000652,
-      "macd_signal": 0.000225,
-      "rsi14": 64.1,
-      "atr14": 0.00078,
-      "atr14_hourly": 0.00404,
-      "bb_position": 0.932
+      "ema50": 0.94188,
+      "ema200": 0.94034,
+      "macd": 0.000473,
+      "macd_signal": 0.000508,
+      "rsi14": 55.1,
+      "atr14": 0.00087,
+      "atr14_hourly": 0.00365,
+      "bb_position": 0.602
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.214,
+      "percentile": 0.21,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169219
+  "data_bars": 169231
 }
