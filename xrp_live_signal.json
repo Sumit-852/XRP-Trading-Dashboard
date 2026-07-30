@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-30T01:01:24.572889+00:00",
+  "timestamp": "2026-07-30T02:01:19.581007+00:00",
   "signal": {
-    "price": 0.933,
+    "price": 0.9405,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4123,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.3556,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.038,
+      "score": 0.052,
       "bullish_pct": 38.3,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.205,
-        "crypto_macro": -0.152,
-        "geopolitical": -0.256,
+        "xrp": 0.225,
+        "crypto_macro": -0.122,
+        "geopolitical": -0.272,
         "fed_rates": 0.37
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - ambcrypto.com",
-        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin"
+        "$2 Trillion Opportunity For XRP: Ripple Signs Landmark Deal - DailyCoin",
+        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - ambcrypto.com"
       ],
       "top_bearish": [
         "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
-        "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": 0.1595,
-      "vol_ratio": 0.49
+      "up_down_ratio": 1.16,
+      "health": 0.237,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.93552,
-      "ema200": 0.93964,
-      "macd": -0.000727,
-      "macd_signal": -0.000293,
-      "rsi14": 40.7,
-      "atr14": 0.0011,
-      "atr14_hourly": 0.00538,
-      "bb_position": 0.185
+      "ema50": 0.93661,
+      "ema200": 0.93947,
+      "macd": 0.001466,
+      "macd_signal": 0.000769,
+      "rsi14": 61.9,
+      "atr14": 0.00148,
+      "atr14_hourly": 0.00706,
+      "bb_position": 0.822
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.272,
+      "percentile": 0.3,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169087
+  "data_bars": 169099
 }
