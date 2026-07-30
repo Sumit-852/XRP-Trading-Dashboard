@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-30T05:01:23.223464+00:00",
+  "timestamp": "2026-07-30T06:01:22.179827+00:00",
   "signal": {
-    "price": 0.9372,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9379,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2727,
-    "hybrid_score": 3.6,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.005,
-      "bullish_pct": 38.3,
-      "bearish_pct": 30.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.103,
-        "crypto_macro": -0.199,
-        "geopolitical": -0.18,
-        "fed_rates": 0.4
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP breakout odds rise amid utility boost - FXStreet",
-        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
-        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin"
-      ],
-      "top_bearish": [
-        "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
-        "Crypto exchanges face a survival crisis as day traders disappear - CoinDesk",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.22,
-      "health": 0.1182,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.93783,
-      "ema200": 0.93919,
-      "macd": -0.000279,
-      "macd_signal": -0.00026,
-      "rsi14": 45.7,
-      "atr14": 0.00082,
-      "atr14_hourly": 0.00363,
-      "bb_position": 0.322
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.22,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169135
+  "data_bars": 169147
 }
