@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-30T16:01:20.992022+00:00",
+  "timestamp": "2026-07-30T17:01:27.121270+00:00",
   "signal": {
-    "price": 0.9465,
+    "price": 0.9449,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3852,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.2917,
+    "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.008,
-      "bullish_pct": 35.0,
-      "bearish_pct": 28.3,
+      "score": -0.014,
+      "bullish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.094,
-        "crypto_macro": -0.126,
-        "geopolitical": -0.244,
+        "crypto_macro": -0.162,
+        "geopolitical": -0.303,
         "fed_rates": 0.375
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
         "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin",
-        "Crypto's resilience is tested as oil surges back above $90 and the Fed signals rates could still rise - CoinDesk"
+        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.74,
-      "health": 0.1637,
-      "vol_ratio": 0.03
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.84,
+      "health": 0.1502,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.94401,
-      "ema200": 0.94143,
-      "macd": 0.001223,
-      "macd_signal": 0.00127,
-      "rsi14": 55.6,
-      "atr14": 0.0018,
-      "atr14_hourly": 0.00718,
-      "bb_position": 0.598
+      "ema50": 0.94443,
+      "ema200": 0.94185,
+      "macd": 6.8e-05,
+      "macd_signal": 0.000307,
+      "rsi14": 48.9,
+      "atr14": 0.00135,
+      "atr14_hourly": 0.00616,
+      "bb_position": 0.293
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.19,
+      "percentile": 0.182,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169267
+  "data_bars": 169279
 }
