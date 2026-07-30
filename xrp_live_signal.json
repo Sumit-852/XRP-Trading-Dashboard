@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-30T07:01:31.711845+00:00",
+  "timestamp": "2026-07-30T08:01:30.458011+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9378,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9401,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3469,
+    "hybrid_score": 4.1,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.041,
+      "bullish_pct": 40.0,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.183,
+        "crypto_macro": -0.123,
+        "geopolitical": -0.271,
+        "fed_rates": 0.4
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge - CoinDesk",
+        "XRP breakout odds rise amid utility boost - FXStreet",
+        "$2 Trillion Opportunity For XRP: Ripple Signs Landmark Deal - DailyCoin"
+      ],
+      "top_bearish": [
+        "Bitcoin maximalists say the brutal price crash is just a temporary liquidity crunch caused by the AI boom - CoinDesk",
+        "Fed Pause Supports Bitcoin as Crypto Exchange Collapse Turmoil Risks BTC Drop to $58,000 - TradingKey",
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.29,
+      "health": 0.135,
+      "vol_ratio": 0.05
+    },
+    "technicals": {
+      "ema50": 0.9391,
+      "ema200": 0.93914,
+      "macd": 0.000855,
+      "macd_signal": 0.000872,
+      "rsi14": 51.4,
+      "atr14": 0.00106,
+      "atr14_hourly": 0.00502,
+      "bb_position": 0.534
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.219,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169159
+  "data_bars": 169171
 }
