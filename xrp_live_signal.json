@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-30T03:01:36.547482+00:00",
+  "timestamp": "2026-07-30T04:01:22.475607+00:00",
   "signal": {
-    "price": 0.9377,
+    "price": 0.9381,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3949,
-    "hybrid_score": 4.4,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3423,
+    "hybrid_score": 4.1,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.025,
-      "bullish_pct": 38.3,
-      "bearish_pct": 30.0,
+      "score": 0.013,
+      "bullish_pct": 36.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.183,
-        "crypto_macro": -0.17,
+        "xrp": 0.103,
+        "crypto_macro": -0.109,
         "geopolitical": -0.261,
-        "fed_rates": 0.375
+        "fed_rates": 0.37
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "$2 Trillion Opportunity For XRP: Ripple Signs Landmark Deal - DailyCoin",
-        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto"
+        "XRP echoes 2024 rally setup as ETFs flip positive: Bulls and bears fight for control - AMBCrypto",
+        "Ripple\u2019s EU License Win Raises a Hard Question For XRP - DailyCoin"
       ],
       "top_bearish": [
         "World\u2019s Biggest Crypto Exchange Has Made It Harder to Fight Crime, Police Say - The New York Times",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": 0.0526,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.14,
+      "health": 0.0871,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.93781,
-      "ema200": 0.93952,
-      "macd": 0.000547,
-      "macd_signal": 0.001004,
-      "rsi14": 45.9,
-      "atr14": 0.00114,
-      "atr14_hourly": 0.00632,
-      "bb_position": 0.187
+      "ema50": 0.93811,
+      "ema200": 0.93942,
+      "macd": -3.4e-05,
+      "macd_signal": 0.000202,
+      "rsi14": 47.2,
+      "atr14": 0.00095,
+      "atr14_hourly": 0.00449,
+      "bb_position": 0.266
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.272,
+      "percentile": 0.256,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169111
+  "data_bars": 169123
 }
