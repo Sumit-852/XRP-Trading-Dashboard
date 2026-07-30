@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-30T14:01:25.931667+00:00",
+  "timestamp": "2026-07-30T15:01:24.827050+00:00",
   "signal": {
-    "price": 0.9411,
+    "price": 0.943,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3486,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3402,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.078,
-      "bullish_pct": 41.7,
-      "bearish_pct": 23.3,
+      "score": 0.041,
+      "bullish_pct": 36.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.144,
-        "crypto_macro": -0.036,
-        "geopolitical": -0.157,
-        "fed_rates": 0.431
+        "crypto_macro": -0.098,
+        "geopolitical": -0.236,
+        "fed_rates": 0.406
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
         "As the US and Iran trade blows over Hormuz, how long before the nuclear threat forces Israel to go back to war? - The Je",
-        "Robinhood\u2019s Crypto Trading Revenue Plunges 38% - Yahoo Finance"
+        "Robinhood\u2019s crypto trading revenue plunges 38% as retail traders sit on the sidelines - Crypto Briefing"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.38,
-      "health": -0.0551,
-      "vol_ratio": 0.15
+      "up_down_ratio": 1.05,
+      "health": -0.3316,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.94178,
-      "ema200": 0.94048,
-      "macd": -0.000119,
-      "macd_signal": -6.4e-05,
-      "rsi14": 45.8,
-      "atr14": 0.00121,
-      "atr14_hourly": 0.00405,
-      "bb_position": 0.28
+      "ema50": 0.9421,
+      "ema200": 0.9407,
+      "macd": 0.000592,
+      "macd_signal": 0.000272,
+      "rsi14": 52.2,
+      "atr14": 0.0016,
+      "atr14_hourly": 0.00628,
+      "bb_position": 0.621
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.208,
+      "percentile": 0.187,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169243
+  "data_bars": 169255
 }
