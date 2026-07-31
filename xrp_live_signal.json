@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-31T21:01:23.423569+00:00",
+  "timestamp": "2026-07-31T22:01:23.098662+00:00",
   "signal": {
-    "price": 0.9207,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.919,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2921,
-    "hybrid_score": 2.5,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.027,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.113,
-        "crypto_macro": -0.126,
-        "geopolitical": -0.359,
-        "fed_rates": 0.231
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP breakout odds rise amid utility boost - FXStreet",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
-        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
-      ],
-      "top_bearish": [
-        "Bitcoin Stuck at $63,000, Ethereum, XRP, Dogecoin Down up to 2% on Weak Friday - Benzinga",
-        "Bitcoin and XRP Are Missing From This Key New Crypto Index. Are They Still Worth Buying? - The Motley Fool",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.68,
-      "health": 0.0035,
-      "vol_ratio": 0.05
-    },
-    "technicals": {
-      "ema50": 0.92249,
-      "ema200": 0.9284,
-      "macd": -0.000541,
-      "macd_signal": -0.00054,
-      "rsi14": 43.2,
-      "atr14": 0.0007,
-      "atr14_hourly": 0.0035,
-      "bb_position": 0.349
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.085,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169615
+  "data_bars": 169627
 }
