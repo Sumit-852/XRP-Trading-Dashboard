@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-31T14:01:34.914227+00:00",
+  "timestamp": "2026-07-31T15:01:27.056303+00:00",
   "signal": {
-    "price": 0.9292,
+    "price": 0.9223,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3326,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.4182,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.015,
+      "score": -0.003,
       "bullish_pct": 33.3,
-      "bearish_pct": 28.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.101,
-        "crypto_macro": -0.055,
-        "geopolitical": -0.225,
-        "fed_rates": 0.237
+        "crypto_macro": -0.092,
+        "geopolitical": -0.275,
+        "fed_rates": 0.254
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "Best Crypto Tokens Under $1 to Buy in August 2026 Before the Next Altcoin Rally - Bitcoin Foundation",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
+        "Robinhood\u2019s crypto revenue plunged 38%, but a sudden explosion in options trading saved its record quarter - CryptoSlate"
       ],
       "top_bearish": [
         "Bitcoin and XRP Are Missing From This Key New Crypto Index. Are They Still Worth Buying? - The Motley Fool",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.67,
-      "health": -0.2127,
-      "vol_ratio": 0.08
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.72,
+      "health": -0.0031,
+      "vol_ratio": 0.59
     },
     "technicals": {
-      "ema50": 0.93222,
-      "ema200": 0.93591,
-      "macd": -0.000736,
-      "macd_signal": -0.00033,
-      "rsi14": 35.3,
-      "atr14": 0.00101,
-      "atr14_hourly": 0.00322,
-      "bb_position": 0.07
+      "ema50": 0.92919,
+      "ema200": 0.93461,
+      "macd": -0.002385,
+      "macd_signal": -0.001999,
+      "rsi14": 35.8,
+      "atr14": 0.00203,
+      "atr14_hourly": 0.00743,
+      "bb_position": 0.179
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.058,
+      "percentile": 0.093,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169531
+  "data_bars": 169543
 }
