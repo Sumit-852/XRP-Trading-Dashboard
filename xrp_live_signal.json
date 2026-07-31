@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-31T18:01:27.304516+00:00",
+  "timestamp": "2026-07-31T19:01:23.367775+00:00",
   "signal": {
-    "price": 0.9268,
+    "price": 0.924,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2868,
-    "hybrid_score": 2.5,
+    "xgb_prob": 0.3224,
+    "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.003,
-      "bullish_pct": 31.7,
-      "bearish_pct": 30.0,
+      "score": -0.051,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.14,
-        "crypto_macro": -0.056,
-        "geopolitical": -0.38,
-        "fed_rates": 0.217
+        "xrp": 0.113,
+        "crypto_macro": -0.175,
+        "geopolitical": -0.432,
+        "fed_rates": 0.26
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP breakout odds rise amid utility boost - FXStreet",
-        "Best Crypto Tokens Under $1 to Buy in August 2026 Before the Next Altcoin Rally - Bitcoin Foundation",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr"
+        "XRP breakout odds rise amid utility boost - fxstreet.com",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - fxstr",
+        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
       ],
       "top_bearish": [
+        "Bitcoin Stuck at $63,000, Ethereum, XRP, Dogecoin Down up to 2% on Weak Friday - Benzinga",
         "Bitcoin and XRP Are Missing From This Key New Crypto Index. Are They Still Worth Buying? - The Motley Fool",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.68,
-      "health": -0.0161,
-      "vol_ratio": 0.0
+      "health": -0.029,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.92515,
-      "ema200": 0.93118,
-      "macd": 0.001119,
-      "macd_signal": 0.000763,
-      "rsi14": 62.2,
+      "ema50": 0.92475,
+      "ema200": 0.93039,
+      "macd": -0.000165,
+      "macd_signal": 9.4e-05,
+      "rsi14": 48.2,
       "atr14": 0.00094,
-      "atr14_hourly": 0.00562,
-      "bb_position": 0.742
+      "atr14_hourly": 0.00515,
+      "bb_position": 0.306
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.085,
+      "percentile": 0.087,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169579
+  "data_bars": 169591
 }
