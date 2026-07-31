@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-31T13:01:26.330627+00:00",
+  "timestamp": "2026-07-31T14:01:34.914227+00:00",
   "signal": {
-    "price": 0.9324,
+    "price": 0.9292,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2392,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.3326,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.009,
-      "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
+      "score": 0.015,
+      "bullish_pct": 33.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.034,
-        "crypto_macro": -0.106,
-        "geopolitical": -0.224,
-        "fed_rates": 0.348
+        "xrp": 0.101,
+        "crypto_macro": -0.055,
+        "geopolitical": -0.225,
+        "fed_rates": 0.237
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
-        "Crypto ETFs Record Strong Inflows on July 30 as Bitcoin Funds Add $233 Million - FinanceFeeds"
+        "Best Crypto Tokens Under $1 to Buy in August 2026 Before the Next Altcoin Rally - Bitcoin Foundation",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr"
       ],
       "top_bearish": [
-        "We Gave AI Every XRP Crash Since 2013 and Asked When This One Ends - Yahoo Finance",
         "Bitcoin and XRP Are Missing From This Key New Crypto Index. Are They Still Worth Buying? - The Motley Fool",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
+        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.67,
-      "health": -0.1966,
-      "vol_ratio": 0.01
+      "health": -0.2127,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.93278,
-      "ema200": 0.93647,
-      "macd": -0.000166,
-      "macd_signal": -0.000245,
-      "rsi14": 51.6,
-      "atr14": 0.00066,
-      "atr14_hourly": 0.00254,
-      "bb_position": 0.69
+      "ema50": 0.93222,
+      "ema200": 0.93591,
+      "macd": -0.000736,
+      "macd_signal": -0.00033,
+      "rsi14": 35.3,
+      "atr14": 0.00101,
+      "atr14_hourly": 0.00322,
+      "bb_position": 0.07
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.061,
+      "percentile": 0.058,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169519
+  "data_bars": 169531
 }
