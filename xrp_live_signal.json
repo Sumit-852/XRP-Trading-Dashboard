@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-31T20:01:27.730154+00:00",
+  "timestamp": "2026-07-31T21:01:23.423569+00:00",
   "signal": {
-    "price": 0.9213,
+    "price": 0.9207,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3483,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.2921,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.047,
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "score": -0.027,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.083,
-        "crypto_macro": -0.129,
-        "geopolitical": -0.396,
-        "fed_rates": 0.229
+        "xrp": 0.113,
+        "crypto_macro": -0.126,
+        "geopolitical": -0.359,
+        "fed_rates": 0.231
       },
       "geo_shock": true,
       "geo_dip": {
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.7,
-      "health": -0.0432,
-      "vol_ratio": 1.25
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.68,
+      "health": 0.0035,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.9233,
-      "ema200": 0.92932,
-      "macd": -0.000831,
-      "macd_signal": -0.000825,
-      "rsi14": 45.1,
-      "atr14": 0.00101,
-      "atr14_hourly": 0.00464,
-      "bb_position": 0.383
+      "ema50": 0.92249,
+      "ema200": 0.9284,
+      "macd": -0.000541,
+      "macd_signal": -0.00054,
+      "rsi14": 43.2,
+      "atr14": 0.0007,
+      "atr14_hourly": 0.0035,
+      "bb_position": 0.349
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.091,
+      "percentile": 0.085,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169603
+  "data_bars": 169615
 }
