@@ -1,71 +1,21 @@
 {
-  "timestamp": "2026-07-31T16:01:25.450615+00:00",
+  "timestamp": "2026-07-31T17:01:35.108300+00:00",
   "signal": {
-    "price": 0.9206,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9228,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4217,
-    "hybrid_score": 3.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
     "exit_signal": false,
-    "action": "HOLD",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.037,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.049,
-        "crypto_macro": -0.121,
-        "geopolitical": -0.302,
-        "fed_rates": 0.247
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP breakout odds rise amid utility boost - FXStreet",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
-        "Robinhood\u2019s crypto revenue plunged 38%, but a sudden explosion in options trading saved its record quarter - CryptoSlate"
-      ],
-      "top_bearish": [
-        "We Gave AI Every XRP Crash Since 2013 and Asked When This One Ends - Yahoo Finance",
-        "Bitcoin and XRP Are Missing From This Key New Crypto Index. Are They Still Worth Buying? - The Motley Fool",
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.67,
-      "health": -0.1721,
-      "vol_ratio": 0.05
-    },
-    "technicals": {
-      "ema50": 0.92622,
-      "ema200": 0.93313,
-      "macd": -0.002177,
-      "macd_signal": -0.002173,
-      "rsi14": 39.3,
-      "atr14": 0.00176,
-      "atr14_hourly": 0.00693,
-      "bb_position": 0.262
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.093,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169555
+  "data_bars": 169567
 }
