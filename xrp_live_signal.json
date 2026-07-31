@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-31T07:01:22.147074+00:00",
+  "timestamp": "2026-07-31T08:01:23.887776+00:00",
   "signal": {
-    "price": 0.9374,
+    "price": 0.937,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2187,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.2674,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.029,
-      "bullish_pct": 40.0,
-      "bearish_pct": 26.7,
+      "score": 0.045,
+      "bullish_pct": 38.3,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.103,
-        "crypto_macro": -0.083,
-        "geopolitical": -0.2,
+        "xrp": 0.134,
+        "crypto_macro": -0.126,
+        "geopolitical": -0.105,
         "fed_rates": 0.352
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "5 Best Crypto Wallets of 2026 - money.usnews.com",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
         "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - global.morningstar.com",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
         "Coinbase Swings to Loss on Weak Crypto Market - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": -0.2758,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.89,
+      "health": -0.2555,
+      "vol_ratio": 0.33
     },
     "technicals": {
-      "ema50": 0.9387,
-      "ema200": 0.94032,
-      "macd": -0.00028,
-      "macd_signal": -0.000163,
-      "rsi14": 41.8,
-      "atr14": 0.00063,
-      "atr14_hourly": 0.00301,
-      "bb_position": 0.26
+      "ema50": 0.93694,
+      "ema200": 0.93959,
+      "macd": -0.000663,
+      "macd_signal": -0.001079,
+      "rsi14": 55.7,
+      "atr14": 0.00101,
+      "atr14_hourly": 0.00526,
+      "bb_position": 0.633
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.064,
+      "percentile": 0.068,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169447
+  "data_bars": 169459
 }
