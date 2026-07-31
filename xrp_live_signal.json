@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-07-31T00:01:20.480902+00:00",
+  "timestamp": "2026-07-31T01:01:30.314125+00:00",
   "signal": {
-    "price": 0.9392,
+    "price": 0.9404,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4109,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.282,
+    "hybrid_score": 5.0,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.039,
+      "score": 0.036,
       "bullish_pct": 35.0,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.125,
-        "crypto_macro": -0.059,
-        "geopolitical": -0.247,
+        "crypto_macro": -0.067,
+        "geopolitical": -0.249,
         "fed_rates": 0.375
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge - CoinDesk",
-        "XRP breakout odds rise amid utility boost - fxstreet.com",
-        "5 Best Crypto Wallets of 2026 - U.S. News - Money"
+        "XRP breakout odds rise amid utility boost - FXStreet",
+        "Bitcoin, Ethereum Remain Popular Among Institutional Investors, Wintermute Research Reports - Benzinga"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.33,
-      "health": -0.2077,
-      "vol_ratio": 0.1
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.36,
+      "health": -0.1649,
+      "vol_ratio": 0.33
     },
     "technicals": {
-      "ema50": 0.94202,
-      "ema200": 0.94215,
-      "macd": -0.000496,
-      "macd_signal": -9.3e-05,
-      "rsi14": 38.9,
-      "atr14": 0.00106,
-      "atr14_hourly": 0.00397,
-      "bb_position": 0.022
+      "ema50": 0.94108,
+      "ema200": 0.94186,
+      "macd": -0.000701,
+      "macd_signal": -0.000672,
+      "rsi14": 50.0,
+      "atr14": 0.00096,
+      "atr14_hourly": 0.0042,
+      "bb_position": 0.518
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.089,
+      "percentile": 0.082,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169363
+  "data_bars": 169375
 }
