@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-07-31T02:01:32.102114+00:00",
+  "timestamp": "2026-07-31T03:01:24.685836+00:00",
   "signal": {
-    "price": 0.9383,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9379,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.388,
-    "hybrid_score": 5.6,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.018,
-      "bullish_pct": 31.7,
-      "bearish_pct": 23.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.14,
-        "crypto_macro": -0.168,
-        "geopolitical": -0.188,
-        "fed_rates": 0.344
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge - CoinDesk",
-        "XRP breakout odds rise amid utility boost - FXStreet",
-        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
-      ],
-      "top_bearish": [
-        "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
-        "Coinbase Swings to Loss on Weak Crypto Market - WSJ",
-        "Robinhood\u2019s Crypto Trading Revenue Plunges 38% - Yahoo Finance"
-      ]
-    },
-    "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.39,
-      "health": -0.0841,
-      "vol_ratio": 0.25
-    },
-    "technicals": {
-      "ema50": 0.94112,
-      "ema200": 0.94181,
-      "macd": -0.000555,
-      "macd_signal": -0.000101,
-      "rsi14": 40.5,
-      "atr14": 0.00143,
-      "atr14_hourly": 0.00623,
-      "bb_position": 0.238
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.081,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169387
+  "data_bars": 169399
 }
