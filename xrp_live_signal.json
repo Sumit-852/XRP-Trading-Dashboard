@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-31T10:01:31.419822+00:00",
+  "timestamp": "2026-07-31T11:01:25.664677+00:00",
   "signal": {
-    "price": 0.9308,
+    "price": 0.9328,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3144,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.2614,
+    "hybrid_score": 2.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
@@ -12,13 +12,13 @@
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.025,
-      "bullish_pct": 40.0,
-      "bearish_pct": 28.3,
+      "bullish_pct": 41.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.127,
-        "crypto_macro": -0.191,
-        "geopolitical": -0.112,
+        "xrp": 0.096,
+        "crypto_macro": -0.125,
+        "geopolitical": -0.158,
         "fed_rates": 0.377
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP breakout odds rise amid utility boost - fxstreet.com",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - fxstr",
-        "Bitcoin, Ethereum Spike, XRP and Dogecoin Climb Amid Sharp Crypto Recovery: Analyst Says 'Don't Fear' BTC Dropping to $6"
+        "XRP breakout odds rise amid utility boost - FXStreet",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
+        "5 Best Crypto Wallets of 2026 - U.S. News - Money"
       ],
       "top_bearish": [
         "Bitcoin and XRP Are Missing From This Key New Crypto Index. Are They Still Worth Buying? - The Motley Fool",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.72,
-      "health": -0.2134,
-      "vol_ratio": 0.45
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.77,
+      "health": -0.142,
+      "vol_ratio": 1.59
     },
     "technicals": {
-      "ema50": 0.93462,
-      "ema200": 0.9383,
-      "macd": -0.001207,
-      "macd_signal": -0.001,
-      "rsi14": 31.6,
-      "atr14": 0.00087,
-      "atr14_hourly": 0.00429,
-      "bb_position": 0.125
+      "ema50": 0.93369,
+      "ema200": 0.9376,
+      "macd": -0.000246,
+      "macd_signal": -0.000592,
+      "rsi14": 50.6,
+      "atr14": 0.0008,
+      "atr14_hourly": 0.00352,
+      "bb_position": 0.762
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169483
+  "data_bars": 169495
 }
