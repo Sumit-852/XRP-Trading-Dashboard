@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-31T19:01:23.367775+00:00",
+  "timestamp": "2026-07-31T20:01:27.730154+00:00",
   "signal": {
-    "price": 0.924,
+    "price": 0.9213,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3224,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.3483,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.051,
-      "bullish_pct": 30.0,
+      "score": -0.047,
+      "bullish_pct": 28.3,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.113,
-        "crypto_macro": -0.175,
-        "geopolitical": -0.432,
-        "fed_rates": 0.26
+        "xrp": 0.083,
+        "crypto_macro": -0.129,
+        "geopolitical": -0.396,
+        "fed_rates": 0.229
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP breakout odds rise amid utility boost - fxstreet.com",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - fxstr",
+        "XRP breakout odds rise amid utility boost - FXStreet",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
         "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.68,
-      "health": -0.029,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.7,
+      "health": -0.0432,
+      "vol_ratio": 1.25
     },
     "technicals": {
-      "ema50": 0.92475,
-      "ema200": 0.93039,
-      "macd": -0.000165,
-      "macd_signal": 9.4e-05,
-      "rsi14": 48.2,
-      "atr14": 0.00094,
-      "atr14_hourly": 0.00515,
-      "bb_position": 0.306
+      "ema50": 0.9233,
+      "ema200": 0.92932,
+      "macd": -0.000831,
+      "macd_signal": -0.000825,
+      "rsi14": 45.1,
+      "atr14": 0.00101,
+      "atr14_hourly": 0.00464,
+      "bb_position": 0.383
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.087,
+      "percentile": 0.091,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169591
+  "data_bars": 169603
 }
