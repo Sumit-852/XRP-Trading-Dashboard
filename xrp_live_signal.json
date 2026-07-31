@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-07-31T01:01:30.314125+00:00",
+  "timestamp": "2026-07-31T02:01:32.102114+00:00",
   "signal": {
-    "price": 0.9404,
+    "price": 0.9383,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.282,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.388,
+    "hybrid_score": 5.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.036,
-      "bullish_pct": 35.0,
-      "bearish_pct": 25.0,
+      "score": 0.018,
+      "bullish_pct": 31.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.125,
-        "crypto_macro": -0.067,
-        "geopolitical": -0.249,
-        "fed_rates": 0.375
+        "xrp": 0.14,
+        "crypto_macro": -0.168,
+        "geopolitical": -0.188,
+        "fed_rates": 0.344
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge - CoinDesk",
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "Bitcoin, Ethereum Remain Popular Among Institutional Investors, Wintermute Research Reports - Benzinga"
+        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings - CoinDesk"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where Bitcoin Could Go Next - Morningstar",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.36,
-      "health": -0.1649,
-      "vol_ratio": 0.33
+      "up_down_ratio": 1.39,
+      "health": -0.0841,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 0.94108,
-      "ema200": 0.94186,
-      "macd": -0.000701,
-      "macd_signal": -0.000672,
-      "rsi14": 50.0,
-      "atr14": 0.00096,
-      "atr14_hourly": 0.0042,
-      "bb_position": 0.518
+      "ema50": 0.94112,
+      "ema200": 0.94181,
+      "macd": -0.000555,
+      "macd_signal": -0.000101,
+      "rsi14": 40.5,
+      "atr14": 0.00143,
+      "atr14_hourly": 0.00623,
+      "bb_position": 0.238
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.082,
+      "percentile": 0.081,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169375
+  "data_bars": 169387
 }
