@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-01T21:01:17.652219+00:00",
+  "timestamp": "2026-08-01T22:01:27.621210+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.916,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9194,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2472,
+    "hybrid_score": 2.3,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.061,
+      "bullish_pct": 36.7,
+      "bearish_pct": 28.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.272,
+        "crypto_macro": -0.181,
+        "geopolitical": -0.137,
+        "fed_rates": 0.267
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP Price Eyes Breakout as ETF Inflows Jump Ahead of XRPL v3.3.0 Upgrade - Benzinga",
+        "XRP breakout odds rise amid utility boost - FXStreet",
+        "Is XRP the Best Crypto You Can Buy Right Now? - finance.yahoo.com"
+      ],
+      "top_bearish": [
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "Coinbase Swings to Loss on Weak Crypto Market - WSJ",
+        "Robinhood\u2019s Crypto Trading Revenue Plunges 38% - finance.yahoo.com"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.56,
+      "health": -0.0804,
+      "vol_ratio": 0.38
+    },
+    "technicals": {
+      "ema50": 0.91695,
+      "ema200": 0.91976,
+      "macd": 0.001206,
+      "macd_signal": 0.000959,
+      "rsi14": 63.9,
+      "atr14": 0.00086,
+      "atr14_hourly": 0.0046,
+      "bb_position": 0.786
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.011,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169903
+  "data_bars": 169915
 }
