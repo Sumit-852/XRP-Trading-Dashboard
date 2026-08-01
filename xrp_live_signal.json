@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-07-31T23:01:26.833838+00:00",
+  "timestamp": "2026-08-01T00:01:25.341265+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9207,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.921,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2195,
+    "hybrid_score": 3.3,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.044,
+      "bullish_pct": 26.7,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.119,
+        "crypto_macro": -0.194,
+        "geopolitical": -0.371,
+        "fed_rates": 0.255
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP breakout odds rise amid utility boost - FXStreet",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
+        "XRP adds 489K accounts in 2026 \u2013 Inside XRPL\u2019s network surge - AMBCrypto"
+      ],
+      "top_bearish": [
+        "We Gave AI Every XRP Crash Since 2013 and Asked When This One Ends - Yahoo Finance",
+        "Bitcoin and XRP Are Missing From This Key New Crypto Index. Are They Still Worth Buying? - The Motley Fool",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.72,
+      "health": 0.0512,
+      "vol_ratio": 0.98
+    },
+    "technicals": {
+      "ema50": 0.92154,
+      "ema200": 0.92627,
+      "macd": -0.000198,
+      "macd_signal": -0.000134,
+      "rsi14": 48.7,
+      "atr14": 0.00061,
+      "atr14_hourly": 0.00276,
+      "bb_position": 0.391
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.076,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169639
+  "data_bars": 169651
 }
