@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-01T18:01:21.168931+00:00",
+  "timestamp": "2026-08-01T19:01:28.830179+00:00",
   "signal": {
-    "price": 0.9178,
+    "price": 0.9138,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.276,
-    "hybrid_score": 2.4,
+    "xgb_prob": 0.36,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.056,
-      "bullish_pct": 36.7,
+      "score": 0.067,
+      "bullish_pct": 38.3,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.208,
-        "crypto_macro": -0.134,
-        "geopolitical": -0.109,
-        "fed_rates": 0.267
+        "xrp": 0.224,
+        "crypto_macro": -0.107,
+        "geopolitical": -0.102,
+        "fed_rates": 0.236
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP breakout odds rise amid utility boost - FXStreet",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr",
-        "XRP adds 489K accounts in 2026 \u2013 Inside XRPL\u2019s network surge - AMBCrypto"
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC eyes 50-day EMA breakout, ETH consolidates, XRP steadies - FXStr"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Analysts sees Coinbase miss driven by crypto market weakness, not business fundamentals - cnbc.com",
-        "Coinbase Reports Record Share of Global Crypto Trading Volume, But Its Price Still Drops. What Does That Mean For COIN I"
+        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance",
+        "Analysts sees Coinbase miss driven by crypto market weakness, not business fundamentals - CNBC"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.55,
-      "health": -0.0633,
-      "vol_ratio": 0.46
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.52,
+      "health": -0.0703,
+      "vol_ratio": 0.65
     },
     "technicals": {
-      "ema50": 0.92076,
-      "ema200": 0.92228,
-      "macd": -0.001141,
-      "macd_signal": -0.001079,
-      "rsi14": 37.4,
-      "atr14": 0.00081,
-      "atr14_hourly": 0.00353,
-      "bb_position": 0.243
+      "ema50": 0.91868,
+      "ema200": 0.92152,
+      "macd": -0.00191,
+      "macd_signal": -0.00156,
+      "rsi14": 38.2,
+      "atr14": 0.0016,
+      "atr14_hourly": 0.00536,
+      "bb_position": 0.214
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.008,
+      "percentile": 0.013,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169867
+  "data_bars": 169879
 }
