@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-02T12:01:19.476289+00:00",
+  "timestamp": "2026-08-02T13:01:23.420604+00:00",
   "signal": {
-    "price": 0.9361,
+    "price": 0.934,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3245,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.203,
+    "hybrid_score": 3.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.022,
-      "bullish_pct": 38.3,
-      "bearish_pct": 28.3,
+      "score": 0.016,
+      "bullish_pct": 36.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.186,
-        "crypto_macro": -0.195,
-        "geopolitical": -0.179,
+        "xrp": 0.153,
+        "crypto_macro": -0.152,
+        "geopolitical": -0.221,
         "fed_rates": 0.301
       },
       "geo_shock": false,
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Price Eyes Breakout as ETF Inflows Jump Ahead of XRPL v3.3.0 Upgrade - Benzinga",
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
+        "Is XRP the Best Crypto You Can Buy Right Now? - fool.com",
         "XRP adds 489K accounts in 2026 \u2013 Inside XRPL\u2019s network surge - AMBCrypto"
       ],
       "top_bearish": [
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.21,
-      "health": -0.0775,
-      "vol_ratio": 0.07
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.12,
+      "health": -0.1604,
+      "vol_ratio": 0.89
     },
     "technicals": {
-      "ema50": 0.93678,
-      "ema200": 0.93206,
-      "macd": -0.000377,
-      "macd_signal": -0.000266,
-      "rsi14": 46.4,
-      "atr14": 0.00093,
-      "atr14_hourly": 0.00341,
-      "bb_position": 0.364
+      "ema50": 0.93598,
+      "ema200": 0.93237,
+      "macd": -0.000717,
+      "macd_signal": -0.000591,
+      "rsi14": 35.5,
+      "atr14": 0.00077,
+      "atr14_hourly": 0.0033,
+      "bb_position": 0.176
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170083
+  "data_bars": 170095
 }
