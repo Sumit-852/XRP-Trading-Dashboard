@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-02T14:01:23.514475+00:00",
+  "timestamp": "2026-08-02T15:01:23.209897+00:00",
   "signal": {
-    "price": 0.9371,
+    "price": 0.9377,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2224,
+    "xgb_prob": 0.2254,
     "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,28 +11,28 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.014,
-      "bullish_pct": 38.3,
-      "bearish_pct": 33.3,
+      "score": -0.004,
+      "bullish_pct": 40.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.111,
-        "crypto_macro": -0.191,
-        "geopolitical": -0.232,
-        "fed_rates": 0.301
+        "xrp": 0.109,
+        "crypto_macro": -0.233,
+        "geopolitical": -0.16,
+        "fed_rates": 0.367
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "XRP adds 489K accounts in 2026 \u2013 Inside XRPL\u2019s network surge - AMBCrypto",
-        "July\u2019s Biggest Ripple (XRP) Stories: RLUSD Expansion, AI, and Institutional Adoption - CryptoPotato"
+        "July\u2019s Biggest Ripple (XRP) Stories: RLUSD Expansion, AI, and Institutional Adoption - CryptoPotato",
+        "XRP Climbs After SBI Holdings Valued Stake In Ripple At $41.2bn - MarketForces Africa"
       ],
       "top_bearish": [
         "$8.5 million in XRP stolen in fake investment scam - thestreet.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.19,
-      "health": -0.0372,
-      "vol_ratio": 0.24
+      "up_down_ratio": 1.29,
+      "health": 0.0142,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.93612,
-      "ema200": 0.93281,
-      "macd": 0.000317,
-      "macd_signal": 4.3e-05,
-      "rsi14": 57.7,
-      "atr14": 0.00077,
-      "atr14_hourly": 0.00322,
-      "bb_position": 0.828
+      "ema50": 0.93678,
+      "ema200": 0.93338,
+      "macd": 0.000555,
+      "macd_signal": 0.000567,
+      "rsi14": 55.4,
+      "atr14": 0.00068,
+      "atr14_hourly": 0.003,
+      "bb_position": 0.601
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170107
+  "data_bars": 170119
 }
