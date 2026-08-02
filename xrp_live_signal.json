@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-02T07:01:28.192186+00:00",
+  "timestamp": "2026-08-02T08:01:21.499746+00:00",
   "signal": {
-    "price": 0.9384,
+    "price": 0.9393,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3235,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.2976,
+    "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.051,
-      "bullish_pct": 40.0,
+      "score": 0.077,
+      "bullish_pct": 41.7,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.15,
-        "crypto_macro": -0.132,
+        "xrp": 0.172,
+        "crypto_macro": -0.09,
         "geopolitical": -0.069,
-        "fed_rates": 0.323
+        "fed_rates": 0.359
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Analysts Anticipate Massive XRP Rally as CLARITY Act and Institutional Adoption Build Momentum - ZyCrypto",
         "XRP Price Eyes Breakout as ETF Inflows Jump Ahead of XRPL v3.3.0 Upgrade - Benzinga",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "XRP adds 489K accounts in 2026 \u2013 Inside XRPL\u2019s network surge - AMBCrypto"
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
         "$8.5 million in XRP stolen in fake investment scam - thestreet.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.29,
-      "health": 0.6018,
-      "vol_ratio": 1.62
+      "up_down_ratio": 1.28,
+      "health": 0.3635,
+      "vol_ratio": 0.31
     },
     "technicals": {
-      "ema50": 0.93637,
-      "ema200": 0.92785,
-      "macd": 0.000535,
-      "macd_signal": 0.000726,
-      "rsi14": 50.6,
-      "atr14": 0.00085,
-      "atr14_hourly": 0.00387,
-      "bb_position": 0.335
+      "ema50": 0.93754,
+      "ema200": 0.92916,
+      "macd": 0.000392,
+      "macd_signal": 0.000466,
+      "rsi14": 52.4,
+      "atr14": 0.00076,
+      "atr14_hourly": 0.00292,
+      "bb_position": 0.529
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170023
+  "data_bars": 170035
 }
