@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-02T13:01:23.420604+00:00",
+  "timestamp": "2026-08-02T14:01:23.514475+00:00",
   "signal": {
-    "price": 0.934,
+    "price": 0.9371,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.203,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.2224,
+    "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
-      "bullish_pct": 36.7,
-      "bearish_pct": 26.7,
+      "score": -0.014,
+      "bullish_pct": 38.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.153,
-        "crypto_macro": -0.152,
-        "geopolitical": -0.221,
+        "xrp": 0.111,
+        "crypto_macro": -0.191,
+        "geopolitical": -0.232,
         "fed_rates": 0.301
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Is XRP the Best Crypto You Can Buy Right Now? - fool.com",
-        "XRP adds 489K accounts in 2026 \u2013 Inside XRPL\u2019s network surge - AMBCrypto"
+        "XRP adds 489K accounts in 2026 \u2013 Inside XRPL\u2019s network surge - AMBCrypto",
+        "July\u2019s Biggest Ripple (XRP) Stories: RLUSD Expansion, AI, and Institutional Adoption - CryptoPotato"
       ],
       "top_bearish": [
         "$8.5 million in XRP stolen in fake investment scam - thestreet.com",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance"
+        "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges - CoinDesk",
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.12,
-      "health": -0.1604,
-      "vol_ratio": 0.89
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.19,
+      "health": -0.0372,
+      "vol_ratio": 0.24
     },
     "technicals": {
-      "ema50": 0.93598,
-      "ema200": 0.93237,
-      "macd": -0.000717,
-      "macd_signal": -0.000591,
-      "rsi14": 35.5,
+      "ema50": 0.93612,
+      "ema200": 0.93281,
+      "macd": 0.000317,
+      "macd_signal": 4.3e-05,
+      "rsi14": 57.7,
       "atr14": 0.00077,
-      "atr14_hourly": 0.0033,
-      "bb_position": 0.176
+      "atr14_hourly": 0.00322,
+      "bb_position": 0.828
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.049,
+      "percentile": 0.055,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170095
+  "data_bars": 170107
 }
