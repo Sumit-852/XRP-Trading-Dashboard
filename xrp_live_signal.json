@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-02T01:02:22.659916+00:00",
+  "timestamp": "2026-08-02T02:01:25.468384+00:00",
   "signal": {
-    "price": 0.9215,
+    "price": 0.9252,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1924,
-    "hybrid_score": 1.9,
-    "regime": "BEARISH",
+    "xgb_prob": 0.2181,
+    "hybrid_score": 3.3,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.048,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "score": 0.014,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.283,
-        "crypto_macro": -0.224,
-        "geopolitical": -0.137,
-        "fed_rates": 0.236
+        "xrp": 0.202,
+        "crypto_macro": -0.246,
+        "geopolitical": -0.149,
+        "fed_rates": 0.267
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "$8.5 million in XRP stolen in fake investment scam - thestreet.com",
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Coinbase Swings to Loss on Weak Crypto Market - WSJ"
+        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.63,
-      "health": 0.2506,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.79,
+      "health": 0.499,
+      "vol_ratio": 0.47
     },
     "technicals": {
-      "ema50": 0.91969,
-      "ema200": 0.91996,
-      "macd": 0.000451,
-      "macd_signal": 0.000454,
-      "rsi14": 61.3,
-      "atr14": 0.00047,
-      "atr14_hourly": 0.00222,
-      "bb_position": 0.809
+      "ema50": 0.9219,
+      "ema200": 0.92059,
+      "macd": 0.001315,
+      "macd_signal": 0.001346,
+      "rsi14": 64.5,
+      "atr14": 0.00066,
+      "atr14_hourly": 0.00418,
+      "bb_position": 0.67
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.009,
+      "percentile": 0.012,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 169951
+  "data_bars": 169963
 }
