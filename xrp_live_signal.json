@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-03T09:01:23.146534+00:00",
+  "timestamp": "2026-08-03T10:01:31.227750+00:00",
   "signal": {
-    "price": 0.9254,
+    "price": 0.9294,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1832,
-    "hybrid_score": 1.9,
+    "xgb_prob": 0.2223,
+    "hybrid_score": 2.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.046,
+      "score": 0.045,
       "bullish_pct": 38.3,
       "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.242,
-        "crypto_macro": -0.196,
-        "geopolitical": -0.158,
-        "fed_rates": 0.297
+        "xrp": 0.246,
+        "crypto_macro": -0.179,
+        "geopolitical": -0.173,
+        "fed_rates": 0.262
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "The Senate Has 5 Working Days Left on the CLARITY Act: What the Countdown Means for XRP - 24/7 Wall St.",
-        "How High Will XRP Price Go if the CLARITY Act Passes in 2026? - Coinpedia Fintech News"
+        "The Senate Has 5 Working Days Left on the CLARITY Act: What the Countdown Means for XRP - 247wallst.com",
+        "Can XRP stay above KEY support after Ripple\u2019s $1.06B token unlock? - ambcrypto.com"
       ],
       "top_bearish": [
         "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges - CoinDesk",
-        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance",
-        "Coinbase Swings to Loss on Weak Crypto Market - WSJ"
+        "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market - CoinDesk",
+        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.73,
-      "health": -0.1319,
-      "vol_ratio": 0.05
+      "health": -0.1295,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.9263,
-      "ema200": 0.93108,
-      "macd": -0.000537,
-      "macd_signal": -0.000777,
-      "rsi14": 51.6,
-      "atr14": 0.00075,
-      "atr14_hourly": 0.00376,
-      "bb_position": 0.607
+      "ema50": 0.92642,
+      "ema200": 0.93056,
+      "macd": 0.000701,
+      "macd_signal": 0.000183,
+      "rsi14": 72.2,
+      "atr14": 0.00076,
+      "atr14_hourly": 0.00389,
+      "bb_position": 1.028
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.018,
+      "percentile": 0.017,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170335
+  "data_bars": 170347
 }
