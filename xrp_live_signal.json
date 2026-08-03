@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-03T19:01:28.126283+00:00",
+  "timestamp": "2026-08-03T20:01:22.145386+00:00",
   "signal": {
-    "price": 0.9393,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9376,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2903,
-    "hybrid_score": 3.8,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.069,
-      "bullish_pct": 41.7,
-      "bearish_pct": 23.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.223,
-        "crypto_macro": -0.073,
-        "geopolitical": -0.179,
-        "fed_rates": 0.281
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Could XRP Benefit if the Fed Pivots Again? One Macro Strategist Says Yes - Benzinga",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Robinhood wins UK crypto registration ahead of new regulatory regime commencing - CoinDesk"
-      ],
-      "top_bearish": [
-        "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges - CoinDesk",
-        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance",
-        "Analysts sees Coinbase miss driven by crypto market weakness, not business fundamentals - CNBC"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.9,
-      "health": 0.0838,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.93824,
-      "ema200": 0.93345,
-      "macd": -6.1e-05,
-      "macd_signal": 4.1e-05,
-      "rsi14": 50.0,
-      "atr14": 0.00093,
-      "atr14_hourly": 0.00421,
-      "bb_position": 0.44
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.089,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170455
+  "data_bars": 170467
 }
