@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-03T16:01:35.980497+00:00",
+  "timestamp": "2026-08-03T17:01:25.774210+00:00",
   "signal": {
-    "price": 0.9404,
+    "price": 0.9389,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3282,
+    "xgb_prob": 0.3334,
     "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.041,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "score": 0.066,
+      "bullish_pct": 41.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.242,
-        "crypto_macro": -0.188,
-        "geopolitical": -0.208,
-        "fed_rates": 0.311
+        "xrp": 0.288,
+        "crypto_macro": -0.15,
+        "geopolitical": -0.202,
+        "fed_rates": 0.281
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Could XRP Benefit if the Fed Pivots Again? One Macro Strategist Says Yes - Benzinga",
         "XRPL Gains Major Boost From Ripple Following Investments in ZILO and Licuido - U.Today",
-        "Is XRP the Best Crypto You Can Buy Right Now? - finance.yahoo.com",
-        "Crypto Today: BTC, ETH, XRP correct as ETF flows diverge - FXStreet"
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
         "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges - CoinDesk",
-        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - finance.yahoo.com",
+        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance",
         "Analysts sees Coinbase miss driven by crypto market weakness, not business fundamentals - CNBC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": 0.2309,
-      "vol_ratio": 0.05
+      "up_down_ratio": 1.0,
+      "health": 0.351,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.93398,
-      "ema200": 0.93076,
-      "macd": 0.002754,
-      "macd_signal": 0.003023,
-      "rsi14": 62.0,
-      "atr14": 0.00175,
-      "atr14_hourly": 0.008,
-      "bb_position": 0.631
+      "ema50": 0.93619,
+      "ema200": 0.93179,
+      "macd": 0.000736,
+      "macd_signal": 0.001365,
+      "rsi14": 50.8,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.00656,
+      "bb_position": 0.235
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.064,
+      "percentile": 0.076,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170419
+  "data_bars": 170431
 }
