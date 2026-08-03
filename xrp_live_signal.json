@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-03T06:01:29.744336+00:00",
+  "timestamp": "2026-08-03T07:01:22.937574+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9287,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.925,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2832,
+    "hybrid_score": 2.5,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.072,
+      "bullish_pct": 41.7,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.338,
+        "crypto_macro": -0.199,
+        "geopolitical": -0.203,
+        "fed_rates": 0.293
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Gain After Trump Holds Off Iran Strikes: Analyst Sees 'Strong and Vital - Benzinga",
+        "Bitcoin, Ethereum, XRP, Dogecoin Gain After Trump Holds Off Iran Strikes: Analyst Sees 'Strong and Vital Move' by BTC if",
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance"
+      ],
+      "top_bearish": [
+        "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges - CoinDesk",
+        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance",
+        "Coinbase Swings to Loss on Weak Crypto Market - WSJ"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.75,
+      "health": -0.073,
+      "vol_ratio": 0.59
+    },
+    "technicals": {
+      "ema50": 0.92874,
+      "ema200": 0.93276,
+      "macd": -0.000778,
+      "macd_signal": -0.000537,
+      "rsi14": 30.1,
+      "atr14": 0.00069,
+      "atr14_hourly": 0.00285,
+      "bb_position": -0.073
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.019,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170299
+  "data_bars": 170311
 }
