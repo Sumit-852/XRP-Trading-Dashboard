@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-02T23:01:25.623337+00:00",
+  "timestamp": "2026-08-03T00:01:28.990126+00:00",
   "signal": {
-    "price": 0.9393,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9416,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2716,
-    "hybrid_score": 3.6,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.007,
-      "bullish_pct": 36.7,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.062,
-        "crypto_macro": -0.124,
-        "geopolitical": -0.196,
-        "fed_rates": 0.293
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "The Senate Has 5 Working Days Left on the CLARITY Act: What the Countdown Means for XRP - 24/7 Wall St.",
-        "FET Crypto Price Prediction: Can Artificial Superintelligence Alliance Surge 300% by the End of 2026? - Bitcoin Foundati"
-      ],
-      "top_bearish": [
-        "$8.5 million in XRP stolen in fake investment scam - thestreet.com",
-        "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges - CoinDesk",
-        "Coinbase stock sinks as weak crypto market leads to another quarterly loss - Yahoo Finance"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.93,
-      "health": -0.3357,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.93919,
-      "ema200": 0.93637,
-      "macd": 0.000544,
-      "macd_signal": 0.000941,
-      "rsi14": 45.9,
-      "atr14": 0.00108,
-      "atr14_hourly": 0.00538,
-      "bb_position": 0.218
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.033,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170215
+  "data_bars": 170227
 }
