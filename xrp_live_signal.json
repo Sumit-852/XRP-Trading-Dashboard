@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-03T01:01:16.736662+00:00",
+  "timestamp": "2026-08-03T02:01:18.929499+00:00",
   "signal": {
-    "price": 0.9351,
+    "price": 0.932,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.238,
-    "hybrid_score": 3.4,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3164,
+    "hybrid_score": 2.7,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.001,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "score": 0.056,
+      "bullish_pct": 40.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.083,
-        "crypto_macro": -0.149,
-        "geopolitical": -0.155,
+        "xrp": 0.177,
+        "crypto_macro": -0.099,
+        "geopolitical": -0.127,
         "fed_rates": 0.293
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "The Senate Has 5 Working Days Left on the CLARITY Act: What the Countdown Means for XRP - 24/7 Wall St.",
-        "FET Crypto Price Prediction: Can Artificial Superintelligence Alliance Surge 300% by the End of 2026? - Bitcoin Foundati"
+        "Bitcoin, Ethereum, XRP, Dogecoin Gain After Trump Holds Off Iran Strikes: Analyst Sees 'Strong and Vital - Benzinga",
+        "XRP extends the longest active ETF inflow streak in crypto as rival funds struggle for fresh cash - Cryptonews.net",
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
         "$8.5 million in XRP stolen in fake investment scam - thestreet.com",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.93,
-      "health": -0.218,
-      "vol_ratio": 0.23
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.81,
+      "health": -0.2127,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.93802,
-      "ema200": 0.93663,
-      "macd": -0.001137,
-      "macd_signal": -0.000851,
-      "rsi14": 37.5,
-      "atr14": 0.001,
-      "atr14_hourly": 0.00561,
-      "bb_position": 0.182
+      "ema50": 0.93594,
+      "ema200": 0.93617,
+      "macd": -0.001602,
+      "macd_signal": -0.001567,
+      "rsi14": 33.4,
+      "atr14": 0.00091,
+      "atr14_hourly": 0.00523,
+      "bb_position": 0.233
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.037,
+      "percentile": 0.038,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170239
+  "data_bars": 170251
 }
