@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-04T18:01:33.129126+00:00",
+  "timestamp": "2026-08-04T19:01:22.561344+00:00",
   "signal": {
-    "price": 0.9315,
+    "price": 0.9337,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3049,
-    "hybrid_score": 3.9,
-    "regime": "BEARISH",
+    "xgb_prob": 0.2373,
+    "hybrid_score": 3.4,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.047,
-      "bullish_pct": 33.3,
-      "bearish_pct": 26.7,
+      "score": 0.006,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.225,
-        "crypto_macro": -0.006,
-        "geopolitical": -0.31,
-        "fed_rates": 0.155
+        "xrp": 0.201,
+        "crypto_macro": -0.089,
+        "geopolitical": -0.364,
+        "fed_rates": 0.171
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
         "Got $100? This Is the Best Crypto ETF to Buy Right Now - The Motley Fool",
-        "Can You Stake XRP (Ripple) and Earn Rewards? - 247wallst.com"
+        "XRP Could Rally 53% if This Key Level is Held, Crypto Analyst Says: 'Everything Comes Down To...' - Yahoo Finance"
       ],
       "top_bearish": [
         "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
         "Coinbase Swings to Loss on Weak Crypto Market - WSJ",
-        "U.S., Iran Trade Conflicting Claims Over Talks as Hormuz Tensions Persist - Haaretz"
+        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.88,
-      "health": -0.1016,
-      "vol_ratio": 0.79
+      "health": -0.0142,
+      "vol_ratio": 0.27
     },
     "technicals": {
-      "ema50": 0.93298,
-      "ema200": 0.93331,
-      "macd": -0.000268,
-      "macd_signal": 2.4e-05,
-      "rsi14": 41.5,
-      "atr14": 0.00102,
-      "atr14_hourly": 0.00449,
-      "bb_position": 0.129
+      "ema50": 0.93358,
+      "ema200": 0.93346,
+      "macd": 0.00017,
+      "macd_signal": 0.000287,
+      "rsi14": 49.0,
+      "atr14": 0.00094,
+      "atr14_hourly": 0.005,
+      "bb_position": 0.451
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170731
+  "data_bars": 170743
 }
