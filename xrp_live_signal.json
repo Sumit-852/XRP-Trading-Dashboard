@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-04T20:01:29.574025+00:00",
+  "timestamp": "2026-08-04T21:01:26.100846+00:00",
   "signal": {
-    "price": 0.936,
+    "price": 0.9341,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2789,
+    "xgb_prob": 0.2853,
     "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.01,
+      "score": 0.025,
       "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.236,
-        "crypto_macro": -0.101,
-        "geopolitical": -0.413,
-        "fed_rates": 0.196
+        "xrp": 0.245,
+        "crypto_macro": -0.103,
+        "geopolitical": -0.328,
+        "fed_rates": 0.174
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Ripple eyes \u2018major steps\u2019 across DeFi, RLUSD, and XRPL \u2013 Will this help XRP in Q3? - ambcrypto.com",
+        "Ripple eyes \u2018major steps\u2019 across DeFi, RLUSD, and XRPL \u2013 Will this help XRP in Q3? - AMBCrypto",
         "Can You Stake XRP (Ripple) and Earn Rewards? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - coindesk.com",
+        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
         "Coinbase Swings to Loss on Weak Crypto Market - WSJ",
-        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - coindesk.com"
+        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": -0.006,
-      "vol_ratio": 0.12
+      "up_down_ratio": 0.97,
+      "health": 0.0257,
+      "vol_ratio": 0.4
     },
     "technicals": {
-      "ema50": 0.93419,
-      "ema200": 0.93364,
-      "macd": 0.00061,
-      "macd_signal": 0.000439,
-      "rsi14": 58.9,
-      "atr14": 0.00109,
-      "atr14_hourly": 0.00464,
-      "bb_position": 0.759
+      "ema50": 0.93411,
+      "ema200": 0.93368,
+      "macd": -0.0,
+      "macd_signal": 3.5e-05,
+      "rsi14": 48.9,
+      "atr14": 0.00107,
+      "atr14_hourly": 0.00573,
+      "bb_position": 0.402
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.046,
+      "percentile": 0.057,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170755
+  "data_bars": 170767
 }
