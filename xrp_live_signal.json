@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-04T14:01:37.621801+00:00",
+  "timestamp": "2026-08-04T15:01:40.776276+00:00",
   "signal": {
-    "price": 0.9292,
+    "price": 0.9332,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2969,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.305,
+    "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.043,
-      "bullish_pct": 33.3,
-      "bearish_pct": 23.3,
+      "sentiment": "BULLISH",
+      "score": 0.104,
+      "bullish_pct": 41.7,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.182,
-        "crypto_macro": -0.018,
-        "geopolitical": -0.336,
+        "xrp": 0.275,
+        "crypto_macro": 0.047,
+        "geopolitical": -0.296,
         "fed_rates": 0.294
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Google Search Crowns XRP the World Bridge Currency With Macro Breakout in Sight - coinpaper.com",
-        "XRP Could Rally 53% if This Key Level is Held, Crypto Analyst Says: 'Everything Comes Down To...' - Benzinga"
+        "Search interest surges for Bitcoin, altcoins \u2013 Even as the crypto market bleeds - AMBCrypto",
+        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - dmarketforces.com"
       ],
       "top_bearish": [
         "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.83,
-      "health": -0.2889,
-      "vol_ratio": 3.97
+      "up_down_ratio": 0.98,
+      "health": -0.0306,
+      "vol_ratio": 0.27
     },
     "technicals": {
-      "ema50": 0.93312,
-      "ema200": 0.93362,
-      "macd": -0.000675,
-      "macd_signal": -5.3e-05,
-      "rsi14": 30.3,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00414,
-      "bb_position": -0.12
+      "ema50": 0.93249,
+      "ema200": 0.93337,
+      "macd": -0.000154,
+      "macd_signal": -0.00051,
+      "rsi14": 55.9,
+      "atr14": 0.0012,
+      "atr14_hourly": 0.00546,
+      "bb_position": 0.69
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.086,
+      "percentile": 0.052,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170683
+  "data_bars": 170695
 }
