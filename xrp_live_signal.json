@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-04T00:01:25.128011+00:00",
+  "timestamp": "2026-08-04T01:01:27.938364+00:00",
   "signal": {
-    "price": 0.9335,
+    "price": 0.9295,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.197,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.2762,
+    "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.036,
-      "bullish_pct": 38.3,
-      "bearish_pct": 28.3,
+      "score": 0.042,
+      "bullish_pct": 40.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.209,
-        "crypto_macro": -0.179,
-        "geopolitical": -0.187,
+        "xrp": 0.142,
+        "crypto_macro": -0.117,
+        "geopolitical": -0.118,
         "fed_rates": 0.311
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Could XRP Benefit if the Fed Pivots Again? One Macro Strategist Says Yes - Benzinga",
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Is XRP the Best Crypto You Can Buy Right Now? - AOL.com"
+        "Is XRP the Best Crypto You Can Buy Right Now? - AOL.com",
+        "Can XRP stay above KEY support after Ripple\u2019s $1.06B token unlock? - AMBCrypto"
       ],
       "top_bearish": [
         "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges - CoinDesk",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.93,
-      "health": 0.0362,
-      "vol_ratio": 0.07
+      "health": 0.1291,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.93556,
-      "ema200": 0.93478,
-      "macd": -0.000771,
-      "macd_signal": -0.001015,
-      "rsi14": 42.7,
-      "atr14": 0.00064,
-      "atr14_hourly": 0.00336,
-      "bb_position": 0.482
+      "ema50": 0.93382,
+      "ema200": 0.93437,
+      "macd": -0.001406,
+      "macd_signal": -0.001184,
+      "rsi14": 29.3,
+      "atr14": 0.00073,
+      "atr14_hourly": 0.00407,
+      "bb_position": 0.15
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.093,
+      "percentile": 0.089,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170515
+  "data_bars": 170527
 }
