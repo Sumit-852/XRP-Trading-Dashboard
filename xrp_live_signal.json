@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-04T15:01:40.776276+00:00",
+  "timestamp": "2026-08-04T16:01:29.013618+00:00",
   "signal": {
-    "price": 0.9332,
+    "price": 0.9341,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.305,
+    "xgb_prob": 0.3052,
     "hybrid_score": 3.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.104,
-      "bullish_pct": 41.7,
-      "bearish_pct": 21.7,
+      "sentiment": "NEUTRAL",
+      "score": 0.071,
+      "bullish_pct": 40.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.275,
-        "crypto_macro": 0.047,
-        "geopolitical": -0.296,
+        "xrp": 0.279,
+        "crypto_macro": -0.069,
+        "geopolitical": -0.299,
         "fed_rates": 0.294
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Search interest surges for Bitcoin, altcoins \u2013 Even as the crypto market bleeds - AMBCrypto",
-        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - dmarketforces.com"
+        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - dmarketforces.com",
+        "Got $100? This Is the Best Crypto ETF to Buy Right Now - The Motley Fool"
       ],
       "top_bearish": [
         "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "U.S., Iran Trade Conflicting Claims Over Talks as Hormuz Tensions Persist - Haaretz",
-        "India pharma sector to miss 2030 sales target amid tariff and shipping woes, trade body says - WTVB"
+        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - CoinDesk",
+        "U.S., Iran Trade Conflicting Claims Over Talks as Hormuz Tensions Persist - Haaretz"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": -0.0306,
-      "vol_ratio": 0.27
+      "up_down_ratio": 0.95,
+      "health": -0.1116,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.93249,
-      "ema200": 0.93337,
-      "macd": -0.000154,
-      "macd_signal": -0.00051,
-      "rsi14": 55.9,
-      "atr14": 0.0012,
-      "atr14_hourly": 0.00546,
-      "bb_position": 0.69
+      "ema50": 0.93285,
+      "ema200": 0.93336,
+      "macd": 0.000571,
+      "macd_signal": 0.000255,
+      "rsi14": 55.1,
+      "atr14": 0.00126,
+      "atr14_hourly": 0.00533,
+      "bb_position": 0.708
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.052,
+      "percentile": 0.051,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170695
+  "data_bars": 170707
 }
