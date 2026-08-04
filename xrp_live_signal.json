@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-04T21:01:26.100846+00:00",
+  "timestamp": "2026-08-04T22:01:19.646446+00:00",
   "signal": {
-    "price": 0.9341,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9322,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2853,
-    "hybrid_score": 3.7,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.025,
-      "bullish_pct": 30.0,
-      "bearish_pct": 28.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.245,
-        "crypto_macro": -0.103,
-        "geopolitical": -0.328,
-        "fed_rates": 0.174
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Ripple eyes \u2018major steps\u2019 across DeFi, RLUSD, and XRPL \u2013 Will this help XRP in Q3? - AMBCrypto",
-        "Can You Stake XRP (Ripple) and Earn Rewards? - 24/7 Wall St."
-      ],
-      "top_bearish": [
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "Coinbase Swings to Loss on Weak Crypto Market - WSJ",
-        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - CoinDesk"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": 0.0257,
-      "vol_ratio": 0.4
-    },
-    "technicals": {
-      "ema50": 0.93411,
-      "ema200": 0.93368,
-      "macd": -0.0,
-      "macd_signal": 3.5e-05,
-      "rsi14": 48.9,
-      "atr14": 0.00107,
-      "atr14_hourly": 0.00573,
-      "bb_position": 0.402
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.057,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170767
+  "data_bars": 170779
 }
