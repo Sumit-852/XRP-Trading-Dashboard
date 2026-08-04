@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-04T11:01:26.130861+00:00",
+  "timestamp": "2026-08-04T12:01:32.738153+00:00",
   "signal": {
-    "price": 0.9327,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9348,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2558,
-    "hybrid_score": 3.6,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.048,
-      "bullish_pct": 38.3,
-      "bearish_pct": 25.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.183,
-        "crypto_macro": -0.093,
-        "geopolitical": -0.218,
-        "fed_rates": 0.323
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRPL Gains Major Boost From Ripple Following Investments in ZILO and Licuido - U.Today",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "XRP Could Rally 53% if This Key Level is Held, Crypto Analyst Says: 'Everything Comes Down To...' - Benzinga"
-      ],
-      "top_bearish": [
-        "Bitcoin rises toward $64,000 as Coldcard exploit, Strategy sales recede. ADA advances - coindesk.com",
-        "U.S., Iran Trade Conflicting Claims Over Talks as Hormuz Tensions Persist - Haaretz",
-        "Trump is determined to pursue his trade war \u2013 and he may be difficult to stop - The Guardian"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": -0.0424,
-      "vol_ratio": 0.15
-    },
-    "technicals": {
-      "ema50": 0.93236,
-      "ema200": 0.9337,
-      "macd": -6.8e-05,
-      "macd_signal": -0.000456,
-      "rsi14": 56.7,
-      "atr14": 0.00075,
-      "atr14_hourly": 0.00345,
-      "bb_position": 0.774
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.097,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170647
+  "data_bars": 170659
 }
