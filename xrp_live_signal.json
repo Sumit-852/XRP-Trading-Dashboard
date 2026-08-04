@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-04T08:01:33.163108+00:00",
+  "timestamp": "2026-08-04T09:01:34.369525+00:00",
   "signal": {
-    "price": 0.9367,
+    "price": 0.9328,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2404,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.2324,
+    "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.081,
-      "bullish_pct": 43.3,
-      "bearish_pct": 21.7,
+      "score": 0.062,
+      "bullish_pct": 40.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.195,
-        "crypto_macro": -0.069,
-        "geopolitical": -0.122,
+        "xrp": 0.205,
+        "crypto_macro": -0.086,
+        "geopolitical": -0.217,
         "fed_rates": 0.35
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRPL Gains Major Boost From Ripple Following Investments in ZILO and Licuido - U.Today",
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Crypto Today: BTC, ETH, XRP correct as ETF flows diverge - FXStreet",
-        "Can XRP stay above KEY support after Ripple\u2019s $1.06B token unlock? - AMBCrypto"
+        "Crypto Today: BTC, ETH, XRP correct as ETF flows diverge - FXStreet"
       ],
       "top_bearish": [
+        "At least 27 killed as Russia and Ukraine trade heavy attacks - Al Jazeera",
         "Trump is determined to pursue his trade war \u2013 and he may be difficult to stop - The Guardian",
-        "XRP Price to $0.18? Bearish Warnings Grow Despite Ripple\u2019s 1B Unlock and SBI Support - CCN.com",
-        "DEXs capture record 24% of spot crypto trading as CEX volumes sink - The Block"
+        "XRP Price to $0.18? Bearish Warnings Grow Despite Ripple\u2019s 1B Unlock and SBI Support - CCN.com"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.22,
-      "health": 0.099,
-      "vol_ratio": 1.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.14,
+      "health": -0.0041,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.93414,
-      "ema200": 0.93442,
-      "macd": 0.000286,
-      "macd_signal": -0.000287,
-      "rsi14": 66.7,
-      "atr14": 0.00086,
-      "atr14_hourly": 0.00405,
-      "bb_position": 1.087
+      "ema50": 0.93385,
+      "ema200": 0.93431,
+      "macd": -0.000221,
+      "macd_signal": -0.000107,
+      "rsi14": 44.3,
+      "atr14": 0.00071,
+      "atr14_hourly": 0.00452,
+      "bb_position": 0.261
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.096,
+      "percentile": 0.095,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170611
+  "data_bars": 170623
 }
