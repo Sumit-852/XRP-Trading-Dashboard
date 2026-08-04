@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-04T19:01:22.561344+00:00",
+  "timestamp": "2026-08-04T20:01:29.574025+00:00",
   "signal": {
-    "price": 0.9337,
+    "price": 0.936,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2373,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.2789,
+    "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.006,
+      "score": 0.01,
       "bullish_pct": 30.0,
-      "bearish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.201,
-        "crypto_macro": -0.089,
-        "geopolitical": -0.364,
-        "fed_rates": 0.171
+        "xrp": 0.236,
+        "crypto_macro": -0.101,
+        "geopolitical": -0.413,
+        "fed_rates": 0.196
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Got $100? This Is the Best Crypto ETF to Buy Right Now - The Motley Fool",
-        "XRP Could Rally 53% if This Key Level is Held, Crypto Analyst Says: 'Everything Comes Down To...' - Yahoo Finance"
+        "Ripple eyes \u2018major steps\u2019 across DeFi, RLUSD, and XRPL \u2013 Will this help XRP in Q3? - ambcrypto.com",
+        "Can You Stake XRP (Ripple) and Earn Rewards? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
+        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - coindesk.com",
         "Coinbase Swings to Loss on Weak Crypto Market - WSJ",
-        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - CoinDesk"
+        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - coindesk.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": -0.0142,
-      "vol_ratio": 0.27
+      "up_down_ratio": 0.98,
+      "health": -0.006,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.93358,
-      "ema200": 0.93346,
-      "macd": 0.00017,
-      "macd_signal": 0.000287,
-      "rsi14": 49.0,
-      "atr14": 0.00094,
-      "atr14_hourly": 0.005,
-      "bb_position": 0.451
+      "ema50": 0.93419,
+      "ema200": 0.93364,
+      "macd": 0.00061,
+      "macd_signal": 0.000439,
+      "rsi14": 58.9,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00464,
+      "bb_position": 0.759
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.042,
+      "percentile": 0.046,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170743
+  "data_bars": 170755
 }
