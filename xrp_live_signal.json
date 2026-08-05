@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T16:01:29.949936+00:00",
+  "timestamp": "2026-08-05T17:01:36.805064+00:00",
   "signal": {
-    "price": 0.9177,
+    "price": 0.9231,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3735,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.3061,
+    "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.027,
-      "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
+      "score": 0.092,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.104,
-        "crypto_macro": 0.076,
-        "geopolitical": -0.256,
-        "fed_rates": 0.088
+        "xrp": 0.264,
+        "crypto_macro": 0.048,
+        "geopolitical": -0.237,
+        "fed_rates": 0.162
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Ledger Notes 25% RWA Holders Surge as Ripple Pushes for More Adoption - U.Today",
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet",
-        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - MarketForces Africa"
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
       ],
       "top_bearish": [
-        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
-        "3 Major Exchanges Turn Negative in XRP Wallet Metric: Coinbase Leads at -10.9K - The Crypto Basic",
-        "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk"
+        "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk",
+        "Strait of Hormuz disruption hits energy, fertilizer and industrial trade - UN News",
+        "Where Will Bitcoin Be in 3 Years? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.67,
-      "health": -0.0182,
-      "vol_ratio": 0.09
+      "up_down_ratio": 0.71,
+      "health": 0.0306,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.92003,
-      "ema200": 0.92364,
-      "macd": -9e-05,
-      "macd_signal": 0.000306,
-      "rsi14": 40.0,
-      "atr14": 0.00141,
-      "atr14_hourly": 0.00589,
-      "bb_position": 0.121
+      "ema50": 0.92118,
+      "ema200": 0.92357,
+      "macd": 0.000924,
+      "macd_signal": 0.000824,
+      "rsi14": 56.5,
+      "atr14": 0.00117,
+      "atr14_hourly": 0.00633,
+      "bb_position": 0.652
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.06,
+      "percentile": 0.062,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170995
+  "data_bars": 171007
 }
