@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-05T04:01:18.528195+00:00",
+  "timestamp": "2026-08-05T05:01:25.449692+00:00",
   "signal": {
+    "action": "HOLD",
+    "reason": "NaN features",
     "price": 0.9246,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2809,
-    "hybrid_score": 2.5,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "BULLISH",
-      "score": 0.102,
-      "bullish_pct": 36.7,
-      "bearish_pct": 21.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.278,
-        "crypto_macro": 0.089,
-        "geopolitical": -0.334,
-        "fed_rates": 0.234
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Iran Deal Hopes: Analyst Says 'Most of the Pain' of the - Benzinga",
-        "Search interest surges for Bitcoin, altcoins \u2013 Even as the crypto market bleeds - AMBCrypto"
-      ],
-      "top_bearish": [
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "Strait Talk: OFAC Designates IRGC-Linked \"Transit Insurance\" Schemes in Strait of Hormuz | Insights - Holland & Knight",
-        "U.S., Iran Trade Conflicting Claims Over Talks as Hormuz Tensions Persist - Haaretz"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": -0.0981,
-      "vol_ratio": 0.01
-    },
-    "technicals": {
-      "ema50": 0.92845,
-      "ema200": 0.93141,
-      "macd": -0.001462,
-      "macd_signal": -0.00123,
-      "rsi14": 34.7,
-      "atr14": 0.00087,
-      "atr14_hourly": 0.00641,
-      "bb_position": 0.276
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.057,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170851
+  "data_bars": 170863
 }
