@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T18:01:21.364540+00:00",
+  "timestamp": "2026-08-05T19:01:31.337895+00:00",
   "signal": {
-    "price": 0.9249,
+    "price": 0.924,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2901,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.2545,
+    "hybrid_score": 2.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.12,
-      "bullish_pct": 36.7,
-      "bearish_pct": 26.7,
+      "sentiment": "NEUTRAL",
+      "score": 0.069,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.322,
-        "crypto_macro": 0.081,
-        "geopolitical": -0.256,
-        "fed_rates": 0.161
+        "xrp": 0.23,
+        "crypto_macro": 0.049,
+        "geopolitical": -0.272,
+        "fed_rates": 0.135
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
-        "XRP Ledger Notes 25% RWA Holders Surge as Ripple Pushes for More Adoption - U.Today",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance"
+        "Is XRP the Best Crypto You Can Buy Right Now? - finance.yahoo.com",
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
       ],
       "top_bearish": [
+        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
         "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk",
-        "Strait of Hormuz disruption hits energy, fertilizer and industrial trade - UN News",
-        "Where Will Bitcoin Be in 3 Years? - The Motley Fool"
+        "Wall Street just killed its first spot Bitcoin ETF and for a known reason - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": 0.2232,
-      "vol_ratio": 0.08
+      "up_down_ratio": 0.73,
+      "health": 0.2262,
+      "vol_ratio": 0.2
     },
     "technicals": {
-      "ema50": 0.92258,
-      "ema200": 0.92371,
-      "macd": 0.001021,
-      "macd_signal": 0.001035,
-      "rsi14": 57.6,
-      "atr14": 0.00115,
-      "atr14_hourly": 0.00495,
-      "bb_position": 0.641
+      "ema50": 0.92344,
+      "ema200": 0.92384,
+      "macd": 0.000335,
+      "macd_signal": 0.0006,
+      "rsi14": 47.7,
+      "atr14": 0.00099,
+      "atr14_hourly": 0.00429,
+      "bb_position": 0.198
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.063,
+      "percentile": 0.062,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171019
+  "data_bars": 171031
 }
