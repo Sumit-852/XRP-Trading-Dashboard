@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T06:01:17.759710+00:00",
+  "timestamp": "2026-08-05T07:01:26.437771+00:00",
   "signal": {
-    "price": 0.9269,
+    "price": 0.9251,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1916,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.2437,
+    "hybrid_score": 2.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.061,
-      "bullish_pct": 33.3,
-      "bearish_pct": 28.3,
+      "score": 0.048,
+      "bullish_pct": 30.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.213,
+        "xrp": 0.186,
         "crypto_macro": 0.035,
-        "geopolitical": -0.331,
-        "fed_rates": 0.224
+        "geopolitical": -0.318,
+        "fed_rates": 0.185
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Iran Deal Hopes: Analyst Says 'Most of the Pain' of the - benzinga.com",
+        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Iran Deal Hopes: Analyst Says 'Most of the Pain' of the - Benzinga",
         "Search interest surges for Bitcoin, altcoins \u2013 Even as the crypto market bleeds - AMBCrypto"
       ],
       "top_bearish": [
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": -0.0531,
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.83,
+      "health": -0.1125,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.92705,
-      "ema200": 0.93024,
-      "macd": 0.000331,
-      "macd_signal": 0.00016,
-      "rsi14": 53.1,
-      "atr14": 0.00059,
-      "atr14_hourly": 0.00414,
-      "bb_position": 0.633
+      "ema50": 0.92662,
+      "ema200": 0.92976,
+      "macd": -0.000257,
+      "macd_signal": -5.6e-05,
+      "rsi14": 38.5,
+      "atr14": 0.0005,
+      "atr14_hourly": 0.00315,
+      "bb_position": 0.116
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.053,
+      "percentile": 0.051,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170875
+  "data_bars": 170887
 }
