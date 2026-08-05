@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-05T09:01:23.152673+00:00",
+  "timestamp": "2026-08-05T10:01:29.043566+00:00",
   "signal": {
-    "price": 0.9231,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9222,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2504,
-    "hybrid_score": 2.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.063,
-      "bullish_pct": 31.7,
-      "bearish_pct": 26.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.225,
-        "crypto_macro": 0.021,
-        "geopolitical": -0.324,
-        "fed_rates": 0.224
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Iran Deal Hopes: Analyst Says 'Most of the Pain' of the - Benzinga",
-        "Search interest surges for Bitcoin, altcoins \u2013 Even as the crypto market bleeds - AMBCrypto"
-      ],
-      "top_bearish": [
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - CoinDesk",
-        "U.S., Iran Trade Conflicting Claims Over Talks as Hormuz Tensions Persist - Haaretz"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.73,
-      "health": -0.1431,
-      "vol_ratio": 0.03
-    },
-    "technicals": {
-      "ema50": 0.92461,
-      "ema200": 0.92839,
-      "macd": -0.000413,
-      "macd_signal": -0.000466,
-      "rsi14": 42.6,
-      "atr14": 0.00051,
-      "atr14_hourly": 0.00282,
-      "bb_position": 0.391
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.046,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170911
+  "data_bars": 170923
 }
