@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T17:01:36.805064+00:00",
+  "timestamp": "2026-08-05T18:01:21.364540+00:00",
   "signal": {
-    "price": 0.9231,
+    "price": 0.9249,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3061,
-    "hybrid_score": 2.7,
+    "xgb_prob": 0.2901,
+    "hybrid_score": 2.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.092,
-      "bullish_pct": 33.3,
+      "sentiment": "BULLISH",
+      "score": 0.12,
+      "bullish_pct": 36.7,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.264,
-        "crypto_macro": 0.048,
-        "geopolitical": -0.237,
-        "fed_rates": 0.162
+        "xrp": 0.322,
+        "crypto_macro": 0.081,
+        "geopolitical": -0.256,
+        "fed_rates": 0.161
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
         "XRP Ledger Notes 25% RWA Holders Surge as Ripple Pushes for More Adoption - U.Today",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
         "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.71,
-      "health": 0.0306,
-      "vol_ratio": 0.11
+      "up_down_ratio": 0.75,
+      "health": 0.2232,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.92118,
-      "ema200": 0.92357,
-      "macd": 0.000924,
-      "macd_signal": 0.000824,
-      "rsi14": 56.5,
-      "atr14": 0.00117,
-      "atr14_hourly": 0.00633,
-      "bb_position": 0.652
+      "ema50": 0.92258,
+      "ema200": 0.92371,
+      "macd": 0.001021,
+      "macd_signal": 0.001035,
+      "rsi14": 57.6,
+      "atr14": 0.00115,
+      "atr14_hourly": 0.00495,
+      "bb_position": 0.641
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.062,
+      "percentile": 0.063,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171007
+  "data_bars": 171019
 }
