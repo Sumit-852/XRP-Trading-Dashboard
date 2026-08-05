@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T14:01:38.266723+00:00",
+  "timestamp": "2026-08-05T15:01:31.896289+00:00",
   "signal": {
-    "price": 0.9187,
+    "price": 0.9214,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2541,
-    "hybrid_score": 2.4,
+    "xgb_prob": 0.2366,
+    "hybrid_score": 2.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.114,
-      "bullish_pct": 36.7,
-      "bearish_pct": 21.7,
+      "sentiment": "NEUTRAL",
+      "score": 0.038,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.264,
-        "crypto_macro": 0.093,
-        "geopolitical": -0.199,
-        "fed_rates": 0.172
+        "crypto_macro": -0.097,
+        "geopolitical": -0.285,
+        "fed_rates": 0.145
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Ledger Notes 25% RWA Holders Surge as Ripple Pushes for More Adoption - u.today",
+        "XRP Ledger Notes 25% RWA Holders Surge as Ripple Pushes for More Adoption - U.Today",
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
         "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
       ],
       "top_bearish": [
-        "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk",
-        "Strait of Hormuz disruption hits energy, fertilizer and industrial trade - news.un.org",
-        "How USMCA compliance cushioned the 2025 tariff shock - Federal Reserve Bank of Dallas"
+        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
+        "BTC price rises as Coldcard exploit, Strategy sales recede. ADA advances: Crypto Markets Today - CoinDesk",
+        "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.61,
-      "health": -0.2487,
-      "vol_ratio": 1.04
+      "up_down_ratio": 0.65,
+      "health": -0.1483,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 0.91983,
-      "ema200": 0.92459,
-      "macd": -0.000739,
-      "macd_signal": -0.000696,
-      "rsi14": 49.1,
-      "atr14": 0.00153,
-      "atr14_hourly": 0.00668,
-      "bb_position": 0.427
+      "ema50": 0.91977,
+      "ema200": 0.92403,
+      "macd": 0.000236,
+      "macd_signal": -0.0001,
+      "rsi14": 58.7,
+      "atr14": 0.00155,
+      "atr14_hourly": 0.00636,
+      "bb_position": 0.876
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.061,
+      "percentile": 0.065,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170971
+  "data_bars": 170983
 }
