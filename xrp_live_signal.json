@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T19:01:31.337895+00:00",
+  "timestamp": "2026-08-05T20:01:26.800159+00:00",
   "signal": {
-    "price": 0.924,
+    "price": 0.9248,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2545,
+    "xgb_prob": 0.2462,
     "hybrid_score": 2.3,
-    "regime": "BEARISH",
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.069,
-      "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "score": 0.085,
+      "bullish_pct": 36.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.23,
-        "crypto_macro": 0.049,
+        "crypto_macro": 0.076,
         "geopolitical": -0.272,
-        "fed_rates": 0.135
+        "fed_rates": 0.183
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
-        "Is XRP the Best Crypto You Can Buy Right Now? - finance.yahoo.com",
+        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
         "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.73,
-      "health": 0.2262,
-      "vol_ratio": 0.2
+      "up_down_ratio": 0.74,
+      "health": -0.0565,
+      "vol_ratio": 0.47
     },
     "technicals": {
-      "ema50": 0.92344,
-      "ema200": 0.92384,
-      "macd": 0.000335,
-      "macd_signal": 0.0006,
-      "rsi14": 47.7,
-      "atr14": 0.00099,
-      "atr14_hourly": 0.00429,
-      "bb_position": 0.198
+      "ema50": 0.92437,
+      "ema200": 0.92407,
+      "macd": 0.000427,
+      "macd_signal": 0.000525,
+      "rsi14": 46.8,
+      "atr14": 0.00088,
+      "atr14_hourly": 0.00363,
+      "bb_position": 0.303
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.062,
+      "percentile": 0.057,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171031
+  "data_bars": 171043
 }
