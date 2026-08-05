@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-05T13:01:25.836708+00:00",
+  "timestamp": "2026-08-05T14:01:38.266723+00:00",
   "signal": {
-    "price": 0.9207,
+    "price": 0.9187,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2534,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.2541,
+    "hybrid_score": 2.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.128,
-      "bullish_pct": 38.3,
-      "bearish_pct": 20.0,
+      "score": 0.114,
+      "bullish_pct": 36.7,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.279,
-        "crypto_macro": 0.079,
-        "geopolitical": -0.132,
+        "xrp": 0.264,
+        "crypto_macro": 0.093,
+        "geopolitical": -0.199,
         "fed_rates": 0.172
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Ledger Notes 25% RWA Holders Surge as Ripple Pushes for More Adoption - U.Today",
+        "XRP Ledger Notes 25% RWA Holders Surge as Ripple Pushes for More Adoption - u.today",
         "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
         "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
       ],
       "top_bearish": [
         "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk",
-        "Strait of Hormuz disruption hits energy, fertilizer and industrial trade - UN News",
+        "Strait of Hormuz disruption hits energy, fertilizer and industrial trade - news.un.org",
         "How USMCA compliance cushioned the 2025 tariff shock - Federal Reserve Bank of Dallas"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.65,
-      "health": -0.1666,
-      "vol_ratio": 0.1
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.61,
+      "health": -0.2487,
+      "vol_ratio": 1.04
     },
     "technicals": {
-      "ema50": 0.92114,
-      "ema200": 0.92546,
-      "macd": 0.000364,
-      "macd_signal": 0.000229,
-      "rsi14": 50.0,
-      "atr14": 0.00077,
-      "atr14_hourly": 0.00485,
-      "bb_position": 0.576
+      "ema50": 0.91983,
+      "ema200": 0.92459,
+      "macd": -0.000739,
+      "macd_signal": -0.000696,
+      "rsi14": 49.1,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.00668,
+      "bb_position": 0.427
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.043,
+      "percentile": 0.061,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 170959
+  "data_bars": 170971
 }
