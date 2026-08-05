@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T20:01:26.800159+00:00",
+  "timestamp": "2026-08-05T21:01:20.835212+00:00",
   "signal": {
-    "price": 0.9248,
+    "price": 0.9241,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2462,
-    "hybrid_score": 2.3,
+    "xgb_prob": 0.2126,
+    "hybrid_score": 2.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.085,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "sentiment": "BULLISH",
+      "score": 0.11,
+      "bullish_pct": 40.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.23,
-        "crypto_macro": 0.076,
+        "xrp": 0.246,
+        "crypto_macro": 0.106,
         "geopolitical": -0.272,
-        "fed_rates": 0.183
+        "fed_rates": 0.257
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
-        "Is XRP the Best Crypto You Can Buy Right Now? - Yahoo Finance",
-        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet",
+        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - MarketForces Africa"
       ],
       "top_bearish": [
         "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
         "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk",
-        "Wall Street just killed its first spot Bitcoin ETF and for a known reason - thestreet.com"
+        "How did Trump\u2019s 2025 trade war affect the decoupling of US-China supply chains? - Peterson Institute for International E"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.74,
-      "health": -0.0565,
-      "vol_ratio": 0.47
+      "up_down_ratio": 0.71,
+      "health": 0.0549,
+      "vol_ratio": 0.31
     },
     "technicals": {
-      "ema50": 0.92437,
-      "ema200": 0.92407,
-      "macd": 0.000427,
-      "macd_signal": 0.000525,
-      "rsi14": 46.8,
-      "atr14": 0.00088,
-      "atr14_hourly": 0.00363,
-      "bb_position": 0.303
+      "ema50": 0.92491,
+      "ema200": 0.92426,
+      "macd": 0.000122,
+      "macd_signal": 0.000316,
+      "rsi14": 41.7,
+      "atr14": 0.00094,
+      "atr14_hourly": 0.0039,
+      "bb_position": -0.024
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.057,
+      "percentile": 0.049,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171043
+  "data_bars": 171055
 }
