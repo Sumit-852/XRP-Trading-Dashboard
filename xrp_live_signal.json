@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-05T23:01:21.380963+00:00",
+  "timestamp": "2026-08-06T00:01:31.942361+00:00",
   "signal": {
-    "price": 0.9173,
+    "price": 0.9177,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3688,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.2793,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.067,
-      "bullish_pct": 36.7,
-      "bearish_pct": 31.7,
+      "score": 0.056,
+      "bullish_pct": 40.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.19,
-        "crypto_macro": 0.078,
-        "geopolitical": -0.325,
-        "fed_rates": 0.225
+        "crypto_macro": 0.083,
+        "geopolitical": -0.381,
+        "fed_rates": 0.21
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,7 +30,7 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - coinpaper.com",
+        "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
         "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet",
         "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - MarketForces Africa"
       ],
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.68,
-      "health": -0.0952,
-      "vol_ratio": 0.65
+      "up_down_ratio": 0.7,
+      "health": -0.0408,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.92201,
-      "ema200": 0.92345,
-      "macd": -0.001303,
-      "macd_signal": -0.001204,
-      "rsi14": 24.3,
-      "atr14": 0.00075,
-      "atr14_hourly": 0.00371,
-      "bb_position": -0.288
+      "ema50": 0.92044,
+      "ema200": 0.92282,
+      "macd": -0.000986,
+      "macd_signal": -0.001101,
+      "rsi14": 35.6,
+      "atr14": 0.00069,
+      "atr14_hourly": 0.00333,
+      "bb_position": 0.293
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.056,
+      "percentile": 0.048,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171079
+  "data_bars": 171091
 }
