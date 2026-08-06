@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-06T05:01:21.639488+00:00",
+  "timestamp": "2026-08-06T06:01:20.509276+00:00",
   "signal": {
-    "price": 0.9071,
+    "price": 0.9097,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.302,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.2271,
+    "hybrid_score": 2.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.015,
-      "bullish_pct": 31.7,
-      "bearish_pct": 36.7,
+      "score": 0.008,
+      "bullish_pct": 30.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.19,
-        "crypto_macro": 0.002,
-        "geopolitical": -0.444,
-        "fed_rates": 0.178
+        "crypto_macro": -0.05,
+        "geopolitical": -0.403,
+        "fed_rates": 0.181
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
-        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet",
-        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - MarketForces Africa"
+        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Crypto Act Standoff: Analyst Spots BTC Bottom Signal That Preceded 740%",
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
       ],
       "top_bearish": [
         "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
-        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block",
-        "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk"
+        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
+        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.72,
-      "health": 0.031,
-      "vol_ratio": 0.13
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.75,
+      "health": 0.0921,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.90778,
-      "ema200": 0.91637,
-      "macd": -0.000191,
-      "macd_signal": -0.000776,
-      "rsi14": 56.2,
-      "atr14": 0.00126,
-      "atr14_hourly": 0.00695,
-      "bb_position": 0.88
+      "ema50": 0.90825,
+      "ema200": 0.91554,
+      "macd": 0.000957,
+      "macd_signal": 0.00071,
+      "rsi14": 61.2,
+      "atr14": 0.00108,
+      "atr14_hourly": 0.00614,
+      "bb_position": 0.783
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.096,
+      "percentile": 0.099,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171151
+  "data_bars": 171163
 }
