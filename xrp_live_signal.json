@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-08-06T15:01:56.383431+00:00",
+  "timestamp": "2026-08-06T17:07:30.311064+00:00",
   "signal": {
-    "price": 0.9078,
+    "price": 0.9084,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3107,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.2889,
+    "hybrid_score": 2.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.034,
+      "bullish_pct": 30.0,
+      "bearish_pct": 28.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.117,
+        "crypto_macro": 0.034,
+        "geopolitical": -0.18,
+        "fed_rates": 0.09
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz",
+        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com",
+        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Crypto Act Standoff: Analyst Spots BTC Bottom Signal Tha - Benzinga"
+      ],
+      "top_bearish": [
+        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
+        "Crypto Cold War Fought by US, China, and Russia - Bitcoin Foundation",
+        "XRP and XLM outlook: Slide as bearish signals mount - FXStreet"
+      ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.79,
-      "health": -0.081,
-      "vol_ratio": 0.76
+      "up_down_ratio": 0.84,
+      "health": 0.0012,
+      "vol_ratio": 1.45
     },
     "technicals": {
-      "ema50": 0.90632,
-      "ema200": 0.90996,
-      "macd": 0.000153,
-      "macd_signal": -0.000227,
-      "rsi14": 59.7,
-      "atr14": 0.00128,
-      "atr14_hourly": 0.00442,
-      "bb_position": 1.042
+      "ema50": 0.90767,
+      "ema200": 0.90969,
+      "macd": -5.9e-05,
+      "macd_signal": -1.4e-05,
+      "rsi14": 52.3,
+      "atr14": 0.00139,
+      "atr14_hourly": 0.00658,
+      "bb_position": 0.491
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.105,
+      "percentile": 0.119,
       "extreme": false
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171271
+  "data_bars": 171296
 }
