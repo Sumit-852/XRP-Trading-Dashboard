@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-06T17:07:30.311064+00:00",
+  "timestamp": "2026-08-06T21:01:22.738857+00:00",
   "signal": {
-    "price": 0.9084,
+    "price": 0.8964,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2889,
-    "hybrid_score": 2.5,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3845,
+    "hybrid_score": 4.3,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
-      "bullish_pct": 30.0,
-      "bearish_pct": 28.3,
+      "score": 0.044,
+      "bullish_pct": 31.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.117,
-        "crypto_macro": 0.034,
-        "geopolitical": -0.18,
-        "fed_rates": 0.09
+        "xrp": 0.193,
+        "crypto_macro": 0.041,
+        "geopolitical": -0.279,
+        "fed_rates": 0.081
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
         "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz",
-        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com",
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Crypto Act Standoff: Analyst Spots BTC Bottom Signal Tha - Benzinga"
+        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - ccn.com"
       ],
       "top_bearish": [
         "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
-        "Crypto Cold War Fought by US, China, and Russia - Bitcoin Foundation",
-        "XRP and XLM outlook: Slide as bearish signals mount - FXStreet"
+        "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
+        "Will the US-Iran war and Hormuz deadlock last for months? - Al Jazeera"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.84,
-      "health": 0.0012,
-      "vol_ratio": 1.45
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.76,
+      "health": -0.0863,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.90767,
-      "ema200": 0.90969,
-      "macd": -5.9e-05,
-      "macd_signal": -1.4e-05,
-      "rsi14": 52.3,
-      "atr14": 0.00139,
-      "atr14_hourly": 0.00658,
-      "bb_position": 0.491
+      "ema50": 0.90009,
+      "ema200": 0.90595,
+      "macd": -0.001128,
+      "macd_signal": -0.001126,
+      "rsi14": 40.6,
+      "atr14": 0.0012,
+      "atr14_hourly": 0.00502,
+      "bb_position": 0.211
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.119,
+      "percentile": 0.142,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171296
+  "data_bars": 171343
 }
