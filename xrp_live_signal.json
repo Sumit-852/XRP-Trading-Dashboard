@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-06T21:01:22.738857+00:00",
+  "timestamp": "2026-08-06T22:01:27.312206+00:00",
   "signal": {
-    "price": 0.8964,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8978,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3845,
-    "hybrid_score": 4.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.044,
-      "bullish_pct": 31.7,
-      "bearish_pct": 26.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.193,
-        "crypto_macro": 0.041,
-        "geopolitical": -0.279,
-        "fed_rates": 0.081
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz",
-        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - ccn.com"
-      ],
-      "top_bearish": [
-        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
-        "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
-        "Will the US-Iran war and Hormuz deadlock last for months? - Al Jazeera"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.76,
-      "health": -0.0863,
-      "vol_ratio": 0.02
-    },
-    "technicals": {
-      "ema50": 0.90009,
-      "ema200": 0.90595,
-      "macd": -0.001128,
-      "macd_signal": -0.001126,
-      "rsi14": 40.6,
-      "atr14": 0.0012,
-      "atr14_hourly": 0.00502,
-      "bb_position": 0.211
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.142,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171343
+  "data_bars": 171355
 }
