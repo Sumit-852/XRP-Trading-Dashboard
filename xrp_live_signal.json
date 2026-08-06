@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-06T06:01:20.509276+00:00",
+  "timestamp": "2026-08-06T07:01:28.776897+00:00",
   "signal": {
-    "price": 0.9097,
+    "price": 0.9099,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2271,
+    "xgb_prob": 0.2145,
     "hybrid_score": 2.1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.008,
-      "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "score": 0.05,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.19,
-        "crypto_macro": -0.05,
-        "geopolitical": -0.403,
+        "xrp": 0.219,
+        "crypto_macro": 0.043,
+        "geopolitical": -0.384,
         "fed_rates": 0.181
       },
       "geo_shock": true,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Crypto Act Standoff: Analyst Spots BTC Bottom Signal That Preceded 740%",
-        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet",
+        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - MarketForces Africa"
       ],
       "top_bearish": [
         "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block"
+        "Strait Talk: OFAC Designates IRGC-Linked \"Transit Insurance\" Schemes in Strait of Hormuz | Insights - Holland & Knight",
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - scmp.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": 0.0921,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.74,
+      "health": 0.1246,
+      "vol_ratio": 3.55
     },
     "technicals": {
-      "ema50": 0.90825,
-      "ema200": 0.91554,
-      "macd": 0.000957,
-      "macd_signal": 0.00071,
-      "rsi14": 61.2,
-      "atr14": 0.00108,
-      "atr14_hourly": 0.00614,
-      "bb_position": 0.783
+      "ema50": 0.90875,
+      "ema200": 0.91486,
+      "macd": 0.000695,
+      "macd_signal": 0.000747,
+      "rsi14": 57.6,
+      "atr14": 0.00084,
+      "atr14_hourly": 0.0038,
+      "bb_position": 0.734
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,8 +64,8 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.099,
-      "extreme": true
+      "percentile": 0.102,
+      "extreme": false
     }
   },
   "trade": {
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171163
+  "data_bars": 171175
 }
