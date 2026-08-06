@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-06T12:01:17.459110+00:00",
+  "timestamp": "2026-08-06T13:01:17.008866+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9093,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9068,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2874,
+    "hybrid_score": 3.8,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.077,
+      "bullish_pct": 33.3,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.212,
+        "crypto_macro": 0.053,
+        "geopolitical": -0.23,
+        "fed_rates": 0.17
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Iran Deal Hopes: Analyst Says 'Most of the Pain' of the - Benzinga",
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - fxstreet",
+        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - MarketForces Africa"
+      ],
+      "top_bearish": [
+        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post",
+        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.79,
+      "health": 0.0261,
+      "vol_ratio": 0.15
+    },
+    "technicals": {
+      "ema50": 0.90758,
+      "ema200": 0.9112,
+      "macd": -0.000158,
+      "macd_signal": 5.9e-05,
+      "rsi14": 45.6,
+      "atr14": 0.00078,
+      "atr14_hourly": 0.00425,
+      "bb_position": 0.233
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.13,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171235
+  "data_bars": 171247
 }
