@@ -1,26 +1,21 @@
 {
-  "timestamp": "2026-08-06T14:01:24.781681+00:00",
+  "timestamp": "2026-08-06T15:01:56.383431+00:00",
   "signal": {
-    "price": 0.905,
+    "price": 0.9078,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2839,
-    "hybrid_score": 3.7,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3107,
+    "hybrid_score": 2.6,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.053,
-      "bullish_pct": 31.7,
-      "bearish_pct": 26.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.212,
-        "crypto_macro": -0.024,
-        "geopolitical": -0.204,
-        "fed_rates": 0.129
-      },
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Iran Deal Hopes: Analyst Says 'Most of the Pain' of the - Benzinga",
-        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet",
-        "XRP Tops Up As MasterCard Acquires Ripple\u2019s Partner BVNK - MarketForces Africa"
-      ],
-      "top_bearish": [
-        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
-        "Crypto Cold War Fought by US, China, and Russia - Bitcoin Foundation",
-        "Bitcoin\u2019s low volatility doesn\u2019t necessarily mean low risk - CoinDesk"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.76,
-      "health": -0.1349,
-      "vol_ratio": 0.34
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.79,
+      "health": -0.081,
+      "vol_ratio": 0.76
     },
     "technicals": {
-      "ema50": 0.90662,
-      "ema200": 0.9105,
-      "macd": -0.000577,
-      "macd_signal": -0.000601,
-      "rsi14": 43.8,
-      "atr14": 0.00096,
-      "atr14_hourly": 0.00447,
-      "bb_position": 0.325
+      "ema50": 0.90632,
+      "ema200": 0.90996,
+      "macd": 0.000153,
+      "macd_signal": -0.000227,
+      "rsi14": 59.7,
+      "atr14": 0.00128,
+      "atr14_hourly": 0.00442,
+      "bb_position": 1.042
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +51,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.107,
+      "percentile": 0.105,
       "extreme": false
     }
   },
@@ -100,5 +87,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171259
+  "data_bars": 171271
 }
