@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-06T11:01:26.533139+00:00",
+  "timestamp": "2026-08-06T12:01:17.459110+00:00",
   "signal": {
-    "price": 0.9062,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9093,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2398,
-    "hybrid_score": 2.2,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.078,
-      "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.255,
-        "crypto_macro": 0.043,
-        "geopolitical": -0.242,
-        "fed_rates": 0.101
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP Bulls Cheer as Senator John Kennedy Calls for CLARITY Act Vote Before August Recess - Coinpaper",
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Iran Deal Hopes: Analyst Says 'Most of the Pain' of the - Benzinga",
-        "Bitcoin, Ethereum Gain; XRP, Dogecoin Slide Amid Crypto Act Standoff: Analyst Spots BTC Bottom Signal That Preceded 740%"
-      ],
-      "top_bearish": [
-        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.78,
-      "health": 0.0365,
-      "vol_ratio": 0.27
-    },
-    "technicals": {
-      "ema50": 0.90729,
-      "ema200": 0.91211,
-      "macd": -0.000463,
-      "macd_signal": -0.000789,
-      "rsi14": 47.6,
-      "atr14": 0.0009,
-      "atr14_hourly": 0.00623,
-      "bb_position": 0.673
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.133,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171223
+  "data_bars": 171235
 }
