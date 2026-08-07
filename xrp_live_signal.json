@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T17:01:27.995068+00:00",
+  "timestamp": "2026-08-07T18:01:27.634863+00:00",
   "signal": {
-    "price": 0.8783,
+    "price": 0.8797,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5331,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5648,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.041,
-      "bullish_pct": 33.3,
-      "bearish_pct": 36.7,
+      "score": 0.072,
+      "bullish_pct": 36.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.144,
+        "xrp": 0.171,
         "crypto_macro": 0.085,
-        "geopolitical": -0.215,
-        "fed_rates": 0.014
+        "geopolitical": -0.146,
+        "fed_rates": 0.07
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
         "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
-        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - scmp.com"
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.62,
-      "health": -0.1793,
-      "vol_ratio": 4.47
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.64,
+      "health": 0.0176,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 0.88926,
-      "ema200": 0.89364,
-      "macd": -0.002688,
-      "macd_signal": -0.001797,
-      "rsi14": 20.1,
-      "atr14": 0.00186,
-      "atr14_hourly": 0.00677,
-      "bb_position": -0.1
+      "ema50": 0.88529,
+      "ema200": 0.89197,
+      "macd": -0.002521,
+      "macd_signal": -0.002754,
+      "rsi14": 41.0,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.0081,
+      "bb_position": 0.42
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.219,
+      "percentile": 0.218,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171583
+  "data_bars": 171595
 }
