@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-07T02:01:21.462891+00:00",
+  "timestamp": "2026-08-07T03:01:30.837457+00:00",
   "signal": {
-    "price": 0.9001,
+    "price": 0.8928,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2183,
+    "xgb_prob": 0.4339,
     "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.057,
-      "bullish_pct": 31.7,
+      "score": 0.043,
+      "bullish_pct": 28.3,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.164,
-        "crypto_macro": 0.093,
-        "geopolitical": -0.283,
+        "crypto_macro": 0.018,
+        "geopolitical": -0.239,
         "fed_rates": 0.144
       },
       "geo_shock": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
         "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz",
-        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - ccn.com"
+        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com"
       ],
       "top_bearish": [
-        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - u.today",
-        "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - bitcoinfoundation.org",
-        "Bitcoin\u2019s (BTC) low price volatility doesn\u2019t necessarily mean low risk: Crypto Daily - coindesk.com"
+        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
+        "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
+        "Bitcoin\u2019s (BTC) low price volatility doesn\u2019t necessarily mean low risk: Crypto Daily - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.74,
-      "health": -0.0195,
-      "vol_ratio": 0.21
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.76,
+      "health": -0.0492,
+      "vol_ratio": 0.9
     },
     "technicals": {
-      "ema50": 0.89873,
-      "ema200": 0.90248,
-      "macd": 0.000642,
-      "macd_signal": 0.00064,
-      "rsi14": 57.8,
-      "atr14": 0.00085,
-      "atr14_hourly": 0.00409,
-      "bb_position": 0.68
+      "ema50": 0.89732,
+      "ema200": 0.90166,
+      "macd": -0.001411,
+      "macd_signal": -0.000885,
+      "rsi14": 34.6,
+      "atr14": 0.00132,
+      "atr14_hourly": 0.00601,
+      "bb_position": 0.14
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.146,
+      "percentile": 0.123,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171403
+  "data_bars": 171415
 }
