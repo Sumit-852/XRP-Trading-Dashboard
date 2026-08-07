@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-07T21:01:25.033130+00:00",
+  "timestamp": "2026-08-07T22:01:26.652421+00:00",
   "signal": {
-    "price": 0.8872,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.885,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.289,
-    "hybrid_score": 2.5,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.079,
-      "bullish_pct": 38.3,
-      "bearish_pct": 36.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.323,
-        "crypto_macro": -0.016,
-        "geopolitical": -0.173,
-        "fed_rates": -0.028
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
-        "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
-        "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato"
-      ],
-      "top_bearish": [
-        "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
-        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.82,
-      "health": 0.5115,
-      "vol_ratio": 0.22
-    },
-    "technicals": {
-      "ema50": 0.8849,
-      "ema200": 0.8896,
-      "macd": 0.001078,
-      "macd_signal": 0.00109,
-      "rsi14": 64.3,
-      "atr14": 0.0009,
-      "atr14_hourly": 0.00479,
-      "bb_position": 0.883
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.211,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171631
+  "data_bars": 171643
 }
