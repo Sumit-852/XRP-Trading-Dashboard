@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T13:01:26.706600+00:00",
+  "timestamp": "2026-08-07T14:01:31.286190+00:00",
   "signal": {
-    "price": 0.8965,
+    "price": 0.896,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3241,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3868,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.095,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "score": 0.059,
+      "bullish_pct": 36.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.167,
-        "crypto_macro": 0.068,
+        "xrp": 0.156,
+        "crypto_macro": -0.015,
         "geopolitical": -0.07,
-        "fed_rates": 0.176
+        "fed_rates": 0.127
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin Whales Snap Up $1.2 Billion Worth of BTC as ETF Inflows Surge Toward Four-Month High - Bitcoin Foundation",
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz"
+        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com",
+        "Why Hasn't XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution - 24/7 Wall S"
       ],
       "top_bearish": [
         "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.63,
-      "health": 0.1312,
-      "vol_ratio": 0.11
+      "up_down_ratio": 0.67,
+      "health": 0.113,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.89609,
-      "ema200": 0.89607,
-      "macd": -0.0002,
-      "macd_signal": -0.000105,
-      "rsi14": 49.7,
-      "atr14": 0.00139,
-      "atr14_hourly": 0.00601,
-      "bb_position": 0.496
+      "ema50": 0.89644,
+      "ema200": 0.89618,
+      "macd": 2.6e-05,
+      "macd_signal": 0.000107,
+      "rsi14": 47.1,
+      "atr14": 0.00155,
+      "atr14_hourly": 0.00633,
+      "bb_position": 0.41
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.17,
+      "percentile": 0.187,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171535
+  "data_bars": 171547
 }
