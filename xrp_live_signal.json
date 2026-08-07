@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T14:01:31.286190+00:00",
+  "timestamp": "2026-08-07T15:01:32.152019+00:00",
   "signal": {
-    "price": 0.896,
+    "price": 0.8884,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3868,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.464,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.059,
-      "bullish_pct": 36.7,
-      "bearish_pct": 33.3,
+      "score": 0.033,
+      "bullish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.156,
         "crypto_macro": -0.015,
-        "geopolitical": -0.07,
-        "fed_rates": 0.127
+        "geopolitical": -0.161,
+        "fed_rates": 0.063
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com",
+        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - ccn.com",
         "Why Hasn't XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution - 24/7 Wall S"
       ],
       "top_bearish": [
         "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
         "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
-        "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t: Crypto Daily - CoinDesk"
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.67,
-      "health": 0.113,
-      "vol_ratio": 0.1
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.59,
+      "health": -0.3114,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.89644,
-      "ema200": 0.89618,
-      "macd": 2.6e-05,
-      "macd_signal": 0.000107,
-      "rsi14": 47.1,
-      "atr14": 0.00155,
-      "atr14_hourly": 0.00633,
-      "bb_position": 0.41
+      "ema50": 0.89397,
+      "ema200": 0.89547,
+      "macd": -0.001917,
+      "macd_signal": -0.001543,
+      "rsi14": 36.1,
+      "atr14": 0.00167,
+      "atr14_hourly": 0.00883,
+      "bb_position": 0.207
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.187,
+      "percentile": 0.216,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171547
+  "data_bars": 171559
 }
