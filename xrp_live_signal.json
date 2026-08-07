@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T03:01:30.837457+00:00",
+  "timestamp": "2026-08-07T04:01:21.690473+00:00",
   "signal": {
-    "price": 0.8928,
+    "price": 0.8847,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4339,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.3969,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.043,
-      "bullish_pct": 28.3,
-      "bearish_pct": 23.3,
+      "score": 0.094,
+      "bullish_pct": 33.3,
+      "bearish_pct": 15.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.164,
-        "crypto_macro": 0.018,
-        "geopolitical": -0.239,
-        "fed_rates": 0.144
+        "crypto_macro": 0.063,
+        "geopolitical": -0.033,
+        "fed_rates": 0.141
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz",
+        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - altcoinbuzz.",
         "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.76,
-      "health": -0.0492,
-      "vol_ratio": 0.9
+      "up_down_ratio": 0.64,
+      "health": -0.2126,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.89732,
-      "ema200": 0.90166,
-      "macd": -0.001411,
-      "macd_signal": -0.000885,
-      "rsi14": 34.6,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00601,
-      "bb_position": 0.14
+      "ema50": 0.89446,
+      "ema200": 0.90035,
+      "macd": -0.002769,
+      "macd_signal": -0.002062,
+      "rsi14": 18.6,
+      "atr14": 0.00154,
+      "atr14_hourly": 0.00689,
+      "bb_position": -0.08
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.123,
+      "percentile": 0.125,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171415
+  "data_bars": 171427
 }
