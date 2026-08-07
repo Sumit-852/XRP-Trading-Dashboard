@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T06:01:28.313882+00:00",
+  "timestamp": "2026-08-07T07:01:19.913936+00:00",
   "signal": {
-    "price": 0.8857,
+    "price": 0.889,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3772,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3027,
+    "hybrid_score": 2.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.077,
-      "bullish_pct": 33.3,
+      "sentiment": "BULLISH",
+      "score": 0.103,
+      "bullish_pct": 35.0,
       "bearish_pct": 18.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.141,
-        "crypto_macro": 0.008,
-        "geopolitical": 0.053,
-        "fed_rates": 0.085
+        "xrp": 0.185,
+        "crypto_macro": 0.022,
+        "geopolitical": 0.042,
+        "fed_rates": 0.137
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com"
       ],
       "top_bearish": [
-        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
         "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
-        "Bitcoin\u2019s (BTC) low price volatility doesn\u2019t necessarily mean low risk: Crypto Daily - CoinDesk"
+        "Bitcoin\u2019s (BTC) low price volatility doesn\u2019t necessarily mean low risk: Crypto Daily - CoinDesk",
+        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.58,
-      "health": -0.271,
-      "vol_ratio": 0.1
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.57,
+      "health": -0.2594,
+      "vol_ratio": 0.34
     },
     "technicals": {
-      "ema50": 0.88832,
-      "ema200": 0.89701,
-      "macd": -0.001257,
-      "macd_signal": -0.001863,
-      "rsi14": 49.9,
-      "atr14": 0.00164,
-      "atr14_hourly": 0.00649,
-      "bb_position": 0.657
+      "ema50": 0.88909,
+      "ema200": 0.89625,
+      "macd": 0.001082,
+      "macd_signal": 0.000796,
+      "rsi14": 52.2,
+      "atr14": 0.00135,
+      "atr14_hourly": 0.0077,
+      "bb_position": 0.593
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.144,
+      "percentile": 0.153,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171451
+  "data_bars": 171463
 }
