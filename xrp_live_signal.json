@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T16:01:23.525870+00:00",
+  "timestamp": "2026-08-07T17:01:27.995068+00:00",
   "signal": {
-    "price": 0.889,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4258,
-    "hybrid_score": 4.6,
-    "regime": "BULLISH",
+    "price": 0.8783,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5331,
+    "hybrid_score": 5.2,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.049,
-      "bullish_pct": 35.0,
-      "bearish_pct": 35.0,
+      "score": 0.041,
+      "bullish_pct": 33.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.189,
-        "crypto_macro": 0.003,
-        "geopolitical": -0.17,
-        "fed_rates": 0.065
+        "xrp": 0.144,
+        "crypto_macro": 0.085,
+        "geopolitical": -0.215,
+        "fed_rates": 0.014
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin Holds $65,000 as Ethereum Tests Support: Is the Crypto Breakout Still Alive? - investingLive",
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com",
-        "XRP Falls Nearly 5% as the Senate Runs Out of Time on the CLARITY Act - 24/7 Wall St."
+        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com"
       ],
       "top_bearish": [
+        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
         "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
-        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post",
-        "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t: Crypto Daily - coindesk.com"
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - scmp.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.56,
-      "health": -0.3174,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.62,
+      "health": -0.1793,
+      "vol_ratio": 4.47
     },
     "technicals": {
-      "ema50": 0.89196,
-      "ema200": 0.89471,
-      "macd": -0.001354,
-      "macd_signal": -0.001566,
-      "rsi14": 43.6,
-      "atr14": 0.00128,
-      "atr14_hourly": 0.0064,
-      "bb_position": 0.423
+      "ema50": 0.88926,
+      "ema200": 0.89364,
+      "macd": -0.002688,
+      "macd_signal": -0.001797,
+      "rsi14": 20.1,
+      "atr14": 0.00186,
+      "atr14_hourly": 0.00677,
+      "bb_position": -0.1
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.208,
+      "percentile": 0.219,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171571
+  "data_bars": 171583
 }
