@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T04:01:21.690473+00:00",
+  "timestamp": "2026-08-07T05:01:15.554180+00:00",
   "signal": {
-    "price": 0.8847,
+    "price": 0.8855,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3969,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.3611,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.094,
-      "bullish_pct": 33.3,
-      "bearish_pct": 15.0,
+      "score": 0.069,
+      "bullish_pct": 35.0,
+      "bearish_pct": 16.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.164,
-        "crypto_macro": 0.063,
+        "xrp": 0.141,
+        "crypto_macro": -0.018,
         "geopolitical": -0.033,
-        "fed_rates": 0.141
+        "fed_rates": 0.192
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - altcoinbuzz.",
+        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz",
         "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com"
       ],
       "top_bearish": [
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.64,
-      "health": -0.2126,
-      "vol_ratio": 0.14
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.53,
+      "health": -0.4533,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 0.89446,
-      "ema200": 0.90035,
-      "macd": -0.002769,
-      "macd_signal": -0.002062,
-      "rsi14": 18.6,
-      "atr14": 0.00154,
-      "atr14_hourly": 0.00689,
-      "bb_position": -0.08
+      "ema50": 0.89121,
+      "ema200": 0.89872,
+      "macd": -0.00213,
+      "macd_signal": -0.002327,
+      "rsi14": 38.4,
+      "atr14": 0.00156,
+      "atr14_hourly": 0.00717,
+      "bb_position": 0.331
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.125,
+      "percentile": 0.129,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171427
+  "data_bars": 171439
 }
