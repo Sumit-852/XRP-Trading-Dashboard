@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T12:01:27.879733+00:00",
+  "timestamp": "2026-08-07T13:01:26.706600+00:00",
   "signal": {
-    "price": 0.8958,
+    "price": 0.8965,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2363,
-    "hybrid_score": 2.3,
+    "xgb_prob": 0.3241,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.117,
-      "bullish_pct": 40.0,
-      "bearish_pct": 21.7,
+      "sentiment": "NEUTRAL",
+      "score": 0.095,
+      "bullish_pct": 38.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.186,
-        "crypto_macro": 0.089,
-        "geopolitical": -0.018,
-        "fed_rates": 0.172
+        "xrp": 0.167,
+        "crypto_macro": 0.068,
+        "geopolitical": -0.07,
+        "fed_rates": 0.176
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin Whales Snap Up $1.2 Billion Worth of BTC as ETF Inflows Surge Toward Four-Month High - Bitcoin Foundation",
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz",
-        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com"
+        "Crypto market update August 6: Bitcoin nears $65K as ETF inflows rise, Ethereum and Pi Network lead gains - AltcoinBuzz"
       ],
       "top_bearish": [
         "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
-        "In a Down Crypto Market, Does Investing in Prediction Markets Make Sense? - The Motley Fool",
-        "Bitcoin hovers below $68,000 as Middle East tensions escalate further: Crypto Markets Today - CoinDesk"
+        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
+        "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t: Crypto Daily - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.7,
-      "health": 0.221,
-      "vol_ratio": 0.43
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.63,
+      "health": 0.1312,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.89569,
-      "ema200": 0.89597,
-      "macd": -0.000245,
-      "macd_signal": 8.5e-05,
-      "rsi14": 46.0,
-      "atr14": 0.00087,
-      "atr14_hourly": 0.00339,
-      "bb_position": 0.237
+      "ema50": 0.89609,
+      "ema200": 0.89607,
+      "macd": -0.0002,
+      "macd_signal": -0.000105,
+      "rsi14": 49.7,
+      "atr14": 0.00139,
+      "atr14_hourly": 0.00601,
+      "bb_position": 0.496
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.131,
+      "percentile": 0.17,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171523
+  "data_bars": 171535
 }
