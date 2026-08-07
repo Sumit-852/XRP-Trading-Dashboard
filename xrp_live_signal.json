@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-07T09:01:23.991805+00:00",
+  "timestamp": "2026-08-07T10:01:25.793965+00:00",
   "signal": {
-    "price": 0.8952,
+    "price": 0.8978,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2865,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.2702,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.088,
-      "bullish_pct": 31.7,
-      "bearish_pct": 18.3,
+      "sentiment": "BULLISH",
+      "score": 0.121,
+      "bullish_pct": 35.0,
+      "bearish_pct": 16.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.163,
-        "crypto_macro": 0.037,
-        "geopolitical": -0.031,
+        "xrp": 0.189,
+        "crypto_macro": 0.133,
+        "geopolitical": -0.058,
         "fed_rates": 0.154
       },
       "geo_shock": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
-        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block",
-        "AI demand keeps China's export engine humming, but risks loom - Reuters"
+        "AI demand keeps China's export engine humming, but risks loom - Reuters",
+        "Ripple CLO says 67M Americans defy crypto stereotype - Crypto News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.59,
-      "health": -0.0547,
-      "vol_ratio": 0.35
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.77,
+      "health": 0.3915,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.89118,
-      "ema200": 0.8954,
-      "macd": 0.00118,
-      "macd_signal": 0.001,
-      "rsi14": 67.9,
+      "ema50": 0.89366,
+      "ema200": 0.89566,
+      "macd": 0.00171,
+      "macd_signal": 0.001742,
+      "rsi14": 66.7,
       "atr14": 0.00102,
-      "atr14_hourly": 0.00375,
-      "bb_position": 1.062
+      "atr14_hourly": 0.00513,
+      "bb_position": 0.703
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.144,
+      "percentile": 0.127,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171487
+  "data_bars": 171499
 }
