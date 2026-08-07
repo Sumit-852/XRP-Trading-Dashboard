@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T08:01:25.885695+00:00",
+  "timestamp": "2026-08-07T09:01:23.991805+00:00",
   "signal": {
-    "price": 0.8915,
+    "price": 0.8952,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2018,
-    "hybrid_score": 2.1,
+    "xgb_prob": 0.2865,
+    "hybrid_score": 3.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.122,
-      "bullish_pct": 35.0,
-      "bearish_pct": 15.0,
+      "sentiment": "NEUTRAL",
+      "score": 0.088,
+      "bullish_pct": 31.7,
+      "bearish_pct": 18.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.22,
-        "crypto_macro": -0.002,
-        "geopolitical": 0.11,
-        "fed_rates": 0.137
+        "xrp": 0.163,
+        "crypto_macro": 0.037,
+        "geopolitical": -0.031,
+        "fed_rates": 0.154
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "The New Crypto Cold War: How US, China, and Russia Are Fighting for Blockchain Power - Bitcoin Foundation",
-        "Bitcoin\u2019s (BTC) low price volatility doesn\u2019t necessarily mean low risk: Crypto Daily - CoinDesk",
-        "Trump imposes 15% tariff on key chip material to counter China - BBC"
+        "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a 'late-stage bear market' - The Block",
+        "AI demand keeps China's export engine humming, but risks loom - Reuters"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.57,
-      "health": -0.289,
-      "vol_ratio": 0.07
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.59,
+      "health": -0.0547,
+      "vol_ratio": 0.35
     },
     "technicals": {
-      "ema50": 0.89002,
-      "ema200": 0.89572,
-      "macd": 0.000994,
-      "macd_signal": 0.001047,
-      "rsi14": 57.5,
-      "atr14": 0.00088,
-      "atr14_hourly": 0.00496,
-      "bb_position": 0.618
+      "ema50": 0.89118,
+      "ema200": 0.8954,
+      "macd": 0.00118,
+      "macd_signal": 0.001,
+      "rsi14": 67.9,
+      "atr14": 0.00102,
+      "atr14_hourly": 0.00375,
+      "bb_position": 1.062
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.152,
+      "percentile": 0.144,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171475
+  "data_bars": 171487
 }
