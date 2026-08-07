@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-07T20:01:30.075694+00:00",
+  "timestamp": "2026-08-07T21:01:25.033130+00:00",
   "signal": {
-    "price": 0.8852,
+    "price": 0.8872,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2937,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.289,
+    "hybrid_score": 2.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.062,
-      "bullish_pct": 36.7,
-      "bearish_pct": 35.0,
+      "score": 0.079,
+      "bullish_pct": 38.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.267,
-        "crypto_macro": -0.04,
-        "geopolitical": -0.14,
-        "fed_rates": 0.001
+        "xrp": 0.323,
+        "crypto_macro": -0.016,
+        "geopolitical": -0.173,
+        "fed_rates": -0.028
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
-        "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Ripple Unlocks 30 EU Markets With MiCA License: Can the CLARITY Act Push XRP to $10? - CCN.com"
+        "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
+        "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato"
       ],
       "top_bearish": [
-        "Russia Raids Nine Moscow Crypto Exchanges Over Fraud Links - FinanceFeeds",
         "The bitcoin (BTC) price has plenty of reasons to freak out, yet volatility remains low: Crypto Daily - CoinDesk",
-        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool"
+        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.67,
-      "health": 0.1467,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.82,
+      "health": 0.5115,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.88391,
-      "ema200": 0.89,
-      "macd": 0.001009,
-      "macd_signal": 0.00063,
-      "rsi14": 59.4,
-      "atr14": 0.0012,
-      "atr14_hourly": 0.00722,
-      "bb_position": 0.728
+      "ema50": 0.8849,
+      "ema200": 0.8896,
+      "macd": 0.001078,
+      "macd_signal": 0.00109,
+      "rsi14": 64.3,
+      "atr14": 0.0009,
+      "atr14_hourly": 0.00479,
+      "bb_position": 0.883
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.214,
+      "percentile": 0.211,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171619
+  "data_bars": 171631
 }
