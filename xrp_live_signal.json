@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-08-08T22:01:19.192766+00:00",
+  "timestamp": "2026-08-08T23:01:26.801153+00:00",
   "signal": {
-    "price": 0.9023,
+    "price": 0.8984,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1953,
-    "hybrid_score": 3.2,
-    "regime": "BULLISH",
+    "xgb_prob": 0.2488,
+    "hybrid_score": 3.5,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
-      "bullish_pct": 35.0,
-      "bearish_pct": 33.3,
+      "score": 0.023,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.071,
-        "crypto_macro": 0.018,
+        "xrp": 0.077,
+        "crypto_macro": 0.059,
         "geopolitical": -0.21,
         "fed_rates": 0.109
       },
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Rich List Threshold Nears 45,000 XRP as Ledger Crosses 8 Million Accounts - Coinpedia",
+        "Crypto market cap jumps to $2.9T; Bitcoin tops $65K, Cardano and privacy coins lead gains, XRP falls. - Pluang",
         "Why Hasn't XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution - 24/7 Wall S",
         "Crypto Billionaire Changpeng Zhao Reveals the Exact Dollar Amount for 'Financial Freedom' \u2014 and Says Chas - Benzinga"
       ],
       "top_bearish": [
-        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
         "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post",
+        "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - reuters.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.33,
-      "health": -0.7614,
-      "vol_ratio": 0.21
+      "up_down_ratio": 1.3,
+      "health": -1.0281,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.90226,
-      "ema200": 0.89981,
-      "macd": 8.9e-05,
-      "macd_signal": 4.9e-05,
-      "rsi14": 52.1,
-      "atr14": 0.00031,
-      "atr14_hourly": 0.00163,
-      "bb_position": 0.639
+      "ema50": 0.9014,
+      "ema200": 0.89984,
+      "macd": -0.000866,
+      "macd_signal": -0.000536,
+      "rsi14": 19.6,
+      "atr14": 0.0004,
+      "atr14_hourly": 0.00238,
+      "bb_position": 0.042
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.013,
+      "percentile": 0.012,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171931
+  "data_bars": 171943
 }
