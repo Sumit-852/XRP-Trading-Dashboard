@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-08-08T07:01:47.956898+00:00",
+  "timestamp": "2026-08-08T08:01:18.098400+00:00",
   "signal": {
-    "price": 0.8952,
+    "price": 0.8947,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2398,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.1974,
+    "hybrid_score": 3.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.073,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.259,
+        "crypto_macro": 0.01,
+        "geopolitical": -0.11,
+        "fed_rates": -0.036
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
+        "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
+        "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato"
+      ],
+      "top_bearish": [
+        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post",
+        "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - Reuters"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.01,
-      "health": -0.0813,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.0,
+      "health": -0.0916,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 0.8941,
-      "ema200": 0.89099,
-      "macd": 0.000198,
-      "macd_signal": 0.0001,
-      "rsi14": 53.3,
-      "atr14": 0.00062,
-      "atr14_hourly": 0.00302,
-      "bb_position": 0.706
+      "ema50": 0.89425,
+      "ema200": 0.89138,
+      "macd": -8.2e-05,
+      "macd_signal": -4.7e-05,
+      "rsi14": 50.7,
+      "atr14": 0.00059,
+      "atr14_hourly": 0.00245,
+      "bb_position": 0.464
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.135,
+      "percentile": 0.136,
       "extreme": false
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171751
+  "data_bars": 171763
 }
