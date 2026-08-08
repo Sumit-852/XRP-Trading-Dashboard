@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-08T21:01:13.647343+00:00",
+  "timestamp": "2026-08-08T22:01:19.192766+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.9015,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.9023,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.1953,
+    "hybrid_score": 3.2,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.009,
+      "bullish_pct": 35.0,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.071,
+        "crypto_macro": 0.018,
+        "geopolitical": -0.21,
+        "fed_rates": 0.109
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP Rich List Threshold Nears 45,000 XRP as Ledger Crosses 8 Million Accounts - Coinpedia",
+        "Why Hasn't XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution - 24/7 Wall S",
+        "Crypto Billionaire Changpeng Zhao Reveals the Exact Dollar Amount for 'Financial Freedom' \u2014 and Says Chas - Benzinga"
+      ],
+      "top_bearish": [
+        "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
+        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.33,
+      "health": -0.7614,
+      "vol_ratio": 0.21
+    },
+    "technicals": {
+      "ema50": 0.90226,
+      "ema200": 0.89981,
+      "macd": 8.9e-05,
+      "macd_signal": 4.9e-05,
+      "rsi14": 52.1,
+      "atr14": 0.00031,
+      "atr14_hourly": 0.00163,
+      "bb_position": 0.639
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.013,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171919
+  "data_bars": 171931
 }
