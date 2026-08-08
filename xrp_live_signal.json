@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-08T13:01:16.696993+00:00",
+  "timestamp": "2026-08-08T14:01:32.729230+00:00",
   "signal": {
-    "price": 0.9007,
+    "price": 0.9014,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2483,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.263,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.09,
-      "bullish_pct": 40.0,
+      "score": 0.072,
+      "bullish_pct": 36.7,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.151,
-        "crypto_macro": 0.161,
-        "geopolitical": -0.154,
-        "fed_rates": 0.096
+        "xrp": 0.177,
+        "crypto_macro": 0.096,
+        "geopolitical": -0.124,
+        "fed_rates": 0.009
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "XRP Rich List Threshold Nears 45,000 XRP as Ledger Crosses 8 Million Accounts - Coinpedia"
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
       ],
       "top_bearish": [
         "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 2.28,
-      "health": 0.5197,
-      "vol_ratio": 0.0
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 2.26,
+      "health": 0.4954,
+      "vol_ratio": 0.46
     },
     "technicals": {
-      "ema50": 0.89797,
-      "ema200": 0.89417,
-      "macd": 0.000997,
-      "macd_signal": 0.00077,
-      "rsi14": 61.4,
-      "atr14": 0.00073,
-      "atr14_hourly": 0.00333,
-      "bb_position": 0.79
+      "ema50": 0.89918,
+      "ema200": 0.89496,
+      "macd": 0.000693,
+      "macd_signal": 0.00079,
+      "rsi14": 59.8,
+      "atr14": 0.00065,
+      "atr14_hourly": 0.00308,
+      "bb_position": 0.656
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.092,
+      "percentile": 0.067,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171823
+  "data_bars": 171835
 }
