@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-08T10:01:08.570135+00:00",
+  "timestamp": "2026-08-08T11:01:29.115114+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.896,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8989,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2121,
+    "hybrid_score": 3.4,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "BULLISH",
+      "score": 0.113,
+      "bullish_pct": 40.0,
+      "bearish_pct": 25.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.286,
+        "crypto_macro": 0.094,
+        "geopolitical": -0.11,
+        "fed_rates": 0.001
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
+        "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
+        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - fxstreet"
+      ],
+      "top_bearish": [
+        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post",
+        "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - Reuters"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.9,
+      "health": 0.5138,
+      "vol_ratio": 0.25
+    },
+    "technicals": {
+      "ema50": 0.89613,
+      "ema200": 0.89289,
+      "macd": 0.000799,
+      "macd_signal": 0.000589,
+      "rsi14": 69.6,
+      "atr14": 0.00059,
+      "atr14_hourly": 0.00256,
+      "bb_position": 0.969
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.125,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171787
+  "data_bars": 171799
 }
