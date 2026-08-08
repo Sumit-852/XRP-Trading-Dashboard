@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-08T14:01:32.729230+00:00",
+  "timestamp": "2026-08-08T15:01:21.252714+00:00",
   "signal": {
-    "price": 0.9014,
+    "price": 0.904,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.263,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.2667,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.072,
-      "bullish_pct": 36.7,
-      "bearish_pct": 28.3,
+      "score": 0.061,
+      "bullish_pct": 41.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.177,
-        "crypto_macro": 0.096,
-        "geopolitical": -0.124,
-        "fed_rates": 0.009
+        "xrp": 0.127,
+        "crypto_macro": 0.109,
+        "geopolitical": -0.134,
+        "fed_rates": 0.042
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Crypto market update: Cardano surges, XRP falls as ETF inflows near $1B - AltcoinBuzz",
         "XRP vs PI vs ADA: 3 AIs Speculate Which Will Perform Best in the Next Bull Market - CryptoPotato",
-        "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 BTC eyes breakout, ETH consolidates, XRP finds stability - FXStreet"
+        "XRP Rich List Threshold Nears 45,000 XRP as Ledger Crosses 8 Million Accounts - Coinpedia"
       ],
       "top_bearish": [
         "'It's a Scam!': Ripple's David Schwartz Shatters New Clone Site Targeting XRP Holders - U.Today",
         "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
-        "Is XRP About to Have Its Biggest Year Yet in 2027? - The Motley Fool"
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 2.26,
-      "health": 0.4954,
-      "vol_ratio": 0.46
+      "phase": "NEUTRAL",
+      "up_down_ratio": 2.89,
+      "health": 0.7508,
+      "vol_ratio": 0.43
     },
     "technicals": {
-      "ema50": 0.89918,
-      "ema200": 0.89496,
-      "macd": 0.000693,
-      "macd_signal": 0.00079,
-      "rsi14": 59.8,
-      "atr14": 0.00065,
-      "atr14_hourly": 0.00308,
-      "bb_position": 0.656
+      "ema50": 0.90057,
+      "ema200": 0.89584,
+      "macd": 0.000966,
+      "macd_signal": 0.000848,
+      "rsi14": 67.0,
+      "atr14": 0.00078,
+      "atr14_hourly": 0.00298,
+      "bb_position": 0.946
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.067,
+      "percentile": 0.05,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171835
+  "data_bars": 171847
 }
