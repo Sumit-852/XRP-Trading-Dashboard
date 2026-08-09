@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-09T10:01:22.234796+00:00",
+  "timestamp": "2026-08-09T11:01:16.732096+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.8961,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8966,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2595,
+    "hybrid_score": 2.3,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.048,
+      "bullish_pct": 23.3,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": -0.032,
+        "crypto_macro": -0.005,
+        "geopolitical": -0.209,
+        "fed_rates": 0.028
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Crypto market cap jumps to $2.9T; Bitcoin tops $65K, Cardano and privacy coins lead gains, XRP falls. - pluang.com",
+        "China's exports growth beats estimates in July, as AI-driven shipments surge - CNBC",
+        "China\u2019s trade growth surged amid strong external demand - ING Think"
+      ],
+      "top_bearish": [
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - global.morningstar.com",
+        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
+        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.67,
+      "health": -0.5812,
+      "vol_ratio": 0.0
+    },
+    "technicals": {
+      "ema50": 0.89634,
+      "ema200": 0.89759,
+      "macd": 0.000256,
+      "macd_signal": 0.000201,
+      "rsi14": 54.4,
+      "atr14": 0.00048,
+      "atr14_hourly": 0.00335,
+      "bb_position": 0.623
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.009,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172075
+  "data_bars": 172087
 }
