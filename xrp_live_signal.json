@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-09T06:01:23.266328+00:00",
+  "timestamp": "2026-08-09T07:01:24.873952+00:00",
   "signal": {
-    "price": 0.8963,
+    "price": 0.9004,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2346,
+    "xgb_prob": 0.2291,
     "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.023,
-      "bullish_pct": 33.3,
-      "bearish_pct": 28.3,
+      "score": -0.012,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.077,
-        "crypto_macro": 0.04,
-        "geopolitical": -0.181,
+        "xrp": -0.011,
+        "crypto_macro": 0.052,
+        "geopolitical": -0.212,
         "fed_rates": 0.109
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Today: Bitcoin and Ethereum gain ground as XRP extends decline amid potential Iran-Oman deal - FXStreet",
         "Crypto market cap jumps to $2.9T; Bitcoin tops $65K, Cardano and privacy coins lead gains, XRP falls. - Pluang",
-        "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month - CoinDesk"
+        "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month - CoinDesk",
+        "China's exports growth beats estimates in July, as AI-driven shipments surge - cnbc.com"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
         "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
+        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.42,
-      "health": 0.0968,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.15,
+      "health": -0.0851,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.89718,
-      "ema200": 0.8984,
-      "macd": -0.000425,
-      "macd_signal": -0.0003,
-      "rsi14": 43.6,
-      "atr14": 0.00035,
-      "atr14_hourly": 0.00243,
-      "bb_position": 0.334
+      "ema50": 0.89806,
+      "ema200": 0.89852,
+      "macd": 0.000877,
+      "macd_signal": 0.000568,
+      "rsi14": 71.3,
+      "atr14": 0.00051,
+      "atr14_hourly": 0.00355,
+      "bb_position": 0.815
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172027
+  "data_bars": 172039
 }
