@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-09T05:01:13.812966+00:00",
+  "timestamp": "2026-08-09T06:01:23.266328+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.8976,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8963,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2346,
+    "hybrid_score": 3.4,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.023,
+      "bullish_pct": 33.3,
+      "bearish_pct": 28.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.077,
+        "crypto_macro": 0.04,
+        "geopolitical": -0.181,
+        "fed_rates": 0.109
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Crypto Today: Bitcoin and Ethereum gain ground as XRP extends decline amid potential Iran-Oman deal - FXStreet",
+        "Crypto market cap jumps to $2.9T; Bitcoin tops $65K, Cardano and privacy coins lead gains, XRP falls. - Pluang",
+        "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month - CoinDesk"
+      ],
+      "top_bearish": [
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
+        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.42,
+      "health": 0.0968,
+      "vol_ratio": 0.0
+    },
+    "technicals": {
+      "ema50": 0.89718,
+      "ema200": 0.8984,
+      "macd": -0.000425,
+      "macd_signal": -0.0003,
+      "rsi14": 43.6,
+      "atr14": 0.00035,
+      "atr14_hourly": 0.00243,
+      "bb_position": 0.334
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.006,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172015
+  "data_bars": 172027
 }
