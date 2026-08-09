@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-09T22:01:17.974857+00:00",
+  "timestamp": "2026-08-09T23:01:14.744265+00:00",
   "signal": {
-    "price": 0.9021,
+    "price": 0.8974,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2683,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.259,
+    "hybrid_score": 2.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.008,
-      "bullish_pct": 30.0,
-      "bearish_pct": 30.0,
+      "score": -0.041,
+      "bullish_pct": 25.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.008,
-        "crypto_macro": 0.077,
-        "geopolitical": -0.228,
+        "xrp": -0.041,
+        "crypto_macro": 0.026,
+        "geopolitical": -0.264,
         "fed_rates": 0.099
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Crypto Market Update August 8: Bitcoin, Ethereum Slip as Solana Tops Altcoin Gains - CoinGape",
-        "Cryptocurrency prices show mixed movements with Bitcoin near $65,160 and notable gains in BEAT and PUMP tokens. - Pluang",
-        "Don\u2019t Trust, Verify: How On-Chain Payouts Are Changing Crypto Prop Trading - bitcoinfoundation.org"
+        "Don\u2019t Trust, Verify: How On-Chain Payouts Are Changing Crypto Prop Trading - Bitcoin Foundation",
+        "China's exports growth beats estimates in July, as AI-driven shipments surge - CNBC"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.54,
-      "health": 0.1711,
-      "vol_ratio": 0.27
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.52,
+      "health": 0.1746,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.90117,
-      "ema200": 0.89982,
-      "macd": 0.000412,
-      "macd_signal": 0.000349,
-      "rsi14": 56.1,
-      "atr14": 0.00058,
-      "atr14_hourly": 0.00255,
-      "bb_position": 0.686
+      "ema50": 0.90049,
+      "ema200": 0.8998,
+      "macd": -0.00107,
+      "macd_signal": -0.000494,
+      "rsi14": 36.8,
+      "atr14": 0.00105,
+      "atr14_hourly": 0.00555,
+      "bb_position": 0.171
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.007,
+      "percentile": 0.015,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172219
+  "data_bars": 172231
 }
