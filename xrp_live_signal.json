@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-08T23:01:26.801153+00:00",
+  "timestamp": "2026-08-09T00:01:27.414377+00:00",
   "signal": {
-    "price": 0.8984,
+    "price": 0.8993,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2488,
-    "hybrid_score": 3.5,
-    "regime": "BEARISH",
+    "xgb_prob": 0.2487,
+    "hybrid_score": 4.7,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.023,
+      "score": 0.01,
       "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.077,
-        "crypto_macro": 0.059,
-        "geopolitical": -0.21,
+        "xrp": 0.043,
+        "crypto_macro": 0.081,
+        "geopolitical": -0.251,
         "fed_rates": 0.109
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Crypto market cap jumps to $2.9T; Bitcoin tops $65K, Cardano and privacy coins lead gains, XRP falls. - Pluang",
-        "Why Hasn't XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution - 24/7 Wall S",
-        "Crypto Billionaire Changpeng Zhao Reveals the Exact Dollar Amount for 'Financial Freedom' \u2014 and Says Chas - Benzinga"
+        "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month - CoinDesk",
+        "Crypto Market Update August 8: BTC Price Tests $65K, MSTR Stock Tops $100, and PI Leads Altcoins - CoinGape"
       ],
       "top_bearish": [
         "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
         "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post",
-        "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - reuters.com"
+        "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - Reuters"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.3,
-      "health": -1.0281,
-      "vol_ratio": 0.02
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.31,
+      "health": -0.446,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.9014,
-      "ema200": 0.89984,
-      "macd": -0.000866,
-      "macd_signal": -0.000536,
-      "rsi14": 19.6,
-      "atr14": 0.0004,
-      "atr14_hourly": 0.00238,
-      "bb_position": 0.042
+      "ema50": 0.90031,
+      "ema200": 0.89969,
+      "macd": -0.000556,
+      "macd_signal": -0.00077,
+      "rsi14": 47.2,
+      "atr14": 0.00037,
+      "atr14_hourly": 0.00259,
+      "bb_position": 0.621
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.012,
+      "percentile": 0.01,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171943
+  "data_bars": 171955
 }
