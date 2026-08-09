@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-09T16:01:14.669938+00:00",
+  "timestamp": "2026-08-09T17:01:15.056559+00:00",
   "signal": {
-    "price": 0.903,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.9032,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3612,
-    "hybrid_score": 2.9,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.031,
-      "bullish_pct": 26.7,
-      "bearish_pct": 35.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.016,
-        "crypto_macro": -0.022,
-        "geopolitical": -0.203,
-        "fed_rates": 0.046
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Crypto Market Update August 8: Bitcoin, Ethereum Slip as Solana Tops Altcoin Gains - CoinGape",
-        "Ripple (XRP) ETFs Record Another Green Week but Fresh Concerns Surface - CryptoPotato",
-        "Don\u2019t Trust, Verify: How On-Chain Payouts Are Changing Crypto Prop Trading - Bitcoin Foundation"
-      ],
-      "top_bearish": [
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.36,
-      "health": -0.4527,
-      "vol_ratio": 2.23
-    },
-    "technicals": {
-      "ema50": 0.89983,
-      "ema200": 0.89827,
-      "macd": 0.001078,
-      "macd_signal": 0.001033,
-      "rsi14": 66.7,
-      "atr14": 0.00074,
-      "atr14_hourly": 0.00318,
-      "bb_position": 0.785
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.005,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172147
+  "data_bars": 172159
 }
