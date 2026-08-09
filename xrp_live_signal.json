@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-09T01:01:22.871538+00:00",
+  "timestamp": "2026-08-09T02:01:18.299505+00:00",
   "signal": {
-    "price": 0.8995,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8962,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1768,
-    "hybrid_score": 4.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.015,
-      "bullish_pct": 35.0,
-      "bearish_pct": 33.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.063,
-        "crypto_macro": 0.063,
-        "geopolitical": -0.232,
-        "fed_rates": 0.109
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Crypto market cap jumps to $2.9T; Bitcoin tops $65K, Cardano and privacy coins lead gains, XRP falls. - Pluang",
-        "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month - CoinDesk",
-        "Crypto Market Update August 8: BTC Price Tests $65K, MSTR Stock Tops $100, and PI Leads Altcoins - CoinGape"
-      ],
-      "top_bearish": [
-        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "China\u2019s retaliation against US shows depth of its trade war strategy: analysts - South China Morning Post",
-        "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - Reuters"
-      ]
-    },
-    "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.29,
-      "health": -0.5147,
-      "vol_ratio": 0.2
-    },
-    "technicals": {
-      "ema50": 0.89974,
-      "ema200": 0.89959,
-      "macd": -0.000248,
-      "macd_signal": -0.000371,
-      "rsi14": 53.0,
-      "atr14": 0.0006,
-      "atr14_hourly": 0.00243,
-      "bb_position": 0.781
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.013,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 171967
+  "data_bars": 171979
 }
