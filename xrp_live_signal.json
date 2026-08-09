@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-09T12:01:14.797347+00:00",
+  "timestamp": "2026-08-09T13:01:18.666561+00:00",
   "signal": {
-    "price": 0.8965,
+    "price": 0.8968,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2523,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.2605,
+    "hybrid_score": 2.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.077,
-      "bullish_pct": 21.7,
-      "bearish_pct": 38.3,
+      "score": -0.039,
+      "bullish_pct": 26.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.032,
-        "crypto_macro": -0.096,
-        "geopolitical": -0.239,
+        "xrp": 0.018,
+        "crypto_macro": -0.03,
+        "geopolitical": -0.238,
         "fed_rates": 0.049
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto market cap jumps to $2.9T; Bitcoin tops $65K, Cardano and privacy coins lead gains, XRP falls. - Pluang",
-        "China's exports growth beats estimates in July, as AI-driven shipments surge - CNBC",
-        "China\u2019s trade growth surged amid strong external demand - ING Think"
+        "Ripple Says EU Crypto Expansion Is Ready to Scale After MiCA Win - Bitcoin News",
+        "Crypto Market Update August 8: Bitcoin, Ethereum Slip as Solana Tops Altcoin Gains - CoinGape",
+        "Don\u2019t Trust, Verify: How On-Chain Payouts Are Changing Crypto Prop Trading - Bitcoin Foundation"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.64,
-      "health": -0.4923,
-      "vol_ratio": 0.3
+      "up_down_ratio": 0.55,
+      "health": -0.5007,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.89627,
-      "ema200": 0.89742,
-      "macd": 0.000139,
-      "macd_signal": 9e-05,
-      "rsi14": 54.0,
-      "atr14": 0.00045,
-      "atr14_hourly": 0.00236,
-      "bb_position": 0.604
+      "ema50": 0.89636,
+      "ema200": 0.89731,
+      "macd": 0.000211,
+      "macd_signal": 0.000142,
+      "rsi14": 55.5,
+      "atr14": 0.00042,
+      "atr14_hourly": 0.00189,
+      "bb_position": 0.725
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.009,
+      "percentile": 0.006,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172099
+  "data_bars": 172111
 }
