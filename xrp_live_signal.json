@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-08-10T02:01:23.276043+00:00",
+  "timestamp": "2026-08-10T03:01:20.191332+00:00",
   "signal": {
-    "price": 0.8967,
+    "price": 0.8953,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2074,
-    "hybrid_score": 2.0,
+    "xgb_prob": 0.2544,
+    "hybrid_score": 2.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.026,
-      "bullish_pct": 26.7,
-      "bearish_pct": 33.3,
+      "score": 0.006,
+      "bullish_pct": 28.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.011,
-        "crypto_macro": 0.032,
+        "xrp": 0.044,
+        "crypto_macro": 0.072,
         "geopolitical": -0.185,
         "fed_rates": 0.019
       },
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
         "Crypto Market Update August 8: Bitcoin, Ethereum Slip as Solana Tops Altcoin Gains - CoinGape",
-        "Ripple (XRP) ETFs Record Another Green Week but Fresh Concerns Surface - CryptoPotato",
-        "Don\u2019t Trust, Verify: How On-Chain Payouts Are Changing Crypto Prop Trading - Bitcoin Foundation"
+        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
         "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool"
+        "Prediction: This Cryptocurrency Could Go Parabolic After the 2026 Midterm Elections - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.49,
-      "health": 0.002,
-      "vol_ratio": 0.04
+      "up_down_ratio": 0.51,
+      "health": -0.0583,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.89522,
-      "ema200": 0.89782,
-      "macd": 0.000656,
-      "macd_signal": -3.7e-05,
-      "rsi14": 56.9,
-      "atr14": 0.00168,
-      "atr14_hourly": 0.00776,
-      "bb_position": 0.823
+      "ema50": 0.89473,
+      "ema200": 0.89737,
+      "macd": 0.000273,
+      "macd_signal": 6.2e-05,
+      "rsi14": 53.7,
+      "atr14": 0.00154,
+      "atr14_hourly": 0.00886,
+      "bb_position": 0.602
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.05,
+      "percentile": 0.076,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172267
+  "data_bars": 172279
 }
