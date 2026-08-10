@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-10T08:01:21.197809+00:00",
+  "timestamp": "2026-08-10T09:01:27.879549+00:00",
   "signal": {
-    "price": 0.8969,
+    "price": 0.8935,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2717,
-    "hybrid_score": 2.4,
+    "xgb_prob": 0.2856,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
+      "score": 0.007,
       "bullish_pct": 28.3,
-      "bearish_pct": 28.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": -0.024,
-        "crypto_macro": 0.091,
-        "geopolitical": -0.095,
-        "fed_rates": 0.124
+        "crypto_macro": 0.031,
+        "geopolitical": -0.047,
+        "fed_rates": 0.102
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
+        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - benzinga.com",
         "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk"
       ],
       "top_bearish": [
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.69,
-      "health": 0.2881,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.6,
+      "health": 0.1518,
+      "vol_ratio": 0.32
     },
     "technicals": {
-      "ema50": 0.89605,
-      "ema200": 0.89645,
-      "macd": 0.000457,
-      "macd_signal": 0.000711,
-      "rsi14": 50.9,
-      "atr14": 0.00079,
-      "atr14_hourly": 0.00326,
-      "bb_position": 0.376
+      "ema50": 0.89538,
+      "ema200": 0.89622,
+      "macd": -0.000885,
+      "macd_signal": -0.000527,
+      "rsi14": 38.9,
+      "atr14": 0.00096,
+      "atr14_hourly": 0.00444,
+      "bb_position": 0.222
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.104,
+      "percentile": 0.105,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172339
+  "data_bars": 172351
 }
