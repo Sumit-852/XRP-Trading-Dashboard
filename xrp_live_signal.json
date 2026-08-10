@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-10T00:01:16.372325+00:00",
+  "timestamp": "2026-08-10T01:01:19.437306+00:00",
   "signal": {
-    "price": 0.8906,
+    "price": 0.8927,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3723,
+    "xgb_prob": 0.3722,
     "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.0,
-      "bullish_pct": 25.0,
-      "bearish_pct": 28.3,
+      "score": -0.014,
+      "bullish_pct": 26.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.047,
-        "crypto_macro": 0.056,
-        "geopolitical": -0.209,
-        "fed_rates": 0.03
+        "xrp": -0.041,
+        "crypto_macro": 0.095,
+        "geopolitical": -0.163,
+        "fed_rates": 0.019
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "China's exports growth beats estimates in July, as AI-driven shipments surge - CNBC"
       ],
       "top_bearish": [
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Pacheco: New tariffs spark trade war fears with global partners - Albuquerque Journal",
-        "Can Europe stay united in China trade battle? Ceuta crisis offers a warning - South China Morning Post"
+        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
+        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool",
+        "Prediction: This Cryptocurrency Could Go Parabolic After the 2026 Midterm Elections - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.47,
-      "health": -0.0167,
-      "vol_ratio": 0.36
+      "up_down_ratio": 0.49,
+      "health": 0.0166,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.8973,
-      "ema200": 0.89895,
-      "macd": -0.002637,
-      "macd_signal": -0.002307,
-      "rsi14": 27.5,
-      "atr14": 0.0011,
-      "atr14_hourly": 0.00756,
-      "bb_position": 0.21
+      "ema50": 0.89545,
+      "ema200": 0.89822,
+      "macd": -0.001141,
+      "macd_signal": -0.001517,
+      "rsi14": 47.1,
+      "atr14": 0.00141,
+      "atr14_hourly": 0.0078,
+      "bb_position": 0.627
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.017,
+      "percentile": 0.03,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172243
+  "data_bars": 172255
 }
