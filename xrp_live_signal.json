@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-08-10T03:01:20.191332+00:00",
+  "timestamp": "2026-08-10T04:01:19.774983+00:00",
   "signal": {
-    "price": 0.8953,
+    "price": 0.8925,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2544,
-    "hybrid_score": 2.3,
+    "xgb_prob": 0.369,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.006,
-      "bullish_pct": 28.3,
+      "score": -0.008,
+      "bullish_pct": 26.7,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.044,
-        "crypto_macro": 0.072,
+        "crypto_macro": 0.025,
         "geopolitical": -0.185,
         "fed_rates": 0.019
       },
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
-        "Crypto Market Update August 8: Bitcoin, Ethereum Slip as Solana Tops Altcoin Gains - CoinGape",
-        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga"
+        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
+        "Ripple (XRP) ETFs Record Another Green Week but Fresh Concerns Surface - CryptoPotato"
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.51,
-      "health": -0.0583,
-      "vol_ratio": 0.0
+      "health": -0.0106,
+      "vol_ratio": 0.5
     },
     "technicals": {
-      "ema50": 0.89473,
-      "ema200": 0.89737,
-      "macd": 0.000273,
-      "macd_signal": 6.2e-05,
-      "rsi14": 53.7,
-      "atr14": 0.00154,
-      "atr14_hourly": 0.00886,
-      "bb_position": 0.602
+      "ema50": 0.89412,
+      "ema200": 0.8969,
+      "macd": -0.000366,
+      "macd_signal": -0.000191,
+      "rsi14": 46.3,
+      "atr14": 0.00149,
+      "atr14_hourly": 0.00759,
+      "bb_position": 0.325
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,8 +64,8 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.076,
-      "extreme": true
+      "percentile": 0.101,
+      "extreme": false
     }
   },
   "trade": {
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172279
+  "data_bars": 172291
 }
