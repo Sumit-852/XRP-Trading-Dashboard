@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-10T04:01:19.774983+00:00",
+  "timestamp": "2026-08-10T05:01:19.942817+00:00",
   "signal": {
-    "price": 0.8925,
+    "price": 0.8921,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.369,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3552,
+    "hybrid_score": 2.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.008,
-      "bullish_pct": 26.7,
+      "score": 0.018,
+      "bullish_pct": 30.0,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.044,
-        "crypto_macro": 0.025,
-        "geopolitical": -0.185,
+        "xrp": 0.066,
+        "crypto_macro": 0.057,
+        "geopolitical": -0.141,
         "fed_rates": 0.019
       },
       "geo_shock": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
         "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
-        "Ripple (XRP) ETFs Record Another Green Week but Fresh Concerns Surface - CryptoPotato"
+        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk"
       ],
       "top_bearish": [
+        "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "Prediction: This Cryptocurrency Could Go Parabolic After the 2026 Midterm Elections - The Motley Fool"
+        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.51,
-      "health": -0.0106,
-      "vol_ratio": 0.5
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.59,
+      "health": 0.2141,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.89412,
-      "ema200": 0.8969,
-      "macd": -0.000366,
-      "macd_signal": -0.000191,
-      "rsi14": 46.3,
-      "atr14": 0.00149,
-      "atr14_hourly": 0.00759,
-      "bb_position": 0.325
+      "ema50": 0.89365,
+      "ema200": 0.89645,
+      "macd": -0.000344,
+      "macd_signal": -0.000259,
+      "rsi14": 45.2,
+      "atr14": 0.00117,
+      "atr14_hourly": 0.00563,
+      "bb_position": 0.176
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.101,
+      "percentile": 0.105,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172291
+  "data_bars": 172303
 }
