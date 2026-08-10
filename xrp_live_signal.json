@@ -1,75 +1,26 @@
 {
-  "timestamp": "2026-08-10T21:01:36.436274+00:00",
+  "timestamp": "2026-08-10T22:01:19.077499+00:00",
   "signal": {
-    "price": 0.8828,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8799,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2259,
-    "hybrid_score": 2.0,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.094,
-      "bullish_pct": 20.0,
-      "bearish_pct": 42.2,
-      "headlines_analyzed": 45,
-      "feed_scores": {
-        "crypto_macro": -0.031,
-        "geopolitical": -0.239,
-        "fed_rates": -0.039
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
-        "China\u2019s trade growth surged amid strong external demand - ING THINK economic and financial analysis | ING THINK",
-        "Bitcoin Trading Takes Large Share of July Crypto Volume -- Market Talk - Moomoo"
-      ],
-      "top_bearish": [
-        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
-        "Can Europe stay united in China trade battle? Ceuta crisis offers a warning - South China Morning Post",
-        "Standard Chartered sees this losing crypto coin turning around because of the tokenization wave - CNBC"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": -0.2187,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.88353,
-      "ema200": 0.88834,
-      "macd": -3.4e-05,
-      "macd_signal": 5.8e-05,
-      "rsi14": 46.6,
-      "atr14": 0.00053,
-      "atr14_hourly": 0.0033,
-      "bb_position": 0.286
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.157,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -99,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172495
+  "data_bars": 172507
 }
