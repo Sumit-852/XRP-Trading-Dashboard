@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-10T19:01:22.689463+00:00",
+  "timestamp": "2026-08-10T20:01:28.893848+00:00",
   "signal": {
-    "price": 0.8813,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8836,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2905,
-    "hybrid_score": 3.7,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.031,
-      "bullish_pct": 28.3,
-      "bearish_pct": 33.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.028,
-        "crypto_macro": 0.012,
-        "geopolitical": -0.183,
-        "fed_rates": -0.072
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
-        "Ripple (XRP) ETFs Record Another Green Week but Fresh Concerns Surface - CryptoPotato"
-      ],
-      "top_bearish": [
-        "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - tradingview.com",
-        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
-        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.72,
-      "health": -0.3534,
-      "vol_ratio": 0.05
-    },
-    "technicals": {
-      "ema50": 0.88391,
-      "ema200": 0.8897,
-      "macd": -0.000762,
-      "macd_signal": -0.00074,
-      "rsi14": 39.2,
-      "atr14": 0.00081,
-      "atr14_hourly": 0.00396,
-      "bb_position": 0.246
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.151,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172471
+  "data_bars": 172483
 }
