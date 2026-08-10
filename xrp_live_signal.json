@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-10T14:01:29.389809+00:00",
+  "timestamp": "2026-08-10T15:01:24.575160+00:00",
   "signal": {
-    "price": 0.8894,
+    "price": 0.8872,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.425,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.42,
+    "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.014,
-      "bullish_pct": 30.0,
-      "bearish_pct": 26.7,
+      "score": 0.018,
+      "bullish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.026,
-        "crypto_macro": 0.094,
-        "geopolitical": -0.037,
-        "fed_rates": 0.018
+        "xrp": 0.025,
+        "crypto_macro": 0.049,
+        "geopolitical": -0.068,
+        "fed_rates": 0.047
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
+        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - benzinga.com",
         "Ripple (XRP) ETFs Record Another Green Week but Fresh Concerns Surface - CryptoPotato"
       ],
       "top_bearish": [
         "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
-        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "Prediction: This Cryptocurrency Could Go Parabolic After the 2026 Midterm Elections - The Motley Fool"
+        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
+        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.93,
-      "health": 0.4643,
-      "vol_ratio": 0.6
+      "up_down_ratio": 0.96,
+      "health": 0.3941,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.8913,
-      "ema200": 0.89416,
-      "macd": -0.001461,
-      "macd_signal": -0.001369,
-      "rsi14": 46.9,
-      "atr14": 0.00134,
-      "atr14_hourly": 0.00485,
-      "bb_position": 0.462
+      "ema50": 0.89084,
+      "ema200": 0.89371,
+      "macd": -0.000457,
+      "macd_signal": -0.000384,
+      "rsi14": 37.9,
+      "atr14": 0.00121,
+      "atr14_hourly": 0.00539,
+      "bb_position": 0.248
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.124,
+      "percentile": 0.127,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172411
+  "data_bars": 172423
 }
