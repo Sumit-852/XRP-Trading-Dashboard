@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-09T23:01:14.744265+00:00",
+  "timestamp": "2026-08-10T00:01:16.372325+00:00",
   "signal": {
-    "price": 0.8974,
+    "price": 0.8906,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.259,
-    "hybrid_score": 2.3,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3723,
+    "hybrid_score": 4.2,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.041,
+      "score": -0.0,
       "bullish_pct": 25.0,
-      "bearish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.041,
-        "crypto_macro": 0.026,
-        "geopolitical": -0.264,
-        "fed_rates": 0.099
+        "xrp": 0.047,
+        "crypto_macro": 0.056,
+        "geopolitical": -0.209,
+        "fed_rates": 0.03
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move) - The Motley Fool",
-        "Is XRP a Millionaire-Maker Cryptocurrency? - The Motley Fool"
+        "Pacheco: New tariffs spark trade war fears with global partners - Albuquerque Journal",
+        "Can Europe stay united in China trade battle? Ceuta crisis offers a warning - South China Morning Post"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.52,
-      "health": 0.1746,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.47,
+      "health": -0.0167,
+      "vol_ratio": 0.36
     },
     "technicals": {
-      "ema50": 0.90049,
-      "ema200": 0.8998,
-      "macd": -0.00107,
-      "macd_signal": -0.000494,
-      "rsi14": 36.8,
-      "atr14": 0.00105,
-      "atr14_hourly": 0.00555,
-      "bb_position": 0.171
+      "ema50": 0.8973,
+      "ema200": 0.89895,
+      "macd": -0.002637,
+      "macd_signal": -0.002307,
+      "rsi14": 27.5,
+      "atr14": 0.0011,
+      "atr14_hourly": 0.00756,
+      "bb_position": 0.21
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.015,
+      "percentile": 0.017,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172231
+  "data_bars": 172243
 }
