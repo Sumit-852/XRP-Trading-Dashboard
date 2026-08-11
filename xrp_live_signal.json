@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-11T04:01:17.522941+00:00",
+  "timestamp": "2026-08-11T05:01:14.657579+00:00",
   "signal": {
-    "price": 0.8783,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8768,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1816,
-    "hybrid_score": 1.8,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.066,
-      "bullish_pct": 21.7,
-      "bearish_pct": 36.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": -0.021,
-        "crypto_macro": -0.046,
-        "geopolitical": -0.247,
-        "fed_rates": 0.009
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk",
-        "Hedge Funds Start To Bet On A Bitcoin Rally - finance.yahoo.com",
-        "China\u2019s trade growth surged amid strong external demand - ING THINK economic and financial analysis | ING THINK"
-      ],
-      "top_bearish": [
-        "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
-        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga",
-        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.69,
-      "health": -0.0303,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.87784,
-      "ema200": 0.88216,
-      "macd": 0.000113,
-      "macd_signal": 0.000115,
-      "rsi14": 54.4,
-      "atr14": 0.0005,
-      "atr14_hourly": 0.00227,
-      "bb_position": 0.794
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.071,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172579
+  "data_bars": 172591
 }
