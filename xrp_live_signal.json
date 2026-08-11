@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-11T22:01:24.033788+00:00",
+  "timestamp": "2026-08-11T23:01:36.480361+00:00",
   "signal": {
-    "price": 0.8877,
+    "price": 0.8839,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3946,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.3151,
+    "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.007,
+      "score": -0.003,
       "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.11,
-        "crypto_macro": -0.012,
-        "geopolitical": -0.321,
+        "crypto_macro": -0.056,
+        "geopolitical": -0.231,
         "fed_rates": 0.103
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - Bitcoin Foundation"
       ],
       "top_bearish": [
+        "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motl",
         "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
-        "US blockade would be 'worse than war' for Islamic Republic, trade official says - jpost.com",
         "Middle East War Pushes China Toward the Arctic Trade Route - Crude Oil Prices Today | OilPrice.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.06,
-      "health": 0.1138,
-      "vol_ratio": 0.06
+      "health": 0.0359,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.88054,
-      "ema200": 0.8765,
-      "macd": 0.002047,
-      "macd_signal": 0.001714,
-      "rsi14": 66.3,
-      "atr14": 0.0016,
-      "atr14_hourly": 0.00717,
-      "bb_position": 0.948
+      "ema50": 0.88191,
+      "ema200": 0.87736,
+      "macd": 0.000553,
+      "macd_signal": 0.000899,
+      "rsi14": 51.8,
+      "atr14": 0.001,
+      "atr14_hourly": 0.0061,
+      "bb_position": 0.344
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.222,
+      "percentile": 0.219,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172795
+  "data_bars": 172807
 }
