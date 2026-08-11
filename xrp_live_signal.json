@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-11T05:01:14.657579+00:00",
+  "timestamp": "2026-08-11T06:01:23.748001+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.8768,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8744,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2748,
+    "hybrid_score": 2.3,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.091,
+      "bullish_pct": 20.0,
+      "bearish_pct": 40.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": -0.051,
+        "crypto_macro": -0.092,
+        "geopolitical": -0.248,
+        "fed_rates": 0.009
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - Bitcoin Magazine",
+        "Hedge Funds Start To Bet On A Bitcoin Rally - Yahoo Finance",
+        "China\u2019s trade growth surged amid strong external demand - ING THINK economic and financial analysis | ING THINK"
+      ],
+      "top_bearish": [
+        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off Soon' as Risk 'P",
+        "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
+        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - benzinga.com"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.72,
+      "health": -0.0058,
+      "vol_ratio": 0.22
+    },
+    "technicals": {
+      "ema50": 0.87717,
+      "ema200": 0.88105,
+      "macd": -0.000591,
+      "macd_signal": -0.000383,
+      "rsi14": 33.2,
+      "atr14": 0.0006,
+      "atr14_hourly": 0.00221,
+      "bb_position": -0.082
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.068,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172591
+  "data_bars": 172603
 }
