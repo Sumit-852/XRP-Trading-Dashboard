@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-11T17:01:27.052111+00:00",
+  "timestamp": "2026-08-11T18:01:20.045119+00:00",
   "signal": {
-    "price": 0.8753,
+    "price": 0.879,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3723,
-    "hybrid_score": 4.2,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3587,
+    "hybrid_score": 4.1,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.032,
-      "bullish_pct": 31.7,
-      "bearish_pct": 40.0,
+      "score": -0.02,
+      "bullish_pct": 30.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.039,
-        "crypto_macro": 0.019,
+        "xrp": 0.138,
+        "crypto_macro": -0.082,
         "geopolitical": -0.297,
-        "fed_rates": 0.023
+        "fed_rates": 0.058
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
-        "Ripple (XRP) ETFs Record Another Green Week but Fresh Concerns Surface - CryptoPotato",
-        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - bitcoinfoundation.org"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
+        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - bitcoinfoundation.org",
+        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance"
       ],
       "top_bearish": [
-        "XRP Price Drops To Its Lowest Level Since 2024 After Bitcoin\u2019s Fourth Failed Attempt To Hold Above $64K - Yahoo Finance",
-        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga",
-        "Could Bitcoin really crash to $20,000? Analyst says watch out for 2027 - thestreet.com"
+        "XRP Price Drops To Its Lowest Level Since 2024 After Bitcoin\u2019s Fourth Failed Attempt To Hold Above $64K - Stocktwits",
+        "Could Bitcoin really crash to $20,000? Analyst says watch out for 2027 - thestreet.com",
+        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.95,
-      "health": 0.5091,
-      "vol_ratio": 0.25
+      "up_down_ratio": 1.01,
+      "health": 0.3063,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.87079,
-      "ema200": 0.8736,
-      "macd": 0.001414,
-      "macd_signal": 0.000835,
-      "rsi14": 65.3,
-      "atr14": 0.00198,
-      "atr14_hourly": 0.00973,
-      "bb_position": 0.914
+      "ema50": 0.87352,
+      "ema200": 0.87407,
+      "macd": 0.002232,
+      "macd_signal": 0.002115,
+      "rsi14": 67.3,
+      "atr14": 0.00169,
+      "atr14_hourly": 0.00801,
+      "bb_position": 0.781
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.165,
+      "percentile": 0.171,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172735
+  "data_bars": 172747
 }
