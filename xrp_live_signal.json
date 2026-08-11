@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-11T10:01:19.410295+00:00",
+  "timestamp": "2026-08-11T11:01:22.107370+00:00",
   "signal": {
-    "price": 0.8724,
+    "price": 0.8722,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1876,
-    "hybrid_score": 1.8,
+    "xgb_prob": 0.3029,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.094,
-      "bullish_pct": 23.3,
-      "bearish_pct": 43.3,
+      "score": -0.093,
+      "bullish_pct": 25.0,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.034,
-        "crypto_macro": -0.171,
-        "geopolitical": -0.335,
-        "fed_rates": 0.04
+        "xrp": 0.049,
+        "crypto_macro": -0.154,
+        "geopolitical": -0.421,
+        "fed_rates": 0.082
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
         "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - Bitcoin Magazine",
-        "China\u2019s trade growth surged amid strong external demand - ING THINK economic and financial analysis | ING THINK"
+        "Will Bitcoin Price Hit $70K or Fall to $50K Before Clarity Act Decision? - CoinGape"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off Soon' as Risk 'P",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.6,
-      "health": -0.2247,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.57,
+      "health": -0.2194,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 0.87199,
-      "ema200": 0.87727,
-      "macd": 0.000261,
-      "macd_signal": 2e-05,
-      "rsi14": 58.0,
-      "atr14": 0.00077,
-      "atr14_hourly": 0.0032,
-      "bb_position": 0.848
+      "ema50": 0.87134,
+      "ema200": 0.87647,
+      "macd": -2.1e-05,
+      "macd_signal": -0.00022,
+      "rsi14": 57.2,
+      "atr14": 0.00099,
+      "atr14_hourly": 0.00392,
+      "bb_position": 0.783
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.075,
+      "percentile": 0.084,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172651
+  "data_bars": 172663
 }
