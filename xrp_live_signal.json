@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-11T08:01:21.011317+00:00",
+  "timestamp": "2026-08-11T09:01:23.065610+00:00",
   "signal": {
-    "price": 0.8706,
+    "price": 0.8711,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3404,
-    "hybrid_score": 2.7,
+    "xgb_prob": 0.2949,
+    "hybrid_score": 2.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BEARISH",
-      "score": -0.113,
-      "bullish_pct": 20.0,
-      "bearish_pct": 43.3,
+      "sentiment": "NEUTRAL",
+      "score": -0.098,
+      "bullish_pct": 23.3,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.051,
+        "xrp": 0.032,
         "crypto_macro": -0.161,
-        "geopolitical": -0.28,
-        "fed_rates": 0.04
+        "geopolitical": -0.335,
+        "fed_rates": 0.0
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - bitcoinmagazine.com",
-        "China\u2019s trade growth surged amid strong external demand - think.ing.com",
-        "Bitcoin Trading Takes Large Share of July Crypto Volume -- Market Talk - Moomoo"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
+        "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - Bitcoin Magazine",
+        "China\u2019s trade growth surged amid strong external demand - think.ing.com"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off Soon' as Risk 'P",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.59,
-      "health": -0.172,
-      "vol_ratio": 0.17
+      "up_down_ratio": 0.64,
+      "health": -0.0751,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 0.87345,
-      "ema200": 0.879,
-      "macd": -0.001201,
-      "macd_signal": -0.0014,
-      "rsi14": 42.6,
-      "atr14": 0.00098,
-      "atr14_hourly": 0.00473,
-      "bb_position": 0.454
+      "ema50": 0.87224,
+      "ema200": 0.878,
+      "macd": -0.000452,
+      "macd_signal": -0.000781,
+      "rsi14": 50.8,
+      "atr14": 0.00092,
+      "atr14_hourly": 0.0038,
+      "bb_position": 0.777
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172627
+  "data_bars": 172639
 }
