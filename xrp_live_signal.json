@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-11T13:01:30.067224+00:00",
+  "timestamp": "2026-08-11T14:01:30.720406+00:00",
   "signal": {
-    "price": 0.8701,
+    "price": 0.8738,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.323,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.3833,
+    "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.033,
+      "score": -0.032,
       "bullish_pct": 26.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.118,
-        "crypto_macro": -0.114,
-        "geopolitical": -0.28,
-        "fed_rates": 0.06
+        "xrp": 0.09,
+        "crypto_macro": -0.089,
+        "geopolitical": -0.277,
+        "fed_rates": 0.083
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
         "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
-        "Clarity Act Sees Major Breakthrough as Senate Sets First Procedural Vote for Sept. 15 - TradingKey"
+        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - Bitcoin Foundation"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga",
-        "Bitcoin price loses $64K as Ether and XRP lead losses - crypto.news",
-        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ"
+        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga",
+        "Bitcoin price loses $64K as Ether and XRP lead losses - Crypto News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.84,
-      "health": 0.2873,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.94,
+      "health": 0.344,
+      "vol_ratio": 1.34
     },
     "technicals": {
       "ema50": 0.87179,
-      "ema200": 0.87559,
-      "macd": -0.000497,
-      "macd_signal": -0.00011,
-      "rsi14": 40.1,
-      "atr14": 0.00082,
-      "atr14_hourly": 0.00372,
-      "bb_position": 0.134
+      "ema200": 0.87515,
+      "macd": 0.000265,
+      "macd_signal": -7.3e-05,
+      "rsi14": 58.8,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.0042,
+      "bb_position": 1.023
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172687
+  "data_bars": 172699
 }
