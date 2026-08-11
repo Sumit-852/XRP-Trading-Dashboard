@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-11T00:01:25.195767+00:00",
+  "timestamp": "2026-08-11T01:01:32.699567+00:00",
   "signal": {
-    "price": 0.875,
+    "price": 0.8763,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3366,
-    "hybrid_score": 2.8,
+    "xgb_prob": 0.2512,
+    "hybrid_score": 2.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.01,
+      "score": -0.022,
       "bullish_pct": 30.0,
-      "bearish_pct": 28.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.002,
-        "crypto_macro": 0.038,
-        "geopolitical": -0.16,
+        "xrp": 0.016,
+        "crypto_macro": 0.026,
+        "geopolitical": -0.24,
         "fed_rates": 0.062
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - Benzinga",
-        "China's exports growth beats estimates in July, as AI-driven shipments surge - CNBC"
+        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - benzinga.com",
+        "China\u2019s trade growth surged amid strong external demand - ING THINK economic and financial analysis | ING THINK"
       ],
       "top_bearish": [
         "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.73,
-      "health": 0.0174,
-      "vol_ratio": 3.26
+      "up_down_ratio": 0.72,
+      "health": -0.0641,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 0.87846,
-      "ema200": 0.88506,
-      "macd": -0.00082,
-      "macd_signal": -0.001014,
-      "rsi14": 39.4,
-      "atr14": 0.00106,
-      "atr14_hourly": 0.00522,
-      "bb_position": 0.323
+      "ema50": 0.87733,
+      "ema200": 0.88398,
+      "macd": -0.000351,
+      "macd_signal": -0.000587,
+      "rsi14": 51.4,
+      "atr14": 0.00084,
+      "atr14_hourly": 0.00382,
+      "bb_position": 0.709
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.192,
+      "percentile": 0.153,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172531
+  "data_bars": 172543
 }
