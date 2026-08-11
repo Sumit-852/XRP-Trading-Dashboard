@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-11T20:01:21.339531+00:00",
+  "timestamp": "2026-08-11T21:01:25.885206+00:00",
   "signal": {
-    "price": 0.8796,
+    "price": 0.8811,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.357,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3905,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
-      "bullish_pct": 38.3,
-      "bearish_pct": 35.0,
+      "score": 0.003,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.164,
-        "crypto_macro": -0.053,
+        "xrp": 0.118,
+        "crypto_macro": -0.046,
         "geopolitical": -0.285,
-        "fed_rates": 0.16
+        "fed_rates": 0.175
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
-        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - finance.yahoo.com"
+        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance",
+        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - Bitcoin Foundation"
       ],
       "top_bearish": [
         "Could Bitcoin really crash to $20,000? Analyst says watch out for 2027 - thestreet.com",
         "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
-        "US blockade would be 'worse than war' for Islamic Republic, trade official says - jpost.com"
+        "US blockade would be 'worse than war' for Islamic Republic, trade official says - The Jerusalem Post"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": 0.4259,
-      "vol_ratio": 0.77
+      "up_down_ratio": 1.01,
+      "health": 0.2878,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.87559,
-      "ema200": 0.87466,
-      "macd": 0.000717,
-      "macd_signal": 0.000414,
-      "rsi14": 63.5,
-      "atr14": 0.0014,
-      "atr14_hourly": 0.00616,
-      "bb_position": 1.055
+      "ema50": 0.87786,
+      "ema200": 0.87545,
+      "macd": 0.001133,
+      "macd_signal": 0.001262,
+      "rsi14": 56.3,
+      "atr14": 0.00131,
+      "atr14_hourly": 0.00841,
+      "bb_position": 0.602
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.188,
+      "percentile": 0.24,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172771
+  "data_bars": 172783
 }
