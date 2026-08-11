@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-11T07:01:15.312901+00:00",
+  "timestamp": "2026-08-11T08:01:21.011317+00:00",
   "signal": {
-    "price": 0.8715,
+    "price": 0.8706,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3459,
-    "hybrid_score": 2.8,
+    "xgb_prob": 0.3404,
+    "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.092,
-      "bullish_pct": 21.7,
-      "bearish_pct": 41.7,
+      "sentiment": "BEARISH",
+      "score": -0.113,
+      "bullish_pct": 20.0,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": -0.051,
-        "crypto_macro": -0.089,
-        "geopolitical": -0.284,
+        "crypto_macro": -0.161,
+        "geopolitical": -0.28,
         "fed_rates": 0.04
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - Bitcoin Magazine",
-        "Hedge Funds Start To Bet On A Bitcoin Rally - Yahoo Finance",
-        "China\u2019s trade growth surged amid strong external demand - ING THINK economic and financial analysis | ING THINK"
+        "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - bitcoinmagazine.com",
+        "China\u2019s trade growth surged amid strong external demand - think.ing.com",
+        "Bitcoin Trading Takes Large Share of July Crypto Volume -- Market Talk - Moomoo"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off Soon' as Risk 'P",
         "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
-        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga"
+        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - benzinga.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.59,
-      "health": -0.1897,
-      "vol_ratio": 0.04
+      "health": -0.172,
+      "vol_ratio": 0.17
     },
     "technicals": {
-      "ema50": 0.87538,
-      "ema200": 0.8801,
-      "macd": -0.001637,
-      "macd_signal": -0.00132,
-      "rsi14": 35.5,
-      "atr14": 0.00105,
-      "atr14_hourly": 0.00492,
-      "bb_position": 0.238
+      "ema50": 0.87345,
+      "ema200": 0.879,
+      "macd": -0.001201,
+      "macd_signal": -0.0014,
+      "rsi14": 42.6,
+      "atr14": 0.00098,
+      "atr14_hourly": 0.00473,
+      "bb_position": 0.454
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.073,
+      "percentile": 0.076,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172615
+  "data_bars": 172627
 }
