@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-11T14:01:30.720406+00:00",
+  "timestamp": "2026-08-11T15:01:39.692323+00:00",
   "signal": {
-    "price": 0.8738,
+    "price": 0.862,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3833,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.4431,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.032,
-      "bullish_pct": 26.7,
-      "bearish_pct": 38.3,
+      "score": -0.008,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.09,
-        "crypto_macro": -0.089,
-        "geopolitical": -0.277,
-        "fed_rates": 0.083
+        "xrp": 0.104,
+        "crypto_macro": -0.044,
+        "geopolitical": -0.267,
+        "fed_rates": 0.107
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
+        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - cryptobriefing.com",
         "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - Bitcoin Foundation"
       ],
       "top_bearish": [
         "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga",
-        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga",
-        "Bitcoin price loses $64K as Ether and XRP lead losses - Crypto News"
+        "Bitcoin price loses $64K as Ether and XRP lead losses - Crypto News",
+        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.94,
-      "health": 0.344,
-      "vol_ratio": 1.34
+      "up_down_ratio": 0.67,
+      "health": 0.1656,
+      "vol_ratio": 1.93
     },
     "technicals": {
-      "ema50": 0.87179,
-      "ema200": 0.87515,
-      "macd": 0.000265,
-      "macd_signal": -7.3e-05,
-      "rsi14": 58.8,
-      "atr14": 0.00146,
-      "atr14_hourly": 0.0042,
-      "bb_position": 1.023
+      "ema50": 0.87063,
+      "ema200": 0.87448,
+      "macd": -0.001986,
+      "macd_signal": -0.000769,
+      "rsi14": 28.6,
+      "atr14": 0.00228,
+      "atr14_hourly": 0.00746,
+      "bb_position": -0.044
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.091,
-      "extreme": true
+      "percentile": 0.128,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172699
+  "data_bars": 172711
 }
