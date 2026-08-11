@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-11T11:01:22.107370+00:00",
+  "timestamp": "2026-08-11T12:01:17.065183+00:00",
   "signal": {
-    "price": 0.8722,
+    "price": 0.8733,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3029,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.2467,
+    "hybrid_score": 2.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.093,
-      "bullish_pct": 25.0,
-      "bearish_pct": 45.0,
+      "score": -0.05,
+      "bullish_pct": 26.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.049,
-        "crypto_macro": -0.154,
-        "geopolitical": -0.421,
-        "fed_rates": 0.082
+        "xrp": 0.115,
+        "crypto_macro": -0.168,
+        "geopolitical": -0.28,
+        "fed_rates": 0.06
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - Bitcoin Magazine",
-        "Will Bitcoin Price Hit $70K or Fall to $50K Before Clarity Act Decision? - CoinGape"
+        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
+        "Clarity Act Sees Major Breakthrough as Senate Sets First Procedural Vote for Sept. 15 - TradingKey"
       ],
       "top_bearish": [
-        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off Soon' as Risk 'P",
-        "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
-        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga"
+        "XRP Price Drops To Its Lowest Level Since 2024 After Bitcoin\u2019s Fourth Failed Attempt To Hold Above $64K - Stocktwits",
+        "Bitcoin, Ethereum, XRP Dip, but Dogecoin Gains as US-Iran Tensions Persist: Analyst Says 'Next Sell-Off S - Benzinga",
+        "Bitcoin price loses $64K as Ether and XRP lead losses - Crypto News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.57,
-      "health": -0.2194,
-      "vol_ratio": 0.25
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.71,
+      "health": 0.1463,
+      "vol_ratio": 0.17
     },
     "technicals": {
-      "ema50": 0.87134,
-      "ema200": 0.87647,
-      "macd": -2.1e-05,
-      "macd_signal": -0.00022,
-      "rsi14": 57.2,
-      "atr14": 0.00099,
-      "atr14_hourly": 0.00392,
-      "bb_position": 0.783
+      "ema50": 0.87213,
+      "ema200": 0.87613,
+      "macd": 0.000685,
+      "macd_signal": 0.000614,
+      "rsi14": 56.2,
+      "atr14": 0.00082,
+      "atr14_hourly": 0.0043,
+      "bb_position": 0.655
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.084,
+      "percentile": 0.089,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172663
+  "data_bars": 172675
 }
