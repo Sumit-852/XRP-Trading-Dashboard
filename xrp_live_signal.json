@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-11T01:01:32.699567+00:00",
+  "timestamp": "2026-08-11T02:01:26.045810+00:00",
   "signal": {
-    "price": 0.8763,
+    "price": 0.8787,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2512,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.1788,
+    "hybrid_score": 1.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.022,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": -0.056,
+      "bullish_pct": 25.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.016,
-        "crypto_macro": 0.026,
+        "xrp": -0.033,
+        "crypto_macro": -0.012,
         "geopolitical": -0.24,
-        "fed_rates": 0.062
+        "fed_rates": 0.026
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "Bitcoin Gains, Ethereum, XRP, Dogecoin Slide as US-Iran Standoff Continues: Analyst Says BTC 'Ready for a - benzinga.com",
+        "TD Cowen Gives Crypto Clarity Act A 25% Chance Of Passing This Fall - Bitcoin Magazine",
+        "Hedge Funds Start To Bet On A Bitcoin Rally - Yahoo Finance",
         "China\u2019s trade growth surged amid strong external demand - ING THINK economic and financial analysis | ING THINK"
       ],
       "top_bearish": [
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.72,
-      "health": -0.0641,
-      "vol_ratio": 0.11
+      "health": -0.0592,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.87733,
-      "ema200": 0.88398,
-      "macd": -0.000351,
-      "macd_signal": -0.000587,
-      "rsi14": 51.4,
-      "atr14": 0.00084,
-      "atr14_hourly": 0.00382,
-      "bb_position": 0.709
+      "ema50": 0.87751,
+      "ema200": 0.88327,
+      "macd": 0.000592,
+      "macd_signal": 0.000326,
+      "rsi14": 62.1,
+      "atr14": 0.00076,
+      "atr14_hourly": 0.00363,
+      "bb_position": 0.837
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.153,
+      "percentile": 0.121,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172543
+  "data_bars": 172555
 }
