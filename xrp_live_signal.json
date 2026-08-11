@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-11T18:01:20.045119+00:00",
+  "timestamp": "2026-08-11T19:01:23.305819+00:00",
   "signal": {
-    "price": 0.879,
+    "price": 0.8768,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3587,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.279,
+    "hybrid_score": 3.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.02,
-      "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "score": 0.03,
+      "bullish_pct": 40.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.138,
-        "crypto_macro": -0.082,
-        "geopolitical": -0.297,
-        "fed_rates": 0.058
+        "xrp": 0.192,
+        "crypto_macro": -0.026,
+        "geopolitical": -0.285,
+        "fed_rates": 0.131
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
-        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - bitcoinfoundation.org",
-        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance"
+        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
+        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - Bitcoin Foundation"
       ],
       "top_bearish": [
-        "XRP Price Drops To Its Lowest Level Since 2024 After Bitcoin\u2019s Fourth Failed Attempt To Hold Above $64K - Stocktwits",
         "Could Bitcoin really crash to $20,000? Analyst says watch out for 2027 - thestreet.com",
-        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ"
+        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
+        "US blockade would be 'worse than war' for Islamic Republic, trade official says - The Jerusalem Post"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.01,
-      "health": 0.3063,
-      "vol_ratio": 0.1
+      "up_down_ratio": 0.92,
+      "health": -0.1945,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.87352,
-      "ema200": 0.87407,
-      "macd": 0.002232,
-      "macd_signal": 0.002115,
-      "rsi14": 67.3,
-      "atr14": 0.00169,
-      "atr14_hourly": 0.00801,
-      "bb_position": 0.781
+      "ema50": 0.87476,
+      "ema200": 0.87439,
+      "macd": 0.000494,
+      "macd_signal": 0.000917,
+      "rsi14": 53.6,
+      "atr14": 0.00145,
+      "atr14_hourly": 0.00805,
+      "bb_position": 0.364
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.171,
+      "percentile": 0.179,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172747
+  "data_bars": 172759
 }
