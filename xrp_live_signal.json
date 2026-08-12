@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-12T01:01:27.617775+00:00",
+  "timestamp": "2026-08-12T02:01:21.138385+00:00",
   "signal": {
-    "price": 0.8853,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.886,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3091,
-    "hybrid_score": 3.9,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.01,
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.04,
-        "crypto_macro": 0.052,
-        "geopolitical": -0.208,
-        "fed_rates": 0.125
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance",
-        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk",
-        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands - CNBC"
-      ],
-      "top_bearish": [
-        "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motl",
-        "Middle East War Pushes China Toward the Arctic Trade Route - Crude Oil Prices Today | OilPrice.com",
-        "US export controls achieving no strategic gain, hurting American firms: survey - South China Morning Post"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.07,
-      "health": 0.1172,
-      "vol_ratio": 0.01
-    },
-    "technicals": {
-      "ema50": 0.88358,
-      "ema200": 0.87889,
-      "macd": 0.000282,
-      "macd_signal": 0.000304,
-      "rsi14": 56.4,
-      "atr14": 0.00069,
-      "atr14_hourly": 0.00319,
-      "bb_position": 0.68
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.216,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172831
+  "data_bars": 172843
 }
