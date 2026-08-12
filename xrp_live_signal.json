@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-12T05:01:22.476246+00:00",
+  "timestamp": "2026-08-12T06:01:33.414223+00:00",
   "signal": {
-    "price": 0.8837,
+    "price": 0.8854,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2519,
-    "hybrid_score": 3.5,
+    "xgb_prob": 0.2152,
+    "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.006,
-      "bullish_pct": 36.7,
-      "bearish_pct": 33.3,
+      "score": -0.011,
+      "bullish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.074,
-        "crypto_macro": -0.046,
-        "geopolitical": -0.175,
-        "fed_rates": 0.17
+        "crypto_macro": -0.03,
+        "geopolitical": -0.181,
+        "fed_rates": 0.028
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,7 +30,7 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - cryptobriefing.com",
+        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
         "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance",
         "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands - CNBC"
       ],
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": 0.1079,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.18,
+      "health": 0.089,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.8841,
-      "ema200": 0.88103,
-      "macd": -0.000182,
-      "macd_signal": -0.000223,
-      "rsi14": 47.5,
-      "atr14": 0.00059,
-      "atr14_hourly": 0.00226,
-      "bb_position": 0.434
+      "ema50": 0.88457,
+      "ema200": 0.88152,
+      "macd": 0.000393,
+      "macd_signal": 0.000303,
+      "rsi14": 56.2,
+      "atr14": 0.0005,
+      "atr14_hourly": 0.00283,
+      "bb_position": 0.689
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.227,
+      "percentile": 0.22,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172879
+  "data_bars": 172891
 }
