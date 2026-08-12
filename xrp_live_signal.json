@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-12T17:01:25.168527+00:00",
+  "timestamp": "2026-08-12T18:01:27.902770+00:00",
   "signal": {
-    "price": 0.8744,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8757,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2699,
-    "hybrid_score": 3.6,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.046,
-      "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": -0.052,
-        "crypto_macro": -0.113,
-        "geopolitical": -0.081,
-        "fed_rates": 0.149
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP Network Activity Jumps 84% but ETFs See Zero Inflows: What's Going On? - Benzinga",
-        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
-        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk"
-      ],
-      "top_bearish": [
-        "XRP Price Drops Below $1 After Coreum Bridge Hack. First-Time Since 2024 - BeInCrypto",
-        "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
-        "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motl"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": -0.4414,
-      "vol_ratio": 0.17
-    },
-    "technicals": {
-      "ema50": 0.87718,
-      "ema200": 0.88039,
-      "macd": -0.000669,
-      "macd_signal": -0.000534,
-      "rsi14": 39.7,
-      "atr14": 0.00082,
-      "atr14_hourly": 0.00356,
-      "bb_position": 0.115
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.116,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173023
+  "data_bars": 173035
 }
