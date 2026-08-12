@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-12T06:01:33.414223+00:00",
+  "timestamp": "2026-08-12T07:01:24.752914+00:00",
   "signal": {
-    "price": 0.8854,
+    "price": 0.883,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2152,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.2656,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.011,
-      "bullish_pct": 33.3,
+      "score": -0.01,
+      "bullish_pct": 35.0,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.074,
-        "crypto_macro": -0.03,
+        "xrp": 0.013,
+        "crypto_macro": 0.037,
         "geopolitical": -0.181,
-        "fed_rates": 0.028
+        "fed_rates": 0.052
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
         "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance",
-        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands - CNBC"
+        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - Bitcoin Foundation"
       ],
       "top_bearish": [
+        "Attacker Drains Nearly 200,000 XRP From Coreum Bridge After Fake Deposit Trick: 11 outlets compared - NewsCord",
         "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motl",
-        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
-        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ"
+        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.18,
-      "health": 0.089,
+      "health": 0.0884,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.88457,
-      "ema200": 0.88152,
-      "macd": 0.000393,
-      "macd_signal": 0.000303,
-      "rsi14": 56.2,
-      "atr14": 0.0005,
-      "atr14_hourly": 0.00283,
-      "bb_position": 0.689
+      "ema50": 0.88394,
+      "ema200": 0.88168,
+      "macd": -0.00044,
+      "macd_signal": -0.00035,
+      "rsi14": 44.3,
+      "atr14": 0.00059,
+      "atr14_hourly": 0.00339,
+      "bb_position": 0.329
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.22,
+      "percentile": 0.214,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172891
+  "data_bars": 172903
 }
