@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-12T02:01:21.138385+00:00",
+  "timestamp": "2026-08-12T03:01:30.040666+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.886,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8847,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.3208,
+    "hybrid_score": 5.2,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.011,
+      "bullish_pct": 33.3,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.077,
+        "crypto_macro": -0.028,
+        "geopolitical": -0.181,
+        "fed_rates": 0.161
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
+        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance",
+        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands - CNBC"
+      ],
+      "top_bearish": [
+        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
+        "Middle East War Pushes China Toward the Arctic Trade Route - Crude Oil Prices Today | OilPrice.com",
+        "US export controls achieving no strategic gain, hurting American firms: survey - South China Morning Post"
+      ]
+    },
+    "vpa": {
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.15,
+      "health": 0.0884,
+      "vol_ratio": 1.29
+    },
+    "technicals": {
+      "ema50": 0.88459,
+      "ema200": 0.88028,
+      "macd": -0.000323,
+      "macd_signal": -0.000185,
+      "rsi14": 48.7,
+      "atr14": 0.00083,
+      "atr14_hourly": 0.00379,
+      "bb_position": 0.394
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.225,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172843
+  "data_bars": 172855
 }
