@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-12T14:01:25.472002+00:00",
+  "timestamp": "2026-08-12T15:01:34.045900+00:00",
   "signal": {
-    "price": 0.8773,
+    "price": 0.8735,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4293,
+    "xgb_prob": 0.418,
     "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.039,
-      "bullish_pct": 23.3,
-      "bearish_pct": 30.0,
+      "score": -0.062,
+      "bullish_pct": 28.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.051,
-        "crypto_macro": -0.09,
-        "geopolitical": -0.022,
-        "fed_rates": 0.069
+        "xrp": -0.053,
+        "crypto_macro": -0.111,
+        "geopolitical": -0.135,
+        "fed_rates": 0.103
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
-        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - finance.yahoo.com",
-        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk"
+        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance",
+        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - coindesk.com"
       ],
       "top_bearish": [
-        "XRP Price Drops Below $1 After Coreum Bridge Hack. First-Time Since 2024 - beincrypto.com",
-        "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motl",
-        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - ambcrypto.com"
+        "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - coindesk.com",
+        "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea' - TradingView",
+        "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motl"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": -0.0769,
-      "vol_ratio": 0.32
+      "up_down_ratio": 1.07,
+      "health": -0.0299,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.88175,
-      "ema200": 0.88236,
-      "macd": -0.001548,
-      "macd_signal": -0.001474,
-      "rsi14": 33.1,
-      "atr14": 0.00128,
-      "atr14_hourly": 0.00594,
-      "bb_position": 0.229
+      "ema50": 0.87949,
+      "ema200": 0.88163,
+      "macd": -0.001648,
+      "macd_signal": -0.001531,
+      "rsi14": 32.7,
+      "atr14": 0.00158,
+      "atr14_hourly": 0.00579,
+      "bb_position": -0.044
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.203,
+      "percentile": 0.157,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172987
+  "data_bars": 172999
 }
