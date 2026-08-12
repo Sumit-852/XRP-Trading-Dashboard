@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-12T00:01:37.227212+00:00",
+  "timestamp": "2026-08-12T01:01:27.617775+00:00",
   "signal": {
-    "price": 0.8852,
+    "price": 0.8853,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3028,
-    "hybrid_score": 3.8,
+    "xgb_prob": 0.3091,
+    "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.005,
+      "score": 0.01,
       "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.11,
-        "crypto_macro": -0.03,
-        "geopolitical": -0.242,
+        "xrp": 0.04,
+        "crypto_macro": 0.052,
+        "geopolitical": -0.208,
         "fed_rates": 0.125
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC bulls strengthen, ETH eyes breakout, XRP rebounds - FXStreet",
         "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance",
-        "SEC Moves Toward Landmark \u2018Regulation Crypto\u2019 Framework for Digital Asset Offerings - bitcoinfoundation.org"
+        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk",
+        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands - CNBC"
       ],
       "top_bearish": [
         "Crypto Market Today, Aug. 11: Macro Worries Pull Bitcoin Below $64,000 and the SEC May Have a Regulatory Plan - The Motl",
-        "How the AI Trade Is Stealing Crypto\u2019s Thunder - WSJ",
-        "Middle East War Pushes China Toward the Arctic Trade Route - Crude Oil Prices Today | OilPrice.com"
+        "Middle East War Pushes China Toward the Arctic Trade Route - Crude Oil Prices Today | OilPrice.com",
+        "US export controls achieving no strategic gain, hurting American firms: survey - South China Morning Post"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.07,
-      "health": 0.1654,
+      "health": 0.1172,
       "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 0.88288,
-      "ema200": 0.87815,
-      "macd": 0.000603,
-      "macd_signal": 0.00049,
-      "rsi14": 56.6,
-      "atr14": 0.00086,
-      "atr14_hourly": 0.00449,
-      "bb_position": 0.724
+      "ema50": 0.88358,
+      "ema200": 0.87889,
+      "macd": 0.000282,
+      "macd_signal": 0.000304,
+      "rsi14": 56.4,
+      "atr14": 0.00069,
+      "atr14_hourly": 0.00319,
+      "bb_position": 0.68
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 172819
+  "data_bars": 172831
 }
