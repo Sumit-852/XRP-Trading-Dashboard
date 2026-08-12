@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-12T16:01:33.579076+00:00",
+  "timestamp": "2026-08-12T17:01:25.168527+00:00",
   "signal": {
-    "price": 0.8767,
+    "price": 0.8744,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2873,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.2699,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.042,
-      "bullish_pct": 23.3,
+      "score": -0.046,
+      "bullish_pct": 28.3,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.024,
-        "crypto_macro": -0.09,
-        "geopolitical": -0.101,
-        "fed_rates": 0.079
+        "xrp": -0.052,
+        "crypto_macro": -0.113,
+        "geopolitical": -0.081,
+        "fed_rates": 0.149
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Network Activity Jumps 84% but ETFs See Zero Inflows: What's Going On? - Benzinga",
-        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - cryptobriefing.com",
-        "XRP Price Prediction: Ripple Sits at 18-Month Support Level, Will $1 Hold? - Yahoo Finance"
+        "XRP open interest jumps $171M amid Ripple-SEC settlement dismissal - Crypto Briefing",
+        "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money - CoinDesk"
       ],
       "top_bearish": [
         "XRP Price Drops Below $1 After Coreum Bridge Hack. First-Time Since 2024 - BeInCrypto",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": -0.3756,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.97,
+      "health": -0.4414,
+      "vol_ratio": 0.17
     },
     "technicals": {
-      "ema50": 0.87823,
-      "ema200": 0.88101,
-      "macd": -0.000502,
-      "macd_signal": -0.000837,
-      "rsi14": 49.4,
-      "atr14": 0.00105,
-      "atr14_hourly": 0.00487,
-      "bb_position": 0.696
+      "ema50": 0.87718,
+      "ema200": 0.88039,
+      "macd": -0.000669,
+      "macd_signal": -0.000534,
+      "rsi14": 39.7,
+      "atr14": 0.00082,
+      "atr14_hourly": 0.00356,
+      "bb_position": 0.115
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.12,
+      "percentile": 0.116,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173011
+  "data_bars": 173023
 }
