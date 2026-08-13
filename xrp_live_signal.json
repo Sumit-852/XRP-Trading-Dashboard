@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-13T17:01:37.310015+00:00",
+  "timestamp": "2026-08-13T18:01:29.321438+00:00",
   "signal": {
-    "price": 0.8711,
+    "price": 0.8725,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2889,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.2236,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.042,
-      "bullish_pct": 25.0,
-      "bearish_pct": 33.3,
+      "score": -0.014,
+      "bullish_pct": 28.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.038,
-        "crypto_macro": -0.075,
-        "geopolitical": -0.166,
-        "fed_rates": 0.17
+        "xrp": 0.013,
+        "crypto_macro": -0.028,
+        "geopolitical": -0.225,
+        "fed_rates": 0.209
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 24/7 Wall St.",
+        "XRP Network Activity Is Rising but User Growth Stalls: What Is Going On? - Benzinga",
         "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - Yahoo Finance",
-        "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - Barron's"
+        "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - barrons.com"
       ],
       "top_bearish": [
         "Crypto Market Update August 13: Bitcoin Slips Despite Lower Fed Hike Odds but HYPE Defies Bearish Sentiment - CoinGape",
-        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
+        "Balochistan\u2019s dangerous fuel trade is a lifeline. The Iran war is choking it - Middle East Eye",
         "Here's why Bitcoin, Ethereum, XRP recovery is sluggish - FXStreet"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.94,
-      "health": 0.0541,
-      "vol_ratio": 0.06
+      "up_down_ratio": 1.14,
+      "health": 0.2273,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.87135,
-      "ema200": 0.8736,
-      "macd": -0.000491,
-      "macd_signal": -0.000666,
-      "rsi14": 51.2,
-      "atr14": 0.00173,
-      "atr14_hourly": 0.00625,
-      "bb_position": 0.653
+      "ema50": 0.87184,
+      "ema200": 0.87349,
+      "macd": 0.000478,
+      "macd_signal": 0.000329,
+      "rsi14": 53.4,
+      "atr14": 0.00109,
+      "atr14_hourly": 0.00599,
+      "bb_position": 0.648
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173311
+  "data_bars": 173323
 }
