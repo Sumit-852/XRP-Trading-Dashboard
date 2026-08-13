@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-13T20:01:25.499296+00:00",
+  "timestamp": "2026-08-13T21:01:30.476936+00:00",
   "signal": {
-    "price": 0.8754,
+    "price": 0.8745,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1927,
+    "xgb_prob": 0.189,
     "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.047,
-      "bullish_pct": 26.7,
-      "bearish_pct": 33.3,
+      "score": -0.073,
+      "bullish_pct": 23.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.042,
-        "crypto_macro": -0.09,
-        "geopolitical": -0.201,
+        "xrp": -0.059,
+        "crypto_macro": -0.108,
+        "geopolitical": -0.278,
         "fed_rates": 0.221
       },
       "geo_shock": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "XRP Network Activity Is Rising but User Growth Stalls: What Is Going On? - Benzinga",
         "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - Barron's",
-        "SWIFT, XRP and XLM Face a New Cross-Border Challenger as BRICS Pay Nears Launch - CCN.com"
+        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands - cnbc.com"
       ],
       "top_bearish": [
         "Crypto Market Update August 13: Bitcoin Slips Despite Lower Fed Hike Odds but HYPE Defies Bearish Sentiment - CoinGape",
         "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-        "Here's why Bitcoin, Ethereum, XRP recovery is sluggish - FXStreet"
+        "\u2018Not Looking Good\u2019\u2014XRP Price Shock As Standard Chartered Holds $28 - Forbes"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": 0.1871,
-      "vol_ratio": 1.07
+      "up_down_ratio": 1.28,
+      "health": 0.3447,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.87336,
-      "ema200": 0.87362,
-      "macd": 0.000727,
-      "macd_signal": 0.000733,
-      "rsi14": 60.0,
-      "atr14": 0.00088,
-      "atr14_hourly": 0.00383,
-      "bb_position": 0.709
+      "ema50": 0.87416,
+      "ema200": 0.87383,
+      "macd": 0.000323,
+      "macd_signal": 0.000553,
+      "rsi14": 47.2,
+      "atr14": 0.00068,
+      "atr14_hourly": 0.00301,
+      "bb_position": 0.155
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.065,
+      "percentile": 0.067,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173347
+  "data_bars": 173359
 }
