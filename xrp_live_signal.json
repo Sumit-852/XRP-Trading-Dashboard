@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-14T10:01:25.889340+00:00",
+  "timestamp": "2026-08-14T11:01:28.218366+00:00",
   "signal": {
-    "price": 0.8677,
+    "price": 0.8668,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.223,
-    "hybrid_score": 2.1,
+    "xgb_prob": 0.2203,
+    "hybrid_score": 2.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.03,
-      "bullish_pct": 26.7,
-      "bearish_pct": 35.0,
+      "score": -0.059,
+      "bullish_pct": 23.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.019,
-        "crypto_macro": -0.004,
-        "geopolitical": -0.354,
-        "fed_rates": 0.202
+        "xrp": 0.007,
+        "crypto_macro": -0.059,
+        "geopolitical": -0.376,
+        "fed_rates": 0.168
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - Yahoo Finance"
+        "XRP Whales Go on an Accumulation Spree\u2014Crypto Analyst Says 'Are They Preparing for a Bull Rally?' - Benzinga",
+        "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - Barron's"
       ],
       "top_bearish": [
-        "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - coindesk.com",
+        "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
         "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
         "Crypto Market Update August 13: Bitcoin Slips Despite Lower Fed Hike Odds but HYPE Defies Bearish Sentiment - CoinGape"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.65,
-      "health": -0.0759,
-      "vol_ratio": 0.19
+      "up_down_ratio": 0.64,
+      "health": -0.103,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.87001,
-      "ema200": 0.87278,
-      "macd": -0.000682,
-      "macd_signal": -0.000651,
-      "rsi14": 42.0,
-      "atr14": 0.00072,
-      "atr14_hourly": 0.00318,
-      "bb_position": 0.264
+      "ema50": 0.86897,
+      "ema200": 0.87216,
+      "macd": -0.000589,
+      "macd_signal": -0.000605,
+      "rsi14": 39.8,
+      "atr14": 0.00066,
+      "atr14_hourly": 0.00275,
+      "bb_position": 0.252
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.043,
+      "percentile": 0.042,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173515
+  "data_bars": 173527
 }
