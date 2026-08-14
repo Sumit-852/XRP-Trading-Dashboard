@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-14T19:01:28.541488+00:00",
+  "timestamp": "2026-08-14T20:01:24.063174+00:00",
   "signal": {
-    "price": 0.8633,
+    "price": 0.8623,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2727,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.2548,
+    "hybrid_score": 3.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.088,
+      "sentiment": "BEARISH",
+      "score": -0.104,
       "bullish_pct": 23.3,
-      "bearish_pct": 41.7,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.013,
-        "crypto_macro": -0.063,
-        "geopolitical": -0.434,
-        "fed_rates": 0.04
+        "xrp": 0.012,
+        "crypto_macro": -0.129,
+        "geopolitical": -0.347,
+        "fed_rates": -0.04
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "Bitcoin, Ethereum, XRP or Solana: Which ETF will grow the most in 2026? - Yahoo Finance",
-        "Bitcoin, Ethereum, XRP or Solana: Which ETF will grow the most in 2026? - 24/7 Wall St."
+        "XRP Whales Buy the Dip as Futures Open Interest Hits 10-Month High\u2014 So Why Is Price Down 6%? - Benzinga",
+        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued? - 24/7 Wall St."
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
         "XRP Price Drops Below $1 After Coreum Bridge Hack. First-Time Since 2024 - Yahoo Finance",
-        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto"
+        "Bitcoin, Ethereum, Solana, XRP Remain Trapped: 'Crypto Bottom May Take Months,' Trader Cautions - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.57,
-      "health": -0.0181,
-      "vol_ratio": 1.74
+      "up_down_ratio": 0.56,
+      "health": 0.0,
+      "vol_ratio": 0.59
     },
     "technicals": {
-      "ema50": 0.86579,
-      "ema200": 0.86832,
-      "macd": -0.00071,
-      "macd_signal": -0.000526,
-      "rsi14": 37.7,
-      "atr14": 0.00105,
-      "atr14_hourly": 0.00431,
-      "bb_position": 0.106
+      "ema50": 0.86491,
+      "ema200": 0.86777,
+      "macd": -0.000678,
+      "macd_signal": -0.000637,
+      "rsi14": 32.6,
+      "atr14": 0.00084,
+      "atr14_hourly": 0.00336,
+      "bb_position": 0.025
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173623
+  "data_bars": 173635
 }
