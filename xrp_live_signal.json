@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-14T22:01:28.307685+00:00",
+  "timestamp": "2026-08-14T23:01:21.965676+00:00",
   "signal": {
-    "price": 0.8621,
+    "price": 0.8574,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2704,
-    "hybrid_score": 2.3,
+    "xgb_prob": 0.3439,
+    "hybrid_score": 2.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.065,
-      "bullish_pct": 21.7,
-      "bearish_pct": 38.3,
+      "score": -0.074,
+      "bullish_pct": 23.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.012,
-        "crypto_macro": -0.037,
+        "xrp": -0.048,
+        "crypto_macro": -0.003,
         "geopolitical": -0.316,
-        "fed_rates": -0.001
+        "fed_rates": 0.02
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "XRP Whales Buy the Dip as Futures Open Interest Hits 10-Month High\u2014 So Why Is Price Down 6%? - Benzinga",
-        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued? - 24/7 Wall St."
+        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued? - 247wallst.com",
+        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.55,
-      "health": -0.0383,
+      "up_down_ratio": 0.56,
+      "health": -0.0668,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86334,
-      "ema200": 0.86663,
-      "macd": -0.000441,
-      "macd_signal": -0.000429,
-      "rsi14": 46.6,
-      "atr14": 0.00081,
-      "atr14_hourly": 0.00278,
-      "bb_position": 0.37
+      "ema50": 0.86117,
+      "ema200": 0.86563,
+      "macd": -0.001504,
+      "macd_signal": -0.001418,
+      "rsi14": 37.6,
+      "atr14": 0.00105,
+      "atr14_hourly": 0.00709,
+      "bb_position": 0.31
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.02,
+      "percentile": 0.03,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173659
+  "data_bars": 173671
 }
