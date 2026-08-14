@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-14T06:01:20.861353+00:00",
+  "timestamp": "2026-08-14T08:02:15.505490+00:00",
   "signal": {
-    "price": 0.8742,
+    "price": 0.8691,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1488,
-    "hybrid_score": 1.6,
-    "regime": "BULLISH",
+    "xgb_prob": 0.2442,
+    "hybrid_score": 2.2,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.054,
-      "bullish_pct": 25.0,
-      "bearish_pct": 35.0,
+      "score": -0.024,
+      "bullish_pct": 28.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.011,
-        "crypto_macro": -0.072,
-        "geopolitical": -0.293,
-        "fed_rates": 0.172
+        "xrp": 0.023,
+        "crypto_macro": -0.001,
+        "geopolitical": -0.338,
+        "fed_rates": 0.205
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
         "XRP Price Could Double if CLARITY Act Passes in October, Says Analyst, as BMO Reveals ETF Holdings - Yahoo Finance",
-        "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - Barron's",
-        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery"
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.71,
-      "health": -0.1258,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.72,
+      "health": -0.074,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 0.87485,
-      "ema200": 0.87471,
-      "macd": -0.000414,
-      "macd_signal": -0.000485,
-      "rsi14": 46.8,
-      "atr14": 0.00038,
-      "atr14_hourly": 0.00222,
-      "bb_position": 0.487
+      "ema50": 0.87208,
+      "ema200": 0.87385,
+      "macd": -0.001058,
+      "macd_signal": -0.001139,
+      "rsi14": 33.6,
+      "atr14": 0.00057,
+      "atr14_hourly": 0.00321,
+      "bb_position": 0.288
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.043,
+      "percentile": 0.045,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173467
+  "data_bars": 173491
 }
