@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-14T14:01:34.499621+00:00",
+  "timestamp": "2026-08-14T15:01:28.305786+00:00",
   "signal": {
-    "price": 0.8653,
+    "price": 0.8643,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2565,
-    "hybrid_score": 3.5,
+    "xgb_prob": 0.2663,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.065,
-      "bullish_pct": 25.0,
+      "score": -0.064,
+      "bullish_pct": 23.3,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.001,
-        "crypto_macro": -0.039,
-        "geopolitical": -0.397,
-        "fed_rates": 0.131
+        "xrp": 0.069,
+        "crypto_macro": -0.145,
+        "geopolitical": -0.345,
+        "fed_rates": 0.115
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
-        "XRP Price Drops Below $1 After Coreum Bridge Hack. First-Time Since 2024 - Yahoo Finance",
-        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto"
+        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - ambcrypto.com",
+        "MicroStrategy sends harsh response to fresh MSCI delisting threat - thestreet.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.57,
-      "health": -0.1887,
-      "vol_ratio": 0.14
+      "health": -0.1256,
+      "vol_ratio": 0.23
     },
     "technicals": {
-      "ema50": 0.86639,
-      "ema200": 0.8702,
-      "macd": -0.000202,
-      "macd_signal": -0.000205,
-      "rsi14": 47.2,
-      "atr14": 0.00087,
-      "atr14_hourly": 0.00346,
-      "bb_position": 0.489
+      "ema50": 0.86583,
+      "ema200": 0.8696,
+      "macd": -0.000183,
+      "macd_signal": -0.000191,
+      "rsi14": 43.2,
+      "atr14": 0.00091,
+      "atr14_hourly": 0.00345,
+      "bb_position": 0.275
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.04,
+      "percentile": 0.032,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173563
+  "data_bars": 173575
 }
