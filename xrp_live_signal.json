@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-14T13:01:37.843808+00:00",
+  "timestamp": "2026-08-14T14:01:34.499621+00:00",
   "signal": {
-    "price": 0.8645,
+    "price": 0.8653,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2504,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.2565,
+    "hybrid_score": 3.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.087,
-      "bullish_pct": 23.3,
-      "bearish_pct": 41.7,
+      "score": -0.065,
+      "bullish_pct": 25.0,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.029,
-        "crypto_macro": -0.045,
-        "geopolitical": -0.447,
-        "fed_rates": 0.134
+        "xrp": 0.001,
+        "crypto_macro": -0.039,
+        "geopolitical": -0.397,
+        "fed_rates": 0.131
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "Bitcoin, Ethereum, XRP or Solana: Which ETF will grow the most in 2026? - Yahoo Finance",
-        "Bitcoin, Ethereum, XRP or Solana: Which ETF will grow the most in 2026? - 24/7 Wall St."
+        "XRP Whales Go on an Accumulation Spree\u2014Crypto Analyst Says 'Are They Preparing for a Bull Rally?' - Benzinga",
+        "Bitcoin, Ethereum, XRP or Solana: Which ETF will grow the most in 2026? - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.6,
-      "health": -0.1633,
-      "vol_ratio": 0.29
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.57,
+      "health": -0.1887,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 0.86678,
-      "ema200": 0.87077,
-      "macd": -0.000719,
-      "macd_signal": -0.000721,
-      "rsi14": 39.0,
-      "atr14": 0.00082,
-      "atr14_hourly": 0.00279,
-      "bb_position": 0.208
+      "ema50": 0.86639,
+      "ema200": 0.8702,
+      "macd": -0.000202,
+      "macd_signal": -0.000205,
+      "rsi14": 47.2,
+      "atr14": 0.00087,
+      "atr14_hourly": 0.00346,
+      "bb_position": 0.489
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.038,
+      "percentile": 0.04,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173551
+  "data_bars": 173563
 }
