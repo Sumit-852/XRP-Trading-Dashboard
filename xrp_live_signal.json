@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-14T01:01:29.609256+00:00",
+  "timestamp": "2026-08-14T02:01:22.152530+00:00",
   "signal": {
-    "price": 0.8765,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8764,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2396,
-    "hybrid_score": 3.4,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.038,
-      "bullish_pct": 28.3,
-      "bearish_pct": 36.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.017,
-        "crypto_macro": -0.021,
-        "geopolitical": -0.322,
-        "fed_rates": 0.142
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP Price Could Double if CLARITY Act Passes in October, Says Analyst, as BMO Reveals ETF Holdings - Yahoo Finance",
-        "XRP Network Activity Jumps 84% but ETFs See Zero Inflows: What's Going On? - Benzinga",
-        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 24/7 Wall St."
-      ],
-      "top_bearish": [
-        "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
-        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
-        "Crypto Market Update August 13: Bitcoin Slips Despite Lower Fed Hike Odds but HYPE Defies Bearish Sentiment - CoinGape"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.79,
-      "health": -0.2824,
-      "vol_ratio": 15.04
-    },
-    "technicals": {
-      "ema50": 0.87486,
-      "ema200": 0.87421,
-      "macd": 0.000488,
-      "macd_signal": 0.000285,
-      "rsi14": 61.4,
-      "atr14": 0.00052,
-      "atr14_hourly": 0.00227,
-      "bb_position": 0.907
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.056,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173407
+  "data_bars": 173419
 }
