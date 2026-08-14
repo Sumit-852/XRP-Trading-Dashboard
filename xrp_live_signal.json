@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-14T11:01:28.218366+00:00",
+  "timestamp": "2026-08-14T12:01:21.831736+00:00",
   "signal": {
-    "price": 0.8668,
+    "price": 0.8662,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2203,
-    "hybrid_score": 2.0,
+    "xgb_prob": 0.2463,
+    "hybrid_score": 2.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.059,
-      "bullish_pct": 23.3,
-      "bearish_pct": 36.7,
+      "score": -0.048,
+      "bullish_pct": 26.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.007,
-        "crypto_macro": -0.059,
-        "geopolitical": -0.376,
-        "fed_rates": 0.168
+        "xrp": 0.031,
+        "crypto_macro": -0.018,
+        "geopolitical": -0.385,
+        "fed_rates": 0.112
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "XRP Whales Go on an Accumulation Spree\u2014Crypto Analyst Says 'Are They Preparing for a Bull Rally?' - Benzinga",
-        "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - Barron's"
+        "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - Barron's",
+        "Bitcoin, Ethereum, XRP or Solana: Which ETF will grow the most in 2026? - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.64,
-      "health": -0.103,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.69,
+      "health": 0.0274,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.86897,
-      "ema200": 0.87216,
-      "macd": -0.000589,
-      "macd_signal": -0.000605,
-      "rsi14": 39.8,
-      "atr14": 0.00066,
-      "atr14_hourly": 0.00275,
-      "bb_position": 0.252
+      "ema50": 0.86802,
+      "ema200": 0.87152,
+      "macd": -0.000548,
+      "macd_signal": -0.000574,
+      "rsi14": 42.8,
+      "atr14": 0.00071,
+      "atr14_hourly": 0.00257,
+      "bb_position": 0.283
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.042,
+      "percentile": 0.038,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173527
+  "data_bars": 173539
 }
