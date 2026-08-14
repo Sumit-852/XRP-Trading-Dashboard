@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-14T04:01:28.298799+00:00",
+  "timestamp": "2026-08-14T05:01:20.424842+00:00",
   "signal": {
-    "price": 0.8745,
+    "price": 0.8741,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2019,
-    "hybrid_score": 1.9,
+    "xgb_prob": 0.2253,
+    "hybrid_score": 2.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.038,
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "score": -0.049,
+      "bullish_pct": 25.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": -0.011,
-        "crypto_macro": -0.037,
-        "geopolitical": -0.299,
-        "fed_rates": 0.22
+        "crypto_macro": -0.072,
+        "geopolitical": -0.266,
+        "fed_rates": 0.172
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "XRP Price Could Double if CLARITY Act Passes in October, Says Analyst, as BMO Reveals ETF Holdings - Yahoo Finance",
         "Bullish Tops Revenue Estimates, Losses Deepen Amid Crypto Downturn - Barron's",
-        "Crypto Market Today: Bitcoin Stalls Near $64K as CPI Cools and Altcoins Gain Ground - CryptoRank"
+        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
         "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
-        "Crypto Market Update August 13: Bitcoin Slips Despite Lower Fed Hike Odds but HYPE Defies Bearish Sentiment - coingape.c"
+        "Crypto Market Update August 13: Bitcoin Slips Despite Lower Fed Hike Odds but HYPE Defies Bearish Sentiment - CoinGape"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": -0.2309,
+      "up_down_ratio": 0.7,
+      "health": -0.2861,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.87565,
-      "ema200": 0.87477,
-      "macd": -0.00044,
-      "macd_signal": -0.000231,
-      "rsi14": 37.5,
-      "atr14": 0.00046,
-      "atr14_hourly": 0.00254,
-      "bb_position": 0.166
+      "ema50": 0.87548,
+      "ema200": 0.87483,
+      "macd": -0.000389,
+      "macd_signal": -0.000257,
+      "rsi14": 35.2,
+      "atr14": 0.00045,
+      "atr14_hourly": 0.00252,
+      "bb_position": 0.081
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173443
+  "data_bars": 173455
 }
