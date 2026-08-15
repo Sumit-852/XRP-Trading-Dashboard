@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-15T14:01:22.678598+00:00",
+  "timestamp": "2026-08-15T15:01:26.118866+00:00",
   "signal": {
-    "price": 0.8653,
+    "price": 0.8651,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.204,
-    "hybrid_score": 3.2,
-    "regime": "BULLISH",
+    "xgb_prob": 0.2313,
+    "hybrid_score": 3.4,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.05,
-      "bullish_pct": 25.0,
-      "bearish_pct": 36.7,
+      "score": -0.011,
+      "bullish_pct": 28.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.017,
-        "crypto_macro": -0.013,
-        "geopolitical": -0.412,
-        "fed_rates": 0.162
+        "xrp": 0.088,
+        "crypto_macro": -0.02,
+        "geopolitical": -0.345,
+        "fed_rates": 0.171
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
-        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
-        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International"
+        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International",
+        "Everyone Thinks Crypto Is Over. Here's Why They're Wrong. - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": 0.0224,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.91,
+      "health": 0.0797,
+      "vol_ratio": 2.55
     },
     "technicals": {
-      "ema50": 0.86585,
-      "ema200": 0.86618,
-      "macd": -0.000167,
-      "macd_signal": -0.000159,
-      "rsi14": 44.8,
-      "atr14": 0.00041,
-      "atr14_hourly": 0.00141,
-      "bb_position": 0.329
+      "ema50": 0.86552,
+      "ema200": 0.86604,
+      "macd": -0.000105,
+      "macd_signal": -0.000195,
+      "rsi14": 48.1,
+      "atr14": 0.00047,
+      "atr14_hourly": 0.00167,
+      "bb_position": 0.479
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.025,
+      "percentile": 0.023,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173851
+  "data_bars": 173863
 }
