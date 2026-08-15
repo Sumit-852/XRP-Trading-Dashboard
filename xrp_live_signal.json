@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-15T01:01:26.812965+00:00",
+  "timestamp": "2026-08-15T02:01:21.775218+00:00",
   "signal": {
-    "price": 0.8647,
+    "price": 0.866,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2374,
-    "hybrid_score": 2.1,
-    "regime": "BEARISH",
+    "xgb_prob": 0.2121,
+    "hybrid_score": 3.3,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.065,
-      "bullish_pct": 23.3,
-      "bearish_pct": 38.3,
+      "score": -0.014,
+      "bullish_pct": 25.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.043,
-        "crypto_macro": -0.031,
-        "geopolitical": -0.404,
+        "xrp": 0.116,
+        "crypto_macro": -0.002,
+        "geopolitical": -0.32,
         "fed_rates": 0.019
       },
       "geo_shock": true,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 247wallst.com",
-        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price - Yahoo Finance"
+        "XRP Network Activity Jumps 84% but ETFs See Zero Inflows: What's Going On? - Benzinga",
+        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 24/7 Wall St."
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
-        "XRP Price Drops Below $1 After Coreum Bridge Hack. First-Time Since 2024 - Yahoo Finance",
-        "Bitcoin, Ethereum, Solana, XRP Remain Trapped: 'Crypto Bottom May Take Months,' Trader Cautions - benzinga.com"
+        "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
+        "Crypto market update August 14: Bitcoin nears $62K and UNI plunges 9% - Altcoin Buzz"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.61,
-      "health": 0.0904,
-      "vol_ratio": 0.13
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.68,
+      "health": 0.082,
+      "vol_ratio": 0.87
     },
     "technicals": {
-      "ema50": 0.86226,
-      "ema200": 0.86499,
-      "macd": 0.00105,
-      "macd_signal": 0.000915,
-      "rsi14": 66.7,
-      "atr14": 0.00075,
-      "atr14_hourly": 0.00474,
-      "bb_position": 0.852
+      "ema50": 0.86328,
+      "ema200": 0.86498,
+      "macd": 0.000842,
+      "macd_signal": 0.000867,
+      "rsi14": 65.8,
+      "atr14": 0.00066,
+      "atr14_hourly": 0.00328,
+      "bb_position": 0.997
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.032,
+      "percentile": 0.033,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173695
+  "data_bars": 173707
 }
