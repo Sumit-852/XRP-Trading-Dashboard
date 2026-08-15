@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-15T20:01:24.248182+00:00",
+  "timestamp": "2026-08-15T21:01:24.980250+00:00",
   "signal": {
-    "price": 0.8675,
+    "price": 0.8672,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1719,
+    "xgb_prob": 0.1677,
     "hybrid_score": 3.0,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.012,
+      "score": -0.014,
       "bullish_pct": 26.7,
-      "bearish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.088,
-        "crypto_macro": -0.02,
-        "geopolitical": -0.33,
-        "fed_rates": 0.15
+        "xrp": 0.021,
+        "crypto_macro": 0.066,
+        "geopolitical": -0.354,
+        "fed_rates": 0.164
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
-        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 24/7 Wall St."
+        "American Gen Z takes radical path to wealth creation - thestreet.com",
+        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto"
       ],
       "top_bearish": [
+        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
         "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune",
-        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International"
+        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.05,
-      "health": 0.0733,
+      "health": 0.0539,
       "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.86613,
-      "ema200": 0.86603,
-      "macd": 0.00041,
-      "macd_signal": 0.000269,
-      "rsi14": 67.8,
-      "atr14": 0.00037,
-      "atr14_hourly": 0.00185,
-      "bb_position": 0.901
+      "ema50": 0.8665,
+      "ema200": 0.86615,
+      "macd": 0.000276,
+      "macd_signal": 0.000293,
+      "rsi14": 57.9,
+      "atr14": 0.00034,
+      "atr14_hourly": 0.00149,
+      "bb_position": 0.636
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.012,
+      "percentile": 0.01,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173923
+  "data_bars": 173935
 }
