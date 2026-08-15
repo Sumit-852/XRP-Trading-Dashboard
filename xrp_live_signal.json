@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-15T05:01:30.075058+00:00",
+  "timestamp": "2026-08-15T06:01:21.192042+00:00",
   "signal": {
-    "price": 0.8686,
+    "price": 0.8673,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2352,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.2385,
+    "hybrid_score": 2.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.038,
+      "score": -0.045,
       "bullish_pct": 23.3,
-      "bearish_pct": 35.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.041,
         "crypto_macro": -0.034,
-        "geopolitical": -0.327,
-        "fed_rates": 0.118
+        "geopolitical": -0.339,
+        "fed_rates": 0.086
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
         "XRP Network Activity Jumps 84% but ETFs See Zero Inflows: What's Going On? - Benzinga",
-        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price - finance.yahoo.com"
+        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.74,
-      "health": 0.2475,
-      "vol_ratio": 0.1
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.78,
+      "health": 0.2201,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86727,
-      "ema200": 0.86603,
-      "macd": 0.000315,
-      "macd_signal": 0.000416,
-      "rsi14": 55.0,
-      "atr14": 0.00047,
-      "atr14_hourly": 0.0026,
-      "bb_position": 0.629
+      "ema50": 0.86748,
+      "ema200": 0.86624,
+      "macd": -0.000264,
+      "macd_signal": -5.6e-05,
+      "rsi14": 42.1,
+      "atr14": 0.00052,
+      "atr14_hourly": 0.00256,
+      "bb_position": 0.228
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.033,
+      "percentile": 0.034,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173743
+  "data_bars": 173755
 }
