@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-15T12:01:23.732865+00:00",
+  "timestamp": "2026-08-15T13:01:27.323496+00:00",
   "signal": {
-    "price": 0.8659,
+    "price": 0.8658,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1916,
-    "hybrid_score": 3.1,
+    "xgb_prob": 0.2013,
+    "hybrid_score": 3.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.025,
+      "score": -0.032,
       "bullish_pct": 23.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.022,
-        "crypto_macro": 0.049,
-        "geopolitical": -0.378,
+        "xrp": 0.052,
+        "crypto_macro": -0.012,
+        "geopolitical": -0.379,
         "fed_rates": 0.153
       },
       "geo_shock": true,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
         "American Gen Z takes radical path to wealth creation - thestreet.com",
-        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 24/7 Wall St."
+        "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 247wallst.com"
       ],
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - coindesk.com",
         "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
-        "Trade-Over-Aid Doctrine Casualty of Iran War - Foreign Policy in Focus"
+        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": 0.1064,
-      "vol_ratio": 0.04
+      "up_down_ratio": 0.92,
+      "health": 0.1118,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.86634,
-      "ema200": 0.86635,
-      "macd": -2.3e-05,
-      "macd_signal": 6.8e-05,
-      "rsi14": 43.9,
-      "atr14": 0.00041,
-      "atr14_hourly": 0.00155,
-      "bb_position": 0.163
+      "ema50": 0.86608,
+      "ema200": 0.86627,
+      "macd": -0.000183,
+      "macd_signal": -0.00016,
+      "rsi14": 48.8,
+      "atr14": 0.00048,
+      "atr14_hourly": 0.00147,
+      "bb_position": 0.445
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173827
+  "data_bars": 173839
 }
