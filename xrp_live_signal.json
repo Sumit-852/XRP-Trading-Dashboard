@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-15T17:01:22.596636+00:00",
+  "timestamp": "2026-08-15T18:01:20.207489+00:00",
   "signal": {
-    "price": 0.8662,
+    "price": 0.8659,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2184,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.1604,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.022,
-      "bullish_pct": 25.0,
-      "bearish_pct": 35.0,
+      "score": -0.002,
+      "bullish_pct": 26.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.066,
+        "xrp": 0.098,
         "crypto_macro": -0.02,
-        "geopolitical": -0.339,
+        "geopolitical": -0.294,
         "fed_rates": 0.15
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "Why XRP Whales Keep Buying as the Price Falls. Is a Bull Rally Coming? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
-        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International",
-        "Everyone Thinks Crypto Is Over. Here's Why They're Wrong. - Yahoo Finance"
+        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
+        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune",
+        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.93,
-      "health": 0.0203,
-      "vol_ratio": 0.7
+      "up_down_ratio": 0.96,
+      "health": 0.0315,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 0.86565,
-      "ema200": 0.86597,
-      "macd": 0.000141,
-      "macd_signal": 0.000104,
-      "rsi14": 57.1,
-      "atr14": 0.00041,
-      "atr14_hourly": 0.00147,
-      "bb_position": 0.884
+      "ema50": 0.86584,
+      "ema200": 0.86599,
+      "macd": 8.6e-05,
+      "macd_signal": 0.000139,
+      "rsi14": 49.3,
+      "atr14": 0.0004,
+      "atr14_hourly": 0.0015,
+      "bb_position": 0.41
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.016,
+      "percentile": 0.014,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173887
+  "data_bars": 173899
 }
