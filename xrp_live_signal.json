@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-15T19:01:19.882322+00:00",
+  "timestamp": "2026-08-15T20:01:24.248182+00:00",
   "signal": {
-    "price": 0.8659,
+    "price": 0.8675,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2172,
-    "hybrid_score": 3.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.1719,
+    "hybrid_score": 3.0,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.001,
-      "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
+      "score": -0.012,
+      "bullish_pct": 26.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.104,
+        "xrp": 0.088,
         "crypto_macro": -0.02,
-        "geopolitical": -0.303,
+        "geopolitical": -0.33,
         "fed_rates": 0.15
       },
       "geo_shock": true,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International",
-        "Trade-Over-Aid Doctrine Casualty of Iran War - Foreign Policy in Focus"
+        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune",
+        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.05,
-      "health": 0.1764,
+      "health": 0.0733,
       "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 0.8657,
-      "ema200": 0.86593,
-      "macd": -2.6e-05,
-      "macd_signal": -8.4e-05,
-      "rsi14": 53.1,
-      "atr14": 0.00039,
-      "atr14_hourly": 0.00184,
-      "bb_position": 0.61
+      "ema50": 0.86613,
+      "ema200": 0.86603,
+      "macd": 0.00041,
+      "macd_signal": 0.000269,
+      "rsi14": 67.8,
+      "atr14": 0.00037,
+      "atr14_hourly": 0.00185,
+      "bb_position": 0.901
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173911
+  "data_bars": 173923
 }
