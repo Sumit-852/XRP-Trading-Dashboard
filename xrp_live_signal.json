@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-15T07:01:23.062704+00:00",
+  "timestamp": "2026-08-15T08:01:24.052452+00:00",
   "signal": {
-    "price": 0.8684,
+    "price": 0.8663,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2243,
-    "hybrid_score": 2.0,
+    "xgb_prob": 0.2362,
+    "hybrid_score": 2.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.073,
+      "score": -0.071,
       "bullish_pct": 20.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.04,
         "crypto_macro": -0.126,
-        "geopolitical": -0.339,
+        "geopolitical": -0.331,
         "fed_rates": 0.086
       },
       "geo_shock": true,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP bridge drained for $200,000 after software mistook fake deposits for real ones - CoinDesk",
         "Is XRP\u2019s $1 support under threat? Here\u2019s what\u2019s driving the decline - AMBCrypto",
-        "Crypto market update August 14: Bitcoin nears $62K and UNI plunges 9% - altcoinbuzz.io"
+        "Crypto market update August 14: Bitcoin nears $62K and UNI plunges 9% - Altcoin Buzz"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.8,
-      "health": 0.1542,
-      "vol_ratio": 0.01
+      "health": 0.0528,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.8678,
-      "ema200": 0.86648,
-      "macd": 0.000123,
-      "macd_signal": 3.4e-05,
-      "rsi14": 53.0,
-      "atr14": 0.0005,
-      "atr14_hourly": 0.00241,
-      "bb_position": 0.681
+      "ema50": 0.86749,
+      "ema200": 0.86654,
+      "macd": -0.000434,
+      "macd_signal": -0.000273,
+      "rsi14": 33.9,
+      "atr14": 0.00045,
+      "atr14_hourly": 0.00242,
+      "bb_position": 0.105
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.033,
+      "percentile": 0.032,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173767
+  "data_bars": 173779
 }
