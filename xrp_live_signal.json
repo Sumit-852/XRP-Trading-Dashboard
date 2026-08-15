@@ -1,22 +1,27 @@
 {
-  "timestamp": "2026-08-15T22:01:50.194494+00:00",
+  "timestamp": "2026-08-15T23:01:16.595120+00:00",
   "signal": {
-    "price": 0.8676,
+    "price": 0.8674,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2347,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.2146,
+    "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
-      "geo_shock": false,
+      "sentiment": "NEUTRAL",
+      "score": 0.018,
+      "bullish_pct": 30.0,
+      "bearish_pct": 28.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.096,
+        "crypto_macro": 0.075,
+        "geopolitical": -0.31,
+        "fed_rates": 0.12
+      },
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
+        "American Gen Z takes radical path to wealth creation - thestreet.com",
+        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto"
+      ],
+      "top_bearish": [
+        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
+        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune",
+        "War redraws Iran\u2019s trade as ties with key partners plunge - iranintl.com"
+      ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": -0.0769,
-      "vol_ratio": 0.04
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.74,
+      "health": -0.1808,
+      "vol_ratio": 0.54
     },
     "technicals": {
-      "ema50": 0.86694,
-      "ema200": 0.86632,
-      "macd": 0.000277,
-      "macd_signal": 0.000308,
-      "rsi14": 55.8,
-      "atr14": 0.00031,
-      "atr14_hourly": 0.00136,
-      "bb_position": 0.599
+      "ema50": 0.86736,
+      "ema200": 0.86651,
+      "macd": 0.000164,
+      "macd_signal": 0.000271,
+      "rsi14": 44.9,
+      "atr14": 0.00045,
+      "atr14_hourly": 0.00163,
+      "bb_position": 0.109
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.006,
+      "percentile": 0.0,
       "extreme": true
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 173947
+  "data_bars": 173959
 }
