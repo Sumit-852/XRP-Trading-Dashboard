@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-16T09:01:19.394357+00:00",
+  "timestamp": "2026-08-16T10:01:23.884172+00:00",
   "signal": {
-    "price": 0.8653,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8638,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1858,
-    "hybrid_score": 1.8,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.064,
-      "bullish_pct": 20.0,
-      "bearish_pct": 35.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": -0.052,
-        "crypto_macro": -0.016,
-        "geopolitical": -0.325,
-        "fed_rates": 0.132
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
-        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance",
-        "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands - CNBC"
-      ],
-      "top_bearish": [
-        "Bitcoin dips 2.7% as ETF outflows rise and XRP drops below $1 after bridge hack - Pluang",
-        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.73,
-      "health": -0.0463,
-      "vol_ratio": 0.02
-    },
-    "technicals": {
-      "ema50": 0.86525,
-      "ema200": 0.86567,
-      "macd": 6.5e-05,
-      "macd_signal": 0.000135,
-      "rsi14": 49.7,
-      "atr14": 0.00023,
-      "atr14_hourly": 0.00124,
-      "bb_position": 0.234
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.0,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174079
+  "data_bars": 174091
 }
