@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-16T11:01:21.093353+00:00",
+  "timestamp": "2026-08-16T12:01:24.086773+00:00",
   "signal": {
-    "price": 0.864,
+    "price": 0.8637,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1888,
-    "hybrid_score": 1.9,
+    "xgb_prob": 0.1372,
+    "hybrid_score": 2.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.038,
-      "bullish_pct": 25.0,
-      "bearish_pct": 33.3,
+      "score": -0.02,
+      "bullish_pct": 26.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.007,
-        "crypto_macro": 0.0,
-        "geopolitical": -0.288,
+        "xrp": 0.009,
+        "crypto_macro": -0.0,
+        "geopolitical": -0.226,
         "fed_rates": 0.123
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
-        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today",
-        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance"
+        "Bitcoin Bears Gain Leverage While Reserves Rise Across 3 Major Exchanges - Yellow.com",
+        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance",
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin dips 2.7% as ETF outflows rise and XRP drops below $1 after bridge hack - Pluang",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": 0.1598,
-      "vol_ratio": 0.03
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.87,
+      "health": 0.1614,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 0.86457,
-      "ema200": 0.86537,
-      "macd": -0.000322,
-      "macd_signal": -0.000395,
-      "rsi14": 44.6,
-      "atr14": 0.00033,
-      "atr14_hourly": 0.00258,
-      "bb_position": 0.477
+      "ema50": 0.86426,
+      "ema200": 0.86519,
+      "macd": -0.000219,
+      "macd_signal": -0.00024,
+      "rsi14": 45.2,
+      "atr14": 0.00035,
+      "atr14_hourly": 0.00189,
+      "bb_position": 0.397
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174103
+  "data_bars": 174115
 }
