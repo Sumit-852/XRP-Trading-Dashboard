@@ -1,17 +1,26 @@
 {
-  "timestamp": "2026-08-16T17:01:30.185262+00:00",
-  "score": -0.07,
+  "timestamp": "2026-08-16T18:01:19.311901+00:00",
+  "score": -0.05,
   "label": "NEUTRAL",
-  "bullish_pct": 26.7,
-  "bearish_pct": 37.8,
-  "count": 45,
+  "bullish_pct": 28.3,
+  "bearish_pct": 35.0,
+  "count": 60,
   "feed_scores": {
     "xrp": -0.044,
-    "geopolitical": -0.283,
-    "fed_rates": 0.132
+    "crypto_macro": -0.04,
+    "geopolitical": -0.247,
+    "fed_rates": 0.158
   },
   "geo_shock": false,
   "top_bull": [
+    {
+      "title": "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
+      "pubdate": "Sat, 15 Aug 2026 13:00:00",
+      "compound": 0.637,
+      "feed": "crypto_macro",
+      "weight": 0.8,
+      "weighted_score": 0.51
+    },
     {
       "title": "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St.",
       "pubdate": "Sun, 16 Aug 2026 11:32:38",
@@ -27,17 +36,17 @@
       "feed": "xrp",
       "weight": 1.0,
       "weighted_score": 0.402
-    },
-    {
-      "title": "Fed Leaves Interest Rates Unchanged, Despite Three Votes for an Increase - The New York Times",
-      "pubdate": "Thu, 30 Jul 2026 07:00:00",
-      "compound": 0.649,
-      "feed": "fed_rates",
-      "weight": 0.4,
-      "weighted_score": 0.259
     }
   ],
   "top_bear": [
+    {
+      "title": "Cboe Seeks 3x Bitcoin and Ethereum ETFs After 2x Funds Suffer 96% Losses - KuCoin",
+      "pubdate": "Sun, 16 Aug 2026 17:03:14",
+      "compound": -0.735,
+      "feed": "crypto_macro",
+      "weight": 0.8,
+      "weighted_score": -0.588
+    },
     {
       "title": "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
       "pubdate": "Sun, 16 Aug 2026 16:01:40",
@@ -47,20 +56,12 @@
       "weighted_score": -0.526
     },
     {
-      "title": "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-      "pubdate": "Thu, 13 Aug 2026 10:14:00",
-      "compound": -0.44,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": -0.44
-    },
-    {
-      "title": "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International",
-      "pubdate": "Sat, 15 Aug 2026 12:00:00",
-      "compound": -0.818,
-      "feed": "geopolitical",
-      "weight": 0.5,
-      "weighted_score": -0.409
+      "title": "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+      "pubdate": "Fri, 24 Jul 2026 07:00:00",
+      "compound": -0.612,
+      "feed": "crypto_macro",
+      "weight": 0.8,
+      "weighted_score": -0.49
     }
   ]
 }
