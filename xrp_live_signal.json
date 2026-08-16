@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-16T18:01:19.360902+00:00",
+  "timestamp": "2026-08-16T19:01:20.338589+00:00",
   "signal": {
-    "price": 0.8645,
+    "price": 0.8633,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1062,
-    "hybrid_score": 1.3,
-    "regime": "BULLISH",
+    "xgb_prob": 0.2085,
+    "hybrid_score": 3.2,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.05,
+      "score": -0.005,
       "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.044,
-        "crypto_macro": -0.04,
-        "geopolitical": -0.247,
-        "fed_rates": 0.158
+        "xrp": 0.066,
+        "crypto_macro": -0.02,
+        "geopolitical": -0.233,
+        "fed_rates": 0.132
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
-        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St.",
-        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance"
+        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast? - Yahoo Finance",
+        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered's $8 Billion Forecast? - 24/7 Wall St.",
+        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto"
       ],
       "top_bearish": [
-        "Cboe Seeks 3x Bitcoin and Ethereum ETFs After 2x Funds Suffer 96% Losses - KuCoin",
         "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.84,
-      "health": 0.0578,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.82,
+      "health": 0.002,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 0.86526,
-      "ema200": 0.86512,
-      "macd": -0.000164,
-      "macd_signal": -8e-06,
-      "rsi14": 39.8,
-      "atr14": 0.00048,
-      "atr14_hourly": 0.0017,
-      "bb_position": 0.02
+      "ema50": 0.86447,
+      "ema200": 0.8649,
+      "macd": -0.00056,
+      "macd_signal": -0.000559,
+      "rsi14": 39.2,
+      "atr14": 0.0005,
+      "atr14_hourly": 0.00247,
+      "bb_position": 0.337
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174187
+  "data_bars": 174199
 }
