@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-16T14:01:22.409986+00:00",
+  "timestamp": "2026-08-16T15:01:28.148855+00:00",
   "signal": {
-    "price": 0.8645,
+    "price": 0.8652,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.174,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.151,
+    "hybrid_score": 2.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.041,
+      "score": -0.031,
       "bullish_pct": 25.0,
-      "bearish_pct": 35.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.005,
-        "crypto_macro": -0.04,
-        "geopolitical": -0.26,
-        "fed_rates": 0.14
+        "xrp": 0.009,
+        "crypto_macro": -0.017,
+        "geopolitical": -0.261,
+        "fed_rates": 0.132
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St.",
-        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance",
+        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - finance.yahoo.com",
         "Popular crypto stock falls sharply after twin announcements - thestreet.com"
       ],
       "top_bearish": [
         "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-        "Trade War Rising? US-Canada Talks Stall as 50% Tariffs Loom Over $900 Billion Relationship - Benzinga",
+        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune",
         "Crypto Market Today, Aug. 12: Bitcoin Slips Despite Cooling Inflation - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.81,
-      "health": 0.0751,
-      "vol_ratio": 0.22
+      "up_down_ratio": 0.84,
+      "health": 0.0045,
+      "vol_ratio": 0.81
     },
     "technicals": {
-      "ema50": 0.86422,
-      "ema200": 0.86497,
-      "macd": 8.8e-05,
-      "macd_signal": 7.6e-05,
-      "rsi14": 55.5,
-      "atr14": 0.00032,
-      "atr14_hourly": 0.00132,
-      "bb_position": 0.762
+      "ema50": 0.86437,
+      "ema200": 0.86493,
+      "macd": 0.000198,
+      "macd_signal": 0.000138,
+      "rsi14": 63.1,
+      "atr14": 0.0003,
+      "atr14_hourly": 0.00114,
+      "bb_position": 1.117
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174139
+  "data_bars": 174151
 }
