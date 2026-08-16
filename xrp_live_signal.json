@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-16T21:01:24.997046+00:00",
+  "timestamp": "2026-08-16T22:01:25.182263+00:00",
   "signal": {
-    "price": 0.863,
+    "price": 0.8586,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1932,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.3329,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
+      "score": -0.027,
       "bullish_pct": 28.3,
-      "bearish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.082,
-        "crypto_macro": 0.007,
-        "geopolitical": -0.233,
-        "fed_rates": 0.132
+        "xrp": -0.012,
+        "crypto_macro": -0.01,
+        "geopolitical": -0.228,
+        "fed_rates": 0.152
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast? - Yahoo Finance",
-        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered's $8 Billion Forecast? - 24/7 Wall St.",
-        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
+        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
       ],
       "top_bearish": [
+        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
         "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
-        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investingLive",
-        "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post"
+        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investinglive.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.94,
-      "health": 0.0503,
-      "vol_ratio": 0.06
+      "up_down_ratio": 0.98,
+      "health": 0.1109,
+      "vol_ratio": 1.46
     },
     "technicals": {
-      "ema50": 0.86443,
-      "ema200": 0.86482,
-      "macd": -0.000304,
-      "macd_signal": -0.000107,
-      "rsi14": 34.7,
-      "atr14": 0.00056,
-      "atr14_hourly": 0.00245,
-      "bb_position": 0.026
+      "ema50": 0.86326,
+      "ema200": 0.86445,
+      "macd": -0.001207,
+      "macd_signal": -0.00084,
+      "rsi14": 30.3,
+      "atr14": 0.00132,
+      "atr14_hourly": 0.00449,
+      "bb_position": -0.003
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.001,
+      "percentile": 0.004,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174223
+  "data_bars": 174235
 }
