@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-16T20:01:24.944005+00:00",
+  "timestamp": "2026-08-16T21:01:24.997046+00:00",
   "signal": {
-    "price": 0.8647,
+    "price": 0.863,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2124,
-    "hybrid_score": 3.3,
+    "xgb_prob": 0.1932,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.005,
+      "score": 0.009,
       "bullish_pct": 28.3,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.066,
-        "crypto_macro": 0.014,
+        "xrp": 0.082,
+        "crypto_macro": 0.007,
         "geopolitical": -0.233,
-        "fed_rates": 0.135
+        "fed_rates": 0.132
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
-        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investingLive"
+        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investingLive",
+        "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.87,
-      "health": 0.0308,
-      "vol_ratio": 0.62
+      "up_down_ratio": 0.94,
+      "health": 0.0503,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 0.86464,
-      "ema200": 0.86491,
-      "macd": 0.000104,
-      "macd_signal": 3.8e-05,
-      "rsi14": 51.4,
-      "atr14": 0.00053,
-      "atr14_hourly": 0.00268,
-      "bb_position": 0.619
+      "ema50": 0.86443,
+      "ema200": 0.86482,
+      "macd": -0.000304,
+      "macd_signal": -0.000107,
+      "rsi14": 34.7,
+      "atr14": 0.00056,
+      "atr14_hourly": 0.00245,
+      "bb_position": 0.026
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.0,
+      "percentile": 0.001,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174211
+  "data_bars": 174223
 }
