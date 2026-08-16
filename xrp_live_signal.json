@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-16T22:01:25.182263+00:00",
+  "timestamp": "2026-08-16T23:01:22.633707+00:00",
   "signal": {
-    "price": 0.8586,
+    "price": 0.8576,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3329,
+    "xgb_prob": 0.3364,
     "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.027,
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "score": -0.085,
+      "bullish_pct": 23.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.012,
-        "crypto_macro": -0.01,
-        "geopolitical": -0.228,
+        "xrp": -0.046,
+        "crypto_macro": -0.142,
+        "geopolitical": -0.264,
         "fed_rates": 0.152
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
-        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St.",
+        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance",
+        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP - BeInCrypto"
       ],
       "top_bearish": [
         "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
         "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
-        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investinglive.com"
+        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investingLive"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": 0.1109,
-      "vol_ratio": 1.46
+      "up_down_ratio": 0.9,
+      "health": 0.0899,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86326,
-      "ema200": 0.86445,
-      "macd": -0.001207,
-      "macd_signal": -0.00084,
-      "rsi14": 30.3,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00449,
-      "bb_position": -0.003
+      "ema50": 0.86138,
+      "ema200": 0.86377,
+      "macd": -0.001505,
+      "macd_signal": -0.001426,
+      "rsi14": 35.9,
+      "atr14": 0.00104,
+      "atr14_hourly": 0.00533,
+      "bb_position": 0.264
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.004,
+      "percentile": 0.005,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174235
+  "data_bars": 174247
 }
