@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-16T19:01:20.338589+00:00",
+  "timestamp": "2026-08-16T20:01:24.944005+00:00",
   "signal": {
-    "price": 0.8633,
+    "price": 0.8647,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2085,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.2124,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.005,
+      "score": 0.005,
       "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.066,
-        "crypto_macro": -0.02,
+        "crypto_macro": 0.014,
         "geopolitical": -0.233,
-        "fed_rates": 0.132
+        "fed_rates": 0.135
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool"
+        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
+        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investingLive"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.82,
-      "health": 0.002,
-      "vol_ratio": 0.18
+      "up_down_ratio": 0.87,
+      "health": 0.0308,
+      "vol_ratio": 0.62
     },
     "technicals": {
-      "ema50": 0.86447,
-      "ema200": 0.8649,
-      "macd": -0.00056,
-      "macd_signal": -0.000559,
-      "rsi14": 39.2,
-      "atr14": 0.0005,
-      "atr14_hourly": 0.00247,
-      "bb_position": 0.337
+      "ema50": 0.86464,
+      "ema200": 0.86491,
+      "macd": 0.000104,
+      "macd_signal": 3.8e-05,
+      "rsi14": 51.4,
+      "atr14": 0.00053,
+      "atr14_hourly": 0.00268,
+      "bb_position": 0.619
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174199
+  "data_bars": 174211
 }
