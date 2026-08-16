@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-16T04:01:19.852247+00:00",
+  "timestamp": "2026-08-16T05:01:19.281629+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.8665,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8646,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.1698,
+    "hybrid_score": 1.8,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.003,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.044,
+        "crypto_macro": 0.075,
+        "geopolitical": -0.298,
+        "fed_rates": 0.132
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
+        "American Gen Z takes radical path to wealth creation - thestreet.com",
+        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto"
+      ],
+      "top_bearish": [
+        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
+        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune",
+        "War redraws Iran\u2019s trade as ties with key partners plunge - Iran International"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.68,
+      "health": -0.0886,
+      "vol_ratio": 0.01
+    },
+    "technicals": {
+      "ema50": 0.86571,
+      "ema200": 0.86609,
+      "macd": -0.000275,
+      "macd_signal": -0.000157,
+      "rsi14": 35.5,
+      "atr14": 0.00031,
+      "atr14_hourly": 0.00163,
+      "bb_position": 0.096
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.0,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174019
+  "data_bars": 174031
 }
