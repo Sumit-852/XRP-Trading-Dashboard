@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-16T15:01:28.148855+00:00",
+  "timestamp": "2026-08-16T16:01:21.509288+00:00",
   "signal": {
-    "price": 0.8652,
+    "price": 0.8656,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.151,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.1641,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.031,
-      "bullish_pct": 25.0,
-      "bearish_pct": 33.3,
+      "score": -0.038,
+      "bullish_pct": 28.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.009,
-        "crypto_macro": -0.017,
-        "geopolitical": -0.261,
+        "xrp": 0.031,
+        "crypto_macro": -0.054,
+        "geopolitical": -0.284,
         "fed_rates": 0.132
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 sto",
         "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St.",
-        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - finance.yahoo.com",
-        "Popular crypto stock falls sharply after twin announcements - thestreet.com"
+        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance"
       ],
       "top_bearish": [
-        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool",
-        "Iran business leader admits U.S. blockade will inflict more economic damage than war - Fortune",
-        "Crypto Market Today, Aug. 12: Bitcoin Slips Despite Cooling Inflation - The Motley Fool"
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "Bitcoin dips 2.7% as ETF outflows rise and XRP drops below $1 after bridge hack - pluang.com",
+        "XRP (Ripple) Just Did Something It Hasn't Done Since 2024, and Here's What It Means for Investors - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.84,
-      "health": 0.0045,
-      "vol_ratio": 0.81
+      "up_down_ratio": 0.9,
+      "health": 0.0838,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.86437,
-      "ema200": 0.86493,
-      "macd": 0.000198,
-      "macd_signal": 0.000138,
-      "rsi14": 63.1,
-      "atr14": 0.0003,
-      "atr14_hourly": 0.00114,
-      "bb_position": 1.117
+      "ema50": 0.86478,
+      "ema200": 0.86498,
+      "macd": 0.000329,
+      "macd_signal": 0.000305,
+      "rsi14": 59.3,
+      "atr14": 0.00034,
+      "atr14_hourly": 0.00123,
+      "bb_position": 0.762
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174151
+  "data_bars": 174163
 }
