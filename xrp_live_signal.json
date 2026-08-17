@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-17T21:01:28.029412+00:00",
+  "timestamp": "2026-08-17T22:01:20.322636+00:00",
   "signal": {
-    "price": 0.8662,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8644,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2252,
-    "hybrid_score": 3.3,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.003,
-      "bullish_pct": 31.7,
-      "bearish_pct": 28.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.041,
-        "crypto_macro": -0.044,
-        "geopolitical": -0.181,
-        "fed_rates": 0.192
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
-        "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot - CoinDesk",
-        "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - Bitcoin Foundation"
-      ],
-      "top_bearish": [
-        "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need ",
-        "Donald Trump\u2019s war on customs fraud will be costly and difficult - Financial Times",
-        "War and Drought Are Choking the World's Most Vital Trade Routes - Crude Oil Prices Today | OilPrice.com"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.21,
-      "health": 0.1298,
-      "vol_ratio": 0.04
-    },
-    "technicals": {
-      "ema50": 0.86441,
-      "ema200": 0.86358,
-      "macd": 0.000463,
-      "macd_signal": 0.000163,
-      "rsi14": 62.2,
-      "atr14": 0.00071,
-      "atr14_hourly": 0.00303,
-      "bb_position": 0.94
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.066,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174511
+  "data_bars": 174523
 }
