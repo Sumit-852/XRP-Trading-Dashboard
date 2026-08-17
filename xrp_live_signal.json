@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-17T11:01:28.818198+00:00",
+  "timestamp": "2026-08-17T12:01:20.029267+00:00",
   "signal": {
-    "price": 0.8633,
+    "price": 0.8619,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2151,
+    "xgb_prob": 0.224,
     "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.003,
+      "score": -0.003,
       "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": -0.022,
-        "crypto_macro": 0.101,
-        "geopolitical": -0.256,
-        "fed_rates": 0.194
+        "crypto_macro": 0.051,
+        "geopolitical": -0.232,
+        "fed_rates": 0.223
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot - CoinDesk",
-        "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - bitcoinfoundation.org",
+        "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - Bitcoin Foundation",
         "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga"
       ],
       "top_bearish": [
         "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
-        "Gulf war fallout: Somali households pay the price of trade disruption - thenewhumanitarian.org",
-        "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post"
+        "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need ",
+        "Gulf war fallout: Somali households pay the price of trade disruption - The New Humanitarian"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": -0.0432,
-      "vol_ratio": 0.4
+      "up_down_ratio": 0.94,
+      "health": -0.0773,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86154,
-      "ema200": 0.86252,
-      "macd": 0.000671,
-      "macd_signal": 6.4e-05,
-      "rsi14": 69.4,
-      "atr14": 0.0006,
-      "atr14_hourly": 0.0035,
-      "bb_position": 0.863
+      "ema50": 0.86192,
+      "ema200": 0.86253,
+      "macd": 0.000367,
+      "macd_signal": 0.000495,
+      "rsi14": 49.2,
+      "atr14": 0.00054,
+      "atr14_hourly": 0.00304,
+      "bb_position": 0.336
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174391
+  "data_bars": 174403
 }
