@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-17T19:01:26.937497+00:00",
+  "timestamp": "2026-08-17T20:01:30.754837+00:00",
   "signal": {
-    "price": 0.8647,
+    "price": 0.8637,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1736,
-    "hybrid_score": 3.0,
-    "regime": "BEARISH",
+    "xgb_prob": 0.1835,
+    "hybrid_score": 3.1,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.03,
-      "bullish_pct": 33.3,
-      "bearish_pct": 33.3,
+      "score": 0.005,
+      "bullish_pct": 35.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.021,
-        "crypto_macro": -0.02,
-        "geopolitical": -0.283,
-        "fed_rates": 0.138
+        "xrp": 0.051,
+        "crypto_macro": -0.042,
+        "geopolitical": -0.176,
+        "fed_rates": 0.211
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - Bitcoin Foundation"
       ],
       "top_bearish": [
-        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
         "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need ",
-        "Donald Trump\u2019s war on customs fraud will be costly and difficult - Financial Times"
+        "Donald Trump\u2019s war on customs fraud will be costly and difficult - Financial Times",
+        "War and Drought Are Choking the World's Most Vital Trade Routes - Crude Oil Prices Today | OilPrice.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.11,
-      "health": 0.1309,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.13,
+      "health": 0.1033,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.86453,
-      "ema200": 0.86343,
-      "macd": 8.5e-05,
-      "macd_signal": 7e-06,
-      "rsi14": 49.7,
-      "atr14": 0.00067,
-      "atr14_hourly": 0.00322,
-      "bb_position": 0.585
+      "ema50": 0.86416,
+      "ema200": 0.86344,
+      "macd": -0.000263,
+      "macd_signal": -0.000261,
+      "rsi14": 47.1,
+      "atr14": 0.00064,
+      "atr14_hourly": 0.00303,
+      "bb_position": 0.367
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.062,
+      "percentile": 0.064,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174487
+  "data_bars": 174499
 }
