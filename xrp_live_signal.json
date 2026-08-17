@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-17T02:01:28.550604+00:00",
+  "timestamp": "2026-08-17T03:01:29.979789+00:00",
   "signal": {
-    "price": 0.8617,
+    "price": 0.865,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2652,
-    "hybrid_score": 3.6,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3136,
+    "hybrid_score": 3.8,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.009,
-      "bullish_pct": 28.3,
+      "score": -0.052,
+      "bullish_pct": 23.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.055,
-        "crypto_macro": -0.008,
-        "geopolitical": -0.275,
+        "xrp": -0.047,
+        "crypto_macro": -0.046,
+        "geopolitical": -0.243,
         "fed_rates": 0.161
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
         "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today",
+        "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - benzinga.com",
         "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
-        "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post",
-        "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - Al Jazeera"
+        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
+        "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - benzinga.com",
+        "Crypto Market Today, Aug. 12: Bitcoin Slips Despite Cooling Inflation - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.87,
-      "health": -0.1765,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.92,
+      "health": -0.0522,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.85977,
-      "ema200": 0.86219,
-      "macd": 0.001332,
-      "macd_signal": 0.001158,
-      "rsi14": 58.0,
-      "atr14": 0.00121,
-      "atr14_hourly": 0.00702,
-      "bb_position": 0.645
+      "ema50": 0.86119,
+      "ema200": 0.86232,
+      "macd": 0.001444,
+      "macd_signal": 0.00129,
+      "rsi14": 65.3,
+      "atr14": 0.00112,
+      "atr14_hourly": 0.00549,
+      "bb_position": 0.886
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.021,
+      "percentile": 0.023,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174283
+  "data_bars": 174295
 }
