@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-17T06:01:26.735832+00:00",
+  "timestamp": "2026-08-17T07:01:23.331740+00:00",
   "signal": {
-    "price": 0.8635,
+    "price": 0.8666,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1677,
-    "hybrid_score": 3.0,
-    "regime": "BEARISH",
+    "xgb_prob": 0.1839,
+    "hybrid_score": 3.1,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.005,
-      "bullish_pct": 30.0,
-      "bearish_pct": 36.7,
+      "score": 0.022,
+      "bullish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.049,
-        "crypto_macro": 0.053,
+        "xrp": 0.071,
+        "crypto_macro": 0.066,
         "geopolitical": -0.248,
-        "fed_rates": 0.116
+        "fed_rates": 0.143
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk",
-        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today",
+        "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
         "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk"
       ],
       "top_bearish": [
         "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post",
-        "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - aljazeera.com",
+        "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - Al Jazeera",
         "The Next Global Economic Crisis Could Be Made in China - Foreign Affairs"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": 0.2317,
-      "vol_ratio": 2.0
+      "up_down_ratio": 1.01,
+      "health": 0.165,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.86364,
-      "ema200": 0.86296,
-      "macd": -2.5e-05,
-      "macd_signal": 0.000182,
-      "rsi14": 42.8,
-      "atr14": 0.00054,
-      "atr14_hourly": 0.00264,
-      "bb_position": 0.117
+      "ema50": 0.86448,
+      "ema200": 0.86328,
+      "macd": 0.000631,
+      "macd_signal": 0.000437,
+      "rsi14": 61.6,
+      "atr14": 0.00068,
+      "atr14_hourly": 0.00338,
+      "bb_position": 0.835
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.024,
+      "percentile": 0.025,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174331
+  "data_bars": 174343
 }
