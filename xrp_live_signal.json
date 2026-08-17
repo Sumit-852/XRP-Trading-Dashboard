@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-17T05:01:26.009143+00:00",
+  "timestamp": "2026-08-17T06:01:26.735832+00:00",
   "signal": {
-    "price": 0.8648,
+    "price": 0.8635,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1997,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.1677,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.011,
+      "score": 0.005,
       "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.079,
-        "crypto_macro": 0.023,
+        "xrp": 0.049,
+        "crypto_macro": 0.053,
         "geopolitical": -0.248,
-        "fed_rates": 0.142
+        "fed_rates": 0.116
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
         "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk",
-        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today",
+        "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk"
       ],
       "top_bearish": [
-        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
         "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post",
-        "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - Al Jazeera"
+        "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - aljazeera.com",
+        "The Next Global Economic Crisis Could Be Made in China - Foreign Affairs"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.9,
-      "health": -0.0751,
-      "vol_ratio": 2.3
+      "up_down_ratio": 1.0,
+      "health": 0.2317,
+      "vol_ratio": 2.0
     },
     "technicals": {
-      "ema50": 0.86317,
-      "ema200": 0.86277,
-      "macd": 0.000285,
-      "macd_signal": 0.000437,
-      "rsi14": 58.2,
-      "atr14": 0.00063,
-      "atr14_hourly": 0.00287,
-      "bb_position": 0.717
+      "ema50": 0.86364,
+      "ema200": 0.86296,
+      "macd": -2.5e-05,
+      "macd_signal": 0.000182,
+      "rsi14": 42.8,
+      "atr14": 0.00054,
+      "atr14_hourly": 0.00264,
+      "bb_position": 0.117
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.023,
+      "percentile": 0.024,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174319
+  "data_bars": 174331
 }

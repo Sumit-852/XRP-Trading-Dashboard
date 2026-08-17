@@ -1,26 +1,18 @@
 {
-  "timestamp": "2026-08-17T05:01:25.962355+00:00",
-  "score": 0.011,
+  "timestamp": "2026-08-17T06:01:26.685870+00:00",
+  "score": 0.005,
   "label": "NEUTRAL",
   "bullish_pct": 30.0,
-  "bearish_pct": 33.3,
+  "bearish_pct": 36.7,
   "count": 60,
   "feed_scores": {
-    "xrp": 0.079,
-    "crypto_macro": 0.023,
+    "xrp": 0.049,
+    "crypto_macro": 0.053,
     "geopolitical": -0.248,
-    "fed_rates": 0.142
+    "fed_rates": 0.116
   },
   "geo_shock": false,
   "top_bull": [
-    {
-      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC holds strong, ETH on the verge of breakout, XRP signals recovery",
-      "pubdate": "Fri, 14 Aug 2026 03:16:17",
-      "compound": 0.796,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": 0.796
-    },
     {
       "title": "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk",
       "pubdate": "Mon, 17 Aug 2026 04:14:00",
@@ -36,17 +28,17 @@
       "feed": "xrp",
       "weight": 1.0,
       "weighted_score": 0.459
+    },
+    {
+      "title": "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk",
+      "pubdate": "Mon, 17 Aug 2026 04:14:00",
+      "compound": 0.572,
+      "feed": "crypto_macro",
+      "weight": 0.8,
+      "weighted_score": 0.458
     }
   ],
   "top_bear": [
-    {
-      "title": "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
-      "pubdate": "Sat, 15 Aug 2026 19:37:00",
-      "compound": -0.612,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": -0.612
-    },
     {
       "title": "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post",
       "pubdate": "Thu, 13 Aug 2026 23:20:03",
@@ -56,12 +48,20 @@
       "weighted_score": -0.33
     },
     {
-      "title": "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - Al Jazeera",
+      "title": "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - aljazeera.com",
       "pubdate": "Fri, 14 Aug 2026 08:49:34",
       "compound": -0.66,
       "feed": "geopolitical",
       "weight": 0.5,
       "weighted_score": -0.33
+    },
+    {
+      "title": "The Next Global Economic Crisis Could Be Made in China - Foreign Affairs",
+      "pubdate": "Thu, 13 Aug 2026 04:00:00",
+      "compound": -0.625,
+      "feed": "geopolitical",
+      "weight": 0.5,
+      "weighted_score": -0.312
     }
   ]
 }
