@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-17T12:01:20.029267+00:00",
+  "timestamp": "2026-08-17T13:01:27.131878+00:00",
   "signal": {
-    "price": 0.8619,
+    "price": 0.86,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.224,
+    "xgb_prob": 0.214,
     "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.003,
+      "score": -0.014,
       "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.022,
-        "crypto_macro": 0.051,
-        "geopolitical": -0.232,
-        "fed_rates": 0.223
+        "xrp": -0.06,
+        "crypto_macro": 0.09,
+        "geopolitical": -0.243,
+        "fed_rates": 0.178
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga"
       ],
       "top_bearish": [
+        "XRP Negative Sentiment Hits a 3-Month High as Price Struggles Near $1 - 24/7 Wall St.",
         "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
-        "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need ",
-        "Gulf war fallout: Somali households pay the price of trade disruption - The New Humanitarian"
+        "Donald Trump\u2019s war on customs fraud will be costly and difficult - Financial Times"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.94,
-      "health": -0.0773,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.86,
+      "health": -0.127,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 0.86192,
-      "ema200": 0.86253,
-      "macd": 0.000367,
-      "macd_signal": 0.000495,
-      "rsi14": 49.2,
-      "atr14": 0.00054,
-      "atr14_hourly": 0.00304,
-      "bb_position": 0.336
+      "ema50": 0.8616,
+      "ema200": 0.86237,
+      "macd": -0.000472,
+      "macd_signal": -0.000139,
+      "rsi14": 38.2,
+      "atr14": 0.00065,
+      "atr14_hourly": 0.00299,
+      "bb_position": 0.113
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.031,
+      "percentile": 0.032,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174403
+  "data_bars": 174415
 }
