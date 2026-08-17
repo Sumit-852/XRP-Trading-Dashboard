@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-08-17T08:01:54.319486+00:00",
+  "timestamp": "2026-08-17T09:01:20.990443+00:00",
   "signal": {
-    "price": 0.8634,
+    "price": 0.8599,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.228,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.2709,
+    "hybrid_score": 3.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.011,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": -0.001,
+        "crypto_macro": 0.079,
+        "geopolitical": -0.234,
+        "fed_rates": 0.213
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk",
+        "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes - CoinDesk",
+        "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - Bitcoin Foundation"
+      ],
+      "top_bearish": [
+        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
+        "US accuses 9 Latin American countries of helping China avoid Trump\u2019s tariffs - South China Morning Post",
+        "US accuses dozens of countries of helping China avoid Trump\u2019s tariffs - Al Jazeera"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": 0.0571,
-      "vol_ratio": 0.33
+      "up_down_ratio": 0.94,
+      "health": 0.0249,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86453,
-      "ema200": 0.86344,
-      "macd": -0.000363,
-      "macd_signal": -9e-06,
-      "rsi14": 35.7,
-      "atr14": 0.00055,
-      "atr14_hourly": 0.00329,
-      "bb_position": 0.089
+      "ema50": 0.86298,
+      "ema200": 0.86311,
+      "macd": -0.001346,
+      "macd_signal": -0.001168,
+      "rsi14": 24.4,
+      "atr14": 0.00064,
+      "atr14_hourly": 0.00406,
+      "bb_position": 0.235
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.026,
+      "percentile": 0.028,
       "extreme": true
     }
   },
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174355
+  "data_bars": 174367
 }
