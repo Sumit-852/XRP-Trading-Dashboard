@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-16T23:01:22.633707+00:00",
+  "timestamp": "2026-08-17T00:01:18.758015+00:00",
   "signal": {
-    "price": 0.8576,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8575,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3364,
-    "hybrid_score": 4.0,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.085,
-      "bullish_pct": 23.3,
-      "bearish_pct": 40.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": -0.046,
-        "crypto_macro": -0.142,
-        "geopolitical": -0.264,
-        "fed_rates": 0.152
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St.",
-        "Ripple Clarity Act: SEC Vote Could Set Crypto Rulemaking in Motion on August 14 - Yahoo Finance",
-        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP - BeInCrypto"
-      ],
-      "top_bearish": [
-        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
-        "XRP Price Falls Below $1 as Emerging Risks Point to More Downside - Benzinga",
-        "Bitcoin analysis shows what bulls need to do next to end this bearish 2026 - investingLive"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.9,
-      "health": 0.0899,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 0.86138,
-      "ema200": 0.86377,
-      "macd": -0.001505,
-      "macd_signal": -0.001426,
-      "rsi14": 35.9,
-      "atr14": 0.00104,
-      "atr14_hourly": 0.00533,
-      "bb_position": 0.264
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.005,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174247
+  "data_bars": 174259
 }
