@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-18T04:01:20.645580+00:00",
+  "timestamp": "2026-08-18T05:01:24.205876+00:00",
   "signal": {
-    "price": 0.8554,
+    "price": 0.8584,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2648,
-    "hybrid_score": 2.4,
+    "xgb_prob": 0.1834,
+    "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.053,
-      "bullish_pct": 38.3,
-      "bearish_pct": 20.0,
+      "score": 0.061,
+      "bullish_pct": 40.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.056,
-        "crypto_macro": 0.0,
-        "geopolitical": -0.085,
+        "xrp": 0.048,
+        "crypto_macro": 0.036,
+        "geopolitical": -0.084,
         "fed_rates": 0.322
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
-        "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot - CoinDesk",
-        "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - Bitcoin Foundation"
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today",
+        "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot - coindesk.com"
       ],
       "top_bearish": [
         "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need ",
-        "Nike Stock Hits 12-Year Low: Riskier Than Bitcoin? - CryptoRank",
-        "Gulf war fallout: Somali households pay the price of trade disruption - The New Humanitarian"
+        "Gulf war fallout: Somali households pay the price of trade disruption - The New Humanitarian",
+        "AG Chat- US China Trade Tensions High Among Tariffs - WEAU"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.81,
-      "health": -0.3416,
-      "vol_ratio": 0.05
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.85,
+      "health": -0.1709,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 0.859,
-      "ema200": 0.86219,
-      "macd": -0.001312,
-      "macd_signal": -0.001578,
-      "rsi14": 38.5,
-      "atr14": 0.00082,
-      "atr14_hourly": 0.00445,
-      "bb_position": 0.379
+      "ema50": 0.85872,
+      "ema200": 0.86174,
+      "macd": 0.000315,
+      "macd_signal": -6e-05,
+      "rsi14": 53.6,
+      "atr14": 0.00077,
+      "atr14_hourly": 0.00453,
+      "bb_position": 0.7
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.026,
+      "percentile": 0.031,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174595
+  "data_bars": 174607
 }
