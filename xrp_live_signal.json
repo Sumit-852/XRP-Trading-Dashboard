@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-18T13:01:25.311869+00:00",
+  "timestamp": "2026-08-18T14:01:24.730590+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.8607,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8611,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2578,
+    "hybrid_score": 2.3,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.016,
+      "bullish_pct": 30.0,
+      "bearish_pct": 23.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.071,
+        "crypto_macro": -0.097,
+        "geopolitical": -0.157,
+        "fed_rates": 0.323
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today",
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
+      ],
+      "top_bearish": [
+        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - Iran International",
+        "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower - CoinDesk",
+        "Bitcoin price reclaims $64K, but leverage raises pullback risk - crypto.news"
+      ]
+    },
+    "vpa": {
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.78,
+      "health": -0.1144,
+      "vol_ratio": 0.73
+    },
+    "technicals": {
+      "ema50": 0.86083,
+      "ema200": 0.86101,
+      "macd": -0.000123,
+      "macd_signal": -0.000139,
+      "rsi14": 51.7,
+      "atr14": 0.00064,
+      "atr14_hourly": 0.00245,
+      "bb_position": 0.579
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.031,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174703
+  "data_bars": 174715
 }
