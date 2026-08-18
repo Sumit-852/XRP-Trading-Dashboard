@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-18T17:01:26.432638+00:00",
+  "timestamp": "2026-08-18T18:01:27.109138+00:00",
   "signal": {
-    "price": 0.864,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 0.8638,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.197,
-    "hybrid_score": 2.0,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.04,
-      "bullish_pct": 31.7,
-      "bearish_pct": 20.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.121,
-        "crypto_macro": 0.01,
-        "geopolitical": -0.292,
-        "fed_rates": 0.312
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
-        "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
-        "Bitcoin scores a rare win over S&P 500 with 2.6% rise versus 0.5% fall - CoinDesk"
-      ],
-      "top_bearish": [
-        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - iranintl.com",
-        "Trump\u2019s threat of 100% import tariff on UK \u2018not a bluff\u2019, US trade tsar warns - The Independent",
-        "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower - CoinDesk"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": -0.052,
-      "vol_ratio": 0.29
-    },
-    "technicals": {
-      "ema50": 0.86375,
-      "ema200": 0.86209,
-      "macd": 0.000119,
-      "macd_signal": 0.000298,
-      "rsi14": 46.8,
-      "atr14": 0.00073,
-      "atr14_hourly": 0.00363,
-      "bb_position": 0.22
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.035,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +50,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174751
+  "data_bars": 174763
 }
