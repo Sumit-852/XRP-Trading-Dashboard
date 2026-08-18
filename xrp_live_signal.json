@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-18T19:01:27.162423+00:00",
+  "timestamp": "2026-08-18T20:01:26.513779+00:00",
   "signal": {
-    "price": 0.8643,
+    "price": 0.8656,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1339,
-    "hybrid_score": 1.6,
+    "xgb_prob": 0.1692,
+    "hybrid_score": 1.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.046,
+      "score": 0.05,
       "bullish_pct": 33.3,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.15,
-        "crypto_macro": 0.014,
-        "geopolitical": -0.318,
-        "fed_rates": 0.303
+        "crypto_macro": -0.008,
+        "geopolitical": -0.217,
+        "fed_rates": 0.248
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
-        "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - benzinga.com",
+        "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
         "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
       ],
       "top_bearish": [
-        "Two Ships Transiting Strait of Hormuz Are Attacked as Oil Prices Rise - The New York Times",
-        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - Iran International",
-        "Bitcoin's volatility collapse has traders look elsewhere as \u2018nothing really prints money\u2019 in crypto - CoinDesk"
+        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - iranintl.com",
+        "Bitcoin's volatility collapse has traders look elsewhere as \u2018nothing really prints money\u2019 in crypto - CoinDesk",
+        "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.71,
-      "health": -0.075,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.72,
+      "health": -0.0393,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86418,
-      "ema200": 0.86258,
-      "macd": 4.9e-05,
-      "macd_signal": 7.5e-05,
-      "rsi14": 47.5,
-      "atr14": 0.00042,
-      "atr14_hourly": 0.00193,
-      "bb_position": 0.437
+      "ema50": 0.86453,
+      "ema200": 0.86286,
+      "macd": 0.00026,
+      "macd_signal": 0.000185,
+      "rsi14": 61.6,
+      "atr14": 0.00044,
+      "atr14_hourly": 0.00181,
+      "bb_position": 0.872
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.03,
+      "percentile": 0.029,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174775
+  "data_bars": 174787
 }
