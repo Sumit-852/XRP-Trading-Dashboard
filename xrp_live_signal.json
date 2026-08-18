@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-18T09:01:22.398869+00:00",
+  "timestamp": "2026-08-18T10:01:21.341734+00:00",
   "signal": {
-    "price": 0.8603,
+    "price": 0.8596,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1826,
-    "hybrid_score": 3.1,
+    "xgb_prob": 0.1861,
+    "hybrid_score": 1.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.051,
+      "score": 0.031,
       "bullish_pct": 30.0,
-      "bearish_pct": 16.7,
+      "bearish_pct": 20.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.05,
-        "crypto_macro": -0.004,
-        "geopolitical": -0.064,
-        "fed_rates": 0.305
+        "xrp": 0.03,
+        "crypto_macro": -0.003,
+        "geopolitical": -0.124,
+        "fed_rates": 0.295
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
       ],
       "top_bearish": [
+        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - Iran International",
         "AG Chat- US China Trade Tensions High Among Tariffs - WEAU",
-        "Bitcoin price breaks $64K as major altcoins struggle - Crypto News",
-        "After Hormuz, China looks to the promise \u2013 and peril \u2013 of the Arctic\u2019s \u2018ice silk road\u2019 - The Guardian"
+        "Tariff-Dodging Settlements Underscore DOJ Focus on Trade Fraud - Bloomberg Law News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": 0.0962,
-      "vol_ratio": 0.09
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.83,
+      "health": -0.0339,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86013,
-      "ema200": 0.86126,
-      "macd": -3.6e-05,
-      "macd_signal": -0.000148,
-      "rsi14": 50.9,
-      "atr14": 0.0007,
-      "atr14_hourly": 0.00444,
-      "bb_position": 0.61
+      "ema50": 0.85982,
+      "ema200": 0.86104,
+      "macd": -0.000236,
+      "macd_signal": -0.000249,
+      "rsi14": 49.4,
+      "atr14": 0.00051,
+      "atr14_hourly": 0.00333,
+      "bb_position": 0.442
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174655
+  "data_bars": 174667
 }
