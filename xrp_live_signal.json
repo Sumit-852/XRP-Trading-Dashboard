@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-18T20:01:26.513779+00:00",
+  "timestamp": "2026-08-18T21:01:22.981118+00:00",
   "signal": {
-    "price": 0.8656,
+    "price": 0.8638,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1692,
-    "hybrid_score": 1.8,
+    "xgb_prob": 0.2334,
+    "hybrid_score": 2.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.05,
-      "bullish_pct": 33.3,
-      "bearish_pct": 23.3,
+      "score": 0.08,
+      "bullish_pct": 38.3,
+      "bearish_pct": 18.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.15,
-        "crypto_macro": -0.008,
-        "geopolitical": -0.217,
-        "fed_rates": 0.248
+        "xrp": 0.188,
+        "crypto_macro": 0.017,
+        "geopolitical": -0.188,
+        "fed_rates": 0.269
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
       ],
       "top_bearish": [
-        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - iranintl.com",
-        "Bitcoin's volatility collapse has traders look elsewhere as \u2018nothing really prints money\u2019 in crypto - CoinDesk",
-        "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower - CoinDesk"
+        "AI Predicts XRP: Claude Makes a Prediction that May Anger the Ripple Maxis - Cryptonews",
+        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - Iran International",
+        "Bitcoin's volatility collapse has traders look elsewhere as \u2018nothing really prints money\u2019 in crypto - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": -0.0393,
+      "up_down_ratio": 0.74,
+      "health": 0.0577,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86453,
-      "ema200": 0.86286,
-      "macd": 0.00026,
-      "macd_signal": 0.000185,
-      "rsi14": 61.6,
-      "atr14": 0.00044,
-      "atr14_hourly": 0.00181,
-      "bb_position": 0.872
+      "ema50": 0.86442,
+      "ema200": 0.86303,
+      "macd": -0.000292,
+      "macd_signal": -0.000119,
+      "rsi14": 42.9,
+      "atr14": 0.00057,
+      "atr14_hourly": 0.00255,
+      "bb_position": 0.218
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.029,
+      "percentile": 0.028,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174787
+  "data_bars": 174799
 }
