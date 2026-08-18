@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-18T10:01:21.341734+00:00",
+  "timestamp": "2026-08-18T11:01:23.881998+00:00",
   "signal": {
     "price": 0.8596,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1861,
-    "hybrid_score": 1.9,
+    "xgb_prob": 0.1585,
+    "hybrid_score": 1.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 30.0,
-      "bearish_pct": 20.0,
+      "score": 0.028,
+      "bullish_pct": 31.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.03,
-        "crypto_macro": -0.003,
-        "geopolitical": -0.124,
-        "fed_rates": 0.295
+        "xrp": 0.076,
+        "crypto_macro": -0.057,
+        "geopolitical": -0.146,
+        "fed_rates": 0.298
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
-        "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - Bitcoin Foundation",
-        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
+        "Bitcoin scores a rare win over S&P 500 with 2.6% rise versus 0.5% fall - CoinDesk",
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
       ],
       "top_bearish": [
         "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - Iran International",
-        "AG Chat- US China Trade Tensions High Among Tariffs - WEAU",
-        "Tariff-Dodging Settlements Underscore DOJ Focus on Trade Fraud - Bloomberg Law News"
+        "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower - CoinDesk",
+        "AG Chat- US China Trade Tensions High Among Tariffs - WEAU"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": -0.0339,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.79,
+      "health": -0.0685,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 0.85982,
-      "ema200": 0.86104,
-      "macd": -0.000236,
-      "macd_signal": -0.000249,
-      "rsi14": 49.4,
-      "atr14": 0.00051,
-      "atr14_hourly": 0.00333,
-      "bb_position": 0.442
+      "ema50": 0.8596,
+      "ema200": 0.86084,
+      "macd": -5.8e-05,
+      "macd_signal": -0.000161,
+      "rsi14": 52.3,
+      "atr14": 0.00037,
+      "atr14_hourly": 0.00204,
+      "bb_position": 0.83
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.037,
+      "percentile": 0.034,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174667
+  "data_bars": 174679
 }
