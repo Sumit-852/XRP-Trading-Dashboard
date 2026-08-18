@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-18T07:01:17.294855+00:00",
+  "timestamp": "2026-08-18T08:01:26.752631+00:00",
   "signal": {
-    "price": 0.8621,
+    "price": 0.8598,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2127,
-    "hybrid_score": 2.1,
+    "xgb_prob": 0.242,
+    "hybrid_score": 3.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.078,
-      "bullish_pct": 38.3,
-      "bearish_pct": 18.3,
+      "score": 0.034,
+      "bullish_pct": 31.7,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.053,
-        "crypto_macro": 0.05,
-        "geopolitical": -0.014,
-        "fed_rates": 0.31
+        "crypto_macro": -0.031,
+        "geopolitical": -0.087,
+        "fed_rates": 0.268
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
-        "Bitcoin Reclaims $64,000, Lone Major Crypto to Post Meaningful Gain - bloomingbit",
-        "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot - CoinDesk"
+        "Bitcoin Holds Above $63K as LINK and HYPE Surge Ahead of Key Fed Week - bitcoinfoundation.org",
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need ",
-        "Ship attacked in Hormuz Strait as U.S.-Iran ceasefire expiry risks prolonged conflict - cnbc.com",
-        "AG Chat- US China Trade Tensions High Among Tariffs - WEAU"
+        "Ship attacked in Hormuz Strait as U.S.-Iran ceasefire expiry risks prolonged conflict - CNBC",
+        "AG Chat- US China Trade Tensions High Among Tariffs - WEAU",
+        "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need "
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
+      "phase": "NEUTRAL",
       "up_down_ratio": 0.84,
-      "health": 0.0179,
-      "vol_ratio": 0.02
+      "health": 0.0586,
+      "vol_ratio": 1.23
     },
     "technicals": {
-      "ema50": 0.86022,
-      "ema200": 0.86157,
-      "macd": 0.001017,
-      "macd_signal": 0.000983,
-      "rsi14": 59.4,
-      "atr14": 0.00071,
-      "atr14_hourly": 0.00447,
-      "bb_position": 0.666
+      "ema50": 0.86038,
+      "ema200": 0.86147,
+      "macd": -0.00015,
+      "macd_signal": 0.000213,
+      "rsi14": 42.9,
+      "atr14": 0.00069,
+      "atr14_hourly": 0.0039,
+      "bb_position": 0.18
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.033,
+      "percentile": 0.034,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174631
+  "data_bars": 174643
 }
