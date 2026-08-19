@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-19T07:01:21.475627+00:00",
+  "timestamp": "2026-08-19T08:01:19.407454+00:00",
   "signal": {
-    "price": 0.8651,
+    "price": 0.8647,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1944,
-    "hybrid_score": 3.2,
-    "regime": "BULLISH",
+    "xgb_prob": 0.1877,
+    "hybrid_score": 1.9,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.025,
-      "bullish_pct": 40.0,
-      "bearish_pct": 26.7,
+      "score": 0.026,
+      "bullish_pct": 41.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.124,
-        "crypto_macro": -0.002,
-        "geopolitical": -0.286,
-        "fed_rates": 0.217
+        "xrp": 0.158,
+        "crypto_macro": -0.036,
+        "geopolitical": -0.325,
+        "fed_rates": 0.258
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - ccn.com",
         "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
-        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today",
-        "Dollar-Cost Averaging Into Bitcoin vs XRP Since the 2025 Peak: Which Crypto Held Up Better? - Yahoo Finance"
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
       ],
       "top_bearish": [
-        "AI Predicts XRP: Claude Makes a Prediction that May Anger the Ripple Maxis - Cryptonews",
+        "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
         "Ripple prepares to dump 1 billion XRP in less than two weeks - Finbold",
         "UAE imposes indefinite trade embargo on Iran over alleged missile attacks - Al Jazeera"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": -0.1466,
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.81,
+      "health": -0.2114,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86324,
-      "ema200": 0.86305,
-      "macd": 0.000595,
-      "macd_signal": 0.000355,
-      "rsi14": 66.1,
-      "atr14": 0.00059,
-      "atr14_hourly": 0.00286,
-      "bb_position": 0.868
+      "ema50": 0.86421,
+      "ema200": 0.86336,
+      "macd": 0.000565,
+      "macd_signal": 0.000731,
+      "rsi14": 48.5,
+      "atr14": 0.00054,
+      "atr14_hourly": 0.00294,
+      "bb_position": 0.35
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.022,
+      "percentile": 0.021,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174919
+  "data_bars": 174931
 }
