@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-19T12:01:23.061898+00:00",
+  "timestamp": "2026-08-19T13:01:29.868468+00:00",
   "signal": {
-    "price": 0.8661,
+    "price": 0.868,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1393,
-    "hybrid_score": 2.8,
+    "xgb_prob": 0.1381,
+    "hybrid_score": 2.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.005,
-      "bullish_pct": 36.7,
-      "bearish_pct": 31.7,
+      "score": 0.031,
+      "bullish_pct": 38.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.105,
-        "crypto_macro": -0.051,
-        "geopolitical": -0.324,
-        "fed_rates": 0.279
+        "xrp": 0.051,
+        "crypto_macro": 0.048,
+        "geopolitical": -0.226,
+        "fed_rates": 0.269
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
+        "US SEC Panel Passes 'Crypto Asset Regulation' Proposal as Bitcoin Rallies Toward $65,000 - TradingKey",
         "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
-        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
+        "Ripple just scored two major institutional wins but XRP traders are bracing for a bigger move - CryptoSlate"
       ],
       "top_bearish": [
         "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": 0.1586,
-      "vol_ratio": 0.22
+      "up_down_ratio": 1.05,
+      "health": 0.3143,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 0.86526,
-      "ema200": 0.86419,
-      "macd": 0.000158,
-      "macd_signal": 8.6e-05,
-      "rsi14": 59.6,
-      "atr14": 0.0004,
-      "atr14_hourly": 0.00247,
-      "bb_position": 0.767
+      "ema50": 0.86596,
+      "ema200": 0.86451,
+      "macd": 0.000664,
+      "macd_signal": 0.000483,
+      "rsi14": 60.8,
+      "atr14": 0.00073,
+      "atr14_hourly": 0.00271,
+      "bb_position": 0.863
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.018,
+      "percentile": 0.022,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174979
+  "data_bars": 174991
 }
