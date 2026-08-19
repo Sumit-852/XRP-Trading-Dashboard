@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-08-19T19:02:00.009946+00:00",
+  "timestamp": "2026-08-19T20:01:16.541834+00:00",
   "signal": {
-    "price": 0.9145,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5179,
-    "hybrid_score": 5.2,
+    "price": 0.9141,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4915,
+    "hybrid_score": 6.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.096,
-      "bullish_pct": 38.3,
-      "bearish_pct": 28.3,
+      "sentiment": "BULLISH",
+      "score": 0.106,
+      "bullish_pct": 43.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.153,
-        "crypto_macro": 0.259,
-        "geopolitical": -0.283,
-        "fed_rates": 0.1
+        "xrp": 0.137,
+        "crypto_macro": 0.285,
+        "geopolitical": -0.232,
+        "fed_rates": 0.094
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Prices Surge: Bitcoin Reclaims $68K as Liquidity Improves - Altcoin Buzz",
-        "Ripple Borrows $275 Million at 8.25% to Take On Goldman Sachs. Can It Win? - 24/7 Wall St.",
-        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com"
+        "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market - Altcoin Buzz",
+        "Elon Musk Grok AI Just Made a Surprisingly Bullish XRP Price Predicts - Cryptonews",
+        "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite - CoinDesk"
       ],
       "top_bearish": [
+        "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
         "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool",
-        "Trump says the Strait of Hormuz is fully open. Trade data suggests otherwise - WLWT",
-        "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - Yahoo Finance"
+        "Trump says the Strait of Hormuz is fully open. Trade data suggests otherwise - KCRA"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.37,
-      "health": 0.684,
-      "vol_ratio": 0.23
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.44,
+      "health": 0.4668,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 0.90453,
-      "ema200": 0.88307,
-      "macd": 0.002454,
-      "macd_signal": 0.001969,
-      "rsi14": 63.3,
-      "atr14": 0.00221,
-      "atr14_hourly": 0.01231,
-      "bb_position": 0.806
+      "ema50": 0.90802,
+      "ema200": 0.88653,
+      "macd": 0.001264,
+      "macd_signal": 0.001606,
+      "rsi14": 56.1,
+      "atr14": 0.00216,
+      "atr14_hourly": 0.00878,
+      "bb_position": 0.58
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.387,
+      "percentile": 0.409,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175063
+  "data_bars": 175075
 }
