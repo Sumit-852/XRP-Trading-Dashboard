@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-19T08:01:19.407454+00:00",
+  "timestamp": "2026-08-19T09:01:28.381029+00:00",
   "signal": {
-    "price": 0.8647,
+    "price": 0.8675,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1877,
-    "hybrid_score": 1.9,
-    "regime": "BEARISH",
+    "xgb_prob": 0.2325,
+    "hybrid_score": 3.4,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.026,
+      "score": 0.004,
       "bullish_pct": 41.7,
-      "bearish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.158,
-        "crypto_macro": -0.036,
-        "geopolitical": -0.325,
+        "xrp": 0.093,
+        "crypto_macro": -0.06,
+        "geopolitical": -0.275,
         "fed_rates": 0.258
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - ccn.com",
         "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
-        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - u.today",
+        "Dollar-Cost Averaging Into Bitcoin vs XRP Since the 2025 Peak: Which Crypto Held Up Better? - finance.yahoo.com"
       ],
       "top_bearish": [
         "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
         "Ripple prepares to dump 1 billion XRP in less than two weeks - Finbold",
-        "UAE imposes indefinite trade embargo on Iran over alleged missile attacks - Al Jazeera"
+        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.81,
-      "health": -0.2114,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.09,
+      "health": 0.1305,
+      "vol_ratio": 1.77
     },
     "technicals": {
-      "ema50": 0.86421,
-      "ema200": 0.86336,
-      "macd": 0.000565,
-      "macd_signal": 0.000731,
-      "rsi14": 48.5,
-      "atr14": 0.00054,
-      "atr14_hourly": 0.00294,
-      "bb_position": 0.35
+      "ema50": 0.86516,
+      "ema200": 0.86373,
+      "macd": 0.00083,
+      "macd_signal": 0.000704,
+      "rsi14": 61.8,
+      "atr14": 0.00073,
+      "atr14_hourly": 0.00354,
+      "bb_position": 0.743
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.021,
+      "percentile": 0.02,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174931
+  "data_bars": 174943
 }
