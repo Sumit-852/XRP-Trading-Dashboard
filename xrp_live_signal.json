@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-19T14:01:25.224310+00:00",
+  "timestamp": "2026-08-19T15:01:30.313772+00:00",
   "signal": {
-    "price": 0.8715,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3875,
-    "hybrid_score": 4.4,
+    "price": 0.884,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5318,
+    "hybrid_score": 5.2,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.053,
+      "score": 0.031,
       "bullish_pct": 41.7,
-      "bearish_pct": 28.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.108,
+        "xrp": 0.04,
         "crypto_macro": 0.09,
-        "geopolitical": -0.302,
-        "fed_rates": 0.286
+        "geopolitical": -0.305,
+        "fed_rates": 0.31
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple just scored two major institutional wins but XRP traders are bracing for a bigger move - CryptoSlate"
       ],
       "top_bearish": [
+        "Why is XRP Crashing? - 24/7 Wall St.",
         "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
-        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool",
-        "Trump postpones 50% tariff he threatened for some Canadian goods - CNN"
+        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": -0.1345,
-      "vol_ratio": 1.52
+      "up_down_ratio": 1.1,
+      "health": 0.0209,
+      "vol_ratio": 0.78
     },
     "technicals": {
-      "ema50": 0.86841,
-      "ema200": 0.8654,
-      "macd": 0.001561,
-      "macd_signal": 0.001699,
-      "rsi14": 55.6,
-      "atr14": 0.00152,
-      "atr14_hourly": 0.00701,
-      "bb_position": 0.59
+      "ema50": 0.87148,
+      "ema200": 0.8666,
+      "macd": 0.003193,
+      "macd_signal": 0.00208,
+      "rsi14": 77.3,
+      "atr14": 0.00208,
+      "atr14_hourly": 0.00818,
+      "bb_position": 1.048
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.045,
+      "percentile": 0.074,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175003
+  "data_bars": 175015
 }
