@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-08-19T04:01:18.939585+00:00",
+  "timestamp": "2026-08-19T05:01:32.331775+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 0.8628,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 0.8623,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.1461,
+    "hybrid_score": 2.9,
+    "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.006,
+      "bullish_pct": 35.0,
+      "bearish_pct": 28.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.137,
+        "crypto_macro": -0.057,
+        "geopolitical": -0.301,
+        "fed_rates": 0.183
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - u.today",
+        "Dollar-Cost Averaging Into Bitcoin vs XRP Since the 2025 Peak: Which Crypto Held Up Better? - Yahoo Finance"
+      ],
+      "top_bearish": [
+        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck. - The Motley Fool",
+        "UAE imposes indefinite trade embargo on Iran over alleged missile attacks - Al Jazeera",
+        "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab \u2013 Reuters - Iran International"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.94,
+      "health": -0.0456,
+      "vol_ratio": 0.03
+    },
+    "technicals": {
+      "ema50": 0.86264,
+      "ema200": 0.86294,
+      "macd": 4.4e-05,
+      "macd_signal": 0.000136,
+      "rsi14": 44.9,
+      "atr14": 0.00035,
+      "atr14_hourly": 0.0017,
+      "bb_position": 0.008
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.024,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4915.47,
     "total_pnl_pct": -1.691,
     "position": "CASH",
@@ -50,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174883
+  "data_bars": 174895
 }
