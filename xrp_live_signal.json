@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-19T09:01:28.381029+00:00",
+  "timestamp": "2026-08-19T10:01:19.478800+00:00",
   "signal": {
-    "price": 0.8675,
+    "price": 0.8641,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2325,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.2165,
+    "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.004,
-      "bullish_pct": 41.7,
-      "bearish_pct": 31.7,
+      "score": 0.034,
+      "bullish_pct": 40.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.093,
-        "crypto_macro": -0.06,
-        "geopolitical": -0.275,
-        "fed_rates": 0.258
+        "xrp": 0.109,
+        "crypto_macro": -0.036,
+        "geopolitical": -0.208,
+        "fed_rates": 0.292
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com",
         "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'\u2014Analyst Says BTC in 'End Stage' of - Benzinga",
-        "Legendary Trader Brandt: 'Who Cares About XRP?' - u.today",
-        "Dollar-Cost Averaging Into Bitcoin vs XRP Since the 2025 Peak: Which Crypto Held Up Better? - finance.yahoo.com"
+        "Legendary Trader Brandt: 'Who Cares About XRP?' - U.Today"
       ],
       "top_bearish": [
-        "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
         "Ripple prepares to dump 1 billion XRP in less than two weeks - Finbold",
-        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool"
+        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool",
+        "Assessing Bitcoin, Ethereum and XRP outlook amid escalating Middle East tensions - FXStreet"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.09,
-      "health": 0.1305,
-      "vol_ratio": 1.77
+      "health": 0.2014,
+      "vol_ratio": 1.96
     },
     "technicals": {
-      "ema50": 0.86516,
-      "ema200": 0.86373,
-      "macd": 0.00083,
-      "macd_signal": 0.000704,
-      "rsi14": 61.8,
-      "atr14": 0.00073,
-      "atr14_hourly": 0.00354,
-      "bb_position": 0.743
+      "ema50": 0.86526,
+      "ema200": 0.86393,
+      "macd": -0.000361,
+      "macd_signal": 3.6e-05,
+      "rsi14": 35.8,
+      "atr14": 0.00058,
+      "atr14_hourly": 0.00384,
+      "bb_position": 0.116
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.02,
+      "percentile": 0.021,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174943
+  "data_bars": 174955
 }
