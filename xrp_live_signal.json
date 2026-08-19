@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-19T17:01:26.446930+00:00",
+  "timestamp": "2026-08-19T18:01:26.133539+00:00",
   "signal": {
-    "price": 0.911,
+    "price": 0.909,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5356,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5104,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.008,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "score": 0.079,
+      "bullish_pct": 41.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.074,
-        "crypto_macro": 0.095,
-        "geopolitical": -0.259,
-        "fed_rates": 0.263
+        "xrp": 0.108,
+        "crypto_macro": 0.193,
+        "geopolitical": -0.222,
+        "fed_rates": 0.156
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Strategy Rockets 13%, Bitmine Immersion Technologies Rallies 13%, Coinbase Jumps 11% as Bitcoin Surges Past $68,000 - 24",
-        "SEC\u2019s New Crypto Rules Could Hand Ripple a Legal Exit Ramp for XRP - TradingView",
-        "Crypto Executives to Meet With Trump Wednesday as Clarity Act Stalls - Barron's"
+        "Strategy Rockets 13%, Bitmine Immersion Technologies Rallies 13%, Coinbase Jumps 11% as Bitcoin Surges Past $68,000 - Ya",
+        "Ripple Borrows $275 Million at 8.25% to Take On Goldman Sachs. Can It Win? - 24/7 Wall St.",
+        "SEC\u2019s New Crypto Rules Could Hand Ripple a Legal Exit Ramp for XRP - TradingView"
       ],
       "top_bearish": [
-        "XRP Negative Sentiment Hits a 3-Month High as Price Struggles Near $1 - 24/7 Wall St.",
         "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
-        "AI Predicts XRP: Claude Makes a Prediction that May Anger the Ripple Maxis - Cryptonews"
+        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool",
+        "Assessing Bitcoin, Ethereum and XRP outlook amid escalating Middle East tensions - FXStreet"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.19,
-      "health": 0.3064,
-      "vol_ratio": 0.51
+      "up_down_ratio": 1.27,
+      "health": 0.4217,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 0.89627,
-      "ema200": 0.87607,
-      "macd": 0.005771,
-      "macd_signal": 0.007661,
-      "rsi14": 63.6,
-      "atr14": 0.00317,
-      "atr14_hourly": 0.01803,
-      "bb_position": 0.158
+      "ema50": 0.9001,
+      "ema200": 0.87946,
+      "macd": 0.001479,
+      "macd_signal": 0.00201,
+      "rsi14": 57.1,
+      "atr14": 0.00265,
+      "atr14_hourly": 0.01495,
+      "bb_position": 0.507
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.313,
+      "percentile": 0.366,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175039
+  "data_bars": 175051
 }
