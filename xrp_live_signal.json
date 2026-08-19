@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-19T21:01:26.309416+00:00",
+  "timestamp": "2026-08-19T22:01:20.737335+00:00",
   "signal": {
-    "price": 0.9411,
+    "price": 0.9659,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5281,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.6222,
+    "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.091,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "sentiment": "BULLISH",
+      "score": 0.113,
+      "bullish_pct": 38.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.196,
-        "crypto_macro": 0.182,
-        "geopolitical": -0.243,
-        "fed_rates": 0.067
+        "xrp": 0.221,
+        "crypto_macro": 0.221,
+        "geopolitical": -0.251,
+        "fed_rates": 0.08
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Ripple Borrows $275 Million at 8.25% to Take On Goldman Sachs. Can It Win? - 24/7 Wall St."
       ],
       "top_bearish": [
-        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool",
-        "Trump says the Strait of Hormuz is fully open. Trade data suggests otherwise - KCRA",
+        "Why Is XRP (Ripple) Up Today? - The Motley Fool",
+        "Trump says the Strait of Hormuz is fully open. Trade data suggests otherwise - WBAL-TV",
         "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.68,
-      "health": 0.3992,
-      "vol_ratio": 2.61
+      "up_down_ratio": 1.67,
+      "health": 0.5621,
+      "vol_ratio": 0.47
     },
     "technicals": {
-      "ema50": 0.91635,
-      "ema200": 0.89133,
-      "macd": 0.007198,
-      "macd_signal": 0.00496,
-      "rsi14": 76.3,
-      "atr14": 0.0038,
-      "atr14_hourly": 0.01554,
-      "bb_position": 0.943
+      "ema50": 0.93255,
+      "ema200": 0.8989,
+      "macd": 0.011859,
+      "macd_signal": 0.010866,
+      "rsi14": 75.2,
+      "atr14": 0.00721,
+      "atr14_hourly": 0.05399,
+      "bb_position": 0.812
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.531,
+      "percentile": 0.614,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175087
+  "data_bars": 175099
 }
