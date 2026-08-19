@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-19T13:01:29.868468+00:00",
+  "timestamp": "2026-08-19T14:01:25.224310+00:00",
   "signal": {
-    "price": 0.868,
+    "price": 0.8715,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.1381,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.3875,
+    "hybrid_score": 4.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "score": 0.053,
+      "bullish_pct": 41.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.051,
-        "crypto_macro": 0.048,
-        "geopolitical": -0.226,
-        "fed_rates": 0.269
+        "xrp": 0.108,
+        "crypto_macro": 0.09,
+        "geopolitical": -0.302,
+        "fed_rates": 0.286
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP and XLM outlook: Remain vulnerable as bearish signals mount - FXStreet",
         "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool",
-        "Assessing Bitcoin, Ethereum and XRP outlook amid escalating Middle East tensions - FXStreet"
+        "Trump postpones 50% tariff he threatened for some Canadian goods - CNN"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": 0.3143,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.97,
+      "health": -0.1345,
+      "vol_ratio": 1.52
     },
     "technicals": {
-      "ema50": 0.86596,
-      "ema200": 0.86451,
-      "macd": 0.000664,
-      "macd_signal": 0.000483,
-      "rsi14": 60.8,
-      "atr14": 0.00073,
-      "atr14_hourly": 0.00271,
-      "bb_position": 0.863
+      "ema50": 0.86841,
+      "ema200": 0.8654,
+      "macd": 0.001561,
+      "macd_signal": 0.001699,
+      "rsi14": 55.6,
+      "atr14": 0.00152,
+      "atr14_hourly": 0.00701,
+      "bb_position": 0.59
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.022,
+      "percentile": 0.045,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 174991
+  "data_bars": 175003
 }
