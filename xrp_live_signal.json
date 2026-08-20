@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-20T12:01:32.370144+00:00",
+  "timestamp": "2026-08-20T13:01:23.705600+00:00",
   "signal": {
-    "price": 1.0168,
+    "price": 1.0178,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6498,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.6583,
+    "hybrid_score": 6.1,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.132,
-      "bullish_pct": 41.7,
-      "bearish_pct": 30.0,
+      "score": 0.155,
+      "bullish_pct": 43.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.178,
-        "crypto_macro": 0.338,
-        "geopolitical": -0.325,
+        "xrp": 0.176,
+        "crypto_macro": 0.387,
+        "geopolitical": -0.274,
         "fed_rates": 0.178
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,67 +31,66 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "XRP Surges As Trump Urges Congress To Pass Clarity Act - 24/7 Wall St.",
-        "Bitcoin, ether surge as Trump urges Congress to pass crypto Clarity Act - CNBC"
+        "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company",
+        "Bitcoin surges past $71,000 as Trump pushes Clarity Act - qz.com"
       ],
       "top_bearish": [
         "Why Is XRP (Ripple) Up Today? - The Motley Fool",
-        "Trump is losing his war of independence on rare earths - Financial Times",
-        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian"
+        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian",
+        "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.65,
-      "health": 0.3133,
-      "vol_ratio": 0.47
+      "up_down_ratio": 1.58,
+      "health": 0.2632,
+      "vol_ratio": 0.24
     },
     "technicals": {
-      "ema50": 0.98887,
-      "ema200": 0.9544,
-      "macd": 0.009578,
-      "macd_signal": 0.007835,
-      "rsi14": 74.5,
-      "atr14": 0.00517,
-      "atr14_hourly": 0.02215,
-      "bb_position": 0.815
+      "ema50": 0.99923,
+      "ema200": 0.96134,
+      "macd": 0.006109,
+      "macd_signal": 0.006846,
+      "rsi14": 62.0,
+      "atr14": 0.00528,
+      "atr14_hourly": 0.02138,
+      "bb_position": 0.614
     },
     "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
+      "loss_streak": 0,
+      "recent_win_rate": 0.375,
+      "entry_prob_adjusted": 0.6,
       "adapted_sl_mult": 1.5,
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.843,
+      "percentile": 0.857,
       "extreme": false
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "TAKE_PROFIT: +6.94%",
-    "portfolio_eur": 4932.18,
-    "total_pnl_pct": -1.356,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4932.18,
-    "trade_count": 62,
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=6.1",
+    "portfolio_eur": 4930.58,
+    "total_pnl_pct": -1.388,
+    "position": "LONG",
+    "xrp_held": 1209.9078,
+    "cash_eur": 3699.14,
+    "trade_count": 63,
     "draw_levels": {
-      "entry": 0.95083448,
-      "take_profit": 1.00262,
-      "stop_loss": 0.91976,
-      "trailing_stop": 0.9725
+      "entry": 1.01912314,
+      "take_profit": 1.07264,
+      "stop_loss": 0.98701
     }
   },
   "trade_feedback": {
-    "overall_win_rate": 0.4,
-    "recent_win_rate": 0.25,
-    "avg_win_pct": 0.471,
+    "overall_win_rate": 0.419,
+    "recent_win_rate": 0.375,
+    "avg_win_pct": 0.968,
     "avg_loss_pct": -0.506,
-    "loss_streak": 4,
-    "win_streak": 0,
-    "total_wins": 12,
+    "loss_streak": 0,
+    "win_streak": 1,
+    "total_wins": 13,
     "total_losses": 18,
     "loss_reasons": {
       "MODEL_SELL": 17,
@@ -101,9 +100,9 @@
     "model_loss_ratio": 0.944,
     "adapted_sl_mult": 1.5,
     "adapted_tp_mult": 2.5,
-    "score_adjustment": 1,
-    "entry_prob_effective": 0.65
+    "score_adjustment": 0,
+    "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175267
+  "data_bars": 175279
 }
