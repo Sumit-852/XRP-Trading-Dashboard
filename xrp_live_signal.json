@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-20T10:01:26.409929+00:00",
+  "timestamp": "2026-08-20T11:01:24.046591+00:00",
   "signal": {
-    "price": 0.9798,
+    "price": 0.9907,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6242,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.7142,
+    "hybrid_score": 7.6,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.154,
-      "bullish_pct": 43.3,
-      "bearish_pct": 26.7,
+      "score": 0.144,
+      "bullish_pct": 41.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.15,
-        "crypto_macro": 0.356,
-        "geopolitical": -0.182,
+        "xrp": 0.129,
+        "crypto_macro": 0.329,
+        "geopolitical": -0.153,
         "fed_rates": 0.178
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin tops $69,000 as broad crypto rally gathers pace - Proactive financial news",
         "Bitcoin surges over 11%, tops $70,000 for 1st time in more than 2 months - Anadolu Ajans\u0131",
-        "Bitcoin, ether surge as Trump urges Congress to pass crypto Clarity Act - CNBC"
+        "Bitcoin, ether surge as Trump urges Congress to pass crypto Clarity Act - CNBC",
+        "SEC\u2019s New Crypto Rules Could Hand Ripple a Legal Exit Ramp for XRP - TradingView"
       ],
       "top_bearish": [
         "Why Is XRP (Ripple) Up Today? - The Motley Fool",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.55,
-      "health": 0.2208,
-      "vol_ratio": 0.08
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.58,
+      "health": 0.2444,
+      "vol_ratio": 0.4
     },
     "technicals": {
-      "ema50": 0.96826,
-      "ema200": 0.9422,
-      "macd": 0.005078,
-      "macd_signal": 0.007054,
-      "rsi14": 57.4,
-      "atr14": 0.0038,
-      "atr14_hourly": 0.0199,
-      "bb_position": 0.238
+      "ema50": 0.97655,
+      "ema200": 0.9476,
+      "macd": 0.004319,
+      "macd_signal": 0.004912,
+      "rsi14": 63.9,
+      "atr14": 0.00357,
+      "atr14_hourly": 0.01801,
+      "bb_position": 0.717
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.785,
+      "percentile": 0.806,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +3.05%",
-    "portfolio_eur": 4922.96,
-    "total_pnl_pct": -1.541,
+    "reason": "HOLD LONG: P&L +4.19%",
+    "portfolio_eur": 4925.78,
+    "total_pnl_pct": -1.484,
     "position": "LONG",
     "xrp_held": 258.4819,
     "cash_eur": 4669.7,
     "trade_count": 61,
     "draw_levels": {
       "entry": 0.95083448,
-      "take_profit": 0.99911,
-      "stop_loss": 0.92187,
-      "trailing_stop": 0.94633
+      "take_profit": 0.99405,
+      "stop_loss": 0.92491,
+      "trailing_stop": 0.95468
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175243
+  "data_bars": 175255
 }
