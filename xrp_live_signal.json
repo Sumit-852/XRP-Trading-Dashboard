@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-20T13:01:23.705600+00:00",
+  "timestamp": "2026-08-20T14:01:29.000628+00:00",
   "signal": {
-    "price": 1.0178,
+    "price": 1.0452,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6583,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.6597,
+    "hybrid_score": 7.4,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.155,
-      "bullish_pct": 43.3,
-      "bearish_pct": 28.3,
+      "score": 0.211,
+      "bullish_pct": 50.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.176,
-        "crypto_macro": 0.387,
+        "xrp": 0.304,
+        "crypto_macro": 0.414,
         "geopolitical": -0.274,
-        "fed_rates": 0.178
+        "fed_rates": 0.18
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company",
-        "Bitcoin surges past $71,000 as Trump pushes Clarity Act - qz.com"
+        "XRP Surges As Trump Urges Congress To Pass Clarity Act - Yahoo Finance",
+        "Bitcoin Price, XRP, Ethereum, Hyperliquid Surge as Trump Pushes Crypto Clarity Act - Barron's"
       ],
       "top_bearish": [
         "Why Is XRP (Ripple) Up Today? - The Motley Fool",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.58,
-      "health": 0.2632,
-      "vol_ratio": 0.24
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.6,
+      "health": 0.0459,
+      "vol_ratio": 0.86
     },
     "technicals": {
-      "ema50": 0.99923,
-      "ema200": 0.96134,
-      "macd": 0.006109,
-      "macd_signal": 0.006846,
-      "rsi14": 62.0,
-      "atr14": 0.00528,
-      "atr14_hourly": 0.02138,
-      "bb_position": 0.614
+      "ema50": 1.01174,
+      "ema200": 0.96925,
+      "macd": 0.008807,
+      "macd_signal": 0.007421,
+      "rsi14": 74.3,
+      "atr14": 0.00706,
+      "atr14_hourly": 0.02309,
+      "bb_position": 1.009
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,23 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.857,
+      "percentile": 0.873,
       "extreme": false
     }
   },
   "trade": {
-    "action": "BUY",
-    "reason": "MODEL_BUY: score=6.1",
-    "portfolio_eur": 4930.58,
-    "total_pnl_pct": -1.388,
+    "action": "HOLD",
+    "reason": "HOLD LONG: P&L +2.56%",
+    "portfolio_eur": 4963.74,
+    "total_pnl_pct": -0.725,
     "position": "LONG",
     "xrp_held": 1209.9078,
     "cash_eur": 3699.14,
     "trade_count": 63,
     "draw_levels": {
       "entry": 1.01912314,
-      "take_profit": 1.07264,
-      "stop_loss": 0.98701
+      "take_profit": 1.07541,
+      "stop_loss": 0.98535,
+      "trailing_stop": 0.99902
     }
   },
   "trade_feedback": {
@@ -104,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175279
+  "data_bars": 175291
 }
