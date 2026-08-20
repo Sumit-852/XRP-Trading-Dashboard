@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-08-20T16:01:22.761400+00:00",
+  "timestamp": "2026-08-20T17:01:24.715149+00:00",
   "signal": {
-    "price": 1.0778,
+    "price": 1.1273,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6668,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.6761,
+    "hybrid_score": 7.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.198,
-      "bullish_pct": 50.0,
+      "score": 0.204,
+      "bullish_pct": 51.7,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.274,
+        "xrp": 0.29,
         "crypto_macro": 0.427,
         "geopolitical": -0.307,
         "fed_rates": 0.18
@@ -24,8 +24,8 @@
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -35,26 +35,26 @@
         "Bitcoin, XRP, Ethereum, Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
-        "Why Is XRP (Ripple) Up Today? - The Motley Fool",
+        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool",
         "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian",
-        "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - Yahoo Finance"
+        "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - CCN.com"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.64,
-      "health": 0.0268,
-      "vol_ratio": 0.32
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.62,
+      "health": 0.0071,
+      "vol_ratio": 0.39
     },
     "technicals": {
-      "ema50": 1.04492,
-      "ema200": 0.9895,
-      "macd": 0.009517,
-      "macd_signal": 0.009479,
-      "rsi14": 66.5,
-      "atr14": 0.00823,
-      "atr14_hourly": 0.03381,
-      "bb_position": 0.83
+      "ema50": 1.06625,
+      "ema200": 1.00189,
+      "macd": 0.017031,
+      "macd_signal": 0.013271,
+      "rsi14": 81.9,
+      "atr14": 0.00913,
+      "atr14_hourly": 0.03777,
+      "bb_position": 0.986
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.902,
+      "percentile": 0.917,
       "extreme": true
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L +5.76%",
-    "portfolio_eur": 5003.18,
-    "total_pnl_pct": 0.064,
-    "position": "LONG",
-    "xrp_held": 1209.9078,
-    "cash_eur": 3699.14,
-    "trade_count": 63,
+    "action": "SELL",
+    "reason": "TAKE_PROFIT: +10.61%",
+    "portfolio_eur": 5061.3,
+    "total_pnl_pct": 1.226,
+    "position": "CASH",
+    "xrp_held": 0.0,
+    "cash_eur": 5061.3,
+    "trade_count": 64,
     "draw_levels": {
       "entry": 1.01912314,
-      "take_profit": 1.09905,
-      "stop_loss": 0.97117,
-      "trailing_stop": 1.01018
+      "take_profit": 1.10449,
+      "stop_loss": 0.9679,
+      "trailing_stop": 1.05176
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175315
+  "data_bars": 175327
 }
