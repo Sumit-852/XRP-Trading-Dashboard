@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-20T06:01:26.681303+00:00",
+  "timestamp": "2026-08-20T07:01:22.931588+00:00",
   "signal": {
-    "price": 0.9446,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4663,
-    "hybrid_score": 4.9,
+    "price": 0.9493,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5879,
+    "hybrid_score": 5.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.116,
-      "bullish_pct": 45.0,
-      "bearish_pct": 30.0,
+      "score": 0.137,
+      "bullish_pct": 46.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.124,
-        "crypto_macro": 0.267,
-        "geopolitical": -0.174,
-        "fed_rates": 0.159
+        "xrp": 0.133,
+        "crypto_macro": 0.34,
+        "geopolitical": -0.21,
+        "fed_rates": 0.178
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Why Is XRP (Ripple) Up Today? - The Motley Fool",
         "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool",
-        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian"
+        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - theguardian.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.31,
-      "health": -0.1016,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.28,
+      "health": -0.1421,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 0.94281,
-      "ema200": 0.92714,
-      "macd": 0.001459,
-      "macd_signal": 0.00136,
-      "rsi14": 55.6,
-      "atr14": 0.00153,
-      "atr14_hourly": 0.00939,
-      "bb_position": 0.603
+      "ema50": 0.94446,
+      "ema200": 0.92938,
+      "macd": 0.001789,
+      "macd_signal": 0.001513,
+      "rsi14": 61.1,
+      "atr14": 0.00198,
+      "atr14_hourly": 0.00863,
+      "bb_position": 0.851
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.724,
+      "percentile": 0.731,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.66%",
-    "portfolio_eur": 4913.86,
-    "total_pnl_pct": -1.723,
+    "reason": "HOLD LONG: P&L -0.16%",
+    "portfolio_eur": 4915.08,
+    "total_pnl_pct": -1.698,
     "position": "LONG",
     "xrp_held": 258.4819,
     "cash_eur": 4669.7,
     "trade_count": 61,
     "draw_levels": {
       "entry": 0.95083448,
-      "take_profit": 0.97446,
-      "stop_loss": 0.93666,
-      "trailing_stop": 0.93346
+      "take_profit": 0.97244,
+      "stop_loss": 0.93787,
+      "trailing_stop": 0.93508
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175195
+  "data_bars": 175207
 }
