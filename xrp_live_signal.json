@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-20T08:01:24.259602+00:00",
+  "timestamp": "2026-08-20T09:01:24.951896+00:00",
   "signal": {
-    "price": 0.9501,
+    "price": 0.9864,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5849,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.6167,
+    "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.154,
-      "bullish_pct": 46.7,
-      "bearish_pct": 28.3,
+      "score": 0.126,
+      "bullish_pct": 45.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.21,
-        "crypto_macro": 0.293,
-        "geopolitical": -0.2,
+        "xrp": 0.226,
+        "crypto_macro": 0.189,
+        "geopolitical": -0.218,
         "fed_rates": 0.178
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market - Altcoin Buzz",
+        "Bitcoin tops $69,000 as broad crypto rally gathers pace - Proactive financial news",
         "BTC, ETH price, Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally - CoinDesk",
         "Bitcoin, ether surge as Trump urges Congress to pass crypto Clarity Act - CNBC"
       ],
       "top_bearish": [
+        "Crypto Fear and Greed Index Flips From Fear to Greed Overnight - Yahoo Finance",
         "Why Is XRP (Ripple) Up Today? - The Motley Fool",
-        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian",
         "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.29,
-      "health": -0.0286,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.52,
+      "health": 0.1748,
+      "vol_ratio": 0.44
     },
     "technicals": {
-      "ema50": 0.94659,
-      "ema200": 0.93171,
-      "macd": 0.00148,
-      "macd_signal": 0.001601,
-      "rsi14": 57.4,
-      "atr14": 0.00173,
-      "atr14_hourly": 0.00667,
-      "bb_position": 0.635
+      "ema50": 0.95844,
+      "ema200": 0.9368,
+      "macd": 0.010148,
+      "macd_signal": 0.008062,
+      "rsi14": 84.9,
+      "atr14": 0.00417,
+      "atr14_hourly": 0.02124,
+      "bb_position": 0.835
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.733,
+      "percentile": 0.778,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.08%",
-    "portfolio_eur": 4915.28,
-    "total_pnl_pct": -1.694,
+    "reason": "HOLD LONG: P&L +3.74%",
+    "portfolio_eur": 4924.67,
+    "total_pnl_pct": -1.507,
     "position": "LONG",
     "xrp_held": 258.4819,
     "cash_eur": 4669.7,
     "trade_count": 61,
     "draw_levels": {
       "entry": 0.95083448,
-      "take_profit": 0.96752,
-      "stop_loss": 0.94082,
-      "trailing_stop": 0.93903
+      "take_profit": 1.00202,
+      "stop_loss": 0.92012,
+      "trailing_stop": 0.94392
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175219
+  "data_bars": 175231
 }
