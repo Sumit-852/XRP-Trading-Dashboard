@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-19T23:01:18.882676+00:00",
+  "timestamp": "2026-08-20T00:01:28.930466+00:00",
   "signal": {
-    "price": 0.9421,
+    "price": 0.9458,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6164,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.6361,
+    "hybrid_score": 5.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.056,
-      "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
+      "score": 0.076,
+      "bullish_pct": 36.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.066,
+        "xrp": 0.094,
         "crypto_macro": 0.221,
-        "geopolitical": -0.243,
-        "fed_rates": 0.08
+        "geopolitical": -0.251,
+        "fed_rates": 0.148
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market - Altcoin Buzz",
-        "SEC\u2019s New Crypto Rules Could Hand Ripple a Legal Exit Ramp for XRP - TradingView",
-        "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back? - BeInCrypto"
+        "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back? - BeInCrypto",
+        "Ripple just scored two major institutional wins but XRP traders are bracing for a bigger move - CryptoSlate"
       ],
       "top_bearish": [
         "XRP clings to $1.00 floor price amid declining sell-side pressure - FXStreet",
         "Why Is XRP (Ripple) Up Today? - The Motley Fool",
-        "XRP Falls Below $1 For First Time Since 2024. Here's What Investors Need to Know. - The Motley Fool"
+        "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.36,
-      "health": 0.1328,
-      "vol_ratio": 0.12
+      "up_down_ratio": 1.5,
+      "health": 0.1699,
+      "vol_ratio": 0.78
     },
     "technicals": {
-      "ema50": 0.94042,
-      "ema200": 0.90515,
-      "macd": 0.001217,
-      "macd_signal": 0.005132,
-      "rsi14": 41.4,
-      "atr14": 0.00652,
-      "atr14_hourly": 0.03721,
-      "bb_position": 0.056
+      "ema50": 0.94166,
+      "ema200": 0.90948,
+      "macd": -0.00088,
+      "macd_signal": -0.000619,
+      "rsi14": 49.7,
+      "atr14": 0.00438,
+      "atr14_hourly": 0.02608,
+      "bb_position": 0.512
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.668,
+      "percentile": 0.679,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175111
+  "data_bars": 175123
 }
