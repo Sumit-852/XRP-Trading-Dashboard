@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-20T00:01:28.930466+00:00",
+  "timestamp": "2026-08-20T01:01:17.591527+00:00",
   "signal": {
-    "price": 0.9458,
+    "price": 0.9496,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6361,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.6658,
+    "hybrid_score": 7.3,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.076,
-      "bullish_pct": 36.7,
+      "sentiment": "BULLISH",
+      "score": 0.11,
+      "bullish_pct": 40.0,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.094,
-        "crypto_macro": 0.221,
-        "geopolitical": -0.251,
-        "fed_rates": 0.148
+        "xrp": 0.166,
+        "crypto_macro": 0.236,
+        "geopolitical": -0.235,
+        "fed_rates": 0.151
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market - Altcoin Buzz",
-        "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back? - BeInCrypto",
-        "Ripple just scored two major institutional wins but XRP traders are bracing for a bigger move - CryptoSlate"
+        "XRP Jumps 6% On Ripple Prime Private Placement Optimism - dmarketforces.com",
+        "Donald Trump Crypto Summit Signals CLARITY Act Action \u2014 4 AI Models Predict Bitcoin, Ethereum and XRP Prices - CCN.com"
       ],
       "top_bearish": [
-        "XRP clings to $1.00 floor price amid declining sell-side pressure - FXStreet",
+        "XRP clings to $1.00 floor price amid declining sell-side pressure - fxstreet.com",
         "Why Is XRP (Ripple) Up Today? - The Motley Fool",
         "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - Yahoo Finance"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.5,
-      "health": 0.1699,
-      "vol_ratio": 0.78
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.44,
+      "health": -0.0079,
+      "vol_ratio": 0.22
     },
     "technicals": {
-      "ema50": 0.94166,
-      "ema200": 0.90948,
-      "macd": -0.00088,
-      "macd_signal": -0.000619,
-      "rsi14": 49.7,
-      "atr14": 0.00438,
-      "atr14_hourly": 0.02608,
-      "bb_position": 0.512
+      "ema50": 0.94475,
+      "ema200": 0.91403,
+      "macd": 0.00087,
+      "macd_signal": 0.000684,
+      "rsi14": 52.8,
+      "atr14": 0.00366,
+      "atr14_hourly": 0.01612,
+      "bb_position": 0.668
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,20 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.679,
+      "percentile": 0.686,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
-    "portfolio_eur": 4915.47,
-    "total_pnl_pct": -1.691,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4915.47,
-    "trade_count": 60,
-    "draw_levels": {}
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=7.3",
+    "portfolio_eur": 4915.15,
+    "total_pnl_pct": -1.697,
+    "position": "LONG",
+    "xrp_held": 258.4819,
+    "cash_eur": 4669.7,
+    "trade_count": 61,
+    "draw_levels": {
+      "entry": 0.95083448,
+      "take_profit": 0.99119,
+      "stop_loss": 0.92662
+    }
   },
   "trade_feedback": {
     "overall_win_rate": 0.4,
@@ -100,5 +104,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 175123
+  "data_bars": 175135
 }
