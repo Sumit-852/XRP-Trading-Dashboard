@@ -1,26 +1,18 @@
 {
-  "timestamp": "2026-08-21T22:01:19.455490+00:00",
-  "score": 0.19,
+  "timestamp": "2026-08-21T23:01:16.954401+00:00",
+  "score": 0.194,
   "label": "BULLISH",
-  "bullish_pct": 43.3,
+  "bullish_pct": 45.0,
   "bearish_pct": 31.7,
   "count": 60,
   "feed_scores": {
-    "xrp": 0.322,
-    "crypto_macro": 0.383,
-    "geopolitical": -0.28,
+    "xrp": 0.316,
+    "crypto_macro": 0.446,
+    "geopolitical": -0.346,
     "fed_rates": 0.058
   },
-  "geo_shock": false,
+  "geo_shock": true,
   "top_bull": [
-    {
-      "title": "Crypto Rally Alert: XRP Posts 13% Daily Gain, Surpassing Bitcoin and Ethereum - Coinpedia",
-      "pubdate": "Fri, 21 Aug 2026 15:19:53",
-      "compound": 0.823,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": 0.823
-    },
     {
       "title": "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
       "pubdate": "Fri, 21 Aug 2026 16:47:00",
@@ -36,16 +28,32 @@
       "feed": "crypto_macro",
       "weight": 0.8,
       "weighted_score": 0.746
+    },
+    {
+      "title": "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
+      "pubdate": "Thu, 20 Aug 2026 16:13:00",
+      "compound": 0.735,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": 0.735
     }
   ],
   "top_bear": [
     {
-      "title": "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
+      "title": "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
       "pubdate": "Fri, 21 Aug 2026 15:39:02",
       "compound": -0.509,
       "feed": "xrp",
       "weight": 1.0,
       "weighted_score": -0.509
+    },
+    {
+      "title": "Iran crude loadings plunge to one-seventh of pre-war level as blockade bites - Iran International",
+      "pubdate": "Fri, 21 Aug 2026 19:54:00",
+      "compound": -0.893,
+      "feed": "geopolitical",
+      "weight": 0.5,
+      "weighted_score": -0.447
     },
     {
       "title": "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine",
@@ -54,14 +62,6 @@
       "feed": "geopolitical",
       "weight": 0.5,
       "weighted_score": -0.359
-    },
-    {
-      "title": "Crypto is still in 'winter' price-wise but it's an 'institutional summer,' STS Digital CEO says - The Block",
-      "pubdate": "Fri, 21 Aug 2026 11:58:06",
-      "compound": -0.329,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": -0.263
     }
   ]
 }

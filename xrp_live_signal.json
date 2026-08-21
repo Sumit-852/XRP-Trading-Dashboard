@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-21T22:01:19.492324+00:00",
+  "timestamp": "2026-08-21T23:01:16.994115+00:00",
   "signal": {
-    "price": 1.2012,
+    "price": 1.2306,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6523,
-    "hybrid_score": 6.1,
-    "regime": "BEARISH",
+    "xgb_prob": 0.6886,
+    "hybrid_score": 6.3,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.19,
-      "bullish_pct": 43.3,
+      "score": 0.194,
+      "bullish_pct": 45.0,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.322,
-        "crypto_macro": 0.383,
-        "geopolitical": -0.28,
+        "xrp": 0.316,
+        "crypto_macro": 0.446,
+        "geopolitical": -0.346,
         "fed_rates": 0.058
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Rally Alert: XRP Posts 13% Daily Gain, Surpassing Bitcoin and Ethereum - Coinpedia",
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C"
+        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine",
-        "Crypto is still in 'winter' price-wise but it's an 'institutional summer,' STS Digital CEO says - The Block"
+        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
+        "Iran crude loadings plunge to one-seventh of pre-war level as blockade bites - Iran International",
+        "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.27,
-      "health": 0.0013,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.41,
+      "health": 0.108,
+      "vol_ratio": 1.86
     },
     "technicals": {
-      "ema50": 1.18685,
-      "ema200": 1.16794,
-      "macd": 0.006408,
-      "macd_signal": 0.004336,
-      "rsi14": 64.3,
-      "atr14": 0.00518,
-      "atr14_hourly": 0.02497,
-      "bb_position": 0.789
+      "ema50": 1.20404,
+      "ema200": 1.17514,
+      "macd": 0.012904,
+      "macd_signal": 0.01237,
+      "rsi14": 64.5,
+      "atr14": 0.00796,
+      "atr14_hourly": 0.0349,
+      "bb_position": 0.683
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.968,
+      "percentile": 0.969,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175675
+  "data_bars": 175687
 }
