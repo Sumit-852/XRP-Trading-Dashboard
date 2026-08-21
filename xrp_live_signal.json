@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-21T15:01:19.312700+00:00",
+  "timestamp": "2026-08-21T16:01:15.685799+00:00",
   "signal": {
-    "price": 1.196,
+    "price": 1.2019,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7588,
-    "hybrid_score": 6.6,
+    "xgb_prob": 0.7641,
+    "hybrid_score": 6.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.11,
-      "bullish_pct": 38.3,
+      "score": 0.105,
+      "bullish_pct": 40.0,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.097,
-        "crypto_macro": 0.439,
-        "geopolitical": -0.314,
-        "fed_rates": 0.014
+        "xrp": 0.093,
+        "crypto_macro": 0.408,
+        "geopolitical": -0.296,
+        "fed_rates": 0.03
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin on track for 23% weekly gain as investor optimism floods back - CNBC",
-        "Bitcoin Heads for Best Week Since 2024 as Trump-Fueled Crypto Rally Rages On - Barron's"
+        "New Crypto Presale Moonberg ($MBX) Reaches New Heights As XRP Price Prediction Turns Bullish With ETF News - GlobeNewswi",
+        "Bitcoin on track for 23% weekly gain as investor optimism floods back - CNBC"
       ],
       "top_bearish": [
         "XRP price retests $1.15 \u2013 Can bulls avoid a third rejection? - AMBCrypto",
-        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool",
-        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian"
+        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
+        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.23,
-      "health": -0.0162,
-      "vol_ratio": 0.37
+      "up_down_ratio": 1.24,
+      "health": 0.0218,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.18656,
-      "ema200": 1.14193,
-      "macd": 0.003549,
-      "macd_signal": 0.004716,
-      "rsi14": 52.6,
-      "atr14": 0.00859,
-      "atr14_hourly": 0.03471,
-      "bb_position": 0.375
+      "ema50": 1.19336,
+      "ema200": 1.14905,
+      "macd": 0.002208,
+      "macd_signal": 0.003474,
+      "rsi14": 52.2,
+      "atr14": 0.00816,
+      "atr14_hourly": 0.02729,
+      "bb_position": 0.514
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175591
+  "data_bars": 175603
 }
