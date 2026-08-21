@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-21T11:01:16.757499+00:00",
+  "timestamp": "2026-08-21T12:01:22.311111+00:00",
   "signal": {
-    "price": 1.1819,
+    "price": 1.1551,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7611,
-    "hybrid_score": 6.7,
+    "xgb_prob": 0.7045,
+    "hybrid_score": 6.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.17,
+      "score": 0.174,
       "bullish_pct": 50.0,
-      "bearish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.17,
-        "crypto_macro": 0.491,
-        "geopolitical": -0.291,
+        "xrp": 0.182,
+        "crypto_macro": 0.496,
+        "geopolitical": -0.298,
         "fed_rates": 0.104
       },
       "geo_shock": false,
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company",
+        "New Crypto Presale Moonberg ($MBX) Reaches New Heights As XRP Price Prediction Turns Bullish With ETF News - GlobeNewswi",
+        "Bitcoin tops $77,000 as best week since 2023 pulls altcoins along for the ride - CoinDesk",
         "Bitcoin on track for 20% weekly gain as investor optimism floods back - CNBC"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.19,
-      "health": -0.0153,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.13,
+      "health": -0.0121,
+      "vol_ratio": 0.68
     },
     "technicals": {
-      "ema50": 1.16523,
-      "ema200": 1.11473,
-      "macd": 0.00376,
-      "macd_signal": 0.006377,
-      "rsi14": 53.1,
-      "atr14": 0.01102,
-      "atr14_hourly": 0.05305,
-      "bb_position": 0.407
+      "ema50": 1.16845,
+      "ema200": 1.12153,
+      "macd": -0.003637,
+      "macd_signal": 2.5e-05,
+      "rsi14": 38.7,
+      "atr14": 0.01126,
+      "atr14_hourly": 0.04341,
+      "bb_position": -0.038
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.976,
+      "percentile": 0.978,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175543
+  "data_bars": 175555
 }
