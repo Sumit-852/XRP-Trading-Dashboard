@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-21T05:01:28.404312+00:00",
+  "timestamp": "2026-08-21T06:01:23.085834+00:00",
   "signal": {
-    "price": 1.1219,
+    "price": 1.1194,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7561,
-    "hybrid_score": 6.6,
+    "xgb_prob": 0.76,
+    "hybrid_score": 7.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.128,
-      "bullish_pct": 45.0,
-      "bearish_pct": 35.0,
+      "score": 0.155,
+      "bullish_pct": 46.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.159,
-        "crypto_macro": 0.376,
-        "geopolitical": -0.327,
+        "xrp": 0.193,
+        "crypto_macro": 0.398,
+        "geopolitical": -0.286,
         "fed_rates": 0.126
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
+        "XRP Notches Best Week Since 2024 Election Pump on Bitcoin Short Squeeze - Decrypt",
         "Bitcoin Price, XRP, Ethereum, Hyperliquid Surge as Trump Pushes Crypto Clarity Act - Barron's",
         "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company"
       ],
       "top_bearish": [
         "XRP price retests $1.15 \u2013 Can bulls avoid a third rejection? - AMBCrypto",
-        "Liquidations hit highest level since Oct. 10 crypto market crash - thestreet.com",
-        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool"
+        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool",
+        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": -0.1229,
-      "vol_ratio": 0.15
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.21,
+      "health": -0.1079,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 1.10947,
-      "ema200": 1.07334,
-      "macd": 0.00389,
-      "macd_signal": 0.004164,
-      "rsi14": 56.2,
-      "atr14": 0.00609,
-      "atr14_hourly": 0.02179,
-      "bb_position": 0.604
+      "ema50": 1.11304,
+      "ema200": 1.07849,
+      "macd": 0.001198,
+      "macd_signal": 0.001743,
+      "rsi14": 52.2,
+      "atr14": 0.00485,
+      "atr14_hourly": 0.01719,
+      "bb_position": 0.518
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175471
+  "data_bars": 175483
 }
