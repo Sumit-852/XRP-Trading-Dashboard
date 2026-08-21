@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-21T17:01:29.045764+00:00",
+  "timestamp": "2026-08-21T18:01:21.602562+00:00",
   "signal": {
-    "price": 1.1955,
+    "price": 1.1875,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7339,
-    "hybrid_score": 6.5,
+    "xgb_prob": 0.7122,
+    "hybrid_score": 6.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.11,
-      "bullish_pct": 40.0,
-      "bearish_pct": 36.7,
+      "score": 0.139,
+      "bullish_pct": 43.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.083,
-        "crypto_macro": 0.463,
-        "geopolitical": -0.337,
-        "fed_rates": 0.03
+        "xrp": 0.118,
+        "crypto_macro": 0.47,
+        "geopolitical": -0.285,
+        "fed_rates": 0.058
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP price retests $1.15 \u2013 Can bulls avoid a third rejection? - AMBCrypto",
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool"
+        "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter - CCN.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.27,
-      "health": 0.0837,
-      "vol_ratio": 0.09
+      "up_down_ratio": 1.26,
+      "health": 0.1768,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.19404,
-      "ema200": 1.15426,
-      "macd": -0.000939,
-      "macd_signal": -0.000362,
-      "rsi14": 48.6,
-      "atr14": 0.00739,
-      "atr14_hourly": 0.02323,
-      "bb_position": 0.379
+      "ema50": 1.19202,
+      "ema200": 1.15822,
+      "macd": -0.003356,
+      "macd_signal": -0.002711,
+      "rsi14": 45.2,
+      "atr14": 0.00666,
+      "atr14_hourly": 0.02664,
+      "bb_position": 0.339
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.976,
+      "percentile": 0.973,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175615
+  "data_bars": 175627
 }
