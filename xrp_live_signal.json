@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-21T20:01:19.085747+00:00",
+  "timestamp": "2026-08-21T21:01:23.273741+00:00",
   "signal": {
-    "price": 1.1707,
+    "price": 1.1751,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6611,
-    "hybrid_score": 6.0,
-    "regime": "BULLISH",
+    "xgb_prob": 0.6228,
+    "hybrid_score": 5.9,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.094,
+      "sentiment": "BULLISH",
+      "score": 0.155,
       "bullish_pct": 40.0,
-      "bearish_pct": 35.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.091,
-        "crypto_macro": 0.414,
-        "geopolitical": -0.339,
-        "fed_rates": 0.004
+        "xrp": 0.267,
+        "crypto_macro": 0.372,
+        "geopolitical": -0.303,
+        "fed_rates": 0.014
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
         "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin Surges as Institutional Demand, Short Covering, Clarity Act Progress Converge - WSJ"
+        "New Crypto Presale Moonberg ($MBX) Reaches New Heights As XRP Price Prediction Turns Bullish With ETF News - GlobeNewswi"
       ],
       "top_bearish": [
-        "XRP price retests $1.15 \u2013 Can bulls avoid a third rejection? - AMBCrypto",
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
-        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian"
+        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
+        "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine",
+        "\"China shock\" strains European industries - Axios"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.26,
-      "health": 0.0136,
-      "vol_ratio": 0.11
+      "up_down_ratio": 1.25,
+      "health": 0.023,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.18423,
-      "ema200": 1.16295,
-      "macd": -0.003816,
-      "macd_signal": -0.003434,
-      "rsi14": 39.8,
-      "atr14": 0.00608,
-      "atr14_hourly": 0.02574,
-      "bb_position": 0.227
+      "ema50": 1.1809,
+      "ema200": 1.16439,
+      "macd": -0.002128,
+      "macd_signal": -0.002473,
+      "rsi14": 47.0,
+      "atr14": 0.00514,
+      "atr14_hourly": 0.02053,
+      "bb_position": 0.425
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.968,
+      "percentile": 0.967,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175651
+  "data_bars": 175663
 }
