@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-21T07:01:16.219959+00:00",
+  "timestamp": "2026-08-21T08:01:17.304977+00:00",
   "signal": {
-    "price": 1.1119,
+    "price": 1.1243,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7504,
-    "hybrid_score": 6.6,
+    "xgb_prob": 0.77,
+    "hybrid_score": 8.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.169,
+      "score": 0.179,
       "bullish_pct": 48.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.193,
-        "crypto_macro": 0.441,
-        "geopolitical": -0.26,
-        "fed_rates": 0.102
+        "crypto_macro": 0.503,
+        "geopolitical": -0.291,
+        "fed_rates": 0.083
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Notches Best Week Since 2024 Election Pump on Bitcoin Short Squeeze - Decrypt",
-        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin Price, XRP, Ethereum, Hyperliquid Surge as Trump Pushes Crypto Clarity Act - Barron's"
+        "Bitcoin Price, XRP, Ethereum, Hyperliquid Surge as Trump Pushes Crypto Clarity Act - Barron's",
+        "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company"
       ],
       "top_bearish": [
         "XRP price retests $1.15 \u2013 Can bulls avoid a third rejection? - AMBCrypto",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.14,
-      "health": -0.158,
-      "vol_ratio": 0.12
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.15,
+      "health": -0.1005,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.11411,
-      "ema200": 1.08277,
-      "macd": -0.001603,
-      "macd_signal": -0.00036,
-      "rsi14": 44.5,
-      "atr14": 0.00516,
-      "atr14_hourly": 0.01766,
-      "bb_position": 0.216
+      "ema50": 1.11769,
+      "ema200": 1.08737,
+      "macd": 0.001729,
+      "macd_signal": 0.001329,
+      "rsi14": 55.0,
+      "atr14": 0.00491,
+      "atr14_hourly": 0.01871,
+      "bb_position": 0.718
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.957,
+      "percentile": 0.958,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175495
+  "data_bars": 175507
 }
