@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-21T04:01:18.249631+00:00",
+  "timestamp": "2026-08-21T05:01:28.404312+00:00",
   "signal": {
-    "price": 1.1211,
+    "price": 1.1219,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7361,
-    "hybrid_score": 7.8,
-    "regime": "BULLISH",
+    "xgb_prob": 0.7561,
+    "hybrid_score": 6.6,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.173,
-      "bullish_pct": 48.3,
-      "bearish_pct": 31.7,
+      "score": 0.128,
+      "bullish_pct": 45.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.205,
-        "crypto_macro": 0.425,
-        "geopolitical": -0.254,
+        "xrp": 0.159,
+        "crypto_macro": 0.376,
+        "geopolitical": -0.327,
         "fed_rates": 0.126
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company"
       ],
       "top_bearish": [
+        "XRP price retests $1.15 \u2013 Can bulls avoid a third rejection? - AMBCrypto",
         "Liquidations hit highest level since Oct. 10 crypto market crash - thestreet.com",
-        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool",
-        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian"
+        "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.31,
-      "health": -0.0278,
-      "vol_ratio": 0.08
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.2,
+      "health": -0.1229,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 1.10272,
-      "ema200": 1.06735,
-      "macd": 0.006043,
-      "macd_signal": 0.005315,
-      "rsi14": 64.2,
-      "atr14": 0.0059,
-      "atr14_hourly": 0.02215,
-      "bb_position": 0.815
+      "ema50": 1.10947,
+      "ema200": 1.07334,
+      "macd": 0.00389,
+      "macd_signal": 0.004164,
+      "rsi14": 56.2,
+      "atr14": 0.00609,
+      "atr14_hourly": 0.02179,
+      "bb_position": 0.604
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.953,
+      "percentile": 0.956,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175459
+  "data_bars": 175471
 }
