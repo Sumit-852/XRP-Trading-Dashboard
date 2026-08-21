@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-21T10:01:16.251968+00:00",
+  "timestamp": "2026-08-21T11:01:16.757499+00:00",
   "signal": {
-    "price": 1.2097,
+    "price": 1.1819,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7412,
-    "hybrid_score": 6.6,
+    "xgb_prob": 0.7611,
+    "hybrid_score": 6.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.189,
-      "bullish_pct": 51.7,
-      "bearish_pct": 30.0,
+      "score": 0.17,
+      "bullish_pct": 50.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.244,
-        "crypto_macro": 0.439,
+        "xrp": 0.17,
+        "crypto_macro": 0.491,
         "geopolitical": -0.291,
-        "fed_rates": 0.149
+        "fed_rates": 0.104
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
+        "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company",
         "Bitcoin on track for 20% weekly gain as investor optimism floods back - CNBC"
       ],
       "top_bearish": [
+        "XRP price retests $1.15 \u2013 Can bulls avoid a third rejection? - AMBCrypto",
         "Where Will XRP (Ripple) Be in 5 Years? - The Motley Fool",
-        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian",
-        "Beijing rejects US tariff report as Mexico plans new China trade curbs - South China Morning Post"
+        "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure - The Guardian"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.28,
-      "health": 0.0789,
-      "vol_ratio": 0.88
+      "up_down_ratio": 1.19,
+      "health": -0.0153,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.15615,
-      "ema200": 1.1064,
-      "macd": 0.017718,
-      "macd_signal": 0.014739,
-      "rsi14": 68.4,
-      "atr14": 0.01315,
-      "atr14_hourly": 0.05298,
-      "bb_position": 0.871
+      "ema50": 1.16523,
+      "ema200": 1.11473,
+      "macd": 0.00376,
+      "macd_signal": 0.006377,
+      "rsi14": 53.1,
+      "atr14": 0.01102,
+      "atr14_hourly": 0.05305,
+      "bb_position": 0.407
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.974,
+      "percentile": 0.976,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175531
+  "data_bars": 175543
 }
