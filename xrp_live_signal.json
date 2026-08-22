@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-08-22T03:01:14.804875+00:00",
+  "timestamp": "2026-08-22T04:01:20.265458+00:00",
   "signal": {
-    "price": 1.3263,
+    "price": 1.3413,
     "xgb_pred": "UP",
-    "xgb_prob": 0.707,
-    "hybrid_score": 7.6,
+    "xgb_prob": 0.7278,
+    "hybrid_score": 7.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.176,
-      "bullish_pct": 45.0,
+      "score": 0.163,
+      "bullish_pct": 41.7,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.261,
-        "crypto_macro": 0.51,
-        "geopolitical": -0.433,
+        "xrp": 0.263,
+        "crypto_macro": 0.457,
+        "geopolitical": -0.422,
         "fed_rates": 0.058
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
         "U.S., Iran trade warnings as new sanctions loom and Hormuz oil flows stall - Investing.com",
-        "Iran war fuels uncertainty over Vermont heating costs - WCAX"
+        "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.55,
-      "health": 0.1986,
-      "vol_ratio": 0.11
+      "up_down_ratio": 1.46,
+      "health": -0.0112,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.26829,
-      "ema200": 1.21093,
-      "macd": 0.018398,
-      "macd_signal": 0.01554,
-      "rsi14": 74.0,
-      "atr14": 0.01154,
-      "atr14_hourly": 0.04908,
-      "bb_position": 0.905
+      "ema50": 1.29602,
+      "ema200": 1.22561,
+      "macd": 0.016464,
+      "macd_signal": 0.018495,
+      "rsi14": 63.9,
+      "atr14": 0.01242,
+      "atr14_hourly": 0.0534,
+      "bb_position": 0.672
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.977,
+      "percentile": 0.978,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175735
+  "data_bars": 175747
 }
