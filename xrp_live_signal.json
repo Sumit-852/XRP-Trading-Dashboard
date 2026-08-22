@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-22T02:01:15.715332+00:00",
+  "timestamp": "2026-08-22T03:01:14.804875+00:00",
   "signal": {
-    "price": 1.2676,
+    "price": 1.3263,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6959,
+    "xgb_prob": 0.707,
     "hybrid_score": 7.6,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.197,
+      "score": 0.176,
       "bullish_pct": 45.0,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.311,
-        "crypto_macro": 0.53,
-        "geopolitical": -0.401,
-        "fed_rates": -0.004
+        "xrp": 0.261,
+        "crypto_macro": 0.51,
+        "geopolitical": -0.433,
+        "fed_rates": 0.058
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Rally Alert: XRP Posts 13% Daily Gain, Surpassing Bitcoin and Ethereum - Coinpedia",
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "Bitcoin Rally Tops $79,000. Crypto Shorts, ETF Flows Soar. CFTC Explores Crypto Rules. - Investor's Business Daily"
+        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "Iran war fuels uncertainty over Vermont heating costs - WCAX",
-        "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine"
+        "U.S., Iran trade warnings as new sanctions loom and Hormuz oil flows stall - Investing.com",
+        "Iran war fuels uncertainty over Vermont heating costs - WCAX"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.49,
-      "health": 0.1836,
-      "vol_ratio": 0.06
+      "up_down_ratio": 1.55,
+      "health": 0.1986,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.24382,
-      "ema200": 1.19874,
-      "macd": 0.008828,
-      "macd_signal": 0.008879,
-      "rsi14": 56.9,
-      "atr14": 0.01126,
-      "atr14_hourly": 0.04404,
-      "bb_position": 0.659
+      "ema50": 1.26829,
+      "ema200": 1.21093,
+      "macd": 0.018398,
+      "macd_signal": 0.01554,
+      "rsi14": 74.0,
+      "atr14": 0.01154,
+      "atr14_hourly": 0.04908,
+      "bb_position": 0.905
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.975,
+      "percentile": 0.977,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175723
+  "data_bars": 175735
 }
