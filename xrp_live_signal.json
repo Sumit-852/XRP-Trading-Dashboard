@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-22T17:01:17.814841+00:00",
+  "timestamp": "2026-08-22T18:01:23.127631+00:00",
   "signal": {
     "price": 1.2614,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6755,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.6721,
+    "hybrid_score": 6.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.019,
-      "bullish_pct": 31.7,
-      "bearish_pct": 43.3,
+      "score": 0.048,
+      "bullish_pct": 38.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.025,
-        "crypto_macro": 0.325,
-        "geopolitical": -0.595,
-        "fed_rates": 0.026
+        "xrp": 0.075,
+        "crypto_macro": 0.379,
+        "geopolitical": -0.557,
+        "fed_rates": 0.073
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "JD Vance Dodge XRP, Bitcoin Debt Plan as U.S. Debt Hits $40T - Coinpedia",
         "XRP erased its death cross. That does not mean what most headlines are claiming. - Crypto News",
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance"
+        "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - AP News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.19,
-      "health": -0.0581,
-      "vol_ratio": 0.04
+      "up_down_ratio": 1.15,
+      "health": -0.0886,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.25546,
-      "ema200": 1.26709,
-      "macd": 0.003838,
-      "macd_signal": 0.000127,
-      "rsi14": 60.0,
-      "atr14": 0.00813,
-      "atr14_hourly": 0.03698,
-      "bb_position": 0.798
+      "ema50": 1.25625,
+      "ema200": 1.26598,
+      "macd": 0.003135,
+      "macd_signal": 0.002685,
+      "rsi14": 56.6,
+      "atr14": 0.00671,
+      "atr14_hourly": 0.02831,
+      "bb_position": 0.685
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175903
+  "data_bars": 175915
 }
