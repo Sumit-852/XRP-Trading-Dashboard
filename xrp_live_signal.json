@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-22T10:01:20.599395+00:00",
+  "timestamp": "2026-08-22T11:01:10.825413+00:00",
   "signal": {
-    "price": 1.2774,
+    "price": 1.2711,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7254,
-    "hybrid_score": 6.4,
+    "xgb_prob": 0.7268,
+    "hybrid_score": 7.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.115,
+      "sentiment": "NEUTRAL",
+      "score": 0.08,
       "bullish_pct": 38.3,
-      "bearish_pct": 36.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.199,
-        "crypto_macro": 0.384,
-        "geopolitical": -0.414,
+        "xrp": 0.136,
+        "crypto_macro": 0.308,
+        "geopolitical": -0.354,
         "fed_rates": 0.029
       },
       "geo_shock": true,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP erased its death cross. That does not mean what most headlines are claiming. - Crypto News",
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "U.S., Canada fail to reach a tariff deal, deepen trade war - CNBC"
+        "XRP Explodes 65% and Flips BNB as Altcoins Steal the Show: Weekend Watch - CryptoRank"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.25,
-      "health": -0.2819,
-      "vol_ratio": 0.23
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.24,
+      "health": -0.0097,
+      "vol_ratio": 0.17
     },
     "technicals": {
-      "ema50": 1.31072,
-      "ema200": 1.27615,
-      "macd": -0.011511,
-      "macd_signal": -0.010948,
-      "rsi14": 37.8,
-      "atr14": 0.01374,
-      "atr14_hourly": 0.06008,
-      "bb_position": 0.116
+      "ema50": 1.29184,
+      "ema200": 1.27431,
+      "macd": -0.008834,
+      "macd_signal": -0.01213,
+      "rsi14": 46.8,
+      "atr14": 0.01493,
+      "atr14_hourly": 0.06773,
+      "bb_position": 0.509
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175819
+  "data_bars": 175831
 }
