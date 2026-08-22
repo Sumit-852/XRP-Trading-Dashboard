@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-22T06:01:23.448649+00:00",
+  "timestamp": "2026-08-22T07:01:22.072946+00:00",
   "signal": {
-    "price": 1.312,
+    "price": 1.3478,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7225,
-    "hybrid_score": 7.7,
+    "xgb_prob": 0.7586,
+    "hybrid_score": 6.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.134,
-      "bullish_pct": 40.0,
-      "bearish_pct": 33.3,
+      "sentiment": "NEUTRAL",
+      "score": 0.09,
+      "bullish_pct": 38.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.191,
-        "crypto_macro": 0.443,
-        "geopolitical": -0.382,
-        "fed_rates": 0.018
+        "xrp": 0.118,
+        "crypto_macro": 0.378,
+        "geopolitical": -0.422,
+        "fed_rates": 0.084
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
+        "XRP erased its death cross. That does not mean what most headlines are claiming. - Crypto News",
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "XRP Explodes 65% and Flips BNB as Altcoins Steal the Show: Weekend Watch - CryptoPotato",
-        "U.S., Iran trade warnings as new sanctions loom and Hormuz oil flows stall - Investing.com"
+        "XRP Explodes 65% and Flips BNB as Altcoins Steal the Show: Weekend Watch - CryptoPotato"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.24,
-      "health": -0.2545,
-      "vol_ratio": 0.56
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.31,
+      "health": -0.1559,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 1.32007,
-      "ema200": 1.25033,
-      "macd": -0.011905,
-      "macd_signal": -0.00746,
-      "rsi14": 45.5,
-      "atr14": 0.03652,
-      "atr14_hourly": 0.20454,
-      "bb_position": 0.369
+      "ema50": 1.32603,
+      "ema200": 1.25982,
+      "macd": 0.004397,
+      "macd_signal": -0.000207,
+      "rsi14": 55.2,
+      "atr14": 0.02656,
+      "atr14_hourly": 0.13275,
+      "bb_position": 0.808
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175771
+  "data_bars": 175783
 }
