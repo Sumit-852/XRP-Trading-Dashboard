@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-22T01:01:21.300873+00:00",
+  "timestamp": "2026-08-22T02:01:15.715332+00:00",
   "signal": {
-    "price": 1.2488,
+    "price": 1.2676,
     "xgb_pred": "UP",
-    "xgb_prob": 0.69,
-    "hybrid_score": 7.5,
+    "xgb_prob": 0.6959,
+    "hybrid_score": 7.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.196,
-      "bullish_pct": 46.7,
-      "bearish_pct": 31.7,
+      "score": 0.197,
+      "bullish_pct": 45.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.311,
-        "crypto_macro": 0.498,
-        "geopolitical": -0.406,
-        "fed_rates": 0.058
+        "crypto_macro": 0.53,
+        "geopolitical": -0.401,
+        "fed_rates": -0.004
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Crypto Rally Alert: XRP Posts 13% Daily Gain, Surpassing Bitcoin and Ethereum - Coinpedia",
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C"
+        "Bitcoin Rally Tops $79,000. Crypto Shorts, ETF Flows Soar. CFTC Explores Crypto Rules. - Investor's Business Daily"
       ],
       "top_bearish": [
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "Iran crude loadings plunge to one-seventh of pre-war level as blockade bites - Iran International",
+        "Iran war fuels uncertainty over Vermont heating costs - WCAX",
         "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.51,
-      "health": 0.1812,
-      "vol_ratio": 0.07
+      "up_down_ratio": 1.49,
+      "health": 0.1836,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.22867,
-      "ema200": 1.1899,
-      "macd": 0.004219,
-      "macd_signal": 0.005153,
-      "rsi14": 56.1,
-      "atr14": 0.01119,
-      "atr14_hourly": 0.04206,
-      "bb_position": 0.633
+      "ema50": 1.24382,
+      "ema200": 1.19874,
+      "macd": 0.008828,
+      "macd_signal": 0.008879,
+      "rsi14": 56.9,
+      "atr14": 0.01126,
+      "atr14_hourly": 0.04404,
+      "bb_position": 0.659
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175711
+  "data_bars": 175723
 }
