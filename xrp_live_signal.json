@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-23T16:01:09.614395+00:00",
+  "timestamp": "2026-08-23T17:01:07.947383+00:00",
   "signal": {
-    "price": 1.2799,
+    "price": 1.2913,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7162,
-    "hybrid_score": 7.7,
+    "xgb_prob": 0.666,
+    "hybrid_score": 7.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.167,
-      "bullish_pct": 50.0,
-      "bearish_pct": 30.0,
+      "score": 0.136,
+      "bullish_pct": 48.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.231,
-        "crypto_macro": 0.437,
-        "geopolitical": -0.306,
+        "xrp": 0.125,
+        "crypto_macro": 0.446,
+        "geopolitical": -0.278,
         "fed_rates": 0.058
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes - CoinDesk",
+        "XRP price: Yield curve control hopes spark 50% weekly gain - CoinDesk",
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
         "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
+        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - 24/7 Wall St.",
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "Video Trade war escalates as US-Canada talks collapse - ABC News - Breaking News, Latest News and Videos"
+        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.19,
-      "health": -0.1751,
-      "vol_ratio": 0.07
+      "up_down_ratio": 1.24,
+      "health": -0.0992,
+      "vol_ratio": 0.24
     },
     "technicals": {
-      "ema50": 1.28453,
-      "ema200": 1.26482,
-      "macd": -0.002903,
-      "macd_signal": -0.001619,
-      "rsi14": 44.5,
-      "atr14": 0.00947,
-      "atr14_hourly": 0.04756,
-      "bb_position": 0.293
+      "ema50": 1.28462,
+      "ema200": 1.26704,
+      "macd": -0.00022,
+      "macd_signal": -0.001335,
+      "rsi14": 54.9,
+      "atr14": 0.00728,
+      "atr14_hourly": 0.02882,
+      "bb_position": 0.967
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176179
+  "data_bars": 176191
 }
