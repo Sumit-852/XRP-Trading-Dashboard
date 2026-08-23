@@ -1,22 +1,27 @@
 {
-  "timestamp": "2026-08-22T23:01:41.867888+00:00",
+  "timestamp": "2026-08-23T00:01:18.054373+00:00",
   "signal": {
-    "price": 1.2395,
+    "price": 1.2361,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7431,
+    "xgb_prob": 0.7371,
     "hybrid_score": 6.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
-      "geo_shock": false,
+      "sentiment": "NEUTRAL",
+      "score": 0.055,
+      "bullish_pct": 38.3,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.109,
+        "crypto_macro": 0.34,
+        "geopolitical": -0.512,
+        "fed_rates": 0.056
+      },
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
+        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC"
+      ],
+      "top_bearish": [
+        "Bitcoin, Ethereum, and XRP Crash as $1.7B Got Liquidated in 24 Hours - TradingView",
+        "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool",
+        "U.S., Iran trade warnings before new sanctions as Hormuz traffic remains stalled - Haaretz"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.02,
-      "health": -0.102,
-      "vol_ratio": 0.02
+      "health": -0.0689,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.25486,
-      "ema200": 1.26345,
-      "macd": -0.004606,
-      "macd_signal": -0.005481,
-      "rsi14": 38.9,
-      "atr14": 0.0076,
-      "atr14_hourly": 0.03154,
-      "bb_position": 0.292
+      "ema50": 1.24821,
+      "ema200": 1.26053,
+      "macd": -0.004084,
+      "macd_signal": -0.004515,
+      "rsi14": 42.4,
+      "atr14": 0.00587,
+      "atr14_hourly": 0.02421,
+      "bb_position": 0.273
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -87,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175975
+  "data_bars": 175987
 }
