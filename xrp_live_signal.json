@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-23T17:01:07.947383+00:00",
+  "timestamp": "2026-08-23T18:01:16.452583+00:00",
   "signal": {
-    "price": 1.2913,
+    "price": 1.285,
     "xgb_pred": "UP",
-    "xgb_prob": 0.666,
-    "hybrid_score": 7.3,
+    "xgb_prob": 0.6516,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -12,16 +12,16 @@
     "news": {
       "sentiment": "BULLISH",
       "score": 0.136,
-      "bullish_pct": 48.3,
-      "bearish_pct": 33.3,
+      "bullish_pct": 46.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.125,
-        "crypto_macro": 0.446,
-        "geopolitical": -0.278,
-        "fed_rates": 0.058
+        "xrp": 0.266,
+        "crypto_macro": 0.313,
+        "geopolitical": -0.319,
+        "fed_rates": 0.028
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP price: Yield curve control hopes spark 50% weekly gain - CoinDesk",
-        "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
+        "New Crypto Presale Moonberg ($MBX) Reaches New Heights As XRP Price Prediction Turns Bullish With ETF News - GlobeNewswi"
       ],
       "top_bearish": [
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.24,
-      "health": -0.0992,
-      "vol_ratio": 0.24
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.25,
+      "health": -0.0919,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.28462,
-      "ema200": 1.26704,
-      "macd": -0.00022,
-      "macd_signal": -0.001335,
-      "rsi14": 54.9,
-      "atr14": 0.00728,
-      "atr14_hourly": 0.02882,
-      "bb_position": 0.967
+      "ema50": 1.28662,
+      "ema200": 1.26966,
+      "macd": 7.3e-05,
+      "macd_signal": 0.000711,
+      "rsi14": 46.0,
+      "atr14": 0.0066,
+      "atr14_hourly": 0.02441,
+      "bb_position": 0.302
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.965,
+      "percentile": 0.964,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176191
+  "data_bars": 176203
 }
