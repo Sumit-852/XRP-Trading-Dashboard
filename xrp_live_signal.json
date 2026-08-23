@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-08-23T11:01:19.122064+00:00",
+  "timestamp": "2026-08-23T12:01:16.203755+00:00",
   "signal": {
-    "price": 1.2634,
+    "price": 1.2765,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7122,
-    "hybrid_score": 7.6,
+    "xgb_prob": 0.7308,
+    "hybrid_score": 6.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.084,
-      "bullish_pct": 43.3,
-      "bearish_pct": 35.0,
+      "sentiment": "BULLISH",
+      "score": 0.113,
+      "bullish_pct": 45.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.145,
-        "crypto_macro": 0.323,
-        "geopolitical": -0.42,
-        "fed_rates": 0.081
+        "xrp": 0.217,
+        "crypto_macro": 0.325,
+        "geopolitical": -0.417,
+        "fed_rates": 0.089
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
         "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
-        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC"
+        "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company"
       ],
       "top_bearish": [
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
-        "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool"
+        "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool",
+        "U.S., Iran Trade Warnings Ahead of New Sanctions as Hormuz Traffic Remains Stalled - Haaretz"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.38,
-      "health": 0.416,
-      "vol_ratio": 0.13
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.36,
+      "health": 0.5237,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 1.25198,
-      "ema200": 1.24728,
-      "macd": 0.004292,
-      "macd_signal": 0.006314,
-      "rsi14": 53.6,
-      "atr14": 0.00571,
-      "atr14_hourly": 0.02791,
-      "bb_position": 0.455
+      "ema50": 1.26075,
+      "ema200": 1.25037,
+      "macd": 0.005105,
+      "macd_signal": 0.00523,
+      "rsi14": 57.7,
+      "atr14": 0.00586,
+      "atr14_hourly": 0.02448,
+      "bb_position": 0.682
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176119
+  "data_bars": 176131
 }
