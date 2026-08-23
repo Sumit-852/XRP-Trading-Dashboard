@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-08-23T14:01:17.304064+00:00",
+  "timestamp": "2026-08-23T15:01:14.926352+00:00",
   "signal": {
-    "price": 1.2998,
+    "price": 1.2877,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7409,
-    "hybrid_score": 7.8,
+    "xgb_prob": 0.7371,
+    "hybrid_score": 6.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.094,
-      "bullish_pct": 45.0,
-      "bearish_pct": 33.3,
+      "sentiment": "BULLISH",
+      "score": 0.155,
+      "bullish_pct": 50.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.211,
-        "crypto_macro": 0.207,
-        "geopolitical": -0.318,
-        "fed_rates": 0.089
+        "xrp": 0.185,
+        "crypto_macro": 0.41,
+        "geopolitical": -0.269,
+        "fed_rates": 0.101
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - 24/7 Wall St.",
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar"
+        "Video Trade war escalates as US-Canada talks collapse - ABC News - Breaking News, Latest News and Videos"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.35,
-      "health": 0.1864,
-      "vol_ratio": 0.04
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.24,
+      "health": 0.0977,
+      "vol_ratio": 0.52
     },
     "technicals": {
-      "ema50": 1.27619,
-      "ema200": 1.25751,
-      "macd": 0.006962,
-      "macd_signal": 0.005755,
-      "rsi14": 67.9,
-      "atr14": 0.00649,
-      "atr14_hourly": 0.02342,
-      "bb_position": 0.868
+      "ema50": 1.28559,
+      "ema200": 1.26251,
+      "macd": 0.002721,
+      "macd_signal": 0.005476,
+      "rsi14": 46.6,
+      "atr14": 0.0123,
+      "atr14_hourly": 0.04509,
+      "bb_position": 0.238
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.959,
+      "percentile": 0.965,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176155
+  "data_bars": 176167
 }
