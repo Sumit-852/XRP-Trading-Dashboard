@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-08-23T10:01:19.411375+00:00",
+  "timestamp": "2026-08-23T11:01:19.122064+00:00",
   "signal": {
-    "price": 1.2626,
+    "price": 1.2634,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6531,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.7122,
+    "hybrid_score": 7.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.07,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "score": 0.084,
+      "bullish_pct": 43.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.111,
-        "crypto_macro": 0.352,
-        "geopolitical": -0.447,
-        "fed_rates": 0.05
+        "xrp": 0.145,
+        "crypto_macro": 0.323,
+        "geopolitical": -0.42,
+        "fed_rates": 0.081
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
+        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC"
       ],
       "top_bearish": [
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "U.S., Iran Trade Warnings Ahead of New Sanctions as Hormuz Traffic Remains Stalled - Haaretz",
-        "Alaskans will side with Canada in Trump's idiotic trade war - Reporting From Alaska"
+        "Crypto Winter or the Big Crash? Where the Bitcoin Price Goes Now - Morningstar",
+        "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": 0.1204,
-      "vol_ratio": 0.45
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.38,
+      "health": 0.416,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 1.24252,
-      "ema200": 1.24469,
-      "macd": 0.007681,
-      "macd_signal": 0.009385,
-      "rsi14": 64.0,
-      "atr14": 0.00674,
-      "atr14_hourly": 0.03291,
-      "bb_position": 0.69
+      "ema50": 1.25198,
+      "ema200": 1.24728,
+      "macd": 0.004292,
+      "macd_signal": 0.006314,
+      "rsi14": 53.6,
+      "atr14": 0.00571,
+      "atr14_hourly": 0.02791,
+      "bb_position": 0.455
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.971,
+      "percentile": 0.96,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176107
+  "data_bars": 176119
 }
