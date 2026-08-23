@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-23T00:01:18.054373+00:00",
+  "timestamp": "2026-08-23T01:01:16.801702+00:00",
   "signal": {
-    "price": 1.2361,
+    "price": 1.2702,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7371,
-    "hybrid_score": 6.5,
+    "xgb_prob": 0.6614,
+    "hybrid_score": 6.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.055,
+      "score": 0.064,
       "bullish_pct": 38.3,
-      "bearish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.109,
-        "crypto_macro": 0.34,
-        "geopolitical": -0.512,
-        "fed_rates": 0.056
+        "crypto_macro": 0.363,
+        "geopolitical": -0.474,
+        "fed_rates": 0.026
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
         "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
-        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC"
+        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC",
+        "Bitcoin Tops $75,000 For The First Time Since May As Crypto Surge Continues - Forbes"
       ],
       "top_bearish": [
-        "Bitcoin, Ethereum, and XRP Crash as $1.7B Got Liquidated in 24 Hours - TradingView",
+        "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
         "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool",
         "U.S., Iran trade warnings before new sanctions as Hormuz traffic remains stalled - Haaretz"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": -0.0689,
-      "vol_ratio": 0.05
+      "up_down_ratio": 0.9,
+      "health": -0.1595,
+      "vol_ratio": 0.29
     },
     "technicals": {
-      "ema50": 1.24821,
-      "ema200": 1.26053,
-      "macd": -0.004084,
-      "macd_signal": -0.004515,
-      "rsi14": 42.4,
-      "atr14": 0.00587,
-      "atr14_hourly": 0.02421,
-      "bb_position": 0.273
+      "ema50": 1.25313,
+      "ema200": 1.2605,
+      "macd": 0.006603,
+      "macd_signal": 0.003499,
+      "rsi14": 62.4,
+      "atr14": 0.00838,
+      "atr14_hourly": 0.03084,
+      "bb_position": 0.851
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 175987
+  "data_bars": 175999
 }
