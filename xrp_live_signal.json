@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-23T15:01:14.926352+00:00",
+  "timestamp": "2026-08-23T16:01:09.614395+00:00",
   "signal": {
-    "price": 1.2877,
+    "price": 1.2799,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7371,
-    "hybrid_score": 6.5,
+    "xgb_prob": 0.7162,
+    "hybrid_score": 7.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.155,
+      "score": 0.167,
       "bullish_pct": 50.0,
-      "bearish_pct": 28.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.185,
-        "crypto_macro": 0.41,
-        "geopolitical": -0.269,
-        "fed_rates": 0.101
+        "xrp": 0.231,
+        "crypto_macro": 0.437,
+        "geopolitical": -0.306,
+        "fed_rates": 0.058
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes - CoinDesk",
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
-        "Bitcoin, Ethereum, and XRP are suddenly soaring to fresh highs: Why are crypto prices up today? - Fast Company"
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - 24/7 Wall St.",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.24,
-      "health": 0.0977,
-      "vol_ratio": 0.52
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.19,
+      "health": -0.1751,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.28559,
-      "ema200": 1.26251,
-      "macd": 0.002721,
-      "macd_signal": 0.005476,
-      "rsi14": 46.6,
-      "atr14": 0.0123,
-      "atr14_hourly": 0.04509,
-      "bb_position": 0.238
+      "ema50": 1.28453,
+      "ema200": 1.26482,
+      "macd": -0.002903,
+      "macd_signal": -0.001619,
+      "rsi14": 44.5,
+      "atr14": 0.00947,
+      "atr14_hourly": 0.04756,
+      "bb_position": 0.293
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176167
+  "data_bars": 176179
 }
