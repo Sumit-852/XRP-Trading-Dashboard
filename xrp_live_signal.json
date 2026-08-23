@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-23T06:01:20.929491+00:00",
+  "timestamp": "2026-08-23T07:01:14.403326+00:00",
   "signal": {
-    "price": 1.2028,
+    "price": 1.191,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7486,
-    "hybrid_score": 6.6,
+    "xgb_prob": 0.729,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.081,
-      "bullish_pct": 41.7,
-      "bearish_pct": 28.3,
+      "score": 0.072,
+      "bullish_pct": 40.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.109,
-        "crypto_macro": 0.442,
-        "geopolitical": -0.579,
+        "xrp": 0.117,
+        "crypto_macro": 0.398,
+        "geopolitical": -0.574,
         "fed_rates": 0.112
       },
       "geo_shock": true,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
         "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
-        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
-        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC"
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
+        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
         "U.S., Iran Trade Warnings Ahead of New Sanctions as Hormuz Traffic Remains Stalled - Haaretz",
-        "Canada\u2019s Carney rejects Trump\u2019s \u2018bait\u2019, confronting US in trade war - South China Morning Post",
-        "Alaskans will side with Canada in Trump's idiotic trade war - Reporting From Alaska"
+        "Canada\u2019s Carney rejects Trump\u2019s \u2018bait\u2019, confronting US in trade war - South China Morning Post"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.9,
-      "health": -0.0006,
-      "vol_ratio": 0.19
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.85,
+      "health": -0.076,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.23461,
-      "ema200": 1.25117,
-      "macd": -0.008196,
-      "macd_signal": -0.006165,
-      "rsi14": 31.4,
-      "atr14": 0.01,
-      "atr14_hourly": 0.03204,
-      "bb_position": -0.049
+      "ema50": 1.22137,
+      "ema200": 1.24541,
+      "macd": -0.009315,
+      "macd_signal": -0.008753,
+      "rsi14": 34.8,
+      "atr14": 0.00839,
+      "atr14_hourly": 0.03362,
+      "bb_position": 0.157
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.979,
+      "percentile": 0.976,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176059
+  "data_bars": 176071
 }
