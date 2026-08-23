@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-23T18:01:16.452583+00:00",
+  "timestamp": "2026-08-23T19:01:20.418891+00:00",
   "signal": {
-    "price": 1.285,
+    "price": 1.2889,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6516,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.6993,
+    "hybrid_score": 6.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.136,
-      "bullish_pct": 46.7,
-      "bearish_pct": 35.0,
+      "score": 0.127,
+      "bullish_pct": 43.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.266,
-        "crypto_macro": 0.313,
-        "geopolitical": -0.319,
-        "fed_rates": 0.028
+        "xrp": 0.3,
+        "crypto_macro": 0.297,
+        "geopolitical": -0.371,
+        "fed_rates": -0.027
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "New Crypto Presale Moonberg ($MBX) Reaches New Heights As XRP Price Prediction Turns Bullish With ETF News - GlobeNewswi"
       ],
       "top_bearish": [
-        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
+        "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - 24/7 Wall St.",
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance"
+        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.25,
       "health": -0.0919,
-      "vol_ratio": 0.1
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.28662,
-      "ema200": 1.26966,
-      "macd": 7.3e-05,
-      "macd_signal": 0.000711,
-      "rsi14": 46.0,
-      "atr14": 0.0066,
-      "atr14_hourly": 0.02441,
-      "bb_position": 0.302
+      "ema50": 1.28713,
+      "ema200": 1.27174,
+      "macd": -0.000243,
+      "macd_signal": -0.000138,
+      "rsi14": 51.4,
+      "atr14": 0.0054,
+      "atr14_hourly": 0.01948,
+      "bb_position": 0.581
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.964,
+      "percentile": 0.963,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176203
+  "data_bars": 176215
 }
