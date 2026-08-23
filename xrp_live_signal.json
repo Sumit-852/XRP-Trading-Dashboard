@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-08-23T19:01:20.418891+00:00",
+  "timestamp": "2026-08-23T20:01:20.837538+00:00",
   "signal": {
-    "price": 1.2889,
+    "price": 1.2819,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6993,
-    "hybrid_score": 6.3,
+    "xgb_prob": 0.6968,
+    "hybrid_score": 7.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.127,
-      "bullish_pct": 43.3,
-      "bearish_pct": 31.7,
+      "score": 0.202,
+      "bullish_pct": 50.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.3,
-        "crypto_macro": 0.297,
-        "geopolitical": -0.371,
-        "fed_rates": -0.027
+        "xrp": 0.392,
+        "crypto_macro": 0.437,
+        "geopolitical": -0.408,
+        "fed_rates": 0.022
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "XRP price: Yield curve control hopes spark 50% weekly gain - CoinDesk",
-        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
-        "New Crypto Presale Moonberg ($MBX) Reaches New Heights As XRP Price Prediction Turns Bullish With ETF News - GlobeNewswi"
+        "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
-        "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - 24/7 Wall St.",
-        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance"
+        "U.S. and Canada trade war intensifies with new tariffs - NBC News",
+        "Trump Just Restarted the Trade War With Canada. Should Stock Investors Be Worried? - 24/7 Wall St."
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.25,
-      "health": -0.0919,
-      "vol_ratio": 0.07
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.26,
+      "health": 0.0212,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.28713,
-      "ema200": 1.27174,
-      "macd": -0.000243,
-      "macd_signal": -0.000138,
-      "rsi14": 51.4,
-      "atr14": 0.0054,
-      "atr14_hourly": 0.01948,
-      "bb_position": 0.581
+      "ema50": 1.28524,
+      "ema200": 1.27291,
+      "macd": -0.001341,
+      "macd_signal": -0.001265,
+      "rsi14": 46.1,
+      "atr14": 0.00531,
+      "atr14_hourly": 0.01873,
+      "bb_position": 0.332
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.963,
+      "percentile": 0.964,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176215
+  "data_bars": 176227
 }
