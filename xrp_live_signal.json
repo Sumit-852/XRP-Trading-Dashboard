@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-23T05:01:17.034190+00:00",
+  "timestamp": "2026-08-23T06:01:20.929491+00:00",
   "signal": {
-    "price": 1.2269,
+    "price": 1.2028,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7218,
-    "hybrid_score": 6.3,
+    "xgb_prob": 0.7486,
+    "hybrid_score": 6.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.008,
-      "bullish_pct": 35.0,
-      "bearish_pct": 38.3,
+      "score": 0.081,
+      "bullish_pct": 41.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.046,
-        "crypto_macro": 0.212,
-        "geopolitical": -0.526,
-        "fed_rates": 0.065
+        "xrp": 0.109,
+        "crypto_macro": 0.442,
+        "geopolitical": -0.579,
+        "fed_rates": 0.112
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Why Is the Crypto Market Up Today? Bitcoin Tops $71K as Trump, CLARITY Act Optimism and Treasury Buybacks Fuel Rally - C",
         "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
-        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC",
-        "Bitcoin Tops $75,000 For The First Time Since May As Crypto Surge Continues - Forbes"
+        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC"
       ],
       "top_bearish": [
-        "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Yahoo Finance",
-        "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool"
+        "U.S., Iran Trade Warnings Ahead of New Sanctions as Hormuz Traffic Remains Stalled - Haaretz",
+        "Canada\u2019s Carney rejects Trump\u2019s \u2018bait\u2019, confronting US in trade war - South China Morning Post",
+        "Alaskans will side with Canada in Trump's idiotic trade war - Reporting From Alaska"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.95,
-      "health": -0.0291,
-      "vol_ratio": 0.16
+      "up_down_ratio": 0.9,
+      "health": -0.0006,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 1.24345,
-      "ema200": 1.25499,
-      "macd": -0.005903,
-      "macd_signal": -0.004839,
-      "rsi14": 42.4,
-      "atr14": 0.00882,
-      "atr14_hourly": 0.0277,
-      "bb_position": 0.188
+      "ema50": 1.23461,
+      "ema200": 1.25117,
+      "macd": -0.008196,
+      "macd_signal": -0.006165,
+      "rsi14": 31.4,
+      "atr14": 0.01,
+      "atr14_hourly": 0.03204,
+      "bb_position": -0.049
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.993,
+      "percentile": 0.979,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176047
+  "data_bars": 176059
 }
