@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-24T22:01:18.316891+00:00",
+  "timestamp": "2026-08-24T23:01:20.682104+00:00",
   "signal": {
-    "price": 1.2672,
+    "price": 1.2661,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5089,
-    "hybrid_score": 5.1,
-    "regime": "BULLISH",
+    "xgb_prob": 0.6287,
+    "hybrid_score": 5.8,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.003,
-      "bullish_pct": 30.0,
-      "bearish_pct": 41.7,
+      "score": 0.009,
+      "bullish_pct": 31.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.067,
-        "crypto_macro": 0.23,
-        "geopolitical": -0.466,
-        "fed_rates": -0.062
+        "xrp": 0.061,
+        "crypto_macro": 0.268,
+        "geopolitical": -0.468,
+        "fed_rates": -0.047
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
-        "\u201cMost Stupid Trade Fight in History\u201d: U.S. & Canadian Workers Stand to Lose in Trump\u2019s New Tariff War - Democracy Now!"
+        "Trump threatens more tariffs on Canadian goods as trade war intensifies - Courthouse News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": 0.0284,
-      "vol_ratio": 1.42
+      "up_down_ratio": 0.9,
+      "health": 0.0498,
+      "vol_ratio": 0.24
     },
     "technicals": {
-      "ema50": 1.27026,
-      "ema200": 1.27485,
-      "macd": 0.000285,
-      "macd_signal": 0.00042,
-      "rsi14": 47.6,
-      "atr14": 0.00451,
-      "atr14_hourly": 0.01468,
-      "bb_position": 0.373
+      "ema50": 1.26977,
+      "ema200": 1.27421,
+      "macd": -0.000382,
+      "macd_signal": 5e-05,
+      "rsi14": 45.3,
+      "atr14": 0.00381,
+      "atr14_hourly": 0.01054,
+      "bb_position": 0.098
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.894,
+      "percentile": 0.895,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176539
+  "data_bars": 176551
 }
