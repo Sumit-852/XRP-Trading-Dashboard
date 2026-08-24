@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-24T15:01:28.180648+00:00",
+  "timestamp": "2026-08-24T16:01:23.980021+00:00",
   "signal": {
-    "price": 1.2942,
+    "price": 1.2879,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7023,
-    "hybrid_score": 6.3,
+    "xgb_prob": 0.669,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.062,
-      "bullish_pct": 35.0,
+      "score": 0.006,
+      "bullish_pct": 31.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.238,
-        "crypto_macro": 0.203,
-        "geopolitical": -0.428,
-        "fed_rates": -0.046
+        "xrp": 0.113,
+        "crypto_macro": 0.166,
+        "geopolitical": -0.389,
+        "fed_rates": -0.089
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP ETF Inflows Hit $1.55B as 70% Price Surge Revives Institutional Demand - Altcoin Buzz",
-        "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "XRP\u2019s 50% weekly surge: the biggest rally since the SEC settlement and what is driving it - Crypto News"
+        "AI XRP Price Prediction: What Could XRP Be Worth by December After a 50% Rally? - 24/7 Wall St.",
+        "Bitcoin surges 12% in two days as Trump, crypto execs lead last ditch effort for Clarity Act - CNBC",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": 0.0529,
-      "vol_ratio": 0.16
+      "up_down_ratio": 0.92,
+      "health": -0.0681,
+      "vol_ratio": 0.39
     },
     "technicals": {
-      "ema50": 1.28548,
-      "ema200": 1.27669,
-      "macd": 0.002982,
-      "macd_signal": 0.002435,
-      "rsi14": 54.2,
-      "atr14": 0.00829,
-      "atr14_hourly": 0.03378,
-      "bb_position": 0.667
+      "ema50": 1.28877,
+      "ema200": 1.27874,
+      "macd": -0.000204,
+      "macd_signal": 0.001661,
+      "rsi14": 46.1,
+      "atr14": 0.00865,
+      "atr14_hourly": 0.03083,
+      "bb_position": 0.224
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,23 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.893,
+      "percentile": 0.888,
       "extreme": false
     }
   },
   "trade": {
-    "action": "BUY",
-    "reason": "MODEL_BUY: score=6.3",
-    "portfolio_eur": 5059.66,
-    "total_pnl_pct": 1.193,
+    "action": "HOLD",
+    "reason": "HOLD LONG: P&L -0.62%",
+    "portfolio_eur": 5053.51,
+    "total_pnl_pct": 1.07,
     "position": "LONG",
     "xrp_held": 976.4196,
     "cash_eur": 3795.98,
     "trade_count": 65,
     "draw_levels": {
       "entry": 1.29588246,
-      "take_profit": 1.38044,
-      "stop_loss": 1.24515
+      "take_profit": 1.37344,
+      "stop_loss": 1.24935,
+      "trailing_stop": 1.23224
     }
   },
   "trade_feedback": {
@@ -104,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176455
+  "data_bars": 176467
 }
