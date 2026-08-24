@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-24T09:01:22.680644+00:00",
+  "timestamp": "2026-08-24T10:01:18.282156+00:00",
   "signal": {
-    "price": 1.2526,
+    "price": 1.2685,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6693,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.6436,
+    "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.063,
-      "bullish_pct": 36.7,
-      "bearish_pct": 35.0,
+      "score": 0.068,
+      "bullish_pct": 38.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.202,
-        "crypto_macro": 0.198,
-        "geopolitical": -0.382,
-        "fed_rates": 0.004
+        "xrp": 0.174,
+        "crypto_macro": 0.219,
+        "geopolitical": -0.343,
+        "fed_rates": 0.011
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
-        "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - Courthouse News"
+        "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": -0.2027,
-      "vol_ratio": 0.09
+      "up_down_ratio": 0.92,
+      "health": -0.0079,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.26196,
-      "ema200": 1.27069,
-      "macd": -0.004437,
-      "macd_signal": -0.00397,
-      "rsi14": 40.8,
-      "atr14": 0.00492,
-      "atr14_hourly": 0.02448,
-      "bb_position": 0.326
+      "ema50": 1.26385,
+      "ema200": 1.27024,
+      "macd": 0.002169,
+      "macd_signal": 0.000854,
+      "rsi14": 58.5,
+      "atr14": 0.00446,
+      "atr14_hourly": 0.02245,
+      "bb_position": 0.75
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176383
+  "data_bars": 176395
 }
