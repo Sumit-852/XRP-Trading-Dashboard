@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-24T11:01:23.383680+00:00",
+  "timestamp": "2026-08-24T12:01:20.594096+00:00",
   "signal": {
-    "price": 1.2684,
+    "price": 1.2805,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6676,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.5213,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.044,
-      "bullish_pct": 33.3,
-      "bearish_pct": 38.3,
+      "score": 0.047,
+      "bullish_pct": 31.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.174,
-        "crypto_macro": 0.181,
-        "geopolitical": -0.381,
-        "fed_rates": -0.026
+        "xrp": 0.225,
+        "crypto_macro": 0.113,
+        "geopolitical": -0.361,
+        "fed_rates": -0.017
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP\u2019s 50% weekly surge: the biggest rally since the SEC settlement and what is driving it - Crypto News",
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "XRP Soars 19% On Regulatory Tailwinds, Ripple Partnership Update - MarketForces Africa",
-        "Bitcoin surges 12% in two days as Trump, crypto execs lead last ditch effort for Clarity Act - CNBC"
+        "XRP Soars 19% On Regulatory Tailwinds, Ripple Partnership Update - MarketForces Africa"
       ],
       "top_bearish": [
         "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": 0.0172,
-      "vol_ratio": 0.16
+      "up_down_ratio": 1.06,
+      "health": 0.0895,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 1.26691,
-      "ema200": 1.27045,
-      "macd": 0.001871,
-      "macd_signal": 0.002416,
-      "rsi14": 50.1,
-      "atr14": 0.00485,
-      "atr14_hourly": 0.01634,
-      "bb_position": 0.272
+      "ema50": 1.27122,
+      "ema200": 1.27126,
+      "macd": 0.004126,
+      "macd_signal": 0.003451,
+      "rsi14": 56.5,
+      "atr14": 0.00608,
+      "atr14_hourly": 0.02141,
+      "bb_position": 0.701
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.927,
+      "percentile": 0.925,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176407
+  "data_bars": 176419
 }
