@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-24T08:01:24.708722+00:00",
+  "timestamp": "2026-08-24T09:01:22.680644+00:00",
   "signal": {
-    "price": 1.2629,
+    "price": 1.2526,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6776,
+    "xgb_prob": 0.6693,
     "hybrid_score": 6.1,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,14 +11,14 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.068,
+      "score": 0.063,
       "bullish_pct": 36.7,
-      "bearish_pct": 33.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.172,
-        "crypto_macro": 0.274,
-        "geopolitical": -0.417,
+        "xrp": 0.202,
+        "crypto_macro": 0.198,
+        "geopolitical": -0.382,
         "fed_rates": 0.004
       },
       "geo_shock": true,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
-        "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters"
+        "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - Courthouse News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.95,
-      "health": -0.2314,
-      "vol_ratio": 0.25
+      "up_down_ratio": 0.89,
+      "health": -0.2027,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 1.26798,
-      "ema200": 1.27303,
-      "macd": -6.2e-05,
-      "macd_signal": 0.001194,
-      "rsi14": 44.2,
-      "atr14": 0.00593,
-      "atr14_hourly": 0.02337,
-      "bb_position": 0.211
+      "ema50": 1.26196,
+      "ema200": 1.27069,
+      "macd": -0.004437,
+      "macd_signal": -0.00397,
+      "rsi14": 40.8,
+      "atr14": 0.00492,
+      "atr14_hourly": 0.02448,
+      "bb_position": 0.326
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.951,
+      "percentile": 0.927,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176371
+  "data_bars": 176383
 }
