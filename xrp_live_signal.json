@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-24T13:01:21.114715+00:00",
+  "timestamp": "2026-08-24T14:01:27.904676+00:00",
   "signal": {
-    "price": 1.2956,
+    "price": 1.2817,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5606,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.7257,
+    "hybrid_score": 6.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.082,
-      "bullish_pct": 40.0,
-      "bearish_pct": 33.3,
+      "score": 0.066,
+      "bullish_pct": 38.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.25,
-        "crypto_macro": 0.141,
-        "geopolitical": -0.298,
-        "fed_rates": 0.015
+        "xrp": 0.249,
+        "crypto_macro": 0.152,
+        "geopolitical": -0.347,
+        "fed_rates": -0.045
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "XRP Soars 19% On Regulatory Tailwinds, Ripple Partnership Update - MarketForces Africa",
-        "Bitcoin surges 12% in two days as Trump, crypto execs lead last ditch effort for Clarity Act - CNBC"
+        "XRP\u2019s 50% weekly surge: the biggest rally since the SEC settlement and what is driving it - Crypto News",
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's"
       ],
       "top_bearish": [
-        "XRP Price Suffers a Brutal Flash Crash as $1.35 Billion Crypto Liquidation - Yahoo Finance",
-        "Hormuz Tanker Traffic Slumps as U.S. and Iran Trade Threats - Crude Oil Prices Today | OilPrice.com",
-        "US threatens toughest sanctions yet against Iran: What we know - Al Jazeera"
+        "XRP Ripple Faces $386M Liquidation Shock - TradingView",
+        "Crypto ETFs Lose Their Bull-Market Halo as Outflows Test Demand - Yahoo Finance",
+        "Hormuz Tanker Traffic Slumps as U.S. and Iran Trade Threats - Crude Oil Prices Today | OilPrice.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": 0.0745,
-      "vol_ratio": 1.09
+      "up_down_ratio": 0.93,
+      "health": 0.0474,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.2778,
-      "ema200": 1.27313,
-      "macd": 0.005944,
-      "macd_signal": 0.004773,
-      "rsi14": 64.4,
-      "atr14": 0.00658,
-      "atr14_hourly": 0.02464,
-      "bb_position": 0.871
+      "ema50": 1.28082,
+      "ema200": 1.27466,
+      "macd": -0.000884,
+      "macd_signal": 0.001682,
+      "rsi14": 47.2,
+      "atr14": 0.00754,
+      "atr14_hourly": 0.03012,
+      "bb_position": 0.307
     },
     "trade_feedback": {
       "loss_streak": 0,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.927,
+      "percentile": 0.923,
       "extreme": true
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176431
+  "data_bars": 176443
 }
