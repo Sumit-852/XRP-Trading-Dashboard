@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-25T01:01:17.151864+00:00",
+  "timestamp": "2026-08-25T02:01:18.508515+00:00",
   "signal": {
-    "price": 1.294,
+    "price": 1.2915,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6787,
+    "xgb_prob": 0.6722,
     "hybrid_score": 6.0,
-    "regime": "BEARISH",
-    "entry_signal": false,
+    "regime": "BULLISH",
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.036,
-      "bullish_pct": 30.0,
-      "bearish_pct": 41.7,
+      "score": -0.015,
+      "bullish_pct": 31.7,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.033,
-        "crypto_macro": 0.206,
-        "geopolitical": -0.566,
-        "fed_rates": -0.027
+        "xrp": 0.029,
+        "crypto_macro": 0.245,
+        "geopolitical": -0.52,
+        "fed_rates": -0.016
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin, XRP, and Ethereum Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos. - Barron's",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond",
-        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate",
-        "Wall Street Is Moving Into Altcoins: Why XRP, Solana and HYPE Are Winning - Bitcoin Foundation"
+        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
-        "Trump threatens more tariffs on Canadian goods as trade war intensifies - Courthouse News"
+        "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews",
+        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.95,
-      "health": 0.1476,
-      "vol_ratio": 0.21
+      "health": 0.0603,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.27408,
-      "ema200": 1.27434,
-      "macd": 0.006283,
-      "macd_signal": 0.003749,
-      "rsi14": 69.9,
-      "atr14": 0.00596,
-      "atr14_hourly": 0.02015,
-      "bb_position": 0.936
+      "ema50": 1.2806,
+      "ema200": 1.27624,
+      "macd": 0.004685,
+      "macd_signal": 0.005093,
+      "rsi14": 56.4,
+      "atr14": 0.00614,
+      "atr14_hourly": 0.02148,
+      "bb_position": 0.591
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,20 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.888,
+      "percentile": 0.887,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
-    "portfolio_eur": 5034.23,
-    "total_pnl_pct": 0.685,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 5034.23,
-    "trade_count": 66,
-    "draw_levels": {}
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=6.0",
+    "portfolio_eur": 5032.59,
+    "total_pnl_pct": 0.652,
+    "position": "LONG",
+    "xrp_held": 973.2276,
+    "cash_eur": 3775.67,
+    "trade_count": 67,
+    "draw_levels": {
+      "entry": 1.2931789500000002,
+      "take_profit": 1.34695,
+      "stop_loss": 1.26092
+    }
   },
   "trade_feedback": {
     "overall_win_rate": 0.424,
@@ -100,5 +104,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176575
+  "data_bars": 176587
 }
