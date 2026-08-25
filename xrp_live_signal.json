@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-08-25T19:01:27.637331+00:00",
+  "timestamp": "2026-08-25T20:01:20.240151+00:00",
   "signal": {
-    "price": 1.2651,
+    "price": 1.2577,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5917,
-    "hybrid_score": 6.8,
+    "xgb_prob": 0.6067,
+    "hybrid_score": 5.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.043,
+      "score": 0.014,
       "bullish_pct": 31.7,
-      "bearish_pct": 36.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.185,
-        "crypto_macro": 0.202,
-        "geopolitical": -0.446,
-        "fed_rates": -0.018
+        "xrp": 0.128,
+        "crypto_macro": 0.179,
+        "geopolitical": -0.474,
+        "fed_rates": 0.005
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-        "1 Popular Cryptocurrency to Buy Before It Surges by 920%, According to Cathie Wood's Ark Invest - Yahoo Finance",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond",
+        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
+        "Crypto extends gains after biggest 3-day rally since 2023 - CNBC"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews",
-        "\u2018Whatever It Takes\u2019\u2014Market Sent Shock \u2018Fear Of God\u2019 Warning As Crypto Traders Brace For Massive Bitcoin Price Boom - For"
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Yahoo Finance"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.16,
-      "health": 0.1082,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.12,
+      "health": 0.0203,
+      "vol_ratio": 1.08
     },
     "technicals": {
-      "ema50": 1.26287,
-      "ema200": 1.27,
-      "macd": 0.001059,
-      "macd_signal": 0.001264,
-      "rsi14": 52.9,
-      "atr14": 0.00333,
-      "atr14_hourly": 0.01272,
-      "bb_position": 0.575
+      "ema50": 1.26157,
+      "ema200": 1.26883,
+      "macd": -0.001445,
+      "macd_signal": -0.000831,
+      "rsi14": 43.4,
+      "atr14": 0.00339,
+      "atr14_hourly": 0.01144,
+      "bb_position": 0.227
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.825,
+      "percentile": 0.793,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176791
+  "data_bars": 176803
 }
