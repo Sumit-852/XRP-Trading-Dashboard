@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-25T08:01:24.866655+00:00",
+  "timestamp": "2026-08-25T09:01:21.222118+00:00",
   "signal": {
-    "price": 1.2746,
+    "price": 1.2769,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6744,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.6453,
+    "hybrid_score": 5.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.001,
-      "bullish_pct": 26.7,
-      "bearish_pct": 41.7,
+      "score": 0.029,
+      "bullish_pct": 31.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.07,
-        "crypto_macro": 0.296,
-        "geopolitical": -0.569,
-        "fed_rates": -0.065
+        "xrp": 0.096,
+        "crypto_macro": 0.311,
+        "geopolitical": -0.547,
+        "fed_rates": 0.015
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin surges past $80,000 as crypto rally gathers pace - CNBC",
         "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond"
+        "Bitcoin surges past $80,000 as crypto rally gathers pace - CNBC",
+        "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga"
       ],
       "top_bearish": [
+        "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment? - The Motley Fool",
-        "Trump announces tariffs on Canadian vehicles, steel in escalation of trade war - The Washington Post",
-        "Trump readies new tariff to punish China for flood of cheap exports\u2014without risking his trade truce - Fortune"
+        "Trump announces tariffs on Canadian vehicles, steel in escalation of trade war - The Washington Post"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.93,
-      "health": -0.004,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.95,
+      "health": 0.0063,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.29279,
-      "ema200": 1.28743,
-      "macd": -0.006035,
-      "macd_signal": -0.004398,
-      "rsi14": 26.6,
-      "atr14": 0.00464,
-      "atr14_hourly": 0.02011,
-      "bb_position": 0.047
+      "ema50": 1.28732,
+      "ema200": 1.28642,
+      "macd": -0.003833,
+      "macd_signal": -0.00428,
+      "rsi14": 38.0,
+      "atr14": 0.0036,
+      "atr14_hourly": 0.02027,
+      "bb_position": 0.356
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.88,
+      "percentile": 0.879,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -1.44%",
-    "portfolio_eur": 5016.15,
-    "total_pnl_pct": 0.323,
+    "reason": "HOLD LONG: P&L -1.26%",
+    "portfolio_eur": 5018.38,
+    "total_pnl_pct": 0.368,
     "position": "LONG",
     "xrp_held": 973.2276,
     "cash_eur": 3775.67,
     "trade_count": 67,
     "draw_levels": {
       "entry": 1.2931789500000002,
-      "take_profit": 1.34419,
-      "stop_loss": 1.26257,
-      "trailing_stop": 1.26295
+      "take_profit": 1.3445,
+      "stop_loss": 1.26239,
+      "trailing_stop": 1.2627
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176659
+  "data_bars": 176671
 }
