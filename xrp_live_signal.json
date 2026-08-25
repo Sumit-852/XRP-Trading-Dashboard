@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-25T13:01:23.752562+00:00",
+  "timestamp": "2026-08-25T14:01:28.756931+00:00",
   "signal": {
-    "price": 1.2648,
+    "price": 1.2467,
     "xgb_pred": "UP",
-    "xgb_prob": 0.662,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.7038,
+    "hybrid_score": 6.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.078,
-      "bullish_pct": 36.7,
-      "bearish_pct": 33.3,
+      "score": 0.028,
+      "bullish_pct": 31.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.144,
-        "crypto_macro": 0.286,
-        "geopolitical": -0.338,
+        "xrp": 0.098,
+        "crypto_macro": 0.277,
+        "geopolitical": -0.502,
         "fed_rates": 0.015
       },
       "geo_shock": true,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin price extends gains, briefly tops $80,000 overnight, as crypto rally gathers pace - CNBC",
-        "XRP Builds Momentum Toward $2 as Active Addresses Surge 654% - Benzinga",
-        "Bitcoin price extends gains, briefly tops $80,000 overnight, as crypto rally gathers pace - CNBC"
+        "Bitcoin price extends gains, briefly tops $80,000 overnight, as crypto rally gathers pace - CNBC",
+        "1 Popular Cryptocurrency to Buy Before It Surges by 920%, According to Cathie Wood's Ark Invest - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "\u2018Whatever It Takes\u2019\u2014Market Sent Shock \u2018Fear Of God\u2019 Warning As Crypto Traders Brace For Massive Bitcoin Price Boom - For",
-        "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool"
+        "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - AP News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.01,
-      "health": 0.0505,
-      "vol_ratio": 0.24
+      "health": 0.0444,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 1.27109,
-      "ema200": 1.28012,
-      "macd": -0.002275,
-      "macd_signal": -0.002406,
-      "rsi14": 44.4,
-      "atr14": 0.00417,
-      "atr14_hourly": 0.01515,
-      "bb_position": 0.372
+      "ema50": 1.26254,
+      "ema200": 1.27659,
+      "macd": -0.005667,
+      "macd_signal": -0.005259,
+      "rsi14": 40.7,
+      "atr14": 0.00649,
+      "atr14_hourly": 0.02128,
+      "bb_position": 0.256
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.866,
+      "percentile": 0.875,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176719
+  "data_bars": 176731
 }
