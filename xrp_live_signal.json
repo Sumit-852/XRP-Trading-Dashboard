@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-25T05:01:20.192105+00:00",
+  "timestamp": "2026-08-25T06:01:18.616708+00:00",
   "signal": {
-    "price": 1.2986,
+    "price": 1.3041,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6788,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.6978,
+    "hybrid_score": 6.2,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.056,
-      "bullish_pct": 35.0,
-      "bearish_pct": 40.0,
+      "score": 0.031,
+      "bullish_pct": 31.7,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.181,
-        "crypto_macro": 0.321,
-        "geopolitical": -0.552,
-        "fed_rates": -0.027
+        "xrp": 0.15,
+        "crypto_macro": 0.274,
+        "geopolitical": -0.526,
+        "fed_rates": -0.057
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga",
-        "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
+        "Bitcoin surges past $80,000 as crypto rally gathers pace - CNBC",
         "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
-        "Trump readies new tariff to punish China for flood of cheap exports\u2014without risking his trade truce - Fortune"
+        "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": 0.0853,
-      "vol_ratio": 0.04
+      "up_down_ratio": 0.98,
+      "health": 0.0208,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.29639,
-      "ema200": 1.28431,
-      "macd": -0.001428,
-      "macd_signal": -0.001273,
-      "rsi14": 49.9,
-      "atr14": 0.00541,
-      "atr14_hourly": 0.02037,
-      "bb_position": 0.492
+      "ema50": 1.30006,
+      "ema200": 1.28678,
+      "macd": 0.001511,
+      "macd_signal": 0.001354,
+      "rsi14": 51.7,
+      "atr14": 0.0044,
+      "atr14_hourly": 0.01774,
+      "bb_position": 0.6
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.896,
+      "percentile": 0.89,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.42%",
-    "portfolio_eur": 5039.5,
-    "total_pnl_pct": 0.79,
+    "reason": "HOLD LONG: P&L +0.84%",
+    "portfolio_eur": 5044.86,
+    "total_pnl_pct": 0.897,
     "position": "LONG",
     "xrp_held": 973.2276,
     "cash_eur": 3775.67,
     "trade_count": 67,
     "draw_levels": {
       "entry": 1.2931789500000002,
-      "take_profit": 1.34389,
-      "stop_loss": 1.26275,
-      "trailing_stop": 1.26261
+      "take_profit": 1.33716,
+      "stop_loss": 1.26679,
+      "trailing_stop": 1.26862
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176623
+  "data_bars": 176635
 }
