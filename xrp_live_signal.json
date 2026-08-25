@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-25T00:01:17.635557+00:00",
+  "timestamp": "2026-08-25T01:01:17.151864+00:00",
   "signal": {
-    "price": 1.2699,
+    "price": 1.294,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5942,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.6787,
+    "hybrid_score": 6.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.0,
-      "bullish_pct": 33.3,
+      "score": -0.036,
+      "bullish_pct": 30.0,
       "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.063,
-        "crypto_macro": 0.268,
-        "geopolitical": -0.532,
+        "xrp": 0.033,
+        "crypto_macro": 0.206,
+        "geopolitical": -0.566,
         "fed_rates": -0.027
       },
       "geo_shock": true,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Zcash soars to eight-year high amid crypto rally, and hopes of an ETF approval - Fortune",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond",
-        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate"
+        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate",
+        "Wall Street Is Moving Into Altcoins: Why XRP, Solana and HYPE Are Winning - Bitcoin Foundation"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": 0.0825,
-      "vol_ratio": 0.24
+      "up_down_ratio": 0.95,
+      "health": 0.1476,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 1.26902,
-      "ema200": 1.27346,
-      "macd": 0.00017,
-      "macd_signal": -0.000178,
-      "rsi14": 52.6,
-      "atr14": 0.00425,
-      "atr14_hourly": 0.01329,
-      "bb_position": 0.7
+      "ema50": 1.27408,
+      "ema200": 1.27434,
+      "macd": 0.006283,
+      "macd_signal": 0.003749,
+      "rsi14": 69.9,
+      "atr14": 0.00596,
+      "atr14_hourly": 0.02015,
+      "bb_position": 0.936
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.892,
+      "percentile": 0.888,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176563
+  "data_bars": 176575
 }
