@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-08-25T15:01:18.757906+00:00",
+  "timestamp": "2026-08-25T16:01:31.167540+00:00",
   "signal": {
-    "price": 1.262,
+    "price": 1.2669,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6485,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.6233,
+    "hybrid_score": 7.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": 0.08,
+      "bullish_pct": 36.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.146,
-        "crypto_macro": 0.196,
-        "geopolitical": -0.451,
-        "fed_rates": 0.015
+        "xrp": 0.272,
+        "crypto_macro": 0.201,
+        "geopolitical": -0.466,
+        "fed_rates": 0.04
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin price extends gains, briefly tops $80,000 overnight, as crypto rally gathers pace - CNBC",
-        "Bitcoin price extends gains, briefly tops $80,000 overnight, as crypto rally gathers pace - CNBC",
+        "Is XRP Bullish Again, or Is This a Relief Rally Before One More Flush? - 24/7 Wall St.",
+        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond"
       ],
       "top_bearish": [
-        "XRP Ripple Faces $386M Liquidation Shock - TradingView",
-        "\u2018Whatever It Takes\u2019\u2014Market Sent Shock \u2018Fear Of God\u2019 Warning As Crypto Traders Brace For Massive Bitcoin Price Boom - For",
-        "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread - AP News"
+        "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews",
+        "Canada strikes back at U.S. with retaliatory tariffs as trade war escalates - MPR News",
+        "China denounces US threat of sanctions over trade with Iran - The Guardian"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": 0.0813,
-      "vol_ratio": 0.33
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.18,
+      "health": 0.1681,
+      "vol_ratio": 0.56
     },
     "technicals": {
-      "ema50": 1.26151,
-      "ema200": 1.27466,
-      "macd": 0.00102,
-      "macd_signal": -0.000611,
-      "rsi14": 54.1,
-      "atr14": 0.00601,
-      "atr14_hourly": 0.02372,
-      "bb_position": 0.748
+      "ema50": 1.26162,
+      "ema200": 1.27318,
+      "macd": 0.001713,
+      "macd_signal": 0.001025,
+      "rsi14": 59.4,
+      "atr14": 0.00487,
+      "atr14_hourly": 0.01736,
+      "bb_position": 1.017
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.862,
+      "percentile": 0.857,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176743
+  "data_bars": 176755
 }
