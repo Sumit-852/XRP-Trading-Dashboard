@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-25T10:01:18.391268+00:00",
+  "timestamp": "2026-08-25T11:01:25.644943+00:00",
   "signal": {
-    "price": 1.2678,
+    "price": 1.2729,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6875,
-    "hybrid_score": 6.1,
-    "regime": "BEARISH",
+    "xgb_prob": 0.647,
+    "hybrid_score": 5.9,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.029,
-      "bullish_pct": 33.3,
+      "score": -0.016,
+      "bullish_pct": 26.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.119,
-        "crypto_macro": 0.28,
-        "geopolitical": -0.541,
-        "fed_rates": 0.015
+        "xrp": 0.044,
+        "crypto_macro": 0.219,
+        "geopolitical": -0.518,
+        "fed_rates": -0.011
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,80 +30,75 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin price extends gains as crypto rally gathers pace - CNBC",
         "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga",
-        "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
-        "Bitcoin price extends gains as crypto rally gathers pace - CNBC"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond"
       ],
       "top_bearish": [
-        "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews",
+        "\u2018Whatever It Takes\u2019\u2014Market Sent Shock \u2018Fear Of God\u2019 Warning As Crypto Traders Brace For Massive Bitcoin Price Boom - For",
         "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": -0.0268,
-      "vol_ratio": 0.05
+      "up_down_ratio": 0.95,
+      "health": -0.0247,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.28291,
-      "ema200": 1.28525,
-      "macd": -0.003484,
-      "macd_signal": -0.002781,
-      "rsi14": 33.1,
-      "atr14": 0.00411,
-      "atr14_hourly": 0.01634,
-      "bb_position": -0.007
+      "ema50": 1.27844,
+      "ema200": 1.28365,
+      "macd": -0.00193,
+      "macd_signal": -0.002696,
+      "rsi14": 46.2,
+      "atr14": 0.00294,
+      "atr14_hourly": 0.01697,
+      "bb_position": 0.509
     },
     "trade_feedback": {
-      "loss_streak": 1,
-      "recent_win_rate": 0.375,
+      "loss_streak": 2,
+      "recent_win_rate": 0.25,
       "entry_prob_adjusted": 0.6,
       "adapted_sl_mult": 1.5,
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.882,
+      "percentile": 0.878,
       "extreme": false
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "STOP_LOSS: -1.96%",
+    "action": "HOLD",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 5007.92,
     "total_pnl_pct": 0.158,
     "position": "CASH",
     "xrp_held": 0.0,
     "cash_eur": 5007.92,
     "trade_count": 68,
-    "draw_levels": {
-      "entry": 1.2931789500000002,
-      "take_profit": 1.33485,
-      "stop_loss": 1.26818,
-      "trailing_stop": 1.27048
-    }
+    "draw_levels": {}
   },
   "trade_feedback": {
-    "overall_win_rate": 0.424,
-    "recent_win_rate": 0.375,
+    "overall_win_rate": 0.412,
+    "recent_win_rate": 0.25,
     "avg_win_pct": 1.657,
-    "avg_loss_pct": -0.585,
-    "loss_streak": 1,
+    "avg_loss_pct": -0.654,
+    "loss_streak": 2,
     "win_streak": 0,
     "total_wins": 14,
-    "total_losses": 19,
+    "total_losses": 20,
     "loss_reasons": {
       "MODEL_SELL": 17,
-      "STOP_LOSS": 2
+      "STOP_LOSS": 3
     },
-    "sl_loss_ratio": 0.105,
-    "model_loss_ratio": 0.895,
+    "sl_loss_ratio": 0.15,
+    "model_loss_ratio": 0.85,
     "adapted_sl_mult": 1.5,
     "adapted_tp_mult": 2.5,
     "score_adjustment": 0,
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176683
+  "data_bars": 176695
 }
