@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-25T20:01:20.240151+00:00",
+  "timestamp": "2026-08-25T21:01:32.139796+00:00",
   "signal": {
-    "price": 1.2577,
+    "price": 1.2366,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6067,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.6889,
+    "hybrid_score": 6.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.014,
+      "score": 0.012,
       "bullish_pct": 31.7,
-      "bearish_pct": 38.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.128,
-        "crypto_macro": 0.179,
-        "geopolitical": -0.474,
-        "fed_rates": 0.005
+        "xrp": 0.16,
+        "crypto_macro": 0.081,
+        "geopolitical": -0.393,
+        "fed_rates": 0.013
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond",
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
-        "Crypto extends gains after biggest 3-day rally since 2023 - CNBC"
+        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.12,
-      "health": 0.0203,
-      "vol_ratio": 1.08
+      "up_down_ratio": 0.91,
+      "health": -0.2141,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 1.26157,
-      "ema200": 1.26883,
-      "macd": -0.001445,
-      "macd_signal": -0.000831,
-      "rsi14": 43.4,
-      "atr14": 0.00339,
-      "atr14_hourly": 0.01144,
-      "bb_position": 0.227
+      "ema50": 1.25439,
+      "ema200": 1.26593,
+      "macd": -0.006238,
+      "macd_signal": -0.004888,
+      "rsi14": 28.1,
+      "atr14": 0.00444,
+      "atr14_hourly": 0.01728,
+      "bb_position": 0.113
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.793,
+      "percentile": 0.808,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176803
+  "data_bars": 176815
 }
