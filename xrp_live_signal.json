@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-25T17:01:30.479779+00:00",
+  "timestamp": "2026-08-25T18:01:19.186647+00:00",
   "signal": {
-    "price": 1.261,
+    "price": 1.2654,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6149,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.5841,
+    "hybrid_score": 5.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.072,
-      "bullish_pct": 35.0,
+      "score": 0.077,
+      "bullish_pct": 33.3,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.256,
-        "crypto_macro": 0.18,
-        "geopolitical": -0.401,
-        "fed_rates": -0.011
+        "xrp": 0.283,
+        "crypto_macro": 0.159,
+        "geopolitical": -0.371,
+        "fed_rates": -0.042
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
         "Is XRP Bullish Again, or Is This a Relief Rally Before One More Flush? - 24/7 Wall St.",
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC"
+        "1 Popular Cryptocurrency to Buy Before It Surges by 920%, According to Cathie Wood's Ark Invest - Yahoo Finance"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": 0.0139,
+      "up_down_ratio": 1.09,
+      "health": 0.0633,
       "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.26185,
-      "ema200": 1.27194,
-      "macd": 0.000667,
-      "macd_signal": 0.000897,
-      "rsi14": 49.0,
-      "atr14": 0.00417,
-      "atr14_hourly": 0.01542,
-      "bb_position": 0.367
+      "ema50": 1.26114,
+      "ema200": 1.27054,
+      "macd": 0.000734,
+      "macd_signal": -3e-05,
+      "rsi14": 57.6,
+      "atr14": 0.00396,
+      "atr14_hourly": 0.0143,
+      "bb_position": 0.828
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.848,
+      "percentile": 0.83,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176767
+  "data_bars": 176779
 }
