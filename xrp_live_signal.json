@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-25T06:01:18.616708+00:00",
+  "timestamp": "2026-08-25T07:01:24.083292+00:00",
   "signal": {
-    "price": 1.3041,
+    "price": 1.2909,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6978,
-    "hybrid_score": 6.2,
+    "xgb_prob": 0.7266,
+    "hybrid_score": 6.4,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 31.7,
-      "bearish_pct": 43.3,
+      "score": 0.034,
+      "bullish_pct": 30.0,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.15,
-        "crypto_macro": 0.274,
-        "geopolitical": -0.526,
-        "fed_rates": -0.057
+        "xrp": 0.14,
+        "crypto_macro": 0.326,
+        "geopolitical": -0.563,
+        "fed_rates": -0.071
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga",
         "Bitcoin surges past $80,000 as crypto rally gathers pace - CNBC",
-        "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga"
+        "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond"
       ],
       "top_bearish": [
-        "XRP Ripple Faces $386M Liquidation Shock - TradingView",
-        "XRP Erases Its Most Bearish Signal\u2014And the Ripple-Linked Coin Is Flying - Decrypt",
-        "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment? - The Motley Fool"
+        "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment? - The Motley Fool",
+        "Trump readies new tariff to punish China for flood of cheap exports\u2014without risking his trade truce - Fortune",
+        "Tariffs update: US-Canada trade war escalates, small businesses brace for higher prices - 6abc Philadelphia"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.98,
-      "health": 0.0208,
-      "vol_ratio": 0.03
+      "health": 0.0292,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.30006,
-      "ema200": 1.28678,
-      "macd": 0.001511,
-      "macd_signal": 0.001354,
-      "rsi14": 51.7,
-      "atr14": 0.0044,
-      "atr14_hourly": 0.01774,
-      "bb_position": 0.6
+      "ema50": 1.29802,
+      "ema200": 1.28773,
+      "macd": -0.003256,
+      "macd_signal": -0.001794,
+      "rsi14": 37.5,
+      "atr14": 0.00377,
+      "atr14_hourly": 0.0169,
+      "bb_position": 0.185
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.89,
+      "percentile": 0.883,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.84%",
-    "portfolio_eur": 5044.86,
-    "total_pnl_pct": 0.897,
+    "reason": "HOLD LONG: P&L -0.18%",
+    "portfolio_eur": 5032.01,
+    "total_pnl_pct": 0.64,
     "position": "LONG",
     "xrp_held": 973.2276,
     "cash_eur": 3775.67,
     "trade_count": 67,
     "draw_levels": {
       "entry": 1.2931789500000002,
-      "take_profit": 1.33716,
-      "stop_loss": 1.26679,
-      "trailing_stop": 1.26862
+      "take_profit": 1.3355,
+      "stop_loss": 1.26778,
+      "trailing_stop": 1.26995
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176635
+  "data_bars": 176647
 }
