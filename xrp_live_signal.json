@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-25T09:01:21.222118+00:00",
+  "timestamp": "2026-08-25T10:01:18.391268+00:00",
   "signal": {
-    "price": 1.2769,
+    "price": 1.2678,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6453,
-    "hybrid_score": 5.9,
-    "regime": "BULLISH",
+    "xgb_prob": 0.6875,
+    "hybrid_score": 6.1,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.029,
-      "bullish_pct": 31.7,
+      "bullish_pct": 33.3,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.096,
-        "crypto_macro": 0.311,
-        "geopolitical": -0.547,
+        "xrp": 0.119,
+        "crypto_macro": 0.28,
+        "geopolitical": -0.541,
         "fed_rates": 0.015
       },
       "geo_shock": true,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga",
-        "Bitcoin surges past $80,000 as crypto rally gathers pace - CNBC",
-        "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst - Benzinga"
+        "Bitcoin, Ethereum, and XRP Surge as Trump Fuels a Crypto Rally - Barron's",
+        "Bitcoin price extends gains as crypto rally gathers pace - CNBC"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
-        "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment? - The Motley Fool",
-        "Trump announces tariffs on Canadian vehicles, steel in escalation of trade war - The Washington Post"
+        "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews",
+        "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.95,
-      "health": 0.0063,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.98,
+      "health": -0.0268,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.28732,
-      "ema200": 1.28642,
-      "macd": -0.003833,
-      "macd_signal": -0.00428,
-      "rsi14": 38.0,
-      "atr14": 0.0036,
-      "atr14_hourly": 0.02027,
-      "bb_position": 0.356
+      "ema50": 1.28291,
+      "ema200": 1.28525,
+      "macd": -0.003484,
+      "macd_signal": -0.002781,
+      "rsi14": 33.1,
+      "atr14": 0.00411,
+      "atr14_hourly": 0.01634,
+      "bb_position": -0.007
     },
     "trade_feedback": {
       "loss_streak": 1,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.879,
+      "percentile": 0.882,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L -1.26%",
-    "portfolio_eur": 5018.38,
-    "total_pnl_pct": 0.368,
-    "position": "LONG",
-    "xrp_held": 973.2276,
-    "cash_eur": 3775.67,
-    "trade_count": 67,
+    "action": "SELL",
+    "reason": "STOP_LOSS: -1.96%",
+    "portfolio_eur": 5007.92,
+    "total_pnl_pct": 0.158,
+    "position": "CASH",
+    "xrp_held": 0.0,
+    "cash_eur": 5007.92,
+    "trade_count": 68,
     "draw_levels": {
       "entry": 1.2931789500000002,
-      "take_profit": 1.3445,
-      "stop_loss": 1.26239,
-      "trailing_stop": 1.2627
+      "take_profit": 1.33485,
+      "stop_loss": 1.26818,
+      "trailing_stop": 1.27048
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176671
+  "data_bars": 176683
 }
