@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-26T16:01:21.628062+00:00",
+  "timestamp": "2026-08-26T17:01:24.460780+00:00",
   "signal": {
-    "price": 1.1782,
+    "price": 1.1818,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6553,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.6095,
+    "hybrid_score": 5.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -12,14 +12,14 @@
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.052,
-      "bullish_pct": 33.3,
-      "bearish_pct": 35.0,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.289,
-        "crypto_macro": 0.053,
-        "geopolitical": -0.407,
-        "fed_rates": 0.034
+        "xrp": 0.192,
+        "crypto_macro": 0.128,
+        "geopolitical": -0.362,
+        "fed_rates": 0.065
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
       ],
       "top_bearish": [
+        "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "Liquidations hit highest level since Oct. 10 crypto market crash - thestreet.com",
-        "Canada strikes back at US with retaliatory tariffs as trade war escalates - AP News",
-        "Republicans were already nervous about November. Then Trump restarted his trade war. - Politico"
+        "Canada strikes back at US with retaliatory tariffs as trade war escalates - AP News"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.6,
-      "health": -0.5351,
-      "vol_ratio": 0.07
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.62,
+      "health": -0.3478,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 1.19046,
-      "ema200": 1.21644,
-      "macd": -0.004041,
-      "macd_signal": -0.005248,
-      "rsi14": 44.4,
-      "atr14": 0.00569,
-      "atr14_hourly": 0.02349,
-      "bb_position": 0.497
+      "ema50": 1.18644,
+      "ema200": 1.21231,
+      "macd": -0.001176,
+      "macd_signal": -0.002094,
+      "rsi14": 51.0,
+      "atr14": 0.0052,
+      "atr14_hourly": 0.01651,
+      "bb_position": 0.774
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.842,
+      "percentile": 0.844,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177043
+  "data_bars": 177055
 }
