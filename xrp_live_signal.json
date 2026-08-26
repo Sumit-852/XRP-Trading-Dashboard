@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-26T04:01:13.723486+00:00",
+  "timestamp": "2026-08-26T05:01:24.341620+00:00",
   "signal": {
-    "price": 1.2327,
+    "price": 1.229,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5776,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.6175,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
-      "bullish_pct": 28.3,
+      "score": -0.022,
+      "bullish_pct": 26.7,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.081,
-        "crypto_macro": 0.123,
-        "geopolitical": -0.333,
-        "fed_rates": 0.027
+        "crypto_macro": 0.035,
+        "geopolitical": -0.341,
+        "fed_rates": 0.005
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "1 Popular Cryptocurrency to Buy Before It Surges by 920%, According to Cathie Wood's Ark Invest - Yahoo Finance",
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
-        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate"
+        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate",
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews",
-        "After Exploding by 18% in One Day, Is XRP a Buy? - The Motley Fool"
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.65,
-      "health": -0.1016,
+      "up_down_ratio": 0.66,
+      "health": -0.102,
       "vol_ratio": 0.19
     },
     "technicals": {
       "ema50": 1.23445,
-      "ema200": 1.24726,
-      "macd": -0.000502,
-      "macd_signal": -0.000135,
-      "rsi14": 47.1,
-      "atr14": 0.00293,
-      "atr14_hourly": 0.0111,
-      "bb_position": 0.285
+      "ema200": 1.24583,
+      "macd": -0.000568,
+      "macd_signal": 8e-06,
+      "rsi14": 41.8,
+      "atr14": 0.00378,
+      "atr14_hourly": 0.01051,
+      "bb_position": 0.06
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.808,
+      "percentile": 0.812,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176899
+  "data_bars": 176911
 }
