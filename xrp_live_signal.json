@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-26T08:01:26.553002+00:00",
+  "timestamp": "2026-08-26T09:01:16.641487+00:00",
   "signal": {
-    "price": 1.2288,
+    "price": 1.2242,
     "xgb_pred": "UP",
-    "xgb_prob": 0.577,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.6108,
+    "hybrid_score": 5.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.022,
+      "score": -0.025,
       "bullish_pct": 26.7,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.045,
-        "crypto_macro": 0.03,
-        "geopolitical": -0.281,
-        "fed_rates": 0.03
+        "xrp": 0.069,
+        "crypto_macro": -0.019,
+        "geopolitical": -0.292,
+        "fed_rates": 0.06
       },
       "geo_shock": false,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
         "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
-        "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews"
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Yahoo Finance"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.66,
-      "health": -0.0146,
-      "vol_ratio": 0.29
+      "up_down_ratio": 0.74,
+      "health": 0.1389,
+      "vol_ratio": 2.45
     },
     "technicals": {
-      "ema50": 1.23229,
-      "ema200": 1.24162,
-      "macd": -0.000998,
-      "macd_signal": -0.000768,
-      "rsi14": 43.8,
-      "atr14": 0.00307,
-      "atr14_hourly": 0.01131,
-      "bb_position": 0.176
+      "ema50": 1.23061,
+      "ema200": 1.24009,
+      "macd": -0.001752,
+      "macd_signal": -0.001162,
+      "rsi14": 39.4,
+      "atr14": 0.0032,
+      "atr14_hourly": 0.01078,
+      "bb_position": 0.061
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.801,
+      "percentile": 0.804,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176947
+  "data_bars": 176959
 }
