@@ -1,24 +1,25 @@
 {
-  "timestamp": "2026-08-26T18:01:35.654959+00:00",
+  "timestamp": "2026-08-26T19:01:18.830287+00:00",
   "signal": {
-    "price": 1.1866,
+    "price": 1.1888,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6471,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.5663,
+    "hybrid_score": 5.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.033,
-      "bullish_pct": 28.9,
-      "bearish_pct": 35.6,
-      "headlines_analyzed": 45,
+      "score": 0.079,
+      "bullish_pct": 33.3,
+      "bearish_pct": 30.0,
+      "headlines_analyzed": 60,
       "feed_scores": {
+        "xrp": 0.292,
         "crypto_macro": 0.128,
-        "geopolitical": -0.384,
-        "fed_rates": 0.082
+        "geopolitical": -0.369,
+        "fed_rates": 0.007
       },
       "geo_shock": true,
       "geo_dip": {
@@ -29,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
         "Trump Pushes CLARITY Act as Bitcoin Surges: Is Crypto Finally Getting the Rules It Needs? - Bitcoin Foundation",
-        "Crypto extends gains after biggest 3-day rally since 2023 - CNBC",
-        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk"
+        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
       ],
       "top_bearish": [
         "Liquidations hit highest level since Oct. 10 crypto market crash - thestreet.com",
         "Sen. King says escalating trade war could 'devastate' Maine's lobster industry - WGME",
-        "Virginia farmers sound alarm over US-Canada trade war - DC News Now"
+        "XRP Ripple Ledger Gets Busier Without Attracting New Users - TradingView"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.66,
-      "health": -0.0586,
-      "vol_ratio": 0.38
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.65,
+      "health": 0.012,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.18799,
-      "ema200": 1.20984,
-      "macd": 0.002302,
-      "macd_signal": 0.002129,
-      "rsi14": 49.9,
-      "atr14": 0.0048,
-      "atr14_hourly": 0.01835,
-      "bb_position": 0.52
+      "ema50": 1.18769,
+      "ema200": 1.20729,
+      "macd": 0.000352,
+      "macd_signal": 0.000695,
+      "rsi14": 53.9,
+      "atr14": 0.00379,
+      "atr14_hourly": 0.01403,
+      "bb_position": 0.466
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -63,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.848,
+      "percentile": 0.845,
       "extreme": false
     }
   },
@@ -99,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177067
+  "data_bars": 177079
 }
