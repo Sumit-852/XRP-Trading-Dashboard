@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-26T12:01:25.664797+00:00",
+  "timestamp": "2026-08-26T13:01:20.311526+00:00",
   "signal": {
-    "price": 1.211,
+    "price": 1.2103,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6882,
-    "hybrid_score": 6.2,
+    "xgb_prob": 0.6491,
+    "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 35.0,
-      "bearish_pct": 35.0,
+      "score": 0.054,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.122,
-        "crypto_macro": 0.105,
-        "geopolitical": -0.317,
-        "fed_rates": 0.089
+        "xrp": 0.268,
+        "crypto_macro": 0.048,
+        "geopolitical": -0.346,
+        "fed_rates": 0.032
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
       ],
       "top_bearish": [
-        "XRP Ripple Faces $386M Liquidation Shock - TradingView",
-        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
-        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Yahoo Finance"
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Yahoo Finance",
+        "Liquidations hit highest level since Oct. 10 crypto market crash - thestreet.com",
+        "Canada strikes back at US with retaliatory tariffs as trade war escalates - AP News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.78,
-      "health": 0.1338,
-      "vol_ratio": 0.3
+      "up_down_ratio": 0.71,
+      "health": 0.09,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 1.21893,
-      "ema200": 1.23268,
-      "macd": -0.002534,
-      "macd_signal": -0.001791,
-      "rsi14": 42.8,
-      "atr14": 0.00419,
-      "atr14_hourly": 0.02124,
-      "bb_position": 0.261
+      "ema50": 1.21592,
+      "ema200": 1.23024,
+      "macd": -0.00189,
+      "macd_signal": -0.001876,
+      "rsi14": 45.6,
+      "atr14": 0.00508,
+      "atr14_hourly": 0.02153,
+      "bb_position": 0.44
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.82,
+      "percentile": 0.826,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176995
+  "data_bars": 177007
 }
