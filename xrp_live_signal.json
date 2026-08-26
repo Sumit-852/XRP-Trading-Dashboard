@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-26T20:01:18.955890+00:00",
+  "timestamp": "2026-08-26T21:01:21.261165+00:00",
   "signal": {
-    "price": 1.1812,
+    "price": 1.185,
     "xgb_pred": "UP",
-    "xgb_prob": 0.648,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.5744,
+    "hybrid_score": 5.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.063,
-      "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "score": 0.053,
+      "bullish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.23,
-        "crypto_macro": 0.17,
-        "geopolitical": -0.414,
-        "fed_rates": 0.03
+        "xrp": 0.17,
+        "crypto_macro": 0.159,
+        "geopolitical": -0.312,
+        "fed_rates": 0.008
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
-        "Trump Pushes CLARITY Act as Bitcoin Surges: Is Crypto Finally Getting the Rules It Needs? - Bitcoin Foundation",
-        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
+        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
+        "Crypto extends gains after biggest 3-day rally since 2023 - CNBC"
       ],
       "top_bearish": [
+        "XRP Dropped Below $1 For the First Time Since 2024. But I'm Still Avoiding XRP Right Now. - The Motley Fool",
         "Liquidations hit highest level since Oct. 10 crypto market crash - thestreet.com",
-        "XRP Dropped Below $1 For the First Time Since 2024. But I'm Still Avoiding XRP Right Now. - Yahoo Finance",
-        "Targeting lobster: Maine lobstermen fear they will become \"collateral damage\" of trade war with Canada - WMTW"
+        "XRP Dropped Below $1 For the First Time Since 2024. But I'm Still Avoiding XRP Right Now. - Yahoo Finance"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.62,
-      "health": 0.1162,
-      "vol_ratio": 0.16
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.6,
+      "health": -0.0044,
+      "vol_ratio": 4.35
     },
     "technicals": {
-      "ema50": 1.18667,
-      "ema200": 1.20478,
-      "macd": -0.000825,
-      "macd_signal": -0.000278,
-      "rsi14": 40.2,
-      "atr14": 0.00359,
-      "atr14_hourly": 0.01089,
-      "bb_position": -0.055
+      "ema50": 1.18442,
+      "ema200": 1.20205,
+      "macd": -0.000976,
+      "macd_signal": -0.001474,
+      "rsi14": 54.3,
+      "atr14": 0.00343,
+      "atr14_hourly": 0.01391,
+      "bb_position": 0.679
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.835,
+      "percentile": 0.833,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177091
+  "data_bars": 177103
 }
