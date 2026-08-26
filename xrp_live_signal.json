@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-26T13:01:20.311526+00:00",
+  "timestamp": "2026-08-26T14:01:19.768746+00:00",
   "signal": {
-    "price": 1.2103,
+    "price": 1.1951,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6491,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.6787,
+    "hybrid_score": 6.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.054,
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "score": 0.063,
+      "bullish_pct": 28.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.268,
-        "crypto_macro": 0.048,
-        "geopolitical": -0.346,
-        "fed_rates": 0.032
+        "crypto_macro": 0.099,
+        "geopolitical": -0.302,
+        "fed_rates": -0.062
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
         "Trump Pushes CLARITY Act as Bitcoin Surges: Is Crypto Finally Getting the Rules It Needs? - Bitcoin Foundation",
-        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
+        "These 3 Companies Are Helping to Take Crypto Mainstream. Which Is the Best Crypto Stock to Buy Right Now? - Yahoo Financ"
       ],
       "top_bearish": [
-        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Yahoo Finance",
         "Liquidations hit highest level since Oct. 10 crypto market crash - thestreet.com",
-        "Canada strikes back at US with retaliatory tariffs as trade war escalates - AP News"
+        "Canada strikes back at US with retaliatory tariffs as trade war escalates - AP News",
+        "Crypto Market Today, Aug. 25: Bitcoins Rebound Above $80,000 -- Has it Finally Bottomed? - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.71,
-      "health": 0.09,
-      "vol_ratio": 0.25
+      "up_down_ratio": 0.63,
+      "health": -0.2503,
+      "vol_ratio": 0.33
     },
     "technicals": {
-      "ema50": 1.21592,
-      "ema200": 1.23024,
-      "macd": -0.00189,
-      "macd_signal": -0.001876,
-      "rsi14": 45.6,
-      "atr14": 0.00508,
-      "atr14_hourly": 0.02153,
-      "bb_position": 0.44
+      "ema50": 1.20743,
+      "ema200": 1.22609,
+      "macd": -0.004868,
+      "macd_signal": -0.005156,
+      "rsi14": 42.1,
+      "atr14": 0.00624,
+      "atr14_hourly": 0.02696,
+      "bb_position": 0.357
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.826,
+      "percentile": 0.815,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177007
+  "data_bars": 177019
 }
