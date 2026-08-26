@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-26T11:01:16.830096+00:00",
+  "timestamp": "2026-08-26T12:01:25.664797+00:00",
   "signal": {
-    "price": 1.2255,
+    "price": 1.211,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5755,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.6882,
+    "hybrid_score": 6.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.018,
-      "bullish_pct": 26.7,
-      "bearish_pct": 36.7,
+      "score": 0.031,
+      "bullish_pct": 35.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.122,
-        "crypto_macro": -0.044,
-        "geopolitical": -0.297,
-        "fed_rates": 0.035
+        "crypto_macro": 0.105,
+        "geopolitical": -0.317,
+        "fed_rates": 0.089
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
-        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
-        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate"
+        "Trump Pushes CLARITY Act as Bitcoin Surges: Is Crypto Finally Getting the Rules It Needs? - Bitcoin Foundation",
+        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": 0.2166,
-      "vol_ratio": 0.1
+      "up_down_ratio": 0.78,
+      "health": 0.1338,
+      "vol_ratio": 0.3
     },
     "technicals": {
-      "ema50": 1.22256,
-      "ema200": 1.23514,
-      "macd": 0.001319,
-      "macd_signal": -0.001038,
-      "rsi14": 57.9,
-      "atr14": 0.00412,
-      "atr14_hourly": 0.01977,
-      "bb_position": 0.796
+      "ema50": 1.21893,
+      "ema200": 1.23268,
+      "macd": -0.002534,
+      "macd_signal": -0.001791,
+      "rsi14": 42.8,
+      "atr14": 0.00419,
+      "atr14_hourly": 0.02124,
+      "bb_position": 0.261
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.812,
+      "percentile": 0.82,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176983
+  "data_bars": 176995
 }
