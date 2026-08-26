@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-26T10:01:10.604629+00:00",
+  "timestamp": "2026-08-26T11:01:16.830096+00:00",
   "signal": {
-    "price": 1.2078,
+    "price": 1.2255,
     "xgb_pred": "UP",
-    "xgb_prob": 0.656,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.5755,
+    "hybrid_score": 5.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.001,
-      "bullish_pct": 28.3,
-      "bearish_pct": 33.3,
+      "score": -0.018,
+      "bullish_pct": 26.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.122,
-        "crypto_macro": 0.02,
-        "geopolitical": -0.332,
-        "fed_rates": 0.065
+        "crypto_macro": -0.044,
+        "geopolitical": -0.297,
+        "fed_rates": 0.035
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.81,
-      "health": 0.2104,
-      "vol_ratio": 0.03
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.88,
+      "health": 0.2166,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.2241,
-      "ema200": 1.23716,
-      "macd": -0.005789,
-      "macd_signal": -0.004567,
-      "rsi14": 29.0,
-      "atr14": 0.00367,
-      "atr14_hourly": 0.01588,
-      "bb_position": 0.154
+      "ema50": 1.22256,
+      "ema200": 1.23514,
+      "macd": 0.001319,
+      "macd_signal": -0.001038,
+      "rsi14": 57.9,
+      "atr14": 0.00412,
+      "atr14_hourly": 0.01977,
+      "bb_position": 0.796
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.799,
+      "percentile": 0.812,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176971
+  "data_bars": 176983
 }
