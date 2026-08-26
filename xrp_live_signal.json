@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-26T05:01:24.341620+00:00",
+  "timestamp": "2026-08-26T06:01:19.127473+00:00",
   "signal": {
-    "price": 1.229,
+    "price": 1.2374,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6175,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.5548,
+    "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.022,
-      "bullish_pct": 26.7,
-      "bearish_pct": 33.3,
+      "score": 0.001,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.081,
-        "crypto_macro": 0.035,
-        "geopolitical": -0.341,
+        "xrp": 0.089,
+        "crypto_macro": 0.068,
+        "geopolitical": -0.288,
         "fed_rates": 0.005
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP pause as momentum indicators signal overbought cond",
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
-        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate"
       ],
       "top_bearish": [
         "XRP Ripple Faces $386M Liquidation Shock - TradingView",
-        "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews",
-        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Yahoo Finance"
+        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth? - Yahoo Finance",
+        "We Told Microsoft Copilot AI to Be Brutally Realistic About XRP Predicts, This Was Its Target - Cryptonews"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.66,
-      "health": -0.102,
-      "vol_ratio": 0.19
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.71,
+      "health": -0.0232,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 1.23445,
-      "ema200": 1.24583,
-      "macd": -0.000568,
-      "macd_signal": 8e-06,
-      "rsi14": 41.8,
-      "atr14": 0.00378,
-      "atr14_hourly": 0.01051,
-      "bb_position": 0.06
+      "ema50": 1.23402,
+      "ema200": 1.24436,
+      "macd": 0.000741,
+      "macd_signal": -6.3e-05,
+      "rsi14": 55.8,
+      "atr14": 0.0038,
+      "atr14_hourly": 0.01482,
+      "bb_position": 0.738
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.812,
+      "percentile": 0.819,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 176911
+  "data_bars": 176923
 }
