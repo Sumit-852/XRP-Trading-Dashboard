@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-26T21:01:21.261165+00:00",
+  "timestamp": "2026-08-26T22:01:34.298680+00:00",
   "signal": {
-    "price": 1.185,
+    "price": 1.2041,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5744,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.5244,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.053,
-      "bullish_pct": 31.7,
-      "bearish_pct": 28.3,
+      "score": 0.071,
+      "bullish_pct": 35.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.17,
-        "crypto_macro": 0.159,
-        "geopolitical": -0.312,
-        "fed_rates": 0.008
+        "crypto_macro": 0.147,
+        "geopolitical": -0.226,
+        "fed_rates": 0.042
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
-        "Crypto extends gains after biggest 3-day rally since 2023 - CNBC"
+        "Top Three Cryptocurrencies to Watch This Week: Venice Token, Pi Network, XRP - Bitwise XRP ETF (ARCA:XRP) - Benzinga"
       ],
       "top_bearish": [
         "XRP Dropped Below $1 For the First Time Since 2024. But I'm Still Avoiding XRP Right Now. - The Motley Fool",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.6,
-      "health": -0.0044,
-      "vol_ratio": 4.35
+      "up_down_ratio": 0.61,
+      "health": -0.0095,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 1.18442,
-      "ema200": 1.20205,
-      "macd": -0.000976,
-      "macd_signal": -0.001474,
-      "rsi14": 54.3,
-      "atr14": 0.00343,
-      "atr14_hourly": 0.01391,
-      "bb_position": 0.679
+      "ema50": 1.1899,
+      "ema200": 1.20165,
+      "macd": 0.00475,
+      "macd_signal": 0.003553,
+      "rsi14": 66.6,
+      "atr14": 0.00409,
+      "atr14_hourly": 0.01913,
+      "bb_position": 0.841
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.833,
+      "percentile": 0.777,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177103
+  "data_bars": 177115
 }
