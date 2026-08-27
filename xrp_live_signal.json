@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-08-27T10:01:46.508991+00:00",
+  "timestamp": "2026-08-27T11:03:13.862090+00:00",
   "signal": {
-    "price": 1.2326,
+    "price": 1.2236,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7317,
-    "hybrid_score": 6.4,
+    "xgb_prob": 0.6483,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "NEUTRAL",
+      "score": 0.095,
+      "bullish_pct": 36.7,
+      "bearish_pct": 28.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.205,
+        "crypto_macro": 0.223,
+        "geopolitical": -0.271,
+        "fed_rates": 0.022
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
+        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000 - CoinDesk"
+      ],
+      "top_bearish": [
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
+        "China denounces US threat of sanctions over trade with Iran - The Guardian",
+        "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.94,
-      "health": 0.3064,
-      "vol_ratio": 0.17
+      "up_down_ratio": 0.99,
+      "health": 0.2949,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 1.2238,
-      "ema200": 1.21139,
-      "macd": 0.004447,
-      "macd_signal": 0.005918,
-      "rsi14": 53.3,
-      "atr14": 0.00462,
-      "atr14_hourly": 0.01927,
-      "bb_position": 0.31
+      "ema50": 1.22467,
+      "ema200": 1.21311,
+      "macd": -0.00182,
+      "macd_signal": -2.3e-05,
+      "rsi14": 44.3,
+      "atr14": 0.0048,
+      "atr14_hourly": 0.02099,
+      "bb_position": 0.257
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -51,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.798,
+      "percentile": 0.801,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.09%",
-    "portfolio_eur": 5009.04,
-    "total_pnl_pct": 0.181,
+    "reason": "HOLD LONG: P&L -0.64%",
+    "portfolio_eur": 4999.89,
+    "total_pnl_pct": -0.002,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.27963,
-      "stop_loss": 1.20262,
-      "trailing_stop": 1.19406
+      "take_profit": 1.28431,
+      "stop_loss": 1.19981,
+      "trailing_stop": 1.19031
     }
   },
   "trade_feedback": {
@@ -92,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177259
+  "data_bars": 177271
 }
