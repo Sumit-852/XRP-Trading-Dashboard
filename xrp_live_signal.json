@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-27T02:01:17.202470+00:00",
+  "timestamp": "2026-08-27T03:01:18.510983+00:00",
   "signal": {
-    "price": 1.2126,
+    "price": 1.2061,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5444,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.5135,
+    "hybrid_score": 5.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.145,
+      "score": 0.12,
       "bullish_pct": 38.3,
-      "bearish_pct": 23.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.303,
+        "xrp": 0.243,
         "crypto_macro": 0.265,
-        "geopolitical": -0.267,
-        "fed_rates": 0.025
+        "geopolitical": -0.312,
+        "fed_rates": 0.063
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Sen. King says escalating trade war could 'devastate' Maine's lobster industry - WGME",
         "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So",
-        "Wisconsin businesses brace for impact as trade war with Canada heats up - WPR"
+        "Trump calls Canada 'one of the worst countries' to deal with amid ongoing trade war - ABC News - Breaking News, Latest N"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.65,
-      "health": 0.075,
-      "vol_ratio": 0.6
+      "health": 0.0525,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.20628,
-      "ema200": 1.20457,
-      "macd": 0.00054,
-      "macd_signal": -9.3e-05,
-      "rsi14": 56.3,
-      "atr14": 0.00445,
-      "atr14_hourly": 0.01624,
-      "bb_position": 0.893
+      "ema50": 1.20663,
+      "ema200": 1.2049,
+      "macd": -0.000821,
+      "macd_signal": -0.000393,
+      "rsi14": 47.4,
+      "atr14": 0.00327,
+      "atr14_hourly": 0.01421,
+      "bb_position": 0.323
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.778,
+      "percentile": 0.781,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177163
+  "data_bars": 177175
 }
