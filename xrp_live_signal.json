@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-27T07:01:22.273258+00:00",
+  "timestamp": "2026-08-27T08:01:20.920264+00:00",
   "signal": {
-    "price": 1.2061,
+    "price": 1.2102,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5175,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5089,
+    "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.064,
-      "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "score": 0.076,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.189,
-        "crypto_macro": 0.147,
+        "xrp": 0.217,
+        "crypto_macro": 0.166,
         "geopolitical": -0.275,
-        "fed_rates": 0.006
+        "fed_rates": -0.018
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
-        "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000 - CoinDesk",
-        "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
+        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000 - CoinDesk"
       ],
       "top_bearish": [
         "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.65,
-      "health": -0.0062,
-      "vol_ratio": 0.11
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.68,
+      "health": 0.0459,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 1.20487,
-      "ema200": 1.20483,
-      "macd": 0.000389,
-      "macd_signal": 7.9e-05,
-      "rsi14": 53.8,
-      "atr14": 0.00263,
-      "atr14_hourly": 0.01183,
-      "bb_position": 0.647
+      "ema50": 1.20608,
+      "ema200": 1.20517,
+      "macd": 0.001487,
+      "macd_signal": 0.000981,
+      "rsi14": 60.2,
+      "atr14": 0.00225,
+      "atr14_hourly": 0.00881,
+      "bb_position": 0.889
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.768,
+      "percentile": 0.767,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177223
+  "data_bars": 177235
 }
