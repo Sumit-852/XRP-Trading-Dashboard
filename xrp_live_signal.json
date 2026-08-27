@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-27T06:01:17.584582+00:00",
+  "timestamp": "2026-08-27T07:01:22.273258+00:00",
   "signal": {
-    "price": 1.2073,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4901,
-    "hybrid_score": 3.7,
+    "price": 1.2061,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5175,
+    "hybrid_score": 5.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -12,16 +12,16 @@
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.064,
-      "bullish_pct": 31.7,
-      "bearish_pct": 30.0,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.163,
-        "crypto_macro": 0.196,
-        "geopolitical": -0.328,
-        "fed_rates": 0.043
+        "xrp": 0.189,
+        "crypto_macro": 0.147,
+        "geopolitical": -0.275,
+        "fed_rates": 0.006
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com"
       ],
       "top_bearish": [
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
         "China denounces US threat of sanctions over trade with Iran - The Guardian",
-        "Sen. King says escalating trade war could 'devastate' Maine's lobster industry - WGME",
         "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": 0.0792,
-      "vol_ratio": 0.13
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.65,
+      "health": -0.0062,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.20508,
-      "ema200": 1.20489,
-      "macd": 0.000346,
-      "macd_signal": -0.000653,
-      "rsi14": 54.3,
-      "atr14": 0.00351,
-      "atr14_hourly": 0.0113,
-      "bb_position": 0.796
+      "ema50": 1.20487,
+      "ema200": 1.20483,
+      "macd": 0.000389,
+      "macd_signal": 7.9e-05,
+      "rsi14": 53.8,
+      "atr14": 0.00263,
+      "atr14_hourly": 0.01183,
+      "bb_position": 0.647
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.772,
+      "percentile": 0.768,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177211
+  "data_bars": 177223
 }
