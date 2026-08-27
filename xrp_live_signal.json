@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-08-27T19:01:25.044328+00:00",
+  "timestamp": "2026-08-27T20:01:22.165550+00:00",
   "signal": {
-    "price": 1.2488,
+    "price": 1.2477,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5561,
-    "hybrid_score": 6.6,
+    "xgb_prob": 0.5578,
+    "hybrid_score": 5.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.057,
-      "bullish_pct": 25.0,
+      "score": 0.037,
+      "bullish_pct": 23.3,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.09,
-        "crypto_macro": 0.302,
-        "geopolitical": -0.315,
-        "fed_rates": -0.052
+        "xrp": 0.112,
+        "crypto_macro": 0.22,
+        "geopolitical": -0.321,
+        "fed_rates": -0.063
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin is having a great month\u2014but Solana is doing even better as coin soars above $100 - Fortune",
+        "Popular crypto stock rallies on blockbuster earnings - thestreet.com",
         "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-        "Solana Outpaces Bitcoin In Crypto Surge To 6-Month High \u2014 Analysts Say Jackson Hole Could Decide BTC\u2019s $80K Breakout - T"
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
       ],
       "top_bearish": [
-        "China denounces US threat of sanctions over trade with Iran - The Guardian",
         "Business advocates fearful over long-term impacts of trade war with Canada - WGME",
-        "Washington and British Columbia brace for US-Canada trade war impacts - KUOW"
+        "Ontario threatens electricity amid Trump-Canada trade war. What would that mean for US? - The Hill",
+        "How the US-Canada Trade War Impacts Connecticut - CBIA"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.33,
-      "health": 0.2236,
-      "vol_ratio": 0.08
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.23,
+      "health": 0.1044,
+      "vol_ratio": 0.97
     },
     "technicals": {
-      "ema50": 1.24775,
-      "ema200": 1.23282,
-      "macd": -0.003007,
-      "macd_signal": -0.003622,
-      "rsi14": 53.0,
-      "atr14": 0.00432,
-      "atr14_hourly": 0.01943,
-      "bb_position": 0.618
+      "ema50": 1.24739,
+      "ema200": 1.2344,
+      "macd": -0.000268,
+      "macd_signal": -0.001085,
+      "rsi14": 51.5,
+      "atr14": 0.00427,
+      "atr14_hourly": 0.01587,
+      "bb_position": 0.697
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.758,
+      "percentile": 0.756,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +1.40%",
-    "portfolio_eur": 5025.51,
-    "total_pnl_pct": 0.51,
+    "reason": "HOLD LONG: P&L +1.32%",
+    "portfolio_eur": 5024.39,
+    "total_pnl_pct": 0.488,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.2794,
-      "stop_loss": 1.20276,
-      "trailing_stop": 1.22002
+      "take_profit": 1.27066,
+      "stop_loss": 1.208,
+      "trailing_stop": 1.22717
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177367
+  "data_bars": 177379
 }
