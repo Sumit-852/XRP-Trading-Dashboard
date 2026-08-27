@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-27T11:03:13.818907+00:00",
-  "score": 0.095,
+  "timestamp": "2026-08-27T12:03:30.764618+00:00",
+  "score": 0.058,
   "label": "NEUTRAL",
-  "bullish_pct": 36.7,
-  "bearish_pct": 28.3,
+  "bullish_pct": 33.3,
+  "bearish_pct": 25.0,
   "count": 60,
   "feed_scores": {
-    "xrp": 0.205,
-    "crypto_macro": 0.223,
-    "geopolitical": -0.271,
-    "fed_rates": 0.022
+    "xrp": 0.091,
+    "crypto_macro": 0.167,
+    "geopolitical": -0.182,
+    "fed_rates": 0.059
   },
   "geo_shock": false,
   "top_bull": [
@@ -22,23 +22,31 @@
       "weighted_score": 0.784
     },
     {
-      "title": "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-      "pubdate": "Tue, 25 Aug 2026 03:05:00",
-      "compound": 0.848,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": 0.678
-    },
-    {
       "title": "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000 - CoinDesk",
       "pubdate": "Thu, 27 Aug 2026 04:02:57",
       "compound": 0.727,
       "feed": "crypto_macro",
       "weight": 0.8,
       "weighted_score": 0.582
+    },
+    {
+      "title": "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
+      "pubdate": "Tue, 25 Aug 2026 15:26:00",
+      "compound": 0.542,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": 0.542
     }
   ],
   "top_bear": [
+    {
+      "title": "XRP Ripple Faces $386M Liquidation Shock - TradingView",
+      "pubdate": "Mon, 24 Aug 2026 12:11:18",
+      "compound": -0.681,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": -0.681
+    },
     {
       "title": "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
       "pubdate": "Tue, 25 Aug 2026 19:11:04",
@@ -54,14 +62,6 @@
       "feed": "geopolitical",
       "weight": 0.5,
       "weighted_score": -0.426
-    },
-    {
-      "title": "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So",
-      "pubdate": "Thu, 27 Aug 2026 01:22:31",
-      "compound": -0.836,
-      "feed": "geopolitical",
-      "weight": 0.5,
-      "weighted_score": -0.418
     }
   ]
 }
