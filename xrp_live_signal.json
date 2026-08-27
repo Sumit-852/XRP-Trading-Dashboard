@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-27T20:01:22.165550+00:00",
+  "timestamp": "2026-08-27T21:01:21.263008+00:00",
   "signal": {
-    "price": 1.2477,
+    "price": 1.2475,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5578,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.5509,
+    "hybrid_score": 5.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
-      "bullish_pct": 23.3,
+      "score": 0.007,
+      "bullish_pct": 21.7,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.112,
-        "crypto_macro": 0.22,
-        "geopolitical": -0.321,
-        "fed_rates": -0.063
+        "xrp": 0.04,
+        "crypto_macro": 0.219,
+        "geopolitical": -0.357,
+        "fed_rates": -0.046
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Popular crypto stock rallies on blockbuster earnings - thestreet.com",
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
+        "BTC price steadies above $79,000 as ETF inflows hit longest streak since April: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
         "Business advocates fearful over long-term impacts of trade war with Canada - WGME",
         "Ontario threatens electricity amid Trump-Canada trade war. What would that mean for US? - The Hill",
-        "How the US-Canada Trade War Impacts Connecticut - CBIA"
+        "President Trump signs order to rename Lake Ontario amid trade war with Canada - Scripps News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.23,
-      "health": 0.1044,
-      "vol_ratio": 0.97
+      "up_down_ratio": 1.26,
+      "health": 0.0181,
+      "vol_ratio": 0.92
     },
     "technicals": {
-      "ema50": 1.24739,
-      "ema200": 1.2344,
-      "macd": -0.000268,
-      "macd_signal": -0.001085,
-      "rsi14": 51.5,
-      "atr14": 0.00427,
-      "atr14_hourly": 0.01587,
-      "bb_position": 0.697
+      "ema50": 1.24755,
+      "ema200": 1.23591,
+      "macd": 0.000247,
+      "macd_signal": 0.000168,
+      "rsi14": 50.0,
+      "atr14": 0.00362,
+      "atr14_hourly": 0.01343,
+      "bb_position": 0.525
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -70,18 +70,18 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +1.32%",
-    "portfolio_eur": 5024.39,
-    "total_pnl_pct": 0.488,
+    "reason": "HOLD LONG: P&L +1.30%",
+    "portfolio_eur": 5024.19,
+    "total_pnl_pct": 0.484,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.27066,
-      "stop_loss": 1.208,
-      "trailing_stop": 1.22717
+      "take_profit": 1.26464,
+      "stop_loss": 1.21161,
+      "trailing_stop": 1.23209
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177379
+  "data_bars": 177391
 }
