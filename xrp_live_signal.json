@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-27T14:03:37.617236+00:00",
+  "timestamp": "2026-08-27T15:01:32.434976+00:00",
   "signal": {
-    "price": 1.2379,
+    "price": 1.2592,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6401,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.708,
+    "hybrid_score": 6.2,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.03,
-      "bullish_pct": 26.7,
-      "bearish_pct": 31.7,
+      "score": -0.002,
+      "bullish_pct": 21.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.067,
-        "crypto_macro": 0.18,
-        "geopolitical": -0.264,
-        "fed_rates": 0.003
+        "xrp": 0.03,
+        "crypto_macro": 0.249,
+        "geopolitical": -0.333,
+        "fed_rates": -0.169
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
         "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
-        "XRP\u2019s Old SWIFT Advantage Is Disappearing as Banks Move Tokenized Money Onchain - Yahoo Finance"
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
       ],
       "top_bearish": [
-        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
         "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So",
-        "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike - CoinDesk"
+        "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike - CoinDesk",
+        "Business advocates fearful over long-term impacts of trade war with Canada - WGME"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": 0.1996,
-      "vol_ratio": 1.35
+      "up_down_ratio": 1.12,
+      "health": 0.1566,
+      "vol_ratio": 0.49
     },
     "technicals": {
-      "ema50": 1.22559,
-      "ema200": 1.21691,
-      "macd": 0.001345,
-      "macd_signal": -8.6e-05,
-      "rsi14": 66.4,
-      "atr14": 0.00482,
-      "atr14_hourly": 0.01291,
-      "bb_position": 1.214
+      "ema50": 1.23574,
+      "ema200": 1.22085,
+      "macd": 0.00801,
+      "macd_signal": 0.006765,
+      "rsi14": 70.6,
+      "atr14": 0.00589,
+      "atr14_hourly": 0.02617,
+      "bb_position": 0.821
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.773,
+      "percentile": 0.774,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.52%",
-    "portfolio_eur": 5014.43,
-    "total_pnl_pct": 0.289,
+    "reason": "HOLD LONG: P&L +2.25%",
+    "portfolio_eur": 5036.08,
+    "total_pnl_pct": 0.722,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.26361,
-      "stop_loss": 1.21223,
-      "trailing_stop": 1.21208
+      "take_profit": 1.29548,
+      "stop_loss": 1.19311,
+      "trailing_stop": 1.20686
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177307
+  "data_bars": 177319
 }
