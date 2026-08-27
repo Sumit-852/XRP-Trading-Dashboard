@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-27T17:01:25.460465+00:00",
+  "timestamp": "2026-08-27T18:01:29.940484+00:00",
   "signal": {
-    "price": 1.2548,
+    "price": 1.2498,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6903,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.6707,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
-      "bullish_pct": 20.0,
-      "bearish_pct": 38.3,
+      "score": 0.007,
+      "bullish_pct": 21.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.068,
-        "crypto_macro": 0.204,
-        "geopolitical": -0.338,
-        "fed_rates": -0.095
+        "xrp": 0.075,
+        "crypto_macro": 0.181,
+        "geopolitical": -0.33,
+        "fed_rates": -0.093
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
         "How High Can XRP Go By September if the CLARITY Act Becomes Law? - 24/7 Wall St."
       ],
       "top_bearish": [
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
         "Business advocates fearful over long-term impacts of trade war with Canada - WGME",
-        "\u201cEh?\u201d-conomic Warfare: The U.S.-Canada Trade War - The American Action Forum",
-        "Packaging industry braces for impacts from U.S.-Canada trade war - Food Dive"
+        "How the US-Canada Trade War Impacts Connecticut - CBIA"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.32,
-      "health": 0.2352,
-      "vol_ratio": 0.34
+      "up_down_ratio": 1.33,
+      "health": 0.2488,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 1.24996,
-      "ema200": 1.22882,
-      "macd": 0.003089,
-      "macd_signal": 0.00428,
-      "rsi14": 47.8,
-      "atr14": 0.00536,
-      "atr14_hourly": 0.01615,
-      "bb_position": 0.2
+      "ema50": 1.25165,
+      "ema200": 1.23175,
+      "macd": -0.001013,
+      "macd_signal": 0.000357,
+      "rsi14": 41.2,
+      "atr14": 0.00442,
+      "atr14_hourly": 0.01595,
+      "bb_position": 0.104
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.759,
+      "percentile": 0.749,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +1.89%",
-    "portfolio_eur": 5031.61,
-    "total_pnl_pct": 0.632,
+    "reason": "HOLD LONG: P&L +1.49%",
+    "portfolio_eur": 5026.53,
+    "total_pnl_pct": 0.531,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.27112,
-      "stop_loss": 1.20772,
-      "trailing_stop": 1.22679
+      "take_profit": 1.27079,
+      "stop_loss": 1.20792,
+      "trailing_stop": 1.22706
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177343
+  "data_bars": 177355
 }
