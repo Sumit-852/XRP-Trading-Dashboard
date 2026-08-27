@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-27T13:02:54.120965+00:00",
+  "timestamp": "2026-08-27T14:03:37.617236+00:00",
   "signal": {
-    "price": 1.2227,
+    "price": 1.2379,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5769,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.6401,
+    "hybrid_score": 5.9,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.04,
-      "bullish_pct": 30.0,
-      "bearish_pct": 30.0,
+      "score": 0.03,
+      "bullish_pct": 26.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.114,
-        "crypto_macro": 0.167,
-        "geopolitical": -0.287,
-        "fed_rates": 0.008
+        "xrp": 0.067,
+        "crypto_macro": 0.18,
+        "geopolitical": -0.264,
+        "fed_rates": 0.003
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
-        "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000 - CoinDesk",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
+        "XRP\u2019s Old SWIFT Advantage Is Disappearing as Banks Move Tokenized Money Onchain - Yahoo Finance"
       ],
       "top_bearish": [
         "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
-        "China denounces US threat of sanctions over trade with Iran - The Guardian",
-        "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So"
+        "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So",
+        "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": 0.3222,
-      "vol_ratio": 0.06
+      "up_down_ratio": 1.05,
+      "health": 0.1996,
+      "vol_ratio": 1.35
     },
     "technicals": {
-      "ema50": 1.22497,
-      "ema200": 1.21571,
-      "macd": -0.000976,
-      "macd_signal": -0.000617,
-      "rsi14": 44.5,
-      "atr14": 0.00349,
-      "atr14_hourly": 0.01298,
-      "bb_position": 0.227
+      "ema50": 1.22559,
+      "ema200": 1.21691,
+      "macd": 0.001345,
+      "macd_signal": -8.6e-05,
+      "rsi14": 66.4,
+      "atr14": 0.00482,
+      "atr14_hourly": 0.01291,
+      "bb_position": 1.214
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.786,
+      "percentile": 0.773,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.71%",
-    "portfolio_eur": 4998.97,
-    "total_pnl_pct": -0.021,
+    "reason": "HOLD LONG: P&L +0.52%",
+    "portfolio_eur": 5014.43,
+    "total_pnl_pct": 0.289,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.26418,
-      "stop_loss": 1.21189,
-      "trailing_stop": 1.20643
+      "take_profit": 1.26361,
+      "stop_loss": 1.21223,
+      "trailing_stop": 1.21208
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177295
+  "data_bars": 177307
 }
