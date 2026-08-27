@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-27T00:01:20.512510+00:00",
+  "timestamp": "2026-08-27T01:01:28.814609+00:00",
   "signal": {
-    "price": 1.2188,
+    "price": 1.2058,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5097,
-    "hybrid_score": 5.1,
-    "regime": "BULLISH",
+    "xgb_prob": 0.5403,
+    "hybrid_score": 5.3,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.085,
-      "bullish_pct": 36.7,
-      "bearish_pct": 26.7,
+      "sentiment": "BULLISH",
+      "score": 0.119,
+      "bullish_pct": 35.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.17,
-        "crypto_macro": 0.188,
-        "geopolitical": -0.231,
-        "fed_rates": 0.063
+        "xrp": 0.257,
+        "crypto_macro": 0.217,
+        "geopolitical": -0.267,
+        "fed_rates": 0.057
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
-        "Top Three Cryptocurrencies to Watch This Week: Venice Token, Pi Network, XRP - Bitwise XRP ETF (ARCA:XRP) - Benzinga"
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
       ],
       "top_bearish": [
-        "XRP Dropped Below $1 For the First Time Since 2024. But I'm Still Avoiding XRP Right Now. - The Motley Fool",
-        "XRP Dropped Below $1 For the First Time Since 2024. But I'm Still Avoiding XRP Right Now. - Yahoo Finance",
-        "Sen. King says escalating trade war could 'devastate' Maine's lobster industry - WGME"
+        "Sen. King says escalating trade war could 'devastate' Maine's lobster industry - WGME",
+        "Wisconsin businesses brace for impact as trade war with Canada heats up - WPR",
+        "Trump Trade War with Canada Pits the U.S. Against a Once-Staunch Ally - KQED"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.68,
-      "health": 0.0604,
-      "vol_ratio": 0.12
+      "up_down_ratio": 0.66,
+      "health": 0.0726,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.20365,
-      "ema200": 1.20368,
-      "macd": 0.005701,
-      "macd_signal": 0.005215,
-      "rsi14": 65.2,
-      "atr14": 0.00416,
-      "atr14_hourly": 0.01885,
-      "bb_position": 0.768
+      "ema50": 1.20537,
+      "ema200": 1.20421,
+      "macd": -0.000472,
+      "macd_signal": 0.001114,
+      "rsi14": 44.7,
+      "atr14": 0.00362,
+      "atr14_hourly": 0.01779,
+      "bb_position": 0.208
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.782,
+      "percentile": 0.774,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177139
+  "data_bars": 177151
 }
