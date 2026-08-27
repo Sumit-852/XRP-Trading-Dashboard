@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-27T01:01:28.814609+00:00",
+  "timestamp": "2026-08-27T02:01:17.202470+00:00",
   "signal": {
-    "price": 1.2058,
+    "price": 1.2126,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5403,
-    "hybrid_score": 5.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.5444,
+    "hybrid_score": 5.4,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.119,
-      "bullish_pct": 35.0,
-      "bearish_pct": 21.7,
+      "score": 0.145,
+      "bullish_pct": 38.3,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.257,
-        "crypto_macro": 0.217,
+        "xrp": 0.303,
+        "crypto_macro": 0.265,
         "geopolitical": -0.267,
-        "fed_rates": 0.057
+        "fed_rates": 0.025
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Best Crypto to Invest in Right Now: Smart Money Is Pairing XRP With Pepeto and Targeting a 30x Minimum - FinanceFeeds",
         "XRP to $29? Tyler Winklevoss Touts \u2018Ripple Army\u2019 Win as Gemini Opens Singapore XRPL Transfers - CCN.com",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "Crypto extends gains after biggest 3-day rally since 2023 - CNBC"
       ],
       "top_bearish": [
         "Sen. King says escalating trade war could 'devastate' Maine's lobster industry - WGME",
-        "Wisconsin businesses brace for impact as trade war with Canada heats up - WPR",
-        "Trump Trade War with Canada Pits the U.S. Against a Once-Staunch Ally - KQED"
+        "Washington Is Setting Beijing Up to Take the Blame if Iran Sanctions Fail, Chinese Commentary Says - The China-Global So",
+        "Wisconsin businesses brace for impact as trade war with Canada heats up - WPR"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.66,
-      "health": 0.0726,
-      "vol_ratio": 0.1
+      "up_down_ratio": 0.65,
+      "health": 0.075,
+      "vol_ratio": 0.6
     },
     "technicals": {
-      "ema50": 1.20537,
-      "ema200": 1.20421,
-      "macd": -0.000472,
-      "macd_signal": 0.001114,
-      "rsi14": 44.7,
-      "atr14": 0.00362,
-      "atr14_hourly": 0.01779,
-      "bb_position": 0.208
+      "ema50": 1.20628,
+      "ema200": 1.20457,
+      "macd": 0.00054,
+      "macd_signal": -9.3e-05,
+      "rsi14": 56.3,
+      "atr14": 0.00445,
+      "atr14_hourly": 0.01624,
+      "bb_position": 0.893
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.774,
+      "percentile": 0.778,
       "extreme": false
     }
   },
@@ -100,5 +100,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177151
+  "data_bars": 177163
 }
