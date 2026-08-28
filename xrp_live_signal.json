@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-27T23:01:32.828958+00:00",
+  "timestamp": "2026-08-28T00:01:23.952615+00:00",
   "signal": {
-    "price": 1.2472,
+    "price": 1.2477,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5567,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.597,
+    "hybrid_score": 5.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.023,
-      "bullish_pct": 26.7,
-      "bearish_pct": 33.3,
+      "score": -0.017,
+      "bullish_pct": 23.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.112,
-        "crypto_macro": 0.226,
-        "geopolitical": -0.454,
-        "fed_rates": -0.006
+        "xrp": 0.044,
+        "crypto_macro": 0.159,
+        "geopolitical": -0.403,
+        "fed_rates": -0.041
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin is having a great month\u2014but Solana is doing even better as coin soars above $100 - Fortune",
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
+        "How High Can XRP Go By September if the CLARITY Act Becomes Law? - Yahoo Finance"
       ],
       "top_bearish": [
         "Business advocates fearful over long-term impacts of trade war with Canada - WGME",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.29,
-      "health": -0.0265,
-      "vol_ratio": 0.21
+      "up_down_ratio": 1.27,
+      "health": -0.0529,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.24673,
-      "ema200": 1.23806,
-      "macd": 0.000277,
-      "macd_signal": 0.000169,
-      "rsi14": 51.6,
-      "atr14": 0.00274,
-      "atr14_hourly": 0.01035,
-      "bb_position": 0.618
+      "ema50": 1.24739,
+      "ema200": 1.23924,
+      "macd": 0.000399,
+      "macd_signal": 0.000548,
+      "rsi14": 50.0,
+      "atr14": 0.00239,
+      "atr14_hourly": 0.00811,
+      "bb_position": 0.477
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.723,
+      "percentile": 0.706,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +1.27%",
-    "portfolio_eur": 5023.88,
-    "total_pnl_pct": 0.478,
+    "reason": "HOLD LONG: P&L +1.32%",
+    "portfolio_eur": 5024.39,
+    "total_pnl_pct": 0.488,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.25705,
-      "stop_loss": 1.21617,
-      "trailing_stop": 1.2383
+      "take_profit": 1.25151,
+      "stop_loss": 1.21949,
+      "trailing_stop": 1.24283
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177415
+  "data_bars": 177427
 }
