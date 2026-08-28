@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-28T04:01:21.800155+00:00",
+  "timestamp": "2026-08-28T05:01:23.491389+00:00",
   "signal": {
-    "price": 1.2296,
+    "price": 1.2204,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5689,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.6158,
+    "hybrid_score": 5.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
-      "bullish_pct": 25.0,
-      "bearish_pct": 30.0,
+      "score": -0.007,
+      "bullish_pct": 28.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.054,
-        "crypto_macro": 0.166,
-        "geopolitical": -0.303,
-        "fed_rates": 0.02
+        "xrp": 0.02,
+        "crypto_macro": 0.09,
+        "geopolitical": -0.263,
+        "fed_rates": 0.05
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "How High Can XRP Go By September if the CLARITY Act Becomes Law? - Yahoo Finance"
+        "BTC price steadies above $79,000 as ETF inflows hit longest streak since April: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
         "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - BorderReport",
-        "Navarro blames Canadian PM for escalating trade war with US - NewsNation",
-        "US, Canada trade war poses sourcing risks for agriculture, consumer goods - Supply Chain Dive"
+        "Navarro blames Canadian PM for escalating trade war with US - NewsNation"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.07,
-      "health": -0.1912,
-      "vol_ratio": 0.04
+      "up_down_ratio": 0.96,
+      "health": -0.2733,
+      "vol_ratio": 0.5
     },
     "technicals": {
-      "ema50": 1.23694,
-      "ema200": 1.23872,
-      "macd": -0.002852,
-      "macd_signal": -0.003415,
-      "rsi14": 41.1,
-      "atr14": 0.00337,
-      "atr14_hourly": 0.01545,
-      "bb_position": 0.457
+      "ema50": 1.23163,
+      "ema200": 1.23696,
+      "macd": -0.003458,
+      "macd_signal": -0.003376,
+      "rsi14": 34.8,
+      "atr14": 0.0032,
+      "atr14_hourly": 0.01277,
+      "bb_position": 0.144
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.716,
+      "percentile": 0.724,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.15%",
-    "portfolio_eur": 5005.99,
-    "total_pnl_pct": 0.12,
-    "position": "LONG",
-    "xrp_held": 1016.6311,
-    "cash_eur": 3755.94,
-    "trade_count": 69,
+    "action": "SELL",
+    "reason": "TRAILING_STOP: -3.08%",
+    "portfolio_eur": 4995.02,
+    "total_pnl_pct": -0.1,
+    "position": "CASH",
+    "xrp_held": 0.0,
+    "cash_eur": 4995.02,
+    "trade_count": 70,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.27018,
-      "stop_loss": 1.20829,
-      "trailing_stop": 1.22756
+      "take_profit": 1.26371,
+      "stop_loss": 1.21217,
+      "trailing_stop": 1.23285
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177475
+  "data_bars": 177487
 }
