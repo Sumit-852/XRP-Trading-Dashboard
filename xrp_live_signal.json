@@ -1,27 +1,22 @@
 {
-  "timestamp": "2026-08-28T20:01:21.977113+00:00",
+  "timestamp": "2026-08-28T21:01:55.544007+00:00",
   "signal": {
-    "price": 1.1918,
+    "price": 1.1912,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6293,
-    "hybrid_score": 5.8,
+    "xgb_prob": 0.6138,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.02,
-      "bullish_pct": 31.7,
-      "bearish_pct": 30.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.059,
-        "crypto_macro": 0.034,
-        "geopolitical": -0.365,
-        "fed_rates": 0.109
-      },
-      "geo_shock": true,
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk",
-        "Bitcoin news: What next as BTC's 'Coinbase premium' flips positive? - CoinDesk"
-      ],
-      "top_bearish": [
-        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
-        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.78,
-      "health": -0.1722,
-      "vol_ratio": 0.04
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.82,
+      "health": -0.053,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 1.19608,
-      "ema200": 1.21274,
-      "macd": -0.001539,
-      "macd_signal": -0.002485,
-      "rsi14": 50.9,
-      "atr14": 0.00349,
-      "atr14_hourly": 0.01634,
-      "bb_position": 0.765
+      "ema50": 1.19446,
+      "ema200": 1.21037,
+      "macd": 1.6e-05,
+      "macd_signal": -0.00032,
+      "rsi14": 48.9,
+      "atr14": 0.0027,
+      "atr14_hourly": 0.01161,
+      "bb_position": 0.525
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +51,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.712,
+      "percentile": 0.714,
       "extreme": false
     }
   },
@@ -101,5 +88,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177667
+  "data_bars": 177679
 }
