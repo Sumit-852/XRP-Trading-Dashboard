@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-28T16:01:24.049164+00:00",
+  "timestamp": "2026-08-28T17:01:27.442016+00:00",
   "signal": {
-    "price": 1.208,
+    "price": 1.1986,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7041,
-    "hybrid_score": 6.2,
+    "xgb_prob": 0.6729,
+    "hybrid_score": 6.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.024,
-      "bullish_pct": 35.0,
-      "bearish_pct": 21.7,
+      "score": -0.012,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.071,
-        "crypto_macro": 0.048,
-        "geopolitical": -0.258,
-        "fed_rates": 0.21
+        "xrp": 0.1,
+        "crypto_macro": -0.019,
+        "geopolitical": -0.304,
+        "fed_rates": 0.087
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk",
-        "Bitcoin news: What next as BTC's 'Coinbase premium' flips positive? - CoinDesk"
+        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
+        "Bitcoin (BTC) Rejected at $80K, Ripple\u2019s XRP Plunges Hard as Rally Cools: Market Watch - CryptoPotato",
         "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
-        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Detroit despairs as \u2018insanity\u2019 of Trump\u2019s Canada trade war punishes city - The Guardian"
+        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.87,
-      "health": -0.0704,
-      "vol_ratio": 0.1
+      "up_down_ratio": 0.91,
+      "health": 0.113,
+      "vol_ratio": 0.47
     },
     "technicals": {
-      "ema50": 1.21992,
-      "ema200": 1.22427,
-      "macd": -0.001765,
-      "macd_signal": 0.000532,
-      "rsi14": 36.8,
-      "atr14": 0.00636,
-      "atr14_hourly": 0.02813,
-      "bb_position": -0.016
+      "ema50": 1.2133,
+      "ema200": 1.22183,
+      "macd": -0.005155,
+      "macd_signal": -0.00465,
+      "rsi14": 38.8,
+      "atr14": 0.00681,
+      "atr14_hourly": 0.03236,
+      "bb_position": 0.236
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.675,
+      "percentile": 0.713,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177619
+  "data_bars": 177631
 }
