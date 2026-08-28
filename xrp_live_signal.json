@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-08-28T10:01:26.548715+00:00",
+  "timestamp": "2026-08-28T11:01:20.743666+00:00",
   "signal": {
-    "price": 1.2109,
+    "price": 1.2221,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5774,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.5178,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.033,
+      "score": 0.034,
       "bullish_pct": 31.7,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.048,
-        "crypto_macro": 0.233,
+        "crypto_macro": 0.238,
         "geopolitical": -0.279,
         "fed_rates": -0.018
       },
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Bitcoin is having a great month\u2014but Solana is doing even better as coin soars above $100 - Fortune",
         "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "1 Popular Cryptocurrency to Buy Before It Surges by 920%, According to Cathie Wood's Ark Invest - Yahoo Finance"
       ],
       "top_bearish": [
         "Ripple Continues to Expand Globally, But the Price of XRP Keeps Falling. Is XRP a Buy, Sell, or Hold Right Now? - The Mo",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.9,
-      "health": -0.0791,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.92,
+      "health": -0.0149,
+      "vol_ratio": 0.39
     },
     "technicals": {
-      "ema50": 1.21955,
-      "ema200": 1.2293,
-      "macd": -0.002746,
-      "macd_signal": -0.002196,
-      "rsi14": 34.1,
-      "atr14": 0.00222,
-      "atr14_hourly": 0.00938,
-      "bb_position": 0.175
+      "ema50": 1.2176,
+      "ema200": 1.22756,
+      "macd": 0.000427,
+      "macd_signal": -0.001111,
+      "rsi14": 63.9,
+      "atr14": 0.0024,
+      "atr14_hourly": 0.01183,
+      "bb_position": 1.013
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.629,
+      "percentile": 0.61,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177547
+  "data_bars": 177559
 }
