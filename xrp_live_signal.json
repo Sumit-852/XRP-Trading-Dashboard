@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-28T11:01:20.743666+00:00",
+  "timestamp": "2026-08-28T12:01:22.906832+00:00",
   "signal": {
-    "price": 1.2221,
+    "price": 1.2195,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5178,
-    "hybrid_score": 5.1,
+    "xgb_prob": 0.5531,
+    "hybrid_score": 5.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": 0.056,
+      "bullish_pct": 30.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.048,
-        "crypto_macro": 0.238,
-        "geopolitical": -0.279,
-        "fed_rates": -0.018
+        "xrp": 0.158,
+        "crypto_macro": 0.181,
+        "geopolitical": -0.329,
+        "fed_rates": 0.03
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin is having a great month\u2014but Solana is doing even better as coin soars above $100 - Fortune",
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
+        "Bitcoin surges 22% for the week as investor optimism floods back - CNBC",
         "1 Popular Cryptocurrency to Buy Before It Surges by 920%, According to Cathie Wood's Ark Invest - Yahoo Finance"
       ],
       "top_bearish": [
-        "Ripple Continues to Expand Globally, But the Price of XRP Keeps Falling. Is XRP a Buy, Sell, or Hold Right Now? - The Mo",
-        "China denounces US threat of sanctions over trade with Iran - The Guardian",
-        "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - BorderReport"
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
+        "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - BorderReport",
+        "US, Canada trade war poses sourcing risks for agriculture, consumer goods - Supply Chain Dive"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": -0.0149,
-      "vol_ratio": 0.39
+      "up_down_ratio": 0.83,
+      "health": -0.1903,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.2176,
-      "ema200": 1.22756,
-      "macd": 0.000427,
-      "macd_signal": -0.001111,
-      "rsi14": 63.9,
-      "atr14": 0.0024,
-      "atr14_hourly": 0.01183,
-      "bb_position": 1.013
+      "ema50": 1.21976,
+      "ema200": 1.22711,
+      "macd": 0.001239,
+      "macd_signal": 0.001713,
+      "rsi14": 49.0,
+      "atr14": 0.00234,
+      "atr14_hourly": 0.01369,
+      "bb_position": 0.417
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.61,
+      "percentile": 0.619,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177559
+  "data_bars": 177571
 }
