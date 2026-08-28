@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-28T02:01:25.556244+00:00",
+  "timestamp": "2026-08-28T03:01:25.898633+00:00",
   "signal": {
-    "price": 1.2424,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4337,
-    "hybrid_score": 4.6,
-    "regime": "BULLISH",
+    "price": 1.229,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6324,
+    "hybrid_score": 5.8,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.005,
-      "bullish_pct": 23.3,
-      "bearish_pct": 31.7,
+      "score": -0.022,
+      "bullish_pct": 26.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.044,
-        "crypto_macro": 0.159,
-        "geopolitical": -0.357,
-        "fed_rates": -0.018
+        "xrp": 0.002,
+        "crypto_macro": 0.11,
+        "geopolitical": -0.341,
+        "fed_rates": 0.05
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "How High Can XRP Go By September if the CLARITY Act Becomes Law? - Yahoo Finance"
+        "BTC price steadies above $79,000 as ETF inflows hit longest streak since April: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
-        "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - DC News Now",
-        "US, Canada trade war poses sourcing risks for agriculture, consumer goods - Supply Chain Dive",
-        "XRP ETFs Haven\u2019t Had a Single Day of Outflows in Three Weeks as XRP Reclaims $1.40 - 24/7 Wall St."
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
+        "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - BorderReport",
+        "Navarro blames Canadian PM for escalating trade war with US - NewsNation"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.21,
-      "health": -0.0383,
-      "vol_ratio": 0.16
+      "up_down_ratio": 1.19,
+      "health": -0.063,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 1.24752,
-      "ema200": 1.2409,
-      "macd": 0.000206,
-      "macd_signal": 0.001127,
-      "rsi14": 41.1,
-      "atr14": 0.0044,
-      "atr14_hourly": 0.01646,
-      "bb_position": 0.259
+      "ema50": 1.24146,
+      "ema200": 1.23988,
+      "macd": -0.004853,
+      "macd_signal": -0.003989,
+      "rsi14": 33.6,
+      "atr14": 0.00456,
+      "atr14_hourly": 0.02258,
+      "bb_position": 0.254
     },
     "trade_feedback": {
       "loss_streak": 2,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.711,
+      "percentile": 0.718,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.89%",
-    "portfolio_eur": 5019.0,
-    "total_pnl_pct": 0.38,
+    "reason": "HOLD LONG: P&L -0.20%",
+    "portfolio_eur": 5005.38,
+    "total_pnl_pct": 0.108,
     "position": "LONG",
     "xrp_held": 1016.6311,
     "cash_eur": 3755.94,
     "trade_count": 69,
     "draw_levels": {
       "entry": 1.23149887,
-      "take_profit": 1.27229,
-      "stop_loss": 1.20703,
-      "trailing_stop": 1.22583
+      "take_profit": 1.28806,
+      "stop_loss": 1.19756,
+      "trailing_stop": 1.21293
     }
   },
   "trade_feedback": {
@@ -105,5 +105,5 @@
     "entry_prob_effective": 0.6
   },
   "retrained": true,
-  "data_bars": 177451
+  "data_bars": 177463
 }
