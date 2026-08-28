@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-28T07:01:26.983168+00:00",
+  "timestamp": "2026-08-28T08:01:28.129287+00:00",
   "signal": {
-    "price": 1.2245,
+    "price": 1.2204,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5501,
+    "xgb_prob": 0.54,
     "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,17 +11,17 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.057,
+      "score": 0.056,
       "bullish_pct": 33.3,
-      "bearish_pct": 25.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.068,
-        "crypto_macro": 0.25,
-        "geopolitical": -0.272,
-        "fed_rates": 0.057
+        "crypto_macro": 0.309,
+        "geopolitical": -0.312,
+        "fed_rates": -0.018
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin is having a great month\u2014but Solana is doing even better as coin soars above $100 - Fortune",
         "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-        "Watch Bitcoin Tops $80K as Bullish Mood Returns to Crypto Market - Bloomberg",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "Watch Bitcoin Tops $80K as Bullish Mood Returns to Crypto Market - Bloomberg"
       ],
       "top_bearish": [
         "Ripple Continues to Expand Globally, But the Price of XRP Keeps Falling. Is XRP a Buy, Sell, or Hold Right Now? - The Mo",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.03,
-      "health": -0.1506,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.95,
+      "health": -0.1906,
+      "vol_ratio": 0.28
     },
     "technicals": {
-      "ema50": 1.22678,
-      "ema200": 1.23409,
-      "macd": -5.7e-05,
-      "macd_signal": -0.000333,
-      "rsi14": 49.8,
-      "atr14": 0.00172,
-      "atr14_hourly": 0.00754,
-      "bb_position": 0.582
+      "ema50": 1.22412,
+      "ema200": 1.23247,
+      "macd": -0.001113,
+      "macd_signal": -0.001111,
+      "rsi14": 45.1,
+      "atr14": 0.00166,
+      "atr14_hourly": 0.00803,
+      "bb_position": 0.372
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.708,
+      "percentile": 0.696,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177511
+  "data_bars": 177523
 }
