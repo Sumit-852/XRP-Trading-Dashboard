@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-28T19:01:22.590905+00:00",
+  "timestamp": "2026-08-28T20:01:21.977113+00:00",
   "signal": {
-    "price": 1.1875,
+    "price": 1.1918,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6364,
+    "xgb_prob": 0.6293,
     "hybrid_score": 5.8,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.016,
-      "bullish_pct": 33.3,
+      "score": -0.02,
+      "bullish_pct": 31.7,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.059,
-        "crypto_macro": 0.039,
-        "geopolitical": -0.362,
-        "fed_rates": 0.122
+        "crypto_macro": 0.034,
+        "geopolitical": -0.365,
+        "fed_rates": 0.109
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin news: What next as BTC's 'Coinbase premium' flips positive? - CoinDesk"
       ],
       "top_bearish": [
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate",
-        "Arthur Hayes Predicted $250,000 Bitcoin. But Another Investor Says the Plan Behind It Is Already Failing - 24/7 Wall St."
+        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.75,
-      "health": -0.0413,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.78,
+      "health": -0.1722,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.19982,
-      "ema200": 1.21564,
-      "macd": -0.005528,
-      "macd_signal": -0.005464,
-      "rsi14": 41.7,
-      "atr14": 0.0045,
-      "atr14_hourly": 0.02046,
-      "bb_position": 0.354
+      "ema50": 1.19608,
+      "ema200": 1.21274,
+      "macd": -0.001539,
+      "macd_signal": -0.002485,
+      "rsi14": 50.9,
+      "atr14": 0.00349,
+      "atr14_hourly": 0.01634,
+      "bb_position": 0.765
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.715,
+      "percentile": 0.712,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177655
+  "data_bars": 177667
 }
