@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-28T14:01:14.126104+00:00",
+  "timestamp": "2026-08-28T15:01:30.549087+00:00",
   "signal": {
-    "price": 1.2214,
+    "price": 1.2351,
     "xgb_pred": "UP",
-    "xgb_prob": 0.527,
-    "hybrid_score": 5.2,
-    "regime": "BEARISH",
+    "xgb_prob": 0.5728,
+    "hybrid_score": 5.5,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.039,
-      "bullish_pct": 31.7,
+      "score": 0.046,
+      "bullish_pct": 38.3,
       "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.156,
-        "crypto_macro": 0.071,
-        "geopolitical": -0.28,
-        "fed_rates": 0.083
+        "crypto_macro": 0.004,
+        "geopolitical": -0.275,
+        "fed_rates": 0.259
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
-        "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
+        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
+        "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024 - Decrypt",
         "Arthur Hayes Predicted $250,000 Bitcoin. But Another Investor Says the Plan Behind It Is Already Failing - 24/7 Wall St.",
-        "Detroit despairs as \u2018insanity\u2019 of Trump\u2019s Canada trade war punishes city - The Guardian",
-        "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - FOX8 WGHP"
+        "Detroit despairs as \u2018insanity\u2019 of Trump\u2019s Canada trade war punishes city - The Guardian"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": -0.0865,
-      "vol_ratio": 2.98
+      "up_down_ratio": 0.91,
+      "health": 0.0273,
+      "vol_ratio": 1.17
     },
     "technicals": {
-      "ema50": 1.2195,
-      "ema200": 1.22544,
-      "macd": 0.000108,
-      "macd_signal": -2.2e-05,
-      "rsi14": 53.8,
-      "atr14": 0.00346,
-      "atr14_hourly": 0.01032,
-      "bb_position": 0.739
+      "ema50": 1.22002,
+      "ema200": 1.22477,
+      "macd": 0.003483,
+      "macd_signal": 0.001116,
+      "rsi14": 63.4,
+      "atr14": 0.00735,
+      "atr14_hourly": 0.02903,
+      "bb_position": 0.905
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.59,
+      "percentile": 0.677,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177595
+  "data_bars": 177607
 }
