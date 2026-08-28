@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-28T13:01:38.558172+00:00",
+  "timestamp": "2026-08-28T14:01:14.126104+00:00",
   "signal": {
-    "price": 1.2219,
+    "price": 1.2214,
     "xgb_pred": "UP",
-    "xgb_prob": 0.536,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.527,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.056,
+      "score": 0.039,
       "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.156,
-        "crypto_macro": 0.095,
-        "geopolitical": -0.225,
-        "fed_rates": 0.076
+        "crypto_macro": 0.071,
+        "geopolitical": -0.28,
+        "fed_rates": 0.083
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "BTC news: Key order book data validates recent price surge to $80,000 - CoinDesk",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
       ],
       "top_bearish": [
         "Arthur Hayes Predicted $250,000 Bitcoin. But Another Investor Says the Plan Behind It Is Already Failing - 24/7 Wall St.",
-        "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - BorderReport",
-        "US, Canada trade war poses sourcing risks for agriculture, consumer goods - Supply Chain Dive"
+        "Detroit despairs as \u2018insanity\u2019 of Trump\u2019s Canada trade war punishes city - The Guardian",
+        "Border Report Live: Canada and US tariff war and how it\u2019s impacting border trade - FOX8 WGHP"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": -0.1215,
-      "vol_ratio": 0.02
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.86,
+      "health": -0.0865,
+      "vol_ratio": 2.98
     },
     "technicals": {
-      "ema50": 1.21952,
-      "ema200": 1.2262,
-      "macd": 0.000284,
-      "macd_signal": 0.000127,
-      "rsi14": 55.9,
-      "atr14": 0.00223,
-      "atr14_hourly": 0.01064,
-      "bb_position": 0.665
+      "ema50": 1.2195,
+      "ema200": 1.22544,
+      "macd": 0.000108,
+      "macd_signal": -2.2e-05,
+      "rsi14": 53.8,
+      "atr14": 0.00346,
+      "atr14_hourly": 0.01032,
+      "bb_position": 0.739
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.618,
+      "percentile": 0.59,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177583
+  "data_bars": 177595
 }
