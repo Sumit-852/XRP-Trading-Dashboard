@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-29T07:01:15.827236+00:00",
+  "timestamp": "2026-08-29T08:01:23.613420+00:00",
   "signal": {
-    "price": 1.1922,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5157,
-    "hybrid_score": 5.1,
+    "price": 1.1932,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4498,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.024,
-      "bullish_pct": 33.3,
+      "score": -0.032,
+      "bullish_pct": 31.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.039,
-        "crypto_macro": 0.154,
+        "xrp": 0.09,
+        "crypto_macro": 0.069,
         "geopolitical": -0.515,
-        "fed_rates": 0.08
+        "fed_rates": 0.065
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
-        "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months - Yahoo Finance",
-        "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish - Decrypt"
+        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
+        "Bitcoin Taps $80,000 as ETH, XRP Gain Between 3% and 6% Ahead of Jackson Hole - Benzinga"
       ],
       "top_bearish": [
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.84,
-      "health": -0.087,
-      "vol_ratio": 0.02
+      "health": -0.04,
+      "vol_ratio": 0.28
     },
     "technicals": {
-      "ema50": 1.19392,
-      "ema200": 1.19859,
-      "macd": -0.000873,
-      "macd_signal": -0.000649,
-      "rsi14": 43.5,
-      "atr14": 0.00165,
-      "atr14_hourly": 0.00941,
-      "bb_position": 0.341
+      "ema50": 1.19381,
+      "ema200": 1.19803,
+      "macd": -0.000199,
+      "macd_signal": -0.000302,
+      "rsi14": 48.0,
+      "atr14": 0.00157,
+      "atr14_hourly": 0.0077,
+      "bb_position": 0.542
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.637,
+      "percentile": 0.635,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177799
+  "data_bars": 177811
 }
