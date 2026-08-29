@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-29T10:01:21.405409+00:00",
+  "timestamp": "2026-08-29T11:01:21.326578+00:00",
   "signal": {
-    "price": 1.1946,
+    "price": 1.1966,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4166,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.4531,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.05,
+      "score": -0.06,
       "bullish_pct": 30.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.075,
-        "crypto_macro": 0.041,
+        "xrp": 0.078,
+        "crypto_macro": 0.011,
         "geopolitical": -0.537,
-        "fed_rates": 0.066
+        "fed_rates": 0.053
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk"
+        "Bitcoin news: What next as BTC's 'Coinbase premium' flips positive? - CoinDesk"
       ],
       "top_bearish": [
         "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.87,
-      "health": -0.007,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.71,
+      "health": -0.1894,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.19408,
-      "ema200": 1.19716,
-      "macd": 0.000576,
-      "macd_signal": 0.000542,
-      "rsi14": 51.2,
-      "atr14": 0.00135,
-      "atr14_hourly": 0.00504,
-      "bb_position": 0.541
+      "ema50": 1.19484,
+      "ema200": 1.19703,
+      "macd": 0.000693,
+      "macd_signal": 0.000651,
+      "rsi14": 56.0,
+      "atr14": 0.00143,
+      "atr14_hourly": 0.00684,
+      "bb_position": 0.658
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.619,
+      "percentile": 0.6,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177835
+  "data_bars": 177847
 }
