@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-29T09:01:12.413434+00:00",
+  "timestamp": "2026-08-29T10:01:21.405409+00:00",
   "signal": {
-    "price": 1.1938,
+    "price": 1.1946,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4492,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.4166,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.052,
-      "bullish_pct": 31.7,
+      "score": -0.05,
+      "bullish_pct": 30.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.09,
-        "crypto_macro": -0.002,
-        "geopolitical": -0.55,
-        "fed_rates": 0.115
+        "xrp": 0.075,
+        "crypto_macro": 0.041,
+        "geopolitical": -0.537,
+        "fed_rates": 0.066
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "Bitcoin Taps $80,000 as ETH, XRP Gain Between 3% and 6% Ahead of Jackson Hole - Benzinga"
+        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk"
       ],
       "top_bearish": [
         "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.8,
-      "health": -0.0474,
-      "vol_ratio": 1.09
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.87,
+      "health": -0.007,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.19331,
-      "ema200": 1.19739,
-      "macd": -0.000123,
-      "macd_signal": -0.00029,
-      "rsi14": 53.4,
-      "atr14": 0.00164,
-      "atr14_hourly": 0.00597,
-      "bb_position": 0.722
+      "ema50": 1.19408,
+      "ema200": 1.19716,
+      "macd": 0.000576,
+      "macd_signal": 0.000542,
+      "rsi14": 51.2,
+      "atr14": 0.00135,
+      "atr14_hourly": 0.00504,
+      "bb_position": 0.541
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.629,
+      "percentile": 0.619,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177823
+  "data_bars": 177835
 }
