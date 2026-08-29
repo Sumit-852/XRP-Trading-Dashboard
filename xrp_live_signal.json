@@ -1,27 +1,22 @@
 {
-  "timestamp": "2026-08-29T17:01:21.225077+00:00",
+  "timestamp": "2026-08-29T18:01:42.772703+00:00",
   "signal": {
-    "price": 1.2027,
+    "price": 1.2032,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.425,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.3712,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.013,
-      "bullish_pct": 38.3,
-      "bearish_pct": 35.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.164,
-        "crypto_macro": 0.046,
-        "geopolitical": -0.502,
-        "fed_rates": 0.214
-      },
-      "geo_shock": true,
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
-      ],
-      "top_bearish": [
-        "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
-        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.84,
-      "health": 0.094,
+      "up_down_ratio": 0.94,
+      "health": 0.3102,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.20143,
-      "ema200": 1.19861,
-      "macd": 0.000252,
-      "macd_signal": 0.00051,
-      "rsi14": 50.0,
-      "atr14": 0.00207,
-      "atr14_hourly": 0.00753,
-      "bb_position": 0.365
+      "ema50": 1.20133,
+      "ema200": 1.1989,
+      "macd": -0.000335,
+      "macd_signal": -0.00039,
+      "rsi14": 54.5,
+      "atr14": 0.0019,
+      "atr14_hourly": 0.00749,
+      "bb_position": 0.702
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +51,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.253,
+      "percentile": 0.235,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +88,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177919
+  "data_bars": 177931
 }
