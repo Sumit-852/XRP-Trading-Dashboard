@@ -1,20 +1,70 @@
 {
-  "timestamp": "2026-08-29T00:01:19.403535+00:00",
+  "timestamp": "2026-08-29T01:01:21.948185+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 1.1951,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 1.1928,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.4894,
+    "hybrid_score": 4.9,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "action": "HOLD",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.011,
+      "bullish_pct": 33.3,
+      "bearish_pct": 33.3,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.084,
+        "crypto_macro": 0.1,
+        "geopolitical": -0.458,
+        "fed_rates": 0.088
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
+        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
+        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk"
+      ],
+      "top_bearish": [
+        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
+        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate",
+        "With the US and Canada locked in a trade war, fears of a recession lurk - Al Jazeera"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.9,
+      "health": 0.1258,
+      "vol_ratio": 0.01
+    },
+    "technicals": {
+      "ema50": 1.19365,
+      "ema200": 1.20359,
+      "macd": 0.000425,
+      "macd_signal": 0.000985,
+      "rsi14": 45.2,
+      "atr14": 0.00157,
+      "atr14_hourly": 0.00697,
+      "bb_position": 0.247
+    },
+    "trade_feedback": {
+      "loss_streak": 3,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.69,
       "extreme": false
     }
   },
@@ -51,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177715
+  "data_bars": 177727
 }
