@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-29T06:01:24.622020+00:00",
+  "timestamp": "2026-08-29T07:01:15.827236+00:00",
   "signal": {
-    "price": 1.1977,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4676,
-    "hybrid_score": 4.8,
-    "regime": "BEARISH",
+    "price": 1.1922,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5157,
+    "hybrid_score": 5.1,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.046,
-      "bullish_pct": 31.7,
-      "bearish_pct": 40.0,
+      "score": -0.024,
+      "bullish_pct": 33.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.004,
-        "crypto_macro": 0.111,
-        "geopolitical": -0.501,
-        "fed_rates": 0.1
+        "xrp": 0.039,
+        "crypto_macro": 0.154,
+        "geopolitical": -0.515,
+        "fed_rates": 0.08
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish - Decrypt"
       ],
       "top_bearish": [
-        "Why Are Bitcoin, Ethereum and XRP Prices Crashing Today? - TradingView",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate"
+        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate",
+        "Detroit despairs as \u2018insanity\u2019 of Trump\u2019s Canada trade war punishes city - The Guardian"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.9,
-      "health": 0.0085,
+      "up_down_ratio": 0.84,
+      "health": -0.087,
       "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.19526,
-      "ema200": 1.19947,
-      "macd": 0.001494,
-      "macd_signal": 0.001474,
-      "rsi14": 55.0,
-      "atr14": 0.00174,
-      "atr14_hourly": 0.00693,
-      "bb_position": 0.591
+      "ema50": 1.19392,
+      "ema200": 1.19859,
+      "macd": -0.000873,
+      "macd_signal": -0.000649,
+      "rsi14": 43.5,
+      "atr14": 0.00165,
+      "atr14_hourly": 0.00941,
+      "bb_position": 0.341
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.634,
+      "percentile": 0.637,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177787
+  "data_bars": 177799
 }
