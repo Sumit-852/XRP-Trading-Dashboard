@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-29T05:01:20.450260+00:00",
+  "timestamp": "2026-08-29T06:01:24.622020+00:00",
   "signal": {
-    "price": 1.1961,
+    "price": 1.1977,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4503,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4676,
+    "hybrid_score": 4.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.048,
+      "score": -0.046,
       "bullish_pct": 31.7,
-      "bearish_pct": 36.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.0,
-        "crypto_macro": 0.094,
-        "geopolitical": -0.51,
-        "fed_rates": 0.13
+        "xrp": -0.004,
+        "crypto_macro": 0.111,
+        "geopolitical": -0.501,
+        "fed_rates": 0.1
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin price extends gains, briefly tops $81,000 as crypto rally gathers pace - CNBC",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk"
+        "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
+        "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months - Yahoo Finance",
+        "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish - Decrypt"
       ],
       "top_bearish": [
         "Why Are Bitcoin, Ethereum and XRP Prices Crashing Today? - TradingView",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": 0.0184,
-      "vol_ratio": 0.11
+      "up_down_ratio": 0.9,
+      "health": 0.0085,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.19318,
-      "ema200": 1.19957,
-      "macd": 0.000511,
-      "macd_signal": -3.7e-05,
-      "rsi14": 63.5,
-      "atr14": 0.00159,
-      "atr14_hourly": 0.00529,
-      "bb_position": 1.03
+      "ema50": 1.19526,
+      "ema200": 1.19947,
+      "macd": 0.001494,
+      "macd_signal": 0.001474,
+      "rsi14": 55.0,
+      "atr14": 0.00174,
+      "atr14_hourly": 0.00693,
+      "bb_position": 0.591
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.636,
+      "percentile": 0.634,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177775
+  "data_bars": 177787
 }
