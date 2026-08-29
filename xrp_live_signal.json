@@ -1,22 +1,27 @@
 {
-  "timestamp": "2026-08-29T18:01:42.772703+00:00",
+  "timestamp": "2026-08-29T19:01:26.208650+00:00",
   "signal": {
-    "price": 1.2032,
+    "price": 1.2042,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3712,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3296,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
-      "geo_shock": false,
+      "sentiment": "NEUTRAL",
+      "score": 0.029,
+      "bullish_pct": 41.7,
+      "bearish_pct": 36.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.171,
+        "crypto_macro": 0.141,
+        "geopolitical": -0.53,
+        "fed_rates": 0.151
+      },
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
+        "Bitcoin ETF inflows snap after $3 billion streak as ETH, XRP and Solana keep buying - CryptoSlate",
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance"
+      ],
+      "top_bearish": [
+        "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
+        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
+        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.94,
-      "health": 0.3102,
+      "up_down_ratio": 0.92,
+      "health": 0.2621,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.20133,
-      "ema200": 1.1989,
-      "macd": -0.000335,
-      "macd_signal": -0.00039,
-      "rsi14": 54.5,
-      "atr14": 0.0019,
-      "atr14_hourly": 0.00749,
-      "bb_position": 0.702
+      "ema50": 1.20234,
+      "ema200": 1.19947,
+      "macd": 0.000786,
+      "macd_signal": 0.000505,
+      "rsi14": 54.1,
+      "atr14": 0.00167,
+      "atr14_hourly": 0.007,
+      "bb_position": 0.687
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.235,
+      "percentile": 0.18,
       "extreme": false
     }
   },
@@ -88,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 177931
+  "data_bars": 177943
 }
