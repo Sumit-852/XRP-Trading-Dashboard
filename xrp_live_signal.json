@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-08-30T03:01:20.046220+00:00",
+  "timestamp": "2026-08-30T04:01:18.275126+00:00",
   "signal": {
-    "price": 1.2039,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 1.2032,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2676,
-    "hybrid_score": 3.7,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "BULLISH",
-      "score": 0.127,
-      "bullish_pct": 48.3,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.197,
-        "crypto_macro": 0.29,
-        "geopolitical": -0.243,
-        "fed_rates": 0.089
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Mastercard\u2019s XRP Ledger Deal Is One of Eight Chains \u2014 So What Is XRPL Actually Winning? - FinanceFeeds",
-        "Bitcoin ETF inflows snap after $3 billion streak as ETH, XRP and Solana keep buying - CryptoSlate",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance"
-      ],
-      "top_bearish": [
-        "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
-        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push - CryptoSlate"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": 0.2343,
-      "vol_ratio": 0.01
-    },
-    "technicals": {
-      "ema50": 1.20405,
-      "ema200": 1.20268,
-      "macd": 0.000208,
-      "macd_signal": -2.4e-05,
-      "rsi14": 50.0,
-      "atr14": 0.00133,
-      "atr14_hourly": 0.00487,
-      "bb_position": 0.626
-    },
-    "trade_feedback": {
-      "loss_streak": 3,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.097,
-      "extreme": true
+      "percentile": 0.5,
+      "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +51,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178039
+  "data_bars": 178051
 }
