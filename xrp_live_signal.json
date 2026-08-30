@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-30T10:01:30.753591+00:00",
+  "timestamp": "2026-08-30T11:01:24.269063+00:00",
   "signal": {
-    "price": 1.198,
+    "price": 1.2003,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3425,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.2837,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.004,
-      "bullish_pct": 35.0,
-      "bearish_pct": 40.0,
+      "score": -0.005,
+      "bullish_pct": 33.3,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.026,
-        "crypto_macro": 0.158,
-        "geopolitical": -0.26,
-        "fed_rates": 0.042
+        "xrp": 0.107,
+        "crypto_macro": 0.061,
+        "geopolitical": -0.362,
+        "fed_rates": 0.028
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance",
-        "Bitcoin ETF inflows snap after $3 billion streak as ETH, XRP and Solana keep buying - CryptoSlate",
+        "What Happens to Bitcoin, Ethereum and XRP if the CLARITY Act Passes? - TradingView",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
         "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
-        "Ripple CEO Says Companies Cutting Jobs And Blaming AI Were \u2018Bloated\u2019 Before The Hype - Stocktwits",
-        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool"
+        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
+        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.03,
-      "health": -0.1792,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.89,
+      "health": -0.3202,
+      "vol_ratio": 0.26
     },
     "technicals": {
-      "ema50": 1.20219,
-      "ema200": 1.2031,
-      "macd": -0.001784,
-      "macd_signal": -0.001628,
-      "rsi14": 35.7,
-      "atr14": 0.00138,
-      "atr14_hourly": 0.00632,
-      "bb_position": 0.247
+      "ema50": 1.20114,
+      "ema200": 1.20267,
+      "macd": -0.000282,
+      "macd_signal": -0.000752,
+      "rsi14": 51.3,
+      "atr14": 0.00143,
+      "atr14_hourly": 0.0062,
+      "bb_position": 0.792
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.079,
+      "percentile": 0.08,
       "extreme": true
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178123
+  "data_bars": 178135
 }
