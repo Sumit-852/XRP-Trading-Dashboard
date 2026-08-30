@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-30T18:01:25.542261+00:00",
+  "timestamp": "2026-08-30T19:01:28.546656+00:00",
   "signal": {
-    "price": 1.2253,
+    "price": 1.229,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4255,
+    "xgb_prob": 0.4323,
     "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,17 +11,17 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.007,
-      "bullish_pct": 35.0,
+      "score": 0.035,
+      "bullish_pct": 36.7,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.168,
-        "crypto_macro": 0.039,
-        "geopolitical": -0.442,
-        "fed_rates": 0.103
+        "xrp": 0.16,
+        "crypto_macro": 0.045,
+        "geopolitical": -0.259,
+        "fed_rates": 0.071
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple News: XRP Surges 46% Versus BTC\u2019s 21% As Expert Points to New Institutional Investor Class - TradingView",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
         "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's"
       ],
       "top_bearish": [
-        "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool"
+        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool",
+        "Ontario's premier says trade war would be 'devastating' for US and Canada - ABC News - Breaking News, Latest News and Vi"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": 0.0317,
-      "vol_ratio": 0.69
+      "up_down_ratio": 1.03,
+      "health": 0.1543,
+      "vol_ratio": 0.26
     },
     "technicals": {
-      "ema50": 1.21747,
-      "ema200": 1.20911,
-      "macd": 0.002625,
-      "macd_signal": 0.002892,
-      "rsi14": 58.3,
-      "atr14": 0.00341,
-      "atr14_hourly": 0.0145,
-      "bb_position": 0.649
+      "ema50": 1.22208,
+      "ema200": 1.2114,
+      "macd": 0.002946,
+      "macd_signal": 0.003138,
+      "rsi14": 55.1,
+      "atr14": 0.00331,
+      "atr14_hourly": 0.01558,
+      "bb_position": 0.601
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.187,
+      "percentile": 0.245,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178219
+  "data_bars": 178231
 }
