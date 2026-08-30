@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-30T12:01:24.366341+00:00",
+  "timestamp": "2026-08-30T13:01:15.186264+00:00",
   "signal": {
-    "price": 1.2022,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3358,
-    "hybrid_score": 2.8,
-    "regime": "BEARISH",
+    "price": 1.2094,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5311,
+    "hybrid_score": 5.2,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.008,
-      "bullish_pct": 31.7,
+      "score": -0.04,
+      "bullish_pct": 33.3,
       "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.107,
-        "crypto_macro": 0.073,
-        "geopolitical": -0.378,
-        "fed_rates": 0.002
+        "xrp": 0.066,
+        "crypto_macro": -0.013,
+        "geopolitical": -0.34,
+        "fed_rates": 0.013
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance",
-        "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish - Decrypt",
-        "What Happens to Bitcoin, Ethereum and XRP if the CLARITY Act Passes? - TradingView"
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance",
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
-        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool"
+        "Bitcoin Price Correction: Why BTC Stalled Dead at $78,000 Again - CryptoTicker",
+        "Ripple CEO Says Companies Cutting Jobs And Blaming AI Were \u2018Bloated\u2019 Before The Hype - Stocktwits"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": -0.4218,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.98,
+      "health": -0.2546,
+      "vol_ratio": 1.49
     },
     "technicals": {
-      "ema50": 1.20116,
-      "ema200": 1.20251,
-      "macd": 0.0003,
-      "macd_signal": 0.000137,
-      "rsi14": 57.8,
-      "atr14": 0.00133,
-      "atr14_hourly": 0.00464,
-      "bb_position": 0.898
+      "ema50": 1.20391,
+      "ema200": 1.20316,
+      "macd": 0.002301,
+      "macd_signal": 0.001902,
+      "rsi14": 61.7,
+      "atr14": 0.00209,
+      "atr14_hourly": 0.00783,
+      "bb_position": 0.772
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.081,
+      "percentile": 0.099,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178147
+  "data_bars": 178159
 }
