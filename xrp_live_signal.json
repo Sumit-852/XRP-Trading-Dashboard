@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-30T16:01:23.148965+00:00",
+  "timestamp": "2026-08-30T17:01:12.248698+00:00",
   "signal": {
-    "price": 1.2072,
+    "price": 1.2259,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4003,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.4849,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.016,
-      "bullish_pct": 31.7,
-      "bearish_pct": 38.3,
+      "score": 0.023,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.13,
-        "crypto_macro": 0.005,
-        "geopolitical": -0.39,
-        "fed_rates": 0.046
+        "xrp": 0.178,
+        "crypto_macro": 0.084,
+        "geopolitical": -0.435,
+        "fed_rates": 0.085
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance"
+        "Ripple relies on locked XRP reserves to back a $275 million institutional credit line - CryptoSlate"
       ],
       "top_bearish": [
         "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
-        "Bitcoin Price Correction: Why BTC Stalled Dead at $78,000 Again - CryptoTicker",
-        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool"
+        "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
+        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": -0.0094,
-      "vol_ratio": 0.09
+      "up_down_ratio": 0.94,
+      "health": 0.1146,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 1.20923,
-      "ema200": 1.20562,
-      "macd": -0.000859,
-      "macd_signal": -0.000311,
-      "rsi14": 40.2,
-      "atr14": 0.00193,
-      "atr14_hourly": 0.00903,
-      "bb_position": 0.14
+      "ema50": 1.21333,
+      "ema200": 1.20719,
+      "macd": 0.003751,
+      "macd_signal": 0.002265,
+      "rsi14": 68.5,
+      "atr14": 0.0034,
+      "atr14_hourly": 0.01292,
+      "bb_position": 0.912
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,8 +64,8 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.097,
-      "extreme": true
+      "percentile": 0.146,
+      "extreme": false
     }
   },
   "trade": {
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178195
+  "data_bars": 178207
 }
