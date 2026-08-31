@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-08-31T06:01:28.336584+00:00",
+  "timestamp": "2026-08-31T07:01:28.571925+00:00",
   "signal": {
-    "price": 1.1767,
+    "price": 1.1788,
     "xgb_pred": "UP",
-    "xgb_prob": 0.507,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.5225,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.007,
-      "bullish_pct": 31.7,
-      "bearish_pct": 35.0,
+      "score": 0.083,
+      "bullish_pct": 36.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.163,
-        "crypto_macro": -0.009,
-        "geopolitical": -0.326,
-        "fed_rates": 0.069
+        "xrp": 0.196,
+        "crypto_macro": 0.166,
+        "geopolitical": -0.246,
+        "fed_rates": 0.043
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool",
-        "Crypto Fundamental Analysis: Jackson Hole's Hawkish Tone Puts Pressure on the Market - FOREX.com"
+        "Wintermute-Linked Wallets Move $399M in Bitcoin to Binance, Fueling Sell-Off Speculation - CryptoRank",
+        "US and Iran trade attacks, marking first major military escalation in a month - CNN"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.72,
-      "health": 0.1364,
-      "vol_ratio": 0.15
+      "health": 0.1291,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 1.17154,
-      "ema200": 1.18701,
-      "macd": 0.003106,
-      "macd_signal": 0.002717,
-      "rsi14": 61.5,
-      "atr14": 0.00285,
-      "atr14_hourly": 0.01408,
-      "bb_position": 0.694
+      "ema50": 1.17396,
+      "ema200": 1.18597,
+      "macd": 0.001961,
+      "macd_signal": 0.002276,
+      "rsi14": 58.0,
+      "atr14": 0.00257,
+      "atr14_hourly": 0.01002,
+      "bb_position": 0.741
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.6,
+      "percentile": 0.608,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178363
+  "data_bars": 178375
 }
