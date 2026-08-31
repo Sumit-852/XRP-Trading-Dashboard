@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-31T20:01:22.683038+00:00",
+  "timestamp": "2026-08-31T21:01:18.851811+00:00",
   "signal": {
-    "price": 1.1946,
+    "price": 1.1939,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4796,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.4694,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.052,
-      "bullish_pct": 31.7,
+      "score": 0.023,
+      "bullish_pct": 26.7,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.216,
-        "crypto_macro": 0.061,
-        "geopolitical": -0.344,
+        "xrp": 0.138,
+        "crypto_macro": 0.103,
+        "geopolitical": -0.407,
         "fed_rates": 0.117
       },
       "geo_shock": true,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - CCN.com",
-        "XRP price holds $1.35 as ETF inflows reach $110M - Crypto News",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance"
       ],
       "top_bearish": [
-        "Bitcoin Crashes Below $78K as US-Iran Conflict Erupts \u2014 But Another Major Seller May Be Fueling the Drop - Bitcoin Found",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
+        "XRP Faces $1.55 Resistance as Ripple Prepares XRPL for Quantum Threat - benzinga.com",
         "The US and Iran Trade Strikes Over the Strait; the Lake Ontario Battle Escalates; a Lawsuit Says Trump\u2019s Freedom Fuel So"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.18,
-      "health": 0.4187,
+      "up_down_ratio": 1.14,
+      "health": 0.3349,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.19075,
-      "ema200": 1.18598,
-      "macd": 0.001281,
-      "macd_signal": 0.001792,
-      "rsi14": 52.6,
-      "atr14": 0.00321,
-      "atr14_hourly": 0.01082,
-      "bb_position": 0.439
+      "ema50": 1.19222,
+      "ema200": 1.18697,
+      "macd": 0.00024,
+      "macd_signal": 0.000619,
+      "rsi14": 49.6,
+      "atr14": 0.00271,
+      "atr14_hourly": 0.00945,
+      "bb_position": 0.346
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.667,
+      "percentile": 0.653,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178531
+  "data_bars": 178543
 }
