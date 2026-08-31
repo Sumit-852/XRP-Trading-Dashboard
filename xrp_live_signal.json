@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-31T12:01:28.074085+00:00",
+  "timestamp": "2026-08-31T13:01:22.508039+00:00",
   "signal": {
-    "price": 1.1813,
+    "price": 1.1757,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5956,
-    "hybrid_score": 4.3,
-    "regime": "BULLISH",
+    "xgb_prob": 0.6217,
+    "hybrid_score": 5.7,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.012,
+      "score": 0.014,
       "bullish_pct": 26.7,
-      "bearish_pct": 40.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.114,
-        "crypto_macro": 0.097,
-        "geopolitical": -0.536,
-        "fed_rates": 0.11
+        "xrp": 0.212,
+        "crypto_macro": 0.055,
+        "geopolitical": -0.491,
+        "fed_rates": 0.068
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - CCN.com",
         "Ripple Lawyer Says CLARITY Act Could Boost U.S. Jobs as Crucial Senate Vote Nears - Bitcoin Foundation",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
-        "Bitcoin price gains 24% in best August since 2017 - Crypto News"
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
       ],
       "top_bearish": [
         "Bitcoin Crashes Below $78K as US-Iran Conflict Erupts \u2014 But Another Major Seller May Be Fueling the Drop - Bitcoin Found",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": -0.0333,
-      "vol_ratio": 0.04
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.74,
+      "health": -0.043,
+      "vol_ratio": 1.67
     },
     "technicals": {
-      "ema50": 1.18386,
-      "ema200": 1.18513,
-      "macd": -0.000426,
-      "macd_signal": 0.000577,
-      "rsi14": 37.9,
-      "atr14": 0.00216,
-      "atr14_hourly": 0.01017,
-      "bb_position": 0.114
+      "ema50": 1.18209,
+      "ema200": 1.18452,
+      "macd": -0.002999,
+      "macd_signal": -0.001836,
+      "rsi14": 38.5,
+      "atr14": 0.00329,
+      "atr14_hourly": 0.01223,
+      "bb_position": 0.223
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.64,
+      "percentile": 0.655,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178435
+  "data_bars": 178447
 }
