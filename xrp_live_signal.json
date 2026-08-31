@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-31T16:01:24.100878+00:00",
+  "timestamp": "2026-08-31T17:01:31.114438+00:00",
   "signal": {
-    "price": 1.1812,
+    "price": 1.1848,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5553,
-    "hybrid_score": 5.3,
+    "xgb_prob": 0.5331,
+    "hybrid_score": 5.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
-      "bullish_pct": 26.7,
+      "score": 0.025,
+      "bullish_pct": 28.3,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.219,
-        "crypto_macro": -0.024,
-        "geopolitical": -0.431,
-        "fed_rates": 0.099
+        "crypto_macro": -0.021,
+        "geopolitical": -0.372,
+        "fed_rates": 0.13
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin Crashes Below $78K as US-Iran Conflict Erupts \u2014 But Another Major Seller May Be Fueling the Drop - Bitcoin Found",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Trump\u2019s trade war with Canada is reckless, pointless and dangerous - Michigan Advance"
+        "US, Iran trade strikes as fears of renewed war grow - NewsNation"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.81,
-      "health": 0.0841,
-      "vol_ratio": 0.05
+      "up_down_ratio": 0.96,
+      "health": 0.2974,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.18064,
-      "ema200": 1.18302,
-      "macd": 0.00087,
-      "macd_signal": 0.000813,
-      "rsi14": 50.7,
-      "atr14": 0.00411,
-      "atr14_hourly": 0.01436,
-      "bb_position": 0.481
+      "ema50": 1.18169,
+      "ema200": 1.18304,
+      "macd": 0.001315,
+      "macd_signal": 0.000999,
+      "rsi14": 54.5,
+      "atr14": 0.00385,
+      "atr14_hourly": 0.0121,
+      "bb_position": 0.702
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.681,
+      "percentile": 0.672,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178483
+  "data_bars": 178495
 }
