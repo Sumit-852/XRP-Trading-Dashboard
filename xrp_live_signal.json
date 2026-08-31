@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-31T04:01:21.633709+00:00",
+  "timestamp": "2026-08-31T05:01:27.551378+00:00",
   "signal": {
-    "price": 1.168,
+    "price": 1.1652,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4891,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.4331,
+    "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.018,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": 0.033,
+      "bullish_pct": 36.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.133,
-        "crypto_macro": -0.056,
-        "geopolitical": -0.345,
-        "fed_rates": 0.087
+        "xrp": 0.195,
+        "crypto_macro": 0.053,
+        "geopolitical": -0.349,
+        "fed_rates": 0.069
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC pauses, ETH faces $2,500 resistance, XRP holds 200-day EMA key s",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
-        "Better Buy: XRP (Ripple) vs. Bitcoin - Yahoo Finance"
+        "Crypto Technical Analysis Is the Strength of the Bullish Momentum Fading - stonex.com",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC pauses, ETH faces $2,500 resistance, XRP holds 200-day EMA key s"
       ],
       "top_bearish": [
-        "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool"
+        "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool",
+        "Ontario's premier says trade war would be 'devastating' for US and Canada - ABC News - Breaking News, Latest News and Vi"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.65,
-      "health": -0.125,
-      "vol_ratio": 0.37
+      "up_down_ratio": 0.66,
+      "health": 0.0597,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.17087,
-      "ema200": 1.19142,
-      "macd": 0.000197,
-      "macd_signal": -0.000708,
-      "rsi14": 52.4,
-      "atr14": 0.00273,
-      "atr14_hourly": 0.01366,
-      "bb_position": 0.715
+      "ema50": 1.16836,
+      "ema200": 1.18833,
+      "macd": -0.000251,
+      "macd_signal": -0.000533,
+      "rsi14": 49.3,
+      "atr14": 0.00264,
+      "atr14_hourly": 0.01095,
+      "bb_position": 0.468
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.568,
+      "percentile": 0.573,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178339
+  "data_bars": 178351
 }
