@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-31T07:01:28.571925+00:00",
+  "timestamp": "2026-08-31T08:01:29.479071+00:00",
   "signal": {
-    "price": 1.1788,
+    "price": 1.1829,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5225,
+    "xgb_prob": 0.5256,
     "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,17 +11,17 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.083,
-      "bullish_pct": 36.7,
-      "bearish_pct": 28.3,
+      "score": 0.028,
+      "bullish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.196,
-        "crypto_macro": 0.166,
-        "geopolitical": -0.246,
+        "xrp": 0.163,
+        "crypto_macro": 0.062,
+        "geopolitical": -0.307,
         "fed_rates": 0.043
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC pauses, ETH faces $2,500 resistance, XRP holds 200-day EMA key s"
       ],
       "top_bearish": [
+        "Bitcoin Crashes Below $78K as US-Iran Conflict Erupts \u2014 But Another Major Seller May Be Fueling the Drop - Bitcoin Found",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "Wintermute-Linked Wallets Move $399M in Bitcoin to Binance, Fueling Sell-Off Speculation - CryptoRank",
-        "US and Iran trade attacks, marking first major military escalation in a month - CNN"
+        "Crypto Fundamental Analysis: Jackson Hole's Hawkish Tone Puts Pressure on the Market - FOREX.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.72,
-      "health": 0.1291,
-      "vol_ratio": 0.13
+      "up_down_ratio": 0.77,
+      "health": 0.2162,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 1.17396,
-      "ema200": 1.18597,
-      "macd": 0.001961,
-      "macd_signal": 0.002276,
-      "rsi14": 58.0,
-      "atr14": 0.00257,
-      "atr14_hourly": 0.01002,
-      "bb_position": 0.741
+      "ema50": 1.17675,
+      "ema200": 1.18543,
+      "macd": 0.002053,
+      "macd_signal": 0.002023,
+      "rsi14": 61.8,
+      "atr14": 0.00224,
+      "atr14_hourly": 0.00814,
+      "bb_position": 0.87
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.608,
+      "percentile": 0.609,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178375
+  "data_bars": 178387
 }
