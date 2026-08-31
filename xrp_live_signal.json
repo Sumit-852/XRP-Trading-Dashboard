@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-31T17:01:31.114438+00:00",
+  "timestamp": "2026-08-31T18:01:33.328695+00:00",
   "signal": {
-    "price": 1.1848,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5331,
-    "hybrid_score": 5.2,
+    "price": 1.191,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.476,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.025,
-      "bullish_pct": 28.3,
-      "bearish_pct": 35.0,
+      "score": 0.033,
+      "bullish_pct": 26.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.219,
-        "crypto_macro": -0.021,
-        "geopolitical": -0.372,
-        "fed_rates": 0.13
+        "crypto_macro": 0.054,
+        "geopolitical": -0.413,
+        "fed_rates": 0.084
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin Crashes Below $78K as US-Iran Conflict Erupts \u2014 But Another Major Seller May Be Fueling the Drop - Bitcoin Found",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "US, Iran trade strikes as fears of renewed war grow - NewsNation"
+        "The US and Iran Trade Strikes Over the Strait; the Lake Ontario Battle Escalates; a Lawsuit Says Trump\u2019s Freedom Fuel So"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": 0.2974,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.97,
+      "health": 0.248,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.18169,
-      "ema200": 1.18304,
-      "macd": 0.001315,
-      "macd_signal": 0.000999,
-      "rsi14": 54.5,
-      "atr14": 0.00385,
-      "atr14_hourly": 0.0121,
-      "bb_position": 0.702
+      "ema50": 1.18435,
+      "ema200": 1.18365,
+      "macd": 0.002573,
+      "macd_signal": 0.001987,
+      "rsi14": 60.0,
+      "atr14": 0.00348,
+      "atr14_hourly": 0.01207,
+      "bb_position": 0.792
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.672,
+      "percentile": 0.666,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178495
+  "data_bars": 178507
 }
