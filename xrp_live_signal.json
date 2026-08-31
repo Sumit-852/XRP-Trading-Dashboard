@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-31T11:01:31.770678+00:00",
+  "timestamp": "2026-08-31T12:01:28.074085+00:00",
   "signal": {
-    "price": 1.1908,
+    "price": 1.1813,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5567,
-    "hybrid_score": 5.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.5956,
+    "hybrid_score": 4.3,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.023,
-      "bullish_pct": 23.3,
-      "bearish_pct": 43.3,
+      "score": -0.012,
+      "bullish_pct": 26.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.114,
-        "crypto_macro": 0.039,
-        "geopolitical": -0.427,
-        "fed_rates": 0.014
+        "crypto_macro": 0.097,
+        "geopolitical": -0.536,
+        "fed_rates": 0.11
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin Crashes Below $78K as US-Iran Conflict Erupts \u2014 But Another Major Seller May Be Fueling the Drop - Bitcoin Found",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "He Lost His Bitcoin in a 2014 Exchange Collapse \u2014 12 Years Later, He's Worth $4.47 Million - Benzinga"
+        "Trump\u2019s trade war with Canada is reckless, pointless and dangerous - Michigan Advance"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.77,
-      "health": 0.0722,
-      "vol_ratio": 1.21
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.72,
+      "health": -0.0333,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.18283,
-      "ema200": 1.18504,
-      "macd": 0.001875,
-      "macd_signal": 0.001061,
-      "rsi14": 65.5,
-      "atr14": 0.0027,
-      "atr14_hourly": 0.01029,
-      "bb_position": 0.946
+      "ema50": 1.18386,
+      "ema200": 1.18513,
+      "macd": -0.000426,
+      "macd_signal": 0.000577,
+      "rsi14": 37.9,
+      "atr14": 0.00216,
+      "atr14_hourly": 0.01017,
+      "bb_position": 0.114
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.641,
+      "percentile": 0.64,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178423
+  "data_bars": 178435
 }
