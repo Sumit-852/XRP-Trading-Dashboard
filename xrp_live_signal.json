@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-31T05:01:27.551378+00:00",
+  "timestamp": "2026-08-31T06:01:28.336584+00:00",
   "signal": {
-    "price": 1.1652,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4331,
-    "hybrid_score": 3.4,
+    "price": 1.1767,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.507,
+    "hybrid_score": 5.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.033,
-      "bullish_pct": 36.7,
-      "bearish_pct": 31.7,
+      "score": 0.007,
+      "bullish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.195,
-        "crypto_macro": 0.053,
-        "geopolitical": -0.349,
+        "xrp": 0.163,
+        "crypto_macro": -0.009,
+        "geopolitical": -0.326,
         "fed_rates": 0.069
       },
       "geo_shock": true,
@@ -37,24 +37,24 @@
       "top_bearish": [
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
         "Can Bitcoin Reach $1 Million by 2030? One Crypto Leader Is Skeptical. - The Motley Fool",
-        "Ontario's premier says trade war would be 'devastating' for US and Canada - ABC News - Breaking News, Latest News and Vi"
+        "Crypto Fundamental Analysis: Jackson Hole's Hawkish Tone Puts Pressure on the Market - FOREX.com"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.66,
-      "health": 0.0597,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.72,
+      "health": 0.1364,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 1.16836,
-      "ema200": 1.18833,
-      "macd": -0.000251,
-      "macd_signal": -0.000533,
-      "rsi14": 49.3,
-      "atr14": 0.00264,
-      "atr14_hourly": 0.01095,
-      "bb_position": 0.468
+      "ema50": 1.17154,
+      "ema200": 1.18701,
+      "macd": 0.003106,
+      "macd_signal": 0.002717,
+      "rsi14": 61.5,
+      "atr14": 0.00285,
+      "atr14_hourly": 0.01408,
+      "bb_position": 0.694
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.573,
+      "percentile": 0.6,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178351
+  "data_bars": 178363
 }
