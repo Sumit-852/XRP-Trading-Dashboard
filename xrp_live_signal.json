@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-31T03:01:21.958345+00:00",
+  "timestamp": "2026-08-31T04:01:21.633709+00:00",
   "signal": {
-    "price": 1.1605,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5998,
-    "hybrid_score": 5.6,
+    "price": 1.168,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4891,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.007,
+      "score": -0.018,
       "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.186,
-        "crypto_macro": -0.088,
-        "geopolitical": -0.34,
+        "xrp": 0.133,
+        "crypto_macro": -0.056,
+        "geopolitical": -0.345,
         "fed_rates": 0.087
       },
       "geo_shock": true,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC pauses, ETH faces $2,500 resistance, XRP holds 200-day EMA key s",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
-        "Bitcoin, Ethereum, XRP Prices Fall as Crypto Surge Halts\u2014Where They Go Next - Barron's",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
+        "Better Buy: XRP (Ripple) vs. Bitcoin - Yahoo Finance"
       ],
       "top_bearish": [
         "Taliban Declare War on Bitcoin: Crypto Banned in Afghanistan as a \u201cScam\u201d - Bitcoin Foundation",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.64,
-      "health": -0.1361,
-      "vol_ratio": 0.04
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.65,
+      "health": -0.125,
+      "vol_ratio": 0.37
     },
     "technicals": {
-      "ema50": 1.17316,
-      "ema200": 1.19453,
-      "macd": -0.003116,
-      "macd_signal": -0.003284,
-      "rsi14": 38.5,
-      "atr14": 0.00366,
-      "atr14_hourly": 0.01769,
-      "bb_position": 0.251
+      "ema50": 1.17087,
+      "ema200": 1.19142,
+      "macd": 0.000197,
+      "macd_signal": -0.000708,
+      "rsi14": 52.4,
+      "atr14": 0.00273,
+      "atr14_hourly": 0.01366,
+      "bb_position": 0.715
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.559,
+      "percentile": 0.568,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178327
+  "data_bars": 178339
 }
