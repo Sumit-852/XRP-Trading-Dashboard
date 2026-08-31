@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-08-31T19:01:26.269908+00:00",
+  "timestamp": "2026-08-31T20:01:22.683038+00:00",
   "signal": {
-    "price": 1.1941,
+    "price": 1.1946,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4917,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.4796,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.038,
-      "bullish_pct": 28.3,
-      "bearish_pct": 36.7,
+      "score": 0.052,
+      "bullish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.219,
-        "crypto_macro": 0.054,
-        "geopolitical": -0.413,
+        "xrp": 0.216,
+        "crypto_macro": 0.061,
+        "geopolitical": -0.344,
         "fed_rates": 0.117
       },
       "geo_shock": true,
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - CCN.com",
-        "Ripple Lawyer Says CLARITY Act Could Boost U.S. Jobs as Crucial Senate Vote Nears - Bitcoin Foundation",
+        "XRP price holds $1.35 as ETF inflows reach $110M - Crypto News",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": 0.3277,
-      "vol_ratio": 0.14
+      "up_down_ratio": 1.18,
+      "health": 0.4187,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.18796,
-      "ema200": 1.18478,
-      "macd": 0.002544,
-      "macd_signal": 0.002659,
-      "rsi14": 55.4,
-      "atr14": 0.00362,
-      "atr14_hourly": 0.01279,
-      "bb_position": 0.636
+      "ema50": 1.19075,
+      "ema200": 1.18598,
+      "macd": 0.001281,
+      "macd_signal": 0.001792,
+      "rsi14": 52.6,
+      "atr14": 0.00321,
+      "atr14_hourly": 0.01082,
+      "bb_position": 0.439
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178519
+  "data_bars": 178531
 }
