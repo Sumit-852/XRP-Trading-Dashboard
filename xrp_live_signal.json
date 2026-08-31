@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-08-31T10:01:29.550223+00:00",
+  "timestamp": "2026-08-31T11:01:31.770678+00:00",
   "signal": {
-    "price": 1.1817,
+    "price": 1.1908,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5161,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.5567,
+    "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.024,
-      "bullish_pct": 28.3,
-      "bearish_pct": 36.7,
+      "score": -0.023,
+      "bullish_pct": 23.3,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.158,
-        "crypto_macro": 0.108,
-        "geopolitical": -0.395,
-        "fed_rates": 0.043
+        "xrp": 0.114,
+        "crypto_macro": 0.039,
+        "geopolitical": -0.427,
+        "fed_rates": 0.014
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple Lawyer Says CLARITY Act Could Boost U.S. Jobs as Crucial Senate Vote Nears - Bitcoin Foundation",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance"
+        "Bitcoin price gains 24% in best August since 2017 - Crypto News"
       ],
       "top_bearish": [
         "Bitcoin Crashes Below $78K as US-Iran Conflict Erupts \u2014 But Another Major Seller May Be Fueling the Drop - Bitcoin Found",
         "SWIFT's New Blockchain Payment Solution Passes Key Milestone. Here's Why That's Bearish for XRP - The Motley Fool",
-        "US and Iran trade attacks, marking first major military escalation in a month - CNN"
+        "He Lost His Bitcoin in a 2014 Exchange Collapse \u2014 12 Years Later, He's Worth $4.47 Million - Benzinga"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.76,
-      "health": 0.1321,
-      "vol_ratio": 0.05
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.77,
+      "health": 0.0722,
+      "vol_ratio": 1.21
     },
     "technicals": {
-      "ema50": 1.18099,
-      "ema200": 1.18499,
-      "macd": 0.000806,
-      "macd_signal": 0.001329,
-      "rsi14": 46.6,
-      "atr14": 0.00272,
-      "atr14_hourly": 0.00896,
-      "bb_position": 0.258
+      "ema50": 1.18283,
+      "ema200": 1.18504,
+      "macd": 0.001875,
+      "macd_signal": 0.001061,
+      "rsi14": 65.5,
+      "atr14": 0.0027,
+      "atr14_hourly": 0.01029,
+      "bb_position": 0.946
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.634,
+      "percentile": 0.641,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178411
+  "data_bars": 178423
 }
