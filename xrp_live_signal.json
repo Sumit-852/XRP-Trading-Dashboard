@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T22:01:33.596462+00:00",
+  "timestamp": "2026-09-01T23:01:33.476688+00:00",
   "signal": {
-    "price": 1.1645,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.461,
-    "hybrid_score": 4.8,
+    "price": 1.1607,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5035,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.091,
-      "bullish_pct": 36.7,
-      "bearish_pct": 25.0,
+      "score": 0.057,
+      "bullish_pct": 33.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.279,
-        "crypto_macro": 0.109,
-        "geopolitical": -0.329,
-        "fed_rates": 0.111
+        "xrp": 0.217,
+        "crypto_macro": 0.166,
+        "geopolitical": -0.458,
+        "fed_rates": 0.083
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is XRP poised for a fresh breakout? - fxstreet.com",
-        "August Crypto Market Review and Outlook: Bitcoin Surge Above $80,000 Sparks Broad Crypto Rally, Fed Decision to Determin",
-        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga"
+        "Bitcoin, Ethereum & XRP Surge Over 25% in August\u2014Will the Rally Hold Until the End of Q3, 2026? - TradingView",
+        "XRP price targets $1.70 as Bitwise ETF tops $500M - cryptonews.net",
+        "August Crypto Market Review and Outlook: Bitcoin Surge Above $80,000 Sparks Broad Crypto Rally, Fed Decision to Determin"
       ],
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr",
-        "US and Iran Trade Strikes in Strait of Hormuz, Disrupting Month of Calm - localnewslive.com"
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
+        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.75,
-      "health": -0.0393,
-      "vol_ratio": 0.48
+      "up_down_ratio": 0.7,
+      "health": 0.0422,
+      "vol_ratio": 0.31
     },
     "technicals": {
-      "ema50": 1.16746,
-      "ema200": 1.17792,
-      "macd": -0.001465,
-      "macd_signal": -0.002006,
-      "rsi14": 50.0,
-      "atr14": 0.00305,
-      "atr14_hourly": 0.01396,
-      "bb_position": 0.61
+      "ema50": 1.16484,
+      "ema200": 1.17598,
+      "macd": -0.001471,
+      "macd_signal": -0.001567,
+      "rsi14": 46.7,
+      "atr14": 0.00365,
+      "atr14_hourly": 0.01738,
+      "bb_position": 0.434
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.491,
+      "percentile": 0.496,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178843
+  "data_bars": 178855
 }
