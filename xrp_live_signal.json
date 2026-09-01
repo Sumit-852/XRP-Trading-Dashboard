@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T16:01:34.593983+00:00",
+  "timestamp": "2026-09-01T17:01:34.420532+00:00",
   "signal": {
-    "price": 1.1867,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3682,
-    "hybrid_score": 3.0,
+    "price": 1.1801,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5426,
+    "hybrid_score": 5.4,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.117,
-      "bullish_pct": 41.7,
-      "bearish_pct": 26.7,
+      "score": 0.127,
+      "bullish_pct": 38.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.31,
-        "crypto_macro": 0.246,
-        "geopolitical": -0.534,
-        "fed_rates": 0.187
+        "crypto_macro": 0.238,
+        "geopolitical": -0.415,
+        "fed_rates": 0.125
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
         "U.S. and Iran trade strikes over Strait of Hormuz control - PBS",
-        "U.S. and Iran trade strikes over Strait of Hormuz control - Cascade PBS"
+        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": -0.2207,
-      "vol_ratio": 0.48
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.78,
+      "health": -0.2272,
+      "vol_ratio": 0.54
     },
     "technicals": {
-      "ema50": 1.18588,
-      "ema200": 1.18685,
-      "macd": 0.00087,
-      "macd_signal": 0.000481,
-      "rsi14": 51.0,
-      "atr14": 0.00276,
-      "atr14_hourly": 0.0136,
-      "bb_position": 0.507
+      "ema50": 1.18337,
+      "ema200": 1.18601,
+      "macd": -0.001827,
+      "macd_signal": -0.001581,
+      "rsi14": 45.8,
+      "atr14": 0.00315,
+      "atr14_hourly": 0.01527,
+      "bb_position": 0.363
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.464,
+      "percentile": 0.462,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178771
+  "data_bars": 178783
 }
