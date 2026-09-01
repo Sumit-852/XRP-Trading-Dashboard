@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T19:01:36.286219+00:00",
+  "timestamp": "2026-09-01T20:01:31.993352+00:00",
   "signal": {
-    "price": 1.1721,
+    "price": 1.1687,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5653,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.5599,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.107,
-      "bullish_pct": 38.3,
-      "bearish_pct": 28.3,
+      "score": 0.109,
+      "bullish_pct": 41.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.319,
+        "xrp": 0.284,
         "crypto_macro": 0.172,
-        "geopolitical": -0.444,
-        "fed_rates": 0.135
+        "geopolitical": -0.369,
+        "fed_rates": 0.141
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is XRP poised for a fresh breakout? - fxstreet.com",
+        "Is XRP poised for a fresh breakout? - FXStreet",
         "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga",
-        "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - finance.yahoo.com"
       ],
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran trade strikes over Strait of Hormuz control - Cascade PBS",
-        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr"
+        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr",
+        "US launches strikes on Iran following 'attempted attacks in Strait' - BBC"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.68,
-      "health": -0.1868,
-      "vol_ratio": 0.13
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.69,
+      "health": -0.0709,
+      "vol_ratio": 0.75
     },
     "technicals": {
-      "ema50": 1.17592,
-      "ema200": 1.18313,
-      "macd": -0.003737,
-      "macd_signal": -0.004118,
-      "rsi14": 50.0,
-      "atr14": 0.0041,
-      "atr14_hourly": 0.01774,
-      "bb_position": 0.511
+      "ema50": 1.17414,
+      "ema200": 1.1818,
+      "macd": -0.001058,
+      "macd_signal": -0.001288,
+      "rsi14": 44.6,
+      "atr14": 0.00341,
+      "atr14_hourly": 0.01694,
+      "bb_position": 0.506
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.456,
+      "percentile": 0.466,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178807
+  "data_bars": 178819
 }
