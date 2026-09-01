@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T21:01:30.569634+00:00",
+  "timestamp": "2026-09-01T22:01:33.596462+00:00",
   "signal": {
-    "price": 1.169,
+    "price": 1.1645,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4839,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.461,
+    "hybrid_score": 4.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.112,
-      "bullish_pct": 38.3,
-      "bearish_pct": 28.3,
+      "sentiment": "NEUTRAL",
+      "score": 0.091,
+      "bullish_pct": 36.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.306,
-        "crypto_macro": 0.213,
-        "geopolitical": -0.465,
-        "fed_rates": 0.144
+        "xrp": 0.279,
+        "crypto_macro": 0.109,
+        "geopolitical": -0.329,
+        "fed_rates": 0.111
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is XRP poised for a fresh breakout? - FXStreet",
+        "Is XRP poised for a fresh breakout? - fxstreet.com",
         "August Crypto Market Review and Outlook: Bitcoin Surge Above $80,000 Sparks Broad Crypto Rally, Fed Decision to Determin",
         "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga"
       ],
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
         "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr",
-        "US launches strikes on Iran following 'attempted attacks in Strait' - BBC"
+        "US and Iran Trade Strikes in Strait of Hormuz, Disrupting Month of Calm - localnewslive.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.74,
-      "health": -0.0049,
-      "vol_ratio": 1.11
+      "up_down_ratio": 0.75,
+      "health": -0.0393,
+      "vol_ratio": 0.48
     },
     "technicals": {
-      "ema50": 1.1711,
-      "ema200": 1.18003,
-      "macd": -0.0014,
-      "macd_signal": -0.001633,
-      "rsi14": 51.1,
-      "atr14": 0.0032,
-      "atr14_hourly": 0.01372,
-      "bb_position": 0.549
+      "ema50": 1.16746,
+      "ema200": 1.17792,
+      "macd": -0.001465,
+      "macd_signal": -0.002006,
+      "rsi14": 50.0,
+      "atr14": 0.00305,
+      "atr14_hourly": 0.01396,
+      "bb_position": 0.61
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.486,
+      "percentile": 0.491,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178831
+  "data_bars": 178843
 }
