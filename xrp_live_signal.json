@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T15:01:32.099632+00:00",
+  "timestamp": "2026-09-01T16:01:34.593983+00:00",
   "signal": {
-    "price": 1.1835,
+    "price": 1.1867,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2926,
-    "hybrid_score": 2.6,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3682,
+    "hybrid_score": 3.0,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.093,
-      "bullish_pct": 35.0,
+      "sentiment": "BULLISH",
+      "score": 0.117,
+      "bullish_pct": 41.7,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.281,
-        "crypto_macro": 0.236,
-        "geopolitical": -0.532,
-        "fed_rates": 0.116
+        "xrp": 0.31,
+        "crypto_macro": 0.246,
+        "geopolitical": -0.534,
+        "fed_rates": 0.187
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran trade strikes over Strait of Hormuz control - Cascade PBS",
-        "U.S. and Iran trade strikes over Strait of Hormuz control - PBS"
+        "U.S. and Iran trade strikes over Strait of Hormuz control - PBS",
+        "U.S. and Iran trade strikes over Strait of Hormuz control - Cascade PBS"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.75,
-      "health": -0.1859,
-      "vol_ratio": 0.9
+      "health": -0.2207,
+      "vol_ratio": 0.48
     },
     "technicals": {
       "ema50": 1.18588,
-      "ema200": 1.18702,
-      "macd": 0.001001,
-      "macd_signal": 0.001004,
-      "rsi14": 44.6,
-      "atr14": 0.00358,
-      "atr14_hourly": 0.01383,
-      "bb_position": 0.344
+      "ema200": 1.18685,
+      "macd": 0.00087,
+      "macd_signal": 0.000481,
+      "rsi14": 51.0,
+      "atr14": 0.00276,
+      "atr14_hourly": 0.0136,
+      "bb_position": 0.507
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.465,
+      "percentile": 0.464,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178759
+  "data_bars": 178771
 }
