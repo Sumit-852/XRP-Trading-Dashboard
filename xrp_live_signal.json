@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T07:01:25.562986+00:00",
+  "timestamp": "2026-09-01T08:01:32.063227+00:00",
   "signal": {
-    "price": 1.1929,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4765,
-    "hybrid_score": 4.9,
+    "price": 1.1896,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5312,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.008,
-      "bullish_pct": 25.0,
+      "score": -0.016,
+      "bullish_pct": 26.7,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.235,
-        "crypto_macro": 0.04,
-        "geopolitical": -0.623,
-        "fed_rates": 0.061
+        "crypto_macro": -0.006,
+        "geopolitical": -0.628,
+        "fed_rates": 0.104
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - CCN.com",
-        "Is XRP poised for a fresh breakout? - fxstreet.com",
+        "Is XRP poised for a fresh breakout? - FXStreet",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
       ],
       "top_bearish": [
+        "MSTR Stock Up 40% in a Month, but Ross Gerber Still Calls Michael Saylor the 'Worst Thing' to Happen to Bitcoin: Here's ",
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran trade strikes over Strait of Hormuz control - cascadepbs.org",
-        "US-Canada trade war escalates: Local Davenport auto and seafood dealers brace for tariff impact - KWQC"
+        "U.S. and Iran trade strikes over Strait of Hormuz control - Cascade PBS"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": -0.0774,
-      "vol_ratio": 0.15
+      "up_down_ratio": 1.03,
+      "health": -0.0519,
+      "vol_ratio": 0.62
     },
     "technicals": {
-      "ema50": 1.19361,
-      "ema200": 1.19008,
-      "macd": 6e-06,
-      "macd_signal": 0.000774,
-      "rsi14": 44.8,
-      "atr14": 0.00202,
-      "atr14_hourly": 0.01012,
-      "bb_position": 0.172
+      "ema50": 1.19284,
+      "ema200": 1.19027,
+      "macd": -0.001297,
+      "macd_signal": -0.00082,
+      "rsi14": 38.0,
+      "atr14": 0.00167,
+      "atr14_hourly": 0.00802,
+      "bb_position": 0.143
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.475,
+      "percentile": 0.471,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178663
+  "data_bars": 178675
 }
