@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T01:01:20.607462+00:00",
+  "timestamp": "2026-09-01T02:01:25.420630+00:00",
   "signal": {
-    "price": 1.193,
+    "price": 1.1852,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4251,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.378,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.012,
-      "bullish_pct": 30.0,
+      "score": 0.046,
+      "bullish_pct": 35.0,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.172,
-        "crypto_macro": 0.131,
+        "crypto_macro": 0.243,
         "geopolitical": -0.566,
-        "fed_rates": 0.097
+        "fed_rates": 0.102
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "XRP Faces $1.55 Resistance as Ripple Prepares XRPL for Quantum Threat - TradingView",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - pbs.org",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
         "US and Iran Trade Strikes in Strait of Hormuz, Disrupting Month of Calm - localnewslive.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.15,
-      "health": -0.03,
-      "vol_ratio": 0.11
+      "up_down_ratio": 1.14,
+      "health": 0.0144,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.19057,
-      "ema200": 1.18824,
-      "macd": 0.000743,
-      "macd_signal": 0.000418,
-      "rsi14": 58.5,
-      "atr14": 0.0017,
-      "atr14_hourly": 0.00672,
-      "bb_position": 0.814
+      "ema50": 1.1893,
+      "ema200": 1.18814,
+      "macd": -0.001048,
+      "macd_signal": -0.000627,
+      "rsi14": 38.7,
+      "atr14": 0.00197,
+      "atr14_hourly": 0.00845,
+      "bb_position": 0.131
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.523,
+      "percentile": 0.505,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178591
+  "data_bars": 178603
 }
