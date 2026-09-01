@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T18:01:34.187282+00:00",
+  "timestamp": "2026-09-01T19:01:36.286219+00:00",
   "signal": {
-    "price": 1.1762,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4758,
-    "hybrid_score": 3.7,
+    "price": 1.1721,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5653,
+    "hybrid_score": 5.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.113,
-      "bullish_pct": 43.3,
-      "bearish_pct": 26.7,
+      "score": 0.107,
+      "bullish_pct": 38.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.296,
-        "crypto_macro": 0.206,
-        "geopolitical": -0.471,
-        "fed_rates": 0.202
+        "xrp": 0.319,
+        "crypto_macro": 0.172,
+        "geopolitical": -0.444,
+        "fed_rates": 0.135
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,7 +30,7 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Is XRP poised for a fresh breakout? - FXStreet",
+        "Is XRP poised for a fresh breakout? - fxstreet.com",
         "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga",
         "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
       ],
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.69,
-      "health": -0.2263,
-      "vol_ratio": 0.08
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.68,
+      "health": -0.1868,
+      "vol_ratio": 0.13
     },
     "technicals": {
-      "ema50": 1.18189,
-      "ema200": 1.18528,
-      "macd": -0.001323,
-      "macd_signal": -0.001049,
-      "rsi14": 40.6,
-      "atr14": 0.00287,
-      "atr14_hourly": 0.01213,
-      "bb_position": 0.196
+      "ema50": 1.17592,
+      "ema200": 1.18313,
+      "macd": -0.003737,
+      "macd_signal": -0.004118,
+      "rsi14": 50.0,
+      "atr14": 0.0041,
+      "atr14_hourly": 0.01774,
+      "bb_position": 0.511
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.458,
+      "percentile": 0.456,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178795
+  "data_bars": 178807
 }
