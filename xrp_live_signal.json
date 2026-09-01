@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-01T06:01:39.127573+00:00",
+  "timestamp": "2026-09-01T07:01:25.562986+00:00",
   "signal": {
-    "price": 1.2015,
+    "price": 1.1929,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4024,
-    "hybrid_score": 4.4,
-    "regime": "BULLISH",
+    "xgb_prob": 0.4765,
+    "hybrid_score": 4.9,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.011,
-      "bullish_pct": 26.7,
+      "score": -0.008,
+      "bullish_pct": 25.0,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.235,
-        "crypto_macro": 0.117,
-        "geopolitical": -0.646,
+        "crypto_macro": 0.04,
+        "geopolitical": -0.623,
         "fed_rates": 0.061
       },
       "geo_shock": true,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - CCN.com",
-        "Is XRP poised for a fresh breakout? - FXStreet",
+        "Is XRP poised for a fresh breakout? - fxstreet.com",
         "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
       ],
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran trade strikes over Strait of Hormuz control - Cascade PBS",
+        "U.S. and Iran trade strikes over Strait of Hormuz control - cascadepbs.org",
         "US-Canada trade war escalates: Local Davenport auto and seafood dealers brace for tariff impact - KWQC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.0468,
-      "vol_ratio": 0.08
+      "up_down_ratio": 1.04,
+      "health": -0.0774,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 1.19281,
-      "ema200": 1.18945,
-      "macd": 0.002702,
-      "macd_signal": 0.001825,
-      "rsi14": 69.0,
-      "atr14": 0.00219,
-      "atr14_hourly": 0.01045,
-      "bb_position": 0.9
+      "ema50": 1.19361,
+      "ema200": 1.19008,
+      "macd": 6e-06,
+      "macd_signal": 0.000774,
+      "rsi14": 44.8,
+      "atr14": 0.00202,
+      "atr14_hourly": 0.01012,
+      "bb_position": 0.172
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.474,
+      "percentile": 0.475,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178651
+  "data_bars": 178663
 }
