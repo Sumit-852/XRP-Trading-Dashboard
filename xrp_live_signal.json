@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T04:01:25.613017+00:00",
+  "timestamp": "2026-09-01T05:03:04.892021+00:00",
   "signal": {
-    "price": 1.1955,
+    "price": 1.189,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4708,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.456,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.025,
-      "bullish_pct": 30.0,
-      "bearish_pct": 35.0,
+      "score": 0.007,
+      "bullish_pct": 26.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.225,
-        "crypto_macro": 0.108,
-        "geopolitical": -0.57,
-        "fed_rates": 0.102
+        "xrp": 0.235,
+        "crypto_macro": 0.111,
+        "geopolitical": -0.657,
+        "fed_rates": 0.061
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - ccn.com",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - Yahoo Finance"
+        "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - CCN.com",
+        "Is XRP poised for a fresh breakout? - FXStreet",
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St."
       ],
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran trade strikes over Strait of Hormuz control - cascadepbs.org",
-        "US and Iran Trade Strikes in Strait of Hormuz, Disrupting Month of Calm - localnewslive.com"
+        "U.S. and Iran trade strikes over Strait of Hormuz control - Cascade PBS",
+        "US-Canada trade war escalates: Local Davenport auto and seafood dealers brace for tariff impact - KWQC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.12,
-      "health": -0.0484,
-      "vol_ratio": 0.05
+      "up_down_ratio": 1.07,
+      "health": -0.1066,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.18902,
-      "ema200": 1.18806,
-      "macd": 0.002597,
-      "macd_signal": 0.001541,
-      "rsi14": 63.3,
-      "atr14": 0.0022,
-      "atr14_hourly": 0.01074,
-      "bb_position": 0.804
+      "ema50": 1.19016,
+      "ema200": 1.18853,
+      "macd": 0.000433,
+      "macd_signal": 0.00124,
+      "rsi14": 43.6,
+      "atr14": 0.00183,
+      "atr14_hourly": 0.00985,
+      "bb_position": 0.111
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.494,
+      "percentile": 0.489,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178627
+  "data_bars": 178639
 }
