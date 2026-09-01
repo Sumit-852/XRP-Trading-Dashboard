@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T09:01:33.172909+00:00",
+  "timestamp": "2026-09-01T10:01:24.111018+00:00",
   "signal": {
-    "price": 1.1752,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.566,
-    "hybrid_score": 5.4,
+    "price": 1.1788,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4892,
+    "hybrid_score": 5.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.042,
-      "bullish_pct": 33.3,
+      "score": 0.027,
+      "bullish_pct": 31.7,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.272,
-        "crypto_macro": 0.072,
-        "geopolitical": -0.518,
-        "fed_rates": 0.104
+        "xrp": 0.257,
+        "crypto_macro": 0.123,
+        "geopolitical": -0.638,
+        "fed_rates": 0.091
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP Breakout Targets $1.70, Says Analyst, as ETF Inflows Hit 2026 High - CCN.com",
         "Is XRP poised for a fresh breakout? - FXStreet",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 247wallst.com"
+        "August Crypto Market Review and Outlook: Bitcoin Surge Above $80,000 Sparks Broad Crypto Rally, Fed Decision to Determin"
       ],
       "top_bearish": [
         "MSTR Stock Up 40% in a Month, but Ross Gerber Still Calls Michael Saylor the 'Worst Thing' to Happen to Bitcoin: Here's ",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": -0.1366,
-      "vol_ratio": 0.18
+      "up_down_ratio": 0.93,
+      "health": -0.125,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.18724,
-      "ema200": 1.18893,
-      "macd": -0.004659,
-      "macd_signal": -0.004031,
-      "rsi14": 25.1,
-      "atr14": 0.00243,
-      "atr14_hourly": 0.01222,
-      "bb_position": 0.19
+      "ema50": 1.18372,
+      "ema200": 1.18769,
+      "macd": -0.001956,
+      "macd_signal": -0.002759,
+      "rsi14": 44.3,
+      "atr14": 0.00191,
+      "atr14_hourly": 0.00884,
+      "bb_position": 0.769
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.479,
+      "percentile": 0.46,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178687
+  "data_bars": 178699
 }
