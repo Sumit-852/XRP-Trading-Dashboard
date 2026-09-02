@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T12:01:31.557853+00:00",
+  "timestamp": "2026-09-02T13:01:29.661749+00:00",
   "signal": {
-    "price": 1.1435,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3828,
-    "hybrid_score": 4.3,
+    "price": 1.1395,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6512,
+    "hybrid_score": 5.9,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.027,
+      "score": 0.021,
       "bullish_pct": 30.0,
-      "bearish_pct": 36.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.047,
-        "crypto_macro": 0.034,
-        "geopolitical": -0.45,
-        "fed_rates": 0.196
+        "xrp": 0.138,
+        "crypto_macro": 0.009,
+        "geopolitical": -0.35,
+        "fed_rates": 0.217
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
       ],
       "top_bearish": [
-        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
-        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH, XRP under pressure as momentum indicators flag early beari"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH, XRP under pressure as momentum indicators flag early beari",
+        "Trump raises fears of open war as US and Iran trade strikes - The Times",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.8,
-      "health": -0.0687,
-      "vol_ratio": 0.14
+      "up_down_ratio": 0.83,
+      "health": 0.0586,
+      "vol_ratio": 0.49
     },
     "technicals": {
-      "ema50": 1.14601,
-      "ema200": 1.15869,
-      "macd": -0.000769,
-      "macd_signal": -0.001833,
-      "rsi14": 52.3,
-      "atr14": 0.00259,
-      "atr14_hourly": 0.01078,
-      "bb_position": 0.877
+      "ema50": 1.14487,
+      "ema200": 1.15694,
+      "macd": -0.000707,
+      "macd_signal": -0.000187,
+      "rsi14": 42.6,
+      "atr14": 0.00231,
+      "atr14_hourly": 0.01052,
+      "bb_position": 0.217
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.511,
+      "percentile": 0.509,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179011
+  "data_bars": 179023
 }
