@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-02T08:01:22.488748+00:00",
+  "timestamp": "2026-09-02T09:01:30.654865+00:00",
   "signal": {
-    "price": 1.1613,
+    "price": 1.1515,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5412,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.5994,
+    "hybrid_score": 5.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.043,
-      "bullish_pct": 25.0,
-      "bearish_pct": 33.3,
+      "score": 0.051,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.033,
-        "crypto_macro": 0.058,
-        "geopolitical": -0.418,
-        "fed_rates": 0.035
+        "xrp": 0.158,
+        "crypto_macro": 0.109,
+        "geopolitical": -0.215,
+        "fed_rates": 0.001
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga",
         "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
-        "XRP ETFs pull in $170 million over eleven days as Goldman tops institutional holders - CoinDesk",
-        "Crypto News: Pepeto Announces Increased Investments Following Dogecoin Success While the Bitcoin Price Prediction Target"
+        "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
       ],
       "top_bearish": [
-        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
         "Why Are Bitcoin, Ethereum and XRP Prices Crashing Today? - Coinpedia",
-        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk"
+        "Bitcoin, Ethereum, Ripple Face Early Bearish Signals: Price Analysis - CryptoRank",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.8,
-      "health": -0.0218,
-      "vol_ratio": 0.1
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.83,
+      "health": -0.0659,
+      "vol_ratio": 0.39
     },
     "technicals": {
-      "ema50": 1.16356,
-      "ema200": 1.16727,
-      "macd": -0.000317,
-      "macd_signal": -4.7e-05,
-      "rsi14": 40.3,
-      "atr14": 0.00178,
-      "atr14_hourly": 0.0078,
-      "bb_position": 0.17
+      "ema50": 1.15965,
+      "ema200": 1.16574,
+      "macd": -0.003884,
+      "macd_signal": -0.002891,
+      "rsi14": 34.8,
+      "atr14": 0.00252,
+      "atr14_hourly": 0.01159,
+      "bb_position": 0.257
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178963
+  "data_bars": 178975
 }
