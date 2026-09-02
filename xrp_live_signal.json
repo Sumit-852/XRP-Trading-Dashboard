@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T14:01:33.413405+00:00",
+  "timestamp": "2026-09-02T15:01:38.175785+00:00",
   "signal": {
-    "price": 1.1544,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5084,
-    "hybrid_score": 5.0,
-    "regime": "BULLISH",
+    "price": 1.1457,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4457,
+    "hybrid_score": 4.7,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.001,
-      "bullish_pct": 31.7,
-      "bearish_pct": 28.3,
+      "score": -0.031,
+      "bullish_pct": 25.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.111,
-        "crypto_macro": -0.038,
-        "geopolitical": -0.318,
-        "fed_rates": 0.187
+        "xrp": 0.068,
+        "crypto_macro": 0.019,
+        "geopolitical": -0.351,
+        "fed_rates": 0.022
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
-        "Bitcoin Is Suddenly Braced For A Bessent Price Shock As \u2018Selling Panic\u2019 Crash Fears Surge - Forbes",
+        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH, XRP under pressure as momentum indicators flag early beari"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": 0.1818,
-      "vol_ratio": 0.13
+      "up_down_ratio": 0.96,
+      "health": 0.2394,
+      "vol_ratio": 0.35
     },
     "technicals": {
-      "ema50": 1.14648,
-      "ema200": 1.156,
-      "macd": 0.002964,
-      "macd_signal": 0.001599,
-      "rsi14": 62.2,
-      "atr14": 0.0035,
-      "atr14_hourly": 0.01383,
-      "bb_position": 0.85
+      "ema50": 1.14924,
+      "ema200": 1.15578,
+      "macd": 0.001214,
+      "macd_signal": 0.00248,
+      "rsi14": 41.8,
+      "atr14": 0.00368,
+      "atr14_hourly": 0.01464,
+      "bb_position": 0.132
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.556,
+      "percentile": 0.544,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179035
+  "data_bars": 179047
 }
