@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-02T16:01:35.229579+00:00",
+  "timestamp": "2026-09-02T17:01:33.018860+00:00",
   "signal": {
-    "price": 1.1512,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4338,
-    "hybrid_score": 4.6,
+    "price": 1.1496,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5356,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.003,
-      "bullish_pct": 25.0,
-      "bearish_pct": 33.3,
+      "score": -0.041,
+      "bullish_pct": 21.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.177,
-        "crypto_macro": -0.032,
-        "geopolitical": -0.324,
-        "fed_rates": 0.047
+        "xrp": 0.102,
+        "crypto_macro": -0.121,
+        "geopolitical": -0.259,
+        "fed_rates": 0.031
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
       ],
       "top_bearish": [
-        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
-        "Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings in shift to bitcoin-only crypto strategy - The Block",
-        "US, Iran trade strikes as fears mount over wider return to hostilities - H\u00fcrriyet Daily News"
+        "Bitcoin Is Suddenly Braced For A Bessent Price Shock As \u2018Selling Panic\u2019 Crash Fears Surge - forbes.com",
+        "Bitcoin Drops to 10-Day Low, Altcoins Retrace Following New US-Iran Attacks: Market Watch - CryptoPotato",
+        "Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings in shift to bitcoin-only crypto strategy - The Block"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.92,
-      "health": 0.1957,
-      "vol_ratio": 0.1
+      "health": 0.1669,
+      "vol_ratio": 0.95
     },
     "technicals": {
-      "ema50": 1.14984,
-      "ema200": 1.1552,
-      "macd": 0.00047,
-      "macd_signal": 0.000567,
-      "rsi14": 50.5,
-      "atr14": 0.00391,
-      "atr14_hourly": 0.01435,
-      "bb_position": 0.478
+      "ema50": 1.15095,
+      "ema200": 1.15495,
+      "macd": -5.9e-05,
+      "macd_signal": 0.000529,
+      "rsi14": 45.6,
+      "atr14": 0.00309,
+      "atr14_hourly": 0.01166,
+      "bb_position": 0.214
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.586,
+      "percentile": 0.577,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179059
+  "data_bars": 179071
 }
