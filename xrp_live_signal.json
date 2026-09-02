@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T22:01:25.772648+00:00",
+  "timestamp": "2026-09-02T23:01:27.654225+00:00",
   "signal": {
-    "price": 1.163,
+    "price": 1.1597,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3807,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3728,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.002,
-      "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "score": -0.077,
+      "bullish_pct": 23.3,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.126,
-        "crypto_macro": 0.024,
-        "geopolitical": -0.354,
-        "fed_rates": 0.089
+        "xrp": 0.035,
+        "crypto_macro": -0.015,
+        "geopolitical": -0.491,
+        "fed_rates": 0.036
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz"
       ],
       "top_bearish": [
-        "Bitcoin Is Suddenly Braced For A Bessent Price Shock As \u2018Selling Panic\u2019 Crash Fears Surge - forbes.com",
-        "'TRUMP STRAIT?' Trump threatens to name the Strait of Hormuz after himself as US, Iran trade strikes - The Hill",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk"
+        "'TRUMP STRAIT?' Trump threatens to name the Strait of Hormuz after himself as US, Iran trade strikes - thehill.com",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "XRP, Ethereum and Solana Hit by $369M Crypto Liquidation Wave - Altcoin Buzz"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.18,
-      "health": 0.3077,
-      "vol_ratio": 0.08
+      "up_down_ratio": 1.13,
+      "health": 0.2375,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.1609,
-      "ema200": 1.15719,
-      "macd": 0.000737,
-      "macd_signal": 0.001077,
-      "rsi14": 50.1,
-      "atr14": 0.00237,
-      "atr14_hourly": 0.00808,
-      "bb_position": 0.295
+      "ema50": 1.16069,
+      "ema200": 1.15754,
+      "macd": -0.000446,
+      "macd_signal": -0.00034,
+      "rsi14": 44.2,
+      "atr14": 0.00179,
+      "atr14_hourly": 0.00756,
+      "bb_position": 0.275
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.524,
+      "percentile": 0.521,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179131
+  "data_bars": 179143
 }
