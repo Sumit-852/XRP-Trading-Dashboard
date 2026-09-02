@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T07:01:30.617215+00:00",
+  "timestamp": "2026-09-02T08:01:22.488748+00:00",
   "signal": {
-    "price": 1.164,
+    "price": 1.1613,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5085,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.5412,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.065,
-      "bullish_pct": 26.7,
+      "score": -0.043,
+      "bullish_pct": 25.0,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.009,
-        "crypto_macro": -0.037,
-        "geopolitical": -0.375,
-        "fed_rates": 0.125
+        "xrp": 0.033,
+        "crypto_macro": 0.058,
+        "geopolitical": -0.418,
+        "fed_rates": 0.035
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "The Best Crypto Swaps for the Bull Market - San Jose Inside",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
-        "Can XRP Benefit as Russia Opens Crypto to Cross-Border Trade Payments? - CryptoRank"
+        "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
+        "XRP ETFs pull in $170 million over eleven days as Goldman tops institutional holders - CoinDesk",
+        "Crypto News: Pepeto Announces Increased Investments Following Dogecoin Success While the Bitcoin Price Prediction Target"
       ],
       "top_bearish": [
         "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.8,
-      "health": 0.1017,
-      "vol_ratio": 0.24
+      "health": -0.0218,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.16339,
-      "ema200": 1.16769,
-      "macd": -0.000365,
-      "macd_signal": -0.000368,
-      "rsi14": 51.6,
-      "atr14": 0.00201,
-      "atr14_hourly": 0.00848,
-      "bb_position": 0.497
+      "ema50": 1.16356,
+      "ema200": 1.16727,
+      "macd": -0.000317,
+      "macd_signal": -4.7e-05,
+      "rsi14": 40.3,
+      "atr14": 0.00178,
+      "atr14_hourly": 0.0078,
+      "bb_position": 0.17
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.499,
+      "percentile": 0.496,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178951
+  "data_bars": 178963
 }
