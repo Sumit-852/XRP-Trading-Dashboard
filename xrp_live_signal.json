@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-02T20:01:34.718315+00:00",
+  "timestamp": "2026-09-02T21:01:36.896596+00:00",
   "signal": {
-    "price": 1.1597,
+    "price": 1.1659,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4267,
-    "hybrid_score": 4.6,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3643,
+    "hybrid_score": 4.2,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.074,
-      "bullish_pct": 33.3,
-      "bearish_pct": 23.3,
+      "score": 0.025,
+      "bullish_pct": 30.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.193,
-        "crypto_macro": 0.067,
-        "geopolitical": -0.248,
-        "fed_rates": 0.191
+        "xrp": 0.22,
+        "crypto_macro": 0.03,
+        "geopolitical": -0.403,
+        "fed_rates": 0.063
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Best Crypto to Buy Now as ETH and XRP ETFs Record Nine Straight Inflow Days and Remittix Nears Its $32M Milestone - Stre",
+        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - benzinga.com",
         "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
         "XRP ETFs pull in $170 million over 11 days as Goldman tops institutional holders - CoinDesk"
       ],
       "top_bearish": [
+        "'TRUMP STRAIT?' Trump threatens to name the Strait of Hormuz after himself as US, Iran trade strikes - The Hill",
         "XRP, Ethereum and Solana Hit by $369M Crypto Liquidation Wave - Altcoin Buzz",
-        "Iowa farmers grow impatient with Trump on tariffs, Iran war - The Christian Science Monitor",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
+        "XRP Joins Ether, Solana in $369 Million Liquidation Wave Amid SEC Blockchain Overhaul: Main Crypto News This Morning - T"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.08,
-      "health": 0.0964,
-      "vol_ratio": 0.17
+      "up_down_ratio": 1.15,
+      "health": 0.2677,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.15569,
-      "ema200": 1.15528,
-      "macd": 0.001521,
-      "macd_signal": 0.001743,
-      "rsi14": 56.4,
-      "atr14": 0.00247,
-      "atr14_hourly": 0.00887,
-      "bb_position": 0.626
+      "ema50": 1.15924,
+      "ema200": 1.15638,
+      "macd": 0.00217,
+      "macd_signal": 0.002194,
+      "rsi14": 61.2,
+      "atr14": 0.00298,
+      "atr14_hourly": 0.00982,
+      "bb_position": 0.774
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179107
+  "data_bars": 179119
 }
