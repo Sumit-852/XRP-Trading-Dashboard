@@ -1,18 +1,26 @@
 {
-  "timestamp": "2026-09-02T00:01:35.780645+00:00",
-  "score": 0.037,
+  "timestamp": "2026-09-02T01:01:27.280428+00:00",
+  "score": 0.073,
   "label": "NEUTRAL",
-  "bullish_pct": 28.3,
-  "bearish_pct": 28.3,
+  "bullish_pct": 38.3,
+  "bearish_pct": 20.0,
   "count": 60,
   "feed_scores": {
-    "xrp": 0.098,
-    "crypto_macro": 0.197,
-    "geopolitical": -0.397,
-    "fed_rates": 0.111
+    "xrp": 0.157,
+    "crypto_macro": 0.11,
+    "geopolitical": -0.282,
+    "fed_rates": 0.234
   },
-  "geo_shock": true,
+  "geo_shock": false,
   "top_bull": [
+    {
+      "title": "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto",
+      "pubdate": "Tue, 01 Sep 2026 12:00:39",
+      "compound": 0.641,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": 0.641
+    },
     {
       "title": "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
       "pubdate": "Sat, 29 Aug 2026 16:30:00",
@@ -20,14 +28,6 @@
       "feed": "xrp",
       "weight": 1.0,
       "weighted_score": 0.637
-    },
-    {
-      "title": "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long March' to Next ",
-      "pubdate": "Tue, 01 Sep 2026 01:51:38",
-      "compound": 0.66,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": 0.528
     },
     {
       "title": "The Best Crypto Swaps for the Bull Market - San Jose Inside",
@@ -40,12 +40,20 @@
   ],
   "top_bear": [
     {
-      "title": "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-      "pubdate": "Mon, 31 Aug 2026 22:55:43",
-      "compound": -0.84,
+      "title": "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
+      "pubdate": "Wed, 02 Sep 2026 00:20:00",
+      "compound": -0.823,
       "feed": "geopolitical",
       "weight": 0.5,
-      "weighted_score": -0.42
+      "weighted_score": -0.411
+    },
+    {
+      "title": "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - Moomoo",
+      "pubdate": "Wed, 02 Sep 2026 00:23:27",
+      "compound": -0.823,
+      "feed": "geopolitical",
+      "weight": 0.5,
+      "weighted_score": -0.411
     },
     {
       "title": "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr",
@@ -54,14 +62,6 @@
       "feed": "geopolitical",
       "weight": 0.5,
       "weighted_score": -0.406
-    },
-    {
-      "title": "US and Iran Trade Strikes in Strait of Hormuz, Disrupting Month of Calm - localnewslive.com",
-      "pubdate": "Mon, 31 Aug 2026 22:29:00",
-      "compound": -0.772,
-      "feed": "geopolitical",
-      "weight": 0.5,
-      "weighted_score": -0.386
     }
   ]
 }
