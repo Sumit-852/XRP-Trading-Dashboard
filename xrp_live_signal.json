@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T04:01:34.311487+00:00",
+  "timestamp": "2026-09-02T05:01:25.638886+00:00",
   "signal": {
-    "price": 1.1662,
+    "price": 1.1633,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4009,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.4289,
+    "hybrid_score": 4.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.054,
-      "bullish_pct": 31.7,
-      "bearish_pct": 28.3,
+      "score": 0.02,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.235,
-        "crypto_macro": 0.093,
-        "geopolitical": -0.392,
-        "fed_rates": 0.083
+        "xrp": 0.241,
+        "crypto_macro": -0.08,
+        "geopolitical": -0.354,
+        "fed_rates": 0.135
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Is XRP poised for a fresh breakout? - FXStreet",
-        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga",
+        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - benzinga.com",
         "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
       ],
       "top_bearish": [
-        "Murray Introduces Bill to End Trump\u2019s Trade War with Canada & Lower Costs, Slams Trump\u2019s Latest Tariffs as \u201cEconomic Ars",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - Moomoo",
-        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr"
+        "Cryptos Flash Crash as US-Iran Conflict Escalates Sharply, Bitcoin Drops Below $78,000 - TradingKey",
+        "Why Are Bitcoin, Ethereum and XRP Prices Crashing Today? - Coinpedia",
+        "Why Are Bitcoin, Ethereum and XRP Prices Crashing Today? - CryptoRank"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": 0.2143,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.86,
+      "health": 0.189,
+      "vol_ratio": 0.53
     },
     "technicals": {
-      "ema50": 1.16241,
-      "ema200": 1.16938,
-      "macd": 0.002262,
-      "macd_signal": 0.00224,
-      "rsi14": 58.4,
-      "atr14": 0.00242,
-      "atr14_hourly": 0.01272,
-      "bb_position": 0.631
+      "ema50": 1.16277,
+      "ema200": 1.16869,
+      "macd": 0.000453,
+      "macd_signal": 0.000689,
+      "rsi14": 49.5,
+      "atr14": 0.00205,
+      "atr14_hourly": 0.01051,
+      "bb_position": 0.341
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.504,
+      "percentile": 0.509,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178915
+  "data_bars": 178927
 }
