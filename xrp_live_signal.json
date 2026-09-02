@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-01T23:01:33.476688+00:00",
+  "timestamp": "2026-09-02T00:01:35.830927+00:00",
   "signal": {
-    "price": 1.1607,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5035,
-    "hybrid_score": 5.1,
+    "price": 1.1672,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4778,
+    "hybrid_score": 4.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.057,
-      "bullish_pct": 33.3,
+      "score": 0.037,
+      "bullish_pct": 28.3,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.217,
-        "crypto_macro": 0.166,
-        "geopolitical": -0.458,
-        "fed_rates": 0.083
+        "xrp": 0.098,
+        "crypto_macro": 0.197,
+        "geopolitical": -0.397,
+        "fed_rates": 0.111
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin, Ethereum & XRP Surge Over 25% in August\u2014Will the Rally Hold Until the End of Q3, 2026? - TradingView",
-        "XRP price targets $1.70 as Bitwise ETF tops $500M - cryptonews.net",
-        "August Crypto Market Review and Outlook: Bitcoin Surge Above $80,000 Sparks Broad Crypto Rally, Fed Decision to Determin"
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now? - 24/7 Wall St.",
+        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long March' to Next ",
+        "The Best Crypto Swaps for the Bull Market - San Jose Inside"
       ],
       "top_bearish": [
         "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
-        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr"
+        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr",
+        "US and Iran Trade Strikes in Strait of Hormuz, Disrupting Month of Calm - localnewslive.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.7,
-      "health": 0.0422,
-      "vol_ratio": 0.31
+      "health": 0.0329,
+      "vol_ratio": 0.52
     },
     "technicals": {
-      "ema50": 1.16484,
-      "ema200": 1.17598,
-      "macd": -0.001471,
-      "macd_signal": -0.001567,
-      "rsi14": 46.7,
-      "atr14": 0.00365,
-      "atr14_hourly": 0.01738,
-      "bb_position": 0.434
+      "ema50": 1.16477,
+      "ema200": 1.17467,
+      "macd": 0.001131,
+      "macd_signal": 0.000333,
+      "rsi14": 58.9,
+      "atr14": 0.0028,
+      "atr14_hourly": 0.01636,
+      "bb_position": 0.848
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.496,
+      "percentile": 0.503,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178855
+  "data_bars": 178867
 }
