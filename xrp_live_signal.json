@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T03:01:33.737040+00:00",
+  "timestamp": "2026-09-02T04:01:34.311487+00:00",
   "signal": {
-    "price": 1.1625,
+    "price": 1.1662,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4614,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.4009,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.076,
-      "bullish_pct": 35.0,
-      "bearish_pct": 23.3,
+      "score": 0.054,
+      "bullish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.246,
-        "crypto_macro": 0.116,
-        "geopolitical": -0.378,
-        "fed_rates": 0.144
+        "xrp": 0.235,
+        "crypto_macro": 0.093,
+        "geopolitical": -0.392,
+        "fed_rates": 0.083
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
       ],
       "top_bearish": [
-        "He Lost His Bitcoin in a 2014 Exchange Collapse \u2014 12 Years Later, He's Worth $4.47 Million - Yahoo Finance",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - Moomoo"
+        "Murray Introduces Bill to End Trump\u2019s Trade War with Canada & Lower Costs, Slams Trump\u2019s Latest Tariffs as \u201cEconomic Ars",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - Moomoo",
+        "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.81,
-      "health": 0.0827,
-      "vol_ratio": 0.21
+      "up_down_ratio": 0.88,
+      "health": 0.2143,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.15956,
-      "ema200": 1.16967,
-      "macd": 0.000626,
-      "macd_signal": -0.000305,
-      "rsi14": 61.0,
-      "atr14": 0.00268,
-      "atr14_hourly": 0.01325,
-      "bb_position": 0.877
+      "ema50": 1.16241,
+      "ema200": 1.16938,
+      "macd": 0.002262,
+      "macd_signal": 0.00224,
+      "rsi14": 58.4,
+      "atr14": 0.00242,
+      "atr14_hourly": 0.01272,
+      "bb_position": 0.631
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.518,
+      "percentile": 0.504,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178903
+  "data_bars": 178915
 }
