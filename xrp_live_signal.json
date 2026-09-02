@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-02T01:01:27.329568+00:00",
+  "timestamp": "2026-09-02T02:01:30.065644+00:00",
   "signal": {
-    "price": 1.1576,
+    "price": 1.151,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5426,
-    "hybrid_score": 5.3,
+    "xgb_prob": 0.6096,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.073,
-      "bullish_pct": 38.3,
-      "bearish_pct": 20.0,
+      "score": 0.028,
+      "bullish_pct": 26.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.157,
-        "crypto_macro": 0.11,
-        "geopolitical": -0.282,
-        "fed_rates": 0.234
+        "xrp": 0.126,
+        "crypto_macro": 0.116,
+        "geopolitical": -0.366,
+        "fed_rates": 0.099
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "The Best Crypto Swaps for the Bull Market - San Jose Inside"
       ],
       "top_bearish": [
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
+        "He Lost His Bitcoin in a 2014 Exchange Collapse \u2014 12 Years Later, He's Worth $4.47 Million - Yahoo Finance",
         "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - Moomoo",
         "Pappas, Goodlander Urge Trump to Reverse Course on Canadian Trade War Threatening New Hampshire Small Businesses | Congr"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.77,
-      "health": 0.123,
-      "vol_ratio": 0.11
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.72,
+      "health": -0.001,
+      "vol_ratio": 0.21
     },
     "technicals": {
-      "ema50": 1.16329,
-      "ema200": 1.17314,
-      "macd": -0.001417,
-      "macd_signal": -0.00057,
-      "rsi14": 36.6,
-      "atr14": 0.00231,
-      "atr14_hourly": 0.01271,
-      "bb_position": 0.133
+      "ema50": 1.15989,
+      "ema200": 1.17106,
+      "macd": -0.003001,
+      "macd_signal": -0.002323,
+      "rsi14": 35.6,
+      "atr14": 0.00291,
+      "atr14_hourly": 0.01167,
+      "bb_position": 0.127
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.508,
+      "percentile": 0.513,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178879
+  "data_bars": 178891
 }
