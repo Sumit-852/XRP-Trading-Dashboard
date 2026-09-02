@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T18:01:35.080850+00:00",
+  "timestamp": "2026-09-02T19:01:30.357658+00:00",
   "signal": {
-    "price": 1.1544,
+    "price": 1.1578,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3792,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3561,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.002,
-      "bullish_pct": 21.7,
-      "bearish_pct": 25.0,
+      "score": 0.006,
+      "bullish_pct": 25.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.152,
-        "crypto_macro": -0.105,
-        "geopolitical": -0.152,
-        "fed_rates": 0.008
+        "xrp": 0.137,
+        "crypto_macro": -0.05,
+        "geopolitical": -0.222,
+        "fed_rates": 0.073
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga",
+        "Best Crypto to Buy Now as ETH and XRP ETFs Record Nine Straight Inflow Days and Remittix Nears Its $32M Milestone - Stre",
         "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
-        "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
+        "XRP's 20% Pullback Hits Critical Support: Is $2 Still in Play? - TradingView"
       ],
       "top_bearish": [
-        "Cryptos Flash Crash as US-Iran Conflict Escalates Sharply, Bitcoin Drops Below $78,000 - TradingKey",
-        "XRP, Ethereum and Solana Hit by $369M Crypto Liquidation Wave - Altcoin Buzz",
-        "Trump Crypto Ally David Bailey Rebuilds After 99% Stock Collapse - Bloomberg.com"
+        "Bitcoin Is Suddenly Braced For A Bessent Price Shock As \u2018Selling Panic\u2019 Crash Fears Surge - Forbes",
+        "'TRUMP STRAIT?' Trump threatens to name the Strait of Hormuz after himself as US, Iran trade strikes - thehill.com",
+        "XRP, Ethereum and Solana Hit by $369M Crypto Liquidation Wave - Altcoin Buzz"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": 0.1075,
-      "vol_ratio": 0.12
+      "up_down_ratio": 1.09,
+      "health": 0.1206,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 1.15082,
-      "ema200": 1.15443,
-      "macd": 0.000467,
-      "macd_signal": -0.00018,
-      "rsi14": 57.0,
-      "atr14": 0.00255,
-      "atr14_hourly": 0.01057,
-      "bb_position": 0.807
+      "ema50": 1.15311,
+      "ema200": 1.15469,
+      "macd": 0.001686,
+      "macd_signal": 0.001427,
+      "rsi14": 59.3,
+      "atr14": 0.00218,
+      "atr14_hourly": 0.00966,
+      "bb_position": 0.736
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.579,
+      "percentile": 0.543,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179083
+  "data_bars": 179095
 }
