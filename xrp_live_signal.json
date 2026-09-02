@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T15:01:38.175785+00:00",
+  "timestamp": "2026-09-02T16:01:35.229579+00:00",
   "signal": {
-    "price": 1.1457,
+    "price": 1.1512,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4457,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4338,
+    "hybrid_score": 4.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.031,
+      "score": 0.003,
       "bullish_pct": 25.0,
-      "bearish_pct": 35.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.068,
-        "crypto_macro": 0.019,
-        "geopolitical": -0.351,
-        "fed_rates": 0.022
+        "xrp": 0.177,
+        "crypto_macro": -0.032,
+        "geopolitical": -0.324,
+        "fed_rates": 0.047
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
-        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH, XRP under pressure as momentum indicators flag early beari"
+        "Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings in shift to bitcoin-only crypto strategy - The Block",
+        "US, Iran trade strikes as fears mount over wider return to hostilities - H\u00fcrriyet Daily News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.96,
-      "health": 0.2394,
-      "vol_ratio": 0.35
+      "up_down_ratio": 0.92,
+      "health": 0.1957,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.14924,
-      "ema200": 1.15578,
-      "macd": 0.001214,
-      "macd_signal": 0.00248,
-      "rsi14": 41.8,
-      "atr14": 0.00368,
-      "atr14_hourly": 0.01464,
-      "bb_position": 0.132
+      "ema50": 1.14984,
+      "ema200": 1.1552,
+      "macd": 0.00047,
+      "macd_signal": 0.000567,
+      "rsi14": 50.5,
+      "atr14": 0.00391,
+      "atr14_hourly": 0.01435,
+      "bb_position": 0.478
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.544,
+      "percentile": 0.586,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179047
+  "data_bars": 179059
 }
