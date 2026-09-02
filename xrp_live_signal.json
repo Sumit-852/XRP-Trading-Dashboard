@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-02T11:01:28.729136+00:00",
+  "timestamp": "2026-09-02T12:01:31.557853+00:00",
   "signal": {
-    "price": 1.1395,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.581,
+    "price": 1.1435,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.3828,
     "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.029,
+      "score": -0.027,
       "bullish_pct": 30.0,
-      "bearish_pct": 35.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.154,
-        "crypto_macro": 0.112,
-        "geopolitical": -0.464,
-        "fed_rates": 0.165
+        "xrp": 0.047,
+        "crypto_macro": 0.034,
+        "geopolitical": -0.45,
+        "fed_rates": 0.196
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitcoin Gains After Strategy Resumes Buying: Ethereum, XRP, Dogecoin Also Rally: Analyst Sees 'Very Long - Benzinga",
         "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
-        "XRP ETFs pull in $170 million over 11 days as Goldman tops institutional holders - CoinDesk",
         "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto"
       ],
       "top_bearish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH, XRP under pressure as momentum indicators flag early beari",
-        "Bitcoin Drops to 10-Day Low, Altcoins Retrace Following New US-Iran Attacks: Market Watch - CryptoPotato",
-        "Trump raises fears of open war as US and Iran trade strikes - The Times"
+        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
+        "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff - CoinDesk",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH, XRP under pressure as momentum indicators flag early beari"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.79,
-      "health": -0.087,
-      "vol_ratio": 0.04
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.8,
+      "health": -0.0687,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 1.14903,
-      "ema200": 1.16095,
-      "macd": -0.003785,
-      "macd_signal": -0.004013,
-      "rsi14": 40.1,
-      "atr14": 0.00291,
-      "atr14_hourly": 0.01219,
-      "bb_position": 0.322
+      "ema50": 1.14601,
+      "ema200": 1.15869,
+      "macd": -0.000769,
+      "macd_signal": -0.001833,
+      "rsi14": 52.3,
+      "atr14": 0.00259,
+      "atr14_hourly": 0.01078,
+      "bb_position": 0.877
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -70,7 +70,7 @@
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4995.02,
     "total_pnl_pct": -0.1,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 178999
+  "data_bars": 179011
 }
