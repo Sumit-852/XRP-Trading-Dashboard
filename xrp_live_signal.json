@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-03T00:01:31.909515+00:00",
+  "timestamp": "2026-09-03T01:01:24.993195+00:00",
   "signal": {
-    "price": 1.1661,
+    "price": 1.159,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3678,
+    "xgb_prob": 0.3783,
     "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.031,
-      "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "score": -0.067,
+      "bullish_pct": 21.7,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.065,
-        "crypto_macro": 0.016,
-        "geopolitical": -0.404,
-        "fed_rates": 0.1
+        "xrp": -0.032,
+        "crypto_macro": 0.039,
+        "geopolitical": -0.397,
+        "fed_rates": 0.048
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "'TRUMP STRAIT?' Trump threatens to name the Strait of Hormuz after himself as US, Iran trade strikes - The Hill",
-        "XRP Joins Ether, Solana in $369 Million Liquidation Wave Amid SEC Blockchain Overhaul: Main Crypto News This Morning - T",
-        "Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings in shift to bitcoin-only crypto strategy - The Block"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": 0.0444,
-      "vol_ratio": 0.45
+      "up_down_ratio": 1.11,
+      "health": -0.0187,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.16195,
-      "ema200": 1.15826,
-      "macd": 0.000866,
-      "macd_signal": 0.000408,
-      "rsi14": 61.7,
-      "atr14": 0.00166,
-      "atr14_hourly": 0.00716,
-      "bb_position": 0.911
+      "ema50": 1.16175,
+      "ema200": 1.15864,
+      "macd": -0.000769,
+      "macd_signal": -0.000251,
+      "rsi14": 37.7,
+      "atr14": 0.00193,
+      "atr14_hourly": 0.00838,
+      "bb_position": 0.125
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.519,
+      "percentile": 0.514,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179155
+  "data_bars": 179167
 }
