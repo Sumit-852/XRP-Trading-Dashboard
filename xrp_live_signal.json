@@ -1,22 +1,23 @@
 {
-  "timestamp": "2026-09-03T13:01:35.185445+00:00",
+  "timestamp": "2026-09-03T14:01:34.474762+00:00",
   "signal": {
-    "price": 1.1909,
+    "price": 1.1957,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5596,
-    "hybrid_score": 5.5,
+    "xgb_prob": 0.6279,
+    "hybrid_score": 5.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.159,
-      "bullish_pct": 40.0,
+      "score": 0.126,
+      "bullish_pct": 33.3,
       "bearish_pct": 13.3,
-      "headlines_analyzed": 15,
+      "headlines_analyzed": 30,
       "feed_scores": {
-        "xrp": 0.159
+        "xrp": 0.21,
+        "crypto_macro": 0.02
       },
       "geo_shock": false,
       "geo_dip": {
@@ -27,31 +28,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP spot ETF records $170M in inflows over 11 consecutive days, UE Crypto continues to gain attention by creating $2,000",
         "XRP interest grows among wealth managers, Bitwise says - Crypto News",
-        "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
         "Ether, XRP ETF Inflows End as Bitcoin Funds Rebound With $101M - Altcoin Buzz"
       ],
       "top_bearish": [
-        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga",
-        "Top firm dumps XRP but keeps Bitcoin - Yahoo Finance Singapore",
-        "XRP price at Sep 3, 2026 at 7am EDT? Crypto Prediction Market - Robinhood"
+        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "ARB Skyrockets by Double Digits Again, BTC Recovers From Drop to $76K: Market Watch - CryptoPotato"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.29,
-      "health": 0.1333,
-      "vol_ratio": 0.27
+      "up_down_ratio": 1.31,
+      "health": 0.1664,
+      "vol_ratio": 0.31
     },
     "technicals": {
-      "ema50": 1.18064,
-      "ema200": 1.17382,
-      "macd": 0.003157,
-      "macd_signal": 0.002192,
-      "rsi14": 69.2,
-      "atr14": 0.00326,
-      "atr14_hourly": 0.00994,
-      "bb_position": 0.998
+      "ema50": 1.18722,
+      "ema200": 1.17652,
+      "macd": 0.004674,
+      "macd_signal": 0.00476,
+      "rsi14": 57.8,
+      "atr14": 0.00413,
+      "atr14_hourly": 0.01482,
+      "bb_position": 0.592
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -61,7 +62,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.563,
+      "percentile": 0.507,
       "extreme": false
     }
   },
@@ -98,5 +99,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179311
+  "data_bars": 179323
 }
