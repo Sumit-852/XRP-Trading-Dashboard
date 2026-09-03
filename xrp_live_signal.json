@@ -1,24 +1,27 @@
 {
-  "timestamp": "2026-09-03T17:02:30.282211+00:00",
+  "timestamp": "2026-09-03T18:01:33.516140+00:00",
   "signal": {
-    "price": 1.2484,
+    "price": 1.2554,
     "xgb_pred": "UP",
-    "xgb_prob": 0.651,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.7089,
+    "hybrid_score": 6.3,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.178,
-      "bullish_pct": 60.0,
-      "bearish_pct": 20.0,
-      "headlines_analyzed": 15,
+      "score": 0.106,
+      "bullish_pct": 41.7,
+      "bearish_pct": 26.7,
+      "headlines_analyzed": 60,
       "feed_scores": {
-        "fed_rates": 0.177
+        "xrp": 0.278,
+        "crypto_macro": 0.122,
+        "geopolitical": -0.305,
+        "fed_rates": 0.155
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -27,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "The Fed\u2019s Out of Patience - Officials Sound Ready to Halt the Markets Gains With Rate Hikes - 24/7 Wall St.",
-        "Will the US Fed Hike Interest Rates in September? - Morningstar",
-        "Federal Reserve\u2019s Chris Waller \u2018inclined\u2019 to keep interest rates on hold - Financial Times"
+        "XRP spot ETF records $170M in inflows over 11 consecutive days, UE Crypto continues to gain attention by creating $2,000",
+        "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage - Yahoo Fin",
+        "XRP Price Analysis: Can XRP Resume Its Rally After Defending Key Support? - CryptoPotato"
       ],
       "top_bearish": [
-        "A War That Won\u2019t End Is Complicating the Fed\u2019s Next Move - WSJ",
-        "Fed Chair Warsh signals rate hikes may be needed with US inflation stubbornly elevated - AP News",
-        "Gold Rises 3% As Dollar Weakens, Rate Hike Expectations Fall - forbes.com"
+        "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.39,
-      "health": 0.2162,
-      "vol_ratio": 2.0
+      "up_down_ratio": 1.38,
+      "health": 0.0964,
+      "vol_ratio": 0.46
     },
     "technicals": {
-      "ema50": 1.23179,
-      "ema200": 1.1963,
-      "macd": 0.00604,
-      "macd_signal": 0.008222,
-      "rsi14": 54.7,
-      "atr14": 0.00671,
-      "atr14_hourly": 0.02768,
-      "bb_position": 0.36
+      "ema50": 1.24011,
+      "ema200": 1.20276,
+      "macd": 0.003608,
+      "macd_signal": 0.00417,
+      "rsi14": 57.2,
+      "atr14": 0.00512,
+      "atr14_hourly": 0.01872,
+      "bb_position": 0.669
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -61,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.678,
+      "percentile": 0.689,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.69%",
-    "portfolio_eur": 4986.45,
-    "total_pnl_pct": -0.271,
+    "reason": "HOLD LONG: P&L -0.13%",
+    "portfolio_eur": 4993.4,
+    "total_pnl_pct": -0.132,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.32671,
-      "stop_loss": 1.21522,
-      "trailing_stop": 1.19973
+      "take_profit": 1.30389,
+      "stop_loss": 1.22892,
+      "trailing_stop": 1.21796
     }
   },
   "trade_feedback": {
@@ -103,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179359
+  "data_bars": 179371
 }
