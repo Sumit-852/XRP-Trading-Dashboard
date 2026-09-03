@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T09:02:00.546883+00:00",
+  "timestamp": "2026-09-03T10:01:33.215684+00:00",
   "signal": {
-    "price": 1.1784,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4836,
-    "hybrid_score": 4.9,
+    "price": 1.1725,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5265,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.065,
-      "bullish_pct": 26.7,
+      "score": -0.045,
+      "bullish_pct": 28.3,
       "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.012,
-        "crypto_macro": 0.027,
-        "geopolitical": -0.486,
-        "fed_rates": 0.144
+        "xrp": 0.075,
+        "crypto_macro": -0.001,
+        "geopolitical": -0.451,
+        "fed_rates": 0.073
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz",
-        "A Step Towards Clarity: SEC Proposes Regulation Crypto Assets - WilmerHale",
+        "XRP interest grows among wealth managers, Bitwise says - Crypto News",
+        "Ripple Integrates AI to Strengthen XRP Ledger Security - Bitcoin Foundation",
         "Ether, XRP ETF inflow streaks end as Bitcoin funds rebound - FXStreet"
       ],
       "top_bearish": [
-        "Crypto Market Crash Explained: Bitcoin Bulls Get Shaken Out as AlphaPepe Builds Its First-Cycle Trade Before Price Disco",
         "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "XRP Joins Ether, Solana in $369 Million Liquidation Wave Amid SEC Blockchain Overhaul: Main Crypto News This Morning - T"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": 0.0481,
-      "vol_ratio": 0.02
+      "up_down_ratio": 1.02,
+      "health": -0.1089,
+      "vol_ratio": 0.76
     },
     "technicals": {
-      "ema50": 1.17876,
-      "ema200": 1.17046,
-      "macd": 0.000344,
-      "macd_signal": 0.000882,
-      "rsi14": 46.0,
-      "atr14": 0.00267,
-      "atr14_hourly": 0.01195,
-      "bb_position": 0.252
+      "ema50": 1.17768,
+      "ema200": 1.1711,
+      "macd": -0.001661,
+      "macd_signal": -0.000923,
+      "rsi14": 35.8,
+      "atr14": 0.00228,
+      "atr14_hourly": 0.00976,
+      "bb_position": 0.069
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.59,
+      "percentile": 0.574,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179263
+  "data_bars": 179275
 }
