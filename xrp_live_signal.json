@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-09-03T22:01:27.930788+00:00",
+  "timestamp": "2026-09-03T23:01:35.993717+00:00",
   "signal": {
-    "price": 1.2548,
+    "price": 1.2531,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6312,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.7053,
+    "hybrid_score": 7.5,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.089,
-      "bullish_pct": 43.3,
-      "bearish_pct": 25.0,
+      "score": 0.086,
+      "bullish_pct": 41.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.238,
-        "crypto_macro": 0.04,
-        "geopolitical": -0.24,
-        "fed_rates": 0.224
+        "xrp": 0.156,
+        "crypto_macro": 0.069,
+        "geopolitical": -0.156,
+        "fed_rates": 0.249
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -35,26 +35,26 @@
         "Bitcoin Hits $80,000 Ethereum, XRP Rally as Fed's Waller Warms To Hold - Benzinga"
       ],
       "top_bearish": [
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
-        "U.S.-Canada Trade War Threatens AI Buildouts - Futuriom"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - coindesk.com",
+        "Why Is XRP Up Today? - The Motley Fool",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.45,
-      "health": 0.0437,
-      "vol_ratio": 0.23
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.42,
+      "health": 0.0147,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.25978,
-      "ema200": 1.22558,
-      "macd": -0.000825,
-      "macd_signal": 0.00032,
-      "rsi14": 39.5,
-      "atr14": 0.00496,
-      "atr14_hourly": 0.01438,
-      "bb_position": -0.068
+      "ema50": 1.25596,
+      "ema200": 1.22832,
+      "macd": -0.003402,
+      "macd_signal": -0.00354,
+      "rsi14": 46.6,
+      "atr14": 0.0044,
+      "atr14_hourly": 0.01939,
+      "bb_position": 0.446
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.739,
+      "percentile": 0.745,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.18%",
-    "portfolio_eur": 4992.81,
-    "total_pnl_pct": -0.144,
+    "reason": "HOLD LONG: P&L -0.31%",
+    "portfolio_eur": 4991.12,
+    "total_pnl_pct": -0.178,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.29305,
-      "stop_loss": 1.23542,
-      "trailing_stop": 1.23689
+      "take_profit": 1.30566,
+      "stop_loss": 1.22786,
+      "trailing_stop": 1.22672
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179419
+  "data_bars": 179431
 }
