@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T20:01:39.464315+00:00",
+  "timestamp": "2026-09-03T21:01:29.331162+00:00",
   "signal": {
-    "price": 1.2569,
+    "price": 1.2659,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5246,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.6921,
+    "hybrid_score": 6.2,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.105,
-      "bullish_pct": 46.7,
-      "bearish_pct": 25.0,
+      "sentiment": "NEUTRAL",
+      "score": 0.055,
+      "bullish_pct": 38.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.243,
-        "crypto_macro": 0.131,
-        "geopolitical": -0.274,
-        "fed_rates": 0.185
+        "xrp": 0.14,
+        "crypto_macro": 0.08,
+        "geopolitical": -0.262,
+        "fed_rates": 0.188
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12% - 24/7 Wall St.",
-        "Arbitrum (ARB) price jumps 30% after revenue surge from its partnership with Robinhood - CoinDesk"
+        "Bitcoin Hits $80,000 Ethereum, XRP Rally as Fed's Waller Warms To Hold - Benzinga",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
       ],
       "top_bearish": [
         "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
-        "Dogecoin becomes only losing bet for Japan-listed firm as it sells altcoins for bitcoin - CoinDesk"
+        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.38,
-      "health": -0.1247,
-      "vol_ratio": 0.26
+      "up_down_ratio": 1.44,
+      "health": 0.066,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.25235,
-      "ema200": 1.21488,
-      "macd": 0.002204,
-      "macd_signal": 0.002614,
-      "rsi14": 48.0,
-      "atr14": 0.0048,
-      "atr14_hourly": 0.01403,
-      "bb_position": 0.368
+      "ema50": 1.25835,
+      "ema200": 1.22091,
+      "macd": 0.002479,
+      "macd_signal": 0.002985,
+      "rsi14": 52.7,
+      "atr14": 0.00454,
+      "atr14_hourly": 0.01597,
+      "bb_position": 0.497
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.724,
+      "percentile": 0.72,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.01%",
-    "portfolio_eur": 4994.89,
-    "total_pnl_pct": -0.102,
+    "reason": "HOLD LONG: P&L +0.71%",
+    "portfolio_eur": 5003.83,
+    "total_pnl_pct": 0.077,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.29211,
-      "stop_loss": 1.23598,
-      "trailing_stop": 1.23001
+      "take_profit": 1.29668,
+      "stop_loss": 1.23324,
+      "trailing_stop": 1.23396
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179395
+  "data_bars": 179407
 }
