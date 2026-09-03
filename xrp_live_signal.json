@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T04:01:31.814104+00:00",
+  "timestamp": "2026-09-03T05:01:32.580847+00:00",
   "signal": {
-    "price": 1.1795,
+    "price": 1.181,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4597,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4867,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.013,
-      "bullish_pct": 30.0,
-      "bearish_pct": 40.0,
+      "score": -0.055,
+      "bullish_pct": 28.3,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.101,
-        "crypto_macro": 0.126,
-        "geopolitical": -0.569,
-        "fed_rates": 0.122
+        "xrp": 0.049,
+        "crypto_macro": 0.049,
+        "geopolitical": -0.456,
+        "fed_rates": -0.025
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Best Crypto to Buy Now as ETH and XRP ETFs Record Nine Straight Inflow Days and Remittix Nears Its $32M Milestone - Stre",
         "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
-        "Ripple Integrates AI to Strengthen XRP Ledger Security - Bitcoin Foundation"
+        "XRP ETFs pull in $170 million over 11 days as Goldman tops institutional holders - CoinDesk",
+        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz"
       ],
       "top_bearish": [
-        "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga"
+        "Bitcoin Decoupling From Nasdaq, Says Grayscale as 'Debasement Trade' Comes Into Focus: Rising Debt, Deficit 'Pushing' In",
+        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina",
+        "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.0717,
-      "vol_ratio": 0.36
+      "up_down_ratio": 1.12,
+      "health": -0.0373,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 1.17365,
-      "ema200": 1.16405,
-      "macd": 0.001507,
-      "macd_signal": 0.002129,
-      "rsi14": 56.3,
-      "atr14": 0.00278,
-      "atr14_hourly": 0.01199,
-      "bb_position": 0.493
+      "ema50": 1.17487,
+      "ema200": 1.16548,
+      "macd": 0.000636,
+      "macd_signal": 0.00038,
+      "rsi14": 59.9,
+      "atr14": 0.00251,
+      "atr14_hourly": 0.00926,
+      "bb_position": 0.891
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.557,
+      "percentile": 0.56,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179203
+  "data_bars": 179215
 }
