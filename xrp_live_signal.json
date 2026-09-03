@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T21:01:29.331162+00:00",
+  "timestamp": "2026-09-03T22:01:27.930788+00:00",
   "signal": {
-    "price": 1.2659,
+    "price": 1.2548,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6921,
-    "hybrid_score": 6.2,
+    "xgb_prob": 0.6312,
+    "hybrid_score": 5.9,
     "regime": "BULLISH",
-    "entry_signal": true,
+    "entry_signal": false,
     "exit_signal": false,
-    "action": "BUY",
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.055,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "score": 0.089,
+      "bullish_pct": 43.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.14,
-        "crypto_macro": 0.08,
-        "geopolitical": -0.262,
-        "fed_rates": 0.188
+        "xrp": 0.238,
+        "crypto_macro": 0.04,
+        "geopolitical": -0.24,
+        "fed_rates": 0.224
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage - Yahoo Fin",
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "Bitcoin Hits $80,000 Ethereum, XRP Rally as Fed's Waller Warms To Hold - Benzinga",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
+        "Bitcoin Hits $80,000 Ethereum, XRP Rally as Fed's Waller Warms To Hold - Benzinga"
       ],
       "top_bearish": [
-        "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit",
-        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
+        "U.S.-Canada Trade War Threatens AI Buildouts - Futuriom"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.44,
-      "health": 0.066,
-      "vol_ratio": 0.02
+      "up_down_ratio": 1.45,
+      "health": 0.0437,
+      "vol_ratio": 0.23
     },
     "technicals": {
-      "ema50": 1.25835,
-      "ema200": 1.22091,
-      "macd": 0.002479,
-      "macd_signal": 0.002985,
-      "rsi14": 52.7,
-      "atr14": 0.00454,
-      "atr14_hourly": 0.01597,
-      "bb_position": 0.497
+      "ema50": 1.25978,
+      "ema200": 1.22558,
+      "macd": -0.000825,
+      "macd_signal": 0.00032,
+      "rsi14": 39.5,
+      "atr14": 0.00496,
+      "atr14_hourly": 0.01438,
+      "bb_position": -0.068
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.72,
+      "percentile": 0.739,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.71%",
-    "portfolio_eur": 5003.83,
-    "total_pnl_pct": 0.077,
+    "reason": "HOLD LONG: P&L -0.18%",
+    "portfolio_eur": 4992.81,
+    "total_pnl_pct": -0.144,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.29668,
-      "stop_loss": 1.23324,
-      "trailing_stop": 1.23396
+      "take_profit": 1.29305,
+      "stop_loss": 1.23542,
+      "trailing_stop": 1.23689
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179407
+  "data_bars": 179419
 }
