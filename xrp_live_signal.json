@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-09-03T18:01:33.516140+00:00",
+  "timestamp": "2026-09-03T19:01:43.191885+00:00",
   "signal": {
-    "price": 1.2554,
+    "price": 1.2581,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7089,
-    "hybrid_score": 6.3,
+    "xgb_prob": 0.6553,
+    "hybrid_score": 7.2,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.106,
-      "bullish_pct": 41.7,
+      "sentiment": "NEUTRAL",
+      "score": 0.056,
+      "bullish_pct": 38.3,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.278,
-        "crypto_macro": 0.122,
-        "geopolitical": -0.305,
-        "fed_rates": 0.155
+        "xrp": 0.203,
+        "crypto_macro": 0.093,
+        "geopolitical": -0.377,
+        "fed_rates": 0.157
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP spot ETF records $170M in inflows over 11 consecutive days, UE Crypto continues to gain attention by creating $2,000",
-        "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage - Yahoo Fin",
-        "XRP Price Analysis: Can XRP Resume Its Rally After Defending Key Support? - CryptoPotato"
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12% - 247wallst.com",
+        "Arbitrum (ARB) price jumps 30% after revenue surge from its partnership with Robinhood - CoinDesk"
       ],
       "top_bearish": [
         "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
+        "Canada at War: Trade and Trump\u2019s Tariffs - fairobserver.com"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.38,
-      "health": 0.0964,
-      "vol_ratio": 0.46
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.37,
+      "health": 0.0653,
+      "vol_ratio": 0.32
     },
     "technicals": {
-      "ema50": 1.24011,
-      "ema200": 1.20276,
-      "macd": 0.003608,
-      "macd_signal": 0.00417,
-      "rsi14": 57.2,
-      "atr14": 0.00512,
-      "atr14_hourly": 0.01872,
-      "bb_position": 0.669
+      "ema50": 1.24649,
+      "ema200": 1.20889,
+      "macd": 0.001968,
+      "macd_signal": 0.002461,
+      "rsi14": 57.3,
+      "atr14": 0.00402,
+      "atr14_hourly": 0.01549,
+      "bb_position": 0.653
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.689,
+      "percentile": 0.696,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.13%",
-    "portfolio_eur": 4993.4,
-    "total_pnl_pct": -0.132,
+    "reason": "HOLD LONG: P&L +0.08%",
+    "portfolio_eur": 4996.09,
+    "total_pnl_pct": -0.078,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.30389,
-      "stop_loss": 1.22892,
-      "trailing_stop": 1.21796
+      "take_profit": 1.29572,
+      "stop_loss": 1.23382,
+      "trailing_stop": 1.22712
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179371
+  "data_bars": 179383
 }
