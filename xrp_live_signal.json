@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-09-03T19:01:43.191885+00:00",
+  "timestamp": "2026-09-03T20:01:39.464315+00:00",
   "signal": {
-    "price": 1.2581,
+    "price": 1.2569,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6553,
-    "hybrid_score": 7.2,
+    "xgb_prob": 0.5246,
+    "hybrid_score": 5.2,
     "regime": "BULLISH",
-    "entry_signal": true,
+    "entry_signal": false,
     "exit_signal": false,
-    "action": "BUY",
+    "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.056,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "sentiment": "BULLISH",
+      "score": 0.105,
+      "bullish_pct": 46.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.203,
-        "crypto_macro": 0.093,
-        "geopolitical": -0.377,
-        "fed_rates": 0.157
+        "xrp": 0.243,
+        "crypto_macro": 0.131,
+        "geopolitical": -0.274,
+        "fed_rates": 0.185
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12% - 247wallst.com",
+        "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12% - 24/7 Wall St.",
         "Arbitrum (ARB) price jumps 30% after revenue surge from its partnership with Robinhood - CoinDesk"
       ],
       "top_bearish": [
         "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit",
         "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
-        "Canada at War: Trade and Trump\u2019s Tariffs - fairobserver.com"
+        "Dogecoin becomes only losing bet for Japan-listed firm as it sells altcoins for bitcoin - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.37,
-      "health": 0.0653,
-      "vol_ratio": 0.32
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.38,
+      "health": -0.1247,
+      "vol_ratio": 0.26
     },
     "technicals": {
-      "ema50": 1.24649,
-      "ema200": 1.20889,
-      "macd": 0.001968,
-      "macd_signal": 0.002461,
-      "rsi14": 57.3,
-      "atr14": 0.00402,
-      "atr14_hourly": 0.01549,
-      "bb_position": 0.653
+      "ema50": 1.25235,
+      "ema200": 1.21488,
+      "macd": 0.002204,
+      "macd_signal": 0.002614,
+      "rsi14": 48.0,
+      "atr14": 0.0048,
+      "atr14_hourly": 0.01403,
+      "bb_position": 0.368
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.696,
+      "percentile": 0.724,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L +0.08%",
-    "portfolio_eur": 4996.09,
-    "total_pnl_pct": -0.078,
+    "reason": "HOLD LONG: P&L -0.01%",
+    "portfolio_eur": 4994.89,
+    "total_pnl_pct": -0.102,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.29572,
-      "stop_loss": 1.23382,
-      "trailing_stop": 1.22712
+      "take_profit": 1.29211,
+      "stop_loss": 1.23598,
+      "trailing_stop": 1.23001
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179383
+  "data_bars": 179395
 }
