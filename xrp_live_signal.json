@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-09-03T15:01:33.848362+00:00",
+  "timestamp": "2026-09-03T16:01:34.989087+00:00",
   "signal": {
     "price": 1.2554,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7035,
-    "hybrid_score": 7.5,
+    "xgb_prob": 0.6345,
+    "hybrid_score": 5.8,
     "regime": "BULLISH",
-    "entry_signal": true,
+    "entry_signal": false,
     "exit_signal": false,
-    "action": "BUY",
+    "action": "HOLD",
     "news": {
       "sentiment": "NO_DATA",
       "score": 0.0,
@@ -28,20 +28,20 @@
       "top_bearish": []
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.52,
-      "health": 0.4239,
-      "vol_ratio": 1.19
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.38,
+      "health": 0.3388,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 1.20072,
-      "ema200": 1.18153,
-      "macd": 0.013947,
-      "macd_signal": 0.009213,
-      "rsi14": 91.3,
-      "atr14": 0.00665,
-      "atr14_hourly": 0.02551,
-      "bb_position": 1.1
+      "ema50": 1.21983,
+      "ema200": 1.18933,
+      "macd": 0.013141,
+      "macd_signal": 0.013381,
+      "rsi14": 71.2,
+      "atr14": 0.00782,
+      "atr14_hourly": 0.03564,
+      "bb_position": 0.717
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -51,13 +51,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.61,
+      "percentile": 0.617,
       "extreme": false
     }
   },
   "trade": {
-    "action": "BUY",
-    "reason": "MODEL_BUY: score=7.5",
+    "action": "HOLD",
+    "reason": "HOLD LONG: P&L -0.13%",
     "portfolio_eur": 4993.4,
     "total_pnl_pct": -0.132,
     "position": "LONG",
@@ -66,8 +66,9 @@
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.32089,
-      "stop_loss": 1.21872
+      "take_profit": 1.34625,
+      "stop_loss": 1.2035,
+      "trailing_stop": 1.18412
     }
   },
   "trade_feedback": {
@@ -92,5 +93,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179335
+  "data_bars": 179347
 }
