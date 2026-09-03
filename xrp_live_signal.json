@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-02T23:01:27.654225+00:00",
+  "timestamp": "2026-09-03T00:01:31.909515+00:00",
   "signal": {
-    "price": 1.1597,
+    "price": 1.1661,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3728,
+    "xgb_prob": 0.3678,
     "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.077,
-      "bullish_pct": 23.3,
-      "bearish_pct": 41.7,
+      "score": -0.031,
+      "bullish_pct": 30.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.035,
-        "crypto_macro": -0.015,
-        "geopolitical": -0.491,
-        "fed_rates": 0.036
+        "xrp": 0.065,
+        "crypto_macro": 0.016,
+        "geopolitical": -0.404,
+        "fed_rates": 0.1
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
-        "XRP ETFs pull in $170 million over 11 days as Goldman tops institutional holders - CoinDesk",
-        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz"
+        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz",
+        "CLARITY Act Crypto Regulation Impact: How the September Vote Could Reshape the U.S. Crypto Market - Bitcoin Foundation"
       ],
       "top_bearish": [
-        "'TRUMP STRAIT?' Trump threatens to name the Strait of Hormuz after himself as US, Iran trade strikes - thehill.com",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "XRP, Ethereum and Solana Hit by $369M Crypto Liquidation Wave - Altcoin Buzz"
+        "'TRUMP STRAIT?' Trump threatens to name the Strait of Hormuz after himself as US, Iran trade strikes - The Hill",
+        "XRP Joins Ether, Solana in $369 Million Liquidation Wave Amid SEC Blockchain Overhaul: Main Crypto News This Morning - T",
+        "Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings in shift to bitcoin-only crypto strategy - The Block"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.13,
-      "health": 0.2375,
-      "vol_ratio": 0.04
+      "health": 0.0444,
+      "vol_ratio": 0.45
     },
     "technicals": {
-      "ema50": 1.16069,
-      "ema200": 1.15754,
-      "macd": -0.000446,
-      "macd_signal": -0.00034,
-      "rsi14": 44.2,
-      "atr14": 0.00179,
-      "atr14_hourly": 0.00756,
-      "bb_position": 0.275
+      "ema50": 1.16195,
+      "ema200": 1.15826,
+      "macd": 0.000866,
+      "macd_signal": 0.000408,
+      "rsi14": 61.7,
+      "atr14": 0.00166,
+      "atr14_hourly": 0.00716,
+      "bb_position": 0.911
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.521,
+      "percentile": 0.519,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179143
+  "data_bars": 179155
 }
