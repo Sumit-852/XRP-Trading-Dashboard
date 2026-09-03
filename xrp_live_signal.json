@@ -1,24 +1,21 @@
 {
-  "timestamp": "2026-09-03T14:01:34.474762+00:00",
+  "timestamp": "2026-09-03T15:01:33.848362+00:00",
   "signal": {
-    "price": 1.1957,
+    "price": 1.2554,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6279,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.7035,
+    "hybrid_score": 7.5,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.126,
-      "bullish_pct": 33.3,
-      "bearish_pct": 13.3,
-      "headlines_analyzed": 30,
-      "feed_scores": {
-        "xrp": 0.21,
-        "crypto_macro": 0.02
-      },
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -27,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "XRP spot ETF records $170M in inflows over 11 consecutive days, UE Crypto continues to gain attention by creating $2,000",
-        "XRP interest grows among wealth managers, Bitwise says - Crypto News",
-        "Ether, XRP ETF Inflows End as Bitcoin Funds Rebound With $101M - Altcoin Buzz"
-      ],
-      "top_bearish": [
-        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "ARB Skyrockets by Double Digits Again, BTC Recovers From Drop to $76K: Market Watch - CryptoPotato"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.31,
-      "health": 0.1664,
-      "vol_ratio": 0.31
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.52,
+      "health": 0.4239,
+      "vol_ratio": 1.19
     },
     "technicals": {
-      "ema50": 1.18722,
-      "ema200": 1.17652,
-      "macd": 0.004674,
-      "macd_signal": 0.00476,
-      "rsi14": 57.8,
-      "atr14": 0.00413,
-      "atr14_hourly": 0.01482,
-      "bb_position": 0.592
+      "ema50": 1.20072,
+      "ema200": 1.18153,
+      "macd": 0.013947,
+      "macd_signal": 0.009213,
+      "rsi14": 91.3,
+      "atr14": 0.00665,
+      "atr14_hourly": 0.02551,
+      "bb_position": 1.1
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -62,20 +51,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.507,
+      "percentile": 0.61,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
-    "portfolio_eur": 4995.02,
-    "total_pnl_pct": -0.1,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4995.02,
-    "trade_count": 70,
-    "draw_levels": {}
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=7.5",
+    "portfolio_eur": 4993.4,
+    "total_pnl_pct": -0.132,
+    "position": "LONG",
+    "xrp_held": 993.4154,
+    "cash_eur": 3746.27,
+    "trade_count": 71,
+    "draw_levels": {
+      "entry": 1.2570320200000002,
+      "take_profit": 1.32089,
+      "stop_loss": 1.21872
+    }
   },
   "trade_feedback": {
     "overall_win_rate": 0.4,
@@ -99,5 +92,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179323
+  "data_bars": 179335
 }
