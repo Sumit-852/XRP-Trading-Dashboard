@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T05:01:32.580847+00:00",
+  "timestamp": "2026-09-03T06:02:10.245203+00:00",
   "signal": {
-    "price": 1.181,
+    "price": 1.1785,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4867,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.4543,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.055,
-      "bullish_pct": 28.3,
-      "bearish_pct": 41.7,
+      "score": -0.063,
+      "bullish_pct": 25.0,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.049,
-        "crypto_macro": 0.049,
-        "geopolitical": -0.456,
-        "fed_rates": -0.025
+        "xrp": -0.004,
+        "crypto_macro": 0.023,
+        "geopolitical": -0.483,
+        "fed_rates": 0.14
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.bus",
-        "XRP ETFs pull in $170 million over 11 days as Goldman tops institutional holders - CoinDesk",
-        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz"
+        "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - AMBCrypto",
+        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz",
+        "CLARITY Act Crypto Regulation Impact: How the September Vote Could Reshape the U.S. Crypto Market - Bitcoin Foundation"
       ],
       "top_bearish": [
         "Bitcoin Decoupling From Nasdaq, Says Grayscale as 'Debasement Trade' Comes Into Focus: Rising Debt, Deficit 'Pushing' In",
         "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina",
-        "In Bellingham, Senator Murray Hears How Trump\u2019s Trade War with Canada and War in Iran Are Driving Up Costs for the Marit"
+        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.12,
-      "health": -0.0373,
-      "vol_ratio": 0.19
+      "up_down_ratio": 1.14,
+      "health": 0.0777,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.17487,
-      "ema200": 1.16548,
-      "macd": 0.000636,
-      "macd_signal": 0.00038,
-      "rsi14": 59.9,
-      "atr14": 0.00251,
-      "atr14_hourly": 0.00926,
-      "bb_position": 0.891
+      "ema50": 1.17492,
+      "ema200": 1.16654,
+      "macd": 0.000234,
+      "macd_signal": -0.000317,
+      "rsi14": 55.4,
+      "atr14": 0.0031,
+      "atr14_hourly": 0.01281,
+      "bb_position": 0.708
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.56,
+      "percentile": 0.571,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179215
+  "data_bars": 179227
 }
