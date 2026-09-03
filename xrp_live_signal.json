@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T11:01:31.119651+00:00",
+  "timestamp": "2026-09-03T12:01:28.843717+00:00",
   "signal": {
-    "price": 1.1754,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5289,
-    "hybrid_score": 5.2,
+    "price": 1.1822,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4718,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.028,
-      "bullish_pct": 30.0,
-      "bearish_pct": 38.3,
+      "score": 0.002,
+      "bullish_pct": 31.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.095,
-        "crypto_macro": 0.054,
-        "geopolitical": -0.462,
-        "fed_rates": 0.04
+        "xrp": 0.15,
+        "crypto_macro": 0.011,
+        "geopolitical": -0.365,
+        "fed_rates": 0.069
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage - Yahoo Fin",
         "XRP interest grows among wealth managers, Bitwise says - Crypto News",
-        "Bitcoin ETFs gain $100M as Ethereum, XRP, and S... - Pluang",
-        "A Step Towards Clarity: SEC Proposes Regulation Crypto Assets - WilmerHale"
+        "Ether, XRP ETF Inflows End as Bitcoin Funds Rebound With $101M - Altcoin Buzz"
       ],
       "top_bearish": [
-        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina",
+        "Crypto Market Crash Explained: Bitcoin Bulls Get Shaken Out as AlphaPepe Builds Its First-Cycle Trade Before Price Disco",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings in shift to bitcoin-only crypto strategy - The Block"
+        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": -0.0944,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.18,
+      "health": -0.0489,
+      "vol_ratio": 0.32
     },
     "technicals": {
-      "ema50": 1.17629,
-      "ema200": 1.17143,
-      "macd": -0.000992,
-      "macd_signal": -0.001339,
-      "rsi14": 49.9,
-      "atr14": 0.00213,
-      "atr14_hourly": 0.00796,
-      "bb_position": 0.658
+      "ema50": 1.17777,
+      "ema200": 1.17241,
+      "macd": 0.001474,
+      "macd_signal": 0.000858,
+      "rsi14": 61.9,
+      "atr14": 0.00235,
+      "atr14_hourly": 0.00869,
+      "bb_position": 0.836
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.565,
+      "percentile": 0.563,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179287
+  "data_bars": 179299
 }
