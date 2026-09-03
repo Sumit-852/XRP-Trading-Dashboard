@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-09-03T07:01:30.581056+00:00",
+  "timestamp": "2026-09-03T08:01:32.075143+00:00",
   "signal": {
-    "price": 1.1749,
+    "price": 1.1773,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5457,
-    "hybrid_score": 6.5,
+    "xgb_prob": 0.5836,
+    "hybrid_score": 5.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.069,
-      "bullish_pct": 30.0,
-      "bearish_pct": 43.3,
+      "score": -0.072,
+      "bullish_pct": 28.3,
+      "bearish_pct": 41.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": -0.019,
-        "crypto_macro": 0.06,
-        "geopolitical": -0.444,
-        "fed_rates": 0.014
+        "xrp": -0.053,
+        "crypto_macro": 0.046,
+        "geopolitical": -0.456,
+        "fed_rates": 0.123
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP ETF inflows hit $1.67B in inflows \u2013 3 reasons Ripple\u2019s price still lags - ambcrypto.com",
-        "Bitcoin, XRP, Dogecoin Gain; Ethereum Dips as Jobs Data Trims Rate Hike Odds: Correction Not Lessening A - Benzinga",
-        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz"
+        "Ripple Integrates AI to Strengthen XRP Ledger Security - Bitcoin Foundation",
+        "Why Is the Crypto Market Down Today? Bitcoin Falls as Oil Surges - Altcoin Buzz",
+        "CLARITY Act Crypto Regulation Impact: How the September Vote Could Reshape the U.S. Crypto Market - Bitcoin Foundation"
       ],
       "top_bearish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH, XRP under pressure as momentum indicators flag early beari",
         "Bitcoin Decoupling From Nasdaq, Says Grayscale as 'Debasement Trade' Comes Into Focus: Rising Debt, Deficit 'Pushing' In",
-        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina"
+        "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites - Yahoo Fina",
+        "Bitcoin, XRP Flash Bearish 'Bart Simpson' Pattern: What Does It Mean? - Benzinga"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.21,
-      "health": 0.1692,
-      "vol_ratio": 0.05
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.11,
+      "health": 0.0724,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.17532,
-      "ema200": 1.16761,
-      "macd": -6.8e-05,
-      "macd_signal": 7e-05,
-      "rsi14": 47.0,
-      "atr14": 0.0022,
-      "atr14_hourly": 0.01066,
-      "bb_position": 0.432
+      "ema50": 1.17703,
+      "ema200": 1.16901,
+      "macd": 0.000402,
+      "macd_signal": 0.000815,
+      "rsi14": 48.3,
+      "atr14": 0.00292,
+      "atr14_hourly": 0.0103,
+      "bb_position": 0.391
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.572,
+      "percentile": 0.593,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179239
+  "data_bars": 179251
 }
