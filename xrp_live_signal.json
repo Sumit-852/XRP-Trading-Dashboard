@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T23:01:35.993717+00:00",
+  "timestamp": "2026-09-04T00:01:29.757224+00:00",
   "signal": {
-    "price": 1.2531,
+    "price": 1.2475,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7053,
-    "hybrid_score": 7.5,
+    "xgb_prob": 0.6855,
+    "hybrid_score": 7.4,
     "regime": "BULLISH",
     "entry_signal": true,
     "exit_signal": false,
     "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.086,
-      "bullish_pct": 41.7,
-      "bearish_pct": 23.3,
+      "score": 0.094,
+      "bullish_pct": 43.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.156,
-        "crypto_macro": 0.069,
-        "geopolitical": -0.156,
-        "fed_rates": 0.249
+        "xrp": 0.172,
+        "crypto_macro": 0.121,
+        "geopolitical": -0.202,
+        "fed_rates": 0.216
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,12 +30,12 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage - Yahoo Fin",
+        "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage - finance.y",
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "Bitcoin Hits $80,000 Ethereum, XRP Rally as Fed's Waller Warms To Hold - Benzinga"
+        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily"
       ],
       "top_bearish": [
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - coindesk.com",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
         "Why Is XRP Up Today? - The Motley Fool",
         "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
       ]
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "ACCUMULATION",
       "up_down_ratio": 1.42,
-      "health": 0.0147,
-      "vol_ratio": 0.05
+      "health": 0.0255,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.25596,
-      "ema200": 1.22832,
-      "macd": -0.003402,
-      "macd_signal": -0.00354,
-      "rsi14": 46.6,
-      "atr14": 0.0044,
-      "atr14_hourly": 0.01939,
-      "bb_position": 0.446
+      "ema50": 1.25317,
+      "ema200": 1.23064,
+      "macd": -0.002467,
+      "macd_signal": -0.00269,
+      "rsi14": 41.6,
+      "atr14": 0.00329,
+      "atr14_hourly": 0.01513,
+      "bb_position": 0.394
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.745,
+      "percentile": 0.746,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -0.31%",
-    "portfolio_eur": 4991.12,
-    "total_pnl_pct": -0.178,
+    "reason": "HOLD LONG: P&L -0.76%",
+    "portfolio_eur": 4985.56,
+    "total_pnl_pct": -0.289,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.30566,
-      "stop_loss": 1.22786,
-      "trailing_stop": 1.22672
+      "take_profit": 1.29515,
+      "stop_loss": 1.23416,
+      "trailing_stop": 1.23519
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179431
+  "data_bars": 179443
 }
