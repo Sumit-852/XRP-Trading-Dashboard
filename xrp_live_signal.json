@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-09-04T04:01:37.603063+00:00",
+  "timestamp": "2026-09-04T05:01:25.350153+00:00",
   "signal": {
-    "price": 1.2444,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5183,
-    "hybrid_score": 6.4,
-    "regime": "BEARISH",
+    "price": 1.2467,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4529,
+    "hybrid_score": 4.7,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.066,
-      "bullish_pct": 43.3,
-      "bearish_pct": 25.0,
+      "score": 0.042,
+      "bullish_pct": 36.7,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.031,
-        "crypto_macro": 0.229,
-        "geopolitical": -0.248,
-        "fed_rates": 0.215
+        "xrp": 0.048,
+        "crypto_macro": 0.032,
+        "geopolitical": -0.119,
+        "fed_rates": 0.244
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.44,
-      "health": 0.0076,
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.46,
+      "health": 0.0255,
       "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.24425,
-      "ema200": 1.23509,
-      "macd": 0.000897,
-      "macd_signal": 0.000823,
-      "rsi14": 52.7,
-      "atr14": 0.00215,
-      "atr14_hourly": 0.01015,
-      "bb_position": 0.566
+      "ema50": 1.2457,
+      "ema200": 1.23655,
+      "macd": 0.001294,
+      "macd_signal": 0.001462,
+      "rsi14": 51.3,
+      "atr14": 0.00239,
+      "atr14_hourly": 0.00999,
+      "bb_position": 0.503
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.73,
+      "percentile": 0.729,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179491
+  "data_bars": 179503
 }
