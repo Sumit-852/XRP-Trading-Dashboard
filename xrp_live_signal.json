@@ -1,110 +1,105 @@
 {
-  "timestamp": "2026-09-04T03:01:30.096738+00:00",
+  "timestamp": "2026-09-04T04:01:37.603063+00:00",
   "signal": {
-    "price": 1.2435,
+    "price": 1.2444,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5282,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5183,
+    "hybrid_score": 6.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.079,
-      "bullish_pct": 41.7,
+      "score": 0.066,
+      "bullish_pct": 43.3,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.15,
-        "crypto_macro": 0.12,
-        "geopolitical": -0.263,
-        "fed_rates": 0.245
+        "xrp": 0.031,
+        "crypto_macro": 0.229,
+        "geopolitical": -0.248,
+        "fed_rates": 0.215
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin Hits $81,000, Ethereum Gains 4% as XRP, Dogecoin Surge 10% - TradingView",
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
-        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily"
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily",
+        "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks - Decrypt"
       ],
       "top_bearish": [
+        "Bitcoin, XRP Blow Past 'Bart Simpson' Levels: Is the Pattern Already Dead? - Benzinga",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "Why Is XRP Up Today? - The Motley Fool",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
+        "Why Is XRP Up Today? - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.34,
-      "health": -0.0586,
-      "vol_ratio": 0.01
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.44,
+      "health": 0.0076,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.24359,
-      "ema200": 1.23377,
-      "macd": -0.000159,
-      "macd_signal": -0.001126,
-      "rsi14": 55.5,
-      "atr14": 0.00283,
-      "atr14_hourly": 0.01059,
-      "bb_position": 0.906
+      "ema50": 1.24425,
+      "ema200": 1.23509,
+      "macd": 0.000897,
+      "macd_signal": 0.000823,
+      "rsi14": 52.7,
+      "atr14": 0.00215,
+      "atr14_hourly": 0.01015,
+      "bb_position": 0.566
     },
     "trade_feedback": {
-      "loss_streak": 3,
+      "loss_streak": 4,
       "recent_win_rate": 0.25,
       "entry_prob_adjusted": 0.65,
       "adapted_sl_mult": 1.5,
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.733,
+      "percentile": 0.73,
       "extreme": false
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "TRAILING_STOP: -1.77%",
+    "action": "HOLD",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
     "xrp_held": 0.0,
     "cash_eur": 4979.98,
     "trade_count": 72,
-    "draw_levels": {
-      "entry": 1.2570320200000002,
-      "take_profit": 1.2838,
-      "stop_loss": 1.24097,
-      "trailing_stop": 1.24434
-    }
+    "draw_levels": {}
   },
   "trade_feedback": {
-    "overall_win_rate": 0.4,
+    "overall_win_rate": 0.389,
     "recent_win_rate": 0.25,
     "avg_win_pct": 1.657,
-    "avg_loss_pct": -0.665,
-    "loss_streak": 3,
+    "avg_loss_pct": -0.684,
+    "loss_streak": 4,
     "win_streak": 0,
     "total_wins": 14,
-    "total_losses": 21,
+    "total_losses": 22,
     "loss_reasons": {
       "MODEL_SELL": 17,
       "STOP_LOSS": 3,
-      "TRAILING_STOP": 1
+      "TRAILING_STOP": 2
     },
-    "sl_loss_ratio": 0.143,
-    "model_loss_ratio": 0.81,
+    "sl_loss_ratio": 0.136,
+    "model_loss_ratio": 0.773,
     "adapted_sl_mult": 1.5,
     "adapted_tp_mult": 2.5,
     "score_adjustment": 1,
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179479
+  "data_bars": 179491
 }
