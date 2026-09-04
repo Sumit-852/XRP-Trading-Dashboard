@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-09-04T07:01:55.449929+00:00",
+  "timestamp": "2026-09-04T08:01:33.333476+00:00",
   "signal": {
-    "price": 1.2443,
+    "price": 1.2413,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6151,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.5921,
+    "hybrid_score": 5.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
+      "sentiment": "BULLISH",
+      "score": 0.125,
+      "bullish_pct": 43.3,
+      "bearish_pct": 15.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.204,
+        "crypto_macro": 0.083,
+        "geopolitical": -0.083,
+        "fed_rates": 0.275
+      },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily",
+        "Coinbase Global soars 10% amid crypto stock rally (COIN:NASDAQ) - Seeking Alpha"
+      ],
+      "top_bearish": [
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.57,
-      "health": 0.1076,
-      "vol_ratio": 2.69
+      "up_down_ratio": 1.51,
+      "health": 0.0948,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.24463,
-      "ema200": 1.23818,
-      "macd": -0.000678,
-      "macd_signal": -0.00073,
-      "rsi14": 50.3,
-      "atr14": 0.00268,
-      "atr14_hourly": 0.01039,
-      "bb_position": 0.57
+      "ema50": 1.24445,
+      "ema200": 1.23888,
+      "macd": -0.000662,
+      "macd_signal": -0.000293,
+      "rsi14": 43.1,
+      "atr14": 0.00259,
+      "atr14_hourly": 0.01033,
+      "bb_position": 0.245
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -51,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.726,
+      "percentile": 0.72,
       "extreme": false
     }
   },
@@ -88,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179527
+  "data_bars": 179539
 }
