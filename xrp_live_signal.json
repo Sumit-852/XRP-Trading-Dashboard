@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-04T11:01:30.085569+00:00",
+  "timestamp": "2026-09-04T12:01:30.086360+00:00",
   "signal": {
-    "price": 1.2465,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3787,
-    "hybrid_score": 4.4,
-    "regime": "BEARISH",
+    "price": 1.2485,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5396,
+    "hybrid_score": 5.3,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.105,
-      "bullish_pct": 43.3,
+      "sentiment": "NEUTRAL",
+      "score": 0.085,
+      "bullish_pct": 40.0,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.125,
-        "crypto_macro": 0.214,
-        "geopolitical": -0.192,
-        "fed_rates": 0.205
+        "xrp": 0.096,
+        "crypto_macro": 0.168,
+        "geopolitical": -0.159,
+        "fed_rates": 0.197
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily",
-        "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks - Decrypt"
+        "Bitcoin surges above $81k as rate hike fears cool, regulatory hopes grow - Investing.com"
       ],
       "top_bearish": [
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.22,
-      "health": -0.1513,
-      "vol_ratio": 0.05
+      "up_down_ratio": 1.41,
+      "health": -0.0829,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.24689,
-      "ema200": 1.24162,
-      "macd": -0.000554,
-      "macd_signal": -0.000491,
-      "rsi14": 48.4,
-      "atr14": 0.00279,
-      "atr14_hourly": 0.01152,
-      "bb_position": 0.424
+      "ema50": 1.2477,
+      "ema200": 1.24245,
+      "macd": 0.000516,
+      "macd_signal": 0.000415,
+      "rsi14": 51.1,
+      "atr14": 0.00223,
+      "atr14_hourly": 0.00911,
+      "bb_position": 0.589
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.725,
+      "percentile": 0.722,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179575
+  "data_bars": 179587
 }
