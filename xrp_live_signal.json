@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-04T19:01:36.539374+00:00",
+  "timestamp": "2026-09-04T20:01:37.664664+00:00",
   "signal": {
-    "price": 1.2056,
+    "price": 1.2069,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5574,
+    "xgb_prob": 0.5457,
     "hybrid_score": 5.3,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,17 +11,17 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.003,
+      "score": -0.026,
       "bullish_pct": 30.0,
-      "bearish_pct": 28.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.096,
-        "crypto_macro": 0.003,
-        "geopolitical": -0.294,
-        "fed_rates": 0.142
+        "xrp": 0.109,
+        "crypto_macro": -0.027,
+        "geopolitical": -0.377,
+        "fed_rates": 0.075
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.17,
-      "health": 0.0923,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.15,
+      "health": 0.1196,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 1.20687,
-      "ema200": 1.22296,
-      "macd": 0.000193,
-      "macd_signal": -0.0003,
-      "rsi14": 53.3,
-      "atr14": 0.00189,
-      "atr14_hourly": 0.0107,
-      "bb_position": 0.758
+      "ema50": 1.20708,
+      "ema200": 1.22121,
+      "macd": 0.000606,
+      "macd_signal": 0.000672,
+      "rsi14": 52.0,
+      "atr14": 0.002,
+      "atr14_hourly": 0.00742,
+      "bb_position": 0.538
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.771,
+      "percentile": 0.761,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179671
+  "data_bars": 179683
 }
