@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-04T12:01:30.086360+00:00",
+  "timestamp": "2026-09-04T13:01:38.001501+00:00",
   "signal": {
-    "price": 1.2485,
+    "price": 1.2159,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5396,
-    "hybrid_score": 5.3,
-    "regime": "BULLISH",
+    "xgb_prob": 0.7667,
+    "hybrid_score": 6.7,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.085,
-      "bullish_pct": 40.0,
-      "bearish_pct": 23.3,
+      "sentiment": "BULLISH",
+      "score": 0.175,
+      "bullish_pct": 50.0,
+      "bearish_pct": 18.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.096,
-        "crypto_macro": 0.168,
-        "geopolitical": -0.159,
-        "fed_rates": 0.197
+        "xrp": 0.198,
+        "crypto_macro": 0.32,
+        "geopolitical": -0.116,
+        "fed_rates": 0.193
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily",
-        "Bitcoin surges above $81k as rate hike fears cool, regulatory hopes grow - Investing.com"
+        "Dovish Fed Hints, Surging ETF Flows Buoy Crypto Markets - RTTNews",
+        "Bitcoin Price Rallies To $81K On Biggest ETF Inflows Since January, Waller Rate Signal Ahead Of August Jobs Report - Tra"
       ],
       "top_bearish": [
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - pbs.org",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
+        "Crypto Market Today, Sept. 3: Bitcoin Reclaims $81,000 on Fed Rate Pause Signals - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.41,
-      "health": -0.0829,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.09,
+      "health": -0.2418,
+      "vol_ratio": 0.42
     },
     "technicals": {
-      "ema50": 1.2477,
-      "ema200": 1.24245,
-      "macd": 0.000516,
-      "macd_signal": 0.000415,
-      "rsi14": 51.1,
-      "atr14": 0.00223,
-      "atr14_hourly": 0.00911,
-      "bb_position": 0.589
+      "ema50": 1.2405,
+      "ema200": 1.24107,
+      "macd": -0.008555,
+      "macd_signal": -0.005323,
+      "rsi14": 28.2,
+      "atr14": 0.00667,
+      "atr14_hourly": 0.02569,
+      "bb_position": 0.151
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.722,
+      "percentile": 0.856,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179587
+  "data_bars": 179599
 }
