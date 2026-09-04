@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-04T16:01:34.506744+00:00",
+  "timestamp": "2026-09-04T17:01:31.694662+00:00",
   "signal": {
-    "price": 1.2043,
+    "price": 1.207,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6008,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.5877,
+    "hybrid_score": 5.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
+      "score": 0.023,
       "bullish_pct": 35.0,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.137,
+        "xrp": 0.085,
         "crypto_macro": 0.051,
-        "geopolitical": -0.335,
+        "geopolitical": -0.275,
         "fed_rates": 0.186
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": -0.1306,
-      "vol_ratio": 0.11
+      "up_down_ratio": 1.03,
+      "health": -0.2828,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.21383,
-      "ema200": 1.23075,
-      "macd": -0.002711,
-      "macd_signal": -0.00411,
-      "rsi14": 45.8,
-      "atr14": 0.00382,
-      "atr14_hourly": 0.01969,
-      "bb_position": 0.641
+      "ema50": 1.21176,
+      "ema200": 1.22821,
+      "macd": 0.000262,
+      "macd_signal": -0.000312,
+      "rsi14": 48.5,
+      "atr14": 0.0028,
+      "atr14_hourly": 0.01322,
+      "bb_position": 0.538
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.79,
+      "percentile": 0.785,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179635
+  "data_bars": 179647
 }
