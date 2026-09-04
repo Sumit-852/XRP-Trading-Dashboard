@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-04T01:01:28.908250+00:00",
+  "timestamp": "2026-09-04T02:01:28.933151+00:00",
   "signal": {
-    "price": 1.2422,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.6013,
-    "hybrid_score": 5.7,
+    "price": 1.2398,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.424,
+    "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.105,
-      "bullish_pct": 43.3,
-      "bearish_pct": 21.7,
+      "sentiment": "NEUTRAL",
+      "score": 0.076,
+      "bullish_pct": 41.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.175,
+        "xrp": 0.132,
         "crypto_macro": 0.149,
-        "geopolitical": -0.204,
-        "fed_rates": 0.226
+        "geopolitical": -0.266,
+        "fed_rates": 0.215
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Coinbase Global soars 10% amid crypto stock rally (COIN:NASDAQ) - Seeking Alpha"
       ],
       "top_bearish": [
+        "Bitcoin, XRP Blow Past 'Bart Simpson' Levels: Is the Pattern Already Dead? - Benzinga",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
-        "Canada at War: Trade and Trump\u2019s Tariffs - fairobserver.com"
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.39,
-      "health": 0.0166,
-      "vol_ratio": 1.43
+      "health": -0.0327,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.25006,
-      "ema200": 1.23228,
-      "macd": -0.002432,
-      "macd_signal": -0.002167,
-      "rsi14": 41.9,
-      "atr14": 0.00413,
-      "atr14_hourly": 0.01289,
-      "bb_position": 0.17
+      "ema50": 1.24562,
+      "ema200": 1.23297,
+      "macd": -0.00249,
+      "macd_signal": -0.002981,
+      "rsi14": 45.5,
+      "atr14": 0.00355,
+      "atr14_hourly": 0.01411,
+      "bb_position": 0.434
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.758,
+      "percentile": 0.745,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -1.18%",
-    "portfolio_eur": 4980.29,
-    "total_pnl_pct": -0.394,
+    "reason": "HOLD LONG: P&L -1.37%",
+    "portfolio_eur": 4977.91,
+    "total_pnl_pct": -0.442,
     "position": "LONG",
     "xrp_held": 993.4154,
     "cash_eur": 3746.27,
     "trade_count": 71,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.28964,
-      "stop_loss": 1.23747,
-      "trailing_stop": 1.23963
+      "take_profit": 1.2928,
+      "stop_loss": 1.23557,
+      "trailing_stop": 1.23709
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179455
+  "data_bars": 179467
 }
