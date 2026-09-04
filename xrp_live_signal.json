@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-04T15:01:32.427986+00:00",
+  "timestamp": "2026-09-04T16:01:34.506744+00:00",
   "signal": {
-    "price": 1.1969,
+    "price": 1.2043,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6123,
-    "hybrid_score": 5.7,
+    "xgb_prob": 0.6008,
+    "hybrid_score": 5.6,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
@@ -13,15 +13,15 @@
       "sentiment": "NEUTRAL",
       "score": 0.031,
       "bullish_pct": 35.0,
-      "bearish_pct": 25.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.133,
-        "crypto_macro": 0.002,
-        "geopolitical": -0.294,
-        "fed_rates": 0.239
+        "xrp": 0.137,
+        "crypto_macro": 0.051,
+        "geopolitical": -0.335,
+        "fed_rates": 0.186
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "Dovish Fed Hints, Surging ETF Flows Buoy Crypto Markets - RTTNews",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
+        "Morning Minute: Crypto Stages Major Rally on Rate Hopes - Decrypt"
       ],
       "top_bearish": [
         "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.0,
-      "health": -0.3494,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.02,
+      "health": -0.1306,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.22025,
-      "ema200": 1.23425,
-      "macd": -0.008024,
-      "macd_signal": -0.007314,
-      "rsi14": 31.7,
-      "atr14": 0.00556,
-      "atr14_hourly": 0.02501,
-      "bb_position": 0.163
+      "ema50": 1.21383,
+      "ema200": 1.23075,
+      "macd": -0.002711,
+      "macd_signal": -0.00411,
+      "rsi14": 45.8,
+      "atr14": 0.00382,
+      "atr14_hourly": 0.01969,
+      "bb_position": 0.641
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.836,
+      "percentile": 0.79,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179623
+  "data_bars": 179635
 }
