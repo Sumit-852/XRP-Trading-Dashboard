@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-04T02:01:28.933151+00:00",
+  "timestamp": "2026-09-04T03:01:30.096738+00:00",
   "signal": {
-    "price": 1.2398,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.424,
-    "hybrid_score": 4.6,
-    "regime": "BULLISH",
+    "price": 1.2435,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5282,
+    "hybrid_score": 5.2,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.076,
+      "score": 0.079,
       "bullish_pct": 41.7,
       "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.132,
-        "crypto_macro": 0.149,
-        "geopolitical": -0.266,
-        "fed_rates": 0.215
+        "xrp": 0.15,
+        "crypto_macro": 0.12,
+        "geopolitical": -0.263,
+        "fed_rates": 0.245
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily",
-        "Coinbase Global soars 10% amid crypto stock rally (COIN:NASDAQ) - Seeking Alpha"
+        "Bitcoin Hits $81,000, Ethereum Gains 4% as XRP, Dogecoin Surge 10% - TradingView",
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
+        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily"
       ],
       "top_bearish": [
-        "Bitcoin, XRP Blow Past 'Bart Simpson' Levels: Is the Pattern Already Dead? - Benzinga",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "Why Is XRP Up Today? - The Motley Fool",
         "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.39,
-      "health": -0.0327,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.34,
+      "health": -0.0586,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.24562,
-      "ema200": 1.23297,
-      "macd": -0.00249,
-      "macd_signal": -0.002981,
-      "rsi14": 45.5,
-      "atr14": 0.00355,
-      "atr14_hourly": 0.01411,
-      "bb_position": 0.434
+      "ema50": 1.24359,
+      "ema200": 1.23377,
+      "macd": -0.000159,
+      "macd_signal": -0.001126,
+      "rsi14": 55.5,
+      "atr14": 0.00283,
+      "atr14_hourly": 0.01059,
+      "bb_position": 0.906
     },
     "trade_feedback": {
       "loss_streak": 3,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.745,
+      "percentile": 0.733,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L -1.37%",
-    "portfolio_eur": 4977.91,
-    "total_pnl_pct": -0.442,
-    "position": "LONG",
-    "xrp_held": 993.4154,
-    "cash_eur": 3746.27,
-    "trade_count": 71,
+    "action": "SELL",
+    "reason": "TRAILING_STOP: -1.77%",
+    "portfolio_eur": 4979.98,
+    "total_pnl_pct": -0.4,
+    "position": "CASH",
+    "xrp_held": 0.0,
+    "cash_eur": 4979.98,
+    "trade_count": 72,
     "draw_levels": {
       "entry": 1.2570320200000002,
-      "take_profit": 1.2928,
-      "stop_loss": 1.23557,
-      "trailing_stop": 1.23709
+      "take_profit": 1.2838,
+      "stop_loss": 1.24097,
+      "trailing_stop": 1.24434
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179467
+  "data_bars": 179479
 }
