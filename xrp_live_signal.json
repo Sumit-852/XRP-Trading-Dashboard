@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-04T13:01:38.001501+00:00",
+  "timestamp": "2026-09-04T14:01:23.208770+00:00",
   "signal": {
-    "price": 1.2159,
+    "price": 1.2187,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7667,
-    "hybrid_score": 6.7,
+    "xgb_prob": 0.6693,
+    "hybrid_score": 6.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.175,
-      "bullish_pct": 50.0,
-      "bearish_pct": 18.3,
+      "sentiment": "NEUTRAL",
+      "score": 0.075,
+      "bullish_pct": 38.3,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.198,
-        "crypto_macro": 0.32,
-        "geopolitical": -0.116,
-        "fed_rates": 0.193
+        "xrp": 0.058,
+        "crypto_macro": 0.206,
+        "geopolitical": -0.225,
+        "fed_rates": 0.229
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "Dovish Fed Hints, Surging ETF Flows Buoy Crypto Markets - RTTNews",
-        "Bitcoin Price Rallies To $81K On Biggest ETF Inflows Since January, Waller Rate Signal Ahead Of August Jobs Report - Tra"
+        "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily"
       ],
       "top_bearish": [
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - pbs.org",
-        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ",
-        "Crypto Market Today, Sept. 3: Bitcoin Reclaims $81,000 on Fed Rate Pause Signals - The Motley Fool"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
+        "U.S. and Iran Trade Strikes in Latest Fight for Control of Hormuz - WSJ"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.2418,
-      "vol_ratio": 0.42
+      "up_down_ratio": 1.06,
+      "health": -0.2577,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.2405,
-      "ema200": 1.24107,
-      "macd": -0.008555,
-      "macd_signal": -0.005323,
-      "rsi14": 28.2,
-      "atr14": 0.00667,
-      "atr14_hourly": 0.02569,
-      "bb_position": 0.151
+      "ema50": 1.23108,
+      "ema200": 1.23819,
+      "macd": -0.005824,
+      "macd_signal": -0.007152,
+      "rsi14": 43.3,
+      "atr14": 0.00588,
+      "atr14_hourly": 0.0267,
+      "bb_position": 0.523
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.856,
+      "percentile": 0.86,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179599
+  "data_bars": 179611
 }
