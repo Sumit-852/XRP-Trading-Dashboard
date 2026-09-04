@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-04T05:01:25.350153+00:00",
+  "timestamp": "2026-09-04T06:01:31.510833+00:00",
   "signal": {
-    "price": 1.2467,
+    "price": 1.2443,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4529,
-    "hybrid_score": 4.7,
-    "regime": "BULLISH",
+    "xgb_prob": 0.4748,
+    "hybrid_score": 6.1,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
@@ -13,13 +13,13 @@
       "sentiment": "NEUTRAL",
       "score": 0.042,
       "bullish_pct": 36.7,
-      "bearish_pct": 21.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.048,
-        "crypto_macro": 0.032,
-        "geopolitical": -0.119,
-        "fed_rates": 0.244
+        "xrp": 0.031,
+        "crypto_macro": 0.083,
+        "geopolitical": -0.148,
+        "fed_rates": 0.221
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
         "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries. - Investor's Business Daily",
-        "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks - Decrypt"
+        "Coinbase Global soars 10% amid crypto stock rally (COIN:NASDAQ) - Seeking Alpha"
       ],
       "top_bearish": [
         "Bitcoin, XRP Blow Past 'Bart Simpson' Levels: Is the Pattern Already Dead? - Benzinga",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - coindesk.com",
         "Why Is XRP Up Today? - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.46,
-      "health": 0.0255,
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.47,
+      "health": 0.0401,
       "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.2457,
-      "ema200": 1.23655,
-      "macd": 0.001294,
-      "macd_signal": 0.001462,
-      "rsi14": 51.3,
-      "atr14": 0.00239,
-      "atr14_hourly": 0.00999,
-      "bb_position": 0.503
+      "ema50": 1.24542,
+      "ema200": 1.23752,
+      "macd": -0.000523,
+      "macd_signal": 1.2e-05,
+      "rsi14": 47.8,
+      "atr14": 0.00309,
+      "atr14_hourly": 0.00943,
+      "bb_position": 0.302
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.729,
+      "percentile": 0.728,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179503
+  "data_bars": 179515
 }
