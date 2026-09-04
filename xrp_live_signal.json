@@ -1,60 +1,59 @@
 {
-  "timestamp": "2026-09-04T20:01:37.664664+00:00",
+  "timestamp": "2026-09-04T21:01:30.838224+00:00",
   "signal": {
-    "price": 1.2069,
+    "price": 1.2064,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5457,
-    "hybrid_score": 5.3,
+    "xgb_prob": 0.5154,
+    "hybrid_score": 6.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.026,
-      "bullish_pct": 30.0,
-      "bearish_pct": 35.0,
-      "headlines_analyzed": 60,
+      "sentiment": "BEARISH",
+      "score": -0.108,
+      "bullish_pct": 26.7,
+      "bearish_pct": 40.0,
+      "headlines_analyzed": 45,
       "feed_scores": {
-        "xrp": 0.109,
         "crypto_macro": -0.027,
-        "geopolitical": -0.377,
-        "fed_rates": 0.075
+        "geopolitical": -0.367,
+        "fed_rates": 0.054
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
+        "Best crypto exchanges for beginners, ranked for 2026 - qz.com",
+        "Bitcoin tops $80,000: 'Crypto winter is close to being over' - Yahoo Finance",
+        "Vance says Fed should lower interest rates: 'Would be nice to have some help' - CNBC"
       ],
       "top_bearish": [
-        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org"
+        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - bitcoinfoundation.org",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.15,
-      "health": 0.1196,
-      "vol_ratio": 0.15
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.22,
+      "health": 0.1583,
+      "vol_ratio": 0.74
     },
     "technicals": {
-      "ema50": 1.20708,
-      "ema200": 1.22121,
-      "macd": 0.000606,
-      "macd_signal": 0.000672,
-      "rsi14": 52.0,
-      "atr14": 0.002,
-      "atr14_hourly": 0.00742,
-      "bb_position": 0.538
+      "ema50": 1.20629,
+      "ema200": 1.21937,
+      "macd": -2.9e-05,
+      "macd_signal": -0.000107,
+      "rsi14": 54.4,
+      "atr14": 0.00166,
+      "atr14_hourly": 0.00647,
+      "bb_position": 0.582
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +63,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.761,
+      "percentile": 0.747,
       "extreme": false
     }
   },
@@ -101,5 +100,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179683
+  "data_bars": 179695
 }

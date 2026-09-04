@@ -1,34 +1,17 @@
 {
-  "timestamp": "2026-09-04T20:01:37.615351+00:00",
-  "score": -0.026,
-  "label": "NEUTRAL",
-  "bullish_pct": 30.0,
-  "bearish_pct": 35.0,
-  "count": 60,
+  "timestamp": "2026-09-04T21:01:30.799170+00:00",
+  "score": -0.108,
+  "label": "BEARISH",
+  "bullish_pct": 26.7,
+  "bearish_pct": 40.0,
+  "count": 45,
   "feed_scores": {
-    "xrp": 0.109,
     "crypto_macro": -0.027,
-    "geopolitical": -0.377,
-    "fed_rates": 0.075
+    "geopolitical": -0.367,
+    "fed_rates": 0.054
   },
   "geo_shock": true,
   "top_bull": [
-    {
-      "title": "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-      "pubdate": "Thu, 03 Sep 2026 15:45:07",
-      "compound": 0.691,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": 0.691
-    },
-    {
-      "title": "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-      "pubdate": "Thu, 03 Sep 2026 20:00:11",
-      "compound": 0.542,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": 0.542
-    },
     {
       "title": "Best crypto exchanges for beginners, ranked for 2026 - qz.com",
       "pubdate": "Fri, 04 Sep 2026 18:50:25",
@@ -36,11 +19,27 @@
       "feed": "crypto_macro",
       "weight": 0.8,
       "weighted_score": 0.51
+    },
+    {
+      "title": "Bitcoin tops $80,000: 'Crypto winter is close to being over' - Yahoo Finance",
+      "pubdate": "Fri, 04 Sep 2026 08:32:58",
+      "compound": 0.511,
+      "feed": "crypto_macro",
+      "weight": 0.8,
+      "weighted_score": 0.408
+    },
+    {
+      "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help' - CNBC",
+      "pubdate": "Thu, 03 Sep 2026 19:18:59",
+      "compound": 0.743,
+      "feed": "fed_rates",
+      "weight": 0.4,
+      "weighted_score": 0.297
     }
   ],
   "top_bear": [
     {
-      "title": "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
+      "title": "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - bitcoinfoundation.org",
       "pubdate": "Fri, 04 Sep 2026 14:42:26",
       "compound": -0.92,
       "feed": "crypto_macro",
@@ -48,20 +47,20 @@
       "weighted_score": -0.736
     },
     {
-      "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-      "pubdate": "Wed, 02 Sep 2026 13:35:01",
-      "compound": -0.459,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": -0.459
-    },
-    {
-      "title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org",
+      "title": "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
       "pubdate": "Fri, 04 Sep 2026 16:33:00",
       "compound": -0.891,
       "feed": "geopolitical",
       "weight": 0.5,
       "weighted_score": -0.446
+    },
+    {
+      "title": "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS",
+      "pubdate": "Mon, 31 Aug 2026 22:55:43",
+      "compound": -0.84,
+      "feed": "geopolitical",
+      "weight": 0.5,
+      "weighted_score": -0.42
     }
   ]
 }
