@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-05T20:01:30.858964+00:00",
+  "timestamp": "2026-09-05T21:01:36.300726+00:00",
   "signal": {
-    "price": 1.2219,
+    "price": 1.2189,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3863,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3656,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.013,
-      "bullish_pct": 35.0,
+      "score": 0.006,
+      "bullish_pct": 38.3,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.123,
-        "crypto_macro": -0.069,
-        "geopolitical": -0.309,
-        "fed_rates": 0.128
+        "xrp": 0.15,
+        "crypto_macro": -0.039,
+        "geopolitical": -0.335,
+        "fed_rates": 0.159
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
       ],
       "top_bearish": [
-        "How some grey-market crypto ATMs in Hong Kong can turn users into fraud victims - South China Morning Post",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - pbs.org"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": -0.0824,
-      "vol_ratio": 0.17
+      "up_down_ratio": 1.08,
+      "health": -0.1494,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.22165,
-      "ema200": 1.21653,
-      "macd": -0.000544,
-      "macd_signal": -0.00036,
-      "rsi14": 49.4,
-      "atr14": 0.00206,
-      "atr14_hourly": 0.00673,
-      "bb_position": 0.467
+      "ema50": 1.2208,
+      "ema200": 1.21686,
+      "macd": -0.000794,
+      "macd_signal": -0.000782,
+      "rsi14": 44.6,
+      "atr14": 0.00199,
+      "atr14_hourly": 0.00596,
+      "bb_position": 0.29
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.085,
+      "percentile": 0.095,
       "extreme": true
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179971
+  "data_bars": 179983
 }
