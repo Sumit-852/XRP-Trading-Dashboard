@@ -1,20 +1,70 @@
 {
-  "timestamp": "2026-09-05T00:01:28.402538+00:00",
+  "timestamp": "2026-09-05T01:01:29.076146+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 1.2049,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 1.2024,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.4754,
+    "hybrid_score": 6.1,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "action": "HOLD",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": -0.028,
+      "bullish_pct": 33.3,
+      "bearish_pct": 35.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.15,
+        "crypto_macro": -0.088,
+        "geopolitical": -0.393,
+        "fed_rates": 0.105
+      },
+      "geo_shock": true,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "XRP\u2019s $28 Target Back in Focus as Key CLARITY Opposition Eased, Senators Eye November Passage - Yahoo Finance",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
+      ],
+      "top_bearish": [
+        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
+        "FinCEN Says Stopping Crypto Scams Means Catching How Customers Fund Them - PYMNTS.com",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk"
+      ]
+    },
+    "vpa": {
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.26,
+      "health": 0.0765,
+      "vol_ratio": 0.02
+    },
+    "technicals": {
+      "ema50": 1.20438,
+      "ema200": 1.21359,
+      "macd": -0.00032,
+      "macd_signal": -0.000105,
+      "rsi14": 42.5,
+      "atr14": 0.00126,
+      "atr14_hourly": 0.00401,
+      "bb_position": 0.03
+    },
+    "trade_feedback": {
+      "loss_streak": 4,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.65,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
+      "percentile": 0.698,
       "extreme": false
     }
   },
@@ -51,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179731
+  "data_bars": 179743
 }
