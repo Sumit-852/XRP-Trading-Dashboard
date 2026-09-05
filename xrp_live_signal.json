@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-09-05T11:01:37.053824+00:00",
+  "timestamp": "2026-09-05T12:01:27.233925+00:00",
   "signal": {
-    "price": 1.2103,
+    "price": 1.2097,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.474,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.466,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.017,
-      "bullish_pct": 36.7,
-      "bearish_pct": 35.0,
+      "score": 0.021,
+      "bullish_pct": 38.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.168,
-        "crypto_macro": -0.081,
-        "geopolitical": -0.425,
-        "fed_rates": 0.156
+        "xrp": 0.132,
+        "crypto_macro": -0.002,
+        "geopolitical": -0.34,
+        "fed_rates": 0.239
       },
       "geo_shock": true,
       "geo_dip": {
         "active": false,
-        "buy_signal": true,
-        "phase": "BUY THE DIP"
+        "buy_signal": false,
+        "phase": "NONE"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks - Decrypt"
+        "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
       ],
       "top_bearish": [
         "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
-        "How some grey-market crypto ATMs in Hong Kong can turn users into fraud victims - South China Morning Post",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.45,
-      "health": 0.3079,
-      "vol_ratio": 0.06
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.32,
+      "health": 0.2087,
+      "vol_ratio": 0.19
     },
     "technicals": {
-      "ema50": 1.2102,
-      "ema200": 1.2098,
-      "macd": -1.8e-05,
-      "macd_signal": 0.000197,
-      "rsi14": 46.3,
-      "atr14": 0.00116,
-      "atr14_hourly": 0.00473,
-      "bb_position": 0.194
+      "ema50": 1.20998,
+      "ema200": 1.20978,
+      "macd": -0.000324,
+      "macd_signal": -0.000337,
+      "rsi14": 47.5,
+      "atr14": 0.00113,
+      "atr14_hourly": 0.00425,
+      "bb_position": 0.4
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.635,
+      "percentile": 0.633,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179863
+  "data_bars": 179875
 }
