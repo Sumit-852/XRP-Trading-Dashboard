@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-05T18:01:32.690027+00:00",
+  "timestamp": "2026-09-05T19:01:27.920380+00:00",
   "signal": {
-    "price": 1.2272,
+    "price": 1.22,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.47,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.3074,
+    "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.03,
-      "bullish_pct": 35.0,
-      "bearish_pct": 33.3,
+      "score": -0.025,
+      "bullish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.045,
-        "crypto_macro": -0.059,
-        "geopolitical": -0.32,
-        "fed_rates": 0.201
+        "xrp": 0.098,
+        "crypto_macro": -0.069,
+        "geopolitical": -0.285,
+        "fed_rates": 0.078
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin Drops Below $80K After Strong Jobs Data, ETF Inflows Collapse 76% In A Day - TradingView",
-        "Best crypto exchanges for beginners, ranked for 2026 - qz.com",
-        "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Yahoo Finance"
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
+        "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
       ],
       "top_bearish": [
-        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
         "How some grey-market crypto ATMs in Hong Kong can turn users into fraud victims - South China Morning Post",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk"
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.3,
-      "health": -0.1009,
-      "vol_ratio": 0.96
+      "up_down_ratio": 1.21,
+      "health": -0.063,
+      "vol_ratio": 0.28
     },
     "technicals": {
-      "ema50": 1.22061,
-      "ema200": 1.21489,
-      "macd": 0.002203,
-      "macd_signal": 0.001765,
-      "rsi14": 62.3,
-      "atr14": 0.00221,
-      "atr14_hourly": 0.00774,
-      "bb_position": 0.819
+      "ema50": 1.22167,
+      "ema200": 1.21587,
+      "macd": -3.3e-05,
+      "macd_signal": 0.000766,
+      "rsi14": 39.2,
+      "atr14": 0.00181,
+      "atr14_hourly": 0.00786,
+      "bb_position": -0.034
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.081,
+      "percentile": 0.078,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179947
+  "data_bars": 179959
 }
