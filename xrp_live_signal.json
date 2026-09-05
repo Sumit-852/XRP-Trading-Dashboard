@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-05T16:01:34.120415+00:00",
+  "timestamp": "2026-09-05T17:01:38.271857+00:00",
   "signal": {
-    "price": 1.218,
+    "price": 1.2201,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3239,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.3842,
+    "hybrid_score": 4.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.047,
-      "bullish_pct": 33.3,
-      "bearish_pct": 38.3,
+      "score": -0.002,
+      "bullish_pct": 36.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.067,
-        "crypto_macro": -0.114,
+        "xrp": 0.136,
+        "crypto_macro": -0.059,
         "geopolitical": -0.308,
-        "fed_rates": 0.127
+        "fed_rates": 0.148
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
+        "Fed sends a key signal: XRP could be poised for a new rally, with holders earning up to $7,000 a day - Crypto News",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
       ],
       "top_bearish": [
         "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.22,
-      "health": -0.1713,
-      "vol_ratio": 1.17
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.2,
+      "health": -0.1064,
+      "vol_ratio": 1.55
     },
     "technicals": {
-      "ema50": 1.21704,
-      "ema200": 1.21292,
-      "macd": -0.000133,
-      "macd_signal": 9.5e-05,
-      "rsi14": 49.9,
-      "atr14": 0.00157,
-      "atr14_hourly": 0.00696,
-      "bb_position": 0.387
+      "ema50": 1.21764,
+      "ema200": 1.21356,
+      "macd": 0.000395,
+      "macd_signal": 0.000135,
+      "rsi14": 56.3,
+      "atr14": 0.00184,
+      "atr14_hourly": 0.00543,
+      "bb_position": 0.935
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.078,
+      "percentile": 0.071,
       "extreme": true
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179923
+  "data_bars": 179935
 }
