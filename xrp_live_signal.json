@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-05T22:01:36.606563+00:00",
+  "timestamp": "2026-09-05T23:01:37.999844+00:00",
   "signal": {
-    "price": 1.2253,
+    "price": 1.2186,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3436,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.3068,
+    "hybrid_score": 3.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.022,
+      "score": -0.002,
       "bullish_pct": 36.7,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.156,
-        "crypto_macro": 0.014,
-        "geopolitical": -0.333,
-        "fed_rates": 0.145
+        "xrp": 0.124,
+        "crypto_macro": -0.047,
+        "geopolitical": -0.335,
+        "fed_rates": 0.187
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
         "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
       ],
       "top_bearish": [
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
+        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - coindesk.com",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": -0.0816,
-      "vol_ratio": 0.4
+      "up_down_ratio": 1.07,
+      "health": -0.1952,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.22189,
-      "ema200": 1.21761,
-      "macd": 0.00096,
-      "macd_signal": 0.000592,
-      "rsi14": 60.2,
-      "atr14": 0.0017,
-      "atr14_hourly": 0.00633,
-      "bb_position": 0.843
+      "ema50": 1.22112,
+      "ema200": 1.21788,
+      "macd": -0.000812,
+      "macd_signal": -0.000398,
+      "rsi14": 39.4,
+      "atr14": 0.00152,
+      "atr14_hourly": 0.00685,
+      "bb_position": 0.17
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.094,
+      "percentile": 0.096,
       "extreme": true
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179995
+  "data_bars": 180007
 }
