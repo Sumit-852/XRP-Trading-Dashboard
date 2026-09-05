@@ -1,70 +1,20 @@
 {
-  "timestamp": "2026-09-04T23:01:30.697023+00:00",
+  "timestamp": "2026-09-05T00:01:28.402538+00:00",
   "signal": {
-    "price": 1.2019,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 1.2049,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4649,
-    "hybrid_score": 4.8,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
     "exit_signal": false,
-    "action": "HOLD",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": -0.033,
-      "bullish_pct": 35.0,
-      "bearish_pct": 36.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.106,
-        "crypto_macro": -0.088,
-        "geopolitical": -0.38,
-        "fed_rates": 0.162
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
-      ],
-      "top_bearish": [
-        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
-        "FinCEN Says Stopping Crypto Scams Means Catching How Customers Fund Them - PYMNTS.com",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.3,
-      "health": 0.138,
-      "vol_ratio": 0.03
-    },
-    "technicals": {
-      "ema50": 1.20483,
-      "ema200": 1.21615,
-      "macd": -0.000968,
-      "macd_signal": -0.00078,
-      "rsi14": 39.2,
-      "atr14": 0.00117,
-      "atr14_hourly": 0.00521,
-      "bb_position": 0.242
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.72,
+      "percentile": 0.5,
       "extreme": false
     }
   },
@@ -101,5 +51,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 179719
+  "data_bars": 179731
 }
