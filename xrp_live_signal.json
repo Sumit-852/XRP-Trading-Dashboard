@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-06T01:01:25.572610+00:00",
+  "timestamp": "2026-09-06T02:01:32.650890+00:00",
   "signal": {
-    "price": 1.218,
+    "price": 1.2225,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3624,
-    "hybrid_score": 4.2,
+    "xgb_prob": 0.3446,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.004,
-      "bullish_pct": 36.7,
-      "bearish_pct": 35.0,
+      "score": 0.019,
+      "bullish_pct": 33.3,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.124,
-        "crypto_macro": -0.01,
-        "geopolitical": -0.335,
-        "fed_rates": 0.156
+        "xrp": 0.114,
+        "crypto_macro": 0.082,
+        "geopolitical": -0.379,
+        "fed_rates": 0.154
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - cryptoslat",
-        "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
+        "Fed sends a key signal: XRP could be poised for a new rally, with holders earning up to $7,000 a day - Crypto News",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
       ],
       "top_bearish": [
-        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - bitcoinfoundation.org",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.18,
-      "health": 0.0598,
+      "up_down_ratio": 1.15,
+      "health": 0.0586,
       "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 1.21937,
-      "ema200": 1.21795,
-      "macd": -0.000117,
-      "macd_signal": -0.000337,
-      "rsi14": 46.5,
-      "atr14": 0.00182,
-      "atr14_hourly": 0.0075,
-      "bb_position": 0.481
+      "ema50": 1.22038,
+      "ema200": 1.21841,
+      "macd": 0.000856,
+      "macd_signal": 0.000725,
+      "rsi14": 58.2,
+      "atr14": 0.00194,
+      "atr14_hourly": 0.0063,
+      "bb_position": 0.802
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.105,
+      "percentile": 0.103,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180031
+  "data_bars": 180043
 }
