@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-06T05:01:33.434518+00:00",
+  "timestamp": "2026-09-06T06:01:30.569298+00:00",
   "signal": {
-    "price": 1.2239,
+    "price": 1.227,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3556,
+    "xgb_prob": 0.352,
     "hybrid_score": 4.1,
-    "regime": "BULLISH",
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.02,
-      "bullish_pct": 30.0,
+      "score": -0.039,
+      "bullish_pct": 26.7,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.073,
-        "crypto_macro": -0.004,
+        "xrp": 0.025,
+        "crypto_macro": 0.014,
         "geopolitical": -0.435,
-        "fed_rates": 0.234
+        "fed_rates": 0.191
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,7 +30,7 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
         "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Yahoo Finance"
       ],
@@ -43,18 +43,18 @@
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 1.15,
-      "health": 0.0596,
+      "health": -0.0365,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.22319,
-      "ema200": 1.22003,
-      "macd": 0.000224,
-      "macd_signal": 0.000481,
-      "rsi14": 49.6,
-      "atr14": 0.00187,
-      "atr14_hourly": 0.00864,
-      "bb_position": 0.357
+      "ema50": 1.22427,
+      "ema200": 1.22068,
+      "macd": 0.000979,
+      "macd_signal": 0.000702,
+      "rsi14": 55.1,
+      "atr14": 0.002,
+      "atr14_hourly": 0.00791,
+      "bb_position": 0.709
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.121,
+      "percentile": 0.133,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180079
+  "data_bars": 180091
 }
