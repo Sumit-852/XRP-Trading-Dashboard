@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-06T21:01:34.178469+00:00",
+  "timestamp": "2026-09-06T22:01:27.690186+00:00",
   "signal": {
-    "price": 1.2252,
+    "price": 1.2255,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3213,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3214,
+    "hybrid_score": 2.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.059,
-      "bullish_pct": 41.7,
-      "bearish_pct": 30.0,
+      "score": 0.023,
+      "bullish_pct": 38.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.094,
-        "crypto_macro": 0.13,
-        "geopolitical": -0.305,
+        "xrp": 0.04,
+        "crypto_macro": 0.138,
+        "geopolitical": -0.402,
         "fed_rates": 0.281
       },
       "geo_shock": true,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
         "Uniswap (UNI) Surges 53% While Crypto Market Breadth Flips to 76% Positive - DailyForex",
-        "Only 48 Hours Before Stage 1 Begins: Apeing\u2019s Upcoming Crypto Presale Targets 100x Gains as XRP and BTC Hold Strong - St"
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
       ],
       "top_bearish": [
-        "8 in a Row: Ripple (XRP) ETFs Record Another Green Week but Warning Signs Return - cryptopotato.com",
+        "8 in a Row: Ripple (XRP) ETFs Record Another Green Week but Warning Signs Return - CryptoPotato",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
         "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.77,
-      "health": 0.0038,
-      "vol_ratio": 0.04
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.79,
+      "health": -0.0018,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.21789,
-      "ema200": 1.21873,
-      "macd": 0.002213,
-      "macd_signal": 0.001281,
-      "rsi14": 77.9,
-      "atr14": 0.00124,
-      "atr14_hourly": 0.00641,
-      "bb_position": 0.944
+      "ema50": 1.22149,
+      "ema200": 1.2197,
+      "macd": 0.002466,
+      "macd_signal": 0.002667,
+      "rsi14": 55.5,
+      "atr14": 0.00158,
+      "atr14_hourly": 0.00732,
+      "bb_position": 0.509
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.11,
+      "percentile": 0.114,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180271
+  "data_bars": 180283
 }
