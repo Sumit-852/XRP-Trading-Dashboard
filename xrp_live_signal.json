@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-06T14:01:33.919425+00:00",
+  "timestamp": "2026-09-06T15:01:36.263260+00:00",
   "signal": {
-    "price": 1.2192,
+    "price": 1.2104,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3795,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.3362,
+    "hybrid_score": 2.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.017,
-      "bullish_pct": 28.3,
+      "score": 0.018,
+      "bullish_pct": 33.3,
       "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.112,
-        "crypto_macro": -0.044,
-        "geopolitical": -0.427,
-        "fed_rates": 0.229
+        "crypto_macro": 0.048,
+        "geopolitical": -0.347,
+        "fed_rates": 0.179
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Benzinga"
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
+        "Uniswap Surges 53% as Crypto Market Breadth Turns Positive - DailyForex",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
       ],
       "top_bearish": [
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": -0.2706,
-      "vol_ratio": 1.1
+      "up_down_ratio": 0.7,
+      "health": -0.337,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.22212,
-      "ema200": 1.22168,
-      "macd": -0.001184,
-      "macd_signal": -0.001068,
-      "rsi14": 39.5,
-      "atr14": 0.00162,
-      "atr14_hourly": 0.0076,
-      "bb_position": 0.296
+      "ema50": 1.2193,
+      "ema200": 1.22091,
+      "macd": -0.002182,
+      "macd_signal": -0.001993,
+      "rsi14": 32.7,
+      "atr14": 0.00254,
+      "atr14_hourly": 0.01076,
+      "bb_position": -0.022
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.135,
+      "percentile": 0.147,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180187
+  "data_bars": 180199
 }
