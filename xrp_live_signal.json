@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-06T00:01:30.805668+00:00",
+  "timestamp": "2026-09-06T01:01:25.572610+00:00",
   "signal": {
-    "price": 1.2163,
+    "price": 1.218,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4692,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.3624,
+    "hybrid_score": 4.2,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.011,
-      "bullish_pct": 31.7,
+      "score": 0.004,
+      "bullish_pct": 36.7,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.098,
-        "crypto_macro": 0.014,
-        "geopolitical": -0.356,
-        "fed_rates": 0.102
+        "xrp": 0.124,
+        "crypto_macro": -0.01,
+        "geopolitical": -0.335,
+        "fed_rates": 0.156
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - cryptoslat",
         "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
       ],
       "top_bearish": [
+        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - bitcoinfoundation.org",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.1146,
-      "vol_ratio": 0.14
+      "up_down_ratio": 1.18,
+      "health": 0.0598,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 1.21987,
-      "ema200": 1.21788,
-      "macd": -0.001039,
-      "macd_signal": -0.000962,
-      "rsi14": 41.4,
-      "atr14": 0.00226,
-      "atr14_hourly": 0.00748,
-      "bb_position": 0.08
+      "ema50": 1.21937,
+      "ema200": 1.21795,
+      "macd": -0.000117,
+      "macd_signal": -0.000337,
+      "rsi14": 46.5,
+      "atr14": 0.00182,
+      "atr14_hourly": 0.0075,
+      "bb_position": 0.481
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.11,
+      "percentile": 0.105,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180019
+  "data_bars": 180031
 }
