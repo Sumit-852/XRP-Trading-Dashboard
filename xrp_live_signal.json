@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-06T04:01:30.729485+00:00",
+  "timestamp": "2026-09-06T05:01:33.434518+00:00",
   "signal": {
-    "price": 1.226,
+    "price": 1.2239,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3446,
+    "xgb_prob": 0.3556,
     "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.001,
+      "score": -0.02,
       "bullish_pct": 30.0,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.109,
-        "crypto_macro": 0.039,
-        "geopolitical": -0.422,
-        "fed_rates": 0.17
+        "xrp": 0.073,
+        "crypto_macro": -0.004,
+        "geopolitical": -0.435,
+        "fed_rates": 0.234
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
         "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks - Decrypt"
+        "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Yahoo Finance"
       ],
       "top_bearish": [
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.21,
-      "health": 0.1351,
-      "vol_ratio": 1.76
+      "up_down_ratio": 1.15,
+      "health": 0.0596,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.22273,
-      "ema200": 1.21953,
-      "macd": 0.001787,
-      "macd_signal": 0.001455,
-      "rsi14": 57.1,
-      "atr14": 0.00179,
-      "atr14_hourly": 0.00737,
-      "bb_position": 0.663
+      "ema50": 1.22319,
+      "ema200": 1.22003,
+      "macd": 0.000224,
+      "macd_signal": 0.000481,
+      "rsi14": 49.6,
+      "atr14": 0.00187,
+      "atr14_hourly": 0.00864,
+      "bb_position": 0.357
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.115,
+      "percentile": 0.121,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180067
+  "data_bars": 180079
 }
