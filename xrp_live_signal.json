@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-06T16:01:39.917590+00:00",
+  "timestamp": "2026-09-06T17:01:28.841962+00:00",
   "signal": {
-    "price": 1.2153,
+    "price": 1.2164,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.35,
-    "hybrid_score": 2.9,
+    "xgb_prob": 0.312,
+    "hybrid_score": 2.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.029,
-      "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
+      "score": 0.049,
+      "bullish_pct": 38.3,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.097,
-        "crypto_macro": 0.072,
+        "xrp": 0.095,
+        "crypto_macro": 0.121,
         "geopolitical": -0.326,
-        "fed_rates": 0.217
+        "fed_rates": 0.258
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - cryptoslat"
       ],
       "top_bearish": [
+        "8 in a Row: Ripple (XRP) ETFs Record Another Green Week but Warning Signs Return - CryptoPotato",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Got $1,000? Here Are 3 Cryptocurrencies to Buy Before the Midterm Elections. - The Motley Fool"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.77,
-      "health": -0.2194,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.8,
+      "health": -0.1752,
+      "vol_ratio": 0.3
     },
     "technicals": {
-      "ema50": 1.21726,
-      "ema200": 1.22011,
-      "macd": -0.000818,
-      "macd_signal": -0.001405,
-      "rsi14": 49.4,
-      "atr14": 0.00193,
-      "atr14_hourly": 0.01022,
-      "bb_position": 0.702
+      "ema50": 1.21701,
+      "ema200": 1.21971,
+      "macd": 0.000284,
+      "macd_signal": 6e-05,
+      "rsi14": 51.2,
+      "atr14": 0.00137,
+      "atr14_hourly": 0.00723,
+      "bb_position": 0.615
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.145,
+      "percentile": 0.139,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180211
+  "data_bars": 180223
 }
