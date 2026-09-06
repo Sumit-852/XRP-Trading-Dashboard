@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-06T12:01:35.834043+00:00",
+  "timestamp": "2026-09-06T13:01:34.306172+00:00",
   "signal": {
-    "price": 1.2241,
+    "price": 1.2213,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3805,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.4174,
+    "hybrid_score": 3.2,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.016,
-      "bullish_pct": 30.0,
-      "bearish_pct": 36.7,
+      "score": -0.036,
+      "bullish_pct": 28.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.114,
-        "crypto_macro": -0.041,
-        "geopolitical": -0.414,
+        "xrp": 0.082,
+        "crypto_macro": -0.038,
+        "geopolitical": -0.463,
         "fed_rates": 0.204
       },
       "geo_shock": true,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
+        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - cryptoslat",
         "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Benzinga"
       ],
       "top_bearish": [
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
         "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Got $1,000? Here Are 3 Cryptocurrencies to Buy Before the Midterm Elections. - The Motley Fool",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
+        "Got $1,000? Here Are 3 Cryptocurrencies to Buy Before the Midterm Elections. - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": -0.1198,
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.79,
+      "health": -0.2341,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.22307,
-      "ema200": 1.22159,
-      "macd": 0.000374,
-      "macd_signal": 0.000435,
-      "rsi14": 53.9,
-      "atr14": 0.00123,
-      "atr14_hourly": 0.00432,
-      "bb_position": 0.599
+      "ema50": 1.22358,
+      "ema200": 1.22192,
+      "macd": -0.000113,
+      "macd_signal": 0.000369,
+      "rsi14": 38.5,
+      "atr14": 0.00163,
+      "atr14_hourly": 0.0054,
+      "bb_position": 0.035
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.145,
+      "percentile": 0.139,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180163
+  "data_bars": 180175
 }
