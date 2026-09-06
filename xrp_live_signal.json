@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-06T06:01:30.569298+00:00",
+  "timestamp": "2026-09-06T07:01:35.034885+00:00",
   "signal": {
-    "price": 1.227,
+    "price": 1.2228,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.352,
+    "xgb_prob": 0.353,
     "hybrid_score": 4.1,
-    "regime": "BEARISH",
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.039,
-      "bullish_pct": 26.7,
-      "bearish_pct": 35.0,
+      "score": -0.049,
+      "bullish_pct": 28.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.025,
-        "crypto_macro": 0.014,
-        "geopolitical": -0.435,
+        "xrp": 0.05,
+        "crypto_macro": -0.047,
+        "geopolitical": -0.443,
         "fed_rates": 0.191
       },
       "geo_shock": true,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Yahoo Finance"
+        "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Benzinga"
       ],
       "top_bearish": [
+        "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes - Bitcoin Foundation",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.15,
-      "health": -0.0365,
+      "up_down_ratio": 1.13,
+      "health": -0.0162,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.22427,
-      "ema200": 1.22068,
-      "macd": 0.000979,
-      "macd_signal": 0.000702,
-      "rsi14": 55.1,
-      "atr14": 0.002,
-      "atr14_hourly": 0.00791,
-      "bb_position": 0.709
+      "ema50": 1.22401,
+      "ema200": 1.22103,
+      "macd": -0.000624,
+      "macd_signal": -0.000245,
+      "rsi14": 44.9,
+      "atr14": 0.00152,
+      "atr14_hourly": 0.00777,
+      "bb_position": 0.269
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.133,
+      "percentile": 0.137,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180091
+  "data_bars": 180103
 }
