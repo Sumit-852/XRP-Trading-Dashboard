@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-06T03:01:32.935803+00:00",
+  "timestamp": "2026-09-06T04:01:30.729485+00:00",
   "signal": {
-    "price": 1.222,
+    "price": 1.226,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3278,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3446,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.004,
+      "score": -0.001,
       "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.073,
-        "crypto_macro": 0.045,
-        "geopolitical": -0.379,
+        "xrp": 0.109,
+        "crypto_macro": 0.039,
+        "geopolitical": -0.422,
         "fed_rates": 0.17
       },
       "geo_shock": true,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
         "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat",
-        "Best crypto exchanges for beginners, ranked for 2026 - qz.com"
+        "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks - Decrypt"
       ],
       "top_bearish": [
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": -0.0246,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.21,
+      "health": 0.1351,
+      "vol_ratio": 1.76
     },
     "technicals": {
-      "ema50": 1.22074,
-      "ema200": 1.21874,
-      "macd": 0.000319,
-      "macd_signal": 0.000382,
-      "rsi14": 54.0,
-      "atr14": 0.00147,
-      "atr14_hourly": 0.0049,
-      "bb_position": 0.591
+      "ema50": 1.22273,
+      "ema200": 1.21953,
+      "macd": 0.001787,
+      "macd_signal": 0.001455,
+      "rsi14": 57.1,
+      "atr14": 0.00179,
+      "atr14_hourly": 0.00737,
+      "bb_position": 0.663
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.106,
+      "percentile": 0.115,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180055
+  "data_bars": 180067
 }
