@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-09-06T19:01:31.227648+00:00",
+  "timestamp": "2026-09-06T20:01:24.904139+00:00",
   "signal": {
-    "price": 1.2164,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 1.2152,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2803,
-    "hybrid_score": 2.5,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.054,
-      "bullish_pct": 40.0,
-      "bearish_pct": 31.7,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.082,
-        "crypto_macro": 0.215,
-        "geopolitical": -0.356,
-        "fed_rates": 0.171
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - dmarketforces.com",
-        "Uniswap (UNI) Surges 53% While Crypto Market Breadth Flips to 76% Positive - DailyForex",
-        "Only 48 Hours Before Stage 1 Begins: Apeing\u2019s Upcoming Crypto Presale Targets 100x Gains as XRP and BTC Hold Strong - St"
-      ],
-      "top_bearish": [
-        "8 in a Row: Ripple (XRP) ETFs Record Another Green Week but Warning Signs Return - CryptoPotato",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.82,
-      "health": 0.0972,
-      "vol_ratio": 1.12
-    },
-    "technicals": {
-      "ema50": 1.21645,
-      "ema200": 1.21888,
-      "macd": 0.000474,
-      "macd_signal": 0.000419,
-      "rsi14": 50.3,
-      "atr14": 0.00131,
-      "atr14_hourly": 0.00593,
-      "bb_position": 0.562
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.126,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +51,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180247
+  "data_bars": 180259
 }
