@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-07T11:01:35.447184+00:00",
+  "timestamp": "2026-09-07T12:01:38.141981+00:00",
   "signal": {
-    "price": 1.2051,
+    "price": 1.2038,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4595,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.3746,
+    "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.026,
-      "bullish_pct": 31.7,
+      "score": 0.037,
+      "bullish_pct": 36.7,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.143,
-        "crypto_macro": 0.125,
-        "geopolitical": -0.448,
-        "fed_rates": 0.127
+        "xrp": 0.193,
+        "crypto_macro": 0.088,
+        "geopolitical": -0.381,
+        "fed_rates": 0.068
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Bitcoin ETFs Hold Strong as Ethereum, Solana, and XRP Fund Inflows Cool - altcoinbuzz.io"
+        "Bitcoin ETFs Hold Strong as Ethereum, Solana, and XRP Fund Inflows Cool - Altcoin Buzz"
       ],
       "top_bearish": [
+        "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
         "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
+        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.89,
-      "health": 0.2487,
-      "vol_ratio": 2.02
+      "up_down_ratio": 0.88,
+      "health": 0.2289,
+      "vol_ratio": 0.79
     },
     "technicals": {
-      "ema50": 1.20695,
-      "ema200": 1.21299,
-      "macd": -0.000577,
-      "macd_signal": -0.000783,
-      "rsi14": 48.3,
-      "atr14": 0.0019,
-      "atr14_hourly": 0.00828,
-      "bb_position": 0.541
+      "ema50": 1.20573,
+      "ema200": 1.21194,
+      "macd": -0.000545,
+      "macd_signal": -0.000611,
+      "rsi14": 45.2,
+      "atr14": 0.00137,
+      "atr14_hourly": 0.00561,
+      "bb_position": 0.368
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.4,
+      "percentile": 0.397,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180439
+  "data_bars": 180451
 }
