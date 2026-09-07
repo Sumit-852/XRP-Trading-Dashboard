@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-07T09:01:36.037853+00:00",
+  "timestamp": "2026-09-07T10:01:24.969196+00:00",
   "signal": {
-    "price": 1.2076,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4863,
-    "hybrid_score": 4.9,
+    "price": 1.2045,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5568,
+    "hybrid_score": 5.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.028,
+      "score": 0.019,
       "bullish_pct": 35.0,
-      "bearish_pct": 35.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.057,
-        "crypto_macro": 0.127,
-        "geopolitical": -0.33,
-        "fed_rates": 0.206
+        "xrp": 0.05,
+        "crypto_macro": 0.082,
+        "geopolitical": -0.254,
+        "fed_rates": 0.157
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Broad Crypto Rally Decimates Shorts as BTC Tops $80,000, ZEC and HYPE Hit New Highs - TradingKey",
-        "US Spot XRP ETF Inflows Reach $1.68 Billion as Demand Accelerates - Bitcoin News"
+        "Broad Crypto Rally Decimates Shorts as BTC Tops $80,000, ZEC and HYPE Hit New Highs - tradingkey.com"
       ],
       "top_bearish": [
+        "8 in a Row: Ripple (XRP) ETFs Record Another Green Week but Warning Signs Return - CryptoPotato",
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.87,
-      "health": 0.1922,
-      "vol_ratio": 0.06
+      "up_down_ratio": 0.84,
+      "health": 0.1278,
+      "vol_ratio": 1.07
     },
     "technicals": {
-      "ema50": 1.20967,
-      "ema200": 1.21502,
-      "macd": -0.000816,
-      "macd_signal": -0.001381,
-      "rsi14": 49.1,
-      "atr14": 0.00225,
-      "atr14_hourly": 0.01247,
-      "bb_position": 0.719
+      "ema50": 1.2084,
+      "ema200": 1.21407,
+      "macd": -0.001147,
+      "macd_signal": -0.000745,
+      "rsi14": 43.1,
+      "atr14": 0.00212,
+      "atr14_hourly": 0.00919,
+      "bb_position": 0.215
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.393,
+      "percentile": 0.398,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180415
+  "data_bars": 180427
 }
