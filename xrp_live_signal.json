@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-06T23:01:37.324851+00:00",
+  "timestamp": "2026-09-07T00:01:30.610073+00:00",
   "signal": {
-    "price": 1.223,
+    "price": 1.2238,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3815,
-    "hybrid_score": 4.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.31,
+    "hybrid_score": 2.6,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.057,
-      "bullish_pct": 41.7,
-      "bearish_pct": 26.7,
+      "score": -0.024,
+      "bullish_pct": 31.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.107,
-        "crypto_macro": 0.151,
-        "geopolitical": -0.377,
-        "fed_rates": 0.288
+        "xrp": -0.039,
+        "crypto_macro": 0.116,
+        "geopolitical": -0.445,
+        "fed_rates": 0.26
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
         "Uniswap (UNI) Surges 53% While Crypto Market Breadth Flips to 76% Positive - DailyForex",
-        "BIS shows why real institutional adoption on XRP Ledger won't trigger the XRP supply squeeze holders expect - CryptoSlat"
+        "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Yahoo Finance",
+        "Prediction markets inch closer to the Supreme Court: State of Crypto - CoinDesk"
       ],
       "top_bearish": [
         "8 in a Row: Ripple (XRP) ETFs Record Another Green Week but Warning Signs Return - CryptoPotato",
-        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - coindesk.com",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
+        "History Says This Cryptocurrency Could Go Parabolic After the 2026 Midterm Elections - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.81,
-      "health": 0.0201,
-      "vol_ratio": 0.09
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.74,
+      "health": -0.0833,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.22121,
-      "ema200": 1.21979,
-      "macd": 8.2e-05,
-      "macd_signal": 0.000151,
-      "rsi14": 52.0,
-      "atr14": 0.00215,
-      "atr14_hourly": 0.01111,
-      "bb_position": 0.487
+      "ema50": 1.22282,
+      "ema200": 1.22043,
+      "macd": 0.00082,
+      "macd_signal": 0.000798,
+      "rsi14": 49.3,
+      "atr14": 0.00216,
+      "atr14_hourly": 0.00948,
+      "bb_position": 0.447
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.136,
+      "percentile": 0.14,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180295
+  "data_bars": 180307
 }
