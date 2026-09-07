@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-07T08:01:38.391891+00:00",
+  "timestamp": "2026-09-07T09:01:36.037853+00:00",
   "signal": {
-    "price": 1.204,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5375,
-    "hybrid_score": 5.3,
+    "price": 1.2076,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4863,
+    "hybrid_score": 4.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.053,
-      "bullish_pct": 36.7,
-      "bearish_pct": 33.3,
+      "score": 0.028,
+      "bullish_pct": 35.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.154,
+        "xrp": 0.057,
         "crypto_macro": 0.127,
-        "geopolitical": -0.427,
-        "fed_rates": 0.255
+        "geopolitical": -0.33,
+        "fed_rates": 0.206
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Broad Crypto Rally Decimates Shorts as BTC Tops $80,000, ZEC and HYPE Hit New Highs - TradingKey"
+        "Broad Crypto Rally Decimates Shorts as BTC Tops $80,000, ZEC and HYPE Hit New Highs - TradingKey",
+        "US Spot XRP ETF Inflows Reach $1.68 Billion as Demand Accelerates - Bitcoin News"
       ],
       "top_bearish": [
         "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back - CoinDesk",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.77,
-      "health": 0.0812,
-      "vol_ratio": 1.4
+      "up_down_ratio": 0.87,
+      "health": 0.1922,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.21145,
-      "ema200": 1.21608,
-      "macd": -0.002886,
-      "macd_signal": -0.002087,
-      "rsi14": 37.8,
-      "atr14": 0.00271,
-      "atr14_hourly": 0.01266,
-      "bb_position": 0.219
+      "ema50": 1.20967,
+      "ema200": 1.21502,
+      "macd": -0.000816,
+      "macd_signal": -0.001381,
+      "rsi14": 49.1,
+      "atr14": 0.00225,
+      "atr14_hourly": 0.01247,
+      "bb_position": 0.719
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.386,
+      "percentile": 0.393,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180403
+  "data_bars": 180415
 }
