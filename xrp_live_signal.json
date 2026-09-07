@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-07T20:01:34.709697+00:00",
+  "timestamp": "2026-09-07T21:01:34.931519+00:00",
   "signal": {
-    "price": 1.2065,
+    "price": 1.2044,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3788,
-    "hybrid_score": 3.0,
-    "regime": "BULLISH",
+    "xgb_prob": 0.3971,
+    "hybrid_score": 4.3,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.064,
-      "bullish_pct": 21.7,
-      "bearish_pct": 43.3,
+      "score": -0.07,
+      "bullish_pct": 23.3,
+      "bearish_pct": 45.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.066,
-        "crypto_macro": -0.059,
-        "geopolitical": -0.429,
-        "fed_rates": 0.056
+        "crypto_macro": -0.038,
+        "geopolitical": -0.505,
+        "fed_rates": 0.07
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Crypto Exchange API: 5 Best Crypto Exchange APIs in 2026 - Bitcoin Foundation"
+        "Crypto OTC Trading: 5 Best OTC Platforms for Large Crypto Orders - Bitcoin Foundation"
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
+        "US, Iran trade strikes over the weekend; Iran threatens more pressure on the Strait of Hormuz - 13newsnow.com",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.78,
-      "health": -0.0845,
-      "vol_ratio": 0.11
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.77,
+      "health": -0.0342,
+      "vol_ratio": 0.42
     },
     "technicals": {
-      "ema50": 1.20217,
-      "ema200": 1.20589,
-      "macd": 0.001445,
-      "macd_signal": 0.00094,
-      "rsi14": 67.6,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00647,
-      "bb_position": 0.878
+      "ema50": 1.20268,
+      "ema200": 1.20562,
+      "macd": 0.000486,
+      "macd_signal": 0.00059,
+      "rsi14": 55.8,
+      "atr14": 0.00147,
+      "atr14_hourly": 0.00603,
+      "bb_position": 0.546
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.432,
+      "percentile": 0.428,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180547
+  "data_bars": 180559
 }
