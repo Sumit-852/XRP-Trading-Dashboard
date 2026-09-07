@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-07T17:01:34.010031+00:00",
+  "timestamp": "2026-09-07T18:01:44.002438+00:00",
   "signal": {
-    "price": 1.2002,
+    "price": 1.2029,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4855,
-    "hybrid_score": 3.7,
+    "xgb_prob": 0.3985,
+    "hybrid_score": 3.2,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.046,
+      "score": 0.026,
       "bullish_pct": 36.7,
-      "bearish_pct": 38.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.211,
-        "crypto_macro": 0.122,
+        "xrp": 0.158,
+        "crypto_macro": 0.081,
         "geopolitical": -0.391,
-        "fed_rates": 0.024
+        "fed_rates": 0.107
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
         "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Bitcoin Keeps Getting Rejected at $82,000. Can It Break Through in September 2026? - 24/7 Wall St."
+        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - tradingview.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.78,
-      "health": -0.1558,
-      "vol_ratio": 0.04
+      "up_down_ratio": 0.79,
+      "health": -0.1763,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.19988,
-      "ema200": 1.20732,
-      "macd": 0.000157,
-      "macd_signal": -0.000964,
-      "rsi14": 56.6,
-      "atr14": 0.00222,
-      "atr14_hourly": 0.01322,
-      "bb_position": 0.81
+      "ema50": 1.20104,
+      "ema200": 1.20682,
+      "macd": 0.001334,
+      "macd_signal": 0.001155,
+      "rsi14": 58.5,
+      "atr14": 0.00147,
+      "atr14_hourly": 0.00912,
+      "bb_position": 0.669
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.431,
+      "percentile": 0.428,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180511
+  "data_bars": 180523
 }
