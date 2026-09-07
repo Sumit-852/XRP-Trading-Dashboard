@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-07T14:01:37.539553+00:00",
+  "timestamp": "2026-09-07T15:01:29.207348+00:00",
   "signal": {
-    "price": 1.2076,
+    "price": 1.2029,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.465,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.4391,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.007,
-      "bullish_pct": 33.3,
+      "score": 0.039,
+      "bullish_pct": 40.0,
       "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.13,
-        "crypto_macro": 0.092,
-        "geopolitical": -0.457,
-        "fed_rates": 0.111
+        "xrp": 0.237,
+        "crypto_macro": 0.082,
+        "geopolitical": -0.419,
+        "fed_rates": 0.026
       },
       "geo_shock": true,
       "geo_dip": {
@@ -37,24 +37,24 @@
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
         "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
+        "Bitcoin Keeps Getting Rejected at $82,000. Can It Break Through in September 2026? - 24/7 Wall St."
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": 0.0612,
-      "vol_ratio": 0.12
+      "up_down_ratio": 0.85,
+      "health": -0.0337,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.20857,
-      "ema200": 1.21161,
-      "macd": 2e-06,
-      "macd_signal": 0.000944,
+      "ema50": 1.20581,
+      "ema200": 1.21044,
+      "macd": -0.001809,
+      "macd_signal": -0.001848,
       "rsi14": 44.7,
-      "atr14": 0.0019,
-      "atr14_hourly": 0.00877,
-      "bb_position": 0.258
+      "atr14": 0.00244,
+      "atr14_hourly": 0.01117,
+      "bb_position": 0.421
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180475
+  "data_bars": 180487
 }
