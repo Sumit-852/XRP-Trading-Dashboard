@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-07T21:01:34.931519+00:00",
+  "timestamp": "2026-09-07T22:01:25.504832+00:00",
   "signal": {
-    "price": 1.2044,
+    "price": 1.1986,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3971,
-    "hybrid_score": 4.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.4532,
+    "hybrid_score": 3.4,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.07,
+      "score": -0.064,
       "bullish_pct": 23.3,
-      "bearish_pct": 45.0,
+      "bearish_pct": 46.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.066,
-        "crypto_macro": -0.038,
-        "geopolitical": -0.505,
-        "fed_rates": 0.07
+        "xrp": 0.124,
+        "crypto_macro": -0.056,
+        "geopolitical": -0.55,
+        "fed_rates": 0.056
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Crypto OTC Trading: 5 Best OTC Platforms for Large Crypto Orders - Bitcoin Foundation"
+        "Crypto OTC Trading: 5 Best OTC Platforms for Large Crypto Orders - bitcoinfoundation.org"
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
         "US, Iran trade strikes over the weekend; Iran threatens more pressure on the Strait of Hormuz - 13newsnow.com",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - news.usni.org"
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.77,
-      "health": -0.0342,
-      "vol_ratio": 0.42
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.84,
+      "health": 0.0626,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 1.20268,
-      "ema200": 1.20562,
-      "macd": 0.000486,
-      "macd_signal": 0.00059,
-      "rsi14": 55.8,
-      "atr14": 0.00147,
-      "atr14_hourly": 0.00603,
-      "bb_position": 0.546
+      "ema50": 1.20266,
+      "ema200": 1.2053,
+      "macd": -0.000592,
+      "macd_signal": -4.7e-05,
+      "rsi14": 33.1,
+      "atr14": 0.00146,
+      "atr14_hourly": 0.00531,
+      "bb_position": -0.261
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.428,
+      "percentile": 0.423,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180559
+  "data_bars": 180571
 }
