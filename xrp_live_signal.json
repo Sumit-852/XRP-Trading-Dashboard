@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-07T12:01:38.141981+00:00",
+  "timestamp": "2026-09-07T13:01:41.949402+00:00",
   "signal": {
-    "price": 1.2038,
+    "price": 1.2145,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3746,
+    "xgb_prob": 0.3808,
     "hybrid_score": 4.3,
     "regime": "BEARISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.037,
+      "score": 0.032,
       "bullish_pct": 36.7,
-      "bearish_pct": 40.0,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.193,
-        "crypto_macro": 0.088,
-        "geopolitical": -0.381,
-        "fed_rates": 0.068
+        "xrp": 0.162,
+        "crypto_macro": 0.105,
+        "geopolitical": -0.402,
+        "fed_rates": 0.107
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Bitcoin ETFs Hold Strong as Ethereum, Solana, and XRP Fund Inflows Cool - Altcoin Buzz"
+        "Broad Crypto Rally Decimates Shorts as BTC Tops $80,000, ZEC and HYPE Hit New Highs - TradingKey"
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": 0.2289,
-      "vol_ratio": 0.79
+      "up_down_ratio": 0.9,
+      "health": 0.1768,
+      "vol_ratio": 1.3
     },
     "technicals": {
-      "ema50": 1.20573,
-      "ema200": 1.21194,
-      "macd": -0.000545,
-      "macd_signal": -0.000611,
-      "rsi14": 45.2,
-      "atr14": 0.00137,
-      "atr14_hourly": 0.00561,
-      "bb_position": 0.368
+      "ema50": 1.20755,
+      "ema200": 1.21175,
+      "macd": 0.002278,
+      "macd_signal": 0.001322,
+      "rsi14": 76.8,
+      "atr14": 0.00169,
+      "atr14_hourly": 0.00752,
+      "bb_position": 0.941
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.397,
+      "percentile": 0.405,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180451
+  "data_bars": 180463
 }
