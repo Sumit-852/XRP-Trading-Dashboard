@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-08T14:01:39.610295+00:00",
+  "timestamp": "2026-09-08T15:01:39.563805+00:00",
   "signal": {
-    "price": 1.2083,
+    "price": 1.2182,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4879,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.4479,
+    "hybrid_score": 4.7,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.082,
-      "bullish_pct": 45.0,
+      "score": 0.049,
+      "bullish_pct": 40.0,
       "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.233,
-        "crypto_macro": 0.003,
-        "geopolitical": -0.164,
-        "fed_rates": 0.173
+        "xrp": 0.168,
+        "crypto_macro": -0.049,
+        "geopolitical": -0.082,
+        "fed_rates": 0.115
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance"
       ],
       "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - 24/7 Wall St.",
+        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
         "Attackers Drained 4,000 Bitcoin From Blockstream's Liquid Network. They Say They Are White Hats and Want to Give It Back",
         "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.02,
-      "health": 0.2914,
-      "vol_ratio": 0.16
+      "up_down_ratio": 1.1,
+      "health": 0.2864,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.20141,
-      "ema200": 1.20069,
-      "macd": 0.000779,
-      "macd_signal": 0.000271,
-      "rsi14": 61.1,
-      "atr14": 0.00344,
-      "atr14_hourly": 0.01186,
-      "bb_position": 0.878
+      "ema50": 1.20618,
+      "ema200": 1.20215,
+      "macd": 0.004126,
+      "macd_signal": 0.003148,
+      "rsi14": 72.0,
+      "atr14": 0.00342,
+      "atr14_hourly": 0.01617,
+      "bb_position": 0.821
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.25,
+      "percentile": 0.237,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180763
+  "data_bars": 180775
 }
