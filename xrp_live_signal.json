@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-08T02:01:34.747897+00:00",
+  "timestamp": "2026-09-08T03:01:35.785208+00:00",
   "signal": {
-    "price": 1.2068,
+    "price": 1.1983,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3297,
-    "hybrid_score": 2.7,
+    "xgb_prob": 0.4505,
+    "hybrid_score": 4.6,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.025,
-      "bullish_pct": 31.7,
-      "bearish_pct": 45.0,
+      "score": -0.077,
+      "bullish_pct": 26.7,
+      "bearish_pct": 48.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.157,
-        "crypto_macro": -0.007,
-        "geopolitical": -0.554,
-        "fed_rates": 0.146
+        "xrp": 0.091,
+        "crypto_macro": -0.07,
+        "geopolitical": -0.571,
+        "fed_rates": 0.104
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "The House Leaves Washington Two Days After the CLARITY Act Vote. What That Means for XRP - 24/7 Wall St."
+        "Crypto OTC Trading: 5 Best OTC Platforms for Large Crypto Orders - bitcoinfoundation.org"
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
-        "US, Iran trade strikes over the weekend; Iran threatens more pressure on the Strait of Hormuz - 13newsnow.com",
-        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
+        "Crypto Weekly Digest | Bitcoin Pulls Back to $80047; NFP Triggers $200M Liquidation; Whale Dumps $345M ETH - Moomoo",
+        "US, Iran trade strikes over the weekend; Iran threatens more pressure on the Strait of Hormuz - 13newsnow.com"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": 0.0769,
-      "vol_ratio": 0.09
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.82,
+      "health": -0.0328,
+      "vol_ratio": 0.51
     },
     "technicals": {
-      "ema50": 1.2032,
-      "ema200": 1.20401,
-      "macd": 0.001436,
-      "macd_signal": 0.0015,
-      "rsi14": 60.7,
-      "atr14": 0.00156,
-      "atr14_hourly": 0.00742,
-      "bb_position": 0.693
+      "ema50": 1.20298,
+      "ema200": 1.20389,
+      "macd": -0.001185,
+      "macd_signal": -7.4e-05,
+      "rsi14": 34.7,
+      "atr14": 0.00181,
+      "atr14_hourly": 0.00787,
+      "bb_position": 0.023
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.387,
+      "percentile": 0.221,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180619
+  "data_bars": 180631
 }
