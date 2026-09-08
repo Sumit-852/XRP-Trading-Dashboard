@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-09-08T17:01:36.947025+00:00",
+  "timestamp": "2026-09-08T18:01:36.169793+00:00",
   "signal": {
-    "price": 1.2343,
+    "price": 1.2297,
     "xgb_pred": "UP",
-    "xgb_prob": 0.556,
-    "hybrid_score": 5.3,
+    "xgb_prob": 0.524,
+    "hybrid_score": 6.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.005,
-      "bullish_pct": 33.3,
-      "bearish_pct": 36.7,
+      "score": 0.028,
+      "bullish_pct": 36.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.177,
-        "crypto_macro": -0.099,
-        "geopolitical": -0.258,
+        "crypto_macro": -0.062,
+        "geopolitical": -0.195,
         "fed_rates": 0.115
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - finance.yahoo.com"
+        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance"
       ],
       "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - finance.yahoo.com",
+        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
         "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView",
         "MSTR, COIN, CRCL Stocks Dip: Crypto Equities Pull Back After Bitcoin's $82K Rejection - Stocktwits"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.37,
-      "health": 0.3896,
-      "vol_ratio": 1.15
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.46,
+      "health": 0.4219,
+      "vol_ratio": 1.18
     },
     "technicals": {
-      "ema50": 1.22052,
-      "ema200": 1.20769,
-      "macd": 0.005168,
-      "macd_signal": 0.005424,
-      "rsi14": 63.8,
-      "atr14": 0.00452,
-      "atr14_hourly": 0.02187,
-      "bb_position": 0.666
+      "ema50": 1.22412,
+      "ema200": 1.21022,
+      "macd": 0.001196,
+      "macd_signal": 0.002174,
+      "rsi14": 51.8,
+      "atr14": 0.00369,
+      "atr14_hourly": 0.01648,
+      "bb_position": 0.363
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.292,
+      "percentile": 0.324,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180799
+  "data_bars": 180811
 }
