@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-08T07:01:35.213587+00:00",
+  "timestamp": "2026-09-08T08:01:30.647811+00:00",
   "signal": {
-    "price": 1.1904,
+    "price": 1.1944,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.461,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.2441,
+    "hybrid_score": 2.2,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.024,
-      "bullish_pct": 35.0,
-      "bearish_pct": 36.7,
+      "score": 0.008,
+      "bullish_pct": 33.3,
+      "bearish_pct": 40.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.104,
-        "crypto_macro": 0.005,
-        "geopolitical": -0.14,
+        "xrp": 0.126,
+        "crypto_macro": -0.007,
+        "geopolitical": -0.251,
         "fed_rates": 0.064
       },
       "geo_shock": false,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "XRP\u2019s Rich List Just Got Crowded: New Entry Ticket Revealed - DailyCoin"
+        "XRP\u2019s Rich List Just Got Crowded: New Entry Ticket Revealed - dailycoin.com"
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.73,
-      "health": -0.1323,
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.74,
+      "health": -0.0718,
       "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.19577,
-      "ema200": 1.20084,
-      "macd": -0.002306,
-      "macd_signal": -0.002219,
-      "rsi14": 37.7,
-      "atr14": 0.00211,
-      "atr14_hourly": 0.00827,
-      "bb_position": 0.312
+      "ema50": 1.19538,
+      "ema200": 1.20015,
+      "macd": 0.000169,
+      "macd_signal": -0.000263,
+      "rsi14": 50.6,
+      "atr14": 0.00186,
+      "atr14_hourly": 0.00871,
+      "bb_position": 0.653
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.216,
+      "percentile": 0.174,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180679
+  "data_bars": 180691
 }
