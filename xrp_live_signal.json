@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-08T21:01:41.622879+00:00",
+  "timestamp": "2026-09-08T22:01:30.504811+00:00",
   "signal": {
-    "price": 1.2178,
+    "price": 1.2209,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4741,
-    "hybrid_score": 6.2,
+    "xgb_prob": 0.4599,
+    "hybrid_score": 6.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.111,
-      "bullish_pct": 46.7,
-      "bearish_pct": 25.0,
+      "score": 0.105,
+      "bullish_pct": 45.0,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.2,
-        "crypto_macro": -0.012,
-        "geopolitical": 0.095,
-        "fed_rates": 0.155
+        "xrp": 0.213,
+        "crypto_macro": -0.064,
+        "geopolitical": 0.065,
+        "fed_rates": 0.223
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - tradingview.com",
+        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView",
         "Trade war shock: Tariffs push Canadian small businesses to the brink - Los Angeles Times"
       ]
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.31,
-      "health": -0.038,
-      "vol_ratio": 0.05
+      "up_down_ratio": 1.32,
+      "health": -0.0642,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 1.22431,
-      "ema200": 1.21507,
-      "macd": -0.003089,
-      "macd_signal": -0.002765,
-      "rsi14": 40.7,
-      "atr14": 0.00331,
-      "atr14_hourly": 0.01317,
-      "bb_position": 0.233
+      "ema50": 1.22311,
+      "ema200": 1.21577,
+      "macd": -0.001158,
+      "macd_signal": -0.001406,
+      "rsi14": 48.0,
+      "atr14": 0.00289,
+      "atr14_hourly": 0.01032,
+      "bb_position": 0.591
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.42,
+      "percentile": 0.427,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180847
+  "data_bars": 180859
 }
