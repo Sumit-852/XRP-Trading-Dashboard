@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-08T05:01:47.778259+00:00",
+  "timestamp": "2026-09-08T06:01:28.647807+00:00",
   "signal": {
-    "price": 1.1958,
+    "price": 1.193,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4039,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.4513,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.002,
-      "bullish_pct": 33.3,
-      "bearish_pct": 41.7,
+      "score": -0.025,
+      "bullish_pct": 31.7,
+      "bearish_pct": 43.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.14,
-        "crypto_macro": -0.053,
-        "geopolitical": -0.289,
+        "xrp": 0.139,
+        "crypto_macro": -0.095,
+        "geopolitical": -0.344,
         "fed_rates": 0.104
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
-        "Crypto Weekly Digest | Bitcoin Pulls Back to $80047; NFP Triggers $200M Liquidation; Whale Dumps $345M ETH - Moomoo",
+        "Crypto Weekly Digest | Bitcoin Pulls Back to $80047; NFP Triggers $200M Liquidation; Whale Dumps $345M ETH - moomoo.com",
         "US, Iran trade strikes over the weekend; Iran threatens more pressure on the Strait of Hormuz - 13newsnow.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.77,
-      "health": -0.105,
-      "vol_ratio": 0.67
+      "up_down_ratio": 0.72,
+      "health": -0.135,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.20047,
-      "ema200": 1.20283,
-      "macd": -0.00098,
-      "macd_signal": -0.00074,
-      "rsi14": 35.8,
-      "atr14": 0.00172,
-      "atr14_hourly": 0.00684,
-      "bb_position": -0.043
+      "ema50": 1.199,
+      "ema200": 1.20214,
+      "macd": -0.001429,
+      "macd_signal": -0.000986,
+      "rsi14": 33.3,
+      "atr14": 0.00237,
+      "atr14_hourly": 0.00719,
+      "bb_position": -0.018
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.224,
+      "percentile": 0.218,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180655
+  "data_bars": 180667
 }
