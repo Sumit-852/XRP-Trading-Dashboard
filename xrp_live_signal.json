@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-08T08:01:30.647811+00:00",
+  "timestamp": "2026-09-08T09:01:30.057726+00:00",
   "signal": {
-    "price": 1.1944,
+    "price": 1.1964,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2441,
-    "hybrid_score": 2.2,
+    "xgb_prob": 0.2563,
+    "hybrid_score": 2.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.008,
-      "bullish_pct": 33.3,
-      "bearish_pct": 40.0,
+      "score": 0.05,
+      "bullish_pct": 36.7,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.126,
-        "crypto_macro": -0.007,
-        "geopolitical": -0.251,
-        "fed_rates": 0.064
+        "xrp": 0.143,
+        "crypto_macro": 0.099,
+        "geopolitical": -0.172,
+        "fed_rates": -0.002
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "XRP\u2019s Rich List Just Got Crowded: New Entry Ticket Revealed - dailycoin.com"
+        "XRP\u2019s Rich List Just Got Crowded: New Entry Ticket Revealed - DailyCoin"
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.74,
-      "health": -0.0718,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.77,
+      "health": -0.0392,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.19538,
-      "ema200": 1.20015,
-      "macd": 0.000169,
-      "macd_signal": -0.000263,
-      "rsi14": 50.6,
-      "atr14": 0.00186,
-      "atr14_hourly": 0.00871,
-      "bb_position": 0.653
+      "ema50": 1.19558,
+      "ema200": 1.19965,
+      "macd": 0.000802,
+      "macd_signal": 0.00056,
+      "rsi14": 54.6,
+      "atr14": 0.00161,
+      "atr14_hourly": 0.00798,
+      "bb_position": 0.618
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.174,
+      "percentile": 0.168,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180691
+  "data_bars": 180703
 }
