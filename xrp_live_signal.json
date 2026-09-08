@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-08T06:01:28.647807+00:00",
+  "timestamp": "2026-09-08T07:01:35.213587+00:00",
   "signal": {
-    "price": 1.193,
+    "price": 1.1904,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4513,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.461,
+    "hybrid_score": 4.8,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.025,
-      "bullish_pct": 31.7,
-      "bearish_pct": 43.3,
+      "score": 0.024,
+      "bullish_pct": 35.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.139,
-        "crypto_macro": -0.095,
-        "geopolitical": -0.344,
-        "fed_rates": 0.104
+        "xrp": 0.104,
+        "crypto_macro": 0.005,
+        "geopolitical": -0.14,
+        "fed_rates": 0.064
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Bitcoin Network Says $320 Million Stolen in Latest Crypto Hack - Bloomberg.com",
-        "Crypto Weekly Digest | Bitcoin Pulls Back to $80047; NFP Triggers $200M Liquidation; Whale Dumps $345M ETH - moomoo.com",
-        "US, Iran trade strikes over the weekend; Iran threatens more pressure on the Strait of Hormuz - 13newsnow.com"
+        "US, Iran trade strikes over the weekend; Iran threatens more pressure on the Strait of Hormuz - 13newsnow.com",
+        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.72,
-      "health": -0.135,
-      "vol_ratio": 0.06
+      "up_down_ratio": 0.73,
+      "health": -0.1323,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.199,
-      "ema200": 1.20214,
-      "macd": -0.001429,
-      "macd_signal": -0.000986,
-      "rsi14": 33.3,
-      "atr14": 0.00237,
-      "atr14_hourly": 0.00719,
-      "bb_position": -0.018
+      "ema50": 1.19577,
+      "ema200": 1.20084,
+      "macd": -0.002306,
+      "macd_signal": -0.002219,
+      "rsi14": 37.7,
+      "atr14": 0.00211,
+      "atr14_hourly": 0.00827,
+      "bb_position": 0.312
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.218,
+      "percentile": 0.216,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180667
+  "data_bars": 180679
 }
