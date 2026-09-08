@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-09-08T15:01:39.563805+00:00",
+  "timestamp": "2026-09-08T16:02:06.571961+00:00",
   "signal": {
-    "price": 1.2182,
+    "price": 1.2427,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4479,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4804,
+    "hybrid_score": 6.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.049,
+      "score": 0.013,
       "bullish_pct": 40.0,
-      "bearish_pct": 33.3,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.168,
-        "crypto_macro": -0.049,
-        "geopolitical": -0.082,
+        "xrp": 0.188,
+        "crypto_macro": -0.117,
+        "geopolitical": -0.212,
         "fed_rates": 0.115
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": 0.2864,
-      "vol_ratio": 0.1
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.33,
+      "health": 0.4457,
+      "vol_ratio": 5.54
     },
     "technicals": {
-      "ema50": 1.20618,
-      "ema200": 1.20215,
-      "macd": 0.004126,
-      "macd_signal": 0.003148,
-      "rsi14": 72.0,
-      "atr14": 0.00342,
-      "atr14_hourly": 0.01617,
-      "bb_position": 0.821
+      "ema50": 1.21286,
+      "ema200": 1.2045,
+      "macd": 0.006569,
+      "macd_signal": 0.004647,
+      "rsi14": 86.2,
+      "atr14": 0.00407,
+      "atr14_hourly": 0.01515,
+      "bb_position": 1.246
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.237,
+      "percentile": 0.287,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180775
+  "data_bars": 180787
 }
