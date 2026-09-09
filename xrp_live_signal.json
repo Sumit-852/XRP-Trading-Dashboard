@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-09T14:01:39.367222+00:00",
+  "timestamp": "2026-09-09T15:01:35.054373+00:00",
   "signal": {
-    "price": 1.2235,
+    "price": 1.2245,
     "xgb_pred": "UP",
-    "xgb_prob": 0.509,
+    "xgb_prob": 0.5121,
     "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,17 +11,17 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.056,
+      "score": 0.021,
       "bullish_pct": 33.3,
-      "bearish_pct": 25.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.155,
-        "crypto_macro": 0.061,
-        "geopolitical": -0.227,
-        "fed_rates": 0.151
+        "xrp": 0.132,
+        "crypto_macro": 0.052,
+        "geopolitical": -0.388,
+        "fed_rates": 0.192
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "XRP and the CLARITY Act: Why September 15 Could Be a Major Test - CryptoPotato"
       ],
       "top_bearish": [
+        "Iran and U.S. renew Hormuz attacks; Trump escalates Canada trade war; 13 killed in Sudan drone strike - Drop Site News",
         "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
-        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC",
-        "Gas prices continue rising as US and Iran trade missile attacks - WQAD"
+        "Brent Crude Breaks $100 Threshold as US, Iran Trade Accusations Over Attacks - La Voce di New York"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.86,
-      "health": -0.3514,
-      "vol_ratio": 0.1
+      "up_down_ratio": 0.92,
+      "health": -0.2667,
+      "vol_ratio": 5.49
     },
     "technicals": {
-      "ema50": 1.22865,
-      "ema200": 1.22581,
-      "macd": -0.000306,
-      "macd_signal": 0.000896,
-      "rsi14": 38.1,
-      "atr14": 0.00301,
-      "atr14_hourly": 0.01094,
-      "bb_position": -0.053
+      "ema50": 1.22751,
+      "ema200": 1.2258,
+      "macd": -0.001018,
+      "macd_signal": -0.000763,
+      "rsi14": 45.3,
+      "atr14": 0.00388,
+      "atr14_hourly": 0.01092,
+      "bb_position": 0.316
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.432,
+      "percentile": 0.451,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181051
+  "data_bars": 181063
 }
