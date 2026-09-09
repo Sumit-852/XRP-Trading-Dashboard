@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-09T21:01:32.964785+00:00",
+  "timestamp": "2026-09-09T22:01:40.690833+00:00",
   "signal": {
-    "price": 1.2056,
+    "price": 1.2001,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5124,
-    "hybrid_score": 5.1,
+    "xgb_prob": 0.5361,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.042,
-      "bullish_pct": 31.7,
-      "bearish_pct": 26.7,
+      "score": 0.022,
+      "bullish_pct": 28.3,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.186,
-        "crypto_macro": 0.027,
-        "geopolitical": -0.321,
-        "fed_rates": 0.164
+        "crypto_macro": 0.019,
+        "geopolitical": -0.42,
+        "fed_rates": 0.166
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - coindesk.com",
+        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
         "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.76,
-      "health": -0.1768,
-      "vol_ratio": 1.39
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.75,
+      "health": -0.2102,
+      "vol_ratio": 0.1
     },
     "technicals": {
-      "ema50": 1.21313,
-      "ema200": 1.22055,
-      "macd": -0.003133,
-      "macd_signal": -0.003571,
-      "rsi14": 42.0,
-      "atr14": 0.00314,
-      "atr14_hourly": 0.01105,
-      "bb_position": 0.41
+      "ema50": 1.20864,
+      "ema200": 1.2184,
+      "macd": -0.002959,
+      "macd_signal": -0.002959,
+      "rsi14": 39.9,
+      "atr14": 0.00267,
+      "atr14_hourly": 0.00963,
+      "bb_position": 0.248
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.398,
+      "percentile": 0.402,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181135
+  "data_bars": 181147
 }
