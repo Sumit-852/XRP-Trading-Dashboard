@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-09T03:01:33.924650+00:00",
+  "timestamp": "2026-09-09T04:01:36.013340+00:00",
   "signal": {
-    "price": 1.2179,
+    "price": 1.2226,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4276,
-    "hybrid_score": 5.8,
+    "xgb_prob": 0.4638,
+    "hybrid_score": 6.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.033,
-      "bullish_pct": 31.7,
-      "bearish_pct": 35.0,
+      "score": -0.002,
+      "bullish_pct": 35.0,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.076,
-        "crypto_macro": -0.047,
-        "geopolitical": -0.339,
+        "xrp": 0.095,
+        "crypto_macro": 0.002,
+        "geopolitical": -0.285,
         "fed_rates": 0.102
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": true,
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "XRP Futures Volume Hits 6-Month High as ETF Inflow Streak Hits 8 Weeks - Benzinga"
+        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance"
       ],
       "top_bearish": [
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "ACCUMULATION",
-      "up_down_ratio": 1.45,
-      "health": 0.0891,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.47,
+      "health": 0.086,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 1.21981,
-      "ema200": 1.21756,
-      "macd": -2e-05,
-      "macd_signal": -3.8e-05,
-      "rsi14": 45.5,
-      "atr14": 0.00241,
-      "atr14_hourly": 0.00793,
-      "bb_position": 0.34
+      "ema50": 1.21849,
+      "ema200": 1.2174,
+      "macd": -8e-05,
+      "macd_signal": -0.000731,
+      "rsi14": 65.0,
+      "atr14": 0.00225,
+      "atr14_hourly": 0.00816,
+      "bb_position": 0.927
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.422,
+      "percentile": 0.421,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180919
+  "data_bars": 180931
 }
