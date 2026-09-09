@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-09T07:01:29.540814+00:00",
+  "timestamp": "2026-09-09T08:01:35.759993+00:00",
   "signal": {
-    "price": 1.2322,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5195,
-    "hybrid_score": 6.4,
+    "price": 1.2377,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.463,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.013,
-      "bullish_pct": 35.0,
-      "bearish_pct": 35.0,
+      "score": 0.033,
+      "bullish_pct": 36.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.088,
-        "crypto_macro": 0.03,
-        "geopolitical": -0.239,
-        "fed_rates": 0.108
+        "xrp": 0.101,
+        "crypto_macro": 0.052,
+        "geopolitical": -0.179,
+        "fed_rates": 0.092
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates near recent highs, ETH and XRP defend key bullish s",
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Bitcoin, Ethereum, Dogecoin Fall; XRP Gains Ahead of Key Inflation Data: Analyst Notes 'Another Strong Bu - Benzinga"
+        "XRP In Spotlight As Ripple Treasury Nears $13T Milestone With SWIFT, JPMorgan, Goldman Sachs - CoinGape"
       ],
       "top_bearish": [
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "ACCUMULATION",
-      "up_down_ratio": 1.29,
-      "health": -0.2017,
-      "vol_ratio": 0.1
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.3,
+      "health": -0.104,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.22808,
-      "ema200": 1.22141,
-      "macd": 0.001607,
-      "macd_signal": 0.001806,
-      "rsi14": 54.7,
-      "atr14": 0.00212,
-      "atr14_hourly": 0.01234,
-      "bb_position": 0.608
+      "ema50": 1.2315,
+      "ema200": 1.22317,
+      "macd": 0.002005,
+      "macd_signal": 0.002065,
+      "rsi14": 61.2,
+      "atr14": 0.002,
+      "atr14_hourly": 0.00946,
+      "bb_position": 0.766
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180967
+  "data_bars": 180979
 }
