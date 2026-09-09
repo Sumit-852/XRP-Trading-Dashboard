@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-09T11:01:37.513071+00:00",
+  "timestamp": "2026-09-09T12:01:43.905361+00:00",
   "signal": {
-    "price": 1.2236,
+    "price": 1.2259,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5172,
+    "xgb_prob": 0.5001,
     "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.026,
-      "bullish_pct": 40.0,
-      "bearish_pct": 36.7,
+      "sentiment": "BULLISH",
+      "score": 0.123,
+      "bullish_pct": 45.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.171,
-        "crypto_macro": -0.026,
-        "geopolitical": -0.257,
+        "xrp": 0.284,
+        "crypto_macro": 0.12,
+        "geopolitical": -0.194,
         "fed_rates": 0.122
       },
       "geo_shock": false,
@@ -35,26 +35,26 @@
         "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance"
       ],
       "top_bearish": [
-        "Bitcoin Price Frozen Near $79,000 as Oil and War Risk Rewrite the Macro Playbook - CryptoTicker",
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Ripple's Veteran Schwartz Discloses Private XRP Ledger Hub Health After Network-Wide Attack - U.Today"
+        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
+        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.08,
-      "health": -0.1797,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.92,
+      "health": -0.3468,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.22808,
-      "ema200": 1.22484,
-      "macd": -0.002274,
-      "macd_signal": -0.002569,
-      "rsi14": 41.5,
-      "atr14": 0.00189,
-      "atr14_hourly": 0.0083,
-      "bb_position": 0.448
+      "ema50": 1.22596,
+      "ema200": 1.22455,
+      "macd": -0.000466,
+      "macd_signal": -0.001469,
+      "rsi14": 55.4,
+      "atr14": 0.00219,
+      "atr14_hourly": 0.00818,
+      "bb_position": 0.853
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.468,
+      "percentile": 0.451,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181015
+  "data_bars": 181027
 }
