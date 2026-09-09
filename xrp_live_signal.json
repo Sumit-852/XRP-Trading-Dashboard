@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-09T09:01:46.777671+00:00",
+  "timestamp": "2026-09-09T10:01:38.893586+00:00",
   "signal": {
-    "price": 1.2352,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4796,
-    "hybrid_score": 4.9,
+    "price": 1.2227,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5717,
+    "hybrid_score": 5.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.034,
-      "bullish_pct": 38.3,
+      "score": 0.035,
+      "bullish_pct": 41.7,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.101,
-        "crypto_macro": 0.052,
-        "geopolitical": -0.229,
-        "fed_rates": 0.158
+        "xrp": 0.119,
+        "crypto_macro": 0.013,
+        "geopolitical": -0.174,
+        "fed_rates": 0.133
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP In Spotlight As Ripple Treasury Nears $13T Milestone With SWIFT, JPMorgan, Goldman Sachs - CoinGape"
       ],
       "top_bearish": [
+        "Bitcoin Price Frozen Near $79,000 as Oil and War Risk Rewrite the Macro Playbook - CryptoTicker",
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Ripple's Veteran Schwartz Discloses Private XRP Ledger Hub Health After Network-Wide Attack - U.Today",
-        "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView"
+        "Ripple's Veteran Schwartz Discloses Private XRP Ledger Hub Health After Network-Wide Attack - U.Today"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": -0.2325,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.17,
+      "health": -0.1767,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.23378,
-      "ema200": 1.22481,
-      "macd": 0.000643,
-      "macd_signal": 0.001275,
-      "rsi14": 46.5,
-      "atr14": 0.002,
-      "atr14_hourly": 0.00808,
-      "bb_position": 0.058
+      "ema50": 1.2309,
+      "ema200": 1.22501,
+      "macd": -0.003464,
+      "macd_signal": -0.002328,
+      "rsi14": 24.3,
+      "atr14": 0.00211,
+      "atr14_hourly": 0.01087,
+      "bb_position": 0.16
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 180991
+  "data_bars": 181003
 }
