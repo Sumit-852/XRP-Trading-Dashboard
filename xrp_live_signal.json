@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-09T17:01:40.922142+00:00",
+  "timestamp": "2026-09-09T18:01:34.142538+00:00",
   "signal": {
-    "price": 1.2228,
+    "price": 1.2219,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4621,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.4534,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.0,
-      "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "score": 0.009,
+      "bullish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.158,
-        "crypto_macro": -0.095,
+        "xrp": 0.156,
+        "crypto_macro": -0.052,
         "geopolitical": -0.307,
-        "fed_rates": 0.178
+        "fed_rates": 0.155
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
-        "Trump ratchets up trade war, moves to ban many Canadian goods from entering US - ABC News - Breaking News, Latest News a"
+        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - coindesk.com",
+        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": -0.0029,
-      "vol_ratio": 0.11
+      "up_down_ratio": 0.92,
+      "health": 0.0357,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.22283,
-      "ema200": 1.22447,
-      "macd": -0.000193,
-      "macd_signal": -0.00091,
-      "rsi14": 52.7,
-      "atr14": 0.00323,
-      "atr14_hourly": 0.01284,
-      "bb_position": 0.758
+      "ema50": 1.22247,
+      "ema200": 1.22418,
+      "macd": 0.00021,
+      "macd_signal": 5.3e-05,
+      "rsi14": 50.5,
+      "atr14": 0.00242,
+      "atr14_hourly": 0.00885,
+      "bb_position": 0.528
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.466,
+      "percentile": 0.451,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181087
+  "data_bars": 181099
 }
