@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-09T12:01:43.905361+00:00",
+  "timestamp": "2026-09-09T13:01:37.885942+00:00",
   "signal": {
-    "price": 1.2259,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5001,
-    "hybrid_score": 5.1,
+    "price": 1.2324,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.3104,
+    "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.123,
-      "bullish_pct": 45.0,
-      "bearish_pct": 28.3,
+      "sentiment": "NEUTRAL",
+      "score": 0.097,
+      "bullish_pct": 38.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.284,
-        "crypto_macro": 0.12,
-        "geopolitical": -0.194,
-        "fed_rates": 0.122
+        "xrp": 0.223,
+        "crypto_macro": 0.073,
+        "geopolitical": -0.168,
+        "fed_rates": 0.163
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance"
       ],
       "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
         "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
-        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC"
+        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC",
+        "Crypto Market Today, Sept. 8: Bitcoin Slides as Fed Hike Odds Pass 60% - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.92,
-      "health": -0.3468,
-      "vol_ratio": 0.06
+      "up_down_ratio": 0.88,
+      "health": -0.4145,
+      "vol_ratio": 0.23
     },
     "technicals": {
-      "ema50": 1.22596,
-      "ema200": 1.22455,
-      "macd": -0.000466,
-      "macd_signal": -0.001469,
-      "rsi14": 55.4,
-      "atr14": 0.00219,
-      "atr14_hourly": 0.00818,
-      "bb_position": 0.853
+      "ema50": 1.22792,
+      "ema200": 1.22525,
+      "macd": 0.002524,
+      "macd_signal": 0.00168,
+      "rsi14": 60.5,
+      "atr14": 0.00235,
+      "atr14_hourly": 0.00986,
+      "bb_position": 0.74
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.451,
+      "percentile": 0.455,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181027
+  "data_bars": 181039
 }
