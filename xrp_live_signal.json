@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-09T16:01:44.194965+00:00",
+  "timestamp": "2026-09-09T17:01:40.922142+00:00",
   "signal": {
-    "price": 1.2207,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5387,
-    "hybrid_score": 5.2,
-    "regime": "BULLISH",
+    "price": 1.2228,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4621,
+    "hybrid_score": 4.8,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.016,
-      "bullish_pct": 28.3,
-      "bearish_pct": 30.0,
+      "score": -0.0,
+      "bullish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.132,
-        "crypto_macro": 0.043,
-        "geopolitical": -0.299,
-        "fed_rates": 0.064
+        "xrp": 0.158,
+        "crypto_macro": -0.095,
+        "geopolitical": -0.307,
+        "fed_rates": 0.178
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
-        "XRP and the CLARITY Act: Why September 15 Could Be a Major Test - CryptoPotato"
+        "Crypto Today: Bitcoin, Ethereum, XRP regain strength as US Treasury doubles down on buybacks - FXStreet",
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
       ],
       "top_bearish": [
+        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
         "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
-        "Brent Crude Breaks $100 Threshold as US, Iran Trade Accusations Over Attacks - La Voce di New York",
-        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC"
+        "Trump ratchets up trade war, moves to ban many Canadian goods from entering US - ABC News - Breaking News, Latest News a"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.85,
-      "health": -0.2666,
-      "vol_ratio": 0.1
+      "up_down_ratio": 0.91,
+      "health": -0.0029,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.2242,
-      "ema200": 1.22499,
-      "macd": -0.001838,
-      "macd_signal": -0.002163,
-      "rsi14": 47.2,
-      "atr14": 0.00396,
-      "atr14_hourly": 0.01544,
-      "bb_position": 0.443
+      "ema50": 1.22283,
+      "ema200": 1.22447,
+      "macd": -0.000193,
+      "macd_signal": -0.00091,
+      "rsi14": 52.7,
+      "atr14": 0.00323,
+      "atr14_hourly": 0.01284,
+      "bb_position": 0.758
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.459,
+      "percentile": 0.466,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181075
+  "data_bars": 181087
 }
