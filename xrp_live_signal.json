@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-10T18:01:43.534842+00:00",
+  "timestamp": "2026-09-10T19:01:37.539229+00:00",
   "signal": {
-    "price": 1.1705,
+    "price": 1.1671,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.473,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.4118,
+    "hybrid_score": 4.5,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.043,
-      "bullish_pct": 31.7,
+      "score": 0.06,
+      "bullish_pct": 33.3,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.122,
-        "crypto_macro": 0.078,
-        "geopolitical": -0.24,
+        "xrp": 0.093,
+        "crypto_macro": 0.155,
+        "geopolitical": -0.217,
         "fed_rates": 0.132
       },
       "geo_shock": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
-        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 24/7 Wall St.",
+        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - fxstreet.com",
+        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 247wallst.com",
         "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView"
       ],
       "top_bearish": [
-        "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - CryptoRank",
-        "U.S.-China Trade Rises For Third Consecutive Month, Remains Far Below Pre-2025 Tariff War Levels - Seeking Alpha",
-        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News"
+        "Why is XRP down today? - The Motley Fool",
+        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News",
+        "Crypto Market Today, Sept. 8: Bitcoin Slides as Fed Hike Odds Pass 60% - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.72,
-      "health": 0.2142,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.74,
+      "health": 0.2618,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 1.16887,
-      "ema200": 1.18169,
-      "macd": 0.001629,
-      "macd_signal": 0.000934,
-      "rsi14": 56.6,
-      "atr14": 0.00255,
-      "atr14_hourly": 0.01278,
-      "bb_position": 0.694
+      "ema50": 1.16681,
+      "ema200": 1.17961,
+      "macd": -0.00033,
+      "macd_signal": -0.000578,
+      "rsi14": 53.9,
+      "atr14": 0.00254,
+      "atr14_hourly": 0.01219,
+      "bb_position": 0.538
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.433,
+      "percentile": 0.449,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181387
+  "data_bars": 181399
 }
