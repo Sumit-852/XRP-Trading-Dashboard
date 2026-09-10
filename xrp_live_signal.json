@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-09-10T06:01:48.147906+00:00",
+  "timestamp": "2026-09-10T07:01:31.667867+00:00",
   "signal": {
-    "price": 1.1952,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 1.1926,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3759,
-    "hybrid_score": 3.0,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.049,
-      "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.181,
-        "crypto_macro": -0.002,
-        "geopolitical": -0.189,
-        "fed_rates": 0.122
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance",
-        "Crypto Today: Bitcoin, Ethereum, XRP regain strength as US Treasury doubles down on buybacks - FXStreet"
-      ],
-      "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Over 140,000 Traders Liquidated as Bitcoin Nears $78,000 in Four-Day Drop, Altcoins Broadly Slump - tradingkey.com",
-        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk"
-      ]
-    },
-    "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": 0.0473,
-      "vol_ratio": 0.15
-    },
-    "technicals": {
-      "ema50": 1.1949,
-      "ema200": 1.20361,
-      "macd": 0.000261,
-      "macd_signal": 0.00016,
-      "rsi14": 51.3,
-      "atr14": 0.00167,
-      "atr14_hourly": 0.00634,
-      "bb_position": 0.571
-    },
-    "trade_feedback": {
-      "loss_streak": 4,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.417,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +51,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181243
+  "data_bars": 181255
 }
