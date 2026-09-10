@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-10T00:01:33.285889+00:00",
+  "timestamp": "2026-09-10T01:01:30.466909+00:00",
   "signal": {
-    "price": 1.1993,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4244,
-    "hybrid_score": 3.3,
+    "price": 1.1962,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5254,
+    "hybrid_score": 5.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.06,
-      "bullish_pct": 31.7,
-      "bearish_pct": 23.3,
+      "score": 0.025,
+      "bullish_pct": 30.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.19,
-        "crypto_macro": 0.011,
-        "geopolitical": -0.206,
+        "xrp": 0.186,
+        "crypto_macro": 0.012,
+        "geopolitical": -0.39,
         "fed_rates": 0.166
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - finance.yahoo.com",
-        "Crypto Today: Bitcoin, Ethereum, XRP regain strength as US Treasury doubles down on buybacks - FXStreet"
+        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance",
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
       ],
       "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - finance.yahoo.com",
-        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - coindesk.com",
+        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
+        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
         "Crypto.com's Blockchain Rewound Two Hours to Undo a $74 Million Exploit. Could Bitcoin or Ethereum Ever Do the Same? - 2"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": -0.2307,
-      "vol_ratio": 0.0
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.71,
+      "health": -0.1278,
+      "vol_ratio": 1.27
     },
     "technicals": {
-      "ema50": 1.20092,
-      "ema200": 1.21357,
-      "macd": -0.000129,
-      "macd_signal": -0.001107,
-      "rsi14": 54.8,
-      "atr14": 0.00178,
-      "atr14_hourly": 0.01202,
-      "bb_position": 0.792
+      "ema50": 1.19911,
+      "ema200": 1.21163,
+      "macd": -0.000934,
+      "macd_signal": -0.000621,
+      "rsi14": 48.3,
+      "atr14": 0.00218,
+      "atr14_hourly": 0.009,
+      "bb_position": 0.381
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.435,
+      "percentile": 0.436,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181171
+  "data_bars": 181183
 }
