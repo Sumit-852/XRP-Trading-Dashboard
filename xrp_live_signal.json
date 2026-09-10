@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-10T05:01:38.532334+00:00",
+  "timestamp": "2026-09-10T06:01:48.147906+00:00",
   "signal": {
-    "price": 1.194,
+    "price": 1.1952,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3741,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.3759,
+    "hybrid_score": 3.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.05,
-      "bullish_pct": 33.3,
-      "bearish_pct": 26.7,
+      "score": 0.049,
+      "bullish_pct": 31.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.192,
-        "crypto_macro": -0.029,
-        "geopolitical": -0.183,
-        "fed_rates": 0.144
+        "xrp": 0.181,
+        "crypto_macro": -0.002,
+        "geopolitical": -0.189,
+        "fed_rates": 0.122
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - finance.yahoo.com",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
+        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance",
+        "Crypto Today: Bitcoin, Ethereum, XRP regain strength as US Treasury doubles down on buybacks - FXStreet"
       ],
       "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - finance.yahoo.com",
-        "Over 140,000 Traders Liquidated as Bitcoin Nears $78,000 in Four-Day Drop, Altcoins Broadly Slump - TradingKey",
+        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
+        "Over 140,000 Traders Liquidated as Bitcoin Nears $78,000 in Four-Day Drop, Altcoins Broadly Slump - tradingkey.com",
         "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.74,
-      "health": -0.0136,
-      "vol_ratio": 0.24
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.75,
+      "health": 0.0473,
+      "vol_ratio": 0.15
     },
     "technicals": {
-      "ema50": 1.19487,
-      "ema200": 1.20473,
-      "macd": -6.3e-05,
-      "macd_signal": 0.000257,
-      "rsi14": 47.7,
-      "atr14": 0.00171,
-      "atr14_hourly": 0.00624,
-      "bb_position": 0.276
+      "ema50": 1.1949,
+      "ema200": 1.20361,
+      "macd": 0.000261,
+      "macd_signal": 0.00016,
+      "rsi14": 51.3,
+      "atr14": 0.00167,
+      "atr14_hourly": 0.00634,
+      "bb_position": 0.571
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.419,
+      "percentile": 0.417,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181231
+  "data_bars": 181243
 }
