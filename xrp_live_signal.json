@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-09T23:01:31.276587+00:00",
+  "timestamp": "2026-09-10T00:01:33.285889+00:00",
   "signal": {
-    "price": 1.1908,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.6475,
-    "hybrid_score": 5.9,
+    "price": 1.1993,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4244,
+    "hybrid_score": 3.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.035,
+      "score": 0.06,
       "bullish_pct": 31.7,
-      "bearish_pct": 26.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.19,
-        "crypto_macro": -0.018,
-        "geopolitical": -0.298,
+        "crypto_macro": 0.011,
+        "geopolitical": -0.206,
         "fed_rates": 0.166
       },
       "geo_shock": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP Gets Another Boost Through Ripple Deal With Florida Athletics - Decrypt",
-        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - Yahoo Finance",
+        "Viral XRP Theory Revives $27 October Price Call as Ripple Lands Florida Deal - finance.yahoo.com",
         "Crypto Today: Bitcoin, Ethereum, XRP regain strength as US Treasury doubles down on buybacks - FXStreet"
       ],
       "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
+        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - finance.yahoo.com",
+        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - coindesk.com",
         "Crypto.com's Blockchain Rewound Two Hours to Undo a $74 Million Exploit. Could Bitcoin or Ethereum Ever Do the Same? - 2"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.79,
-      "health": -0.1646,
-      "vol_ratio": 0.01
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.75,
+      "health": -0.2307,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.2029,
-      "ema200": 1.21561,
-      "macd": -0.003788,
-      "macd_signal": -0.003485,
-      "rsi14": 34.1,
-      "atr14": 0.00281,
-      "atr14_hourly": 0.01446,
-      "bb_position": 0.175
+      "ema50": 1.20092,
+      "ema200": 1.21357,
+      "macd": -0.000129,
+      "macd_signal": -0.001107,
+      "rsi14": 54.8,
+      "atr14": 0.00178,
+      "atr14_hourly": 0.01202,
+      "bb_position": 0.792
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.43,
+      "percentile": 0.435,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181159
+  "data_bars": 181171
 }
