@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-10T22:01:37.014920+00:00",
+  "timestamp": "2026-09-10T23:01:43.835215+00:00",
   "signal": {
-    "price": 1.1632,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3712,
-    "hybrid_score": 4.2,
+    "price": 1.1573,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5074,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.006,
+      "score": 0.019,
       "bullish_pct": 30.0,
-      "bearish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.093,
-        "crypto_macro": -0.03,
-        "geopolitical": -0.354,
-        "fed_rates": 0.23
+        "xrp": 0.089,
+        "crypto_macro": 0.011,
+        "geopolitical": -0.26,
+        "fed_rates": 0.208
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
-        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 24/7 Wall St.",
-        "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView"
+        "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView",
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
       ],
       "top_bearish": [
         "Bitcoin price loses $78K as Supertrend turns bearish - Crypto News",
-        "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - Cryptonews.net",
-        "Why is XRP down today? - The Motley Fool"
+        "Iowa U.S. Rep. Ashley Hinson on Iran war, trade war with Canada - thegazette.com",
+        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.73,
-      "health": 0.077,
-      "vol_ratio": 0.34
+      "up_down_ratio": 0.71,
+      "health": -0.0124,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 1.16615,
-      "ema200": 1.17551,
-      "macd": -0.000432,
-      "macd_signal": -0.000108,
-      "rsi14": 38.4,
-      "atr14": 0.00153,
-      "atr14_hourly": 0.006,
-      "bb_position": -0.107
+      "ema50": 1.16446,
+      "ema200": 1.17399,
+      "macd": -0.002031,
+      "macd_signal": -0.001215,
+      "rsi14": 32.5,
+      "atr14": 0.00177,
+      "atr14_hourly": 0.00677,
+      "bb_position": 0.027
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.416,
+      "percentile": 0.387,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181435
+  "data_bars": 181447
 }
