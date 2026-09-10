@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-10T09:01:30.046460+00:00",
+  "timestamp": "2026-09-10T10:01:43.084680+00:00",
   "signal": {
-    "price": 1.1877,
+    "price": 1.184,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4149,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.4302,
+    "hybrid_score": 3.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.06,
-      "bullish_pct": 31.7,
-      "bearish_pct": 23.3,
+      "score": 0.08,
+      "bullish_pct": 35.0,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.159,
-        "crypto_macro": 0.071,
+        "xrp": 0.17,
+        "crypto_macro": 0.112,
         "geopolitical": -0.206,
-        "fed_rates": 0.121
+        "fed_rates": 0.151
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
       ],
       "top_bearish": [
-        "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Over 140,000 Traders Liquidated as Bitcoin Nears $78,000 in Four-Day Drop, Altcoins Broadly Slump - TradingKey",
-        "Crypto.com's Blockchain Rewound Two Hours to Undo a $74 Million Exploit. Could Bitcoin or Ethereum Ever Do the Same? - 2"
+        "Over 140,000 Traders Liquidated as Bitcoin Nears $78,000 in Four-Day Drop, Altcoins Broadly Slump - tradingkey.com",
+        "Crypto.com's Blockchain Rewound Two Hours to Undo a $74 Million Exploit. Could Bitcoin or Ethereum Ever Do the Same? - 2",
+        "The intensifying US-Canada trade war: A product and accelerant of inter-imperialist conflict - World Socialist Web Site"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.71,
-      "health": -0.0083,
-      "vol_ratio": 0.04
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.72,
+      "health": -0.0165,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.18972,
-      "ema200": 1.19902,
-      "macd": -0.000618,
-      "macd_signal": -0.000881,
-      "rsi14": 47.8,
-      "atr14": 0.00172,
-      "atr14_hourly": 0.00676,
-      "bb_position": 0.604
+      "ema50": 1.18835,
+      "ema200": 1.19759,
+      "macd": -0.001156,
+      "macd_signal": -0.000851,
+      "rsi14": 39.1,
+      "atr14": 0.00175,
+      "atr14_hourly": 0.00653,
+      "bb_position": 0.144
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.421,
+      "percentile": 0.416,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181279
+  "data_bars": 181291
 }
