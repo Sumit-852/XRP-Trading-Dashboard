@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-10T14:01:48.641640+00:00",
+  "timestamp": "2026-09-10T15:01:46.597260+00:00",
   "signal": {
-    "price": 1.176,
+    "price": 1.167,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5614,
-    "hybrid_score": 5.4,
+    "xgb_prob": 0.5552,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.052,
-      "bullish_pct": 33.3,
-      "bearish_pct": 23.3,
+      "score": 0.011,
+      "bullish_pct": 28.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.147,
-        "crypto_macro": 0.096,
-        "geopolitical": -0.272,
-        "fed_rates": 0.129
+        "xrp": 0.102,
+        "crypto_macro": 0.025,
+        "geopolitical": -0.307,
+        "fed_rates": 0.15
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
         "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
+        "Crypto Exchange Bybit To Launch European Super App - Yahoo Finance"
       ],
       "top_bearish": [
         "U.S.-China Trade Rises For Third Consecutive Month, Remains Far Below Pre-2025 Tariff War Levels - Seeking Alpha",
         "The intensifying US-Canada trade war: A product and accelerant of inter-imperialist conflict - World Socialist Web Site",
-        "Canadian counter-tariffs take effect as trade war tensions heat up - cascadiadaily.com"
+        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.56,
-      "health": -0.1969,
-      "vol_ratio": 0.15
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.49,
+      "health": -0.315,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 1.17891,
-      "ema200": 1.19063,
-      "macd": -0.001922,
-      "macd_signal": -0.002956,
-      "rsi14": 50.4,
-      "atr14": 0.00411,
-      "atr14_hourly": 0.01881,
-      "bb_position": 0.635
+      "ema50": 1.17623,
+      "ema200": 1.18853,
+      "macd": -0.001894,
+      "macd_signal": -0.001587,
+      "rsi14": 35.8,
+      "atr14": 0.00343,
+      "atr14_hourly": 0.01399,
+      "bb_position": -0.032
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.483,
+      "percentile": 0.455,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181339
+  "data_bars": 181351
 }
