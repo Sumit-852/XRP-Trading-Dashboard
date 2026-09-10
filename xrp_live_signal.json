@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-10T21:01:48.410808+00:00",
+  "timestamp": "2026-09-10T22:01:37.014920+00:00",
   "signal": {
-    "price": 1.1653,
+    "price": 1.1632,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.379,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.3712,
+    "hybrid_score": 4.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
+      "score": -0.006,
       "bullish_pct": 30.0,
-      "bearish_pct": 30.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.093,
-        "crypto_macro": 0.09,
-        "geopolitical": -0.293,
-        "fed_rates": 0.162
+        "crypto_macro": -0.03,
+        "geopolitical": -0.354,
+        "fed_rates": 0.23
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView"
       ],
       "top_bearish": [
-        "Why is XRP down today? - The Motley Fool",
-        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News",
-        "Crypto Market Today, Sept. 8: Bitcoin Slides as Fed Hike Odds Pass 60% - The Motley Fool"
+        "Bitcoin price loses $78K as Supertrend turns bearish - Crypto News",
+        "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - Cryptonews.net",
+        "Why is XRP down today? - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.75,
-      "health": 0.2603,
-      "vol_ratio": 0.09
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.73,
+      "health": 0.077,
+      "vol_ratio": 0.34
     },
     "technicals": {
-      "ema50": 1.16648,
-      "ema200": 1.17675,
-      "macd": 0.000119,
-      "macd_signal": 0.000253,
-      "rsi14": 46.7,
-      "atr14": 0.00183,
-      "atr14_hourly": 0.00825,
-      "bb_position": 0.358
+      "ema50": 1.16615,
+      "ema200": 1.17551,
+      "macd": -0.000432,
+      "macd_signal": -0.000108,
+      "rsi14": 38.4,
+      "atr14": 0.00153,
+      "atr14_hourly": 0.006,
+      "bb_position": -0.107
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.429,
+      "percentile": 0.416,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181423
+  "data_bars": 181435
 }
