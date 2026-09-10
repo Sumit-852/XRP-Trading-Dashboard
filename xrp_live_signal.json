@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-10T01:01:30.466909+00:00",
+  "timestamp": "2026-09-10T02:01:36.077544+00:00",
   "signal": {
-    "price": 1.1962,
+    "price": 1.1883,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5254,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.5722,
+    "hybrid_score": 5.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.025,
-      "bullish_pct": 30.0,
-      "bearish_pct": 25.0,
+      "score": 0.006,
+      "bullish_pct": 26.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.186,
-        "crypto_macro": 0.012,
-        "geopolitical": -0.39,
-        "fed_rates": 0.166
+        "xrp": 0.198,
+        "crypto_macro": -0.096,
+        "geopolitical": -0.333,
+        "fed_rates": 0.153
       },
       "geo_shock": true,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Fear and Greed Hit 74 While Bitcoin Trades Under $80,000. Is the Market Ahead of Itself? - Yahoo Finance",
-        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk",
-        "Crypto.com's Blockchain Rewound Two Hours to Undo a $74 Million Exploit. Could Bitcoin or Ethereum Ever Do the Same? - 2"
+        "Over 140,000 Traders Liquidated as Bitcoin Nears $78,000 in Four-Day Drop, Altcoins Broadly Slump - TradingKey",
+        "Bitcoin trades with gold, not equities, as Brent crude breaks $100: Crypto Markets Today - CoinDesk"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.71,
-      "health": -0.1278,
-      "vol_ratio": 1.27
+      "up_down_ratio": 0.74,
+      "health": -0.0234,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.19911,
-      "ema200": 1.21163,
-      "macd": -0.000934,
-      "macd_signal": -0.000621,
-      "rsi14": 48.3,
-      "atr14": 0.00218,
-      "atr14_hourly": 0.009,
-      "bb_position": 0.381
+      "ema50": 1.19558,
+      "ema200": 1.2092,
+      "macd": -0.002667,
+      "macd_signal": -0.002165,
+      "rsi14": 41.3,
+      "atr14": 0.00276,
+      "atr14_hourly": 0.01142,
+      "bb_position": 0.267
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.436,
+      "percentile": 0.45,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181183
+  "data_bars": 181195
 }
