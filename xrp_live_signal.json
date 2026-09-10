@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-10T17:01:50.908010+00:00",
+  "timestamp": "2026-09-10T18:01:43.534842+00:00",
   "signal": {
-    "price": 1.1652,
+    "price": 1.1705,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4925,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.473,
+    "hybrid_score": 4.9,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
-      "bullish_pct": 30.0,
+      "score": 0.043,
+      "bullish_pct": 31.7,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.039,
-        "crypto_macro": 0.095,
-        "geopolitical": -0.307,
-        "fed_rates": 0.159
+        "xrp": 0.122,
+        "crypto_macro": 0.078,
+        "geopolitical": -0.24,
+        "fed_rates": 0.132
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - fxstreet.com",
-        "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView",
-        "Crypto Exchange Bybit To Launch European Super App - Yahoo Finance"
+        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
+        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 24/7 Wall St.",
+        "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView"
       ],
       "top_bearish": [
-        "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - TradingView",
         "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - CryptoRank",
-        "U.S.-China Trade Rises For Third Consecutive Month, Remains Far Below Pre-2025 Tariff War Levels - Seeking Alpha"
+        "U.S.-China Trade Rises For Third Consecutive Month, Remains Far Below Pre-2025 Tariff War Levels - Seeking Alpha",
+        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.68,
-      "health": -0.0196,
-      "vol_ratio": 0.06
+      "up_down_ratio": 0.72,
+      "health": 0.2142,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.16808,
-      "ema200": 1.18318,
-      "macd": -0.001842,
-      "macd_signal": -0.002708,
-      "rsi14": 51.6,
-      "atr14": 0.00308,
-      "atr14_hourly": 0.01204,
-      "bb_position": 0.668
+      "ema50": 1.16887,
+      "ema200": 1.18169,
+      "macd": 0.001629,
+      "macd_signal": 0.000934,
+      "rsi14": 56.6,
+      "atr14": 0.00255,
+      "atr14_hourly": 0.01278,
+      "bb_position": 0.694
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.422,
+      "percentile": 0.433,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181375
+  "data_bars": 181387
 }

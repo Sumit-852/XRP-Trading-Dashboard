@@ -1,25 +1,33 @@
 {
-  "timestamp": "2026-09-10T17:01:50.860215+00:00",
-  "score": 0.009,
+  "timestamp": "2026-09-10T18:01:43.481706+00:00",
+  "score": 0.043,
   "label": "NEUTRAL",
-  "bullish_pct": 30.0,
+  "bullish_pct": 31.7,
   "bearish_pct": 26.7,
   "count": 60,
   "feed_scores": {
-    "xrp": 0.039,
-    "crypto_macro": 0.095,
-    "geopolitical": -0.307,
-    "fed_rates": 0.159
+    "xrp": 0.122,
+    "crypto_macro": 0.078,
+    "geopolitical": -0.24,
+    "fed_rates": 0.132
   },
-  "geo_shock": true,
+  "geo_shock": false,
   "top_bull": [
     {
-      "title": "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - fxstreet.com",
+      "title": "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
       "pubdate": "Thu, 10 Sep 2026 04:16:17",
       "compound": 0.691,
       "feed": "xrp",
       "weight": 1.0,
       "weighted_score": 0.691
+    },
+    {
+      "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 24/7 Wall St.",
+      "pubdate": "Thu, 10 Sep 2026 16:58:00",
+      "compound": 0.637,
+      "feed": "xrp",
+      "weight": 1.0,
+      "weighted_score": 0.637
     },
     {
       "title": "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView",
@@ -28,25 +36,9 @@
       "feed": "crypto_macro",
       "weight": 0.8,
       "weighted_score": 0.568
-    },
-    {
-      "title": "Crypto Exchange Bybit To Launch European Super App - Yahoo Finance",
-      "pubdate": "Thu, 10 Sep 2026 13:47:00",
-      "compound": 0.599,
-      "feed": "crypto_macro",
-      "weight": 0.8,
-      "weighted_score": 0.48
     }
   ],
   "top_bear": [
-    {
-      "title": "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - TradingView",
-      "pubdate": "Thu, 10 Sep 2026 15:04:48",
-      "compound": -0.612,
-      "feed": "xrp",
-      "weight": 1.0,
-      "weighted_score": -0.612
-    },
     {
       "title": "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - CryptoRank",
       "pubdate": "Thu, 10 Sep 2026 16:48:14",
@@ -62,6 +54,14 @@
       "feed": "geopolitical",
       "weight": 0.5,
       "weighted_score": -0.395
+    },
+    {
+      "title": "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News",
+      "pubdate": "Thu, 10 Sep 2026 09:14:05",
+      "compound": -0.772,
+      "feed": "geopolitical",
+      "weight": 0.5,
+      "weighted_score": -0.386
     }
   ]
 }
