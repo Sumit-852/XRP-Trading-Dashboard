@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-10T16:01:43.149370+00:00",
+  "timestamp": "2026-09-10T17:01:50.908010+00:00",
   "signal": {
-    "price": 1.1677,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5742,
-    "hybrid_score": 5.4,
+    "price": 1.1652,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4925,
+    "hybrid_score": 5.0,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.002,
-      "bullish_pct": 28.3,
-      "bearish_pct": 28.3,
+      "score": 0.009,
+      "bullish_pct": 30.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.08,
-        "crypto_macro": 0.038,
-        "geopolitical": -0.358,
+        "xrp": 0.039,
+        "crypto_macro": 0.095,
+        "geopolitical": -0.307,
         "fed_rates": 0.159
       },
       "geo_shock": true,
@@ -35,26 +35,26 @@
         "Crypto Exchange Bybit To Launch European Super App - Yahoo Finance"
       ],
       "top_bearish": [
-        "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - Coinpedia",
-        "U.S.-China Trade Rises For Third Consecutive Month, Remains Far Below Pre-2025 Tariff War Levels - Seeking Alpha",
-        "The intensifying US-Canada trade war: A product and accelerant of inter-imperialist conflict - World Socialist Web Site"
+        "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - TradingView",
+        "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - CryptoRank",
+        "U.S.-China Trade Rises For Third Consecutive Month, Remains Far Below Pre-2025 Tariff War Levels - Seeking Alpha"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.59,
-      "health": -0.1581,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.68,
+      "health": -0.0196,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.1726,
-      "ema200": 1.18607,
-      "macd": -0.002019,
-      "macd_signal": -0.002199,
-      "rsi14": 46.0,
-      "atr14": 0.00312,
-      "atr14_hourly": 0.01121,
-      "bb_position": 0.428
+      "ema50": 1.16808,
+      "ema200": 1.18318,
+      "macd": -0.001842,
+      "macd_signal": -0.002708,
+      "rsi14": 51.6,
+      "atr14": 0.00308,
+      "atr14_hourly": 0.01204,
+      "bb_position": 0.668
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.427,
+      "percentile": 0.422,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181363
+  "data_bars": 181375
 }
