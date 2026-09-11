@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-11T17:01:34.656069+00:00",
+  "timestamp": "2026-09-11T18:01:42.913001+00:00",
   "signal": {
-    "price": 1.1864,
+    "price": 1.1767,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4995,
-    "hybrid_score": 5.0,
+    "xgb_prob": 0.4711,
+    "hybrid_score": 4.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.039,
-      "bullish_pct": 30.0,
-      "bearish_pct": 26.7,
+      "score": 0.067,
+      "bullish_pct": 35.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.131,
-        "crypto_macro": 0.069,
+        "xrp": 0.163,
+        "crypto_macro": 0.127,
         "geopolitical": -0.308,
         "fed_rates": 0.178
       },
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
         "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
-        "Ethereum\u2019s Price Surges Past $2,600 For First Time In 8 Months: Outruns Bitcoin, XRP, Solana - Stocktwits"
+        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
       ],
       "top_bearish": [
         "The U.S. has made progress in reopening the Strait of Hormuz, but the Iran war is far from over - PBS",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": 0.2053,
-      "vol_ratio": 0.04
+      "up_down_ratio": 1.17,
+      "health": -0.0787,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 1.18681,
-      "ema200": 1.17317,
-      "macd": -0.00222,
-      "macd_signal": -0.001868,
-      "rsi14": 46.4,
-      "atr14": 0.00569,
-      "atr14_hourly": 0.02791,
-      "bb_position": 0.392
+      "ema50": 1.18463,
+      "ema200": 1.17408,
+      "macd": -0.002951,
+      "macd_signal": -0.002632,
+      "rsi14": 39.3,
+      "atr14": 0.00448,
+      "atr14_hourly": 0.01738,
+      "bb_position": -0.001
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.788,
+      "percentile": 0.793,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "HOLD LONG: P&L -3.32%",
-    "portfolio_eur": 4938.59,
-    "total_pnl_pct": -1.228,
-    "position": "LONG",
-    "xrp_held": 1014.506,
-    "cash_eur": 3734.98,
-    "trade_count": 73,
+    "action": "SELL",
+    "reason": "STOP_LOSS: -4.11%",
+    "portfolio_eur": 4927.2,
+    "total_pnl_pct": -1.456,
+    "position": "CASH",
+    "xrp_held": 0.0,
+    "cash_eur": 4927.2,
+    "trade_count": 74,
     "draw_levels": {
       "entry": 1.22719328,
-      "take_profit": 1.29937,
-      "stop_loss": 1.18389,
-      "trailing_stop": 1.16794
+      "take_profit": 1.27251,
+      "stop_loss": 1.2,
+      "trailing_stop": 1.1894
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181663
+  "data_bars": 181675
 }
