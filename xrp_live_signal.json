@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-11T08:01:40.318445+00:00",
+  "timestamp": "2026-09-11T09:01:34.285705+00:00",
   "signal": {
-    "price": 1.1642,
+    "price": 1.1669,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4016,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.3479,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.02,
-      "bullish_pct": 33.3,
-      "bearish_pct": 23.3,
+      "score": -0.001,
+      "bullish_pct": 31.7,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.125,
+        "xrp": 0.106,
         "crypto_macro": -0.128,
-        "geopolitical": -0.109,
+        "geopolitical": -0.188,
         "fed_rates": 0.216
       },
       "geo_shock": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
         "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
-        "Ex-Ripple CTO Says XRP Could Overtake Bitcoin as Viral $60 Price Target Gains Traction - CCN.com"
+        "XRP price prediction amid RLUSD stablecoin and ETF tailwinds - tradingview.com",
+        "Ex-Ripple CTO Says XRP Could Overtake Bitcoin as Viral $60 Price Target Gains Traction - ccn.com"
       ],
       "top_bearish": [
         "Iowa U.S. Rep. Ashley Hinson on Iran war, trade war with Canada - thegazette.com",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.72,
-      "health": 0.0341,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.82,
+      "health": 0.1503,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 1.16339,
-      "ema200": 1.16474,
-      "macd": 0.000695,
-      "macd_signal": 0.001314,
-      "rsi14": 46.1,
-      "atr14": 0.0013,
-      "atr14_hourly": 0.00646,
-      "bb_position": 0.306
+      "ema50": 1.16432,
+      "ema200": 1.16485,
+      "macd": 0.000629,
+      "macd_signal": 0.000553,
+      "rsi14": 55.5,
+      "atr14": 0.00139,
+      "atr14_hourly": 0.00713,
+      "bb_position": 0.654
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.371,
+      "percentile": 0.37,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4979.98,
     "total_pnl_pct": -0.4,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181555
+  "data_bars": 181567
 }
