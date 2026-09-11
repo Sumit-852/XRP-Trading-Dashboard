@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-09-11T13:01:42.096645+00:00",
+  "timestamp": "2026-09-11T14:01:39.369803+00:00",
   "signal": {
-    "price": 1.1747,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4088,
-    "hybrid_score": 4.5,
+    "price": 1.2256,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6768,
+    "hybrid_score": 7.4,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.005,
-      "bullish_pct": 28.3,
-      "bearish_pct": 26.7,
+      "score": 0.057,
+      "bullish_pct": 31.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.146,
-        "crypto_macro": -0.071,
-        "geopolitical": -0.281,
-        "fed_rates": 0.16
+        "xrp": 0.187,
+        "crypto_macro": -0.039,
+        "geopolitical": -0.183,
+        "fed_rates": 0.225
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
         "Ripple CEO Says \u2018We Need Clarity for the Whole Industry\u2019 as XRP Price Eyes $1.40 Breakout - TipRanks",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
-        "XRP price prediction amid RLUSD stablecoin and ETF tailwinds - TradingView"
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
       ],
       "top_bearish": [
         "Iowa U.S. Rep. Ashley Hinson on Iran war, trade war with Canada - thegazette.com",
         "Escalating trade war with Canada continues to hurt Oregon wineries - KPTV",
-        "Canadian counter-tariffs take effect as trade war tensions heat up - cascadiadaily.com"
+        "Ontario premier wants Republicans to lose House and Senate over Trump's trade war - foxnews.com"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.25,
-      "health": 0.5308,
-      "vol_ratio": 0.11
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.33,
+      "health": 0.5327,
+      "vol_ratio": 0.87
     },
     "technicals": {
-      "ema50": 1.15725,
-      "ema200": 1.16106,
-      "macd": 0.007011,
-      "macd_signal": 0.003318,
-      "rsi14": 68.7,
-      "atr14": 0.006,
-      "atr14_hourly": 0.02388,
-      "bb_position": 0.828
+      "ema50": 1.16903,
+      "ema200": 1.16392,
+      "macd": 0.014056,
+      "macd_signal": 0.00905,
+      "rsi14": 85.8,
+      "atr14": 0.00813,
+      "atr14_hourly": 0.03272,
+      "bb_position": 1.126
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,20 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.516,
+      "percentile": 0.664,
       "extreme": false
     }
   },
   "trade": {
-    "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
-    "portfolio_eur": 4979.98,
-    "total_pnl_pct": -0.4,
-    "position": "CASH",
-    "xrp_held": 0.0,
-    "cash_eur": 4979.98,
-    "trade_count": 72,
-    "draw_levels": {}
+    "action": "BUY",
+    "reason": "MODEL_BUY: score=7.4",
+    "portfolio_eur": 4978.36,
+    "total_pnl_pct": -0.433,
+    "position": "LONG",
+    "xrp_held": 1014.506,
+    "cash_eur": 3734.98,
+    "trade_count": 73,
+    "draw_levels": {
+      "entry": 1.22719328,
+      "take_profit": 1.3091,
+      "stop_loss": 1.17805
+    }
   },
   "trade_feedback": {
     "overall_win_rate": 0.389,
@@ -101,5 +105,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181615
+  "data_bars": 181627
 }
