@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-11T22:01:30.647351+00:00",
+  "timestamp": "2026-09-11T23:01:31.937498+00:00",
   "signal": {
-    "price": 1.1646,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4958,
-    "hybrid_score": 5.0,
+    "price": 1.164,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6236,
+    "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
-      "bullish_pct": 31.7,
-      "bearish_pct": 35.0,
+      "score": 0.032,
+      "bullish_pct": 33.3,
+      "bearish_pct": 36.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.178,
-        "crypto_macro": 0.007,
-        "geopolitical": -0.309,
+        "xrp": 0.231,
+        "crypto_macro": 0.019,
+        "geopolitical": -0.366,
         "fed_rates": 0.057
       },
       "geo_shock": true,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
+        "What Is the Best Crypto to Buy Right Now: XRP or Bitcoin? - 24/7 Wall St.",
+        "What Is the Best Crypto to Buy Right Now: XRP or Bitcoin? - Yahoo Finance",
         "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView"
       ],
       "top_bearish": [
         "The U.S. has made progress in reopening the Strait of Hormuz, but the Iran war is far from over - PBS",
         "Trade, tariffs and the farm economy: NASDA President Amanda Beal talks US-Canada trade war - Agri-Pulse Communications, ",
-        "Ontario premier wants Republicans to lose House and Senate over Trump's trade war - Fox News"
+        "Trade War Showdown: What Trump\u2019s Latest Threats Mean for Canada and the U.S. - crossroadstoday.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.1,
-      "health": -0.0599,
-      "vol_ratio": 0.78
+      "up_down_ratio": 1.13,
+      "health": -0.031,
+      "vol_ratio": 0.29
     },
     "technicals": {
-      "ema50": 1.17471,
-      "ema200": 1.1735,
-      "macd": -0.001732,
-      "macd_signal": -0.000431,
-      "rsi14": 30.7,
-      "atr14": 0.00267,
-      "atr14_hourly": 0.01129,
-      "bb_position": -0.113
+      "ema50": 1.17132,
+      "ema200": 1.17267,
+      "macd": -0.002739,
+      "macd_signal": -0.002403,
+      "rsi14": 39.2,
+      "atr14": 0.0029,
+      "atr14_hourly": 0.01167,
+      "bb_position": 0.253
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.816,
+      "percentile": 0.822,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181723
+  "data_bars": 181735
 }
