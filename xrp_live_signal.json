@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-11T12:01:40.525873+00:00",
+  "timestamp": "2026-09-11T13:01:42.096645+00:00",
   "signal": {
-    "price": 1.1469,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5065,
-    "hybrid_score": 5.0,
-    "regime": "BEARISH",
+    "price": 1.1747,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4088,
+    "hybrid_score": 4.5,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.002,
+      "score": 0.005,
       "bullish_pct": 28.3,
-      "bearish_pct": 28.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.142,
-        "crypto_macro": -0.101,
-        "geopolitical": -0.263,
-        "fed_rates": 0.157
+        "xrp": 0.146,
+        "crypto_macro": -0.071,
+        "geopolitical": -0.281,
+        "fed_rates": 0.16
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple CEO Says \u2018We Need Clarity for the Whole Industry\u2019 as XRP Price Eyes $1.40 Breakout - TipRanks",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - u.today",
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
         "XRP price prediction amid RLUSD stablecoin and ETF tailwinds - TradingView"
       ],
       "top_bearish": [
         "Iowa U.S. Rep. Ashley Hinson on Iran war, trade war with Canada - thegazette.com",
         "Escalating trade war with Canada continues to hurt Oregon wineries - KPTV",
-        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News"
+        "Canadian counter-tariffs take effect as trade war tensions heat up - cascadiadaily.com"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.04,
-      "health": 0.3174,
-      "vol_ratio": 1.65
+      "up_down_ratio": 1.25,
+      "health": 0.5308,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.1532,
-      "ema200": 1.16088,
-      "macd": -0.003233,
-      "macd_signal": -0.004057,
-      "rsi14": 42.9,
-      "atr14": 0.00201,
-      "atr14_hourly": 0.01243,
-      "bb_position": 0.502
+      "ema50": 1.15725,
+      "ema200": 1.16106,
+      "macd": 0.007011,
+      "macd_signal": 0.003318,
+      "rsi14": 68.7,
+      "atr14": 0.006,
+      "atr14_hourly": 0.02388,
+      "bb_position": 0.828
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.387,
+      "percentile": 0.516,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181603
+  "data_bars": 181615
 }
