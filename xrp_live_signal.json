@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-11T18:01:42.913001+00:00",
+  "timestamp": "2026-09-11T19:01:36.840062+00:00",
   "signal": {
-    "price": 1.1767,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4711,
-    "hybrid_score": 4.9,
+    "price": 1.1641,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5594,
+    "hybrid_score": 5.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.067,
-      "bullish_pct": 35.0,
-      "bearish_pct": 25.0,
+      "score": 0.044,
+      "bullish_pct": 33.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.163,
-        "crypto_macro": 0.127,
-        "geopolitical": -0.308,
+        "xrp": 0.097,
+        "crypto_macro": 0.107,
+        "geopolitical": -0.269,
         "fed_rates": 0.178
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
         "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
-        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
+        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC",
+        "Ethereum\u2019s Price Surges Past $2,600 For First Time In 8 Months: Outruns Bitcoin, XRP, Solana - Stocktwits"
       ],
       "top_bearish": [
         "The U.S. has made progress in reopening the Strait of Hormuz, but the Iran war is far from over - PBS",
@@ -42,69 +42,64 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.17,
-      "health": -0.0787,
-      "vol_ratio": 0.12
+      "up_down_ratio": 1.1,
+      "health": -0.2941,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.18463,
-      "ema200": 1.17408,
-      "macd": -0.002951,
-      "macd_signal": -0.002632,
-      "rsi14": 39.3,
-      "atr14": 0.00448,
-      "atr14_hourly": 0.01738,
-      "bb_position": -0.001
+      "ema50": 1.17855,
+      "ema200": 1.17348,
+      "macd": -0.004961,
+      "macd_signal": -0.004493,
+      "rsi14": 34.8,
+      "atr14": 0.00457,
+      "atr14_hourly": 0.01937,
+      "bb_position": 0.144
     },
     "trade_feedback": {
-      "loss_streak": 4,
+      "loss_streak": 5,
       "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.65,
+      "entry_prob_adjusted": 0.7,
       "adapted_sl_mult": 1.5,
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.793,
+      "percentile": 0.807,
       "extreme": false
     }
   },
   "trade": {
-    "action": "SELL",
-    "reason": "STOP_LOSS: -4.11%",
+    "action": "HOLD",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
     "xrp_held": 0.0,
     "cash_eur": 4927.2,
     "trade_count": 74,
-    "draw_levels": {
-      "entry": 1.22719328,
-      "take_profit": 1.27251,
-      "stop_loss": 1.2,
-      "trailing_stop": 1.1894
-    }
+    "draw_levels": {}
   },
   "trade_feedback": {
-    "overall_win_rate": 0.389,
+    "overall_win_rate": 0.378,
     "recent_win_rate": 0.25,
     "avg_win_pct": 1.657,
-    "avg_loss_pct": -0.684,
-    "loss_streak": 4,
+    "avg_loss_pct": -0.833,
+    "loss_streak": 5,
     "win_streak": 0,
     "total_wins": 14,
-    "total_losses": 22,
+    "total_losses": 23,
     "loss_reasons": {
       "MODEL_SELL": 17,
-      "STOP_LOSS": 3,
+      "STOP_LOSS": 4,
       "TRAILING_STOP": 2
     },
-    "sl_loss_ratio": 0.136,
-    "model_loss_ratio": 0.773,
+    "sl_loss_ratio": 0.174,
+    "model_loss_ratio": 0.739,
     "adapted_sl_mult": 1.5,
     "adapted_tp_mult": 2.5,
-    "score_adjustment": 1,
-    "entry_prob_effective": 0.65
+    "score_adjustment": 2,
+    "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181675
+  "data_bars": 181687
 }
