@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-11T03:01:50.114730+00:00",
+  "timestamp": "2026-09-11T04:01:41.562497+00:00",
   "signal": {
-    "price": 1.1561,
+    "price": 1.1566,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4328,
-    "hybrid_score": 3.4,
+    "xgb_prob": 0.4011,
+    "hybrid_score": 3.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.019,
-      "bullish_pct": 36.7,
-      "bearish_pct": 28.3,
+      "score": -0.019,
+      "bullish_pct": 31.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.136,
-        "crypto_macro": -0.098,
-        "geopolitical": -0.201,
-        "fed_rates": 0.238
+        "xrp": 0.127,
+        "crypto_macro": -0.148,
+        "geopolitical": -0.286,
+        "fed_rates": 0.208
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
         "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - u.today"
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
       ],
       "top_bearish": [
         "Crypto Market News: Bitcoin Price Holds While Ethereum, XRP Crash 5% - Coinpedia",
-        "Crypto Market Crash: 4 Reasons Prices Are Going Down - CoinGape",
+        "Crypto Market Crash: 4 Reasons Prices Are Going Down - coingape.com",
         "Iowa U.S. Rep. Ashley Hinson on Iran war, trade war with Canada - thegazette.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.69,
-      "health": -0.0732,
-      "vol_ratio": 0.03
+      "up_down_ratio": 0.68,
+      "health": -0.0526,
+      "vol_ratio": 0.92
     },
     "technicals": {
-      "ema50": 1.15664,
-      "ema200": 1.1666,
-      "macd": 0.000156,
-      "macd_signal": 0.000194,
-      "rsi14": 50.4,
-      "atr14": 0.00205,
-      "atr14_hourly": 0.00795,
-      "bb_position": 0.496
+      "ema50": 1.15636,
+      "ema200": 1.16538,
+      "macd": 0.000246,
+      "macd_signal": 0.000102,
+      "rsi14": 52.0,
+      "atr14": 0.00182,
+      "atr14_hourly": 0.00656,
+      "bb_position": 0.664
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.387,
+      "percentile": 0.389,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181495
+  "data_bars": 181507
 }
