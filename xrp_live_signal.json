@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-11T00:01:32.996476+00:00",
+  "timestamp": "2026-09-11T01:01:38.928433+00:00",
   "signal": {
-    "price": 1.15,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.6353,
-    "hybrid_score": 4.6,
+    "price": 1.1553,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4843,
+    "hybrid_score": 3.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.021,
-      "bullish_pct": 30.0,
+      "score": 0.013,
+      "bullish_pct": 33.3,
       "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.089,
-        "crypto_macro": 0.013,
-        "geopolitical": -0.26,
-        "fed_rates": 0.216
+        "xrp": 0.074,
+        "crypto_macro": -0.027,
+        "geopolitical": -0.234,
+        "fed_rates": 0.246
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Crypto Market Crash: 4 Reasons Prices Are Going Down - CoinGape",
-        "Iowa U.S. Rep. Ashley Hinson on Iran war, trade war with Canada - thegazette.com",
-        "Canadian counter-tariffs take effect as trade war tensions heat up - Cascadia Daily News"
+        "Why is XRP down today? - The Motley Fool",
+        "Iowa U.S. Rep. Ashley Hinson on Iran war, trade war with Canada - thegazette.com"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
       "up_down_ratio": 0.7,
-      "health": -0.0534,
-      "vol_ratio": 0.09
+      "health": -0.0518,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.15926,
-      "ema200": 1.17136,
-      "macd": -0.0034,
-      "macd_signal": -0.003382,
-      "rsi14": 33.8,
-      "atr14": 0.0024,
-      "atr14_hourly": 0.01253,
-      "bb_position": 0.281
+      "ema50": 1.15732,
+      "ema200": 1.16942,
+      "macd": -0.000989,
+      "macd_signal": -0.001559,
+      "rsi14": 51.2,
+      "atr14": 0.00224,
+      "atr14_hourly": 0.01022,
+      "bb_position": 0.749
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.408,
+      "percentile": 0.411,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181459
+  "data_bars": 181471
 }
