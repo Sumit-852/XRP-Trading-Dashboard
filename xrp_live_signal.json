@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-11T21:01:36.444406+00:00",
+  "timestamp": "2026-09-11T22:01:30.647351+00:00",
   "signal": {
-    "price": 1.1751,
+    "price": 1.1646,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.493,
+    "xgb_prob": 0.4958,
     "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.039,
+      "score": 0.019,
       "bullish_pct": 31.7,
-      "bearish_pct": 31.7,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.095,
-        "crypto_macro": 0.155,
+        "xrp": 0.178,
+        "crypto_macro": 0.007,
         "geopolitical": -0.309,
-        "fed_rates": 0.101
+        "fed_rates": 0.057
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains",
-        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
-        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
+        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
+        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView"
       ],
       "top_bearish": [
         "The U.S. has made progress in reopening the Strait of Hormuz, but the Iran war is far from over - PBS",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.12,
-      "health": -0.0411,
-      "vol_ratio": 0.09
+      "up_down_ratio": 1.1,
+      "health": -0.0599,
+      "vol_ratio": 0.78
     },
     "technicals": {
-      "ema50": 1.17596,
-      "ema200": 1.17356,
-      "macd": 0.00044,
-      "macd_signal": 0.000419,
-      "rsi14": 50.5,
-      "atr14": 0.00323,
-      "atr14_hourly": 0.01295,
-      "bb_position": 0.517
+      "ema50": 1.17471,
+      "ema200": 1.1735,
+      "macd": -0.001732,
+      "macd_signal": -0.000431,
+      "rsi14": 30.7,
+      "atr14": 0.00267,
+      "atr14_hourly": 0.01129,
+      "bb_position": -0.113
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.812,
+      "percentile": 0.816,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181711
+  "data_bars": 181723
 }
