@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-11T15:01:41.724363+00:00",
+  "timestamp": "2026-09-11T16:01:39.714920+00:00",
   "signal": {
-    "price": 1.1979,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4982,
-    "hybrid_score": 5.0,
+    "price": 1.1894,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.6639,
+    "hybrid_score": 6.0,
     "regime": "BULLISH",
-    "entry_signal": false,
+    "entry_signal": true,
     "exit_signal": false,
-    "action": "HOLD",
+    "action": "BUY",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.058,
+      "score": 0.05,
       "bullish_pct": 30.0,
-      "bearish_pct": 21.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.168,
-        "crypto_macro": 0.012,
-        "geopolitical": -0.235,
-        "fed_rates": 0.24
+        "xrp": 0.172,
+        "crypto_macro": 0.017,
+        "geopolitical": -0.28,
+        "fed_rates": 0.22
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple CEO Says \u2018We Need Clarity for the Whole Industry\u2019 as XRP Price Eyes $1.40 Breakout - TipRanks",
         "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
-        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView"
+        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
+        "Ethereum\u2019s Price Surges Past $2,600 For First Time In 8 Months: Outruns Bitcoin, XRP, Solana - Stocktwits"
       ],
       "top_bearish": [
         "Escalating trade war with Canada continues to hurt Oregon wineries - KPTV",
         "Ontario premier wants Republicans to lose House and Senate over Trump's trade war - Fox News",
-        "Why Is the Crypto Market Falling Today? Bitcoin and Altcoins Under Pressure - Coinpedia"
+        "How to Invest in Bitcoin: I've Spent 5 Years Covering Crypto, and This Is the Strategy I'd Use Today - The Motley Fool"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": 0.4931,
-      "vol_ratio": 0.11
+      "up_down_ratio": 1.15,
+      "health": 0.3745,
+      "vol_ratio": 1.18
     },
     "technicals": {
-      "ema50": 1.1816,
-      "ema200": 1.16826,
-      "macd": 0.00748,
-      "macd_signal": 0.009625,
-      "rsi14": 56.2,
-      "atr14": 0.00738,
-      "atr14_hourly": 0.04485,
-      "bb_position": 0.491
+      "ema50": 1.18768,
+      "ema200": 1.17162,
+      "macd": 0.000978,
+      "macd_signal": 0.003959,
+      "rsi14": 45.3,
+      "atr14": 0.0077,
+      "atr14_hourly": 0.03135,
+      "bb_position": 0.163
     },
     "trade_feedback": {
       "loss_streak": 4,
@@ -64,24 +64,24 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.714,
+      "percentile": 0.783,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "HOLD LONG: P&L -2.39%",
-    "portfolio_eur": 4950.26,
-    "total_pnl_pct": -0.995,
+    "reason": "HOLD LONG: P&L -3.08%",
+    "portfolio_eur": 4941.63,
+    "total_pnl_pct": -1.167,
     "position": "LONG",
     "xrp_held": 1014.506,
     "cash_eur": 3734.98,
     "trade_count": 73,
     "draw_levels": {
       "entry": 1.22719328,
-      "take_profit": 1.34206,
-      "stop_loss": 1.15827,
-      "trailing_stop": 1.13383
+      "take_profit": 1.30806,
+      "stop_loss": 1.17867,
+      "trailing_stop": 1.16099
     }
   },
   "trade_feedback": {
@@ -106,5 +106,5 @@
     "entry_prob_effective": 0.65
   },
   "retrained": true,
-  "data_bars": 181639
+  "data_bars": 181651
 }
