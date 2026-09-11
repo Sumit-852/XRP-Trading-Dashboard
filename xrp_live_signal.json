@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-11T20:01:36.885606+00:00",
+  "timestamp": "2026-09-11T21:01:36.444406+00:00",
   "signal": {
-    "price": 1.1744,
+    "price": 1.1751,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3559,
-    "hybrid_score": 4.1,
+    "xgb_prob": 0.493,
+    "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.002,
-      "bullish_pct": 28.3,
+      "score": 0.039,
+      "bullish_pct": 31.7,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.095,
-        "crypto_macro": 0.016,
-        "geopolitical": -0.283,
-        "fed_rates": 0.1
+        "crypto_macro": 0.155,
+        "geopolitical": -0.309,
+        "fed_rates": 0.101
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains",
         "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
-        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - cnbc.com",
-        "Crypto Market Structure Not Dead Regardless Of Cloture Vote Next Week - Forbes"
+        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
       ],
       "top_bearish": [
         "The U.S. has made progress in reopening the Strait of Hormuz, but the Iran war is far from over - PBS",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.15,
-      "health": -0.049,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.12,
+      "health": -0.0411,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 1.17569,
-      "ema200": 1.17318,
-      "macd": -0.000904,
-      "macd_signal": -0.002304,
-      "rsi14": 53.5,
-      "atr14": 0.00338,
-      "atr14_hourly": 0.01556,
-      "bb_position": 0.825
+      "ema50": 1.17596,
+      "ema200": 1.17356,
+      "macd": 0.00044,
+      "macd_signal": 0.000419,
+      "rsi14": 50.5,
+      "atr14": 0.00323,
+      "atr14_hourly": 0.01295,
+      "bb_position": 0.517
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.807,
+      "percentile": 0.812,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181699
+  "data_bars": 181711
 }
