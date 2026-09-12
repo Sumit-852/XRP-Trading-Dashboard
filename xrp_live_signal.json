@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-12T16:01:36.678221+00:00",
+  "timestamp": "2026-09-12T17:01:48.536868+00:00",
   "signal": {
-    "price": 1.1844,
+    "price": 1.1818,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3787,
-    "hybrid_score": 4.3,
+    "xgb_prob": 0.2589,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.078,
-      "bullish_pct": 33.3,
+      "sentiment": "BULLISH",
+      "score": 0.122,
+      "bullish_pct": 40.0,
       "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.166,
-        "crypto_macro": 0.106,
-        "geopolitical": -0.225,
-        "fed_rates": 0.183
+        "xrp": 0.26,
+        "crypto_macro": 0.098,
+        "geopolitical": -0.191,
+        "fed_rates": 0.22
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
-        "Could Buying This Cryptocurrency Make You Rich? - The Globe and Mail",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
+        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
+        "Could Buying This Cryptocurrency Make You Rich? - theglobeandmail.com"
       ],
       "top_bearish": [
         "'Fighting with the Canadians about dumb stuff': KIRO host says trade war has already cost WA $7.1 billion - MyNorthwest.",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.06,
-      "health": 0.057,
-      "vol_ratio": 0.0
+      "up_down_ratio": 1.19,
+      "health": 0.1427,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.18209,
-      "ema200": 1.17904,
-      "macd": 0.000658,
-      "macd_signal": 0.000413,
-      "rsi14": 61.7,
-      "atr14": 0.00107,
-      "atr14_hourly": 0.00341,
-      "bb_position": 0.999
+      "ema50": 1.18214,
+      "ema200": 1.1794,
+      "macd": -7.4e-05,
+      "macd_signal": 0.000102,
+      "rsi14": 45.9,
+      "atr14": 0.00075,
+      "atr14_hourly": 0.00377,
+      "bb_position": 0.236
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.291,
+      "percentile": 0.228,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181939
+  "data_bars": 181951
 }
