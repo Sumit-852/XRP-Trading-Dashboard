@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-12T17:01:48.536868+00:00",
+  "timestamp": "2026-09-12T18:01:35.410328+00:00",
   "signal": {
-    "price": 1.1818,
+    "price": 1.1791,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2589,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.2003,
+    "hybrid_score": 3.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.122,
-      "bullish_pct": 40.0,
+      "score": 0.101,
+      "bullish_pct": 35.0,
       "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.26,
+        "xrp": 0.222,
         "crypto_macro": 0.098,
-        "geopolitical": -0.191,
-        "fed_rates": 0.22
+        "geopolitical": -0.179,
+        "fed_rates": 0.152
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "Could Buying This Cryptocurrency Make You Rich? - theglobeandmail.com"
+        "Could Buying This Cryptocurrency Make You Rich? - The Globe and Mail"
       ],
       "top_bearish": [
         "'Fighting with the Canadians about dumb stuff': KIRO host says trade war has already cost WA $7.1 billion - MyNorthwest.",
-        "Trump widens trade war with Canada beyond tariffs. Here\u2019s what to know - AP News",
-        "Canada trade war jeopardizing key Senate battleground states for GOP, experts claim - New York Post"
+        "Canada trade war jeopardizing key Senate battleground states for GOP, experts claim - New York Post",
+        "Trump spared fishing gear and cement from his Canadian trade war. Voters may not care. - Politico"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.19,
-      "health": 0.1427,
-      "vol_ratio": 0.01
+      "up_down_ratio": 1.17,
+      "health": 0.1632,
+      "vol_ratio": 0.39
     },
     "technicals": {
-      "ema50": 1.18214,
-      "ema200": 1.1794,
-      "macd": -7.4e-05,
-      "macd_signal": 0.000102,
-      "rsi14": 45.9,
-      "atr14": 0.00075,
-      "atr14_hourly": 0.00377,
-      "bb_position": 0.236
+      "ema50": 1.18121,
+      "ema200": 1.17944,
+      "macd": -0.000835,
+      "macd_signal": -0.000673,
+      "rsi14": 35.9,
+      "atr14": 0.00071,
+      "atr14_hourly": 0.00346,
+      "bb_position": 0.2
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.228,
+      "percentile": 0.131,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181951
+  "data_bars": 181963
 }
