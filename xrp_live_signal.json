@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-09-12T03:01:37.207443+00:00",
+  "timestamp": "2026-09-12T04:01:33.446047+00:00",
   "signal": {
-    "price": 1.1749,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 1.1764,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2672,
-    "hybrid_score": 3.7,
-    "regime": "BEARISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.065,
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.175,
-        "crypto_macro": 0.14,
-        "geopolitical": -0.285,
-        "fed_rates": 0.074
-      },
-      "geo_shock": false,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "What Is the Best Crypto to Buy Right Now: XRP or Bitcoin? - Yahoo Finance",
-        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
-        "What Is the Best Crypto to Buy Right Now: XRP or Bitcoin? - 24/7 Wall St."
-      ],
-      "top_bearish": [
-        "The U.S. has made progress in reopening the Strait of Hormuz, but the Iran war is far from over - PBS",
-        "Trade, tariffs and the farm economy: NASDA President Amanda Beal talks US-Canada trade war - Agri-Pulse Communications, ",
-        "Iran, Russia condemn Western economic sanctions and urge BRICS bloc to deepen economic ties - CNBC"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": 0.0128,
-      "vol_ratio": 0.69
-    },
-    "technicals": {
-      "ema50": 1.17283,
-      "ema200": 1.1725,
-      "macd": 0.000833,
-      "macd_signal": 0.000887,
-      "rsi14": 55.8,
-      "atr14": 0.0014,
-      "atr14_hourly": 0.00432,
-      "bb_position": 0.705
-    },
-    "trade_feedback": {
-      "loss_streak": 5,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.7,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.81,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +51,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181783
+  "data_bars": 181795
 }
