@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-12T12:01:33.896407+00:00",
+  "timestamp": "2026-09-12T13:01:37.061605+00:00",
   "signal": {
-    "price": 1.1842,
+    "price": 1.1824,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4657,
-    "hybrid_score": 4.8,
+    "xgb_prob": 0.4099,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.05,
-      "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "score": 0.03,
+      "bullish_pct": 28.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.181,
-        "crypto_macro": 0.104,
-        "geopolitical": -0.385,
-        "fed_rates": 0.156
+        "xrp": 0.154,
+        "crypto_macro": 0.035,
+        "geopolitical": -0.346,
+        "fed_rates": 0.181
       },
       "geo_shock": true,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView"
       ],
       "top_bearish": [
-        "BRICS summit opens in New Delhi amid wars, global tensions, tariffs - Al Jazeera",
-        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC",
-        "Trade War Showdown: What Trump\u2019s Latest Threats Mean for Canada and the U.S. - Arizona Daily Star"
+        "'Fighting with the Canadians about dumb stuff': KIRO host says trade war has already cost WA $7.1 billion - MyNorthwest.",
+        "Trump attack on Bombardier brings trade war to Wichita\u2019s door | Opinion - Wichita Eagle",
+        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": -0.1432,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.96,
+      "health": -0.1127,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.18178,
-      "ema200": 1.17726,
-      "macd": 0.000691,
-      "macd_signal": 0.000784,
-      "rsi14": 59.0,
-      "atr14": 0.00071,
-      "atr14_hourly": 0.00352,
-      "bb_position": 0.683
+      "ema50": 1.18213,
+      "ema200": 1.17788,
+      "macd": -0.000165,
+      "macd_signal": 9.9e-05,
+      "rsi14": 47.8,
+      "atr14": 0.00085,
+      "atr14_hourly": 0.00291,
+      "bb_position": 0.278
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.79,
+      "percentile": 0.723,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181891
+  "data_bars": 181903
 }
