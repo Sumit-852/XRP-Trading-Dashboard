@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-12T07:01:37.836671+00:00",
+  "timestamp": "2026-09-12T08:01:35.559528+00:00",
   "signal": {
-    "price": 1.1755,
+    "price": 1.1813,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3946,
-    "hybrid_score": 4.4,
+    "xgb_prob": 0.3467,
+    "hybrid_score": 4.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.075,
+      "score": 0.082,
       "bullish_pct": 35.0,
       "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.184,
+        "xrp": 0.206,
         "crypto_macro": 0.14,
-        "geopolitical": -0.31,
-        "fed_rates": 0.155
+        "geopolitical": -0.309,
+        "fed_rates": 0.147
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "What Is the Best Crypto to Buy Right Now: XRP or Bitcoin? - Yahoo Finance",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
-        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView"
+        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
+        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 24/7 Wall St.",
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
       ],
       "top_bearish": [
         "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC",
         "Trade, tariffs and the farm economy: NASDA President Amanda Beal talks US-Canada trade war - Agri-Pulse Communications, ",
-        "Trump spared fishing gear and cement from his Canadian trade war. Voters may not care. - Politico"
+        "Trade War Showdown: What Trump\u2019s Latest Threats Mean for Canada and the U.S. - Arizona Daily Star"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.25,
-      "health": 0.0982,
+      "up_down_ratio": 1.2,
+      "health": 0.0392,
       "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.17549,
-      "ema200": 1.17382,
-      "macd": 7.2e-05,
-      "macd_signal": 0.000133,
-      "rsi14": 47.0,
-      "atr14": 0.00085,
-      "atr14_hourly": 0.00319,
-      "bb_position": 0.29
+      "ema50": 1.17687,
+      "ema200": 1.1744,
+      "macd": 0.001213,
+      "macd_signal": 0.000826,
+      "rsi14": 74.8,
+      "atr14": 0.00078,
+      "atr14_hourly": 0.00393,
+      "bb_position": 0.984
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.805,
+      "percentile": 0.804,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181831
+  "data_bars": 181843
 }
