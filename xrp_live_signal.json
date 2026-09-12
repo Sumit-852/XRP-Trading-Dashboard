@@ -1,76 +1,26 @@
 {
-  "timestamp": "2026-09-12T08:01:35.559528+00:00",
+  "timestamp": "2026-09-12T09:01:29.618026+00:00",
   "signal": {
-    "price": 1.1813,
+    "action": "HOLD",
+    "reason": "NaN features",
+    "price": 1.1787,
+    "hybrid_score": 0,
+    "regime": "UNKNOWN",
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3467,
-    "hybrid_score": 4.1,
-    "regime": "BULLISH",
+    "xgb_prob": 0.0,
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
-    "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.082,
-      "bullish_pct": 35.0,
-      "bearish_pct": 28.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.206,
-        "crypto_macro": 0.14,
-        "geopolitical": -0.309,
-        "fed_rates": 0.147
-      },
-      "geo_shock": true,
-      "geo_dip": {
-        "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
-      },
-      "crypto_specific_bad": false,
-      "news_driven_crash": false,
-      "top_bullish": [
-        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
-        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 24/7 Wall St.",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today"
-      ],
-      "top_bearish": [
-        "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC",
-        "Trade, tariffs and the farm economy: NASDA President Amanda Beal talks US-Canada trade war - Agri-Pulse Communications, ",
-        "Trade War Showdown: What Trump\u2019s Latest Threats Mean for Canada and the U.S. - Arizona Daily Star"
-      ]
-    },
-    "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": 0.0392,
-      "vol_ratio": 0.0
-    },
-    "technicals": {
-      "ema50": 1.17687,
-      "ema200": 1.1744,
-      "macd": 0.001213,
-      "macd_signal": 0.000826,
-      "rsi14": 74.8,
-      "atr14": 0.00078,
-      "atr14_hourly": 0.00393,
-      "bb_position": 0.984
-    },
-    "trade_feedback": {
-      "loss_streak": 5,
-      "recent_win_rate": 0.25,
-      "entry_prob_adjusted": 0.7,
-      "adapted_sl_mult": 1.5,
-      "adapted_tp_mult": 2.5
-    },
+    "exit_signal": false,
+    "news": {},
+    "vpa": {},
+    "technicals": {},
     "vol_regime": {
-      "percentile": 0.804,
+      "percentile": 0.5,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +51,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181843
+  "data_bars": 181855
 }
