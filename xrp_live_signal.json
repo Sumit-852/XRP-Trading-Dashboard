@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-12T11:01:31.895032+00:00",
+  "timestamp": "2026-09-12T12:01:33.896407+00:00",
   "signal": {
-    "price": 1.1855,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5151,
-    "hybrid_score": 5.2,
+    "price": 1.1842,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4657,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.079,
-      "bullish_pct": 35.0,
-      "bearish_pct": 33.3,
+      "score": 0.05,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.233,
-        "crypto_macro": 0.12,
-        "geopolitical": -0.37,
-        "fed_rates": 0.172
+        "xrp": 0.181,
+        "crypto_macro": 0.104,
+        "geopolitical": -0.385,
+        "fed_rates": 0.156
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
-        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 247wallst.com",
-        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - u.today"
+        "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found - U.Today",
+        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView"
       ],
       "top_bearish": [
+        "BRICS summit opens in New Delhi amid wars, global tensions, tariffs - Al Jazeera",
         "U.S. reveals import ban on slew of Canadian goods as trade war escalates - CNBC",
-        "Trade War Showdown: What Trump\u2019s Latest Threats Mean for Canada and the U.S. - Arizona Daily Star",
-        "Trump spared fishing gear and cement from his Canadian trade war. Voters may not care. - Politico"
+        "Trade War Showdown: What Trump\u2019s Latest Threats Mean for Canada and the U.S. - Arizona Daily Star"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.98,
-      "health": -0.1375,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.97,
+      "health": -0.1432,
+      "vol_ratio": 0.0
     },
     "technicals": {
-      "ema50": 1.18062,
-      "ema200": 1.17645,
-      "macd": 0.001346,
-      "macd_signal": 0.001153,
-      "rsi14": 68.0,
-      "atr14": 0.00105,
-      "atr14_hourly": 0.00419,
-      "bb_position": 0.985
+      "ema50": 1.18178,
+      "ema200": 1.17726,
+      "macd": 0.000691,
+      "macd_signal": 0.000784,
+      "rsi14": 59.0,
+      "atr14": 0.00071,
+      "atr14_hourly": 0.00352,
+      "bb_position": 0.683
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.792,
+      "percentile": 0.79,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 181879
+  "data_bars": 181891
 }
