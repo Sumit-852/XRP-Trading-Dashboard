@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-13T14:01:36.603461+00:00",
+  "timestamp": "2026-09-13T15:01:39.508645+00:00",
   "signal": {
-    "price": 1.1573,
+    "price": 1.164,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4031,
-    "hybrid_score": 3.2,
+    "xgb_prob": 0.3033,
+    "hybrid_score": 2.6,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.022,
+      "score": 0.013,
       "bullish_pct": 31.7,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.061,
-        "crypto_macro": 0.064,
-        "geopolitical": -0.264,
-        "fed_rates": 0.196
+        "xrp": 0.052,
+        "crypto_macro": 0.046,
+        "geopolitical": -0.277,
+        "fed_rates": 0.215
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - tradingview.com",
+        "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
         "What Is the Best Crypto to Buy Right Now: XRP or Bitcoin? - Yahoo Finance"
       ],
       "top_bearish": [
         "Is Ripple Prime Bad for XRP Price? - U.Today",
-        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool",
-        "Sunday shows preview: Republicans talk strategy as midterms approach; Iran conflict, Canada trade war leave economy in f"
+        "Crypto Breadth Weakens as Bitcoin Lags DOT and NEAR - DailyForex",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.51,
-      "health": -0.2169,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.53,
+      "health": -0.189,
+      "vol_ratio": 0.53
     },
     "technicals": {
-      "ema50": 1.15772,
-      "ema200": 1.1676,
-      "macd": -0.000243,
-      "macd_signal": -0.000798,
-      "rsi14": 54.6,
-      "atr14": 0.00138,
-      "atr14_hourly": 0.00654,
-      "bb_position": 0.732
+      "ema50": 1.16015,
+      "ema200": 1.16718,
+      "macd": 0.002481,
+      "macd_signal": 0.001999,
+      "rsi14": 60.7,
+      "atr14": 0.00154,
+      "atr14_hourly": 0.00956,
+      "bb_position": 0.681
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.03,
+      "percentile": 0.036,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182203
+  "data_bars": 182215
 }
