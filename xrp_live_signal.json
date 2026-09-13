@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-13T10:01:42.245427+00:00",
+  "timestamp": "2026-09-13T11:01:33.259687+00:00",
   "signal": {
-    "price": 1.1601,
+    "price": 1.1564,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3786,
-    "hybrid_score": 3.0,
+    "xgb_prob": 0.4349,
+    "hybrid_score": 4.6,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.012,
-      "bullish_pct": 30.0,
-      "bearish_pct": 33.3,
+      "score": 0.034,
+      "bullish_pct": 31.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.148,
-        "crypto_macro": -0.042,
-        "geopolitical": -0.278,
+        "xrp": 0.165,
+        "crypto_macro": 0.009,
+        "geopolitical": -0.276,
         "fed_rates": 0.145
       },
       "geo_shock": false,
@@ -31,8 +31,8 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
-        "Could Buying This Cryptocurrency Make You Rich? - fool.com",
-        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - coindesk.com"
+        "What Is the Best Crypto to Buy Right Now: XRP or Bitcoin? - Yahoo Finance",
+        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk"
       ],
       "top_bearish": [
         "Is Ripple Prime Bad for XRP Price? - U.Today",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.66,
-      "health": -0.1529,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.56,
+      "health": -0.2704,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.16728,
-      "ema200": 1.17445,
-      "macd": -0.002876,
-      "macd_signal": -0.003246,
-      "rsi14": 38.4,
-      "atr14": 0.00173,
-      "atr14_hourly": 0.00893,
-      "bb_position": 0.383
+      "ema50": 1.16357,
+      "ema200": 1.17255,
+      "macd": -0.00228,
+      "macd_signal": -0.002377,
+      "rsi14": 34.4,
+      "atr14": 0.00142,
+      "atr14_hourly": 0.00702,
+      "bb_position": 0.233
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.021,
+      "percentile": 0.022,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182155
+  "data_bars": 182167
 }
