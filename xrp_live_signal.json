@@ -1,26 +1,76 @@
 {
-  "timestamp": "2026-09-13T01:01:27.702891+00:00",
+  "timestamp": "2026-09-13T02:01:31.011113+00:00",
   "signal": {
-    "action": "HOLD",
-    "reason": "NaN features",
-    "price": 1.1797,
-    "hybrid_score": 0,
-    "regime": "UNKNOWN",
+    "price": 1.1803,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.0,
+    "xgb_prob": 0.2105,
+    "hybrid_score": 3.3,
+    "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "news": {},
-    "vpa": {},
-    "technicals": {},
+    "exit_signal": true,
+    "action": "SELL",
+    "news": {
+      "sentiment": "NEUTRAL",
+      "score": 0.024,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.087,
+        "crypto_macro": 0.041,
+        "geopolitical": -0.262,
+        "fed_rates": 0.189
+      },
+      "geo_shock": false,
+      "geo_dip": {
+        "active": false,
+        "buy_signal": false,
+        "phase": "NONE"
+      },
+      "crypto_specific_bad": false,
+      "news_driven_crash": false,
+      "top_bullish": [
+        "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support - FXStreet",
+        "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? - 24/7 Wall St.",
+        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk"
+      ],
+      "top_bearish": [
+        "Is Ripple Prime Bad for XRP Price? - U.Today",
+        "'Fighting with the Canadians about dumb stuff': KIRO host says trade war has already cost WA $7.1 billion - MyNorthwest.",
+        "Sunday shows preview: Republicans talk strategy as midterms approach; Iran conflict, Canada trade war leave economy in f"
+      ]
+    },
+    "vpa": {
+      "phase": "NEUTRAL",
+      "up_down_ratio": 1.08,
+      "health": -0.0309,
+      "vol_ratio": 0.0
+    },
+    "technicals": {
+      "ema50": 1.17847,
+      "ema200": 1.1784,
+      "macd": 0.000406,
+      "macd_signal": 0.000313,
+      "rsi14": 59.9,
+      "atr14": 0.00078,
+      "atr14_hourly": 0.00317,
+      "bb_position": 0.843
+    },
+    "trade_feedback": {
+      "loss_streak": 5,
+      "recent_win_rate": 0.25,
+      "entry_prob_adjusted": 0.7,
+      "adapted_sl_mult": 1.5,
+      "adapted_tp_mult": 2.5
+    },
     "vol_regime": {
-      "percentile": 0.5,
-      "extreme": false
+      "percentile": 0.013,
+      "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -51,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182047
+  "data_bars": 182059
 }
