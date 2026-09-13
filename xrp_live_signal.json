@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-13T22:01:32.992360+00:00",
+  "timestamp": "2026-09-13T23:01:35.416082+00:00",
   "signal": {
-    "price": 1.1637,
+    "price": 1.1552,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4373,
-    "hybrid_score": 3.4,
-    "regime": "BULLISH",
+    "xgb_prob": 0.4409,
+    "hybrid_score": 4.6,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.004,
-      "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
+      "score": 0.005,
+      "bullish_pct": 31.7,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.014,
-        "crypto_macro": 0.101,
-        "geopolitical": -0.282,
-        "fed_rates": 0.087
+        "xrp": 0.007,
+        "crypto_macro": 0.136,
+        "geopolitical": -0.289,
+        "fed_rates": 0.102
       },
       "geo_shock": false,
       "geo_dip": {
@@ -36,25 +36,25 @@
       ],
       "top_bearish": [
         "Is Ripple Prime Bad for XRP Price? - U.Today",
-        "Crypto Breadth Weakens as Bitcoin Lags DOT and NEAR - DailyForex",
+        "Crypto Breadth Weakens as Bitcoin Lags DOT and NEAR - dailyforex.com",
         "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.53,
-      "health": -0.1214,
-      "vol_ratio": 3.34
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.5,
+      "health": -0.2824,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.16959,
-      "ema200": 1.16789,
-      "macd": -0.000414,
-      "macd_signal": 0.000332,
-      "rsi14": 23.6,
-      "atr14": 0.00141,
-      "atr14_hourly": 0.00498,
-      "bb_position": -0.415
+      "ema50": 1.16417,
+      "ema200": 1.16648,
+      "macd": -0.004062,
+      "macd_signal": -0.003713,
+      "rsi14": 35.1,
+      "atr14": 0.00271,
+      "atr14_hourly": 0.01368,
+      "bb_position": 0.301
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,8 +64,8 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.07,
-      "extreme": true
+      "percentile": 0.102,
+      "extreme": false
     }
   },
   "trade": {
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182299
+  "data_bars": 182311
 }
