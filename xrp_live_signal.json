@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-14T03:01:40.864959+00:00",
+  "timestamp": "2026-09-14T04:01:35.447202+00:00",
   "signal": {
-    "price": 1.1831,
+    "price": 1.1852,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4748,
-    "hybrid_score": 4.9,
+    "xgb_prob": 0.477,
+    "hybrid_score": 3.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.008,
-      "bullish_pct": 33.3,
-      "bearish_pct": 31.7,
+      "score": 0.03,
+      "bullish_pct": 35.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.018,
-        "crypto_macro": 0.15,
+        "xrp": 0.054,
+        "crypto_macro": 0.177,
         "geopolitical": -0.254,
         "fed_rates": 0.026
       },
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "Ripple Looks to $13 Trillion Corporate Treasury Space for Stablecoin Growth - PYMNTS.com"
+        "XRP News: Will the CLARITY Act Pass on Tuesday? Senate Democrats Meet Tonight and Republicans Need Nine of Them - 24/7 W"
       ],
       "top_bearish": [
-        "Is Ripple Prime Bad for XRP Price? - U.Today",
         "Crypto Breadth Weakens as Bitcoin Lags DOT and NEAR - dailyforex.com",
-        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool"
+        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool",
+        "Where Will XRP Be in 3 Years? - The Motley Fool"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.77,
-      "health": 0.4739,
-      "vol_ratio": 0.02
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.82,
+      "health": 0.6122,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 1.16733,
-      "ema200": 1.16587,
-      "macd": 0.005498,
-      "macd_signal": 0.004248,
-      "rsi14": 70.7,
-      "atr14": 0.00322,
-      "atr14_hourly": 0.01661,
-      "bb_position": 0.862
+      "ema50": 1.17486,
+      "ema200": 1.16827,
+      "macd": 0.004719,
+      "macd_signal": 0.005533,
+      "rsi14": 60.9,
+      "atr14": 0.00278,
+      "atr14_hourly": 0.01571,
+      "bb_position": 0.571
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.293,
+      "percentile": 0.303,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182359
+  "data_bars": 182371
 }
