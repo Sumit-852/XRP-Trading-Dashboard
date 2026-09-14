@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-14T16:01:43.077417+00:00",
+  "timestamp": "2026-09-14T17:01:34.617076+00:00",
   "signal": {
-    "price": 1.2155,
+    "price": 1.226,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4314,
-    "hybrid_score": 4.6,
+    "xgb_prob": 0.4943,
+    "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.012,
-      "bullish_pct": 28.3,
-      "bearish_pct": 38.3,
+      "score": 0.009,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.125,
-        "crypto_macro": 0.048,
-        "geopolitical": -0.437,
-        "fed_rates": 0.054
+        "xrp": 0.09,
+        "crypto_macro": 0.113,
+        "geopolitical": -0.359,
+        "fed_rates": 0.057
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC Price Prediction 2030: BTC Eyes $251K by 2030 as Apeing Gains Ground in the Best Crypto Presales Market - StreetInsi",
+        "BTC Price Prediction 2030: BTC Eyes $251K by 2030 as Apeing Gains Ground in the Best Crypto Presales Market - streetinsi",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates, ETH faces hurdle, XRP nears key support - FXStreet"
       ],
       "top_bearish": [
         "Where Will XRP Be in 3 Years? - The Motley Fool",
-        "Intensifying trade war with Canada brings uncertainty, division, and questions about tariffs and effects - audacy.com",
+        "Intensifying trade war with Canada brings uncertainty, division, and questions about tariffs and effects - Audacy",
         "Montreal manufacturer flees to U.S. as tariff war escalates - Montreal Gazette"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.05,
-      "health": -0.0019,
-      "vol_ratio": 0.07
+      "up_down_ratio": 1.2,
+      "health": 0.2914,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 1.21174,
-      "ema200": 1.19814,
-      "macd": 0.001201,
-      "macd_signal": 0.000953,
-      "rsi14": 54.3,
-      "atr14": 0.00385,
-      "atr14_hourly": 0.01197,
-      "bb_position": 0.738
+      "ema50": 1.21615,
+      "ema200": 1.20095,
+      "macd": 0.003663,
+      "macd_signal": 0.002947,
+      "rsi14": 59.8,
+      "atr14": 0.00406,
+      "atr14_hourly": 0.01401,
+      "bb_position": 0.779
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.538,
+      "percentile": 0.592,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182515
+  "data_bars": 182527
 }
