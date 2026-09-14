@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-14T08:02:01.234822+00:00",
+  "timestamp": "2026-09-14T09:01:44.904565+00:00",
   "signal": {
-    "price": 1.2013,
+    "price": 1.2006,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5723,
+    "xgb_prob": 0.5678,
     "hybrid_score": 5.5,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.05,
+      "score": 0.069,
       "bullish_pct": 35.0,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.058,
+        "xrp": 0.123,
         "crypto_macro": 0.139,
-        "geopolitical": -0.2,
-        "fed_rates": 0.164
+        "geopolitical": -0.181,
+        "fed_rates": 0.11
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "CLARITY Act Vote Could Trigger a Major Move for Bitcoin, Ethereum and XRP - Altcoin Buzz",
-        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
+        "XRP Takes Back Seat As Ripple RLUSD Eyes $13 Trillion Market Amid CLARITY Act Vote - CoinGape",
+        "CLARITY Act Vote Could Trigger a Major Move for Bitcoin, Ethereum and XRP - Altcoin Buzz"
       ],
       "top_bearish": [
         "Where Will XRP Be in 3 Years? - The Motley Fool",
-        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool",
-        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
+        "El Sayed, Michigan Democrats run against tariffs, Canada trade war - USA Today",
+        "Trump widens trade war with Canada beyond tariffs. Here\u2019s what to know - AP News"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.18,
-      "health": 0.5634,
-      "vol_ratio": 4.7
+      "up_down_ratio": 1.08,
+      "health": 0.3741,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 1.19365,
-      "ema200": 1.17844,
-      "macd": 0.002532,
-      "macd_signal": 0.002607,
-      "rsi14": 57.8,
-      "atr14": 0.00248,
-      "atr14_hourly": 0.00934,
-      "bb_position": 0.663
+      "ema50": 1.19647,
+      "ema200": 1.18101,
+      "macd": 0.000824,
+      "macd_signal": 0.001439,
+      "rsi14": 52.2,
+      "atr14": 0.00237,
+      "atr14_hourly": 0.00856,
+      "bb_position": 0.424
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.358,
+      "percentile": 0.374,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182419
+  "data_bars": 182431
 }
