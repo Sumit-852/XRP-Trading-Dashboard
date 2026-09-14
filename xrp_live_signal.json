@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-14T05:01:38.204188+00:00",
+  "timestamp": "2026-09-14T06:01:35.886392+00:00",
   "signal": {
-    "price": 1.1895,
+    "price": 1.1928,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4201,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.4709,
+    "hybrid_score": 4.8,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.014,
+      "score": 0.022,
       "bullish_pct": 31.7,
-      "bearish_pct": 25.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.078,
-        "crypto_macro": 0.053,
-        "geopolitical": -0.26,
-        "fed_rates": 0.117
+        "xrp": 0.101,
+        "crypto_macro": 0.063,
+        "geopolitical": -0.262,
+        "fed_rates": 0.094
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,8 +30,8 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates, ETH faces hurdle, XRP nears key support - FXStreet",
         "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.99,
-      "health": 0.6872,
-      "vol_ratio": 0.2
+      "up_down_ratio": 0.97,
+      "health": 0.6013,
+      "vol_ratio": 0.25
     },
     "technicals": {
-      "ema50": 1.18018,
-      "ema200": 1.17058,
-      "macd": 0.003076,
-      "macd_signal": 0.003556,
-      "rsi14": 61.8,
-      "atr14": 0.00245,
-      "atr14_hourly": 0.01153,
-      "bb_position": 0.698
+      "ema50": 1.18414,
+      "ema200": 1.17283,
+      "macd": 0.002012,
+      "macd_signal": 0.002174,
+      "rsi14": 64.0,
+      "atr14": 0.00203,
+      "atr14_hourly": 0.00832,
+      "bb_position": 0.977
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.314,
+      "percentile": 0.325,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182383
+  "data_bars": 182395
 }
