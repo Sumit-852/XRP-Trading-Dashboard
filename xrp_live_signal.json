@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-14T04:01:35.447202+00:00",
+  "timestamp": "2026-09-14T05:01:38.204188+00:00",
   "signal": {
-    "price": 1.1852,
+    "price": 1.1895,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.477,
-    "hybrid_score": 3.6,
+    "xgb_prob": 0.4201,
+    "hybrid_score": 4.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.03,
-      "bullish_pct": 35.0,
-      "bearish_pct": 30.0,
+      "score": 0.014,
+      "bullish_pct": 31.7,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.054,
-        "crypto_macro": 0.177,
-        "geopolitical": -0.254,
-        "fed_rates": 0.026
+        "xrp": 0.078,
+        "crypto_macro": 0.053,
+        "geopolitical": -0.26,
+        "fed_rates": 0.117
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "XRP News: Will the CLARITY Act Pass on Tuesday? Senate Democrats Meet Tonight and Republicans Need Nine of Them - 24/7 W"
+        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
       ],
       "top_bearish": [
-        "Crypto Breadth Weakens as Bitcoin Lags DOT and NEAR - dailyforex.com",
-        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool",
-        "Where Will XRP Be in 3 Years? - The Motley Fool"
+        "Crypto Fear & Greed Index Falls 4 Points to 57, Remains in Greed Territory - bloomingbit",
+        "Crypto Breadth Weakens as Bitcoin Lags DOT and NEAR - DailyForex",
+        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.82,
-      "health": 0.6122,
-      "vol_ratio": 0.12
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.99,
+      "health": 0.6872,
+      "vol_ratio": 0.2
     },
     "technicals": {
-      "ema50": 1.17486,
-      "ema200": 1.16827,
-      "macd": 0.004719,
-      "macd_signal": 0.005533,
-      "rsi14": 60.9,
-      "atr14": 0.00278,
-      "atr14_hourly": 0.01571,
-      "bb_position": 0.571
+      "ema50": 1.18018,
+      "ema200": 1.17058,
+      "macd": 0.003076,
+      "macd_signal": 0.003556,
+      "rsi14": 61.8,
+      "atr14": 0.00245,
+      "atr14_hourly": 0.01153,
+      "bb_position": 0.698
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.303,
+      "percentile": 0.314,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182371
+  "data_bars": 182383
 }
