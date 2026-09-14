@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-14T13:01:55.562480+00:00",
+  "timestamp": "2026-09-14T14:01:36.988496+00:00",
   "signal": {
-    "price": 1.2081,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4711,
-    "hybrid_score": 4.9,
+    "price": 1.2116,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5956,
+    "hybrid_score": 5.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.058,
-      "bullish_pct": 35.0,
-      "bearish_pct": 31.7,
+      "score": -0.003,
+      "bullish_pct": 30.0,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.239,
-        "crypto_macro": 0.093,
-        "geopolitical": -0.336,
-        "fed_rates": 0.032
+        "xrp": 0.155,
+        "crypto_macro": 0.023,
+        "geopolitical": -0.435,
+        "fed_rates": 0.088
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "XRP Could Rally to $1.60 if $1.38 Breakout Confirms, Analyst Says - Yahoo Finance",
+        "BTC Price Prediction 2030: BTC Eyes $251K by 2030 as Apeing Gains Ground in the Best Crypto Presales Market - StreetInsi",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
         "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates, ETH faces hurdle, XRP nears key support - FXStreet"
       ],
       "top_bearish": [
         "Where Will XRP Be in 3 Years? - The Motley Fool",
-        "Montreal manufacturer flees to U.S. as tariff war escalates - Montreal Gazette",
-        "Carney eyes \u2018unique alliance\u2019 with EU as Trump trade war strains Canada\u2019s ties with US - politico.eu"
+        "Intensifying trade war with Canada brings uncertainty, division, and questions about tariffs and effects - Audacy",
+        "Montreal manufacturer flees to U.S. as tariff war escalates - Montreal Gazette"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": -0.5202,
-      "vol_ratio": 5.22
+      "up_down_ratio": 0.91,
+      "health": -0.3252,
+      "vol_ratio": 0.74
     },
     "technicals": {
-      "ema50": 1.20855,
-      "ema200": 1.19212,
-      "macd": 3.7e-05,
-      "macd_signal": 0.000514,
-      "rsi14": 44.1,
-      "atr14": 0.00302,
-      "atr14_hourly": 0.00989,
-      "bb_position": 0.152
+      "ema50": 1.20869,
+      "ema200": 1.19399,
+      "macd": 0.000227,
+      "macd_signal": -0.000124,
+      "rsi14": 52.9,
+      "atr14": 0.00418,
+      "atr14_hourly": 0.0143,
+      "bb_position": 0.64
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.455,
+      "percentile": 0.496,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182479
+  "data_bars": 182491
 }
