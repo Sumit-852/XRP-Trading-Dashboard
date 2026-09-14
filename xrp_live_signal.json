@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-14T07:01:35.997727+00:00",
+  "timestamp": "2026-09-14T08:02:01.234822+00:00",
   "signal": {
-    "price": 1.1981,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4922,
-    "hybrid_score": 5.0,
+    "price": 1.2013,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5723,
+    "hybrid_score": 5.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.031,
-      "bullish_pct": 31.7,
-      "bearish_pct": 21.7,
+      "score": 0.05,
+      "bullish_pct": 35.0,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.062,
-        "crypto_macro": 0.082,
-        "geopolitical": -0.183,
-        "fed_rates": 0.118
+        "xrp": 0.058,
+        "crypto_macro": 0.139,
+        "geopolitical": -0.2,
+        "fed_rates": 0.164
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates, ETH faces hurdle, XRP nears key support - FXStreet"
+        "CLARITY Act Vote Could Trigger a Major Move for Bitcoin, Ethereum and XRP - Altcoin Buzz",
+        "Bitcoin is back, but potential Clarity Act fail and Dem midterms win could come for crypto prices - CNBC"
       ],
       "top_bearish": [
-        "Crypto Breadth Weakens as Bitcoin Lags DOT and NEAR - DailyForex",
-        "U.S., Iran Trade Strikes in Strait of Hormuz as Both Battle on Social Media - USNI News",
-        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool"
+        "Where Will XRP Be in 3 Years? - The Motley Fool",
+        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool",
+        "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control - PBS"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": 0.6609,
-      "vol_ratio": 0.37
+      "up_down_ratio": 1.18,
+      "health": 0.5634,
+      "vol_ratio": 4.7
     },
     "technicals": {
-      "ema50": 1.18905,
-      "ema200": 1.17556,
-      "macd": 0.002739,
-      "macd_signal": 0.002596,
-      "rsi14": 61.4,
-      "atr14": 0.00247,
-      "atr14_hourly": 0.0102,
-      "bb_position": 0.751
+      "ema50": 1.19365,
+      "ema200": 1.17844,
+      "macd": 0.002532,
+      "macd_signal": 0.002607,
+      "rsi14": 57.8,
+      "atr14": 0.00248,
+      "atr14_hourly": 0.00934,
+      "bb_position": 0.663
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.341,
+      "percentile": 0.358,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182407
+  "data_bars": 182419
 }
