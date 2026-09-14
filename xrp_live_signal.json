@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-14T01:01:33.839671+00:00",
+  "timestamp": "2026-09-14T02:01:35.276736+00:00",
   "signal": {
-    "price": 1.1627,
+    "price": 1.1658,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3294,
-    "hybrid_score": 4.0,
+    "xgb_prob": 0.3037,
+    "hybrid_score": 2.6,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.014,
-      "bullish_pct": 35.0,
+      "score": 0.025,
+      "bullish_pct": 36.7,
       "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.054,
-        "crypto_macro": 0.1,
-        "geopolitical": -0.287,
-        "fed_rates": 0.117
+        "crypto_macro": 0.127,
+        "geopolitical": -0.231,
+        "fed_rates": 0.065
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
         "Bitcoin, Solana, XRP Tumble Ahead Of CPI \u2013 And Retail Traders Aren\u2019t Feeling Bullish - TradingView",
-        "Ripple Looks to $13 Trillion Corporate Treasury Space for Stablecoin Growth - PYMNTS.com"
+        "Ripple Looks to $13 Trillion Corporate Treasury Space for Stablecoin Growth - pymnts.com"
       ],
       "top_bearish": [
         "Is Ripple Prime Bad for XRP Price? - U.Today",
@@ -41,20 +41,20 @@
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.6,
-      "health": 0.1133,
-      "vol_ratio": 0.44
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.67,
+      "health": 0.2418,
+      "vol_ratio": 0.35
     },
     "technicals": {
-      "ema50": 1.16128,
-      "ema200": 1.16491,
-      "macd": 0.000612,
-      "macd_signal": -5.9e-05,
-      "rsi14": 56.1,
-      "atr14": 0.00261,
-      "atr14_hourly": 0.01052,
-      "bb_position": 0.817
+      "ema50": 1.16131,
+      "ema200": 1.16449,
+      "macd": 0.000951,
+      "macd_signal": 0.000355,
+      "rsi14": 59.1,
+      "atr14": 0.00312,
+      "atr14_hourly": 0.01103,
+      "bb_position": 0.904
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.176,
+      "percentile": 0.233,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182335
+  "data_bars": 182347
 }
