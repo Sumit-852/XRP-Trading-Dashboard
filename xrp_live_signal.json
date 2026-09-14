@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-14T17:01:34.617076+00:00",
+  "timestamp": "2026-09-14T18:01:37.191703+00:00",
   "signal": {
-    "price": 1.226,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4943,
-    "hybrid_score": 5.0,
+    "price": 1.2387,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5206,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.009,
+      "score": 0.013,
       "bullish_pct": 30.0,
       "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.09,
-        "crypto_macro": 0.113,
-        "geopolitical": -0.359,
-        "fed_rates": 0.057
+        "xrp": 0.109,
+        "crypto_macro": 0.169,
+        "geopolitical": -0.399,
+        "fed_rates": -0.027
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "BTC Price Prediction 2030: BTC Eyes $251K by 2030 as Apeing Gains Ground in the Best Crypto Presales Market - streetinsi",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates, ETH faces hurdle, XRP nears key support - FXStreet"
+        "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC consolidates, ETH faces hurdle, XRP nears key support - FXStreet",
+        "XRP News: Attorney Says Final CLARITY Act Draft Ends Ripple Supply Debate - TradingView"
       ],
       "top_bearish": [
         "Where Will XRP Be in 3 Years? - The Motley Fool",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.2,
-      "health": 0.2914,
-      "vol_ratio": 0.14
+      "up_down_ratio": 1.22,
+      "health": 0.4687,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 1.21615,
-      "ema200": 1.20095,
-      "macd": 0.003663,
-      "macd_signal": 0.002947,
-      "rsi14": 59.8,
-      "atr14": 0.00406,
-      "atr14_hourly": 0.01401,
-      "bb_position": 0.779
+      "ema50": 1.22345,
+      "ema200": 1.20478,
+      "macd": 0.005905,
+      "macd_signal": 0.005125,
+      "rsi14": 63.4,
+      "atr14": 0.0046,
+      "atr14_hourly": 0.01591,
+      "bb_position": 0.791
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.592,
+      "percentile": 0.616,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182527
+  "data_bars": 182539
 }
