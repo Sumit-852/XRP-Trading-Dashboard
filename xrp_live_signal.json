@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-15T14:01:44.855947+00:00",
+  "timestamp": "2026-09-15T15:01:46.334918+00:00",
   "signal": {
-    "price": 1.2227,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.446,
-    "hybrid_score": 4.7,
+    "price": 1.1967,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5972,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.062,
-      "bullish_pct": 33.3,
-      "bearish_pct": 28.3,
+      "score": 0.096,
+      "bullish_pct": 36.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.227,
-        "crypto_macro": 0.077,
-        "geopolitical": -0.338,
-        "fed_rates": 0.119
+        "xrp": 0.266,
+        "crypto_macro": 0.08,
+        "geopolitical": -0.264,
+        "fed_rates": 0.149
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk"
       ],
       "top_bearish": [
-        "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says - BBC",
-        "Montreal manufacturer flees to U.S. as tariff war escalates - Montreal Gazette",
-        "Tariffs. War. Big Macs. Follow the Money - Global Trade Magazine"
+        "Crypto exchange CoinEx to shut down after 9 years, citing market slump - The Block",
+        "This bill could reshape crypto in America \u2014 and it's sparking a major battle - NPR",
+        "In Dubai, Trade Continues on the Front Lines of the Iran War - New Lines Magazine"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.97,
-      "health": -0.236,
-      "vol_ratio": 0.48
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.7,
+      "health": -0.4711,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 1.22098,
-      "ema200": 1.22121,
-      "macd": 0.001009,
-      "macd_signal": 0.003044,
-      "rsi14": 49.1,
-      "atr14": 0.00761,
-      "atr14_hourly": 0.03643,
-      "bb_position": 0.386
+      "ema50": 1.21549,
+      "ema200": 1.21967,
+      "macd": -0.007003,
+      "macd_signal": -0.004263,
+      "rsi14": 34.5,
+      "atr14": 0.00725,
+      "atr14_hourly": 0.03512,
+      "bb_position": 0.16
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.809,
+      "percentile": 0.817,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182779
+  "data_bars": 182791
 }
