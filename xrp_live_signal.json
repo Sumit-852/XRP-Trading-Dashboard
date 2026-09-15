@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-15T07:02:27.540634+00:00",
+  "timestamp": "2026-09-15T08:01:28.205430+00:00",
   "signal": {
-    "price": 1.214,
+    "price": 1.2062,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5782,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.5035,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.168,
-      "bullish_pct": 46.7,
-      "bearish_pct": 20.0,
+      "score": 0.137,
+      "bullish_pct": 43.3,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.276,
-        "crypto_macro": 0.303,
-        "geopolitical": -0.271,
-        "fed_rates": 0.177
+        "crypto_macro": 0.216,
+        "geopolitical": -0.26,
+        "fed_rates": 0.129
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision? - Yahoo Finance"
       ],
       "top_bearish": [
+        "Peru Economy Ministry\u2019s X Account Hacked in Likely Crypto Scam - Bloomberg.com",
         "Where Will XRP Be in 3 Years? - The Motley Fool",
-        "Intensifying trade war with Canada brings uncertainty, division, and questions about tariffs and effects - Audacy",
-        "Wintermute Builds $102M Crypto Short as Ethereum Leads Bearish Bets - Yahoo Finance"
+        "Intensifying trade war with Canada brings uncertainty, division, and questions about tariffs and effects - Audacy"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.13,
-      "health": -0.0157,
-      "vol_ratio": 0.09
+      "up_down_ratio": 1.19,
+      "health": 0.0655,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 1.22192,
-      "ema200": 1.22706,
-      "macd": -0.002567,
-      "macd_signal": -0.002211,
-      "rsi14": 37.5,
-      "atr14": 0.00213,
-      "atr14_hourly": 0.01001,
-      "bb_position": 0.202
+      "ema50": 1.21781,
+      "ema200": 1.22529,
+      "macd": -0.003019,
+      "macd_signal": -0.002526,
+      "rsi14": 30.1,
+      "atr14": 0.00237,
+      "atr14_hourly": 0.00927,
+      "bb_position": -0.017
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182695
+  "data_bars": 182707
 }
