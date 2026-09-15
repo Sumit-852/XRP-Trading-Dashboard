@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-15T01:01:29.760384+00:00",
+  "timestamp": "2026-09-15T02:01:30.227260+00:00",
   "signal": {
-    "price": 1.2276,
+    "price": 1.2342,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4352,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.4914,
+    "hybrid_score": 5.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.07,
+      "sentiment": "BULLISH",
+      "score": 0.1,
       "bullish_pct": 35.0,
-      "bearish_pct": 28.3,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.243,
-        "crypto_macro": 0.127,
-        "geopolitical": -0.374,
-        "fed_rates": 0.078
+        "xrp": 0.301,
+        "crypto_macro": 0.139,
+        "geopolitical": -0.353,
+        "fed_rates": 0.085
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
         "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision? - Yahoo Finance",
-        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - coindesk.com"
+        "Bitcoin Rally Stalls as Optimism About US Crypto Bill Wanes - Bloomberg.com"
       ],
       "top_bearish": [
         "Intensifying trade war with Canada brings uncertainty, division, and questions about tariffs and effects - Audacy",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.11,
-      "health": -0.2417,
-      "vol_ratio": 0.06
+      "up_down_ratio": 1.15,
+      "health": -0.1171,
+      "vol_ratio": 0.03
     },
     "technicals": {
-      "ema50": 1.2391,
-      "ema200": 1.22988,
-      "macd": -0.003894,
-      "macd_signal": -0.004541,
-      "rsi14": 35.4,
-      "atr14": 0.00284,
-      "atr14_hourly": 0.01305,
-      "bb_position": 0.18
+      "ema50": 1.23627,
+      "ema200": 1.23005,
+      "macd": -0.000419,
+      "macd_signal": -0.001535,
+      "rsi14": 53.7,
+      "atr14": 0.00291,
+      "atr14_hourly": 0.01045,
+      "bb_position": 0.869
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.764,
+      "percentile": 0.756,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182623
+  "data_bars": 182635
 }
