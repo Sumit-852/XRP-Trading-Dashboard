@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-15T21:01:29.966558+00:00",
+  "timestamp": "2026-09-15T22:01:37.045835+00:00",
   "signal": {
-    "price": 1.1187,
+    "price": 1.1089,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6496,
-    "hybrid_score": 4.7,
+    "xgb_prob": 0.6919,
+    "hybrid_score": 6.2,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.07,
-      "bullish_pct": 30.0,
-      "bearish_pct": 25.0,
+      "score": 0.013,
+      "bullish_pct": 28.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.287,
-        "crypto_macro": 0.026,
-        "geopolitical": -0.337,
-        "fed_rates": 0.123
+        "xrp": 0.219,
+        "crypto_macro": -0.09,
+        "geopolitical": -0.33,
+        "fed_rates": 0.131
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
-        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - finance.yahoo.com",
-        "Bitcoin tumbles 3% to $76,000 as hopes of CLARITY Act passage this year fade - finance.yahoo.com"
+        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
+        "Bitcoin Rally Stalls as Optimism About US Crypto Bill Wanes - Bloomberg.com"
       ],
       "top_bearish": [
+        "A Trump-backed crypto bill just suffered a bruising defeat in the Senate. Here's why - NPR",
         "WATCH LIVE: Senate Democrats block cryptocurrency bill, demanding more limits on Trump's investments - PBS",
-        "Iran\u2019s export floor disappears as crude falls to 210kbd - Vortexa",
-        "This bill could reshape crypto in America \u2014 and it's sparking a major battle - NPR"
+        "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto - The Motley "
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.56,
-      "health": -0.4731,
-      "vol_ratio": 0.18
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.55,
+      "health": -0.57,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 1.14749,
-      "ema200": 1.19142,
-      "macd": -0.011189,
-      "macd_signal": -0.015128,
-      "rsi14": 42.9,
-      "atr14": 0.00935,
-      "atr14_hourly": 0.04292,
-      "bb_position": 0.558
+      "ema50": 1.13452,
+      "ema200": 1.18265,
+      "macd": -0.006135,
+      "macd_signal": -0.007251,
+      "rsi14": 38.9,
+      "atr14": 0.00658,
+      "atr14_hourly": 0.03017,
+      "bb_position": 0.352
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182863
+  "data_bars": 182875
 }
