@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-15T17:01:32.528824+00:00",
+  "timestamp": "2026-09-15T18:01:35.143865+00:00",
   "signal": {
-    "price": 1.2004,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5512,
-    "hybrid_score": 4.1,
+    "price": 1.2159,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.3348,
+    "hybrid_score": 4.0,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
       "score": 0.048,
-      "bullish_pct": 28.3,
-      "bearish_pct": 25.0,
+      "bullish_pct": 26.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.263,
-        "crypto_macro": -0.044,
-        "geopolitical": -0.318,
-        "fed_rates": 0.149
+        "xrp": 0.305,
+        "crypto_macro": -0.065,
+        "geopolitical": -0.366,
+        "fed_rates": 0.146
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "Will Bitcoin, Ethereum and XRP Prices Rally if the CLARITY Act Passes on September 15? - Coinpedia",
         "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
-        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
-        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk"
+        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance"
       ],
       "top_bearish": [
-        "Iran\u2019s export floor disappears as crude falls to 210kbd - vortexa.com",
+        "Iran\u2019s export floor disappears as crude falls to 210kbd - Vortexa",
         "Crypto exchange CoinEx to shut down after 9 years, citing market slump - The Block",
         "This bill could reshape crypto in America \u2014 and it's sparking a major battle - NPR"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.76,
-      "health": -0.3375,
-      "vol_ratio": 0.49
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.8,
+      "health": -0.2066,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.20755,
-      "ema200": 1.21611,
-      "macd": -0.002126,
-      "macd_signal": -0.002613,
-      "rsi14": 44.0,
-      "atr14": 0.0042,
-      "atr14_hourly": 0.01744,
-      "bb_position": 0.306
+      "ema50": 1.20889,
+      "ema200": 1.21544,
+      "macd": 0.003609,
+      "macd_signal": 0.00158,
+      "rsi14": 59.1,
+      "atr14": 0.00511,
+      "atr14_hourly": 0.02027,
+      "bb_position": 0.773
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.805,
+      "percentile": 0.82,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182815
+  "data_bars": 182827
 }
