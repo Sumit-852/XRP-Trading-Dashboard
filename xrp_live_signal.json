@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-15T20:01:33.873873+00:00",
+  "timestamp": "2026-09-15T21:01:29.966558+00:00",
   "signal": {
-    "price": 1.1258,
+    "price": 1.1187,
     "xgb_pred": "UP",
-    "xgb_prob": 0.7027,
-    "hybrid_score": 6.3,
+    "xgb_prob": 0.6496,
+    "hybrid_score": 4.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.065,
-      "bullish_pct": 28.3,
-      "bearish_pct": 26.7,
+      "score": 0.07,
+      "bullish_pct": 30.0,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.277,
-        "crypto_macro": 0.027,
-        "geopolitical": -0.341,
-        "fed_rates": 0.118
+        "xrp": 0.287,
+        "crypto_macro": 0.026,
+        "geopolitical": -0.337,
+        "fed_rates": 0.123
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
-        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
-        "Bitcoin Rally Stalls as Optimism About US Crypto Bill Wanes - Bloomberg.com"
+        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - finance.yahoo.com",
+        "Bitcoin tumbles 3% to $76,000 as hopes of CLARITY Act passage this year fade - finance.yahoo.com"
       ],
       "top_bearish": [
+        "WATCH LIVE: Senate Democrats block cryptocurrency bill, demanding more limits on Trump's investments - PBS",
         "Iran\u2019s export floor disappears as crude falls to 210kbd - Vortexa",
-        "This bill could reshape crypto in America \u2014 and it's sparking a major battle - NPR",
-        "In Dubai, Trade Continues on the Front Lines of the Iran War - New Lines Magazine"
+        "This bill could reshape crypto in America \u2014 and it's sparking a major battle - NPR"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.53,
-      "health": -0.3537,
-      "vol_ratio": 0.5
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.56,
+      "health": -0.4731,
+      "vol_ratio": 0.18
     },
     "technicals": {
-      "ema50": 1.16979,
-      "ema200": 1.2017,
-      "macd": -0.018115,
-      "macd_signal": -0.018611,
-      "rsi14": 35.4,
-      "atr14": 0.01148,
-      "atr14_hourly": 0.05683,
-      "bb_position": 0.344
+      "ema50": 1.14749,
+      "ema200": 1.19142,
+      "macd": -0.011189,
+      "macd_signal": -0.015128,
+      "rsi14": 42.9,
+      "atr14": 0.00935,
+      "atr14_hourly": 0.04292,
+      "bb_position": 0.558
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.949,
+      "percentile": 0.95,
       "extreme": true
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182851
+  "data_bars": 182863
 }
