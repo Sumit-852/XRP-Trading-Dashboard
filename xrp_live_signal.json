@@ -1,60 +1,60 @@
 {
-  "timestamp": "2026-09-15T10:02:06.604187+00:00",
+  "timestamp": "2026-09-15T11:01:34.561926+00:00",
   "signal": {
-    "price": 1.2134,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3176,
-    "hybrid_score": 4.0,
+    "price": 1.2153,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5194,
+    "hybrid_score": 6.5,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.118,
-      "bullish_pct": 43.3,
-      "bearish_pct": 26.7,
+      "score": 0.169,
+      "bullish_pct": 46.7,
+      "bearish_pct": 21.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.214,
-        "crypto_macro": 0.247,
-        "geopolitical": -0.296,
-        "fed_rates": 0.14
+        "xrp": 0.265,
+        "crypto_macro": 0.322,
+        "geopolitical": -0.254,
+        "fed_rates": 0.148
       },
       "geo_shock": false,
       "geo_dip": {
         "active": false,
-        "buy_signal": false,
-        "phase": "NONE"
+        "buy_signal": true,
+        "phase": "BUY THE DIP"
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
+        "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - benzinga.com",
         "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
-        "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision? - Yahoo Finance"
+        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - 24/7 Wall St."
       ],
       "top_bearish": [
-        "Crypto: No breakthrough without CLARITY - fxstreet.com",
-        "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool",
-        "Montreal manufacturer flees to U.S. as tariff war escalates - montrealgazette.com"
+        "Montreal manufacturer flees to U.S. as tariff war escalates - Montreal Gazette",
+        "Tariffs. War. Big Macs. Follow the Money - Global Trade Magazine",
+        "This bill could reshape crypto in America \u2014 and it's sparking a major battle - NPR"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 1.21,
-      "health": 0.0562,
-      "vol_ratio": 0.08
+      "phase": "ACCUMULATION",
+      "up_down_ratio": 1.22,
+      "health": 0.1216,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.2135,
-      "ema200": 1.22199,
-      "macd": 0.001544,
-      "macd_signal": 0.000776,
-      "rsi14": 53.1,
-      "atr14": 0.00244,
-      "atr14_hourly": 0.01083,
-      "bb_position": 0.636
+      "ema50": 1.21376,
+      "ema200": 1.22111,
+      "macd": 0.00082,
+      "macd_signal": 0.000831,
+      "rsi14": 56.7,
+      "atr14": 0.00207,
+      "atr14_hourly": 0.0089,
+      "bb_position": 0.588
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.721,
+      "percentile": 0.716,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182731
+  "data_bars": 182743
 }
