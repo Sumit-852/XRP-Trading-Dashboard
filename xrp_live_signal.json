@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-15T04:01:41.678493+00:00",
+  "timestamp": "2026-09-15T05:01:43.994392+00:00",
   "signal": {
-    "price": 1.2267,
+    "price": 1.2241,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5918,
-    "hybrid_score": 5.6,
-    "regime": "BULLISH",
+    "xgb_prob": 0.5568,
+    "hybrid_score": 5.4,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.096,
-      "bullish_pct": 36.7,
-      "bearish_pct": 26.7,
+      "sentiment": "BULLISH",
+      "score": 0.107,
+      "bullish_pct": 38.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.24,
-        "crypto_macro": 0.223,
-        "geopolitical": -0.408,
-        "fed_rates": 0.112
+        "xrp": 0.267,
+        "crypto_macro": 0.182,
+        "geopolitical": -0.403,
+        "fed_rates": 0.192
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,9 +30,9 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
-        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
-        "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision? - finance.yahoo.com"
+        "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision? - Yahoo Finance",
+        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - 24/7 Wall St.",
+        "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision? - Yahoo Finance"
       ],
       "top_bearish": [
         "Prediction: This Will Be the Price of XRP (Ripple) by 2030 - The Motley Fool",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.09,
-      "health": -0.0731,
-      "vol_ratio": 0.03
+      "up_down_ratio": 1.14,
+      "health": -0.0104,
+      "vol_ratio": 0.08
     },
     "technicals": {
-      "ema50": 1.23253,
-      "ema200": 1.23025,
-      "macd": -0.001732,
-      "macd_signal": -0.001533,
-      "rsi14": 41.1,
-      "atr14": 0.00251,
-      "atr14_hourly": 0.01155,
-      "bb_position": 0.304
+      "ema50": 1.22978,
+      "ema200": 1.2297,
+      "macd": -0.001476,
+      "macd_signal": -0.001644,
+      "rsi14": 40.2,
+      "atr14": 0.00235,
+      "atr14_hourly": 0.00953,
+      "bb_position": 0.208
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182659
+  "data_bars": 182671
 }
