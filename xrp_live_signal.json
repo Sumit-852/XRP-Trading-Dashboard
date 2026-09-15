@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-15T22:01:37.045835+00:00",
+  "timestamp": "2026-09-15T23:01:36.509803+00:00",
   "signal": {
-    "price": 1.1089,
+    "price": 1.1179,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6919,
-    "hybrid_score": 6.2,
+    "xgb_prob": 0.6271,
+    "hybrid_score": 5.7,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.013,
-      "bullish_pct": 28.3,
-      "bearish_pct": 31.7,
+      "score": -0.048,
+      "bullish_pct": 21.7,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.219,
-        "crypto_macro": -0.09,
-        "geopolitical": -0.33,
+        "xrp": 0.169,
+        "crypto_macro": -0.19,
+        "geopolitical": -0.397,
         "fed_rates": 0.131
       },
       "geo_shock": true,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to - Benzinga",
         "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
-        "Bitcoin Rally Stalls as Optimism About US Crypto Bill Wanes - Bloomberg.com"
+        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - coindesk.com",
+        "Crypto News: Pepeto Announces Binance Listing Progress While the XRP Price Prediction Stretches to $29 - markets.busines"
       ],
       "top_bearish": [
         "A Trump-backed crypto bill just suffered a bruising defeat in the Senate. Here's why - NPR",
-        "WATCH LIVE: Senate Democrats block cryptocurrency bill, demanding more limits on Trump's investments - PBS",
-        "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto - The Motley "
+        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
+        "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says - BBC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.55,
-      "health": -0.57,
-      "vol_ratio": 0.14
+      "up_down_ratio": 0.54,
+      "health": -0.6705,
+      "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.13452,
-      "ema200": 1.18265,
-      "macd": -0.006135,
-      "macd_signal": -0.007251,
-      "rsi14": 38.9,
-      "atr14": 0.00658,
-      "atr14_hourly": 0.03017,
-      "bb_position": 0.352
+      "ema50": 1.12617,
+      "ema200": 1.17469,
+      "macd": -0.001557,
+      "macd_signal": -0.003415,
+      "rsi14": 53.7,
+      "atr14": 0.00431,
+      "atr14_hourly": 0.01961,
+      "bb_position": 1.001
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182875
+  "data_bars": 182887
 }
