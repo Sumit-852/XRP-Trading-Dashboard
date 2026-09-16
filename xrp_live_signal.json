@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-16T17:01:33.236394+00:00",
+  "timestamp": "2026-09-16T18:01:42.478798+00:00",
   "signal": {
-    "price": 1.0984,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.3877,
-    "hybrid_score": 3.1,
+    "price": 1.0897,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5017,
+    "hybrid_score": 3.8,
     "regime": "BEARISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.014,
-      "bullish_pct": 33.3,
-      "bearish_pct": 35.0,
+      "score": -0.002,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.12,
-        "crypto_macro": -0.039,
-        "geopolitical": -0.328,
-        "fed_rates": 0.091
+        "xrp": 0.092,
+        "crypto_macro": 0.002,
+        "geopolitical": -0.309,
+        "fed_rates": 0.134
       },
       "geo_shock": true,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB",
         "Ripple [XRP] News Roundup: XRP Jumps 4.3% As CLARITY Vote Looms - Coinpedia",
-        "Crypto News: Pepeto Announces Binance Listing Progress While the XRP Price Prediction Stretches to $29 - markets.busines"
+        "Bitcoin Falls Under $76,000 After the Senate Stalls the CLARITY Act. Why BTC Took the Smallest Hit at 1.5% - 24/7 Wall S"
       ],
       "top_bearish": [
         "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
-        "XRP price drops 10% as $40M gets liquidated \u2013 Is a rebound next? - AMBCrypto",
-        "5 states could be the biggest losers in Trump\u2019s trade war with Canada, expert warns - wfmd.com"
+        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
+        "XRP price drops 10% as $40M gets liquidated \u2013 Is a rebound next? - AMBCrypto"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.73,
-      "health": 0.1587,
-      "vol_ratio": 0.07
+      "up_down_ratio": 0.7,
+      "health": 0.1372,
+      "vol_ratio": 1.35
     },
     "technicals": {
-      "ema50": 1.10168,
-      "ema200": 1.11736,
-      "macd": -0.000922,
-      "macd_signal": -0.001367,
-      "rsi14": 48.4,
-      "atr14": 0.00262,
-      "atr14_hourly": 0.00955,
-      "bb_position": 0.588
+      "ema50": 1.09788,
+      "ema200": 1.1145,
+      "macd": -0.002775,
+      "macd_signal": -0.002309,
+      "rsi14": 41.5,
+      "atr14": 0.00453,
+      "atr14_hourly": 0.01081,
+      "bb_position": 0.243
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.943,
+      "percentile": 0.941,
       "extreme": true
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183103
+  "data_bars": 183115
 }
