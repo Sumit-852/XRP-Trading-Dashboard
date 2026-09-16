@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-16T09:01:34.377553+00:00",
+  "timestamp": "2026-09-16T10:01:30.147785+00:00",
   "signal": {
-    "price": 1.113,
+    "price": 1.1188,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5664,
-    "hybrid_score": 4.1,
-    "regime": "BEARISH",
+    "xgb_prob": 0.5081,
+    "hybrid_score": 5.0,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.043,
-      "bullish_pct": 25.0,
-      "bearish_pct": 33.3,
+      "score": -0.007,
+      "bullish_pct": 33.3,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.137,
-        "crypto_macro": -0.169,
-        "geopolitical": -0.403,
-        "fed_rates": 0.207
+        "xrp": 0.149,
+        "crypto_macro": -0.089,
+        "geopolitical": -0.392,
+        "fed_rates": 0.252
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Bitcoin tumbles 4% to $75,000 as hopes of CLARITY Act passage this year fade - finance.yahoo.com",
-        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB",
-        "XRP News: Attorney Says Final CLARITY Act Draft Ends Ripple Supply Debate - TradingView"
+        "Crypto\u2019s CLARITY Act Rally Unravels as $75K Bitcoin Comes Into Focus - Investing.com",
+        "Bitcoin tumbles 4% to $75,000 as hopes of CLARITY Act passage this year fade - Yahoo Finance",
+        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB"
       ],
       "top_bearish": [
-        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
+        "Two Robinhood Employees Charged With Crypto Trading Fraud - forbes.com",
         "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
         "'Nothing truly structural': Analysts downplay Clarity Act defeat as bitcoin, major crypto stocks dip - The Block"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.55,
-      "health": 0.024,
-      "vol_ratio": 0.01
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.57,
+      "health": 0.0559,
+      "vol_ratio": 0.06
     },
     "technicals": {
-      "ema50": 1.11571,
-      "ema200": 1.13507,
-      "macd": -0.002217,
-      "macd_signal": -0.002926,
-      "rsi14": 50.0,
-      "atr14": 0.00212,
-      "atr14_hourly": 0.01051,
-      "bb_position": 0.631
+      "ema50": 1.11592,
+      "ema200": 1.13292,
+      "macd": 0.001085,
+      "macd_signal": 0.000115,
+      "rsi14": 62.6,
+      "atr14": 0.00197,
+      "atr14_hourly": 0.00997,
+      "bb_position": 0.842
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183007
+  "data_bars": 183019
 }
