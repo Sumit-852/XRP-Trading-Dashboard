@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-16T22:01:30.426276+00:00",
+  "timestamp": "2026-09-16T23:01:30.145289+00:00",
   "signal": {
-    "price": 1.124,
+    "price": 1.1207,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4123,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.4402,
+    "hybrid_score": 3.4,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.015,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
+      "score": -0.006,
+      "bullish_pct": 40.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.148,
-        "crypto_macro": -0.034,
-        "geopolitical": -0.341,
-        "fed_rates": 0.223
+        "xrp": 0.092,
+        "crypto_macro": -0.033,
+        "geopolitical": -0.32,
+        "fed_rates": 0.196
       },
       "geo_shock": true,
       "geo_dip": {
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB",
-        "Bitcoin Falls Under $76,000 After the Senate Stalls the CLARITY Act. Why BTC Took the Smallest Hit at 1.5% - 24/7 Wall S",
-        "Ripple legal chief bullish on XRP despite CLARITY failure, here's why - Yahoo Finance"
+        "Ripple [XRP] News Roundup: XRP Jumps 4.3% As CLARITY Vote Looms - Coinpedia",
+        "Bitcoin Falls Under $76,000 After the Senate Stalls the CLARITY Act. Why BTC Took the Smallest Hit at 1.5% - 247wallst.c"
       ],
       "top_bearish": [
         "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
         "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
-        "Bitcoin Faces \u2018Double Whammy\u2019 After Bill Rejection, Rate Hike - Bloomberg.com"
+        "XRP price drops 10% as $40M gets liquidated \u2013 Is a rebound next? - AMBCrypto"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.88,
-      "health": 0.2156,
-      "vol_ratio": 0.01
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.8,
+      "health": 0.0925,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 1.12442,
-      "ema200": 1.11962,
-      "macd": -0.000913,
-      "macd_signal": 0.000477,
-      "rsi14": 42.3,
-      "atr14": 0.00381,
-      "atr14_hourly": 0.01911,
-      "bb_position": 0.19
+      "ema50": 1.12283,
+      "ema200": 1.11968,
+      "macd": -0.001957,
+      "macd_signal": -0.002016,
+      "rsi14": 44.3,
+      "atr14": 0.00319,
+      "atr14_hourly": 0.01537,
+      "bb_position": 0.38
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.739,
+      "percentile": 0.749,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183163
+  "data_bars": 183175
 }
