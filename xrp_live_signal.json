@@ -1,22 +1,27 @@
 {
-  "timestamp": "2026-09-16T06:02:00.127199+00:00",
+  "timestamp": "2026-09-16T07:01:39.460432+00:00",
   "signal": {
-    "price": 1.1241,
+    "price": 1.1247,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6505,
-    "hybrid_score": 5.9,
+    "xgb_prob": 0.5208,
+    "hybrid_score": 5.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NO_DATA",
-      "score": 0.0,
-      "bullish_pct": 0,
-      "bearish_pct": 0,
-      "headlines_analyzed": 0,
-      "feed_scores": {},
-      "geo_shock": false,
+      "sentiment": "NEUTRAL",
+      "score": -0.068,
+      "bullish_pct": 20.0,
+      "bearish_pct": 30.0,
+      "headlines_analyzed": 60,
+      "feed_scores": {
+        "xrp": 0.128,
+        "crypto_macro": -0.239,
+        "geopolitical": -0.366,
+        "fed_rates": 0.159
+      },
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -24,24 +29,32 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [],
-      "top_bearish": []
+      "top_bullish": [
+        "XRP News: Attorney Says Final CLARITY Act Draft Ends Ripple Supply Debate - TradingView",
+        "Crypto News: Pepeto Announces Binance Listing Progress While the XRP Price Prediction Stretches to $29 - markets.busines",
+        "The Road to Clarity Ends (for now) - Ripple"
+      ],
+      "top_bearish": [
+        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
+        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
+        "'Nothing truly structural': Analysts downplay Clarity Act defeat as bitcoin, major crypto stocks dip - The Block"
+      ]
     },
     "vpa": {
       "phase": "NEUTRAL",
       "up_down_ratio": 0.55,
-      "health": 0.052,
-      "vol_ratio": 0.0
+      "health": 0.0339,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.12285,
-      "ema200": 1.14381,
-      "macd": -0.000509,
-      "macd_signal": 0.00011,
-      "rsi14": 50.7,
-      "atr14": 0.00289,
-      "atr14_hourly": 0.01248,
-      "bb_position": 0.415
+      "ema50": 1.12222,
+      "ema200": 1.14124,
+      "macd": -0.000468,
+      "macd_signal": -0.000805,
+      "rsi14": 56.1,
+      "atr14": 0.00228,
+      "atr14_hourly": 0.00995,
+      "bb_position": 0.886
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -88,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182971
+  "data_bars": 182983
 }
