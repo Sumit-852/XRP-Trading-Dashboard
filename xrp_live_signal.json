@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-16T01:01:33.913772+00:00",
+  "timestamp": "2026-09-16T02:01:27.901798+00:00",
   "signal": {
-    "price": 1.1152,
+    "price": 1.1069,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6774,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.7235,
+    "hybrid_score": 6.3,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.049,
-      "bullish_pct": 20.0,
+      "score": -0.056,
+      "bullish_pct": 21.7,
       "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.104,
-        "crypto_macro": -0.208,
-        "geopolitical": -0.309,
-        "fed_rates": 0.211
+        "xrp": 0.137,
+        "crypto_macro": -0.237,
+        "geopolitical": -0.35,
+        "fed_rates": 0.189
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto Clarity Act News: Trump Agreed to 80% of the Ethics Deal and Ripple (XRP) Jumped 3.9% - Yahoo Finance",
         "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
-        "Crypto News: Pepeto Announces Binance Listing Progress While the XRP Price Prediction Stretches to $29 - markets.busines"
+        "Crypto News: Pepeto Announces Binance Listing Progress While the XRP Price Prediction Stretches to $29 - markets.busines",
+        "The Road to Clarity Ends (for now) - Ripple"
       ],
       "top_bearish": [
         "A Trump-backed crypto bill just suffered a bruising defeat in the Senate. Here's why - NPR",
-        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
+        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - bloomberg.com",
         "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says - BBC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.52,
-      "health": 0.0013,
-      "vol_ratio": 0.0
+      "up_down_ratio": 0.53,
+      "health": -0.0447,
+      "vol_ratio": 0.16
     },
     "technicals": {
-      "ema50": 1.11992,
-      "ema200": 1.16225,
-      "macd": -0.000189,
-      "macd_signal": -0.000318,
-      "rsi14": 48.5,
-      "atr14": 0.00278,
-      "atr14_hourly": 0.01219,
-      "bb_position": 0.512
+      "ema50": 1.11628,
+      "ema200": 1.15643,
+      "macd": -0.002439,
+      "macd_signal": -0.001546,
+      "rsi14": 36.4,
+      "atr14": 0.0027,
+      "atr14_hourly": 0.01092,
+      "bb_position": 0.158
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182911
+  "data_bars": 182923
 }
