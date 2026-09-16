@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-16T11:01:33.680551+00:00",
+  "timestamp": "2026-09-16T12:01:37.132006+00:00",
   "signal": {
-    "price": 1.1174,
+    "price": 1.1223,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3183,
-    "hybrid_score": 2.6,
+    "xgb_prob": 0.3267,
+    "hybrid_score": 4.0,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.032,
-      "bullish_pct": 31.7,
-      "bearish_pct": 33.3,
+      "score": 0.015,
+      "bullish_pct": 35.0,
+      "bearish_pct": 30.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.114,
-        "crypto_macro": -0.13,
-        "geopolitical": -0.373,
-        "fed_rates": 0.224
+        "xrp": 0.132,
+        "crypto_macro": -0.059,
+        "geopolitical": -0.293,
+        "fed_rates": 0.256
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -35,26 +35,26 @@
         "Ripple [XRP] News Roundup: XRP Jumps 4.3% As CLARITY Vote Looms - Coinpedia"
       ],
       "top_bearish": [
-        "Two Robinhood Employees Charged With Crypto Trading Fraud - forbes.com",
+        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
         "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
-        "'Nothing truly structural': Analysts downplay Clarity Act defeat as bitcoin, major crypto stocks dip - The Block"
+        "XRP price drops 10% as $40M gets liquidated \u2013 Is a rebound next? - AMBCrypto"
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.58,
-      "health": 0.0686,
-      "vol_ratio": 0.03
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.57,
+      "health": 0.0241,
+      "vol_ratio": 0.12
     },
     "technicals": {
-      "ema50": 1.11624,
-      "ema200": 1.13109,
-      "macd": 0.000781,
-      "macd_signal": 0.000746,
-      "rsi14": 54.9,
-      "atr14": 0.00166,
-      "atr14_hourly": 0.00768,
-      "bb_position": 0.627
+      "ema50": 1.11747,
+      "ema200": 1.12974,
+      "macd": 0.00175,
+      "macd_signal": 0.001166,
+      "rsi14": 65.5,
+      "atr14": 0.00196,
+      "atr14_hourly": 0.00759,
+      "bb_position": 0.877
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.952,
+      "percentile": 0.951,
       "extreme": true
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183031
+  "data_bars": 183043
 }
