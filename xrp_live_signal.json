@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-16T03:02:08.735720+00:00",
+  "timestamp": "2026-09-16T04:01:27.626529+00:00",
   "signal": {
-    "price": 1.1176,
+    "price": 1.1236,
     "xgb_pred": "UP",
-    "xgb_prob": 0.605,
-    "hybrid_score": 5.6,
+    "xgb_prob": 0.6119,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.042,
-      "bullish_pct": 23.3,
-      "bearish_pct": 30.0,
+      "score": -0.061,
+      "bullish_pct": 21.7,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.147,
-        "crypto_macro": -0.213,
-        "geopolitical": -0.35,
+        "xrp": 0.135,
+        "crypto_macro": -0.226,
+        "geopolitical": -0.405,
         "fed_rates": 0.211
       },
       "geo_shock": true,
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple eyes $13 trillion corporate treasury opportunity to grow RLUSD stablecoin, executive says - CoinDesk",
+        "Ripple Shows How XRP Survived CLARITY Act Setback, MicroStrategy Says Bitcoin Never Needed It - Yahoo Finance",
         "Crypto News: Pepeto Announces Binance Listing Progress While the XRP Price Prediction Stretches to $29 - markets.busines",
-        "The Road to Clarity Ends (for now) - Ripple"
+        "UofL partnership with crypto company, logo to be placed on Denny Crum Court - WLKY"
       ],
       "top_bearish": [
         "A Trump-backed crypto bill just suffered a bruising defeat in the Senate. Here's why - NPR",
-        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - bloomberg.com",
-        "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says - BBC"
+        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
+        "WATCH: Senate Democrats block cryptocurrency bill, demanding more limits on Trump's investments - PBS"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
+      "phase": "DISTRIBUTION",
       "up_down_ratio": 0.54,
-      "health": -0.0186,
-      "vol_ratio": 0.15
+      "health": -0.0039,
+      "vol_ratio": 0.05
     },
     "technicals": {
-      "ema50": 1.11682,
-      "ema200": 1.15203,
-      "macd": 0.001364,
-      "macd_signal": 0.000826,
-      "rsi14": 54.2,
-      "atr14": 0.00298,
-      "atr14_hourly": 0.01478,
-      "bb_position": 0.667
+      "ema50": 1.1189,
+      "ema200": 1.14865,
+      "macd": 0.002237,
+      "macd_signal": 0.002044,
+      "rsi14": 60.6,
+      "atr14": 0.00254,
+      "atr14_hourly": 0.01273,
+      "bb_position": 0.767
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182935
+  "data_bars": 182947
 }
