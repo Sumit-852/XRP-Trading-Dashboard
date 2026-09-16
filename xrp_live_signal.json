@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-16T08:01:37.281290+00:00",
+  "timestamp": "2026-09-16T09:01:34.377553+00:00",
   "signal": {
-    "price": 1.1121,
+    "price": 1.113,
     "xgb_pred": "UP",
-    "xgb_prob": 0.73,
-    "hybrid_score": 5.1,
+    "xgb_prob": 0.5664,
+    "hybrid_score": 4.1,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.06,
-      "bullish_pct": 23.3,
-      "bearish_pct": 28.3,
+      "score": -0.043,
+      "bullish_pct": 25.0,
+      "bearish_pct": 33.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.092,
-        "crypto_macro": -0.166,
-        "geopolitical": -0.393,
-        "fed_rates": 0.189
+        "xrp": 0.137,
+        "crypto_macro": -0.169,
+        "geopolitical": -0.403,
+        "fed_rates": 0.207
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Crypto News: Pepeto Announces Binance Listing Progress While the XRP Price Prediction Stretches to $29 - markets.busines",
-        "The Road to Clarity Ends (for now) - Ripple",
-        "UofL partnership with crypto company, logo to be placed on Denny Crum Court - WLKY"
+        "Bitcoin tumbles 4% to $75,000 as hopes of CLARITY Act passage this year fade - finance.yahoo.com",
+        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB",
+        "XRP News: Attorney Says Final CLARITY Act Draft Ends Ripple Supply Debate - TradingView"
       ],
       "top_bearish": [
         "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
         "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
-        "Bitcoin, Ethereum, XRP crash as CLARITY Act fails Senate vote - Altcoin Buzz"
+        "'Nothing truly structural': Analysts downplay Clarity Act defeat as bitcoin, major crypto stocks dip - The Block"
       ]
     },
     "vpa": {
       "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.54,
-      "health": 0.0046,
-      "vol_ratio": 0.35
+      "up_down_ratio": 0.55,
+      "health": 0.024,
+      "vol_ratio": 0.01
     },
     "technicals": {
-      "ema50": 1.11975,
-      "ema200": 1.13839,
-      "macd": -0.002516,
-      "macd_signal": -0.001845,
-      "rsi14": 30.6,
-      "atr14": 0.00215,
-      "atr14_hourly": 0.01141,
-      "bb_position": 0.073
+      "ema50": 1.11571,
+      "ema200": 1.13507,
+      "macd": -0.002217,
+      "macd_signal": -0.002926,
+      "rsi14": 50.0,
+      "atr14": 0.00212,
+      "atr14_hourly": 0.01051,
+      "bb_position": 0.631
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 182995
+  "data_bars": 183007
 }
