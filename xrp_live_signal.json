@@ -1,27 +1,22 @@
 {
-  "timestamp": "2026-09-16T14:01:45.764634+00:00",
+  "timestamp": "2026-09-16T15:02:08.861258+00:00",
   "signal": {
-    "price": 1.1045,
+    "price": 1.0995,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6724,
-    "hybrid_score": 6.0,
+    "xgb_prob": 0.6129,
+    "hybrid_score": 4.4,
     "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.019,
-      "bullish_pct": 36.7,
-      "bearish_pct": 30.0,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.147,
-        "crypto_macro": -0.02,
-        "geopolitical": -0.374,
-        "fed_rates": 0.267
-      },
-      "geo_shock": true,
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "Ripple Shows How XRP Survived CLARITY Act Setback, MicroStrategy Says Bitcoin Never Needed It - Yahoo Finance",
-        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB",
-        "The Democrats Are Likely to Win Back the House and Senate in November. Here's 1 Crypto to Buy and 1 Crypto to Sell. - Ya"
-      ],
-      "top_bearish": [
-        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
-        "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg",
-        "XRP price drops 10% as $40M gets liquidated \u2013 Is a rebound next? - AMBCrypto"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.54,
-      "health": -0.0081,
-      "vol_ratio": 0.06
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.68,
+      "health": 0.1331,
+      "vol_ratio": 0.02
     },
     "technicals": {
-      "ema50": 1.112,
-      "ema200": 1.1254,
-      "macd": -0.002702,
-      "macd_signal": -0.002672,
-      "rsi14": 37.1,
-      "atr14": 0.00313,
-      "atr14_hourly": 0.01194,
-      "bb_position": 0.209
+      "ema50": 1.10753,
+      "ema200": 1.12257,
+      "macd": -0.003245,
+      "macd_signal": -0.003116,
+      "rsi14": 42.0,
+      "atr14": 0.00397,
+      "atr14_hourly": 0.01267,
+      "bb_position": 0.277
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +51,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.944,
+      "percentile": 0.943,
       "extreme": true
     }
   },
@@ -101,5 +88,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183067
+  "data_bars": 183079
 }
