@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-17T00:01:37.118761+00:00",
+  "timestamp": "2026-09-17T01:01:35.729254+00:00",
   "signal": {
-    "price": 1.1324,
+    "price": 1.1269,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.4192,
-    "hybrid_score": 4.5,
+    "xgb_prob": 0.3776,
+    "hybrid_score": 3.0,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": false,
-    "action": "HOLD",
+    "exit_signal": true,
+    "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.044,
-      "bullish_pct": 45.0,
-      "bearish_pct": 30.0,
+      "score": -0.031,
+      "bullish_pct": 36.7,
+      "bearish_pct": 38.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.214,
-        "crypto_macro": -0.046,
-        "geopolitical": -0.302,
-        "fed_rates": 0.233
+        "xrp": 0.092,
+        "crypto_macro": -0.089,
+        "geopolitical": -0.362,
+        "fed_rates": 0.191
       },
       "geo_shock": true,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
-        "Ripple Shows How XRP Survived CLARITY Act Setback, MicroStrategy Says Bitcoin Never Needed It - BeInCrypto",
         "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB",
-        "Ripple News: What Does the Senate CLARITY Act Setback Mean for XRP? - Yahoo Finance"
+        "Ripple [XRP] News Roundup: XRP Jumps 4.3% As CLARITY Vote Looms - Coinpedia",
+        "Bitcoin Falls Under $76,000 After the Senate Stalls the CLARITY Act. Why BTC Took the Smallest Hit at 1.5% - 24/7 Wall S"
       ],
       "top_bearish": [
         "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
         "Robinhood Staffers Charged With Crypto-Related Trading Fraud - Bloomberg.com",
-        "Bitcoin Faces \u2018Double Whammy\u2019 After Bill Rejection, Rate Hike - Bloomberg.com"
+        "XRP price drops 10% as $40M gets liquidated \u2013 Is a rebound next? - AMBCrypto"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.85,
-      "health": -0.1053,
-      "vol_ratio": 0.15
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.83,
+      "health": -0.1118,
+      "vol_ratio": 0.07
     },
     "technicals": {
-      "ema50": 1.12588,
-      "ema200": 1.1209,
-      "macd": 0.002348,
-      "macd_signal": 0.001378,
-      "rsi14": 60.3,
-      "atr14": 0.00288,
-      "atr14_hourly": 0.01443,
-      "bb_position": 0.757
+      "ema50": 1.12785,
+      "ema200": 1.12207,
+      "macd": 0.000632,
+      "macd_signal": 0.001364,
+      "rsi14": 43.6,
+      "atr14": 0.00271,
+      "atr14_hourly": 0.01025,
+      "bb_position": -0.131
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.747,
+      "percentile": 0.75,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
+    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183187
+  "data_bars": 183199
 }
