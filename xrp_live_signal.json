@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-17T16:01:34.101431+00:00",
+  "timestamp": "2026-09-17T17:01:36.969504+00:00",
   "signal": {
-    "price": 1.1377,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4712,
-    "hybrid_score": 4.9,
+    "price": 1.1359,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5108,
+    "hybrid_score": 5.1,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.065,
-      "bullish_pct": 38.3,
-      "bearish_pct": 26.7,
+      "score": 0.033,
+      "bullish_pct": 35.0,
+      "bearish_pct": 31.7,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.139,
-        "crypto_macro": -0.013,
-        "geopolitical": -0.074,
-        "fed_rates": 0.213
+        "xrp": 0.111,
+        "crypto_macro": -0.067,
+        "geopolitical": -0.037,
+        "fed_rates": 0.125
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,29 +32,29 @@
       "top_bullish": [
         "Ripple Shows How XRP Survived CLARITY Act Setback, MicroStrategy Says Bitcoin Never Needed It - Yahoo Finance",
         "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com",
-        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - cnb"
+        "The House Advanced a Crypto Tax Bill 38 to 5. What the Digital Asset Tax Certainty Act Changes for Bitcoin Holders. - 24"
       ],
       "top_bearish": [
-        "A Trump-backed crypto bill just suffered a bruising defeat in the Senate. Here's why - npr.org",
+        "A Trump-backed crypto bill just suffered a bruising defeat in the Senate. Here's why - NPR",
         "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
-        "UK watchdog targets three London sites suspected of illegal crypto trading - reuters.com"
+        "UK watchdog targets three London sites suspected of illegal crypto trading - Reuters"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.85,
-      "health": -0.1004,
-      "vol_ratio": 0.02
+      "up_down_ratio": 0.9,
+      "health": -0.0856,
+      "vol_ratio": 1.49
     },
     "technicals": {
-      "ema50": 1.13433,
-      "ema200": 1.1315,
-      "macd": 0.000986,
-      "macd_signal": 0.000344,
-      "rsi14": 55.1,
-      "atr14": 0.00314,
-      "atr14_hourly": 0.01676,
-      "bb_position": 0.627
+      "ema50": 1.1346,
+      "ema200": 1.13192,
+      "macd": -0.00011,
+      "macd_signal": 0.000103,
+      "rsi14": 52.4,
+      "atr14": 0.0029,
+      "atr14_hourly": 0.01258,
+      "bb_position": 0.507
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.738,
+      "percentile": 0.737,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183379
+  "data_bars": 183391
 }
