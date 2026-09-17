@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-17T18:01:36.817951+00:00",
+  "timestamp": "2026-09-17T19:01:41.347198+00:00",
   "signal": {
-    "price": 1.132,
-    "xgb_pred": "UP",
-    "xgb_prob": 0.5483,
-    "hybrid_score": 5.4,
-    "regime": "BULLISH",
+    "price": 1.128,
+    "xgb_pred": "DOWN",
+    "xgb_prob": 0.4813,
+    "hybrid_score": 5.0,
+    "regime": "BEARISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
-      "sentiment": "NEUTRAL",
-      "score": 0.083,
-      "bullish_pct": 38.3,
-      "bearish_pct": 23.3,
+      "sentiment": "BULLISH",
+      "score": 0.122,
+      "bullish_pct": 41.7,
+      "bearish_pct": 20.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.125,
-        "crypto_macro": 0.047,
-        "geopolitical": -0.025,
-        "fed_rates": 0.189
+        "xrp": 0.192,
+        "crypto_macro": 0.068,
+        "geopolitical": -0.022,
+        "fed_rates": 0.235
       },
       "geo_shock": false,
       "geo_dip": {
@@ -30,31 +30,31 @@
       "crypto_specific_bad": false,
       "news_driven_crash": false,
       "top_bullish": [
+        "XRP ETF Inflows Beat Bitcoin, Ethereum Again: What Is Going On? - TradingView",
         "XRP falls hard after CLARITY vote as Ripple\u2019s regulatory advantage faces a new test - CryptoSlate",
-        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com",
-        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB"
+        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - ccn.com"
       ],
       "top_bearish": [
         "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
-        "UK watchdog targets three London sites suspected of illegal crypto trading - Reuters",
-        "Iran\u2019s Attempts to Get Around the Hormuz Blockade Are Hitting a Wall - WSJ"
+        "Iran\u2019s Attempts to Get Around the Hormuz Blockade Are Hitting a Wall - WSJ",
+        "India faces 100% tariff threat over Russian oil after US House vote - BBC"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.93,
-      "health": -0.0982,
-      "vol_ratio": 0.01
+      "up_down_ratio": 0.97,
+      "health": -0.0334,
+      "vol_ratio": 0.41
     },
     "technicals": {
-      "ema50": 1.1349,
-      "ema200": 1.13234,
-      "macd": -0.000584,
-      "macd_signal": -2.6e-05,
-      "rsi14": 40.6,
-      "atr14": 0.00218,
-      "atr14_hourly": 0.00992,
-      "bb_position": 0.18
+      "ema50": 1.13299,
+      "ema200": 1.13208,
+      "macd": -0.001718,
+      "macd_signal": -0.001433,
+      "rsi14": 34.9,
+      "atr14": 0.00174,
+      "atr14_hourly": 0.00807,
+      "bb_position": 0.159
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.704,
+      "percentile": 0.538,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183403
+  "data_bars": 183415
 }
