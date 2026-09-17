@@ -1,26 +1,21 @@
 {
-  "timestamp": "2026-09-17T22:01:33.782422+00:00",
+  "timestamp": "2026-09-17T23:02:03.982793+00:00",
   "signal": {
-    "price": 1.1252,
+    "price": 1.1274,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3683,
-    "hybrid_score": 4.3,
-    "regime": "BEARISH",
+    "xgb_prob": 0.3818,
+    "hybrid_score": 3.0,
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
-      "sentiment": "BULLISH",
-      "score": 0.129,
-      "bullish_pct": 41.7,
-      "bearish_pct": 18.3,
-      "headlines_analyzed": 60,
-      "feed_scores": {
-        "xrp": 0.192,
-        "crypto_macro": 0.073,
-        "geopolitical": -0.036,
-        "fed_rates": 0.289
-      },
+      "sentiment": "NO_DATA",
+      "score": 0.0,
+      "bullish_pct": 0,
+      "bearish_pct": 0,
+      "headlines_analyzed": 0,
+      "feed_scores": {},
       "geo_shock": false,
       "geo_dip": {
         "active": false,
@@ -29,32 +24,24 @@
       },
       "crypto_specific_bad": false,
       "news_driven_crash": false,
-      "top_bullish": [
-        "XRP ETF Inflows Beat Bitcoin, Ethereum Again: What Is Going On? - tradingview.com",
-        "XRP falls hard after CLARITY vote as Ripple\u2019s regulatory advantage faces a new test - cryptoslate.com",
-        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com"
-      ],
-      "top_bearish": [
-        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
-        "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto - The Motley ",
-        "Iran trade plummeting under US blockade, bureaucratic errors - New York Post"
-      ]
+      "top_bullish": [],
+      "top_bearish": []
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.81,
-      "health": -0.0929,
-      "vol_ratio": 1.89
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.74,
+      "health": -0.1763,
+      "vol_ratio": 0.11
     },
     "technicals": {
-      "ema50": 1.12948,
-      "ema200": 1.131,
-      "macd": -0.000994,
-      "macd_signal": -0.000624,
-      "rsi14": 35.2,
-      "atr14": 0.00132,
-      "atr14_hourly": 0.00558,
-      "bb_position": 0.035
+      "ema50": 1.12789,
+      "ema200": 1.13034,
+      "macd": -0.000463,
+      "macd_signal": -0.00097,
+      "rsi14": 52.8,
+      "atr14": 0.00171,
+      "atr14_hourly": 0.00646,
+      "bb_position": 0.671
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +51,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.427,
+      "percentile": 0.409,
       "extreme": false
     }
   },
@@ -101,5 +88,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183451
+  "data_bars": 183463
 }
