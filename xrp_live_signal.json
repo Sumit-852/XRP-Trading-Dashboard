@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-18T20:01:35.856090+00:00",
+  "timestamp": "2026-09-18T21:01:30.197172+00:00",
   "signal": {
-    "price": 1.2222,
+    "price": 1.2169,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5269,
-    "hybrid_score": 5.2,
+    "xgb_prob": 0.572,
+    "hybrid_score": 5.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "BULLISH",
-      "score": 0.101,
+      "score": 0.103,
       "bullish_pct": 43.3,
-      "bearish_pct": 23.3,
+      "bearish_pct": 25.0,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.172,
-        "crypto_macro": 0.145,
-        "geopolitical": -0.244,
-        "fed_rates": 0.267
+        "crypto_macro": 0.194,
+        "geopolitical": -0.233,
+        "fed_rates": 0.166
       },
       "geo_shock": false,
       "geo_dip": {
@@ -31,7 +31,7 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP falls hard after CLARITY vote as Ripple\u2019s regulatory advantage faces a new test - CryptoSlate",
-        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com",
+        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - ccn.com",
         "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB"
       ],
       "top_bearish": [
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.56,
-      "health": 0.0994,
-      "vol_ratio": 0.27
+      "up_down_ratio": 1.49,
+      "health": 0.0769,
+      "vol_ratio": 0.24
     },
     "technicals": {
-      "ema50": 1.20956,
-      "ema200": 1.18058,
-      "macd": 0.004221,
-      "macd_signal": 0.003629,
-      "rsi14": 57.8,
-      "atr14": 0.00463,
-      "atr14_hourly": 0.01525,
-      "bb_position": 0.757
+      "ema50": 1.21421,
+      "ema200": 1.18527,
+      "macd": 0.001499,
+      "macd_signal": 0.00264,
+      "rsi14": 47.2,
+      "atr14": 0.00425,
+      "atr14_hourly": 0.01488,
+      "bb_position": 0.141
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.691,
+      "percentile": 0.698,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183715
+  "data_bars": 183727
 }
