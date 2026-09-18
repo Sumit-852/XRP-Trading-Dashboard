@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-18T04:01:29.625959+00:00",
+  "timestamp": "2026-09-18T05:01:38.597182+00:00",
   "signal": {
-    "price": 1.154,
-    "xgb_pred": "DOWN",
-    "xgb_prob": 0.4336,
-    "hybrid_score": 4.6,
+    "price": 1.1517,
+    "xgb_pred": "UP",
+    "xgb_prob": 0.5248,
+    "hybrid_score": 3.9,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.038,
+      "score": -0.01,
       "bullish_pct": 30.0,
-      "bearish_pct": 28.3,
+      "bearish_pct": 35.0,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.195,
-        "crypto_macro": -0.058,
-        "geopolitical": -0.241,
+        "xrp": 0.129,
+        "crypto_macro": -0.097,
+        "geopolitical": -0.31,
         "fed_rates": 0.19
       },
-      "geo_shock": false,
+      "geo_shock": true,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP ETF Inflows Beat Bitcoin, Ethereum Again: What Is Going On? - TradingView",
-        "XRP falls hard after CLARITY vote as Ripple\u2019s regulatory advantage faces a new test - CryptoSlate",
-        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com"
+        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com",
+        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB"
       ],
       "top_bearish": [
         "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC - The Block",
-        "Robinhood Stock Tumbles 5% After 2 Ex-Employees Charged With Crypto Trading Fraud - Forbes",
-        "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto - The Motley "
+        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
+        "Robinhood Stock Tumbles 5% After 2 Ex-Employees Charged With Crypto Trading Fraud - Forbes"
       ]
     },
     "vpa": {
-      "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": 0.2052,
-      "vol_ratio": 0.14
+      "phase": "DISTRIBUTION",
+      "up_down_ratio": 0.83,
+      "health": 0.0897,
+      "vol_ratio": 2.55
     },
     "technicals": {
-      "ema50": 1.13942,
-      "ema200": 1.13323,
-      "macd": 0.004984,
-      "macd_signal": 0.004221,
-      "rsi14": 74.1,
-      "atr14": 0.0027,
-      "atr14_hourly": 0.01259,
-      "bb_position": 0.852
+      "ema50": 1.14281,
+      "ema200": 1.13492,
+      "macd": 0.002273,
+      "macd_signal": 0.00247,
+      "rsi14": 61.3,
+      "atr14": 0.0028,
+      "atr14_hourly": 0.01202,
+      "bb_position": 0.71
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.383,
+      "percentile": 0.388,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183523
+  "data_bars": 183535
 }
