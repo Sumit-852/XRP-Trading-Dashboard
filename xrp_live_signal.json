@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-18T17:01:34.567830+00:00",
+  "timestamp": "2026-09-18T18:01:40.390295+00:00",
   "signal": {
-    "price": 1.1993,
+    "price": 1.2095,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6677,
-    "hybrid_score": 6.1,
+    "xgb_prob": 0.5731,
+    "hybrid_score": 5.5,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.07,
-      "bullish_pct": 40.0,
+      "score": 0.067,
+      "bullish_pct": 41.7,
       "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.177,
-        "crypto_macro": 0.001,
-        "geopolitical": -0.227,
-        "fed_rates": 0.308
+        "xrp": 0.125,
+        "crypto_macro": 0.036,
+        "geopolitical": -0.198,
+        "fed_rates": 0.317
       },
       "geo_shock": false,
       "geo_dip": {
@@ -32,7 +32,7 @@
       "top_bullish": [
         "XRP ETF Inflows Beat Bitcoin, Ethereum Again: What Is Going On? - TradingView",
         "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com",
-        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB"
+        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - cnb"
       ],
       "top_bearish": [
         "XRP Keeps Sliding Despite Ripple's Global Growth: Buy, Hold, or Sell? - The Motley Fool",
@@ -42,19 +42,19 @@
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 1.36,
-      "health": 0.508,
-      "vol_ratio": 0.86
+      "up_down_ratio": 1.45,
+      "health": 0.6161,
+      "vol_ratio": 0.28
     },
     "technicals": {
-      "ema50": 1.19478,
-      "ema200": 1.16686,
-      "macd": 0.001853,
-      "macd_signal": 0.003533,
-      "rsi14": 46.4,
-      "atr14": 0.00487,
-      "atr14_hourly": 0.02123,
-      "bb_position": 0.135
+      "ema50": 1.19901,
+      "ema200": 1.17123,
+      "macd": 0.001929,
+      "macd_signal": 0.001585,
+      "rsi14": 58.3,
+      "atr14": 0.00355,
+      "atr14_hourly": 0.0174,
+      "bb_position": 0.764
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.625,
+      "percentile": 0.631,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183679
+  "data_bars": 183691
 }
