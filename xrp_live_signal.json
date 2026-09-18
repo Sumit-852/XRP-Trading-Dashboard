@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-18T03:01:32.847278+00:00",
+  "timestamp": "2026-09-18T04:01:29.625959+00:00",
   "signal": {
-    "price": 1.1367,
+    "price": 1.154,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.2914,
-    "hybrid_score": 2.5,
+    "xgb_prob": 0.4336,
+    "hybrid_score": 4.6,
     "regime": "BULLISH",
     "entry_signal": false,
-    "exit_signal": true,
-    "action": "SELL",
+    "exit_signal": false,
+    "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.048,
-      "bullish_pct": 33.3,
-      "bearish_pct": 30.0,
+      "score": 0.038,
+      "bullish_pct": 30.0,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.195,
-        "crypto_macro": -0.041,
+        "crypto_macro": -0.058,
         "geopolitical": -0.241,
-        "fed_rates": 0.22
+        "fed_rates": 0.19
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com"
       ],
       "top_bearish": [
-        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
+        "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC - The Block",
         "Robinhood Stock Tumbles 5% After 2 Ex-Employees Charged With Crypto Trading Fraud - Forbes",
         "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto - The Motley "
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": 0.0415,
-      "vol_ratio": 0.03
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.91,
+      "health": 0.2052,
+      "vol_ratio": 0.14
     },
     "technicals": {
-      "ema50": 1.13304,
-      "ema200": 1.13117,
-      "macd": 0.001702,
-      "macd_signal": 0.001893,
-      "rsi14": 56.7,
-      "atr14": 0.00162,
-      "atr14_hourly": 0.0077,
-      "bb_position": 0.586
+      "ema50": 1.13942,
+      "ema200": 1.13323,
+      "macd": 0.004984,
+      "macd_signal": 0.004221,
+      "rsi14": 74.1,
+      "atr14": 0.0027,
+      "atr14_hourly": 0.01259,
+      "bb_position": 0.852
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,13 +64,13 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.355,
+      "percentile": 0.383,
       "extreme": false
     }
   },
   "trade": {
     "action": "HOLD",
-    "reason": "STAY CASH: waiting for BUY signal (model=SELL)",
+    "reason": "STAY CASH: waiting for BUY signal (model=HOLD)",
     "portfolio_eur": 4927.2,
     "total_pnl_pct": -1.456,
     "position": "CASH",
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183511
+  "data_bars": 183523
 }
