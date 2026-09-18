@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-18T10:01:29.318183+00:00",
+  "timestamp": "2026-09-18T11:01:30.534915+00:00",
   "signal": {
-    "price": 1.1612,
+    "price": 1.16,
     "xgb_pred": "UP",
-    "xgb_prob": 0.6347,
+    "xgb_prob": 0.6247,
     "hybrid_score": 5.8,
     "regime": "BULLISH",
     "entry_signal": false,
@@ -11,15 +11,15 @@
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.026,
-      "bullish_pct": 35.0,
-      "bearish_pct": 28.3,
+      "score": 0.051,
+      "bullish_pct": 36.7,
+      "bearish_pct": 23.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.169,
-        "crypto_macro": -0.156,
-        "geopolitical": -0.163,
-        "fed_rates": 0.266
+        "xrp": 0.191,
+        "crypto_macro": -0.135,
+        "geopolitical": -0.144,
+        "fed_rates": 0.319
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com"
       ],
       "top_bearish": [
-        "XRP Keeps Sliding Despite Ripple's Global Growth: Buy, Hold, or Sell? - The Motley Fool",
         "US sanctions Iranian financier's crypto exchange, says it processes Hormuz payments - Reuters",
-        "BTC news: Iran's Strait of Hormuz toll booth has been settling in bitcoin since June - CoinDesk"
+        "BTC news: Iran's Strait of Hormuz toll booth has been settling in bitcoin since June - CoinDesk",
+        "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC - The Block"
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.91,
-      "health": 0.0928,
+      "up_down_ratio": 0.99,
+      "health": 0.1304,
       "vol_ratio": 0.04
     },
     "technicals": {
-      "ema50": 1.15682,
-      "ema200": 1.14446,
-      "macd": 0.001128,
-      "macd_signal": 0.001564,
-      "rsi14": 54.1,
-      "atr14": 0.00249,
-      "atr14_hourly": 0.00958,
-      "bb_position": 0.474
+      "ema50": 1.1589,
+      "ema200": 1.14648,
+      "macd": 0.00071,
+      "macd_signal": 0.001103,
+      "rsi14": 46.2,
+      "atr14": 0.00203,
+      "atr14_hourly": 0.0079,
+      "bb_position": 0.314
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.425,
+      "percentile": 0.427,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183595
+  "data_bars": 183607
 }
