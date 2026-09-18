@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-18T01:01:35.283572+00:00",
+  "timestamp": "2026-09-18T02:01:28.885172+00:00",
   "signal": {
-    "price": 1.1341,
+    "price": 1.1366,
     "xgb_pred": "DOWN",
-    "xgb_prob": 0.3626,
+    "xgb_prob": 0.3678,
     "hybrid_score": 4.2,
-    "regime": "BEARISH",
+    "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": true,
     "action": "SELL",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": 0.057,
+      "score": 0.055,
       "bullish_pct": 33.3,
-      "bearish_pct": 25.0,
+      "bearish_pct": 26.7,
       "headlines_analyzed": 60,
       "feed_scores": {
         "xrp": 0.195,
         "crypto_macro": -0.042,
         "geopolitical": -0.2,
-        "fed_rates": 0.232
+        "fed_rates": 0.22
       },
       "geo_shock": false,
       "geo_dip": {
@@ -35,26 +35,26 @@
         "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com"
       ],
       "top_bearish": [
-        "US sanctions Iranian financier's crypto exchange for processing Hormuz payments - The Jerusalem Post",
+        "US sanctions Iranian financier's crypto exchange, says it processes Hormuz payments - Reuters",
         "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
         "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto - The Motley "
       ]
     },
     "vpa": {
       "phase": "NEUTRAL",
-      "up_down_ratio": 0.78,
-      "health": -0.1289,
-      "vol_ratio": 0.11
+      "up_down_ratio": 0.8,
+      "health": -0.0929,
+      "vol_ratio": 0.09
     },
     "technicals": {
-      "ema50": 1.12841,
-      "ema200": 1.12998,
-      "macd": 0.000853,
-      "macd_signal": 0.000236,
-      "rsi14": 68.2,
-      "atr14": 0.00162,
-      "atr14_hourly": 0.0058,
-      "bb_position": 1.131
+      "ema50": 1.13066,
+      "ema200": 1.13045,
+      "macd": 0.0021,
+      "macd_signal": 0.001691,
+      "rsi14": 67.3,
+      "atr14": 0.00156,
+      "atr14_hourly": 0.00714,
+      "bb_position": 0.824
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.385,
+      "percentile": 0.367,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183487
+  "data_bars": 183499
 }
