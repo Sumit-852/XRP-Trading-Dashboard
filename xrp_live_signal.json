@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-18T05:01:38.597182+00:00",
+  "timestamp": "2026-09-18T06:01:39.215898+00:00",
   "signal": {
-    "price": 1.1517,
+    "price": 1.1493,
     "xgb_pred": "UP",
-    "xgb_prob": 0.5248,
-    "hybrid_score": 3.9,
+    "xgb_prob": 0.5422,
+    "hybrid_score": 5.3,
     "regime": "BULLISH",
     "entry_signal": false,
     "exit_signal": false,
     "action": "HOLD",
     "news": {
       "sentiment": "NEUTRAL",
-      "score": -0.01,
-      "bullish_pct": 30.0,
-      "bearish_pct": 35.0,
+      "score": 0.04,
+      "bullish_pct": 31.7,
+      "bearish_pct": 28.3,
       "headlines_analyzed": 60,
       "feed_scores": {
-        "xrp": 0.129,
-        "crypto_macro": -0.097,
-        "geopolitical": -0.31,
-        "fed_rates": 0.19
+        "xrp": 0.146,
+        "crypto_macro": -0.003,
+        "geopolitical": -0.254,
+        "fed_rates": 0.227
       },
-      "geo_shock": true,
+      "geo_shock": false,
       "geo_dip": {
         "active": false,
         "buy_signal": false,
@@ -31,30 +31,30 @@
       "news_driven_crash": false,
       "top_bullish": [
         "XRP ETF Inflows Beat Bitcoin, Ethereum Again: What Is Going On? - TradingView",
-        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com",
-        "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform - CNB"
+        "XRP falls hard after CLARITY vote as Ripple\u2019s regulatory advantage faces a new test - CryptoSlate",
+        "XRP Bulls Eye $30 as Ripple CLO Reiterates 2023 Court Win and 2026 Commodity Status - CCN.com"
       ],
       "top_bearish": [
+        "XRP Keeps Sliding Despite Ripple's Global Growth: Buy, Hold, or Sell? - The Motley Fool",
         "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC - The Block",
-        "Two Robinhood Employees Charged With Crypto Trading Fraud - Forbes",
-        "Robinhood Stock Tumbles 5% After 2 Ex-Employees Charged With Crypto Trading Fraud - Forbes"
+        "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto - The Motley "
       ]
     },
     "vpa": {
-      "phase": "DISTRIBUTION",
-      "up_down_ratio": 0.83,
-      "health": 0.0897,
-      "vol_ratio": 2.55
+      "phase": "NEUTRAL",
+      "up_down_ratio": 0.86,
+      "health": 0.0983,
+      "vol_ratio": 1.45
     },
     "technicals": {
-      "ema50": 1.14281,
-      "ema200": 1.13492,
-      "macd": 0.002273,
-      "macd_signal": 0.00247,
-      "rsi14": 61.3,
-      "atr14": 0.0028,
-      "atr14_hourly": 0.01202,
-      "bb_position": 0.71
+      "ema50": 1.14523,
+      "ema200": 1.13654,
+      "macd": 0.000701,
+      "macd_signal": 0.001279,
+      "rsi14": 53.2,
+      "atr14": 0.00263,
+      "atr14_hourly": 0.01009,
+      "bb_position": 0.549
     },
     "trade_feedback": {
       "loss_streak": 5,
@@ -64,7 +64,7 @@
       "adapted_tp_mult": 2.5
     },
     "vol_regime": {
-      "percentile": 0.388,
+      "percentile": 0.395,
       "extreme": false
     }
   },
@@ -101,5 +101,5 @@
     "entry_prob_effective": 0.7
   },
   "retrained": true,
-  "data_bars": 183535
+  "data_bars": 183547
 }
